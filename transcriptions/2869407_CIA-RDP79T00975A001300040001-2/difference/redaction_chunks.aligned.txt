@@ -1,0 +1,50 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.652273
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.910216
+
+Chunk #1
+Predicted text: security information
+Unredacted context: [UNRED_ONLY: security information] summary general 1
+Redacted context: [R@0] summary general 2 british
+
+Chunk #2
+Predicted text: 1
+Unredacted context: information summary general [UNRED_ONLY: 1] 2 british see
+Redacted context: summary [L@1:general] [RED_GAP:<empty>] [R@2:2] british see peiping
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.956191
+
+Chunk #3
+Predicted text: security information general
+Unredacted context: [UNRED_ONLY: security information general] 2 british see
+Redacted context: [R@0] 2 british see peiping
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.983902
+
+Chunk #4
+Predicted text: security information
+Unredacted context: [UNRED_ONLY: security information] london apparently appreciates
+Redacted context: [R@0] london apparently appreciates that
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.904712
+
+Chunk #5
+Predicted text: security information
+Unredacted context: [UNRED_ONLY: security information] comment the government's
+Redacted context: [R@0] comment the government's anti-communist

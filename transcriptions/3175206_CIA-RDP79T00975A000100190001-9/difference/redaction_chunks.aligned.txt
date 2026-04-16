@@ -1,0 +1,73 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.900000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.000000
+
+Chunk #1
+Predicted text: the president the secretary of state the secretary of defense chairman joint chiefs of staff chief of staff united states army chief of naval operations chief of staff united states air force
+Unredacted context: [UNRED_ONLY: the president the secretary of state the secretary of defense chairman joint chiefs of staff chief of staff united states army chief of naval operations chief of staff united states air force]
+Redacted context: (no redacted anchors available)
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.827521
+
+Chunk #2
+Predicted text: general 2 uk seeks lead from us london brokers sell to ussr page 3 far east 3 mine-laying operations completed at wonsan page 4 western europe 5 german social democrat states party will oppose schuman plan page 5
+Unredacted context: summary [UNRED_ONLY: general 2 uk seeks lead from us london brokers sell to ussr page 3 far east 3 mine-laying operations completed at wonsan page 4 western europe 5 german social democrat states party will oppose schuman plan page 5] eastern europe 6
+Redacted context: [L@0:summary] [RED_GAP:<empty>] [R@1:eastern] europe 6 titoist
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.245316
+
+Chunk #3
+Predicted text: general
+Unredacted context: [UNRED_ONLY: general] 2 uk seeks
+Redacted context: [R@1] next 2 page s in
+
+Chunk #4
+Predicted text: uk seeks lead from us london brokers sell to ussr us press 17 feb 51 a 17 february press dispatch from london states that the british ministry of supply is seeking between 2 000 and 3 000 tons of lead for prompt shipment from the us or other dollar areas as well as undisclosed quantities for shipment over the remainder of 1951 effective 1 february the supply of lead to domestic consumers was reduced from the 1950 average monthly level because of a recent decrease
+Unredacted context: general 2 [UNRED_ONLY: uk seeks lead from us london brokers sell to ussr us press 17 feb 51 a 17 february press dispatch from london states that the british ministry of supply is seeking between 2 000 and 3 000 tons of lead for prompt shipment from the us or other dollar areas as well as undisclosed quantities for shipment over the remainder of 1951 effective 1 february the supply of lead to domestic consumers was reduced from the 1950 average monthly level because of a recent decrease] in lead stocks
+Redacted context: next [L@1:2] [RED_GAP:page s] [R@4:in] document exempt
+
+Chunk #5
+Predicted text: lead stocks held by the ministry of supply at the same time london metal brokers have handled at least 1 100 tons of virgin lead shipments to the ussr during the past few months
+Unredacted context: recent decrease in [UNRED_ONLY: lead stocks held by the ministry of supply at the same time london metal brokers have handled at least 1 100 tons of virgin lead shipments to the ussr during the past few months]
+Redacted context: [L@4] 2 page s in document exempt
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+
+Chunk #6
+Predicted text: comment the soviet trade messages do not disclose the original source of the lead involved but spain and mexico have in the past been large suppliers it appears that london metal brokers are taking advantage of the high prices offered by the ussr for strategic metals while the british government seeks to replenish domestic supplies from the us far east 3 mine-laying operations completed at wonsan despite the difficulties created by un bombardment north korean mine-laying operations in wonsan bay were completed on 26 february north korean naval authorities in the area have requested permission to send mine-laying crews north to sohojin near hungnam to continue their work a new shipment of mines is moving southward on the rail line leading from tumen manchuria
+Unredacted context: [UNRED_ONLY: comment the soviet trade messages do not disclose the original source of the lead involved but spain and mexico have in the past been large suppliers it appears that london metal brokers are taking advantage of the high prices offered by the ussr for strategic metals while the british government seeks to replenish domestic supplies from the us far east 3 mine-laying operations completed at wonsan despite the difficulties created by un bombardment north korean mine-laying operations in wonsan bay were completed on 26 february north korean naval authorities in the area have requested permission to send mine-laying crews north to sohojin near hungnam to continue their work a new shipment of mines is moving southward on the rail line leading from tumen manchuria]
+Redacted context: (no redacted anchors available)
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+
+Chunk #7
+Predicted text: western europe 5 german social democrat states party will oppose schuman plan social democratic party member of the west german bundestag delegation visiting the united states told us officials that his party had decided to oppose the schuman plan categorically doubted whether chancellor adenauer would submit the plan to the bundestag where he said it would be beaten by the social democrat vote together with the vote of those free democrats representing the ruhr interests opposed to the plan comment there has been no indication that adenauer has changed his intention to secure bundestag ratification of the schuman plan although certain free democrats are strongly opposed to the schuman plan the party is unlikely to risk the downfall of the government by voting against it on this issue without free democrat opposition the plan is likely to be ratified
+Unredacted context: [UNRED_ONLY: western europe 5 german social democrat states party will oppose schuman plan social democratic party member of the west german bundestag delegation visiting the united states told us officials that his party had decided to oppose the schuman plan categorically doubted whether chancellor adenauer would submit the plan to the bundestag where he said it would be beaten by the social democrat vote together with the vote of those free democrats representing the ruhr interests opposed to the plan comment there has been no indication that adenauer has changed his intention to secure bundestag ratification of the schuman plan although certain free democrats are strongly opposed to the schuman plan the party is unlikely to risk the downfall of the government by voting against it on this issue without free democrat opposition the plan is likely to be ratified]
+Redacted context: (no redacted anchors available)
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.983007
+
+Chunk #8
+Predicted text: committee's
+Unredacted context: comment the central [UNRED_ONLY: committee's] action confirms the
+Redacted context: stalin comment the [L@117:central] [RED_GAP:committee s] [R@120:action] confirms the existence

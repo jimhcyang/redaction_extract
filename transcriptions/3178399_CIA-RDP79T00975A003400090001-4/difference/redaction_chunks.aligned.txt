@@ -1,0 +1,123 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.540385
+
+Chunk #1
+Predicted text: 11 november 1957
+Unredacted context: central intelligence agency [UNRED_ONLY: 11 november 1957]
+Redacted context: [L@15] intelligence central intelligence agency state dept review
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.369124
+
+Chunk #2
+Predicted text: contents
+Unredacted context: [UNRED_ONLY: contents] 1 khrushchev says
+Redacted context: [R@1] next 1 page s in
+
+Chunk #3
+Predicted text: khrushchev says ussr will launch much heavier sputnik
+Unredacted context: contents 1 [UNRED_ONLY: khrushchev says ussr will launch much heavier sputnik] page 3 2
+Redacted context: next [L@1:1] [RED_GAP:<empty>] [R@2:page] s in document
+
+Chunk #4
+Predicted text: 3 2 soviet diplomat discusses implications of recent russian technological achievements page 4 3 intensified east-west berlin transit controls planned for mid-november page 5 4 britain may reduce its nuclear role
+Unredacted context: heavier sputnik page [UNRED_ONLY: 3 2 soviet diplomat discusses implications of recent russian technological achievements page 4 3 intensified east-west berlin transit controls planned for mid-november page 5 4 britain may reduce its nuclear role] in western defense
+Redacted context: next 1 [L@2:page] [RED_GAP:s] [R@4:in] document exempt
+
+Chunk #5
+Predicted text: western defense page 6 5 tunisian president may publicize western arms shipment page 7 6 shah says iran may be forced to accept soviet loan page 8 7 india and ussr sign 125 000 000 credit agreement for industrialization page 9 8 british acquiescing in pathet lao settlement page 10
+Unredacted context: nuclear role in [UNRED_ONLY: western defense page 6 5 tunisian president may publicize western arms shipment page 7 6 shah says iran may be forced to accept soviet loan page 8 7 india and ussr sign 125 000 000 credit agreement for industrialization page 9 8 british acquiescing in pathet lao settlement page 10]
+Redacted context: [L@4] 1 page s in document exempt
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=4
+
+Chunk #6
+Predicted text: 1 khrushchev says ussr will launch much heavier sputnik comment on khrushchev told that the ussr was going to launch a much heavier sputnik he gave no specific indication on timing but the tyura tam launching site has been executing four-hour practice countdowns daily since 4 november possibly indicating preparation for launching an earth satellite or icbm soon a third earth satellite containing a man would be launched soon
+Unredacted context: [UNRED_ONLY: 1 khrushchev says ussr will launch much heavier sputnik comment on khrushchev told that the ussr was going to launch a much heavier sputnik he gave no specific indication on timing but the tyura tam launching site has been executing four-hour practice countdowns daily since 4 november possibly indicating preparation for launching an earth satellite or icbm soon a third earth satellite containing a man would be launched soon]
+Redacted context: (no redacted anchors available)
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=5
+
+Chunk #7
+Predicted text: 2 implications of recent russian technological achievements comment on a member of the soviet un delegation has recently stressed the political and military implications of the ussr's technological achievements in an apparent effort to induce france to revise its disarmament position the ussr's possession of missiles capable of reaching the united states marks a turning-point in postwar history and signals the end of the imbalance between the united states and the ussr which was due to soviet inability to strike the american continent from soviet territory radical changes in military strategy and the disarmament problem brought about by the soviet icbm the only feasible solution is to restore confidence by agreeing to prohibit the use of nuclear weapons public statements by soviet leaders regarding the impossibility of conducting a limited war and asserted that if any country aligned with the united states should launch an armed attack at any point on the globe the ussr would strike the united states immediately
+Unredacted context: [UNRED_ONLY: 2 implications of recent russian technological achievements comment on a member of the soviet un delegation has recently stressed the political and military implications of the ussr's technological achievements in an apparent effort to induce france to revise its disarmament position the ussr's possession of missiles capable of reaching the united states marks a turning-point in postwar history and signals the end of the imbalance between the united states and the ussr which was due to soviet inability to strike the american continent from soviet territory radical changes in military strategy and the disarmament problem brought about by the soviet icbm the only feasible solution is to restore confidence by agreeing to prohibit the use of nuclear weapons public statements by soviet leaders regarding the impossibility of conducting a limited war and asserted that if any country aligned with the united states should launch an armed attack at any point on the globe the ussr would strike the united states immediately]
+Redacted context: (no redacted anchors available)
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.956102
+
+Chunk #8
+Predicted text: comment on
+Unredacted context: planned for mid-november [UNRED_ONLY: comment on] plans are under
+Redacted context: controls planned for [L@8:mid-november] [RED_GAP:<empty>] [R@9:plans] are under way
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.960054
+
+Chunk #9
+Predicted text: comment on
+Unredacted context: in western defense [UNRED_ONLY: comment on] the british government
+Redacted context: role in western [L@9:defense] [RED_GAP:<empty>] [R@10:the] british government is
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.970135
+
+Chunk #10
+Predicted text: comment on
+Unredacted context: western arms shipment [UNRED_ONLY: comment on] tunisian president bourguiba
+Redacted context: publicize western arms [L@7:shipment] [RED_GAP:<empty>] [R@8:tunisian] president bourguiba may
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.953817
+
+Chunk #11
+Predicted text: comment on
+Unredacted context: accept soviet loan [UNRED_ONLY: comment on] the shah of
+Redacted context: to accept soviet [L@10:loan] [RED_GAP:<empty>] [R@11:the] shah of iran
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.968267
+
+Chunk #12
+Predicted text: comment on
+Unredacted context: agreement for industrialization [UNRED_ONLY: comment on] the industrial aid
+Redacted context: credit agreement for [L@11:industrialization] [RED_GAP:<empty>] [R@12:the] industrial aid agreement
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.940202
+
+Chunk #13
+Predicted text: comment on
+Unredacted context: pathet lao settlement [UNRED_ONLY: comment on] a letter from
+Redacted context: in pathet lao [L@6:settlement] [RED_GAP:<empty>] [R@7:a] letter from prime

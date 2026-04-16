@@ -1,0 +1,82 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.630303
+
+Chunk #1
+Predicted text: 2 egyptian commando troops reported to have arrived in damascus page 4
+Unredacted context: contents [UNRED_ONLY: 2 egyptian commando troops reported to have arrived in damascus page 4] 4 merger of
+Redacted context: [L@0:contents] [RED_GAP:<empty>] [R@1:4] merger of japanese
+
+Chunk #2
+Predicted text: 6 coup reported postponed in brazil
+Unredacted context: november page 6 [UNRED_ONLY: 6 coup reported postponed in brazil] page 8
+Redacted context: for november page [L@12:6] [RED_GAP:23 oct 55 current intelligence bulletin] [R@19:page] 2
+
+Chunk #3
+Predicted text: 8
+Unredacted context: in brazil page [UNRED_ONLY: 8]
+Redacted context: [L@19] current intelligence bulletin page 2
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.246967
+
+Chunk #4
+Predicted text: egyptian commando troops reported to have arrived
+Unredacted context: 2 [UNRED_ONLY: egyptian commando troops reported to have arrived] in damascus comment
+Redacted context: next [L@1:2] [RED_GAP:page s] [R@4:in] document exempt
+
+Chunk #5
+Predicted text: damascus comment nasr's advance move prior to official signature of the bilateral military pact between egypt and syria would be in line with his drive to draw syria into close alignment with egypt the presence of this number of egyptian troops in syria would alarm syria's neighbors turkey and iraq possibly provoking countermeasures israel would consider this action further preparation for an arab assault
+Unredacted context: have arrived in [UNRED_ONLY: damascus comment nasr's advance move prior to official signature of the bilateral military pact between egypt and syria would be in line with his drive to draw syria into close alignment with egypt the presence of this number of egyptian troops in syria would alarm syria's neighbors turkey and iraq possibly provoking countermeasures israel would consider this action further preparation for an arab assault]
+Redacted context: [L@4] 2 page s in document exempt
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.972581
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=0.125595
+
+Chunk #6
+Predicted text: 6 coup reported postponed
+Unredacted context: [UNRED_ONLY: 6 coup reported postponed] in brazil comment
+Redacted context: [R@4] 1 page s in document exempt
+
+Chunk #7
+Predicted text: brazil comment public opposition to a coup may be strengthened by kubitschek's statement of 21 october that neither socialist nor communist processes can meet the legitimate needs of the working classes
+Unredacted context: reported postponed in [UNRED_ONLY: brazil comment public opposition to a coup may be strengthened by kubitschek's statement of 21 october that neither socialist nor communist processes can meet the legitimate needs of the working classes]
+Redacted context: [L@4] 1 page s in document exempt

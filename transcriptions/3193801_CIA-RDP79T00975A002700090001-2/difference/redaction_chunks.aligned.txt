@@ -1,0 +1,116 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.652273
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.842628
+
+Chunk #1
+Predicted text: page 3 2 soviet bloc arms deliveries to egypt secret eider noforn page 4 3 egyptian official comments on london conference page 5
+Unredacted context: reduces suez convoys [UNRED_ONLY: page 3 2 soviet bloc arms deliveries to egypt secret eider noforn page 4 3 egyptian official comments on london conference page 5] 4 security situation
+Redacted context: shortage reduces suez [L@6:convoys] [RED_GAP:<empty>] [R@7:4] security situation in
+
+Chunk #2
+Predicted text: page 6
+Unredacted context: situation in algeria [UNRED_ONLY: page 6] 5 pakistani president
+Redacted context: security situation in [L@11:algeria] [RED_GAP:<empty>] [R@12:5] pakistani president comments
+
+Chunk #3
+Predicted text: afghanistan page 7
+Unredacted context: on visit to [UNRED_ONLY: afghanistan page 7] the arab-israeli situation
+Redacted context: comments on visit [L@18:to] [RED_GAP:afghan istan] [R@21:the] arab-israeli situation
+
+Chunk #4
+Predicted text: page 8
+Unredacted context: the arab-israeli situation [UNRED_ONLY: page 8]
+Redacted context: [L@23] istan the arab-israeli situation
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.998592
+
+Chunk #5
+Predicted text: comment on
+Unredacted context: reduces suez convoys [UNRED_ONLY: comment on] egypt has now
+Redacted context: shortage reduces suez [L@5:convoys] [RED_GAP:<empty>] [R@6:egypt] has now been
+
+========================================================================
+[PAGE 05]
+kind=red_only red_source_page=4 unred_source_page=None
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.122582
+
+Chunk #6
+Predicted text: 2 soviet bloc arms deliveries to egypt the cairo press states that two soviet ships with cargoes of czech arms arrived
+Unredacted context: [UNRED_ONLY: 2 soviet bloc arms deliveries to egypt the cairo press states that two soviet ships with cargoes of czech arms arrived] in alexandria on
+Redacted context: [R@4] 1 page s in document exempt
+
+Chunk #7
+Predicted text: alexandria on 17 august alexandria port authorities were told to expect a doubling of the number of ships arriving with arms cargoes for an indefinite period comment does not support any change to date in the pattern of bloc arms deliveries to egypt which have averaged one or two ships per week however some time ago czechoslovakia contracted to supply at least 40 jet fighters and other military items to egypt by the end of the year in addition to the 80 mig's already delivered and it would be possible for the bloc to increase the rate of delivery of aircraft and other military goods on short notice
+Unredacted context: arms arrived in [UNRED_ONLY: alexandria on 17 august alexandria port authorities were told to expect a doubling of the number of ships arriving with arms cargoes for an indefinite period comment does not support any change to date in the pattern of bloc arms deliveries to egypt which have averaged one or two ships per week however some time ago czechoslovakia contracted to supply at least 40 jet fighters and other military items to egypt by the end of the year in addition to the 80 mig's already delivered and it would be possible for the bloc to increase the rate of delivery of aircraft and other military goods on short notice]
+Redacted context: [L@4] 1 page s in document exempt
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=6
+
+Chunk #8
+Predicted text: 3 egyptian official comments on london conference comment recent vague and evasive statements by soviet officials on the extent of soviet support for egypt have probably caused concern over soviet intentions at london when egyptian ambassador hussein pressed soviet ambassador zarubin on 10 august on whether the ussr planned to issue a strong diplomatic statement such as might compel the western countries to reconsider and perhaps retreat from the idea of war zarubin replied that he did not know
+Unredacted context: [UNRED_ONLY: 3 egyptian official comments on london conference comment recent vague and evasive statements by soviet officials on the extent of soviet support for egypt have probably caused concern over soviet intentions at london when egyptian ambassador hussein pressed soviet ambassador zarubin on 10 august on whether the ussr planned to issue a strong diplomatic statement such as might compel the western countries to reconsider and perhaps retreat from the idea of war zarubin replied that he did not know]
+Redacted context: (no redacted anchors available)
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.980161
+
+Chunk #9
+Predicted text: press
+Unredacted context: attack near eilat [UNRED_ONLY: press] the american army
+Redacted context: bus attack near [L@78:eilat] [RED_GAP:<empty>] [R@79:the] american army attach
+
+Chunk #10
+Predicted text: attache
+Unredacted context: the american army [UNRED_ONLY: attache] in tel aviv
+Redacted context: eilat the american [L@81:army] [RED_GAP:attach] [R@83:in] tel aviv believes
+
+Chunk #11
+Predicted text: attache
+Unredacted context: suez issue the [UNRED_ONLY: attache] reports no visible
+Redacted context: the suez issue [L@140:the] [RED_GAP:attach] [R@142:reports] no visible israeli
+
+Chunk #12
+Predicted text: attache
+Unredacted context: the egyptian military [UNRED_ONLY: attache] in belgrade told
+Redacted context: retaliation the egyptian [L@152:military] [RED_GAP:attach] [R@154:in] belgrade told the
+
+Chunk #13
+Predicted text: attache
+Unredacted context: told the american [UNRED_ONLY: attache] there that yugoslavia
+Redacted context: belgrade told the [L@158:american] [RED_GAP:attach] [R@160:there] that yugoslavia is

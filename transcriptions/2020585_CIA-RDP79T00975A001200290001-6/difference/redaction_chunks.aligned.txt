@@ -1,0 +1,56 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.918077
+
+Chunk #1
+Predicted text: security information
+Unredacted context: [UNRED_ONLY: security information] summary general soviet
+Redacted context: [R@0] summary soviet union 2
+
+Chunk #2
+Predicted text: general
+Unredacted context: security information summary [UNRED_ONLY: general] soviet union prospects
+Redacted context: [L@0:summary] [RED_GAP:<empty>] [R@1:soviet] union 2 prospects
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.988463
+
+Chunk #3
+Predicted text: security information general
+Unredacted context: [UNRED_ONLY: security information general] soviet union prospects
+Redacted context: [R@0] soviet union 2 prospects
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.992218
+
+Chunk #4
+Predicted text: security information
+Unredacted context: [UNRED_ONLY: security information] southeast asia indonesia
+Redacted context: [R@0] southeast asia 3 indonesia
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.992248
+
+Chunk #5
+Predicted text: security information
+Unredacted context: [UNRED_ONLY: security information] western europe comment
+Redacted context: [R@0] western europe 5 comment
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.995550
+No candidate difference chunks on this aligned page.

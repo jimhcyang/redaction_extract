@@ -1,0 +1,73 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.902174
+
+Chunk #1
+Predicted text: general 1 poland opens credit for 5 000 tons of chilean copper page 3 far east 3 south korean government extends emergency aid to released pow's page 4 southeast asia 4 philippine un representative sees possible danger in korean truce page 5 near east africa
+Unredacted context: summary [UNRED_ONLY: general 1 poland opens credit for 5 000 tons of chilean copper page 3 far east 3 south korean government extends emergency aid to released pow's page 4 southeast asia 4 philippine un representative sees possible danger in korean truce page 5 near east africa] 6 comment on
+Redacted context: [L@0:summary] [RED_GAP:<empty>] [R@1:6] comment on sultan's
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.095930
+
+Chunk #2
+Predicted text: security information general 1 poland opens credit for 5 000 tons of chilean copper comment although chile's non-reexport guarantee system for preventing copper transshipments to the orbit has been inadequate the chilean government apparently has not sanctioned any direct shipments since 1950 an attempt to move 5 000 tons of copper
+Unredacted context: [UNRED_ONLY: security information general 1 poland opens credit for 5 000 tons of chilean copper comment although chile's non-reexport guarantee system for preventing copper transshipments to the orbit has been inadequate the chilean government apparently has not sanctioned any direct shipments since 1950 an attempt to move 5 000 tons of copper] in a single
+Redacted context: [R@6] 2 page s in document denied
+
+Chunk #3
+Predicted text: a single shipment to any destination other than the us would presumably arouse government suspicion regarding the ultimate end user the quantity involved however is immediately available for export and the decrease in chile's sales of copper in the free world market favors orbit efforts to obtain copper 2
+Unredacted context: of copper in [UNRED_ONLY: a single shipment to any destination other than the us would presumably arouse government suspicion regarding the ultimate end user the quantity involved however is immediately available for export and the decrease in chile's sales of copper in the free world market favors orbit efforts to obtain copper 2]
+Redacted context: [L@6] 2 page s in document denied
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+
+Chunk #4
+Predicted text: security information far east 3 south korean government extends emergency aid to released pow's the south korean government has set up a detailed emergency aid program for the freed anti-communist prisoners former prisoners who were unable to locate friends or relatives would be assisted by an organization which will administer an area for released prisoners comment this information shows the determination of the government to protect and assist the released prisoners
+Unredacted context: [UNRED_ONLY: security information far east 3 south korean government extends emergency aid to released pow's the south korean government has set up a detailed emergency aid program for the freed anti-communist prisoners former prisoners who were unable to locate friends or relatives would be assisted by an organization which will administer an area for released prisoners comment this information shows the determination of the government to protect and assist the released prisoners]
+Redacted context: (no redacted anchors available)
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+
+Chunk #5
+Predicted text: security information southeast asia 4 philippine un representative sees possible danger in korean truce the un position on the korean truce does not satisfy philippine national interests inasmuch as an armistice based on a divided korea leaves the possibility of future communist aggression an armistice would have a detrimental effect on philippine security if it led the united states to withdraw from areas of danger in asia comment there have been strong expressions of sympathy for president rhee's stand by some elements of the philippine press and by some opposition leaders in general the philippine government has supported the american position and has proposed its good offices in reaching a settlement with rhee manila's attitude however may be modified out of fear that removal of us forces and a possible change in the status of formosa would endanger philippine security near east africa 5
+Unredacted context: [UNRED_ONLY: security information southeast asia 4 philippine un representative sees possible danger in korean truce the un position on the korean truce does not satisfy philippine national interests inasmuch as an armistice based on a divided korea leaves the possibility of future communist aggression an armistice would have a detrimental effect on philippine security if it led the united states to withdraw from areas of danger in asia comment there have been strong expressions of sympathy for president rhee's stand by some elements of the philippine press and by some opposition leaders in general the philippine government has supported the american position and has proposed its good offices in reaching a settlement with rhee manila's attitude however may be modified out of fear that removal of us forces and a possible change in the status of formosa would endanger philippine security near east africa 5]
+Redacted context: (no redacted anchors available)
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.995497
+
+Chunk #6
+Predicted text: security information
+Unredacted context: [UNRED_ONLY: security information] 6 comment on
+Redacted context: [R@0] 6 comment on sultan's
+
+Chunk #7
+Predicted text: on
+Unredacted context: switzerland last week [UNRED_ONLY: on] in the hope
+Redacted context: in switzerland last [L@244:week] [RED_GAP:and] [R@246:in] the hope that
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.996875
+
+Chunk #8
+Predicted text: security information
+Unredacted context: [UNRED_ONLY: security information] nehru was particularly
+Redacted context: [R@0] nehru was particularly interested

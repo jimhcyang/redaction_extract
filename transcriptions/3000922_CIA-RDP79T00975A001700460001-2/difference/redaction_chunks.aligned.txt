@@ -1,0 +1,76 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.957143
+
+Chunk #1
+Predicted text: far east 1 southeast asia 2
+Unredacted context: summary [UNRED_ONLY: far east 1 southeast asia 2] south asia 3
+Redacted context: [L@0:summary] [RED_GAP:<empty>] [R@1:south] asia 3 portuguese
+
+Chunk #2
+Predicted text: near east africa 5
+Unredacted context: arrangements page 6 [UNRED_ONLY: near east africa 5]
+Redacted context: [L@24] seato arrangements page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.146429
+
+Chunk #3
+Predicted text: far east
+Unredacted context: [UNRED_ONLY: far east] 1 southeast asia
+Redacted context: [R@1] next 1 page s in
+
+Chunk #4
+Predicted text: southeast asia 2
+Unredacted context: far east 1 [UNRED_ONLY: southeast asia 2]
+Redacted context: [L@1] next 1 page s in
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.982353
+
+Chunk #5
+Predicted text: attache
+Unredacted context: the american military [UNRED_ONLY: attache] in lisbon reports
+Redacted context: august the american [L@42:military] [RED_GAP:attach] [R@44:in] lisbon reports the
+
+Chunk #6
+Predicted text: attache
+Unredacted context: the subcontinent the [UNRED_ONLY: attache] believes contrary to
+Redacted context: on the subcontinent [L@79:the] [RED_GAP:attach] [R@81:believes] contrary to portuguese
+
+Chunk #7
+Predicted text: attache
+Unredacted context: 12 august the [UNRED_ONLY: attache] believes that portuguese
+Redacted context: and 12 august [L@104:the] [RED_GAP:attach] [R@106:believes] that portuguese african
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.995714
+
+Chunk #8
+Predicted text: near east africa 5
+Unredacted context: the korean war [UNRED_ONLY: near east africa 5]
+Redacted context: [L@135] during the korean war
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+No candidate difference chunks on this aligned page.

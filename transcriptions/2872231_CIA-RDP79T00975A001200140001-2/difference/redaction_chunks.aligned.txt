@@ -1,0 +1,80 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.918036
+
+Chunk #1
+Predicted text: security information
+Unredacted context: [UNRED_ONLY: security information] summary general 1
+Redacted context: [R@0] summary soviet union 2
+
+Chunk #2
+Predicted text: general 1 spanish interests reportedly negotiating oil contract with iran page 3
+Unredacted context: security information summary [UNRED_ONLY: general 1 spanish interests reportedly negotiating oil contract with iran page 3] 2 moscow embassy
+Redacted context: [L@0:summary] [RED_GAP:soviet union] [R@3:2] moscow embassy reports
+
+Chunk #3
+Predicted text: soviet union
+Unredacted context: disgrace page 3 [UNRED_ONLY: soviet union] near east africa
+Redacted context: beria disgrace page [L@12:3] [RED_GAP:<empty>] [R@13:near] east africa 4
+
+Chunk #4
+Predicted text: 3
+Unredacted context: near east africa [UNRED_ONLY: 3] 4 britain reportedly
+Redacted context: 3 near east [L@15:africa] [RED_GAP:<empty>] [R@16:4] britain reportedly considering
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.909048
+
+Chunk #5
+Predicted text: security information general 1 spanish interests reportedly negotiating oil contract with iran a liechtenstein firm the tracosa trading company ltd reportedly is acting as a go-between and huguenin described as a watchmaker has made an initial deposit of 175 000 comment this is the first indication that spanish interests are trying to buy iranian oil the contract may already be in the process of implementation a tanker had just left italy for abadan as more tankers are now available and as the preliminary italian and japanese court decisions have been favorable more oil may leave iran
+Unredacted context: [UNRED_ONLY: security information general 1 spanish interests reportedly negotiating oil contract with iran a liechtenstein firm the tracosa trading company ltd reportedly is acting as a go-between and huguenin described as a watchmaker has made an initial deposit of 175 000 comment this is the first indication that spanish interests are trying to buy iranian oil the contract may already be in the process of implementation a tanker had just left italy for abadan as more tankers are now available and as the preliminary italian and japanese court decisions have been favorable more oil may leave iran] soviet union 2
+Redacted context: [R@0] soviet union 2 moscow
+
+Chunk #6
+Predicted text: in
+Unredacted context: difficulty if not [UNRED_ONLY: in] disgrace because of
+Redacted context: in difficulty if [L@32:not] [RED_GAP:<empty>] [R@33:disgrace] because of the
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.986692
+
+Chunk #7
+Predicted text: security information
+Unredacted context: [UNRED_ONLY: security information] comment the absence
+Redacted context: [R@0] comment the absence of
+
+Chunk #8
+Predicted text: 3
+Unredacted context: near east africa [UNRED_ONLY: 3] 4 britain reportedly
+Redacted context: germany near east [L@39:africa] [RED_GAP:<empty>] [R@40:4] britain reportedly considering
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.994849
+
+Chunk #9
+Predicted text: security information
+Unredacted context: [UNRED_ONLY: security information] the american embassy
+Redacted context: [R@0] the american embassy in
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.993924
+
+Chunk #10
+Predicted text: security information
+Unredacted context: [UNRED_ONLY: security information] 6 reynaud presses
+Redacted context: [R@0] 6 reynaud presses for

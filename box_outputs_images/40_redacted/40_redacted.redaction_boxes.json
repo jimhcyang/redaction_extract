@@ -1,0 +1,44 @@
+{
+  "item_key": "40_redacted",
+  "source_path": "C:\\Users\\jimyh\\OneDrive\\Desktop\\projects\\IARPA\\root\\images\\40_redacted.png",
+  "rendered_image_path": "C:\\Users\\jimyh\\OneDrive\\Desktop\\projects\\IARPA\\root\\images\\40_redacted.png",
+  "source_kind": "image",
+  "pair_key": null,
+  "page_no_1based": null,
+  "image_size_wh": [
+    566,
+    675
+  ],
+  "redaction_box_count": 3,
+  "redaction_boxes_xyxy": [
+    [
+      228,
+      0,
+      509,
+      37
+    ],
+    [
+      240,
+      360,
+      374,
+      382
+    ],
+    [
+      455,
+      615,
+      558,
+      633
+    ]
+  ],
+  "output_files": {
+    "source_png": "box_outputs_images\\40_redacted\\40_redacted.source.png",
+    "overlay_png": "box_outputs_images\\40_redacted\\40_redacted.redaction_boxes.png",
+    "metadata_json": "box_outputs_images\\40_redacted\\40_redacted.redaction_boxes.json",
+    "debug_masks": {
+      "dark_mask": "box_outputs_images\\40_redacted\\debug\\dark_mask.png",
+      "lines_mask": "box_outputs_images\\40_redacted\\debug\\lines_mask.png",
+      "contours_mask": "box_outputs_images\\40_redacted\\debug\\contours_mask.png",
+      "edges": "box_outputs_images\\40_redacted\\debug\\edges.png"
+    }
+  }
+}

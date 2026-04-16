@@ -1,0 +1,68 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.702500
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.964706
+
+Chunk #1
+Predicted text: page 3
+Unredacted context: forms military cabinet [UNRED_ONLY: page 3] 2 chinese nationalist
+Redacted context: peru forms military [L@7:cabinet] [RED_GAP:<empty>] [R@8:2] chinese nationalist irregulars
+
+Chunk #2
+Predicted text: page 4
+Unredacted context: irregulars in burma [UNRED_ONLY: page 4] 3 peiping backs
+Redacted context: nationalist irregulars in [L@13:burma] [RED_GAP:<empty>] [R@14:3] peiping backs malayan
+
+Chunk #3
+Predicted text: page 5
+Unredacted context: for peace talks [UNRED_ONLY: page 5] the arab-israeli situation
+Redacted context: bid for peace [L@22:talks] [RED_GAP:<empty>] [R@23:the] arab-israeli situation
+
+Chunk #4
+Predicted text: page 6
+Unredacted context: the arab-israeli situation [UNRED_ONLY: page 6]
+Redacted context: [L@25] talks the arab-israeli situation
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.989820
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.995122
+
+Chunk #5
+Predicted text: cheng
+Unredacted context: hope however that [UNRED_ONLY: cheng] peng will be
+Redacted context: probably hope however [L@162:that] [RED_GAP:chen] [R@164:peng] will be able
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=7 unred_source_page=None
+No candidate difference chunks on this aligned page.

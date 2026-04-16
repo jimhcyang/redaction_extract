@@ -1,0 +1,46 @@
+{
+  "pair_key": "2008390_CIA-RDP79T00975A000400590001-2",
+  "row_index_1based": 229,
+  "unredacted_pdf": "docs\\unredacted_pdfs\\cib_02008390.pdf",
+  "redacted_pdf": "docs\\redacted_pdfs\\CIA-RDP79T00975A000400590001-2.pdf",
+  "redacted_pdf_copy": "transcriptions\\2008390_CIA-RDP79T00975A000400590001-2\\source_pdfs\\CIA-RDP79T00975A000400590001-2.pdf",
+  "unredacted_pdf_copy": "transcriptions\\2008390_CIA-RDP79T00975A000400590001-2\\source_pdfs\\cib_02008390.pdf",
+  "csv_row": [
+    "Current/Central Intelligence Bulletin Collection",
+    "2008390",
+    "December 2, 1951",
+    "https://www.cia.gov/readingroom/docs/CURRENT%20INTELLIGENCE%20BULL%5B15603140%5D.pdf",
+    "12/2/1951",
+    "CIA-RDP79T00975A000400590001-2",
+    "https://www.cia.gov/readingroom/document/CIA-RDP79T00975A000400590001-2",
+    "/meta-53800",
+    "CENTRAL INTELLIGENCE BULLETIN",
+    "1951",
+    ""
+  ],
+  "model": "gpt-5.2",
+  "redacted_status": "completed",
+  "redacted_response": {
+    "model": "gpt-5.2",
+    "response_id": "resp_0bcc281dc6645bf80069dd50e183108195a40073336fb356fd",
+    "uploaded_file_id": "file-HyNZibjHWyZfBZqFt5TG7t",
+    "usage": {
+      "input_tokens": 5925,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 739,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6664
+    },
+    "attempts": 1
+  },
+  "unredacted_status": "skipped_error",
+  "unredacted_error": "Error code: 401 - {'error': {'message': \"You have insufficient permissions for this operation. Missing scopes: api.files.write. Check that you have the correct role in your organization (Reader, Writer, Owner) and project (Member, Owner), and if you're using a restricted API key, that it has the necessary scopes.\", 'type': 'invalid_request_error', 'param': None, 'code': None}, 'detail': {'message': \"You have insufficient permissions for this operation. Missing scopes: api.files.write. Check that you have the correct role in your organization (Reader, Writer, Owner) and project (Member, Owner), and if you're using a restricted API key, that it has the necessary scopes.\", 'code': None}}",
+  "pair_status": "skipped_error",
+  "pair_error_on": "unredacted",
+  "pair_error_pdf": "docs\\unredacted_pdfs\\cib_02008390.pdf",
+  "pair_error": "Error code: 401 - {'error': {'message': \"You have insufficient permissions for this operation. Missing scopes: api.files.write. Check that you have the correct role in your organization (Reader, Writer, Owner) and project (Member, Owner), and if you're using a restricted API key, that it has the necessary scopes.\", 'type': 'invalid_request_error', 'param': None, 'code': None}, 'detail': {'message': \"You have insufficient permissions for this operation. Missing scopes: api.files.write. Check that you have the correct role in your organization (Reader, Writer, Owner) and project (Member, Owner), and if you're using a restricted API key, that it has the necessary scopes.\", 'code': None}}"
+}

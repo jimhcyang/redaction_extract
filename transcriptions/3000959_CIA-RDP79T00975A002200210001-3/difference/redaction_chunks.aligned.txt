@@ -1,0 +1,57 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.889167
+
+Chunk #1
+Predicted text: 1 page 3
+Unredacted context: contents [UNRED_ONLY: 1 page 3] 2 comment on
+Redacted context: [L@0:contents] [RED_GAP:<empty>] [R@1:2] comment on nennis
+
+Chunk #2
+Predicted text: nenni's
+Unredacted context: 2 comment on [UNRED_ONLY: nenni's] visit to moscow
+Redacted context: contents 2 comment [L@3:on] [RED_GAP:nennis] [R@5:visit] to moscow and
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.978725
+
+Chunk #3
+Predicted text: nenni's
+Unredacted context: 2 comment on [UNRED_ONLY: nenni's] visit to moscow
+Redacted context: 2 comment [L@2:on] [RED_GAP:nennis] [R@4:visit] to moscow and
+
+Chunk #4
+Predicted text: trip may further accentuate the reported differences developing between nenni's party and the communists the
+Unredacted context: east-west tensions the [UNRED_ONLY: trip may further accentuate the reported differences developing between nenni's party and the communists the] leftist press in
+Redacted context: relaxing east-west tensions [L@59:the] [RED_GAP:<empty>] [R@60:leftist] press in italy
+
+Chunk #5
+Predicted text: moreoever
+Unredacted context: foreign ministry denial [UNRED_ONLY: moreoever] a high foreign
+Redacted context: official foreign ministry [L@89:denial] [RED_GAP:moreover] [R@91:a] high foreign ministry
+
+Chunk #6
+Predicted text: concurred in by orr
+Unredacted context: to the left [UNRED_ONLY: concurred in by orr]
+Redacted context: [L@215] opening to the left

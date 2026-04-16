@@ -1,0 +1,86 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.610417
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.937085
+
+Chunk #1
+Predicted text: security information
+Unredacted context: [UNRED_ONLY: security information] summary general 1
+Redacted context: [R@0] summary southeast asia 2
+
+Chunk #2
+Predicted text: general 1 albania moves to re-establish relations with greece page 3
+Unredacted context: security information summary [UNRED_ONLY: general 1 albania moves to re-establish relations with greece page 3] southeast asia 2
+Redacted context: [L@0:summary] [RED_GAP:<empty>] [R@1:southeast] asia 2 taipei
+
+Chunk #3
+Predicted text: 4 tribal unrest in iran may pose problem for prime minister page 4
+Unredacted context: near east africa [UNRED_ONLY: 4 tribal unrest in iran may pose problem for prime minister page 4] 5 zahedi states
+Redacted context: 4 near east [L@29:africa] [RED_GAP:<empty>] [R@30:5] zahedi states requirements
+
+Chunk #4
+Predicted text: 6 largest rumanian electrical power project reportedly abandoned page 5
+Unredacted context: 5 eastern europe [UNRED_ONLY: 6 largest rumanian electrical power project reportedly abandoned page 5] 7 yugoslavia believed
+Redacted context: page 5 eastern [L@41:europe] [RED_GAP:<empty>] [R@42:7] yugoslavia believed ready
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.920502
+
+Chunk #5
+Predicted text: security information general 1 albania moves to re-establish relations with greece the albanian government has made a demarche for a resumption of normal relations with greece the greek ministry of foreign affairs however received the albanian advances with indifference comment such a demarche at this time would be in line with soviet desires to ease balkan tensions and to mitigate any threat to albania which may arise from the balkan pact the american embassy in athens believes that the soviet embassy there has indirectly intimated to the greeks that bulgaria is also prepared to discuss the resumption of diplomatic relations
+Unredacted context: [UNRED_ONLY: security information general 1 albania moves to re-establish relations with greece the albanian government has made a demarche for a resumption of normal relations with greece the greek ministry of foreign affairs however received the albanian advances with indifference comment such a demarche at this time would be in line with soviet desires to ease balkan tensions and to mitigate any threat to albania which may arise from the balkan pact the american embassy in athens believes that the soviet embassy there has indirectly intimated to the greeks that bulgaria is also prepared to discuss the resumption of diplomatic relations] southeast asia 2
+Redacted context: [R@0] southeast asia 2 taipei
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.990102
+
+Chunk #6
+Predicted text: near east africa
+Unredacted context: of afghan news [UNRED_ONLY: near east africa] 4 tribal unrest
+Redacted context: bulk of afghan [L@182:news] [RED_GAP:<empty>] [R@183:4]
+
+Chunk #7
+Predicted text: tribal unrest in iran may pose problem for prime minister
+Unredacted context: east africa 4 [UNRED_ONLY: tribal unrest in iran may pose problem for prime minister]
+Redacted context: [L@183] of afghan news 4
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.948985
+
+Chunk #8
+Predicted text: comment the iranian army can handle isolated disorders created by any of these perennially troublesome tribes however concurrent unrest in the widely separated areas inhabited by the javanrudi the qashqai and boir ahmadi tribes would strain army capabilities and present a serious problem to prime minister zahedi who is still consolidating his hold on the iranian government
+Unredacted context: [UNRED_ONLY: comment the iranian army can handle isolated disorders created by any of these perennially troublesome tribes however concurrent unrest in the widely separated areas inhabited by the javanrudi the qashqai and boir ahmadi tribes would strain army capabilities and present a serious problem to prime minister zahedi who is still consolidating his hold on the iranian government] 5 zahedi states
+Redacted context: [R@0] 5 zahedi states requirements
+
+Chunk #9
+Predicted text: eastern europe 6 largest rumanian electrical power project reportedly abandoned
+Unredacted context: the united states [UNRED_ONLY: eastern europe 6 largest rumanian electrical power project reportedly abandoned]
+Redacted context: [L@129] with the united states
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.938003
+
+Chunk #10
+Predicted text: security information comment the suspension of work on such projects suggests that rumanian leaders are implementing their recently announced policy of making large investments in agriculture and consumer goods industry at the expense of heavy industry and public works the v i lenin hydroelectric station which has been under construction at bicaz moldavia since 1950 is the largest and most important of rumania's electrification projects it has been publicized as the leading electrification project in the ten-year electrification program and ranks in importance with the recently suspended danube-black sea canal project
+Unredacted context: [UNRED_ONLY: security information comment the suspension of work on such projects suggests that rumanian leaders are implementing their recently announced policy of making large investments in agriculture and consumer goods industry at the expense of heavy industry and public works the v i lenin hydroelectric station which has been under construction at bicaz moldavia since 1950 is the largest and most important of rumania's electrification projects it has been publicized as the leading electrification project in the ten-year electrification program and ranks in importance with the recently suspended danube-black sea canal project] 7 yugoslavia believed
+Redacted context: [R@0] 7 yugoslavia believed ready
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.994620
+No candidate difference chunks on this aligned page.

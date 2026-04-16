@@ -1,0 +1,77 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.536364
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.938235
+
+Chunk #1
+Predicted text: page 3 2 soviet officers reported in arab joint command page 4
+Unredacted context: invitation to paris [UNRED_ONLY: page 3 2 soviet officers reported in arab joint command page 4] 3 italian foreign
+Redacted context: state invitation to [L@9:paris] [RED_GAP:<empty>] [R@10:3] italian foreign minister
+
+Chunk #2
+Predicted text: page 5
+Unredacted context: may be replaced [UNRED_ONLY: page 5] 4 unrest in
+Redacted context: martino may be [L@17:replaced] [RED_GAP:<empty>] [R@18:4] unrest in haiti
+
+Chunk #3
+Predicted text: page 6 the arab-israeli situation page 7
+Unredacted context: unrest in haiti [UNRED_ONLY: page 6 the arab-israeli situation page 7] 23 may 56
+Redacted context: 4 unrest in [L@21:haiti] [RED_GAP:<empty>] [R@22:23] may 56 current
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=4
+alignment_score=0.000000
+
+Chunk #4
+Predicted text: 2 soviet officers reported in arab joint command comment there have been no other reports of soviet officers attached to the arab joint command however egypt in the past has employed foreign military advisers and would conceivably feel a need for foreign advice on the unfamiliar problems of operating a multinational joint command 23 may 56 current intelligence bulletin page 4
+Unredacted context: [UNRED_ONLY: 2 soviet officers reported in arab joint command comment there have been no other reports of soviet officers attached to the arab joint command however egypt in the past has employed foreign military advisers and would conceivably feel a need for foreign advice on the unfamiliar problems of operating a multinational joint command 23 may 56 current intelligence bulletin page 4]
+Redacted context: (no redacted anchors available)
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=0.998585
+
+Chunk #5
+Predicted text: comment on
+Unredacted context: unrest in haiti [UNRED_ONLY: comment on] the government of
+Redacted context: 4 unrest in [L@3:haiti] [RED_GAP:<empty>] [R@4:the] government of haiti
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=7
+
+Chunk #6
+Predicted text: the arab-israeli situation information as of 1700 22 may the egyptian ministry of war has ordered all army unit commanders to terminate all leaves of absence as of 5 june after which no leave will be granted 23 may 56 current intelligence bulletin page 7
+Unredacted context: [UNRED_ONLY: the arab-israeli situation information as of 1700 22 may the egyptian ministry of war has ordered all army unit commanders to terminate all leaves of absence as of 5 june after which no leave will be granted 23 may 56 current intelligence bulletin page 7]
+Redacted context: (no redacted anchors available)
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.

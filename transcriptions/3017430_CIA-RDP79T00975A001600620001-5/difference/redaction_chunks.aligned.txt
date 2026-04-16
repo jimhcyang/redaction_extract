@@ -1,0 +1,72 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+
+Chunk #1
+Predicted text: summary general 1 norway and denmark protest agreement between saudi arabia and onassis page 3 2 indonesia plans to place new guinea question on un general assembly agenda page 3 far east 3 three chinese communist mig-15 divisions apparently withdrawn from yalu area page 4 4 comment on yangtze river flood page 5 southeast asia 5 viet minh violation of cease-fire agreement cited page 5 near east africa 6 opposition uses suez agreement to threaten nasr regime page 6 late item 7 comment on soviet proposal for four-power conference page 7
+Unredacted context: [UNRED_ONLY: summary general 1 norway and denmark protest agreement between saudi arabia and onassis page 3 2 indonesia plans to place new guinea question on un general assembly agenda page 3 far east 3 three chinese communist mig-15 divisions apparently withdrawn from yalu area page 4 4 comment on yangtze river flood page 5 southeast asia 5 viet minh violation of cease-fire agreement cited page 5 near east africa 6 opposition uses suez agreement to threaten nasr regime page 6 late item 7 comment on soviet proposal for four-power conference page 7]
+Redacted context: (no redacted anchors available)
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.957143
+
+Chunk #2
+Predicted text: 1 norway and denmark protest agreement between saudi arabia and onassis page 3
+Unredacted context: summary general [UNRED_ONLY: 1 norway and denmark protest agreement between saudi arabia and onassis page 3] 2 indonesia plans
+Redacted context: summary [L@1:general] [RED_GAP:<empty>] [R@2:2] indonesia plans to
+
+Chunk #3
+Predicted text: 3 three chinese communist mig-15 divisions apparently withdrawn from yalu area page 4
+Unredacted context: 3 far east [UNRED_ONLY: 3 three chinese communist mig-15 divisions apparently withdrawn from yalu area page 4] 4 comment on
+Redacted context: page 3 far [L@18:east] [RED_GAP:<empty>] [R@19:4] comment on yangtze
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.873729
+
+Chunk #4
+Predicted text: 1 norway and denmark protest agreement between saudi arabia and onassis norwegian and danish ambassadors protesting the saudi signature of the onassis tanker agreement comment aside from american representations these are the first formal protests addressed to the saudi government regarding the deal which gives the onassis company virtually exclusive rights to transport saudi arabian oil italy is believed prepared to protest the agreement and british foreign secretary eden voiced his concern to the saudi ambassador in late june other european countries with large shipping interests are also disturbed by the effect this agreement will have on world shipping these protests are unlikely to deter saudi arabia from implementing the onassis agreement
+Unredacted context: general [UNRED_ONLY: 1 norway and denmark protest agreement between saudi arabia and onassis norwegian and danish ambassadors protesting the saudi signature of the onassis tanker agreement comment aside from american representations these are the first formal protests addressed to the saudi government regarding the deal which gives the onassis company virtually exclusive rights to transport saudi arabian oil italy is believed prepared to protest the agreement and british foreign secretary eden voiced his concern to the saudi ambassador in late june other european countries with large shipping interests are also disturbed by the effect this agreement will have on world shipping these protests are unlikely to deter saudi arabia from implementing the onassis agreement] 2 indonesia plans
+Redacted context: [L@0:general] [RED_GAP:<empty>] [R@1:2] indonesia plans to
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.814091
+
+Chunk #5
+Predicted text: far east 3 three chinese communist mig-15 divisions apparently withdrawn from yalu area comment one of the three mig units believed transferred from the yalu area is the 17th air division which is now based at ningpo on the east china coast about 100 miles south of shanghai there is also some evidence that a second jet fighter division was moved to the shanghai area in march the identity and location of the third division are not known the withdrawal of the three divisions reduces communist jet fighter strength on the manchurian side of the yalu to about 400 including 250 soviet planes peiping's continued reduction of its once great jet strength in manchuria had been expected the apparent build-up of air power in east china where mig's now number between 200 and 250 directly threatens chinese nationalist islands in the coastal waters of the east china sea
+Unredacted context: regarding new guinea [UNRED_ONLY: far east 3 three chinese communist mig-15 divisions apparently withdrawn from yalu area comment one of the three mig units believed transferred from the yalu area is the 17th air division which is now based at ningpo on the east china coast about 100 miles south of shanghai there is also some evidence that a second jet fighter division was moved to the shanghai area in march the identity and location of the third division are not known the withdrawal of the three divisions reduces communist jet fighter strength on the manchurian side of the yalu to about 400 including 250 soviet planes peiping's continued reduction of its once great jet strength in manchuria had been expected the apparent build-up of air power in east china where mig's now number between 200 and 250 directly threatens chinese nationalist islands in the coastal waters of the east china sea]
+Redacted context: [L@71] positions regarding new guinea 5 aug 54
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.974532
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.973846
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.981963
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=red_only red_source_page=8 unred_source_page=None
+No candidate difference chunks on this aligned page.

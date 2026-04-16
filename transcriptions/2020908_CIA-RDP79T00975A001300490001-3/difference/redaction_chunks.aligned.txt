@@ -1,0 +1,50 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.731579
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.863786
+
+Chunk #1
+Predicted text: security information
+Unredacted context: [UNRED_ONLY: security information] summary general india
+Redacted context: [R@0] summary general 1 india
+
+Chunk #2
+Predicted text: southeast asia president quirino may declare martial law in philippines page 4
+Unredacted context: conference page 3 [UNRED_ONLY: southeast asia president quirino may declare martial law in philippines page 4] eastern europe satellite
+Redacted context: korean conference page [L@23:3] [RED_GAP:<empty>] [R@24:eastern] europe 4 satellite
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.995713
+
+Chunk #3
+Predicted text: security information
+Unredacted context: [UNRED_ONLY: security information] general 1 india
+Redacted context: [R@0] general 1 india reportedly
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.929239
+
+Chunk #4
+Predicted text: southeast asia comment the philippine constitution requires that the election results be confirmed by the senate which will meet for this purpose on 8 december it has been reported previously that the administration might arrest several nacionalista members in order to secure control in september it was reported that quirino had offered the defense post to castaneda who was relieved as chief of staff shortly after magsaysay became defense secretary in 1950
+Unredacted context: at this time [UNRED_ONLY: southeast asia comment the philippine constitution requires that the election results be confirmed by the senate which will meet for this purpose on 8 december it has been reported previously that the administration might arrest several nacionalista members in order to secure control in september it was reported that quirino had offered the defense post to castaneda who was relieved as chief of staff shortly after magsaysay became defense secretary in 1950] eastern europe 4
+Redacted context: settlement at this [L@39:time] [RED_GAP:<empty>] [R@40:eastern] europe 4 satellite
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.995253
+
+Chunk #5
+Predicted text: security information
+Unredacted context: [UNRED_ONLY: security information] heretofore the announced
+Redacted context: [R@0] heretofore the announced rate
