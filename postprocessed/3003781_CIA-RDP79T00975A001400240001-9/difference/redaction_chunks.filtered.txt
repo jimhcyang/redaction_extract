@@ -1,0 +1,78 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.948734
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 4. Turkey criticizes Council of Europe resolution on East-West relations
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: LATIN AMERICA 6. Czechoslovakia and Poland may seek to establish missions in Panama
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.915999
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #4, segment 1)
+Text: NEAR EAST - AFRICA 4. Turkey criticizes Council of Europe resolution on East-West relations: The Turkish Foreign Ministry expressed concern that a recent resolution of the Council of Europe would be regarded by the Soviet Union as a sign of Western weakness and would have an unfavorable effect on Turkish public opinion. Concern was also expressed over the possible consequences of any East-West security pact. The ministry insisted that since present tensions are caused by the Soviet Union there is no longer any reason for compromise Comment: The views of the Turkish Foreign Ministry are expressive of Turkey's rigid anti-Soviet policy and the contempt with which it views any move that suggests a softening up by the Western powers
+Token count: 118
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: religio-nationalist
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.908636
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: LATIN AMERICA 6. Czechoslovakia and Poland may seek to establish missions in Panama: Comment: The Polish minister to Mexico presented his credentials in Panama in November. At that time the Panamanian foreign minister stated that his country was merely following the big nations in maintaining diplomatic relations with Poland. The Czechs reportedly made fruitless overtures on this subject to the previous Panamanian government in 1951 and 1952
+Token count: 67
+Recut: none

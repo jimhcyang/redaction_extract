@@ -1,0 +1,79 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.977778
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.971281
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: percent
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: schedule
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: sacrifice
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: beyond
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.922277
+kept_candidate_count=0
+excluded_candidate_count=8
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Comment on
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: president
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: embassy
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: potentially
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: spontaneous
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: judicial
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: administration
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: president
+
+========================================================================
+[PAGE 06]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

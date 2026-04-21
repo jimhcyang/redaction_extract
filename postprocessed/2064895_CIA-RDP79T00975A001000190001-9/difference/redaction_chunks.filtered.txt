@@ -1,0 +1,90 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.840625
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.936667
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. Communist China contracting for Burmese rubber
+Token count: 7
+Recut: none
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 3. Iran offers 50,000 tons of oil to Argentina
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.949320
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #6, segment 1)
+Text: 2. Communist China contracting for Burmese rubber: Comment
+Token count: 8
+Recut: none
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: unspecified
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: revolutionary
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: fabricators
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: There have been no recorded rubber shipments to Communist China from Burma or any other UN member since the UN embargo resolution was passed in May 1951, but the Indonesian Government is seriously considering approval of such trade. Sales by either country at this time would encourage abandonment of the embargo by other rubber producing areas. NEAR EAST - AFRICA 3. Iran offers 50,000 tons of oil to Argentina: Comment: Iran may be attempting to sell a token amount of oil as a bargaining factor in the current effort to settle the Anglo-Iranian dispute. Fulfillment of any agreement would depend on Argentina's ability to find transportation. A large portion of Argentina's tanker fleet is already occupied. 4. Tension increases sharply between Jordan and Israel: The senior Israeli delegate to the Mixed Armistice Commission has charged that the deteriorating relations between Jordan and Israel are the result of deliberate Jordanian policy. He warned that if Jordan prevents Israeli convoys from going to Mount Scopus in the Jerusalem area
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.737280
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 5
+
+========================================================================
+[PAGE 06]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens
+  Text: CORRECTION

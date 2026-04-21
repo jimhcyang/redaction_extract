@@ -1,0 +1,78 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.694318
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: GENERAL 1. Peiping meeting commitment to export rice to USSR (page 3). SOUTHEAST ASIA NEAR EAST - AFRICA 3. Arabs seek punitive action by UN against Israel
+Token count: 26
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.246118
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin, noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #4 segment 2: full_page_or_admin, noncontent_keyword, short_span_min_tokens
+  Text: GENERAL
+- original #5 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: Peiping meeting commitment to export rice to USSR: Comment: Peiping had contracted to deliver to the USSR 50,000 tons of rice
+- original #6 segment 1: full_page_or_admin
+  Text: 1953. Peiping's fulfillment of this agreement should probably be interpreted as further evidence of a determination to pay for imports by maintaining food exports, despite relatively poor harvests, rather than as evidence of Soviet pressure. This desire was shown in barter talks this summer with Finland and Ceylon in which the Chinese insisted that both countries accept more foodstuffs than they desired. SOUTHEAST ASIA 2
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin, noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #7 segment 2: full_page_or_admin
+  Text: NEAR EAST - AFRICA 3. Arabs seek punitive action by UN against Israel: At its 23 October meeting in Amman, the Arab League decided to request the UN Security Council to take punitive measures against Israel as an aggressor in accordance with articles 39 and 41 of the UN charter. The league also decided to reject any UN decision calling for peace negotiations with Israel and to insist on Israeli compliance with UN resolutions on partition, the refugees problem, and the status of Jerusalem as a prerequisite to peace in the area. Comment: This report, supplementing earlier summaries of the league's decisions, indicates that the Arabs hope for UN sanctions against Israel in support of their own economic blockade. 4
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.956638
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 5
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.908108
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

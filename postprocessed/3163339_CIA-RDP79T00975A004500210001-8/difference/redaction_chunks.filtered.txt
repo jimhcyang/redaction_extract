@@ -1,0 +1,160 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.757143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122689
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 4 JUNE 1959 I. THE COMMUNIST BLOC Guided Missile and Astronautics Intelligence Committee statement on 30 May Tyura Tam test firing -- see
+- original #2 segment 1: full_page_or_admin
+  Text: 1. Gromyko insists UK and USSR as co-chairmen of 1954 Indochina settlement must discuss Laotian crisis. USSR may call Balkan "summit" meeting to discuss denuclearized Balkan-Adriatic zone. II. ASIA-AFRICA New Rhee Line fishing boat incident will heighten Japanese - South Korean tension. Djakarta alarmed over plans by dissident leaders to visit Tokyo while Sukarno is there. Nehru, concerned over Nepal's growing diplomatic ties, to visit Katmandu next week. Turkish Government leaders split on degree of repression to be applied to opposition and press. III. THE WEST Nicaraguan capital remains quiet under martial law but general strike continues
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.971383
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 1)
+Text: USSR Missile Testing: Conclusions of the Guided Missile and Astronautics Intelligence Committee on the 30 May test firing at Tyura Tam Missile Test Range
+Token count: 24
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: Page 1
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soviet-Albanian
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.921171
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #5, segment 1)
+Text: Indonesia: several Indonesian dissident leaders, including ex-Colonel Kawilarang, former military attache in Washington, plan to leave Manila soon for Taipei and Tokyo. President Sukarno is to visit Japan from 6 to 19 June. While Djakarta, out of concern for Sukarno's safety, has asked that the Japanese security service be alerted, the nature of the dissident group suggests that this step is largely routine. The group may plan some approach to Sukarno to suggest a negotiated settlement of the rebellion
+Token count: 79
+Recut: none
+
+Clean Chunk #3 (original #6, segment 2)
+Text: Turkey: A serious split has apparently developed within the ruling Democratic party and between President Bayar and Prime Minister Menderes over the degree of repression to be exerted against the press and the political opposition. Menderes has made it clear to press leaders that Bayar is the leading exponent of the tough line. Menderes, who may feel that he can strengthen his political position by a more moderate government approach, appears to be in a strong position to ease repression and also to maintain his control
+Token count: 86
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Page 4
+- original #6 segment 3: noncontent_keyword
+  Text: Page 5) 4 June 59 DAILY BRIEF
+- original #6 segment 4: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.995238
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: 4 June 59 DAILY BRIEF
+- original #7 segment 2: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.243921
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC GMAIC Statement on 30 May Test Firing at Tyura Tam The Guided Missile and Astronautics Intelligence Committee on 3 June submitted to the United States Intelligence Board the following conclusions on the 30 May Soviet missile test at Tyura Tam
+- original #9 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: At about 1742 EDT, Saturday, 30 May, the USSR launched another vehicle from the Tyura Tam Missile Test Range. There are several features of this activity that make it difficult to state with conviction what type of vehicle it was and its purpose. However, based primarily on subtleties
+- original #10 segment 1: full_page_or_admin
+  Text: the firing sequence and the observed trajectory, we believe this was a successful test ICBM. 2. ELINT indicates that the time of flight was considerably greater than usual. Preliminary analysis of RADINT with other data indicates that the vehicle went considerably farther than the Kamchatka Peninsula, to a total range of perhaps 4000-5500 nautical miles. This is the first time a vehicle has been launched to a range greater than approximately 3500 n. m. A firing to such a range would be expected in the Soviet ICBM test program. 3. In connection with this firing, other data must be considered. in the direction of the test vehicle at the time, a luminous glow starting nine minutes after launch. This could not have been an explosion is compatible with an ionization type experiment, such as the USSR has conducted in vertical firings at Kapustin Yar, and had, probably for observation purposes, in the lunar probe of 2 January 1959. On two previous test firings from Tyura Tam, 17 February and 30 March 1959, similar luminous balls were seen at the time the test vehicles were in generally similar locations
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: It is believed that these three sightings of luminescent balls were probably of ionization experiments associated with the launchings from Tyura Tam. should assist in determining more fully the purpose of these experiments. 4. We therefore conclude that the Soviets probably fired a test ICBM to about 4000-5500 n. m. on 30 May, with an added ionization experiment
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: Turkish President and Premier Disagree on Restrictive Measures Turkey's President Bayar and Prime Minister Adnan Menderes are apparently in basic disagreement over the degree to which the government should restrict the press and the political opposition, and are thereby causing a strain within the ruling Democratic party (DP). Menderes privately told a group of Turkish press representatives recently that Bayar, rather than he, is the leading exponent of the government's continuing repressive measures. Despite the apparent bid for more party and administrative control by 74-year-old President Bayar and other advocates of a sterner repressive policy, Menderes, as in the past, is expected to maintain his pre-eminent position within both the party and the government. The possibility of a split in the party is also suggested in the failure of Menderes to name ministers for six cabinet posts which now lack permanent incumbents and the unusual absence of an official party communique since 14 May. Bayar is believed to champion the severe penalties against the press which have recently left Ankara without any opposition daily newspaper and have put Turkey's most distinguished journalist in jail. Menderes now appears anxious to dissociate himself from severe repressive measures against the press and the opposition. These appear to be unpopular with many citizens, and half of the DP legislators are reported to oppose them. Menderes met with representatives of the Istanbul press recently and agreed to work toward a press amnesty if they would tone down their criticisms of the government. While in the past Menderes has threatened further restrictions, he may now consider this a liability which has increased popular sympathy for the opposition, and may adopt a more moderate policy in order to reduce political tensions
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=0.999462
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=11 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,133 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.741304
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.947340
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: GENERAL 1. Moscow offers to receive Indonesians for atomic energy study
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 3. Clarification of Chiang Kai-shek's reported statement on Nanchishan
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 7. Papagos government threatened by strengthened opposition
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 2: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.835304
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #4, segment 1)
+Text: GENERAL 1. Moscow offers to receive Indonesians for atomic energy study: Comment: This is the first known offer by the USSR to provide atomic energy training to non-Orbit personnel as a part of a Soviet campaign designed to counter President Eisenhower's "atoms for peace" plan. This campaign may include within the relatively near future a Soviet offer of a small output power reactor to a non-Orbit country. In the underdeveloped Asian countries, the propaganda campaign comparing an alleged US plan for "atomic aggression" with the Soviet program of peaceful uses would be facilitated by publicizing such an offer. The present Indonesian government may be expected to respond favorably to a specific Soviet offer. Several official and unofficial Indonesian technical delegations have accepted invitations to visit the Soviet Union during the past year
+Token count: 132
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Nanchishan
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.922264
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #5 (original #8, segment 1)
+Text: 3. Clarification of Chiang Kai-shek's reported statement on Nanchishan: Chiang Kai-shek, in an interview on 16 February in which he repeated earlier statements that he considers the United States to be committed to the defense of the Matsu and Quemoy groups, said further, according to the International News Service, that he regards Nanchishan Island as one of the Matsu group. The statement regarding Nanchishan has not been confirmed by any other source. Comment: Chiang's remarks, if accurately reported, would appear to be a bid for American defense of Nanchishan, an island about 100 miles north of the Matsus and particularly vulnerable to a Chinese Communist attack
+Token count: 106
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communications
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.586486
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.990360
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: enterprises
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.972041
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Turkish-Iraqi
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: together
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: securing
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: induce
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.900617
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #14, segment 1)
+Text: 7. Papagos government threatened by strengthened opposition: Dimitrios Lambrakis, influential Athenian newspaper publisher and long-time supporter of Prime Minister Papagos, has arranged an alliance between the Liberal Party and the new Progressive Party of former minister of coordination Markezinis. Lambrakis promises the support of about 40 Rally deputies he controls, and the new alliance awaits only the proper issue on which to display its unity in parliament. Comment: During the past year the Rally has lost by defection almost 40 of its original 237 supporters in parliament. Loss of another 40 members, with probable additional attrition, could leave the government with less than a bare majority of the 300 seats, thus making its early fall likely. Lambrakis, long influential in Greek politics, has close ties with both Markezinis and Sophocles Venizelos, ex-Liberal chief who commands strong support in anti-Rally circles. Lambrakis now appears to be planning on the replacement of the Rally by a new government based on a Markezinis-Venizelos alliance
+Token count: 161
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.975632
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government

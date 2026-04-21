@@ -1,0 +1,142 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.250305
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.878846
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 2. EGYPT DISPLAYS CAUTION ON ACCEPTING SOVIET PILOTS FOR SUEZ (page 4). 3. FRENCH MILITARY MOVES IN SUEZ CRISIS (page 5). 4. MOROCCAN SULTAN MAY BE READY TO BEGIN TALKS ON AMERICAN BASE RIGHTS (page 6). 5. NEW PAKISTANI PRIME MINISTER REPORTEDLY APPOINTED (page 7). 6. INDONESIA PLANS FURTHER ACTION AGAINST NETHERLANDS
+Token count: 52
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 3: noncontent_keyword
+  Text: page 8
+- original #3 segment 1: noncontent_keyword
+  Text: page 9
+- original #3 segment 3: noncontent_keyword
+  Text: page 10
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 2. EGYPT DISPLAYS CAUTION ON ACCEPTING SOVIET PILOTS FOR SUEZ Comment Nasr may feel that acceptance of Soviet pilots at this juncture might provoke Britain and France to withdraw their pilots. Nasr's indicated caution also suggests that he wants to avoid alienating the United States at this time. Egypt may therefore move slowly on accepting pilots from the Soviet bloc and give priority to pilots from "neutral" European countries. On 6 September, Egypt gave orders to Egyptian personnel in the United States not to make any statements or announcements whatsoever on the subject of pilots
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 3. FRENCH MILITARY MOVES IN SUEZ CRISIS Comment While the French seem to be continuing military preparations, the Mollet government appears to be reconsidering the bellicose policy it seemed to have settled on about 1 September. At that time, Italian ambassador to France Quaroni was convinced that Paris had decided on military action if Nasr failed to accept unconditionally international management of the canal. Most government officials probably still expect that military action will be necessary and that breakdown of canal transit or Egyptian mistreatment of foreign pilots could serve as excuses for military action. Since no French military intervention is likely without British concurrence, Paris may hope to bring about a situation from which Britain could not withdraw
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.244756
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: MOROCCAN SULTAN MAY BE READY TO BEGIN TALKS ON AMERICAN BASE RIGHTS The sultan of Morocco is said to be considering making a liberal offer to the United States
+- original #7 segment 1: full_page_or_admin
+  Text: connection with the bases with the tacit understanding that generous American economic aid for Morocco would be forthcoming, Meanwhile, however, the sultan plans to send his defense minister to Paris in an effort to obtain exclusive Moroccan sovereignty over American air bases in Morocco. Aware that success is unlikely, the sultan wishes to go on record as having attempted direct negotiations with France. Comment The sultan has already made several efforts to learn what American aid might be expected in return for continued use of the five bases. Paris has requested that no aid be offered Rabat until present Moroccan-French financial and defense negotiations are completed. The Moroccans are adamant in their position that negotiations regarding the French-owned bases must be bilateral, while France wants tripartite negotiations
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 5. NEW PAKISTANI PRIME MINISTER REPORTEDLY APPOINTED Comment on: Pakistani president Mirza on 8 September asked H. S. Suhrawardy, the Awami League's national leader, to form a new government. Suhrawardy is Pakistan's most competent politician and parliamentarian. He is moderate in outlook, and despite strong leftist elements in his party, no major change in Pakistan's foreign policy would be likely under his leadership. However, he believes that power should center in the prime minister rather than in the president, and this view could lead to a clash with Mirza. The new government will have to be a coalition since no single party possesses a majority in the central assembly. With Suhrawardy as prime minister, it would probably be an Awami League-Republican coalition. If Suhrawardy is unable to organize a majority, the alternative would be a United Front-Republican coalition--possibly with Chaudhri Mohammed Ali, who resigned on 8 September as prime minister as well as from the Moslem League, reassuming the premiership as an independent. Mohammed Ali's resignation was probably inspired by the recent assumption of power in East Pakistan by the opposition Awami League. The current upheaval marks the final elimination from power of the Moslem League which founded Pakistan nine years ago
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 6. INDONESIA PLANS FURTHER ACTION AGAINST NETHERLANDS The Indonesians expect the Dutch will respond to each action with protests and reprisals aimed at "injuring the credit and dignity of Indonesia in the eyes of the international world in general and of the United States and the United Nations in particular." Comment In early August, Indonesia repudiated debts to the Netherlands assumed in 1949. President Sukarno and the National Party, which heads the coalition cabinet, regard the elimination of all Dutch interests in Indonesia as a major goal of Indonesian foreign policy. The gradual nationalization of Dutch enterprise is expected to continue, and Indonesian officials are reportedly considering the transfer of Indonesian funds from Dutch to British or Swiss banks and the increased use of other than Dutch shipping and airlines. The capability of the Netherlands for reprisals in the event of further Indonesian measures are relatively limited. The Hague would presumably continue to seek support from friendly countries in remonstrating with Djakarta, and would probably consider an appeal to the United Nations
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=0.974038
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #10, segment 1)
+Text: according to the American army attache in Buenos Aires. He predicts "trouble" in several provinces by 11 September
+Token count: 18
+Recut: none
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 9 September) Lebanon accepted the Saudi Arabian invitation to attend the meeting of Arab military representatives now being held in Riyadh to discuss aid for the Jordan national guard. Lebanon, trying to avoid strong ties with the Egyptian-Syrian-Saudi Arabian bloc, has successfully stalled on a Syrian-Lebanese military pact since last November. Egypt probably views such a pact as a propaganda victory for Egypt and would probably not insist on a pact with any real military significance. According to a French press report, Egypt on 7 September released the Israeli-chartered Greek merchant ship Panngia which it had detained since May. The Panngia was en route from Haifa to the Gulf of Aqaba port of Eilat. Israel made an official protest to the UN Security Council at that time, and has since protested and publicized the continuing blockade of Israeli ships through the canal and detentions of some Israeli-chartered ships
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=7 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

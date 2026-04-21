@@ -1,0 +1,119 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.656765
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. EGYPTIAN AMBASSADOR BELIEVES CAIRO WILL "DENOUNCE" KING SAUD
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. ALI SABRI AGAIN WARNS EGYPT MAY HALT CLEARANCE OF CANAL
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: SETBACK
+- original #3 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: page 7
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 8
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.244552
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: EGYPTIAN AMBASSADOR BELIEVES CAIRO WILL "DENOUNCE" KING SAUD Egyptian ambassador Hussein on 9 February told Foreign Minister Fawzi, now
+- original #6 segment 1: full_page_or_admin
+  Text: New York, he believed Cairo would "denounce King Saud without delay" as a result of the American-Saudi communiqué. Hussein said that the Americans had "won over" King Saud and that the visit was "a complete success from the American viewpoint and from our viewpoint a complete inconvenience." Hussein told Fawzi that an Egyptian denunciation of Saud "interests the Americans because it would isolate us--and interests the Russians because it isolates us also and leaves us at their mercy." Comment Nasr was irked that Saud made public statements on the American proposals for the Middle East before discussing his Washington talks with other Arab leaders. He also reportedly feels King Saud went too far in endorsing the proposals. Part of the Egyptian press has reacted in a hostile manner to the American-Saudi communiqué, but an official line has not yet appeared. Any attacks on Saud will be tempered by the fear of losing Saudi financial assistance
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 2. ALI SABRI AGAIN WARNS EGYPT MAY HALT CLEARANCE OF CANAL Ali Sabri, chief of the Egyptian cabinet and Nasr's principal political adviser, told a competent American observer on 7 February that "a halt to canal clearance work was the only alternative he saw to military action to compel Israel to withdraw from Sinai and the Gaza strip." Sabri said such "dangerous action" would be demanded by the Egyptian public, which otherwise would feel that aggression was being rewarded and that Egypt was yielding to pressure. Comment Although Sabri's statements are aimed at influencing the United States to exert pressure on Israel, an increasing number of reports and press statements indicate that the Nasr regime does seriously intend to use the canal clearance issue as a diplomatic lever, despite its need for the revenues an open canal would presumably provide. A semiofficial Cairo newspaper on 9 February stated that this question was discussed by the Egyptian cabinet at its first meeting since the hostilities and that clearance operations would be suspended unless Israel withdrew
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.967600
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: Comment on
+- original #9 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: election year
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.874074
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.953103
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.960277
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

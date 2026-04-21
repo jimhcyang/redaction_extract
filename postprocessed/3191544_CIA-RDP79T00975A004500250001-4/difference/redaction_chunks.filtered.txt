@@ -1,0 +1,181 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.757143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.245421
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 9 JUNE 1959 I. THE COMMUNIST BLOC Communist China - Burma--Peiping receives Burmese proposal for settlement of border problems, but will probably continue its negative attitude
+- original #2 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: II. ASIA-AFRICA Relations of Algerian rebels with Tunisia and Morocco increasingly difficult; military fortunes at new low. (2) Prospects brighten for Tunisian-French agreement on use of Bizerte base. (3) India--Effort to force Communists out of office
+- original #3 segment 1: full_page_or_admin
+  Text: Kerala State planned; violence possible. (4) III. THE WEST (5) West Berlin's mayor apprehensive over effect in city if West German presidential elections are not held there. (6) Nicaragua--Government position stronger, but incidents continue and further incursions by exiles possible. (7) Leftist gains in Sicily election pose problems for Christian Democrats
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.847324
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #4, segment 1)
+Text: I. THE COMMUNIST BLOC Communist China - Burma: Burma presented on 4 June a package deal for settlement of the Sino-Burmese border problem. Foreign Minister Chen Yi, upon receiving the proposal, told the Burmese ambassador on 4 June that it would require study and that whether the question of conceding a little portion here or there, or this way or that way, is agreed upon or not, it is the friendship that really counts. Prime Minister Ne Win had previously stated that this package deal was his final offer. Peiping will probably continue to take a delaying and generally negative attitude. (Page 1) II. ASIA-AFRICA Algeria: The Algerian rebels are having increasing difficulty in their relations with Morocco and Tunisia. Moroccan authorities have reportedly told the rebel defense minister that Rabat is no longer able to furnish the rebels with other than token logistical support. At the same time, Tunisia has been actively attempting to control rebel units which have crossed into Tunisia, and there have been several clashes between rebel and Tunisian troops. concern and dissatisfaction over supply and manpower shortages, as well as impaired confidence in rebel political leadership. Rebel military fortunes seem to have reached a new low
+Token count: 200
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 2: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.971843
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #6, segment 1)
+Text: Local Congress leaders are under pressure from Nehru to keep their demonstrations nonviolent, but violence is likely if extremists among the agitators are successful in provoking Communist police units into using force
+Token count: 32
+Recut: none
+
+Clean Chunk #3 (original #8, segment 1)
+Text: Nicaraguan exiles in El Salvador, Venezuela, and other countries continue their plotting and may attempt further incursions
+Token count: 17
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: Page 3
+- original #7 segment 1: noncontent_keyword
+  Text: Page 5
+- original #8 segment 2: noncontent_keyword
+  Text: Page 6
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Peiping Hints at Further Stalling in Sino-Burmese Border Negotiations Foreign Minister Chen Yi hinted to the Burmese ambassador on 4 June that the "package deal" Rangoon was presenting may not be acceptable to Communist China as the basis for settlement of the Sino-Burmese border question. Chen, in pointing out that the proposal had to be "accepted in whole and not in part," expressed the need to study it and indicated that there might be no solution to the border issue for some time. Chen claimed that "interested" "racial minorities must be consulted regarding any border settlement. Peiping has previously made a formal claim to Tibetan-populated areas of Burma, a demand rejected by the Burmese on the grounds that it would involve ceding a "big portion" of northern Burma. Chen repeatedly stressed the need for amicable Sino-Burmese relations and stated that whether the question of "conceding a little portion here or there" is agreed upon or not, "it is the friendship that really counts." The Chinese Communists are probably unwilling to give the Ne Win government the domestic prestige to be gained from a quick border settlement. (Prime Minister Ne Win told the American ambassador in mid-May that this "package deal," agreed upon by all of Burma's major political leaders and not subject to further negotiations, would be Burma's "final offer." He further stated that this offer would be withdrawn by December and hinted that Burma would then proceed to adopt a harder line in its relations with Communist China. On another occasion Ne Win promised that once the border issue was disposed of, one way or the other, Burma would not "mince any words" about its true feelings toward China. According to another report, cancellation of Communist China's civil air landing rights in Burma is among the specific retaliatory measures Ne Win may have in mind
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 June 59 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.122253
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Algerian Rebel Difficulties Rebel military problems
+- original #11 segment 1: full_page_or_admin
+  Text: the four-and-a-half-year-old Algerian war have lately been compounded by diminished support of the rebel cause from Morocco and Tunisia. The Tunisian Government, concerned over rebel efforts to involve Tunisia in the fighting, has begun a campaign designed to contain rebel units in the border area. Several armed clashes have resulted, and one rebel message reported that "relations with the Tunisians could not be worse." Moroccan officials have also moved to curtail rebel activities and have hinted to rebel Defense Minister Belkacem Krim that they may discontinue logistical support of the rebel army. A combination of Tunisian border patrols and increasingly effective French border barriers has seriously affected rebel efforts to bring supplies in from Tunisia, and the rebels' already severe supply problems would be heightened should they be unable to take up the slack in Morocco. Both Morocco and Tunisia, however, will probably continue to lend diplomatic and propaganda support to the rebels. Within Algeria, the rebels continue to face problems of morale and discipline
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 June 59 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.953794
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #13, segment 1)
+Text: The national leadership of the Congress party has instructed the Kerala branch not to participate officially in the school demonstrations, but has consented to the opposition front's political agitation on condition that it remain nonviolent
+Token count: 35
+Recut: none
+
+Clean Chunk #5 (original #14, segment 1)
+Text: section of the national Communist leadership reportedly argued at a recent party conclave in Kerala in favor of resignation of the Communist government, on grounds that its conduct had already had a detrimental effect on the party in the rest of India and that the forceful measures needed to contain the coming agitation would further damage Communist prestige. A
+Token count: 59
+Recut: none
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: cooperation
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.985933
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #15, segment 1)
+Text: A majority of the CDU apparently shares Adenauer's view, but the opposition parties are attacking the government's hesitation and claiming Allied intervention is responsible
+Token count: 24
+Recut: none
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=0.956828
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #7 (original #17, segment 1)
+Text: Nicaraguan rebel leader Enrique Lacayo Farfan is believed to have left Costa Rica on 6 June for Venezuela where he and former Costa Rican President Figueres, who is also in Caracas, can be expected to make every effort to obtain aid for the rebels. Communist-controlled Nicaraguan exile groups there have asked for maximum Venezuelan support for the Nicaraguan revolution. A well-armed Nicaraguan exile group in El Salvador and another in Guatemala were planning on 4 June to move through Honduras into Nicaragua
+Token count: 82
+Recut: none
+
+Excluded candidates:
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: business
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=11 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=12 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

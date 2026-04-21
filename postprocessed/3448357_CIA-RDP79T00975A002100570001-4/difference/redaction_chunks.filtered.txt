@@ -1,0 +1,110 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.937500
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. SITUATION IN YUNNAN
+Token count: 4
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 5. SOVIET FARM DELEGATION ACCEPTS INVITATION TO VISIT VENEZUELA
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 7). 27 Aug 55 Current Intelligence Bulletin Page 2
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.993284
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens
+  Text: physical
+- original #4 segment 1: noncontent_keyword
+  Text: 27 Aug 55 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 2. SITUATION IN YUNNAN Comment Peiping's "loyalty and honesty" campaign is part of an intensified Chinese Communist effort to eliminate unreliable party members, to force the intelligentsia to support the party line, and to silence opposition to the regime's stringent food collection and socialization policies in the countryside
+- original #5 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 27 Aug 55 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.993617
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: 27 Aug 55 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.991892
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: 27 Aug 55 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 5. SOVIET FARM DELEGATION ACCEPTS INVITATION TO VISIT VENEZUELA Comment The Venezuelan government, which broke relations with the Soviet Union in 1952 and has only negligible trade with the Soviet bloc, is the only Latin American government known to have invited the Soviet farm delegation. Venezuela has few friends among Western nations. It may hope to increase its prestige by publicizing its immense building and public works program in connection with a Soviet visit
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 27 Aug 55 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=red_only red_source_page=8 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

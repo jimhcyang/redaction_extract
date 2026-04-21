@@ -1,0 +1,154 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.610417
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.919257
+kept_candidate_count=2
+excluded_candidate_count=8
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. SOVIET OFFICIAL OUTLINES VIEWS ON NEAR EAST TO ISRAELI OFFICIAL
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 5. PLOTTING TO ASSASSINATE VENEZUELAN PRESIDENT
+Token count: 6
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 3: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+- original #5 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: AIR- CRAFT
+- original #6 segment 1: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 2. SOVIET OFFICIAL OUTLINES VIEWS ON NEAR EAST TO ISRAELI OFFICIAL Comment Moscow's policy of playing down the Arab-Israeli dispute and its unwillingness to commit itself publicly to the Arab viewpoint on this issue was evidenced during Shepilov's tour of the Near East. In public, he avoided the question entirely and, in private, reportedly urged the Arabs to let time take care of the Palestine problem and expressed Soviet support for any UN move toward a peaceful settlement
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 30 June 56 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 5. PLOTTING TO ASSASSINATE VENEZUELAN PRESIDENT Comment The Venezuelan underground of the outlawed Democratic Action Party is co-operating with exiled members of the party to assassinate President Perez Jimenez, security chief Estrada, and other top government officials as a means of setting off a popular revolution. The objective may be to effect a return to power of the Democratic Action Party under its exiled leader Romulo Betancourt, a close friend of President Figueres. Figueres is believed to be granting not only moral support to the movement, but probably is aware of and condones the covert operations of Venezuelan exiles in Costa Rica, and may be supplying financial aid to support the revolutionary plans
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 30 June 56 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.989543
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attaches
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=11 unred_source_page=11
+alignment_score=0.995032
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens
+  Text: Press
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: The
+- original #12 segment 1: short_span_min_tokens
+  Text: Press
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=12 unred_source_page=12
+alignment_score=0.959859
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #13, segment 1)
+Text: a previous report that in mid-March two Soviet submarines, two Skoryy-class destroyers and four T-43-class mine sweepers had
+Token count: 18
+Recut: none
+
+Excluded candidates:
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Shuqayr

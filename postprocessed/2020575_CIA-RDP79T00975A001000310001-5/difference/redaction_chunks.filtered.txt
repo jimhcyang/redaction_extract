@@ -1,0 +1,167 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.676190
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.522768
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOVIET UNION New-type MIG's widely distributed in USSR (page 4). Soviet long range aircraft apparently in over-water bombing practice (page 5). FAR EAST New Chinese armies reported in Korea apparently are replacements
+Token count: 32
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: SOUTH ASIA Indian Government seeks appraisal of American intentions in Far East (page 8). NEAR EAST - AFRICA Argentine-Iranian negotiations on oil appear near conclusion (page 9). Egypt interested in purchasing Portuguese arms (page
+Token count: 33
+Recut: none
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.961538
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens
+  Text: page
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.970000
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: a reliable source of the
+Token count: 5
+Recut: none
+
+Clean Chunk #4 (original #5, segment 1)
+Text: 2. New-type MIG's widely distributed in USSR: the MIG-19, a new version of the standard jet fighter, has been distributed to units in widely separated parts of the USSR, including the Far East
+Token count: 33
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: Comment: Since early 1952, four out of the eight MIG factories have been involved in production of a new-type MIG. The appearance of this new model in the Far East probably indicates quantity production. Heretofore, air units in the Soviet Far East have been the last to receive new-type aircraft. 3. Soviet long range aircraft apparently in over-water bombing practice: on 5 September long range aircraft subordinate to the 6th Bomber Corps, and possibly naval fighters, participated in an over-water bombing exercise in the Estonian coastal area of the Baltic Sea. Tenuous evidence suggests the use of airborne radar bombing equipment. Comment: This is the first indication of a joint over-water bombing exercise involving Soviet long range aircraft and may reflect an expansion of the Long Range Air Force mission. The 6th Bomber Corps, which is equipped with TU-4's, is probably subordinate to the Third Long Range Air Army in the Soviet Far East, but has been stationed in the Estonian and Leningrad areas since September 1951, under operational control of the Long Range Flying Schools
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.950472
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #7, segment 1)
+Text: FAR EAST 4. New Chinese armies reported in Korea apparently are replacements: three armies which arrived in Korea in September and October replaced veteran armies in the Chinese command communications network. The relieved armies have apparently ceased communications, suggesting that they may have left Korea. Comment: This analysis suggests that the recent identification of new army units in Korea represents a major rotation rather than an over-all increase in strength
+Token count: 70
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=6 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: Recent reports from the American Embassy in Rangoon indicate that official and public anxiety over the Nationalist question, partially stimulated by the President's order to the Seventh Fleet, is rapidly rising and that the government is seeking some early solution. The Communist insurgents are embarrassing the government by again proposing a joint all-out campaign against the Nationalists. SOUTH ASIA 6. Indian Government seeks appraisal of American intentions in Far East: an urgent appraisal of President Eisenhower's revision of the Seventh Fleet's mission "in the light of the apparent recent acceleration of American military planning in the Far East." Comment: India has long feared that the West or the USSR would intentionally or unintentionally make some move which would touch off World War III
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: NEAR EAST - AFRICA 7. Argentine-Iranian negotiations on oil appear near conclusion: The quotations are satisfactory to the Argentine state petroleum agency since the price works out at less than $1.10 per barrel f. o. b. Abadan. Comment: Argentine contracts have been awarded to the Anglo-Iranian Oil Company and Shell Mex at $1.60 per barrel f. o. b. Kuwait. Sugar is an essential Iranian import currently in short supply. The proposed agreement would not only relieve this situation but would probably also sustain Mossadeq's hope that further independent oil agreements would enable Iran to get along without a settlement with Britain. 8. Egypt interested in purchasing Portuguese arms: The Egyptian Government is interested in purchasing arms from Portugal and a representative of the Portuguese Ministry of National Defense has arrived in Cairo to negotiate the sale
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.794547
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #10, segment 1)
+Text: Comment: General Nagib has asked for military equipment from the United States; nevertheless he continues to seek alternate sources. Egypt has recently been negotiating arms purchases with Sweden, Switzerland, Spain and Italy. Portugal is currently standardizing its military equipment and is reportedly interested in selling surplus small arms stocks. Britain, traditional supplier of military equipment to Egypt, has been controlling arms shipments and has indicated that it hopes to use them to obtain advantageous settlement of the Anglo-Egyptian disputes
+Token count: 79
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: readers
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.979221
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #12, segment 1)
+Text: Despite the reported plan of the Governor General to decide the country's future in consultation with Sudanese leaders, the British Government is continuing to negotiate on the subject with Nagib in Cairo
+Token count: 32
+Recut: none
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=red_only red_source_page=12 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

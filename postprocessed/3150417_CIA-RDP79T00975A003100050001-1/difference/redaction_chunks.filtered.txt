@@ -1,0 +1,101 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.610417
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.827652
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 8
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.963292
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Comment on
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reported
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.728745
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #8, segment 1)
+Text: Hussain had presented Saud with evidence of Syrian and Egyptian efforts to overthrow the Jordanian monarchy, and Saud has recently expressed displeasure over Egyptian intrigue in both Jordan and the Saudi kingdom. a "Free Jordan Army" is being organized in Syria under former army chief of staff Nuwar
+Token count: 48
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.953741
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.974721
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.963636
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.941811
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #10, segment 1)
+Text: Meanwhile, army headquarters reportedly has almost completed its preparations to intensify the drive against anti-Sukarno and antigovernment "subversives" throughout the country. Any attempt to extend the drive to the leaders of the autonomous provinces--particularly Sumatra--would probably precipitate open conflict
+Token count: 41
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: Comment on

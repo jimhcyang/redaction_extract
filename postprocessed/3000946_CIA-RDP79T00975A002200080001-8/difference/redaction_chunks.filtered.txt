@@ -1,0 +1,67 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.953333
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. IMPORTANT CHANGES IN SOVIET MILITARY FORCES IN GERMANY MAY BE IMPENDING
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 1. IMPORTANT CHANGES IN SOVIET MILITARY FORCES IN GERMANY MAY BE IMPENDING The completion of Soviet antiaircraft artillery firing exercises, originally scheduled to last until 18 September, has been advanced to 16 September, Comment These security measures and the apparent advance in the training schedule may presage some reorganization or redisposition in the Group of Soviet Forces, Germany. Some reorganization might be undertaken in conjunction with the demobilization of an unusually large number of conscripts. The USSR promised in August to reduce its active military personnel strength by 640,000, and this reduction might well involve a cut in the 435,000 Soviet ground and air personnel in Germany. The USSR might go so far as to reduce the number of combat divisions now stationed in East Germany. Coming after the recent announcements of Soviet and Satellite troop cuts, such a dramatic move would be calculated to give added impetus to the Soviet campaign for relaxation of tensions. The USSR would hope that such a concrete "demonstration" that the threat of military aggression against the NATO area has evaporated would bring powerful pressure to bear on the Western governments to reduce NATO troop strength in Europe and slow down or abandon the rearmament of West Germany. An announcement of troop cuts in East Germany would have a particularly dramatic effect if made during Adenauer's negotiations in Moscow
+- original #2 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 Sept 55 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=6 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,135 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.702500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.583452
+kept_candidate_count=3
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. EGYPT HALTS HIRING ON NEW SUEZ PILOTS
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. USSR REPORTEDLY WARNS ISRAEL OF "SERIOUS CONSEQUENCES" IN ATTACKS ON JORDAN (page 4). 3. SUEZ CRISIS ADVERSELY AFFECTING BLOC TRADE WITH CHINA (page 5). 4. DEATH OF NICARAGUAN PRESIDENT
+Token count: 30
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 8). * * * * THE ARAB-ISRAELI SITUATION
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 6
+- original #2 segment 1: noncontent_keyword
+  Text: page 7
+- original #3 segment 2: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 1. EGYPT HALTS HIRING OF NEW SUEZ PILOTS Comment The Egyptian authorities have announced that over 200 pilots, about the same number as were available before nationalization, are now in Egypt. Of this number, 120 are described as trainees, and 89 are said to be "fully trained." However, by no means all of this latter group are qualified to take large ships through the canal. The first group of new foreign pilots, including Soviet personnel, reportedly will take their qualifying examinations on 10 October. No backlog of shipping has yet been created at the canal, but the level of traffic remains about 10 ships per day lower than before nationalization
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 2. USSR REPORTEDLY WARNS ISRAEL OF "SERIOUS CONSEQUENCES" IN ATTACKS ON JORDAN Comment This strong approach to Israel, if accurately reported, emphasizes Moscow's desire to keep the Arab-Israeli dispute from flaring up during the Suez negotiations. During the last two weeks, Soviet propaganda has shown a strong pro-Arab bias in its reporting on Arab-Israeli border incidents. Radio Moscow on 21 September pointed to the dangers of Israeli "provocations" against Egypt and other Arab states in the event of war over the Suez crisis
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.245950
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: SUEZ CRISIS ADVERSELY AFFECTING BLOC TRADE WITH CHINA Comment As of 12 September at least nine non-bloc freighters normally involved
+- original #7 segment 1: full_page_or_admin
+  Text: the China trade had been withdrawn from charter operations involving a Suez transit. Such vessels, mainly British, carried approximately 25 percent of bloc shipments to China in 1955. An even greater proportion of Chinese shipments to Eastern Europe is carried in chartered non-bloc ships. Peiping's dependence on these vessels has grown this year as bloc ships on Far East trade routes are becoming increasingly involved in carrying cargoes under barter agreements with South Asian countries
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 4. DEATH OF NICARAGUAN PRESIDENT Comment on: Nicaraguan president Somoza's death on 29 September may have international repercussions in Central America. The gun used by the assassin is reliably reported to have been purchased by a prominent Nicaraguan exile who is linked to an anti-Somoza revolutionary group which may have close ties with Costa Rican president Figueres. Figueres, implicated in an earlier attempt against Somoza, have conferred in early September with leading Central American exiles in Mexico, including a Nicaraguan. If evidence is found--or manufactured--to link the assassination with Figueres, the Nicaraguan government can be expected to react strongly, possibly to the extent of instigating an attempt on Figueres. In El Salvador, general hatred of Somoza may hinder investigation of the assassin's contacts there. In Nicaragua, Somoza's death will lead to a long period of political uncertainty and, possibly, violence. His 34-year old son, Luis has been confirmed by congress as president for the balance of his father's term ending next May. It is unlikely that he can rule with as strong a hand as did his father. If he tries, he will probably be overthrown by the National Guard, Nicaragua's efficient army, which will now probably assume a decisive role as political referee. His brother, Colonel Anastasio Somoza, Jr., the impulsive 32-year-old director of the National Guard, is hated by many officers and his removal may be demanded as a condition for continued guard support of the government
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=5 unred_source_page=8
+alignment_score=0.974046
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=0.964948
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=10
+alignment_score=0.121914
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 30 September) UN truce chief General Burns appears to be very pessimistic about the Israeli-Jordan border situation. Burns told the American consulate general
+- original #10 segment 1: full_page_or_admin
+  Text: Jerusalem on 28 September that his meeting with Israeli foreign minister Meir had been entirely fruitless, and that Israel seemed to him to have a "contemptuous disregard" for the UN truce machinery and for the interests of other powers in the stability of the area. Burns thought Israeli prime minister Ben-Gurion was falling increasingly under the influence of his army chief of staff, who is a leading proponent of forceful action in Israeli-Arab relations. As for Jordan, Burns doubted that the authorities would be able to control their border personnel, who are in large part "primitive" national guard types rather than the "well trained and disciplined personnel" called for by the area commanders' agreement of April 1955. Burns also said that at the height of the incident on the night of 25 September, Jordanian chief of staff Nuwar sent him "ridiculous" messages stating that Burns should don Jordanian uniform and proceed to the scene of action in order to "get the feel of the situation." The American embassy in Amman reports that virtually all Jordanians are still gratified by the "beating" which Arab propaganda claims the Jordanian forces have given the Israelis. The embassy believes that at least in West Jordan a truer description of the events of 25-26 September will pass by word of mouth and will produce increased bitterness among the population against the army and the high command. This reaction may in turn have an effect on the position of Chief of Staff Nuwar and even on Five Egyptian military cargo planes arrived in Amman on 28 September, and eight more were reported due to arrive the same day, with small and "medium" arms for
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #11, segment 1)
+Text: Jordan's national guard. The American embassy notes that these shipments are almost certainly part of Egypt's effort to counteract the impression that Jordan must rely on Iraqi help to defend itself against Israel
+Token count: 33
+Recut: none

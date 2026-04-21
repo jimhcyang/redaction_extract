@@ -20,7 +20,7 @@ def main() -> None:
     parser.add_argument("--unredacted_dir_name", default="unredacted_pdfs")
     parser.add_argument("--pair_key", default=None, help="Run exactly one pair key")
     parser.add_argument("--max_pairs", type=int, default=None, help="Optional cap on selected valid pairs")
-    parser.add_argument("--model", default="gpt-5", help="OpenAI model name")
+    parser.add_argument("--model", default="gpt-5.4-mini", help="OpenAI model name")
     parser.add_argument("--skip_existing", action="store_true", help="Skip existing outputs where possible")
     parser.add_argument("--keep_uploaded_files", action="store_true", help="Do not delete uploaded OpenAI file objects after use")
     parser.add_argument("--prompt_file", default=None, help="Optional text file overriding the default transcription prompt")

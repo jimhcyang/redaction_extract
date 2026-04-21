@@ -1,0 +1,237 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.490000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.936066
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 3. USSR: Cruise-type missiles tested by Soviet Navy
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 5. Brazil: Quadros wants to meet President Kennedy outside US. (Page iv
+Token count: 12
+Recut: none
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 1. Laos
+- original #1 segment 2: noncontent_keyword
+  Text: Page 1
+- original #2 segment 1: noncontent_keyword
+  Text: Page 4
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: NORTHERN LAOS GOVERNMENT KONG LE - PATHET LAO KONG LE - PATHET LAO AREAS ROAD TRAIL ROUTE NUMBER
+- original #4 segment 2: noncontent_keyword
+  Text: 28 Apr 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #4 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.243860
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 28 April 1961 DAILY BRIEF
+- original #5 segment 2: full_page_or_admin
+  Text: Laos: The Pathet Lao reportedly have rejected General Phoumi's proposal that cease-fire negotiations begin today
+- original #6 segment 1: full_page_or_admin, noncontent_keyword
+  Text: Luang Prabang, and have repeated their suggestion that the talks be held in Xieng Khouang town. Vientiane subsequently issued a declaration calling for a cease-fire to become effective at noon on the same date. In an effort at compromise, the Boun Oum government plans today to attempt an informal contact with the Pathet Lao in the Vang Vieng area to establish the time and place for future discussions. Meanwhile, Laotian and foreign dignitaries, including Prince Sihanouk, are converging on Luang Prabang for the funeral ceremonies for the late King. Thus far, there has been no definite word as to whether Sou- vanna Phouma and Pathet Lao representatives will atten No major military developments have been reported, but Communist pressure on government positions continues. Soviet and North Vietnamese flights from Hanoi into Laos on 27 April included one LI-2 flight to Xieng Khouang and three LI-2 flights to Phong Saly. Air operations scheduled for 28 April include the flight of fi Xieng Khouang and return. (Backup, Page 1) (Map) The Watch Committee in a special meeting on 27 April examined the status of bloc military forces in relation to a possible overt bloc military intervention in Laos, and issued the following statement: We have re-examined the military situation in Laos, North Vietnam, and Communist China in relation to the recent Communist military operations in Laos and see no development which would suggest any direct intervention by outside Communist forces at this time. We have examined the move between 18 and 22 April of 20 probable IL-28s from North to South China, and while this would place them in a better position for operations in Laos, we
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: feel that these aircraft would have to deploy further to be effective in any Laotian operation. We also feel that had the move been intended for operations in Laos, the deployment would have been made more direct and to air bases more suitable for strikes against Laos or naval forces. No other military movements related to Laos by either Communist ground or naval forces outside of Laos have been discerned. It is to be noted, however, that Communist forces have a capability of intervention with little or no warning
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Apr 61 DAILY BRIEF
+- original #7 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.417433
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #8, segment 1)
+Text: EQUATEUR KIVU
+Token count: 2
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Kaloni
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.912670
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #10, segment 1)
+Text: USSR: The Soviet Navy has conducted tests of cruise-type missiles in an area off the coast of the Southern Maritime District in the northern Sea of Japan since early January. nine missiles have been launched since 2 January. Two of these were failures; the other seven traveled a distance of about 225 n.m. at speeds between 700-750 knots and at altitudes between 1,000-3,300 feet. a new submarine of undetermined class--pendant 608--launched the first of the missiles in this series on 2 January 1961. Two missiles were launched apparently simultaneously on both 16 and 26 April, and an additional four missiles--two of which aborted--were launched within eight minutes on 16 April. Although submarine 608 was in the launch area on both days, conclusive identification of the ship or ships launching these eight missiles has not been made
+Token count: 143
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Shumshere
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.942208
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #5 (original #13, segment 1)
+Text: Brazil: President Quadros is apparently seeking a meeting with President Kennedy outside the United States. At his meeting with President Frondizi on 21-22 April it was suggested that the approaching conference of the Inter-American Economic and Social Council, which is to discuss the Alliance for Progress, be held in Uruguay and that President Kennedy be invited to attend. Brazilian Foreign Minister Arinos indicated to Ambassador Cabot on 26 April that a meeting between the US and Brazilian Presidents might prove helpful on the Cuban question
+Token count: 85
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: Backup
+- original #13 segment 2: noncontent_keyword
+  Text: Backup, Page 6
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: Situation in Laos North of Phou Khoun junction, on Route 13, enemy artillery and mortar fire continues to harass government troops occupying blocking positions on the southern approach to Luang Prabang. However, ground reconnaissance revealed the arrival in this area by 26 April of a 20-truck enemy convoy, and the local government commander is expecting an imminent attack. probably the same convoy of 20 vehicles--including two-and-one-half-ton trucks and armored cars--heading west along Route 7 from the Plaine des Jarres. Below Vang Vieng, shelling of the government battalion just north of the Nam Lik continues, and there are some indications that the enemy will attempt a flanking movement. North of Luang Prabang, the former garrison force at Muong Sai is withdrawing southwest from that post without apparent enemy pursuit. However, the enemy force, estimated at three battalions with artillery and mortar support, is considered capable of advancing virtually unopposed toward Luang Prabang at any time of its choosing. MAAG personnel evacuated from Muong Sai report that the accuracy and timing of the enemy artillery, mortars, and heavy weapons during the attack indicated that highly trained troops were involved. In the Pak Sane area, the enemy has undertaken small-scale probing attacks on Borikhane. receipt of requested supplies dropped from nine Soviet aircraft on 25 April. The items received included rice, flour, canned goods, cloth, medicine, radio batteries, and nearly a thousand each of combat uniforms, shorts, and pairs of boots. Although requests for weapons and ammunition had been included such items were not mentioned as received. information needed to prepare plans for negotiations lists the areas held by Vientiane and Kong Le - Pathet Lao forces, respectively, in the provinces of Phong Saly, Luang Prabang
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: Nam Tha, and Sayaboury. Positions listed as occupied by Vientiane forces were as follows: Luang Prabang Province--Luang Prabang and Muong Sai (since captured); Nam Tha Province--four small towns; Sayaboury Province--four small towns. All remaining areas, including all of Phong Saly Province were claimed to be controlled by anti-Vientiane forces. Soviet Deputy Foreign Minister Pushkin on 25 April indicated the USSR's displeasure with the UK's announcement following the joint cease-fire appeal that it would not attend the conference without prior verification of an effective cease-fire. Pushkin's remarks apparently were designed to lay the groundwork for placing the blame on the West for any postponement or collapse of the Geneva conference scheduled to begin on 12 May. The Soviet official reiterated Moscow's position that only the Laotians themselves could work out cease-fire arrangements and that this was not the responsibility of either the UK or the Soviet Union. Communist propaganda is already seeking to place on the US and Vientiane the onus for any failure to reach a truce in Laos. Hanoi on 27 April quoted a Pathet Lao radio charge that the Phoumi - Boun Oum forces have "launched new attacks" and that the Vientiane government does not really want a cease-fire. Hanoi also quoted Khamsouk Keola, acting premier of the Xieng Khouang "government," as warning that in the face of defeat the "US and its followers" have called for negotiations to gain time to "consolidate their forces and launch a new attack." Enlarging on the Peiping government's statement of 26 April, a People's Daily editorial commented on the "aspects" involved in "bringing about" a cease-fire. The Chinese called for a "check" on assistance to Phoumi, the withdrawal by the US and its allies of all military personnel and equipment in Laos, and the expulsion of the Chinese Nationalist irregulars. Insisting that a cease-fire can "only" be achieved through negotiation between the "parties concerned," the Chinese indicated that the prospects for a cease-fire would depend on the attitude of the Vientiane authorities. Although Chinese Communists did not label these "aspects" as explicit conditions for a cease-fire, they clearly regard them
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=8 unred_source_page=12
+alignment_score=0.122120
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: as legitimate points for consideration
+- original #17 segment 1: full_page_or_admin
+  Text: cease-fire negotiations. They afford the Communists excellent gambits for delaying an effective truce while the military situation continues to develop in their favor. Representatives of India, Canada, and Poland delegated to serve on the reconvened International Control Commission for Laos began assembling in New Delhi for their first formal meeting on 28 April. During preliminary exchanges on 27 April, differences apparently arose immediately over the same issues which hamstrung the commission prior to its adjournment in July 1958. Free movement of truce inspectors within rebel-held territory continues to be a key question, with the Canadian and Polish representatives taking strongly opposing positions based on their past experience in ICC negotiations. New Delhi has reappointed Samarendranath Sen, former ICC representative in Laos and currently high commissioner in Australia, as Indian member. While Sen is reputed to be an intelligent and capable official, he is inclined to be rigid and legalistic in adhering to the official Indian Government line; in his role as chairman of the commission, often playing a mediatory role, Sen probably will tend to equate the positions of the two sides in the Laotian conflict supported by the bloc and by the West, respectively, and to avoid taking sharp issue with either
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=10 unred_source_page=14
+alignment_score=0.979474
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #18, segment 1)
+Text: Nehru has maintained contacts with the exiles via his own Intelligence Bureau and through leaders of the Indian Praja Socialist party, who are old Nehru colleagues and historically close to the Nepali Congress party leadership
+Token count: 35
+Recut: none
+
+Clean Chunk #7 (original #19, segment 1)
+Text: One report indicates that
+Token count: 4
+Recut: none
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=11 unred_source_page=15
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: Brazilian President Pursues Noncommittal Foreign Policy Quadros has previously indicated that he believes a moderate loosening of Brazil's traditionally close ties with the United States would help him increase his own and his country's international power position. Quadros is apparently pursuing this objective in expressing interest in meeting President Kennedy but unwillingness to visit the United States. President Frondizi says he told Quadros during their meeting on 21-22 April that the Brazilian President could not continue his unpredictable foreign policy declarations without consulting friends. He said he told Quadros that such actions might win him some domestic political support for one or two years but would alienate the friends who had the resources to help him rebuild Brazil's economy. Quadros finally agreed, according to Frondizi. The joint communique affirmed their joint stand in "repelling the direct or indirect interference of extra-continental factors" in the western hemisphere. Brazilian observers, including those who are close to Quadros' advisers, describe the joint declaration as strongly pro-Western and say that it reflects primarily the views of Frondizi, particularly on the Cuban question. In an apparent effort to maintain an equivocal position on Cuba, Quadros issued well-publicized instructions to the Brazilian UN delegation to vote for a pro-Castro Mexican resolution on the landings in Cuba and for a Brazilian addition calling for an investigation of their character and origin. Uruguayan President Haedo has endorsed the Brazilian-Argentine suggestion for the meeting of the Inter-American Economic and Social Council and has expressed the hope that it can be postponed from its tentatively suggested June or July scheduling to coincide with the Uruguayan national holiday in August. The Brazilian Embassy in Washington reported on 24 April that it had the impression that President Kennedy would like to attend the meeting personally but that he is "in favor of holding it in Rio de Janeiro
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=12 unred_source_page=16
+alignment_score=0.976056
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=13 unred_source_page=17
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: noncontent_keyword
+  Text: 28 April 1961 Copy No. C CENTRAL INTELLIGENCE BULLETIN

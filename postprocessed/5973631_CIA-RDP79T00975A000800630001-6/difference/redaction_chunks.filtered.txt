@@ -1,0 +1,77 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.900000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.920177
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 3. Enemy to continue heavy attacks in western Korea during October (page 4). NEAR EAST - AFRICA 5. Mossadeq argues that Iranian Communists are indigenous
+Token count: 24
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.987710
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Attache
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: There have been no recent reports indicating that Chinese Communists are sending paratroops to Manchuria. 3. Enemy to continue heavy attacks in western Korea during October: three regiments of the Chinese 116th Division were scheduled to "counterattack" certain terrain features in western Korea "in the first part of October." Comment: These scheduled attacks apparently have as their objective key terrain features, including "Kelly Hill," presently held by UN forces in the west. the assumption that recently intensified Communist operations at the front are limited in their objectives. SOUTHEAST ASIA
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.322778
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #6, segment 1)
+Text: NEAR EAST - AFRICA 5. Mossadeq argues that Iranian Communists are indigenous: Communism had not been brought into Iran from the outside, but had been caused by widespread poverty within the country. Iran has few ideological Communists, Even the Tudeh leaders are not real Communists; some are "connected with the British" and others are paid agents. The only way to eliminate indigenous Communists is to eliminate want
+Token count: 66
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.987398
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #7, segment 1)
+Text: the date
+Token count: 2
+Recut: none

@@ -1,0 +1,152 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.702500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.767273
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. SAUD SEEKS TO REASSURE KING HUSSAYN ON DAMASCUS VISIT
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 4. DISSIDENT INDONESIAN LEADERS REPORTEDLY COORDINATING PLANS
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #2 segment 3: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.936447
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: Comment on
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government's
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: efforts
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: agricultural
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Bourges-Maunoury's
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: circumstance
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.880242
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reportedly
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: opposition
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Rene
+- original #12 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Rene Billeres
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: representatives
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: 2. SAUD SEEKS TO REASSURE KING HUSSAYN ON DAMASCUS VISIT King Saud sought to reassure Jordan's King Hussayn regarding the purposes of Saud's visit to Damascus. Saud explained he had asked Syrian officials to treat his stay as "personal," not official, and said he hoped it might be "of some good in persuading the extremists to modify what they are doing, limiting their excesses and bringing about good behavior, if we can do that." The King also said he hoped to show the Syrians "the right way so that Communism will not penetrate into the Arab countries." Comment The communique issued by Saud when he left Damascus on 26 September, stating that "Syria can never in any case constitute a danger to any of its neighbors," is being acclaimed by the Syrian and Egyptian press as a major defeat for American policy. Whatever the real intentions of Saud and Iraqi Prime Minister al-Ayyubi, the immediate effect of their visits in Damascus has been to lend prestige to the Syrian regime and to make the Jordanian government appear more isolated
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.933750
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: protection
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: 4. DISSIDENT INDONESIAN LEADERS REPORTEDLY COORDINATING PLANS Dissident regional commanders in Indonesia have drawn up a joint plan for further opposition to the central government. They plan to call on Djakarta to proclaim a national anti-Communist policy and dismiss army chief Nasution. The dissident groups have agreed on mutual military assistance in the event of an attack by Djakarta against any one of them. Lt. Col. Hussein of Central Sumatra will use his current visit to East Indonesia to coordinate these plans with Lt. Col. Sumual, the dissident leader in that area. Comment There have been increasing indications that the recent national round-table conference called by Sukarno to compose the differences between Djakarta and the provinces may, in fact, have hardened the dissidents' attitude toward the central government. Hussein has been particularly outspoken in this regard, saying that the conference was only "for show." Coordination among the scattered opposition commanders heretofore has been spotty, but recent reports indicate that they are unified in their determination to extract significant concessions from Djakarta
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.894553
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #3 (original #23, segment 1)
+Text: These arrests have been ordered by Nasution without President Sukarno's knowledge
+Token count: 11
+Recut: none
+
+Excluded candidates:
+- original #19 segment 1: noncontent_keyword
+  Text: Comment on
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Indonesian
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: modifying
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: command
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: military
+
+========================================================================
+[PAGE 10]
+kind=red_only red_source_page=9 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

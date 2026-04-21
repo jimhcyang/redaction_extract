@@ -1,0 +1,183 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.919355
+kept_candidate_count=3
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. SOVIET OFFICIAL WARNS IRAN AGAINST NEW US MIDDLE EAST POLICY
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. ASSASSINATION OF IRAQI PRIME MINISTER REPORTED PLANNED (page 4). 3. QATAR OIL FACILITIES STILL POSSIBLE SABOTAGE TARGET
+Token count: 18
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 2)
+Text: 6. EGYPTIAN FOREIGN MINISTER REPORTS "UNREST" IN ARMY CIRCLES
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #3 segment 3: noncontent_keyword
+  Text: page 8
+- original #4 segment 1: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 1. SOVIET OFFICIAL WARNS IRAN AGAINST NEW US MIDDLE EAST POLICY Stating that current Middle Eastern problems were created not by the Soviet Union but by the British-French operations in Egypt, the Middle Eastern countries are "independent nations aware of their own affairs" and know that the USSR has no aggressive intentions. Comment Similar Soviet diplomatic approaches probably will be made to most other countries in the area. Soviet propaganda has insisted that no vacuum exists which the Middle Eastern countries themselves cannot fill working through the UN and that the unilateral American declaration is an attempt to establish American military trusteeship
+- original #5 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 4 Jan 57 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.245584
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: ASSASSINATION OF IRAQI PRIME MINISTER REPORTED PLANNED The Communists are reported planning a campaign of strikes and demonstrations against Nuri during which demands will be made for withdrawal from the Baghdad pact and the release from prison of Kamil Chadirchi, head of the opposition National Democratic Party. Comment There have been other reports that opposition elements
+- original #7 segment 1: full_page_or_admin
+  Text: and outside of Iraq have been planning to assassinate Nuri, but there have been no reports of any actual attempts on Nuri's life. The Cairo press reported on 3 January that an "Iraqi government-in-exile" is being formed in Damascus with Chadirchi as titular head
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 4 Jan 57 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.124156
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 3. QATAR OIL FACILITIES STILL POSSIBLE SABOTAGE TARGET Comment on: Egyptian agents sabotaged Qatar oil facilities
+- original #9 segment 1: full_page_or_admin
+  Text: early November and again on 21 December. Qatar oil operations are conducted by a subsidiary of the Iraq Petroleum Company, which is owned by British, French, Dutch and American interests
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 4 Jan 57 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.960569
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: outright
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: intends
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: plebiscite
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: support
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: difficult
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.953754
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: apparently
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: efforts
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Sumatrans
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: commanders
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: delegations
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: 6. EGYPTIAN FOREIGN MINISTER REPORTS "UNREST" IN ARMY CIRCLES it was "apparent" that there was "unrest" in the Egyptian army. while President Nasr formerly visited the army divisions he now seldom calls on the army and in fact "visits hardly anyone." Hussein responded that one of his colleagues had heard a broadcast to the effect that army commander in chief Amer and certain other generals now in a majority in "the Revolutionary Command Council" favored "a treaty with the USSR" but were opposed in this by Nasr. Comment Recriminations among officers of the Egyptian forces have been reported frequently since the Egyptian military debacle in Sinai. Strong differences of opinion among Nasr's military supporters, who formerly composed the Revolutionary Command Council, have not been unusual in the past, but there has been no good evidence that such disagreements have gone further than debate
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 4 Jan 57 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.937323
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reintervention
+- original #22 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: antigovernment
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: January
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: before
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: declined
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: full_page_or_admin
+  Text: 8. RUMANIAN COMMUNIST PARTY CALLS FOR REVISION OF ECONOMIC PLANS IN FAVOR OF CONSUMER The 30 December communique of the Rumanian Workers Party central committee calls for a major overhaul of the economy in order to increase agricultural and consumer goods output, according to the American legation in Bucharest. Expansion of heavy industry, particularly basic raw materials and fuels, will continue, but at a slower pace than before. Wages of most industrial workers are to be increased by about 15 percent. Compulsory delivery quotas for most agricultural commodities are to be abolished. Peasants are to be allowed considerable freedom in selling their produce either on the private market, to co-operatives or to the state. The legation comments that the communique's emphasis on the need to improve living standards is an attempt by the regime to curry favor with the population, and "if actually put into practice, the communique throws out a large part" of Rumania's Five-Year Plan. Comment The extent of changes in the economic plans required by this communique cannot yet be determined. Similar announcements of economic changes in the other Satellites may be forthcoming. In response to events in Hungary and Poland, the USSR is now carrying out a tougher political line toward the Satellites and reasserting strong direction over the Satellite Communist parties. It probably hopes that re-emphasis on a soft economic line within the Satellites, coupled with accelerated Soviet economic aid, will counterbalance any adverse effects of its new political line
+- original #26 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 4 Jan 57 Current Intelligence Bulletin Page 10

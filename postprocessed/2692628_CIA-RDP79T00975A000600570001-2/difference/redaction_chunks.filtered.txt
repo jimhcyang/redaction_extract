@@ -1,0 +1,99 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.709416
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SEC INFORMATION
+Token count: 2
+Recut: none
+
+Clean Chunk #2 (original #2, segment 1)
+Text: COPY FR 52
+Token count: 3
+Recut: none
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.931731
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #4, segment 1)
+Text: SOVIET UNION 1. High level of air activity continues in Chukotsk area
+Token count: 12
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #5, segment 1)
+Text: 6. Italians consider American attitude at London talks on Trieste unfriendly
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 2: noncontent_keyword
+  Text: page 3
+- original #5 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.907849
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #6, segment 1)
+Text: SOVIET UNION 1. High level of air activity continues in Chukotsk area: the high number of air transport flights from the Khabarovsk-Nikolayevsk area to Povarny Krestik, unprecedented along this route, continued through 26 April. Between 21 and 26 April, a total of 281 flights was noted. (See Map) Comment: Although the purpose and significance of this activity cannot as yet be determined, the number of flights and pattern of activity suggest a shuttle-type operation, possibly intended to provide logistical support for a redeployment of Soviet air units to the Chukotsk area. It is also possible that the aircraft may have been transporting supplies for some unidentified military or economic activity in the area
+Token count: 113
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.942381
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #7, segment 1)
+Text: Comment: Kashani's remarks appear to be part of the government's effort to stimulate American aid by arousing United States alarm. The government itself, however, is unlikely to initiate an anti-American campaign as long as it has hopes of procuring financial assistance from the United States. Iranian officials are currently promoting the belief that the recent exchange of notes on American military aid foreshadows increased United States aid of all kinds
+Token count: 70
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Peurifoy
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.988356
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.899193
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #9, segment 1)
+Text: Italians consider American attitude at London talks on Trieste unfriendly: Premier de Gasperi considers that the American delegation to the London talks on Trieste is showing an unfriendly attitude toward Italian desires and exercising "a negative influence on the better disposed British," the serious reaction in Italy and "repercussions to the detriment of European integration itself" that would result unless the United States and Britain agreed to greater Italian participation in the administration of Zone A of Trieste. Comment: This is the first official expression of Italian bitterness toward the United States over the Trieste issue. The Italians have heretofore consistently accused Britain of disregarding their interests in the area and have shown particular hostility toward the British military commander of Zone A
+Token count: 123
+Recut: none

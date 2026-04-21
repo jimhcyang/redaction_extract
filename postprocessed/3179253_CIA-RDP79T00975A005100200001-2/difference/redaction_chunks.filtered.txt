@@ -1,0 +1,110 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.681429
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 68
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.123024
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 24 MAY 1960 I. THE COMMUNIST BLOC II. ASIA-AFRICA Demonstrations by Japanese extremists against Kishi and treaty with US continue, but no large-scale public reaction yet apparent. Cambodian Prince Sihanouk voices strong criticism of US, praise of Communist China. Saudi Prince Faysal reportedly delays trip abroad because of Saud move to re-assert domination of government. King to rule Morocco personally following his dismissal of Ibrahim government. Statements by leftist Congolese leaders raise some possibility of an African attempt to seize political power
+- original #3 segment 1: full_page_or_admin
+  Text: northern Congo; Belgian security forces appear sufficient to suppress such action
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.977108
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #5, segment 2)
+Text: Saudi Arabia: King Saud's initial move last week in an effort to reassert his domination over the Saudi Government has caused Crown Prince Faysal to delay his scheduled departure for medical treatment in Europe
+Token count: 34
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: Page 1
+- original #5 segment 1: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.963905
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #6, segment 1)
+Text: Pro-Faysal members of the Council of Ministers reportedly have submitted resignations in a gesture of protest against Saud's pressure and are trying to consolidate a bloc of key government officials and influential senior princes in opposition to the King
+Token count: 39
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attaches
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.989824
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens
+  Text: III
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

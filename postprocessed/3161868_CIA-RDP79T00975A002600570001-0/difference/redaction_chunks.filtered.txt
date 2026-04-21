@@ -1,0 +1,146 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.749289
+kept_candidate_count=2
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #1, segment 5)
+Text: 3. THE CHINA-BURMA BORDER SITUATION
+Token count: 5
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 9). * * * * THE ARAB-ISRAELI SITUATION
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 1. SUEZ DEVELOPMENTS
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword, short_span_min_tokens
+  Text: 2
+- original #1 segment 4: noncontent_keyword
+  Text: page 4
+- original #1 segment 6: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: page 8
+- original #3 segment 2: noncontent_keyword
+  Text: page 10
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 1. SUEZ DEVELOPMENTS Comment on: The Egyptian statement commenting on the Western communique on the Suez situation suggests that Nasr's tactic now is to play for time until there are clearer-cut indications of the amount of support Egypt will receive from other Arab states, such countries as India and Ceylon, and the USSR. The principal point of interest in the statement is a cautious assertion that "a compromise between Egypt's interests and use of the canal as an international waterway should not be ruled out." This phrasing still leaves open the question as to how the compromise should be reached. Nasr appeared to be "wavering slightly" in the face of continued bellicose reports from London and Paris. there is now some chance that Nasr might accept an international commission, including the USSR and Egypt, to oversee the freedom of transit of the canal. Arab support will be rallied at a meeting of the Arab League scheduled for 7 August. Saudi Arabia, which because its oil moves through Suez is one of the most interested Arab parties, has not issued a public statement
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.245584
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: THE CHINA-BURMA BORDER SITUATION There are, moreover, strong grounds for suspicion that the clashes referred to by the press actually took place some time ago. The Burmese government clearly is not displeased with the extensive play the "invasion" story is receiving
+- original #6 segment 1: full_page_or_admin
+  Text: the Western press. This is indicated by its carefully worded communiqué of 31 July which, while stating that the Rangoon Nation's article was overdrawn, admitted the government's serious concern over Chinese Communist incursions. In the past, Rangoon has dealt far more severely with the press for far less provocative journalism. Thus far, Peiping has maintained complete silence on the issue. The publicity in the Burmese press has
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #7, segment 1)
+Text: undoubtedly discomfited Peiping, which has made special efforts to win Burma's good will. Communist China, however, will insist strongly on its own claims in any discussion with the Burmese
+Token count: 29
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=5 unred_source_page=8
+alignment_score=0.961013
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Souphannouvong
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Souphannouvong
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=0.953741
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=10
+alignment_score=0.959552
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Shuqayr
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.122306
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 3 August) Israeli press reaction to the Suez Canal nationalization now reflects a fear that big-power determination to achieve an orderly settlement within an international framework will only enhance Nasr's prestige and shake the remaining Western positions
+- original #12 segment 1: full_page_or_admin
+  Text: the area, with further impairment to Israel's security. While Egypt has prevented Israeli ships from using the Suez Canal since the beginning of the Arab-Israeli war in 1948, it does permit passage through Suez of non-Israeli vessels carrying "nonmilitary goods" of Israeli origin if they are not destined for an Israeli port. Vessels trading with Israel are blacklisted and are not permitted to refuel or reprovision in Egypt has ordered the transfer of two three-inch coast defense guns from El Arish near the Israeli front to Port Said in the canal zone. This is the first firm indication of withdrawal of equipment from the Israeli front to the canal zone. News of the Suez Canal nationalization has taken some of the tension off the Israeli-Syrian border
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,122 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.926056
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. YEMEN ACTS ON SOVIET SUGGESTION TO BRING BRITISH "AGGRESSION" BEFORE SECURITY COUNCIL
+Token count: 13
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 4. BONN CONCERNED OVER INVOLVEMENT IN ANY EAST GERMAN REVOLT
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 3: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+- original #5 segment 1: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #6, segment 1)
+Text: 1. YEMEN ACTS ON SOVIET SUGGESTION TO BRING BRITISH "AGGRESSION" BEFORE SECURITY COUNCIL
+Token count: 13
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.994737
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: locally
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.995574
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: Comment on
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 4. BONN CONCERNED OVER INVOLVEMENT IN ANY EAST GERMAN REVOLT West German defense minister Strauss and two top generals, Heusinger and Speidel, told members of the Fairless Committee that although a serious uprising in East Germany would present Bonn's army with a difficult problem, only NATO action could be considered, since independent action by German forces would be suicidal. Strauss told one member of the committee, however, that in the event of a Hungarian-type uprising, Bonn would give "all possible help" to those seeking to overthrow the Communist regime. He added that the government would not be satisfied with merely reuniting Germany but would seek to re-establish Polish boundaries at the Curzon line. Comment - Strauss frequently makes extreme statements without official backing. The Curzon line was the 1919 boundary between Russia and Poland. Strauss apparently wants Germany to regain all the territory it lost to Poland after World War II and to compensate Poland by restoring its territory taken by the Soviet Union. The Bonn Foreign Ministry expert on East Germany does not believe a revolt is likely to occur at this time. Should it occur, Bonn would probably not intervene openly and would attempt to check irresponsible elements of the West German population
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.998565
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=red_only red_source_page=9 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

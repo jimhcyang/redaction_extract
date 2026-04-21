@@ -1,0 +1,74 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.769853
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens
+  Text: S
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 5
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.922222
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #3, segment 1)
+Text: NEAR EAST - AFRICA 1. Egyptian attitudes on defense augur more trouble for MEDO
+Token count: 13
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #5, segment 1)
+Text: 4. High-level French reports on Indochina expected to be critical
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: page 3
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 2
+- original #5 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.930769
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #6, segment 1)
+Text: NEAR EAST - AFRICA 1. Egyptian attitudes on defense augur more trouble for MEDO: The question of arms from the United States, as well as British evacuation of the Suez Canal zone, must be settled before Egypt will consider the problem of Middle East defense, according to Egyptian Foreign Minister Fawzi. Comment: Egyptian insistence on military equipment from the United States prior to discussion of Middle East defense might block present plans for MEDO. Egypt's interest in a regional defense system predominantly under local control can also be expected to cause continued difficulty for the MEDO concept
+Token count: 96
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.994924
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens
+  Text: for
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 4. High-level French reports on Indochina expected to be critical: Reports on Indochina by Marshal Juin and two French National Assembly deputies who have recently returned from that area are expected to be pessimistic and critical of the French administration there. Comment: Juin believes that the Indochina military situation has definitely but not decisively improved over two years ago. The report by one of the deputies, Paul Devinat, is expected to be critical not only of the lack of dynamism of French policy but also of High Commissioner Letourneau. According to the press, the other deputy involved, Paul Reynaud, has been highly critical of the Vietnamese attitude toward the war

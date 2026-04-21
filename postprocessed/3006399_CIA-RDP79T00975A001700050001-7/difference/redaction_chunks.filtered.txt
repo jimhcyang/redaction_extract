@@ -1,0 +1,92 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.385106
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.767947
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: FAR EAST 2. Japanese foreign minister sees policy toward Orbit unchanged
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: EASTERN EUROPE 6. Bloc petroleum shipments to Bulgaria curtailed as exports to the West expand
+Token count: 15
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: 3. SOUTHEAST ASIA 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.873398
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: FAR EAST 2. Japanese foreign minister sees policy toward Orbit unchanged: Foreign Minister Okazaki denied that Japan was planning to modify its policy toward Communist China and the USSR as a result of the Indochina truce. Okazaki stressed the absence of any fundamental change in the Soviet and Chinese Communist policy toward Japan and cited Peiping's seizures of Japanese fishing vessels, its support of the Japan Communist Party, and the existence of the Sino-Soviet Treaty. Okazaki warned against a peace offensive along cultural and economic lines to split Japan from the free world. Comment: Despite Okazaki's assurances, Japanese leaders are reported impressed with Peiping's new power position as a result of Geneva, and will probably now be more receptive to Peiping's gestures
+Token count: 122
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: 3. SOUTHEAST ASIA 4
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.963636
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.723547
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #6, segment 1)
+Text: Bloc petroleum shipments to Bulgaria curtailed as exports to the West expand: Bulgarian imports of petroleum products from Rumania, normally the supplier of most of Bulgaria's requirements, have been sharply reduced in 1954. In February, the Soviet trade agency for petroleum refused a Bulgarian request for Rumanian diesel fuel "in spite of original promises." In the past three months, the Bulgarian importing monopoly has sought more than 45,000 tons of diesel fuel from Egypt, West Germany, France and Italy, in some cases attempting to divert diesel fuel of Rumanian origin before the shipments left Constanta. Meanwhile bloc shipments to the West have continued to expand. In the first six months of 1954, exports of petroleum products have been considerably more than double the volume of the first half of 1953. Comment: These developments reflect the key importance of petroleum sales in Western markets in the USSR's effort to pay for its expanding imports from the West. Petroleum products have replaced grain as the chief Soviet export to the West. While Bulgarian success in acquiring diesel fuel in the West is still uncertain, such transactions would involve
+Token count: 187
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: EASTERN EUROPE
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.942574
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #7, segment 1)
+Text: costs higher than normal procurement through bloc channels. Moreover, unless Bulgaria draws on existing strategic reserves, its inability to obtain the fuel in time or in the quantity required may have an adverse effect on this year's harvest
+Token count: 38
+Recut: none

@@ -1,0 +1,98 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.951351
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. Sakhalin crude oil deliveries to Manchuria increasing (page 3). 3. Chinese Communist bombers arrive at Canton in South China
+Token count: 20
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: NEAR EAST - AFRICA 6. Libya seeks financial aid and treaty from Turkey
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.952143
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 2. Sakhalin crude oil deliveries to Manchuria increasing: Comment: Total 1953 shipments from Sakhalin have been at least 200,000 tons, far more than in previous years and about one fifth of all Chinese imports of oil products. Several Manchurian refineries with a combined annual capacity of more than 300,000 tons were built by the Japanese to process imported crude oil. The use of these refineries
+Token count: 67
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.905348
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #4, segment 1)
+Text: suggests that production of crude oil on Sakhalin may be rising beyond the level that can be processed by the two refineries in the Soviet Far East. 3. Chinese Communist bombers arrive at Canton in South China: Comment: This is the first good evidence of the presence of bombers in South China. MIG-15 jet fighters of the 18th Division at Canton are the only other military aircraft known to be based in the area. It is typical Chinese Communist air force procedure, prior to mass movements of tactical units, to transfer small numbers of the units' aircraft to the new base. The entire 20th Division and the 1st Independent Regiment may thus soon be moved to South China
+Token count: 118
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.936699
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #5, segment 1)
+Text: NEAR EAST - AFRICA 6. Libya seeks financial aid and treaty from Turkey: Comment: Libya in its desire to lessen its present dependence on the Western powers has sought aid from Turkey and advice from the Arabs. Although there is no evidence that Turkey has decided its position in this matter, Ankara's policy is to assert positive leadership in the eastern Mediterranean
+Token count: 61
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Saimaa
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.996739
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: WESTERN EUROPE
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

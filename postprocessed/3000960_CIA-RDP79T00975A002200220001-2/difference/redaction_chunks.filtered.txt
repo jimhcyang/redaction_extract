@@ -1,0 +1,67 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.673295
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: EGYPT REPORTEDLY RECEIVES LARGE NUMBER OF TANKS
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.936789
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #2 (original #7, segment 1)
+Text: senti- ment
+Token count: 2
+Recut: none
+
+Excluded candidates:
+- original #2 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Turkish- Iraqi-British-Pakistani
+- original #3 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ac- cording
+- original #4 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: govern- ment
+- original #5 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: is- sued
+- original #6 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: main- tain
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 2. EGYPT REPORTEDLY RECEIVES LARGE NUMBER OF TANKS An Egyptian-flag ship arrived at Alexandria on 22 September with a cargo of four 32-ton tanks, sixteen 16-ton tanks, and about 100 12-ton tanks for the Egyptian army. The tanks appear to be German World War II models. The unloading of tanks has been con- firmed by the personal observation During the week of 19 September, two other vessels dis- charged miscellaneous army field equipment, two turbo- electric railway engines for military use, and two heavy mobile cranes at Alexandria. Comment The addition of 120 tanks would double the number of the Egyptian army's operational tanks. The country source of these tanks is not known. Egypt has contracts to receive tanks from both Britain and France--but not in this quantity. Egypt signed a five-year "open agreement" with the Soviet Union on 21 September and that Cairo's initial or- der from the USSR included 100 heavy tanks, as well as 200 jet aircraft, six torpedo patrol boats, and two sub- marines. This report stated that the first shipment of Soviet equipment had been inspected by Egyptian officers at Odessa and had already been or was about to be shipped

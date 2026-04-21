@@ -1,0 +1,245 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.320000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.997238
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.734697
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 1)
+Text: Laos. (Page i) USSR: Test vehicle, probably an ICBM, successfully launched from Tyura Tam. (Page ii
+Token count: 16
+Recut: none
+
+Clean Chunk #2 (original #5, segment 1)
+Text: ii) Japan - North Korea: Japanese restrictions on trade with North Korea lifted. (Page iii
+Token count: 14
+Recut: none
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: 22 April 1961
+- original #4 segment 1: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.126116
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: NORTHERN LAOS GOVERNMENT Forces
+- original #7 segment 1: noncontent_keyword
+  Text: contact KONG LE - PATHET LAO } control KONG LE - PATHET LAO AREAS TRAIL ROUTE NUMBER 0 50 100 STATUTE MILES
+- original #7 segment 2: noncontent_keyword
+  Text: 22 Apr 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #7 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 22 April 1961 DAILY BRIEF
+- original #8 segment 2: full_page_or_admin
+  Text: Laos: Souvanna Phouma claims that the start of a cease-fire in Laos--a possible reference to the beginning of negotiations with the Pathet Lao--will coincide with his return to Laos, presumably to Xieng Khouang, possibly on 25 or 26 April. He appears confident that the Pathet Lao will be cooperative and feels that cessation of hostilities can be arranged within a few days after an appeal by the Geneva cochairmen. Gromyko, on 20 April, told British Ambassador Roberts that the USSR and UK "should aim" for issuance of such an appeal on 22 April. Souvanna told the Canadian ambassador in Moscow that his half brother, Prince Souphannouvong, had come to Moscow at his request and that they had discussed problems connected with a cease-fire. Souvanna was optimistic over chances for putting together a coalition government before an international conference on Laos is convened, and said he thought he could prevent the Pathets from using their position in the government to take over control of the country, although "time was running out for establishing a basis for preventing this." No bloc airlift flights into Laos have been scheduled for 22 April. However, there are indications that supplies are being airlifted to the Vinh and Dong Hoi areas of southern North Vietnam, from where they could be trucked into central and southern Laos
+- original #8 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 1) (Map
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.964547
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Kalonji
+- original #10 segment 1: noncontent_keyword
+  Text: 0 400
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.920184
+kept_candidate_count=1
+excluded_candidate_count=7
+
+Clean Chunk #3 (original #11, segment 1)
+Text: USSR: A test vehicle, probably an ICBM, was launched from Tyura Tam at about 0226 GMT on 20 April. Preliminary analysis indicates that the test vehicle successfully reached the usual impact area on the Kamchatka Peninsula. This is the tenth test shot this year of probable ICBMs from Tyura Tam. Four of these were failures. The total of generally successful test ICBM launchings to date is 34
+Token count: 67
+Recut: none
+
+Excluded candidates:
+- original #12 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: build up
+- original #13 segment 1: noncontent_keyword
+  Text: Backup, Page 3
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Tshombe's
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: consulate
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Tshombe's
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Tshombe
+- original #18 segment 1: noncontent_keyword
+  Text: Backup, Page 4) (Map
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: Japan-Korea: The Japanese Government has lifted restrictions on trade with North Korea. A Japanese Foreign Ministry official told the US Embassy that Japan could not continue to be the only free world country, other than the United States, to maintain such restrictions. North Korea has sought to have these restrictions lifted for some time, and Pyongyang's propaganda has claimed that trade could be expanded considerably if Tokyo would agree to exchange--preferably on a long-term basis--certain high-priority industrial equipment for North Korean iron ore. South Korea instructed Foreign Minister Chong, now attending the UN General Assembly session in New York, to seek US pressure on Japan
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 5) 22 Apr 61 DAILY BRIEF
+- original #19 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: Situation in Laos Souvanna Phouma suggests that negotiations between representatives of the opposing sides in Laos should be held at Xieng Khouang, the location of his rump government. Vientiane is unlikely to accept this site, since acceptance would probably be portrayed by Communist propaganda as surrender to the "lawful government of Laos." Souvanna left Moscow for Peiping on 21 April and is scheduled to arrive in Hanoi on 25 April. Presumably he will visit Xieng Khouang from there and then go to Luang Prabang for the late King's funeral. He hopes to be able to visit the US in early May before a conference on Laos is held. The US Mission at Geneva has learned that a representative of the USSR's permanent delegation there has requested reservations for a 50-man delegation to participate in a conference on Laos at the "beginning of May." The Soviet official, in response to an inquiry regarding the level of Soviet representation, replied that it would be "the same as at the disarmament conference." Although the Soviet Union, in its 16 April aide-memoire, said that it assumed the conference would be conducted at the foreign ministers' level, Soviet Deputy Foreign Minister Pushkin had indicated to the UK ambassador on 5 April that the continuous presence of foreign ministers at the conference would be unnecessary. He said, however, that they should attend the opening of the conference to mark its importance. Meanwhile, a proposal by Prince Sihanouk that the conference on Laos be postponed to 12 May appears to be meeting with general East-West approval. North of Luang Prabang, a Pathet Lao company skirmished with government troops near Muong Sai on 20 April. According to the American army attaché, who visited Muong Sai on 18 April, the local Lao army commanders appeared dispirited and were convinced that an enemy attack was imminent. There were small scale clashes at several other points in Luang Prabang Province on 21 April, government forces on Route 13 north of the Phou Khoun road junction were under "heavy attack" earlier today. In central Laos
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 22 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.124554
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #22, segment 1)
+Text: Savannakhet; plans call for moving one battery to Thakhek and holding the other in reserve
+Token count: 15
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #21 segment 1: noncontent_keyword
+  Text: government forces have advanced about 18 miles east from Thakhek along Route 12 without contacting the enemy. Two Thai 105-mm. howitzer batteries have arrived
+- original #22 segment 2: noncontent_keyword
+  Text: 22 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=15
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: full_page_or_admin
+  Text: Japan Lifts Restrictions on North Korean Trade Since 1955, Japanese trade with North Korea has been conducted indirectly, principally through Hong Kong. The higher transportation costs of this triangular trade have served to limit the exchange of goods, particularly of bulk cargoes, such as iron ore, coal, and minerals, which account for most of North Korea's exports. North Korean - Japanese trade totaled about $7,000,000 in 1960. Tokyo has now placed this trade on a direct basis and in effect has abolished the compulsory barter requirement--the exchange of goods of equal value in each transaction--and substituted cash settlement. Hedging against possible US and South Korean reaction, however, Japan has required case-by-case approval for each trade contract concluded with North Korean interests. The Japanese Government's action probably is in response to a request by the Japan - North Korea Trade Association in Tokyo. This organization in January negotiated an agreement reportedly providing for the purchase of North Korean industrial raw materials valued at $14,000,000, and for the sale of Japanese products--bearings, steel bars, wire rope, automobile and tractor tires, wheat, and light manufacturing equipment--amounting to $42,000,000. Foreign Minister Chong to support his representations to US officials by arguing that the Japanese move is a violation of a 1950 UN resolution against aid to North Korea and that it "will impede the progress" of negotiations between Tokyo and Seoul for over-all settlement of their differences. Because of its own stake in maintaining commercial ties with Japan, the South Korean Government is continuing preparations for signing a new trade agreement with Tokyo
+- original #23 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 22 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=12 unred_source_page=16
+alignment_score=0.125714
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #24, segment 1)
+Text: However, reaction
+Token count: 2
+Recut: none
+
+Clean Chunk #6 (original #25, segment 1)
+Text: South Korea could be sufficiently severe to force the Chang Myon government to abandon this course in favor of a tougher policy toward Japan
+Token count: 24
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #25 segment 2: noncontent_keyword
+  Text: 22 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=13 unred_source_page=17
+alignment_score=0.976056
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=14 unred_source_page=18
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

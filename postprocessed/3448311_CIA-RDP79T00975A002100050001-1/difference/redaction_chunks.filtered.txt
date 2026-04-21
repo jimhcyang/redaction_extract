@@ -1,0 +1,79 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.674375
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 2 July 1955
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.970000
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 3. Indonesian president attempting to split army opposition
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.945488
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: Members of a United States Quaker delegation returning to Moscow in late June from Akmolinsk, deep in the "new lands" region (see map p. 4) reported dust "shoe mouth deep" on the streets. reported similar dust conditions in Novosibirsk. Residents of Novosibirsk commented that there had been no rain for several months. The drought was reported to be the main topic of conversation in the areas visited in Western Siberia and Kazakhstan
+Token count: 72
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.735764
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #5, segment 1)
+Text: PRESENTATIONS DIVISION
+Token count: 2
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.891694
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #7, segment 1)
+Text: 3. Indonesian president attempting to split army opposition: President Sukarno is believed to have begun efforts to undermine army unity in order to prevent a cabinet reshuffle or a cabinet collapse. He has summoned to his Bogor summer home the territorial commander in East Java, Colonel Sudirman, and the commander of the military police, Colonel Prajogo, presumably to discuss army opposition to the appointment on 27 June of Colonel Utoyo as the new chief of staff. Since Sudirman had been careful prior to 27 June not to commit himself to any army faction and had stated that his primary loyalty was to Sukarno and the government, the president may be able to persuade him to withdraw his support from Acting Chief of Staff Lubis and the five other territorial commanders. Should Sukarno be successful in undermining the army's united opposition, it is unlikely that the motion of no confidence in pro-Communist Defense Minister Iwa, introduced in parliament on 29 June, would be passed. Meanwhile, however, normally pro-government Indonesian newspapers reflect a continuing loss of cabinet prestige
+Token count: 176
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: formerly
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

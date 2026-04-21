@@ -1,0 +1,86 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.680909
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 030
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.903333
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 1)
+Text: EASTERN EUROPE 4. Tito expresses willingness to enter into staff talks with NATO officials (page 5). 5. Czechoslovakia hopes to conclude new payments agreement with Mexico
+Token count: 26
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens
+  Text: USSR
+- original #3 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: GENERAL USSR
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.840388
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #6, segment 1)
+Text: EASTERN EUROPE 4. Tito expresses willingness to enter into staff talks with NATO officials: an interview given by Tito to the British High Commissioner and the Commander of British troops in Austria on 16 August. Tito stated then that he was prepared to enter into staff conversations with NATO officials to determine the common defense of Austria and Yugoslavia. He declared that he was pleased to learn of the NATO decision to defend Austria, and that in case of war he certainly would not withdraw his troops southward to the Bosnian Mountains. Tito added that NATO could depend on him to protect its southern flank and to hold the Ljubljana Gap in northern Yugoslavia. Comment: Tito's expressed willingness to enter into staff talks with NATO officials is the first indication that Yugoslavia is prepared to coordinate its defense program with that of NATO. There is no evidence, however, that Tito at present contemplates joining NATO. He is not known to have altered his previous position that Yugoslavia is unwilling to join the Western defense alliance but is prepared to make reciprocal commitments with individual countries
+Token count: 185
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: membership-drive
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.122244
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 5. Czechoslovakia hopes to conclude new payments agreement with Mexico: Comment: The Czechoslovak Government is faced with the expiration at the end of this year of the existing payments agreement which was signed on 20 October 1950. It obligated Czechoslovakia to liquidate its debt of about one million dollars through the delivery of tractors, water pumps, road machinery and other specified goods, the account to be balanced at the end of 1951 by dollar payments. Mexico
+- original #8 segment 1: full_page_or_admin
+  Text: turn, agreed "not to obstruct" the export of lead, zinc, copper, sisal, coffee and other products, although no obligation existed to export specific quantities. The conclusion of the agreement was followed by a marked increase of Czechoslovak exports to Mexico in early 1951 and by increased Czechoslovak attempts to obtain strategic materials from Mexico through cover firms located in Western European countries. There is no evidence that more than a small portion of Mexico's production of strategic materials has reached Czechoslovakia. The importance of maintaining Mexico as a source of supply is indicated by the present trade campaign, which will facilitate negotiations for a new payments agreement
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,163 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.881169
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. ARAB STATES POSSIBLY PREPARING TO ASSUME SUBSIDY FOR JORDAN
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 4. IMPLICATIONS OF BEN-GURION'S REFUSAL TO RETURN GAZA TO EGYPT (page 6). 5. LAOTIAN PREMIER AND PATHET CHIEF OUTLINE SETTLE- MENT (page 7). 6. BRITAIN TO OFFER SINGAPORE FULL SELF-GOVERNMENT (page 8). 7. BURMESE ATTITUDE ON ECONOMIC RELATIONS WITH THE SINO-SOVIET BLOC
+Token count: 42
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: Noforn) (page 5
+- original #3 segment 3: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 1. ARAB STATES POSSIBLY PREPARING TO ASSUME SUBSIDY FOR JORDAN A Jordanian mission is preparing to go to Cairo to discuss a subsidy for Jordan from the Arab states. Other information indicates that Prime Minister Nabulsi will head the mission, which will also visit Riyadh and Damascus. Cairo has been in contact with Nabulsi through Egyptian intelligence channels to request that abro- gation of the Anglo-Jordanian treaty be postponed until de- parture of foreign troops from Port Said and to reaffirm Egypt's willingness to assist Jordan at any time. Recent moves to accentuate Jordan's dis- sociation from Iraqi influence and consolidate the position of ultranationalists in the government appear designed to meet preconditions for receipt of Arab aid. Readjustment of Jor- dan's traditionally close relations with Iraq has progressed rapidly since the beginning of December. Iraqi troops were withdrawn from Jordan on 11 December at Jordan's request, while Syrian and Saudi Arabian troops remained. On 18 De- cember Jordanian authorities returned to Iraq the arms and ammunition which Iraq had previously contributed to the Jordanian army and national guard. Cairo was advised a short time later that Jordan's King Hussain had agreed that "necessary steps would be taken" for withdrawal of the Iraqi ambassador in Amman
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.959724
+kept_candidate_count=0
+excluded_candidate_count=8
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pro- gram
+- original #6 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: con- sumer
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: resigna- tion
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: in
+- original #9 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: under- going
+- original #10 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: al- ready
+- original #11 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: dep- uties
+- original #12 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: la- boring
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.937504
+kept_candidate_count=1
+excluded_candidate_count=6
+
+Clean Chunk #3 (original #19, segment 1)
+Text: expect him to make an early approach to the United States to set a definite date for the withdrawal of American forces stationed in Japan under the US-Japan secu- rity treaty
+Token count: 31
+Recut: none
+
+Excluded candidates:
+- original #13 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: min- ister-designate
+- original #14 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: mainte- nance
+- original #15 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: condi- tions
+- original #16 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ar- gue
+- original #17 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: understand- ing
+- original #18 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: res- toration
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: 4. IMPLICATIONS OF BEN-GURION'S REFUSAL TO RETURN GAZA TO EGYPT Israeli premier Ben-Gurion's public an- nouncement that "in no circumstances" would Israel permit Egypt to reoccupy the Gaza strip will give Moscow added ammunition in its campaign to urge Egyp- tian intransigence over a Suez and Sinai solution. Soviet statements to Egyptian officials have stressed that Israel would not be content to return to the status quo ante. Although Ben-Gurion's statement leaves open the possibility of the transfer of Gaza to an authority other than Egypt, Moscow will undoubtedly renew its prop- aganda attacks on Israel, possibly making further strong official warnings to Tel Aviv. The USSR probably would op- pose turning over the area to UN forces, which it would term a violation of Egyptian sovereignty. Egypt has not claimed the Gaza strip as Egyptian territory, but has occupied it since the Arab-Israeli war of 1948-49. While Ben-Gurion's statement technically does not change the official Israeli position on the disposition of Gaza, it makes clearer Tel Aviv's growing determination to incorporate the strip into Israel
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: 5. LAOTIAN PREMIER AND PATHET CHIEF OUTLINE SETTLEMENT Souvanna said that in a few days he would ask the assembly to approve Souphannouvong's entry into the cabinet. Souphannouvong indicated that in return he would disavow publicly any connection with outside powers or ide- ology, and renounce all control over the Pathet Lao forces, which would then pass under royal government control. One month from the date of this declaration, according to Souvanna, the whole settlement, including restoration of royal authority over the two provinces, would be completed. Comment Souphannouvong's promises, though prob- ably not sincere, will almost certainly assure assembly approval of a coalition cabinet. The form of the settlement as outlined by Souvanna appears to meet the conditions reportedly posed by the cabinet and the deputies in Souvanna's Nationalist Party. The Viet Minh, who have closely followed the course of negotiations in Vientiane, consider formation of a coalition government before elections an important objective. Their approval of a settlement along these lines instructed the Pathet repre- sentatives in Vientiane to build support among assembly dep- uties for the Souvanna Phouma government
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: 6. BRITAIN TO OFFER SINGAPORE FULL SELF-GOVERNMENT The British Colonial Office has decided to offer Chief Minister Lim Yew Hock, now in London, full self-government for Singa- pore. the British realize their new plans entail calculated risks, but believe there would be considerable advantage for the locally elected governments of both Singapore and the Federation of Malaya in being publicly dissociated from Britain. Under the proposed arrangements, internal security would be a local responsibility but with both Britain and the Federation of Malaya participating in a purely advisory internal security council. The Singapore government would recognize Britain's right to maintain military bases in the col- ony, and Britain would retain the right to rescind the constitu- tion in the event the Communists threaten to take over. Comment Self-government talks broke down last May when Britain demanded that it retain control over internal security matters. Lim can be expected to accept the current proposals, or at most request only minor changes. London wishes to strengthen Lim, whose per- formance against the Communists in Singapore has exceeded all expectations, by giving him the credit for having achieved Singa- pore's independence. The British may also believe it necessary to establish some formal basis for their military position at Singapore because long-term political trends there will move against them. By retaining the right to intervene, Britain would still limit Singapore self-government in a manner not envisaged for Malaya
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: full_page_or_admin
+  Text: 7. BURMESE ATTITUDE ON ECONOMIC RELATIONS WITH THE SINO-SOVIET BLOC Comment on: Burma, which recently took a strong political stand against the Soviet Union because of its intervention in Hungary, is still showing reluctance to expand its economic relations with the Communist Orbit except on a cash basis. Rangoon's instructions to its ambassador in Peiping to discourage the North Korean charge who had previously proposed that the two countries open trade negotiations. The ambassador was informed that Ran- goon was reluctant to enter into such relations with North Korea if they were to be conducted on a barter basis. Burma's "hard experiences" with the EAST European Satellites in this connection and Rangoon was now even unable to meet commitments for cash sales of rice, Burma's chief export. Burma's dissatisfaction with Sino-Soviet barter ar- rangements is indicated by the fact that although Burma is com- mitted on paper to export up to 50 percent of its rice available for export to the bloc this year, it has endeavored to keep such exports to a minimum
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=6 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

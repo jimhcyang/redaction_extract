@@ -1,0 +1,92 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.946923
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Viet Minh discusses role at Geneva conference
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: WESTERN EUROPE 4. Adenauer may ask for West German "sovereignty
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword, short_span_min_tokens
+  Text: 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.912688
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 1. Viet Minh discusses role at Geneva conference: Comment: Moscow has not explicitly stated that it will sponsor Viet Minh attendance at Geneva, but shortly after the Berlin conference the Communists began preparing their case on behalf of the Viet Minh at the Geneva conference. The interest in land reform documents indicates that Moscow will present detailed evidence at Geneva to bolster the Viet Minh claim of being the only effective government in Vietnam. Viet Minh propaganda cites Ho's success in land reform as proof of this claim
+Token count: 88
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.984211
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #4, segment 1)
+Text: WESTERN EUROPE 4. Adenauer may ask for West German "sovereignty": Chancellor Adenauer may ask the Allies to issue a declaration conferring sovereignty on the
+Token count: 24
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: Federal Republic along the lines of the contractual agreements. The chancellor told Social Democratic chairman Ollenhauer that he might ask for Socialist support for such a move after the Geneva conference if EDC appears doomed. Comment: The report suggests Adenauer believes that if EDC has not been ratified by late June or early July, or at least before summer parliamentary recesses, his party's popularity may be threatened by a press campaign calling for an immediate advance in West German sovereignty. A series of important state elections is scheduled in West Germany for this summer and fall. 5
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.985122
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #6, segment 1)
+Text: Photography of the Type-37 was obtained and reported as fair. Photos of the medium bombers are reported as extremely poor and of doubtful value
+Token count: 24
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: one--quarter
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.987681
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,133 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.674375
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. 105
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.667875
+kept_candidate_count=3
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 1. CHANGE OF EMPHASIS IN FRENCH ALGERIAN POLICY SEEN PROBABLE
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 3)
+Text: 2. HATOYAMA CABINET FACES CRISIS OVER POLICY ON JAPAN-USSR TREATY (page 4). 3. CYPRIOT OFFICIAL TERMS GRIVAS DIARY "COMPLETELY AUTHENTIC
+Token count: 20
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 7). * * * * THE ARAB-ISRAELI SITUATION
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 4: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 2: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 1. CHANGE OF EMPHASIS IN FRENCH ALGERIAN POLICY SEEN PROBABLE A change of emphasis in the French government's Algerian policy is probable "now that pacification has reached an advanced stage," The source thinks the government will soon undertake discussions, possible including the offer of a federation status to Algeria, followed by elections. Popular Republican support for such a change, as well as Marshal Juin's speech on 27 August calling for a federative solution. it is unlikely that ailing Robert Lacoste, French minister residing in Algeria, will be replaced, despite his advocacy of "pacification first." Comment Juin's speech was the first open indication that the hitherto adamant rightist position on Algeria might be modified, and thus enable Mollet to consider a policy change. the premier in mid-August as being extremely concerned over the economic drain on France and as expressing interest in a meeting in Belgium between some of his trusted advisers and Algerian labor union leaders to explore the possibilities of a truce. Furthermore, the French military effort apparently has not been progressing according to schedule and the degree of success which the government hoped to secure by October--when the National Assembly reconvenes--is probably beyond reach. Lacoste will probably continue to insist, when the premier confers with him this week, that the real key to the maintenance of France's position in Algeria lies in dealing a damaging blow to Egyptian premier Nasr's prestige
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.244286
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: HATOYAMA CABINET FACES CRISIS OVER POLICY ON JAPAN-USSR TREATY Foreign Minister Shigemitsu's return to Tokyo to report on the Moscow peace treaty negotiations has initiated a political storm which gives every indication of becoming a "full-scale crisis" for the Hatoyama cabinet. debate over the policy to be followed has aroused deep-seated rivalries among the various conservative factions, and has caused a bitter struggle for leadership. While the possibility of a split
+- original #7 segment 1: full_page_or_admin
+  Text: the Liberal-Democratic Party cannot be ruled out, a cabinet reshuffle is more likely. a decision will be made whether to send Prime Minister Hatoyama to Moscow in an attempt to reach a compromise with the Russians. Such a trip would necessitate the selection of an acting prime minister and probably new cabinet appointments--the prospect of which has brought political maneuvering to a fever pitch. Comment Conservative leaders for several months have acknowledged that Hatoyama's weak and inept leadership has become a political liability, but they have been unable to agree on a successor. Hatoyama has often asserted that the restoration of relations with the USSR would crown his career, after which he would be willing to retire. There is increasing speculation in Tokyo that Foreign Minister Shigemitsu will be among those dropped in any cabinet reshuffle
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 3. CYPRIOT OFFICIAL TERMS GRIVAS DIARY "COMPLETELY AUTHENTIC" Comment Grivas' diary and other captured EOKA documents also allegedly implicate other Cypriot and Greek officials in the widespread terrorist campaign on Cyprus. Included among these is the highest ranking Greek Orthodox Church official on Cyprus who became the clerical and political successor to Archbishop Makarios after his exile. Disclosure of these documents has strengthened the British case against Makarios and the Greek government. Makarios is open to charges of treason and Greek government officials to charges of inciting rebellion in the territory of another "sovereign country. The British may use these themes if the Cyprus issue reaches open debate in the North Atlantic Council or the UN General Assembly
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.955737
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Souphannouvong
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government-Pathet
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Souphannouvong
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.956851
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #12, segment 1)
+Text: a plenum scheduled for "sometime in June" had been postponed
+Token count: 10
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 3 September) The UN truce supervisory organization in the Gaza area reports that Israeli forces have resumed close-in patrols of the border by units of platoon strength, according to the American army attache in Tel Aviv. Increased clashes with Egyptian forces are probable as a result of this type of activity, which in turn is probably the result of some renewal of Egyptian terrorist depredations
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

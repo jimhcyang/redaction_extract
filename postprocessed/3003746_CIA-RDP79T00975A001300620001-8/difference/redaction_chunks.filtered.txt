@@ -1,0 +1,97 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.978873
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 4. New Chinese railroad planned near Indochina border
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.986825
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Servola-Zaule
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Servola-Zaule
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.849494
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Duino-Aurisina
+- original #5 segment 1: short_span_min_tokens
+  Text: Opicina
+- original #6 segment 1: short_span_min_tokens
+  Text: Servola
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: D'Istria
+- original #8 segment 1: short_span_min_tokens
+  Text: YUGOSLAV
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.944041
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #9, segment 1)
+Text: 4. New Chinese railroad planned near Indochina border: Comment: Such a line would give Kwangsi Province its first rail outlet to the sea. It would improve Chinese Communist capabilities for moving troops and supplies between the Indochina border and bases on Hainan Island and the Leichou Peninsula. This would be the first railroad construction in the Indochina border area since the line through Nanning to the border was completed in November 1951
+Token count: 72
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: SOUTH CHINA Proposed New Railroad Selected Roads Railroads Operable Railroads Partially Operable Active Chinese Communist Airfields French Perimeter 0 50 100 Statute Miles
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

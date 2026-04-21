@@ -1,0 +1,91 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.966794
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 2)
+Text: FAR EAST 2. North Korean air units may be entering North Korea
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.948701
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #3, segment 1)
+Text: FAR EAST 2. North Korean air units may be entering North Korea: There are indications that headquarters elements of five North Korean air divisions may recently have moved from Manchuria into North Korea. Elements of the 5th Division may be located at Mirim, east of Pyongyang, elements of the 3rd and 21st Divisions at Taechan, thirty miles north of Sinanju, and elements of the 4th Division at Chongjin on the east coast. (See
+Token count: 73
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens
+  Text: the
+- original #3 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: map
+- original #3 segment 3: noncontent_keyword
+  Text: p. 4
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: NORTH KOREA POSSIBLE AIR UNIT LOCATIONS North Korean Air Division Railroad, selected BATTLE LINE
+Token count: 14
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.949754
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: Comment: Elements of the 1st Division, which is a MIG-15 unit, may have moved from Manchuria to Uiju in northwest Korea, and that air force headquarters has moved from Sinuiju, just south of the Yalu River, to Pyongyang. No large movement of aircraft into Korea has been noted, however. Any strengthening of forces in Korea from outside the country would be a violation of the armistice agreement
+Token count: 67
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.996398
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.996545
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.990761
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

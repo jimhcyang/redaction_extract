@@ -1,0 +1,115 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.402500
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.848794
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: GENERAL Burmese premier supports proposal for UN action on Formosa Strait
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 3)
+Text: SOVIET UNION Estimated production of "W" class submarines exceeded in 1954
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 1)
+Text: Chou En-lai reported ready to release airmen for American promise not to overfly China (page 5). SOUTHEAST ASIA Sino-Vietnam railroad to be rebuilt using Chinese gauge
+Token count: 26
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 4: noncontent_keyword
+  Text: page 3
+- original #3 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: page 5
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: GENERAL Burmese premier supports proposal for UN action on Formosa Strait: Burmese premier Nu has drafted a statement endorsing President Eisenhower's proposal that the United Nations extend its good offices to bring about a cease-fire in the Formosa Strait. Comment: While Nehru's reaction to Nu's proposed statement is as yet unknown, Chou En-lai on 24 January repudiated the idea of a cease-fire in the conflict over Formosa and reaffirmed Peiping's determination to "liberate" the island. He cannot be expected, therefore, to concur in Nu's recommendation that the good offices of the UN be utilized to settle the Formosa issue. In Nu's proposal that the UN deal with basic issues rather than merely a cease-fire, Chou may, however, see an opening he can exploit. SOVIET UNION Estimated production of "W" class submarines exceeded in 1954
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.949962
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: Comment: "W" class submarine construction at Gorki and Nikolaev during 1954 was 25 percent higher than previously estimated. This suggests that it may be necessary to revise upward current estimates of "W" class production in the USSR which indicate that 42 "W" class boats were to be constructed in 1954, 50 in 1955, and 62 in 1956. Approximately 90 "W" class submarines, including those produced in 1954, have been completed. At least 46 are operational
+Token count: 75
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.912179
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #6, segment 1)
+Text: Chou En-lai reported ready to release airmen for American promise not to overfly China: The Peiping regime is prepared to release the 11 American airmen if the United States will promise not to permit American flights over Chinese Communist territory in the future. Comment: The Chinese Communists for years have been denouncing alleged American overflights, and Peiping's propaganda on the airmen's case had suggested this as one of the matters Chou would take up with UN secretary general Hammarskjold. In addition to the 11 American airmen already sentenced to jail terms for "espionage," Peiping admits holding four fighter pilots who are charged only with "intrusion" into Chinese territorial air. SOUTHEAST ASIA Sino-Vietnam railroad to be rebuilt using Chinese gauge: The railroad being rebuilt from Hanoi into Kwangsi Province of South China will be Chinese standard gauge of
+Token count: 137
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.961086
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #7, segment 1)
+Text: 4' 8.5" instead of its original one-meter gauge as previously reported. Chinese locomotives and rolling stock will be used on this line, and Viet Minh rolling stock controlled at Hanoi will use different lines, presumably meter gauge. (Concurred in by ORR
+Token count: 42
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens
+  Text: end
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.993061
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

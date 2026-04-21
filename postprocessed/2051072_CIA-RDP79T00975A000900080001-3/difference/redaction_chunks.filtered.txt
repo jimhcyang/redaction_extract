@@ -1,0 +1,105 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 19 October 1952 Copy No. 57 CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.977261
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 6. Yugoslav official sees revolt in Albania unlikely (page
+Token count: 9
+Recut: none
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.995146
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Pyonggang
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 4. US Ambassador doubts success of Point Four in Lebanon: Ambassador Minor doubts that the Point Four program can be successfully carried out in Lebanon and believes that even the present programs should be delayed until there is evidence of true Lebanese cooperation
+Token count: 43
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.842404
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #3 (original #7, segment 1)
+Text: the program has been pressed on Lebanon to the point of imposing aid and adds that the entrenched interests and high government officials of the country have no desire for
+Token count: 30
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens
+  Text: The
+- original #6 segment 1: short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: feels
+- original #8 segment 1: short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: type
+- original #9 segment 1: short_span_min_tokens
+  Text: assistance
+
+========================================================================
+[PAGE 06]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.936813
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #10, segment 1)
+Text: Yugoslav official sees revolt in Albania unlikely: No imminent revolt in Albania is likely, according to Yugoslav Minister of Interior Rankovic. He admits that the Yugoslav Government has contacted former King Zog, but claims that the Zog group, as well as other Albanian emigres in the west, are far removed from realities within Albania and have no influence there. Comment: Rankovic's views on prospects of an imminent revolt in Albania generally agree with statements of other Yugoslav officials
+Token count: 78
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: by
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.988595
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: secret-military
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: ingots

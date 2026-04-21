@@ -1,0 +1,104 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.769853
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: 1 — 3
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.722855
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #3, segment 1)
+Text: SOUTH ASIA NEAR EAST 5. Alert of British air transport in Suez Canal Zone reported
+Token count: 15
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: EUROPE Yugoslav aid program
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: GENERAL
+- original #3 segment 2: noncontent_keyword
+  Text: page 6
+- original #4 segment 2: noncontent_keyword
+  Text: page 6
+- original #4 segment 3: short_span_min_tokens
+  Text: WESTERN
+- original #5 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: over-flight nrivileszes
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: GENERAL -3
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.972222
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens
+  Text: since
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.982828
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.863553
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #8, segment 1)
+Text: NEAR EAST 5. Alert of British air transport in Suez Canal Zone reported: "Authentic information" that British air transport in the Suez Canal Zone is on a six-hour alert is reported by the US Consul at Nicosia, Cyprus, who assumes this is due to the Iranian situation. He has also noted unusual convoy movements in Cyprus. Comment: British air transport facilities have been on alerts ranging from four to 24 hours at various times during the Iranian crisis. It is not clear whether the airlift would be for troop transport or for civilian evacuation; so far as is known, the UK Government still intends to take "necessary measures" to protect its nationals only if the Iranian Government fails to do so
+Token count: 121
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Yugoslav
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.996756
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

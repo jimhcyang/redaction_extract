@@ -1,0 +1,66 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.743850
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: GENERAL 1. US navy aircraft shot down by Soviet fighters off Vladivostok
+Token count: 12
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 4. Imminent attack on Costa Rica threatened
+Token count: 7
+Recut: none
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.727190
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: GENERAL 1. US navy aircraft shot down by Soviet fighters off Vladivostok: Comment: The most recent incident in which a US aircraft was shot down by Soviet aircraft occurred on 29 July 1953, when an RB-50 was attacked by MIG's south of Vladivostok and crashed about 30 nautical miles off the coast. In a note of 5 September the USSR protested that the Neptune had violated Soviet territory and had fired on the MIG's, which were attempting to warn it to leave
+Token count: 82
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.958680
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: Imminent attack on Costa Rica threatened: An armed force is now organized in Chiquimula, Guatemala, in preparation for an attack against the Costa Rican
+Token count: 24
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: government of José Figueres. attack may be made between 6 and 8 September or, if not made then, will be postponed for 45 days. Comment: It is probable that the anti-Figueres forces of former Costa Rican dictator Calderon Guardia already have received some assistance from the Nicaraguan and Venezuelan governments, which strongly desire the overthrow of Figueres. Somoza of Nicaragua has in effect promised the United States not to intervene directly in Costa Rica, but Venezuela has given no such assurance and has the capability to give the Calderon forces some air support. Given sufficient aid, including air transport, from their various backers, the anti-Figueres forces could probably stage a successful invasion of Costa Rica, and might succeed in seizing control of the government

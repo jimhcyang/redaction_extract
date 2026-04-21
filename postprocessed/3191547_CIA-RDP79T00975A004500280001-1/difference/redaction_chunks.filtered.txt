@@ -1,0 +1,166 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.619048
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: C52
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122805
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 12 JUNE 1959 I. THE COMMUNIST BLOC Peiping concerned over reaction among Overseas Chinese to food shortages
+- original #3 segment 1: full_page_or_admin
+  Text: mainland China. II. ASIA-AFRICA Iraq--Communists organize parade for 12 June as demonstration of power. UAR uncovers conspiracy in First (Syrian) Army. South Korea breaks trade relations with Japan over Korean repatriation issue. III. THE WEST West Germany--Adenauer and Erhard arrange temporary truce, but CDU party harmony remains strained. France trying to obtain delay of independent African conference on Algeria; Tubman determined to hold it in Liberia. Brazil requests large US loan to stave off economic difficulties. Additional Cuban troops flown to Isle of Pines; could be destined for Nicaragua
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.931792
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #4, segment 1)
+Text: I. THE COMMUNIST BLOC Communist China - Indonesia: Peiping is apparently concerned lest "mounting reaction" among Overseas Chinese in Indonesia to food shortages in mainland China undermine its efforts to dispel the bad impression of the communes created in Southeast Asia. complaints from Overseas Chinese in Indonesia were shown to Chou En-lai and that the Fukien provincial government "is now working out a method to solve the grain problem
+Token count: 68
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 2: noncontent_keyword
+  Text: Page 1
+- original #5 segment 1: noncontent_keyword, ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ASIA- AFRICA
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.872912
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #6, segment 1)
+Text: UAR: The discovery of a "conspiracy" within the UAR First (Syrian) Army and the confession of at least one officer has been revealed. Marshal Amir, UAR commander in chief, is giving the matter his personal attention. Since the formation of the UAR in February 1958, there have been numerous unconfirmed reports of dissidence within the First Army, usually centering around Syrian resentment of Egyptian domination
+Token count: 65
+Recut: none
+
+Clean Chunk #3 (original #7, segment 1)
+Text: West Germany: Despite the temporary truce arranged between Adenauer and Erhard at the 10 June meeting of Christian Democratic Union Bundestag deputies, party harmony remains badly strained and public confidence in Adenauer has fallen. Prior to the meeting these deputies reported a generally adverse reaction in their home constituencies to Adenauer's decision to decline the nomination as president. The CDU faces considerable difficulty in agreeing on a new presidential candidate on 15 June to defeat the popular Social Democratic nominee Carlo Schmid in the 1 July election
+Token count: 87
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #7 segment 2: noncontent_keyword
+  Text: Page 3
+- original #8 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: French--US
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.898057
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #4 (original #11, segment 2)
+Text: Cuba: As many as 900 Cuban Army troops were flown to the Isle of Pines, south of the main island between 3 and 7
+Token count: 24
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #12, segment 1)
+Text: The troop movement may have been in response to several reports of counterrevolutionary plans involving the forcible release of the approximately 1,000 political prisoners being held on the island. The use of several unmarked planes in the operation, however, suggests the possibility of a Cuban move to reinforce the rebel movement in Nicaragua. Former Costa Rican President José Figueres told that Cuban Prime Minister Fidel Castro "had just offered complete support of arms, planes, and probably men" to the Nicaraguan rebel movement headed by Enrique Lacayo-Farfan, who was inclined to accept. Figueres added that "now all is lost to Communism unless the Somozas step down
+Token count: 106
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Debré's
+- original #10 segment 1: noncontent_keyword
+  Text: Page 4
+- original #11 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Overseas Chinese React to Mainland Food Shortages The Chinese Communist Embassy in Djakarta has recently expressing alarm over reported food shortages in their members' home communities. the Kwangtung provincial government told of "mounting reaction" among Chinese to inadequate food allotments in their home district and asked that hardships be alleviated promptly to "ease their minds." The Overseas Chinese Affairs Commission in Peiping, after bringing to the attention of Premier Chou En-lai a message from former residents of a locality in Fukien, directed the provincial government to take steps to ease the grain shortage in the community. Peiping, which is making a special effort to dispel the bad impression the formation of communes created in Southeast Asia, undoubtedly feels that news of this sort from the mainland will hamper its efforts to extend its influence among Overseas Chinese. Recent letters from Kwangtung residents to relatives in Hong Kong and elsewhere have told of the acute food shortages, and requests for food parcels have greatly increased. However, since the arrival of large numbers of food packages from abroad creates the impression that food is more plentiful outside China, Peiping has recently indicated a determination to curtail sharply the delivery of food parcels
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.976792
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: III. THE WEST West German Christian Democratic Unity Remains Badly Strained Despite the truce arranged between Chancellor Adenauer and Economics Minister Erhard, the unity of the Christian Democratic Union (CDU) remains badly strained. Many members resent Adenauer's cool treatment of Erhard and the grudging character of his admission that he had intended no "disqualification" of him. Erhard is not likely to remain satisfied without a more clear-cut endorsement from the party, and some observers feel that in the long run his position has been strengthened. Public confidence in Adenauer has declined markedly. CDU Bundestag delegates have reported a generally adverse reaction in their home constituencies. Local party officials in Bremen, Hamburg, and Baden-Wuerttemberg have issued statements disapproving Adenauer's move, and a prominent official in CDU labor circles has reported that criticism of Adenauer is "rampant." American officials in Bonn reported on 10 June that the situation seemed one of no confidence, but that there was no inclination to express this sentiment in a vote within the party. The CDU faces considerable difficulty in agreeing on a new candidate to defeat the popular Social Democratic nominee for president, Carlo Schmid. No CDU candidate seems to have general support, and Adenauer still prefers Finance Minister Etzel. Schmid feels that he now has a good chance of winning since the controversy in the CDU could cause some defections during the balloting. The CDU is already three votes short of the necessary majority and must count on support from the German party as well as on a division in the opposition forces between the Free Democratic and Social Democratic candidates
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.966581
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Debr
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.978750
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

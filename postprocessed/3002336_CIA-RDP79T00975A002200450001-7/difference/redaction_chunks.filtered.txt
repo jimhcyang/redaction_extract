@@ -1,0 +1,98 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.630303
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. EGYPTIAN COMMANDO TROOPS REPORTED TO HAVE ARRIVED IN DAMASCUS
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 6. COUP REPORTED POSTPONED IN BRAZIL
+Token count: 6
+Recut: none
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 8
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.246967
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: EGYPTIAN COMMANDO TROOPS REPORTED TO HAVE ARRIVED
+- original #5 segment 1: full_page_or_admin
+  Text: DAMASCUS Comment Nasr's advance move prior to official signature of the bilateral military pact between Egypt and Syria would be in line with his drive to draw Syria into close alignment with Egypt. The presence of this number of Egyptian troops in Syria would alarm Syria's neighbors, Turkey and Iraq, possibly provoking countermeasures. Israel would consider this action further preparation for an Arab assault
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.972581
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=0.125595
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #6, segment 1)
+Text: 6. COUP REPORTED POSTPONED
+Token count: 4
+Recut: none
+
+Clean Chunk #4 (original #7, segment 1)
+Text: BRAZIL Comment Public opposition to a coup may be strengthened by Kubitschek's statement of 21 October that neither socialist nor Communist processes can meet the legitimate needs of the working classes
+Token count: 31
+Recut: none

@@ -1,0 +1,131 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.284211
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.123008
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 21 DECEMBER 1959 I. THE COMMUNIST BLOC
+- original #2 segment 1: full_page_or_admin
+  Text: Four Soviet submarines from Baltic reach Albanian base. II. ASIA-AFRICA 2. Khrushchev rejects Iranian offer to ban foreign ballistic missile bases as insufficient for "normalizing" relations. 3. Turks arrest "key members" of Kurdish underground organization. III. THE WEST 4. Adenauer feels West Germany must have close ties with France against the day when US withdraws military forces from Europe. 5. French to be ready for nuclear test by March 1960. 6. Castro regime reported planning to instigate mass demonstrations of loyalty by spreading false rumors of counterrevolution
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.905534
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #4, segment 1)
+Text: Iran-USSR: Khrushchev told the Iranian ambassador it was "impossible" for the USSR to accept Iran's offer to ban foreign ballistic missile bases on Iranian territory as a basis for "normalizing" relations and ending Soviet propaganda attacks on the Shah's government. Instead he urged Iran to accept a Soviet draft calling for Iran to ban any foreign bases whatsoever, commenting that signature of the Soviet draft would create no difficulties for Tehran's implementation of its bilateral agreement with the US "if there was no intention of cooperating with the aggressive forces against us." Khrushchev said that because of current Iranian policy Radio Moscow will continue to criticize the Shah's government. The Iranian foreign minister believes there will be no further negotiations on this subject
+Token count: 123
+Recut: none
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+- original #5 segment 1: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.894611
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #6, segment 1)
+Text: Germany: Adenauer is reported to be defending his close cooperation with De Gaulle on the grounds that sooner or later American military forces will withdraw from Europe, making close ties with France imperative for West Germany. The chancellor says that for this reason he went along with De Gaulle's argument that Europeans must possess and control their own retaliatory weapons. The American Embassy in Bonn comments that actually Adenauer may be thinking in terms of "NATO as such" controlling a nuclear deterrent. (Page 3) France: De Gaulle has told General Buchalet, chief of the military applications division of the French Atomic Energy Commission, to pick a date for the French nuclear weapons test solely on the basis of technical considerations, without concern for world political pressures. Buchalet says France could test now but he intends to hold up the test--probably a three- or four-shot series--until March 1960 when full instrumentation will be ready. the first test is scheduled between 8 February and 13 March
+Token count: 166
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 2: noncontent_keyword
+  Text: Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.976251
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Diyarbakir
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.944565
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: III. THE WEST Adenauer Defends Policy of Close Alliance with De Gaulle West German Chancellor Adenauer, in recent talks with his cabinet, key officials of the Christian Democratic Union (CDU), and other confidants, is reported to have indicated a growing fear that the United States is preparing to withdraw its military forces from Europe and otherwise reduce its European commitments. Adenauer has stressed that, for this reason, Bonn must depend on France as the only reliable power in Europe. after returning from his visit with De Gaulle, told his cabinet that NATO must be kept alive, since Europe would not be able to "defend itself for the indefinite future without large-scale American presence. Adenauer reasoned, however, that since the Federal Republic must be prepared for eventual American withdrawal, he was inclined to go along with De Gaulle's argument that the NATO structure and responsibilities must be revised to permit Europeans to possess and control their own retaliatory weapons. American Embassy officials have also commented that Adenauer's thinking may be running in the direction of "NATO as such," or possibly the Western European Union or "The Six," having control of a nuclear deterrent. While stanchly defending De Gaulle, Adenauer described French Premier Debré as the evil spirit behind De Gaulle. He said Debré was nationalistic and cynical about European integration, using it merely as a means to enhance French power. On the Berlin question, Adenauer reportedly praised the French for sticking to the principle of no change in the status quo. Adenauer told West Berlin Mayor Brandt that he fears "the Anglo-Saxons" might try to transfer some of their responsibilities for Berlin to the Federal Republic, thereby undermining the four-power status of the city
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Dec 59 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.122024
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: Spring Date Likely for French Nuclear Test President de Gaulle has told General Buchalet, chief of the military applications division of the French Atomic Energy Commission, to select the date for testing French nuclear weapons solely on the basis of technical considerations, without concern for world political pressures. Sufficient plutonium is available to conduct a test now, but instrumentation to acquire the most complete diagnostic data will not be ready until March 1960. the first test series could consist of three or four shots. the first test would be a shot from a 300-foot tower
+- original #10 segment 1: full_page_or_admin
+  Text: line with earlier intelligence estimates that France would probably conduct its first nuclear weapons tests in March or April 1960. France intends to try to develop hydrogen weapons and small nuclear weapons. Advanced weapon development will depend on the availability of uranium highly enriched in U-235 either purchased from the United States or Britain or produced at a domestic isotope-separation plant. The French plant is expected to be producing non-weapons-grade U-235 by 1962, and can be producing weapons-grade material by 1964 if the decision to do so is made in the near future. France's intention to conduct underground tests whether or not aid was received from the United States, American aid to avoid costly duplication of effort. Given the high cost of converting test instrumentation to make possible effective monitoring of underground tests, technical information on the results of US experiences would constitute a considerable saving for France
+- original #10 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Dec 59 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: 21 December 1959 CENTRAL INTELLIGENCE BULLETIN

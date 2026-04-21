@@ -1,0 +1,86 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.788118
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: GENERAL 1. Comment on Soviet offer to aid India in developing atomic energy program (page 3). SOVIET UNION 2. USSR seeks exchange of visits with Asian leaders (page 3). 3. Northern Sea Route convoy to be major reinforcement for Pacific Fleet
+Token count: 41
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: GENERAL 1. Comment on Soviet offer to aid India in developing atomic energy program: Prime Minister Nehru has confirmed that Moscow has offered to help India develop its atomic research. This is the first offer of this type known to have been made to a non-Orbit country and reflects the value the Soviet leaders place on increasing contacts with the Indians and building up Indian prestige. Nehru's statement that Indian atomic scientists will be visiting the USSR shortly for further discussions indicates that India will seriously consider the Soviet offer. The USSR announced a plan for atomic development last January and it has since offered aid to seven Orbit states. The announcement also stated that consideration was being given to expanding the plan to include "other countries." The Soviet Union can be expected to make additional offers of this type, especially to underdeveloped countries where it can make political gains. - Concurred in by OSI) SOVIET UNION 2. USSR seeks exchange of visits with Asian leaders
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: Comment: Moscow considers Nehru's visit to have been such a success that the Soviet leaders will encourage an exchange of visits with Asian prime ministers or heads of state. Prime Minister U Nu has accepted an invitation to visit Moscow this fall and probably will invite Bulganin to visit Burma after India. A visit by Bulganin would be the first by a Soviet leader of his rank to these areas. 3. Northern Sea Route convoy to be major reinforcement for Pacific Fleet: Comment: The USSR has augmented its Pacific Fleet several times in postwar years by transferring naval vessels constructed in European yards via the Northern Sea Route. The largest previous redeployment occurred in 1954, when five submarines and 18 vessels of minelayer and destroyer-escort types were shifted to the Pacific. The transfer of two cruisers and a dozen submarines, however, would be the first major interfleet redeployment in the history of the Soviet navy
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.973046
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: for
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.969512
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: foreign
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.904225
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

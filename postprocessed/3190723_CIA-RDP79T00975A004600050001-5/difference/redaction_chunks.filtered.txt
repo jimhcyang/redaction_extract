@@ -1,0 +1,214 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.600833
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122768
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 6 JULY 1959 I. THE COMMUNIST BLOC Chinese Nationalists claim five Communist MIGs destroyed
+- original #3 segment 1: full_page_or_admin
+  Text: air engagement near Matsu. Khrushchev cuts in half the price of bloc arms for Afghanistan. II. ASIA-AFRICA Iran--Conservative neutralist elements may be promoting move to appease Moscow in effort to end Soviet hostility. Cairo considers resuming aid to Iraqi nationalists. UAR agrees to restoration of diplomatic relations with Tunisia. Sudan--Current trials of dissident military leaders adding to disaffection and instability of officer corps. Ceylon--Domestic criticism and continued labor discord weakening Bandaranaike government; leftist labor leaders threaten new strikes. III. THE WEST Caribbean--OAS facing critical test in dealing with Dominican charges of foreign intervention
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.855794
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: THE COMMUNIST BLOC Taiwan Strait situation: The air battle southwest of Matsu on 5 July, in which the Chinese Nationalists claim to have shot down four Chinese Communist jet fighters, involved four Nationalist F-86s (of an eight-plane patrol) and 12 MIGs. A fifth Communist jet fighter crashed near Matsu during the engagement. Sidewinder missiles were not used by the Nationalist planes. Communist radar indicates the deepest penetration of the mainland during the engagement was about 35 miles. Evidence indicates that the Nationalist pilots, given advance warning by their own ground controllers that enemy aircraft were in the vicinity, took the initiative in the engagement. The Communists were aware of a planned reconnaissance flight by a Nationalist RB-57 over the mainland which was scheduled to begin just prior to the engagement. The MIGs may have been patrolling in an effort to intercept the RB-57 when the clash occurred. The RB-57 returned to its base after take-off and did not complete its flight. Peiping has thus far not commented on the action. If the Chinese Communists choose to retaliate, they could do so in a number of ways, including heavy shelling of the Nationalist offshore islands. (Page 1) (Map) USSR-Afghanistan: the Soviet Government had decided to "cut in half the price of all arms which had been sold to Afghanistan," Afghanistan is also to be permitted
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.874843
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #5, segment 1)
+Text: to set the time for repayment. The Soviet decision is in conformity with the pattern of its arms deals with the UAR and Yemen and provides further evidence of Moscow's current campaign to increase its influence in Kabul
+Token count: 38
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #8, segment 2)
+Text: UAR-Iraq: Despite official Egyptian assertions that Cairo is now merely observing the power struggle in Iraq, the UAR is again actively discussing the provision of arms and funds to Iraqi nationalist elements. These elements probably have been strengthened somewhat by Qasim's recent gestures of clemency toward former antiregime groups. Cairo is also attempting through intermediaries to provide funds to the wives of imprisoned pro-UAR Iraqi military leaders. (Page 5) UAR-Tunisia: The UAR has agreed to an immediate restoration of diplomatic relations with Tunisia. UAR and Tunisian officials have been meeting secretly in Libya recently to discuss a resumption of ties, which were disrupted last October. Although the restoration of diplomatic ties would create a facade of Arab unity in North Africa, relations between Nasir and Bourguiba are likely to remain cool
+Token count: 131
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 2: noncontent_keyword
+  Text: Page 3
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: nonaggression
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reported
+- original #8 segment 1: noncontent_keyword
+  Text: Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.882424
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #9, segment 1)
+Text: Sudan: The current conspiracy trials of dissident Sudanese military leaders Shannan and Abdullah have resulted in further disaffection and instability in the Sudanese officer corps. a group of officers in the eastern command was plotting a coup to save the imprisoned officers. He unsuccessfully sought UAR military assistance. The UAR Embassy also reported word of disaffection among officers in the southern command, whose commander was said to be pressing Premier Abboud to halt the trials because the testimony has been injurious to the army and state
+Token count: 86
+Recut: none
+
+Clean Chunk #4 (original #11, segment 1)
+Text: Caribbean area: The OAS, in considering in its 6 July meeting the Dominican request for action against Cuban and Venezuelan efforts to oust the Trujillo regime, is facing its most critical test to date. Prime Minister Castro has already warned that he will permit no OAS intervention in Cuba, and Venezuela has threatened to withdraw from the OAS if that body votes to investigate the charges of the Trujillo regime, which has become the symbol of dictatorship in the hemisphere. Ciudad Trujillo expects an imminent attack on Haiti by Cuban-based rebels. The Dominican foreign minister the same day warned the Mexican ambassador that his government would consider such an attack as an invasion of its own territory. Meanwhile, anti-Castro Cuban exiles scattered throughout the area
+Token count: 125
+Recut: none
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Page 6
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #12, segment 1)
+Text: in the Dominican Republic, Mexico, and Florida--claim to be nearly ready for revolutionary action. Most of these exiles are receiving Dominican support
+Token count: 23
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #12 segment 2: noncontent_keyword
+  Text: 6 July 59 DAILY BRIEF
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: noncontent_keyword
+  Text: AIR ENGAGEMENT OF 4 JULY AREA OF ENGAGEMENT MATSUS PAI CHUANS HAITAN IS. WUCHIUS CHINMEN 0 25 Nautical Miles
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Taiwan Strait Situation Eight Chinese Nationalist F-86 aircraft on a routine patrol on 5 July near the China mainland southwest of Matsu Island were warned by Nationalist radar of enemy aircraft in the vicinity. Four of the Nationalist aircraft then turned and engaged 12 Communist MIG jet fighters. In the subsequent engagement four MIGs were shot down and another crashed in shallow water just off the Nationalist-held Paichuan Islands. The latter aircraft, which the Nationalists are attempting to salvage, apparently hit the water while attempting to pursue a Nationalist F-86. The combat area apparently covered the Haitan Island and adjacent China mainland areas south of Foochow. The farthest penetration of the mainland by a Nationalist aircraft was 35 nautical miles, according to Communist radar plotting. An unconfirmed Nationalist report that the Communists strafed one of the Paichuan Islands during the engagement is believed to be incorrect. This report and another alleging that a MIG was downed by antiaircraft fire probably result from the incident described above in which the MIG crashed near the Paichuans. Sidewinder air-to-air guided missiles were not carried by the Nationalist patrol and were not used in the engagement. On several recent occasions when encountering Communist aircraft, patrolling Nationalist pilots have been instructed by their ground controller to turn away from the mainland in order to avoid combat. Nationalist pilots claim that the MIGs involved in the engagement had an unusual tail configuration and may have been American officials in the field, however, believe they were MIG-17s. The Communist aircraft may have been active in the area in preparation for an attempt to intercept a Nationalist reconnaissance mission of which they were aware
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 6 July 59 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=6 unred_source_page=10
+alignment_score=0.244926
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: This flight, which was not completed, had been scheduled to penetrate the mainland
+- original #16 segment 1: full_page_or_admin
+  Text: the vicinity of Haitan Island at approximately the same time the air battle took place. Since the engagement the Nationalists have increased air patrols, placed all alert aircraft in combat-ready status, and alerted antiaircraft units. Peiping has not yet commented on the action. It has issued a 54th "serious warning" charging US naval intrusions in the Matsu area on 4 and 5 July, but the warning did not mention the air engagement. The Chinese Communists have taken no unusual military action except to move an unknown number of fighter aircraft into the Lungtien area--near the battle scene--immediately after the engagement. If they choose to retaliate, they could do so in a number of ways, including shelling the Nationalist offshore islands heavily
+- original #16 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 6 July 59 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: USSR Modifies Payment Terms of Afghan Arms Deals the Soviet Government had decided to "cut in half the price of all arms which had been sold to Afghanistan," Afghanistan also is to set the time for repayment. This arrangement will permit Afghanistan to make merely token payments for the bloc arms purchased to modernize its military forces. Afghanistan, which concluded its latest contract for Soviet military equipment in May, has received in the past three years jet bombers and fighters, tanks and armored vehicles, artillery, small arms, ammunition, and trucks estimated to be worth about $75,000,000. The equipment, delivered under two arms agreements, required an outlay by Afghanistan of only $32,400,000--one for $25,000,000 to the USSR and $7,400,000 to Czechoslovakia. Khrushchev's new decision indicates that this equipment will cost the Afghans only $16,200,000. The Soviet offer to reduce arms payments conforms to the pattern of its military aid program in the underdeveloped areas. To allay suspicion of its motives but still make its deals attractive, the USSR initially agrees to provide arms from its stockpiles at prices only slightly below those prevailing in the West. Subsequently, Moscow provides discounts on specific items. In the UAR--and now Afghanistan--the USSR has reduced the total debt by 50 to 65 percent. The Soviet offer to Afghanistan presumably has been made at this time to ensure the primacy of its position there. The proposal follows closely the extension to Afghanistan of the first major Soviet grant aid. This gift, estimated by the USSR to be worth $80,000,000, is for the construction of a road from the Soviet-Afghan border to southeast Afghanistan
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 6 July 59 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=7 unred_source_page=12
+alignment_score=0.997368
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: investigate
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=8 unred_source_page=13
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: Cairo to Resume Support of Pro-UAR Nationalists in Iraq the UAR has resumed active clandestine support of Iraqi Baathists, thus apparently taking advantage of Premier Qasim's recent gestures of clemency toward Iraqi nationalists who had opposed him. The Baathists were the principal element of pro-UAR influence in postrevolution Iraq until purged by Qasim last winter following their involvement in UAR-backed intrigues against the regime. a high-ranking Iraqi Baath representative would probably arrive in Damascus during the first week of July "to reach agreement on important matters." it would be necessary to provide the Baathists with money and weapons. Cairo directed that the "recording set" in the UAR press office in Baghdad be turned over to the Baathists, a move which would strengthen their propaganda capabilities. Cairo's bid to retain the good will of Iraqi Baathists may be impaired, however, by its concurrent effort to curb the Syrian Baath party in the forthcoming UAR National Union elections. Cairo is also attempting to establish secret contact with the wives of imprisoned pro-UAR Iraqi military leaders and to provide them with funds. The UAR probably anticipates that Qasim will be compelled to seek support from the Baathists and similarly oriented nationalists if he is to take an effective stand against the Communists. Cairo's new clandestine efforts to support the Iraqi Baathists contrast with overt assertions by Egyptian officials that the UAR is merely an observer of the power struggle in Iraq. UAR authorities unquestionably approved the opening of a "free Iraq" bureau in Cairo on 1 July, announced at a press conference by Faiq Samarrai, former Iraqi ambassador to Cairo who defected to the UAR. The office, according to press reports, will seek to "raise the voice of free Iraq abroad and conduct a liberation movement in Iraq itself
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 6 July 59 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=9 unred_source_page=14
+alignment_score=0.996678
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Samaj
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=10 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=11 unred_source_page=16
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

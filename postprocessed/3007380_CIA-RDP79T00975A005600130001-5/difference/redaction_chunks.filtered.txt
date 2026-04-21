@@ -1,0 +1,309 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.241071
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.856812
+kept_candidate_count=3
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: C O N T E N T S 1. Laos: Situation in Laos as of 0400 EST (Page 1) 2. USSR: Advance in Soviet anti-ballistic missile program. (Page 4) 3. Congo: Hammarskjold worried over possible incidents following arrival of Indian UN contingent in the Congo. (Page 11) 4. Burma: Prime minister tells Khrushchev situation in Congo "calls for greater rather than lesser efforts" by UN
+Token count: 65
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: Page iii) 6. Communist China: Oil shipments received from USSR during February; imports from nonbloc sources apparently tapering off
+Token count: 19
+Recut: none
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 8. Morocco: Rabat to receive additional military equipment from USSR. (Page iv) 9. Saudi Arabia: King requests US agreement to abrogation of Dhahran Airfield pact. (Page 9) 10. Argentina: Army chief reported determined to oust President Frondizi within the next 20 days. (Page v
+Token count: 44
+Recut: none
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 6
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 15 March 1961 DAILY BRIEF
+- original #4 segment 2: full_page_or_admin
+  Text: Laos: Government troops a few miles north of the Phou Khoun road junction, consisting of four infantry battalions plus support elements, are encountering persistent artillery harassment and infiltration by Kong Le - Pathet Lao elements, and may be forced to retreat to new defensive positions. Intercepted enemy operational messages reveal that an effort is being made both north and south of the road junction to stampede the numerically stronger but confused government troops into a general rout. This would open the way to a possible attack on Luang Prabang, presently defended by eight battalions. At the same time, the messages indicate the extended nature of the enemy's effort in terms of both men and supplies; one message cautions against the danger of a sudden government counterattack in the rear. To the south on route 13, three battalions of Kong Le - Pathet Lao forces have been ordered to press the battle toward Vang Vieng. Reports from the American country team in Vientiane raise the question whether military events are overtaking the political situation. The country team states that the Vientiane government, probably because of the deteriorating military situation, appears anxious for an early ceasefire and may even be thinking of some political compromise to win quick Communist agreement; the government also appears hopeful the US would go along with an international conference to ratify the actions of any international commission. General Phoumi has indicated he is no longer willing to press ahead with a reorganized government headed by the king. The many rumors circulating in Vientiane reflect growing fear over the trend in the military situation
+- original #4 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.243847
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: USSR: An advance
+- original #6 segment 1: full_page_or_admin, noncontent_keyword
+  Text: the Soviet anti-ballistic missile (ABM) program is indicated by firings of missiles on 2 and 4 March into the Sary Shagan complex. (Backup, Page 4) (Map) Congo: Hammarskjold is increasingly worried over the possibility of incidents in connection with the arrival of the Indian UN contingent, whose first units are to fly into Leopoldville on 16 March. He told American officials on 13 March that it was of great political importance that the Indian operation be carried out, in view of the heavy prestige commitment of Nehru and the Indian military. According to a letter to Ambassador Stevenson on 12 March, he also recognizes that the Congolese hostility toward the UN results from the Congolese belief that the 21 February Security Council resolution authorizes the disarmament of the Congolese army and the imposition of UN trusteeship. He apparently feels that this attitude, reinforced by the anti-Asian feelings connected with Dayal, might focus on the Indian troops. Hammarskjold also believes, although he admits he has no specific evidence, that the recent military incidents in the Congo and the outcome of the Tananarive conference resulted from a Belgian-inspired plan to build up a political and military basis of resistance to the UN. Burma-USSR: Prime Minister Nu's reply to a letter from Khrushchev of 22 February rejects the Soviet charges that Hammarskjold is responsible for what has happened in the Congo. Nu told Khrushchev that while he agreed "Belgium and her proteges" bore the major responsibility, he believes "the situation in the Congo calls for greater rather than lesser efforts on the part of the United Nations." Nu declared that Burma will support the Security Council resolution authorizing the UN to use force in the Congo "in any way open to us." He agreed with Khrushchev
+- original #6 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Mar 61 DAILY BRIEF
+- original #6 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.930911
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #4 (original #7, segment 1)
+Text: that the enlarged membership of the UN necessitated structural changes, but contended that such changes should not be dealt with in the context of the Congo problem. Nu's position on these issues is similar to that of Indian Prime Minister Nehru
+Token count: 41
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #10, segment 1)
+Text: Communist China: Recent messages indicate that Soviet deliveries of petroleum to China in February were at a level comparable to that of the same month last year. Although talks on 1961 trade and future economic relations are still underway, these deliveries from the USSR suggest that the Chinese have resolved their indecision over petroleum imports and that they will continue to purchase large amounts of Soviet POL. Chinese imports of petroleum from nonbloc sources appear to be tapering off
+Token count: 79
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #7 segment 2: noncontent_keyword
+  Text: Backup, Page 6
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Eysken's
+- original #10 segment 2: noncontent_keyword
+  Text: SECRET SABRE) (Backup, Page 8
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.901278
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #11, segment 1)
+Text: The incident, probably resulting from Chinese reconnaissance activities, is one of several along this sector of the Tibetan frontier reported since November, but the only one publicized by Indian officials
+Token count: 30
+Recut: none
+
+Clean Chunk #7 (original #12, segment 1)
+Text: USSR-Morocco: additional military equipment destined for Morocco--of types and amounts not yet determined--is now being processed at the Soviets arms port of Nikolayev. In addition, Rabat has announced that two Soviet experts have arrived in Morocco "at the request of his majesty's government" to examine the possibilities for constructing a shipyard on the Mediterranean. Their arrival apparently is a result of economic aid discussions during the visit of Soviet President Brezhnev to Morocco in February. Saudi Arabia: King Saud, casting about for a "success" to bolster his administration against supporters of Crown Prince Faysal, has asked that the US agree to his announcing immediately abrogation of the Dhahran Airfield agreement. Prior to his dismissal as prime minister by the King last December, Faysal had asked the US to "study" changing the status of the airfield. Saud's emissary to the American ambassador asserted that members of the pro-Faysal faction are preparing to attack the King through propaganda releases in other Arab states alleging that Faysal was dismissed because he wanted to abrogate the airfield agreement
+Token count: 176
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.244698
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: Arab propagandists will seize upon any adjustments made by the US on the Dhahran agreement as an opportunity to step up their attacks on base rights
+- original #14 segment 1: full_page_or_admin
+  Text: Libya and Morocco
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 9
+- original #14 segment 3: full_page_or_admin
+  Text: Argentina: Army Commander-in-Chief General Carlos Toranzo Montero told a close associate on 11 March that he has decided to oust President Frondizi within 20 days. No reason was reported, although Toranzo Montero has been bitterly critical of Argentina's recent offer of "good offices" to ease US-Cuban tensions. The Army chief, recently conferred with Army command posts outside of Buenos Aires and decided, after putting a few uncooperative officers under house arrest, that he had sufficient support for a coup. Army promotions late in 1960 placed his supporters in key positions. Frondizi reportedly is aware of Toranzo Montero's plotting through a line tap on the latter's telephone, and the army chief who has now been informed of this tap, may have to change his plans
+- original #14 segment 4: full_page_or_admin, noncontent_keyword
+  Text: 15 Mar 61 DAILY BRIEF
+- original #14 segment 5: full_page_or_admin, short_span_min_tokens
+  Text: v
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: noncontent_keyword
+  Text: 15 Mar 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #15 segment 2: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: Situation in Laos Reports reaching Vientiane from Laotian military sources emphasize the role of North Vietnamese personnel in the current fighting. These reports, while not claiming that regular units as such are involved, do indicate the presence of such personnel in sizeable numbers, with the North Vietnamese troops acting as shock troops and the Pathet Lao taking over for exploitation. Although Laotian sources are prone to exaggerate the scope of Vietnamese involvement, it is probable that North Vietnamese are lending at least some tactical direction. a Soviet general seeking a meeting with Kong Le. This is the first indication of the presence of a Soviet military figure in Laos. Soviet airlift operations into Laos have recently been stepped up. Soviet IL-14's continue to average about eight flights per day to the Plaine des Jarres area, but since 9 March there has been an increase in the number of Soviet LI-2's flying to Xieng Khouang. The last of the Soviet AN-12's which arrived in North Vietnam on 3 March returned to the USSR on 11 March. According to the chief, PEO, the Communists have stepped up their logistical support to the highest daily rate reported during the past three months. On 12 March PEO estimates that 150 tons of supplies were brought in overland from North Vietnam and about 70 tons were brought in by air. eight Soviet IL-14s, four Soviet LI-2s, and one North Vietnamese AN-2 to Xieng Khouang. Although this is an increase in air activity, the number of planes involved could not have brought more than 28 tons of supplies and there is no evidence that any other routes were flown. The three-man cabinet level delegation from Vientiane which arrived in Phnom Penh on 14 March for additional talks with
+- original #16 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: Souvanna Phouma reportedly is empowered to agree to a later conference between representatives of the Boun Oum government, Souvanna Phouma, and the Pathet Lao. The delegation's immediate concern is to discuss with Souvanna different methods for bringing about a cessation of foreign interference in Laos. If a decision can be reached on this, it will be brought to the attention of "the great powers" through their ambassadors in Phnom Penh. Souvanna Phouma, meanwhile, has sent for Quinim Pholsena--minister of defense, finance, and foreign affairs in the rump government at Xieng Khouang--to join him in Phnom Penh to receive unspecified directives to be carried out during Souvanna's absence on his upcoming world tour. This request was sent on 11 March following Souvanna's talks with Phoumi but before he had learned of the impending visit of a second Vientiane delegation. It was forwarded on Souvanna's behalf by the North Vietnamese commercial delegation in Phnom Penh to the Ministry of Foreign Affairs in Hanoi for further relay to Quinim. North Vietnam and the Xieng Khouang "government" have moved to put their relations on a more formal basis. Hanoi announced the appointment of a "economic and cultural representative at the Laotian Kingdom" on 13 March and reported that a Laotian economic and cultural representative had presented his credentials in North Vietnam. Claiming to represent Souvanna Phouma as the "lawful government of Laos," the Xieng Khouang group is consolidating Communist political control over northern Laos. Recently it agreed to exchange economic and cultural missions with Communist China as well as North Vietnam. Before he fled Vientiane last December, Souvanna agreed to cross-border trade with North Vietnam. Probably to support their professions of "neutrality," however, neither Souvanna nor his Xieng Khouang "representatives" have formally recognized Hanoi or Peiping. North Vietnam and Peiping can circumvent this technicality with the exchange of economic and cultural officials. On 14 March, Hanoi announced that rallies will be held throughout North Vietnam between 15 March and 30 March to condemn "US
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: noncontent_keyword
+  Text: 15 Mar 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #18 segment 2: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #8 (original #19, segment 1)
+Text: interference in Laos and South Vietnam." In late January, the Afro-Asian Solidarity Council passed a resolution calling on members to observe 15 March as a day of anti-American demonstrations to mark the "Afro-Asian peoples' solidarity with people of Laos
+Token count: 39
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #19 segment 2: noncontent_keyword
+  Text: 15 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: Possible Advance in Soviet Anti-Ballistic Missile Test Program suggests that they were not launched from Kapustin Yar rangehead. It is possible that they were launched from an unidentified site 300 n.m. down range from Kapustin Yar. The launch was confirmed in each case Anti-missile research activity has been under way in the Sary Shagan area since 1957. Missiles fired from the Kapustin Yar rangehead, (1,100 n.m. distant) SP-2 (350 n.m. away), and SP-5 (500 n.m.) have been used as targets for the collection of re-entry data and the testing of equipment
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=15
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #9 (original #21, segment 1)
+Text: the missiles fired in March are believed to have traveled
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #21 segment 2: noncontent_keyword
+  Text: 15 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 16]
+kind=unred_only red_source_page=None unred_source_page=16
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: Burma Supports the United Nations’ Action in the Congo Prime Minister Nu told the Burmese parliament on 13 March that the Union Government believes that the United Nations, "with all its shortcomings," offers the only hope of restoring stability and security to an independent Congo. While Nu's answer to Khrushchev on 11 March was less specific than Nehru's--failing to defend Hammarskjold by name or to offer reinforcements to the United Nations Congo Command--it reiterated Burma's consistent support for the United Nations. In 1950 Burma backed UN intervention in Korea, and, unable to spare troops, sent token tonnages of rice as its contribution; in 1956 it supported the UN resolutions against both the Soviet Union in Hungary and the United Kingdom, France, and Israel in Suez; in 1960, it sent a small unit to serve with the UN in the Congo. The unit was withdrawn in early 1961. Although Burma was disappointed in 1953 when the United Nations failed to brand Nationalist China an aggressor for its support of the irregulars in Burma, it still--as a neutral with no military alliances--looks to the United Nations as its main source of assistance in the event of a foreign attack. When Burma supported a draft resolution which described the Soviet intervention in Hungary as "genocide," the Burmese representative to the UN explained his country's position by stating: "There, but for the grace of God, go we." Nu's support for Khrushchev's proposal to reorganize the United Nations structure is probably not intended as an attack on either Hammarskjold or the secretariat. Instead, it is more likely that Burma is looking for a reorganization of the Security Council to increase the representation and influence of the nonpermanent members and, if possible, to eliminate the permanent members’ veto powers. With reference to the recognition of a Congolese government, Burma's position is identical to that which it has adopted toward Laos. Burma is withholding action, as it is not satisfied
+- original #22 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 17]
+kind=unred_only red_source_page=None unred_source_page=17
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #10 (original #23, segment 1)
+Text: that any claimant actually exercises governing authority beyond a limited segment of the country
+Token count: 14
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #23 segment 2: noncontent_keyword
+  Text: 15 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 18]
+kind=unred_only red_source_page=None unred_source_page=18
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: full_page_or_admin
+  Text: POL Shipments From USSR to Communist China POL shipments through the important border transshipment point at Manchouli were at a high level at least for a short time in February. there was a backlog of 610 tank cars containing about 23,000 tons of POL at Manchouli on 16 February. Peiping advised Moscow on 23 February that the situation had returned to normal and asked that deliveries not be stopped. In February 1960, Manchouli was handling 7,000 to 8,000 tons of POL a day, and reported a backlog of 30,000 tons. Evidence of other POL deliveries by the Soviets shipments of POL from Rumania to China by tanker in March and April. These shipments were to be charged to the Soviet account. Since October 1960, about 80,000 tons of POL are known to have been shipped to China from nonbloc sources. These imports, of only marginal significance in terms of China's total domestic demand, nevertheless were the first such continuing purchases outside the bloc. Since August 1960 information on the level of POL shipments from the USSR--known to have been high up to that time--had virtually ceased. Peiping displayed an unusual reluctance to make known its 1961 POL requirements to the USSR. There has been no recent information on further purchases outside the bloc, and, inasmuch as there is evidence that the Chinese had sent the Soviets their 1961 POL requirements by 17 February, China will probably continue to rely on the bloc for most of its POL imports
+- original #24 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 8
+
+========================================================================
+[PAGE 19]
+kind=unred_only red_source_page=None unred_source_page=19
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: full_page_or_admin
+  Text: King Saud Requests Immediate Abrogation of Dhahran Airfield Agreement Since the dismissal of Crown Prince Faysal as prime minister last December, his backers and those of King Saud have been engaged in a struggle for power in Saudi Arabia. The pro-Faysal group, which apparently includes a majority of the influential Saudi princes, has already engineered the ouster of two of the King's trusted advisers. The group is now in Jidda with Faysal and is reported conspiring to return Faysal to power as prime minister. Saud appears to be frightened and is taking extraordinary security measures. In his desperation, he is willing to go to almost any lengths to preserve his position and might announce a unilateral abrogation of the agreement. Originally negotiated in 1951, the airfield agreement was renegotiated in April 1957 for a term of five years. In return for "operational facilities" at Dhahran the US Government promised to improve the airfield, build port facilities at Dammam, train Saudi Air Force personnel, and provide a military advisory group for the Saudi Army as well as limited training for naval personnel. The US agreed to provide grant aid for the 1957-62 period amounting to $70,000,000. At the present time there are 1,400 US Air Force and 18 Navy personnel at Dhahran. A Military Assistance Group of 155 men is stationed at Taif
+- original #25 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 9
+
+========================================================================
+[PAGE 20]
+kind=match red_source_page=8 unred_source_page=20
+alignment_score=0.976056
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 21]
+kind=match red_source_page=9 unred_source_page=21
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: noncontent_keyword
+  Text: 15 March 1961 CENTRAL INTELLIGENCE BULLETIN

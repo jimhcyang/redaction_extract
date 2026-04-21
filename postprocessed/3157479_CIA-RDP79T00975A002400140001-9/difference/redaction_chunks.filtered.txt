@@ -1,0 +1,97 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.536364
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.922857
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. KARACHI READY TO RULE BY DECREE
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #2 segment 3: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: 2. KARACHI READY TO RULE BY DECREE Pakistani governor general Mirza will make his final decision regarding the imposition of martial law in East Pakistan within the next week. he was prepared to take over the country if a break between East and West Pakistan threatened, and rule by decree. such a break was possible because of the new alliance of the United Front--now in the central government--with the opposition Awami League on the issue of increased power for East Pakistan under the new constitution. Comment The United Front and the Awami League are probably aware of Mirza's readiness to act and may hesitate to force the constitutional issue
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.992063
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: purposes
+- original #5 segment 1: short_span_min_tokens
+  Text: of
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.122110
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 5 February) Israel is prepared militarily "for any contingency" but no decision has been made to engage
+- original #7 segment 1: full_page_or_admin
+  Text: hostilities. Israel is expected to proceed with the Jordan River water diversion project at Banat Yacov at some future time. the recent move of Egyptian armor to Sinai is related to Egyptian expectations that Israel "will do something," probably resume the Banat Yacov project in the near future. receipt of the Soviet tanks and jet aircraft has given a tremendous boost to morale and confidence of the Egyptian troops and that some elements may be "chafing at the bit." Nasr is not happy over the prospect of war with Israel and is hoping that Western action will prevent Israeli resumption of the Banat Yacov project. Egypt will rapidly come to the aid of the Syrians in the event of hostilities. The Syrian ambassador This belief (1) that Israel intends to resume the Banat Yacov project even if it means war; (2) that the US and Britain are agreeable to Israel's carrying out of the project and will avoid seriously opposing Israel either diplomatically or militarily; and (3) that Israel will retreat only if it is faced with the possibility of large-scale hostilities and the Arabs should announce their intention to fight and undertake immediate preparations
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

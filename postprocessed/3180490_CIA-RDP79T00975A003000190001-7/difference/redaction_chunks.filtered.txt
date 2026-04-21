@@ -1,0 +1,187 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.738331
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. KING SAUD SEEKS SYRIAN AND EGYPTIAN VIEWS ON RECEPTION FOR RICHARDS MISSION (page 4). 3. EXTENSIVE UNDERGROUND ACTIVITY REPORTED IN HUNGARY
+Token count: 22
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 6. COMMUNIST POLICY ON ECONOMIC AID TO LAOS (page 8). 7. SUKARNO'S REVISED CONCEPT (page 9). 8. U NU SUGGESTS SINO-BURMESE BORDER AGREEMENT BE SIGNED DURING VISIT TO KUNMING
+Token count: 29
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #3 segment 3: noncontent_keyword
+  Text: page 11
+- original #4 segment 1: noncontent_keyword
+  Text: page 12
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.897337
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #6, segment 1)
+Text: In Gaza, the situation was to have been "very calm" on 11 March, owing principally to the Danish UNEF contingent's forceful handling of crowds. had appeared in uniforms early during the UNEF take-over, but apparently had been withdrawn or gone underground. On 13 March a large demonstration denouncing US policy reportedly was dispersed peacefully. Colonel Harkabi, the chief of Israeli military
+Token count: 61
+Recut: none
+
+Clean Chunk #4 (original #7, segment 1)
+Text: has stated that the situation on the perimeter of the Gaza strip is very difficult since the border is not clearly marked. Harkabi said he feared that UNEF patrols might run into Israeli ambushes placed along the border, and implied that his troops might be "trigger-happy" though they had no intentions against the UNEF
+Token count: 54
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 2. KING SAUD SEEKS SYRIAN AND EGYPTIAN VIEWS ON RECEPTION FOR RICHARDS MISSION Comment This appears to be a form of pressure by Saud on Nasr, who probably does not want to define his attitude toward the United States at this time but does not want to antagonize Saud. Nasr may well try to temporize further, possibly by asserting that such definition should now await a settlement of the status of the UNEF
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.122126
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 3. EXTENSIVE UNDERGROUND ACTIVITY REPORTED
+- original #10 segment 1: full_page_or_admin
+  Text: HUNGARY Three main centers of organized resistance in Hungary have become increasingly active during the past month and are in communication with one another, the underground groups exist among workers on Csepel Island (south of Budapest), miners in Pecs (southwest Hungary), and military personnel in Debrecen (southeast Hungary). The Csepel group allegedly has liaison with less well-organized university students in Budapest. the main purpose of the underground groups is to organize strikes as economic and moral pressures against the regime. Peaceful demonstrations--the form not yet agreed upon--are planned for "a day in March." if the regime uses arms against the demonstrators the country will be summoned to open revolt. Comment This information appears to confirm reports received in January by the US legation in Budapest concerning a workers' underground movement on Csepel, which claimed to be a successor to the outlawed Budapest Central Workers' Council. The legation believed that this group was attempting to establish reliable contacts throughout the industrial areas of the country and was having some success. Other reports have indicated that resistance groups in Hungary have been unable to agree upon a form of protest for 15 March, the traditional national independence holiday, and have also stated that most groups hope to avoid bloodshed
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.902151
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #5 (original #13, segment 1)
+Text: On 12 March a revolutionary group whose main force was led by Echeverria was ready to act, convinced that any uprising begun in Havana would succeed. Last summer the student leader signed a pact with rebel leader Fidel Castro, who has called for an island-wide general strike for 15 March
+Token count: 50
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Comment on
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Jose
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.950604
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: 6. COMMUNIST POLICY ON ECONOMIC AID TO LAOS Comment on: any Chinese Communist aid program for Laos is to be limited to economic development and is not intended to replace American aid. the aid would not be used for the support of the Laotian army and police. The Pathets, who have hitherto made a request for Chinese aid a condition for settlement of their dispute with the Laotian government, were cautioned that the loss of American aid would result in the overthrow of Souvanna Phouma, on whom the Communists feel the success of their negotiations depends. Hanoi's sensitivity to Souvanna Phouma's possible overthrow indicates that the internal political situation in Laos is the primary factor determining the nature of the proposed Chinese Communist aid program. Although Souvanna Phouma had indicated his own willingness to accept Chinese aid, the cabinet and crown prince are apparently opposed to it at this time, and negotiations are now deadlocked on this issue
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: 7. SUKARNO'S REVISED CONCEPT President Sukarno will announce a revised version of his proposed concept for Indonesia's government by 18 March. A new cabinet replacing that of Ali Sastroamidjojo will also be announced prior to the 18th. although the National Party and Nahdlatul Ulama will hold the key positions in the cabinet, the Masjumi will feel compelled to accept an offer of a minor role in order to avoid being linked with the Communists, who will be excluded. Sukarno plans to proceed with the formation of an advisory council which would include Communist representation. A new feature has been added to his concept, however, in the form of a proposal to set up a Reconstruction Planning Board under former vice president Hatta. In tentatively accepting this position, Hatta reportedly has laid down conditions that no Communists be on the board and that the cabinet be committed to carry out the board's recommendations. Comment The relationship between the advisory council and the planning board is unclear. Sukarno's reported concessions may be a ruse to give the impression of meeting the chief demands of the various dissident movements in Indonesia. The Ali government would be removed, Hatta restored to office, and the promise held out-- through the person of Hatta--for greater local autonomy and economic development, with the Communists still excluded from the cabinet. This would, however, be only a temporary solution to Indonesia's problems. The various provinces will
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.123024
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: continue to demand a greater share of the national wealth, and Sukarno--with his Communist and nationalist supporters--will continue to resist the trend toward federalism. The army remains the key as to whether such a settlement will be implemented, and there have been suggestions that it may seek to establish a military junta. The army's position is likely to be decided at a 15 March meeting of the general staff
+- original #18 segment 1: full_page_or_admin
+  Text: Djakarta to which all ranking officers, including those who have been leading the autonomy movements in the outer islands, have been invited
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: 8. U NU SUGGESTS SINO-BURMESE BORDER AGREEMENT BE SIGNED DURING VISIT TO KUNMING Burmese prime minister U Nu has suggested to Chou En-lai that Nu's visit to Kunming, beginning on 26 March, would be an appropriate occasion for the signing of the Sino-Burmese border agreement. Comment Now that Burma has succeeded in overcoming the objections of the Kachin minority to the cession of three small villages to China, Rangoon is anxious to get early signature of an agreement which is essentially favorable to Burma. Chou En-lai may well offer some pretext for further delay at this time
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=0.908694
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #6 (original #22, segment 1)
+Text: 3. Aerial photography confirms a minimum of 100 Chinese Communist artillery pieces on Amoy Island, an increase of 29 over the total observed last July. Signs of activity around a number of covered emplacements suggest that the actual number of such weapons on Amoy is perhaps in the neighborhood of 150. This probably does not represent a recent build-up, since artillery organic to the Chinese Communist army units accepted as being on Amoy would total about 150 pieces
+Token count: 78
+Recut: none
+
+Excluded candidates:
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Lungtien
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Hluian

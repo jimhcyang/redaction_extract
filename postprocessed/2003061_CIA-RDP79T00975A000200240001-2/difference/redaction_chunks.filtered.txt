@@ -1,0 +1,127 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.672549
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: c:i -i
+- original #2 segment 1: noncontent_keyword
+  Text: TOP SECRET
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.997115
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: NEAR EAST
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.994014
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.998529
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: NEAR EAST
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.987551
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: preponderant
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.938458
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #7, segment 1)
+Text: Comment: This is the first indication of weakness in the electoral alliance of the MSI and the monarchists. The alliance to be in a position to profit at the elections from the dissatisfaction of conservative groups with the reform program of the Christian Democrats. Steps may have been taken to weaken extreme rightist movements by threatening their actual and potential financial supporters with the loss of government contracts and subsidies. Government officials, including Premier de Gasperi and Interior Minister Scelba, have stated during the current election campaign that not only the Communists, but also the neo-Fascists, are to be regarded as enemies of democracy and peace
+Token count: 106
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens
+  Text: at
+
+========================================================================
+[PAGE 12]
+kind=red_only red_source_page=11 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

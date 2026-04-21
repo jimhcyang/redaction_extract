@@ -1,0 +1,90 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.926974
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Soviet radar plotted US aircraft missing in Japan Sea
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 7. Arab League urged to give financial support to Tunisian struggle (page 6). EASTERN EUROPE 8. Satellite Economic Conference reportedly held in Budapest
+Token count: 23
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.917074
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 1. Soviet radar plotted US aircraft missing in Japan Sea: an unidentified aircraft, probably the B-29 which has been missing since that date, was plotted along with two other aircraft, presumably Soviet, 20 to 25 miles off the Soviet coast near Vladivostok. Comment: The last US radar check gave the B-29's position as approximately 25 miles west of the tip of Hokkaido. Aircraft wreckage was discovered on 14 June about 130 miles southeast of the Vladivostok area, in the vicinity of the last Soviet radar plot. Equipment near the wreckage indicates that there may have been survivors. Ambassador Kennan in Moscow has been instructed to request an urgent Soviet investigation
+Token count: 110
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: a
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: mission's
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.826617
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.852320
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: The Charge in Phnom Penh points out that a democratic government, responsible to an elected legislature, has been replaced by a government responsible only to the monarch. Comment: The deposed government, which holds two-thirds of the membership in the Cambodian Assembly, has in recent months increasingly insisted on a relaxation of French controls. The dismissal of the cabinet foreshadows certain political deterioration and may have repercussions in Vietnam
+- original #7 segment 1: full_page_or_admin
+  Text: 7. Arab League urged to give financial support to Tunisian struggle: The Iraqi Foreign Ministry to contact the Egyptian Foreign Ministry and the Secretary General of the Arab League with the object of lending Tunisian leaders funds for "continuing their activities and struggle." An Arab League contribution would depend on member states agreeing to which nationalist leaders the money should be paid. EASTERN EUROPE 8. Satellite Economic Conference reportedly held in Budapest: The Soviet-sponsored Council of Economic Mutual Assistance reportedly met in Budapest on 21-23 April to fix delivery deadlines for trade among the European Satellites, and to emphasize that production for export within the Orbit has priority over domestic requirements. Poland, East Germany, and Rumania were criticized for failure to meet schedules
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: Comment: Dissatisfaction with the Rumanian economic situation was the reason given for recent purges of prominent government officials which began shortly after this meeting. Further evidence of continued Soviet concern with Satellite economic performance was manifested on 1 June when work-norms in Hungary were raised in answer to Soviet demands

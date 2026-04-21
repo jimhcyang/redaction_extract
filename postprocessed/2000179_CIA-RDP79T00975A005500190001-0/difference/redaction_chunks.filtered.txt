@@ -1,0 +1,188 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.550000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 75
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.906250
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 1. Laotian Government continues to press French to reduce military mission. (No Backup) 2. Congo: UAR's threat to withdraw its troops probably intended to pressure UN into permitting Cairo's battalion to remain in areas where it can support Gizenga. (No Backup) 3. Developing foreign exchange crisis in UAR may increase flight of foreign capital
+Token count: 54
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 6. France to continue aerial reconnaissance over Libya despite Libyan threat to break relations; flights are for detection of any arms build-up by Algerian rebels
+Token count: 25
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: Backup, Page 1
+- original #3 segment 2: noncontent_keyword
+  Text: Backup, Page 4
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 24 January 1961 DAILY BRIEF
+- original #4 segment 2: full_page_or_admin
+  Text: Laos: No significant military developments have been reported during the past 24 hours. Airlift operations continued through 23 January. The Boun Oum government and the French representation in Laos appear headed for a showdown. The Laotian Government, convinced that the French are working with antigovernment elements for the return to power of deposed premier Souvanna Phouma, has already requested the recall of certain French advisers and is considering declaring French Ambassador Falaize persona nongrata. Paris eventually may be goaded into withdrawing its representation completely, including its economic technicians and military training mission. The withdrawal of the French training mission would jeopardize the status of the American training program, which operates technically under the French. The 1954 Geneva Agreement specified France as the sole training agent for the Laotian armed forces. Congo: The reported decision by the UAR to withdraw its troops from the Congo appears related to UN directives ordering Cairo's battalion to move from Equateur to Kasai Province. battalion's commander received instructions from the UN on 21 January to transfer his unit to Kasai by the end of the month. The commander, pointing out to Cairo that the move would compromise his freedom of action--presumably including his ability to direct clandestine support to Gizenga--and would place the unit in the midst of "famine and disturbance," stated that he would attempt to stall for time until Cairo sent instructions. In threatening to withdraw its forces, the UAR
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.891000
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #5, segment 1)
+Text: may be attempting to pressure the UN into permitting the battalion to remain in Equateur. Belgium reportedly is continuing its efforts to aid the regimes of Mobutu and Tshombe: about 100 Belgian military advisers to Mobutu's army recently arrived in Leopoldville. Press reports indicate that 50 volunteers for the Katanga armed forces recently were moved from Brussels to Elisabethville. Meanwhile, the situation in Stanleyville reportedly is tense, with Europeans in a state of hysteria as a result of continuing intimidation by Lumumba followers. UAR: Many prominent mid-eastern investors are liquidating their real estate holdings and bank deposits in both regions of the UAR because they fear a foreign exchange crisis and further nationalization within the next few weeks. By December, foreign exchange reserves of the Egyptian National Bank had fallen to the lowest point ever reached, and in Syria the exchange rate of the pound has continued its downward drift. Cairo's efforts to earn foreign exchange by shifting some cotton sales from Communist countries to Western Europe have met with little success. While a $27,300,000 drawing from the International Monetary Fund may postpone the "crisis" foreseen by Egyptian Finance Minister Qaysuni before the end of February, a flight of capital, especially to Beirut, is likely to continue from Syria and increase from Egypt
+Token count: 215
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 2: noncontent_keyword
+  Text: Backup, Page 1
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.960089
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #7, segment 1)
+Text: France-Libya: France has notified the US that it will again carry out secret reconnaissance overflights of Libya on 26-27 January and 2-3 February despite recent protests by the Libyans against flights they observed on 4 and 5 January. Although the flights have been going on approximately monthly since mid-1959, the early January missions were the first detected by Libya, which immediately threatened that any repetition would lead to
+Token count: 68
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: German - Polish
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.951042
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #8, segment 1)
+Text: a rupture of relations with France. The US and UK have repeatedly warned Paris of the dangers involved in these flights, but the French military have insisted that they are essential as a means of discovering any arms build-up in Libya by Algerian rebels
+Token count: 44
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #8 segment 2: noncontent_keyword
+  Text: Backup, Page 4
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: UAR Economic Difficulties Increasing Large Middle Eastern investors reportedly are disposing of their holdings and closing out their bank deposits in both regions of the UAR. The Deputy Ruler of Kuwait has said that he is liquidating his assets in Syria because he fears increasing economic and political instability and further nationalization moves by Cairo. Nasir refused to approve its plan for guaranteeing private and foreign investment in Syria against nationalization. He also characterized efforts by government officials to win the support of the business community for the region's economic development plan as "begging," and noted that he had neither ordered nor approved such action. Cairo's efforts to earn foreign exchange by shifting some cotton sales from Communist countries to Western Europe have not been particularly successful, and the foreign exchange situation is worsening. By December, foreign exchange reserves of the Egyptian National Bank had fallen to $55,000,000 --their lowest ever. In an effort to alleviate the situation, Egypt drew $27,000,000 from the International Monetary Fund. This action may have postponed the early "crisis" predicted by Egyptian Finance Minister Qaysuni, but the loan was practically wiped out by a payment on 1 January of $23,000,000--half to the Suez Canal shareholders and almost half to the Sudan under the Nile Waters Agreement. The situation will deteriorate even further if Nasir carries out a reported plan to require all foreign firms doing business in the Egyptian Region of the UAR to conduct their affairs through an Egyptian "agent
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 24 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.969040
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=0.989877
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #10, segment 1)
+Text: the German public, as well as his allies, that he can
+Token count: 11
+Recut: none
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: France Schedules Further Overflights of Libya Despite Tripoli's Protests Despite a recent protest from the Libyan Government, France intends to continue the series of reconnaissance flights the French Air Force has been making over Libya since mid-1959. A French Air Force intelligence officer has notified the US air attache in Paris that flights north of the 30th parallel will be flown on 26-27 January and south of the parallel on 2-3 February. Libya has become aware of such overflights only recently. On 9 January Libyan Prime Minister Muhammed Ben Uthman informed the US ambassador in Tripoli that on 4 and 5 January two French military aircraft had conducted 20-minute low-level surveillance over Ghat and two other villages in southwestern Libya near and on the Algerian border. French officials had previously notified the US that overflights south of the 30th parallel were scheduled for these dates. Uthman charged that a French military land penetration of Libyan territory had occurred also on 5 January, and stated that the French ambassador had been warned that repetition of such incidents would inevitably lead to a rupture of relations. He asked both the United States and Britain to intervene with France. He insisted that the whole matter be handled with the utmost secrecy, pointing out that publicity would generate strong domestic pressure for immediate action. French officials have regularly notified the US of the schedule dates and areas for the overflights, and have as regularly ignored US and UK warnings of the possible consequences. The French military justify the overflights as essential to detect a possible Algerian rebel arms build-up on Libyan bases, and have even claimed to possess intelligence reports that a rebel air force is being formed there. Although arms have been transshipped through Libya to rebels in Algeria, Paris has made no claims that a major build-up has been discovered as a result of the overflights. If such French activities are again detected, Tripoli may go beyond simply breaking relations. It may invoke its mutual defense
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 24 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.125000
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #7 (original #12, segment 1)
+Text: treaty with the UK to demand that British aircraft prevent such incursions; it may also threaten to suspend the Wheelus airbase agreement with the United States unless US aircraft assist
+Token count: 30
+Recut: none
+
+Clean Chunk #8 (original #13, segment 1)
+Text: protecting Libyan territory
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #13 segment 2: noncontent_keyword
+  Text: 24 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

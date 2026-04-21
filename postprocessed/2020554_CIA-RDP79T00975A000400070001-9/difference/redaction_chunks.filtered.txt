@@ -1,0 +1,90 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.676190
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.901662
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: NEAR EAST WESTERN EUROPE 5. French urge caution in approach to Egypt on Middle East Command (page 6). 6. European fascist meeting reportedly being held in Spain
+Token count: 27
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens
+  Text: USSR
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.991707
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: NEAR EAST
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.122321
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin, noncontent_keyword
+  Text: WESTERN EUROPE 5. French urge caution
+- original #5 segment 1: full_page_or_admin
+  Text: approach to Egypt on Middle East Command: Comment: Egyptian sentiment is anti-British, rather than neutralist, as a result of the serious Anglo-Egyptian Treaty dispute. Unless, as the French imply, the details of the proposed Middle East Command scheme are made sufficiently attractive to Egypt, Egyptian Government leaders may not approve of the Middle East defense scheme. 6. European fascist meeting reportedly being held in Spain: European Social Movement was scheduled to meet in Spain on 28 September to organize a Pan- European Movement or at least an international body of fascist war veterans. Among the groups which reportedly were to be represented at the meeting were the neo-fascist Italian Social Movement, Nazi SS legions, and the Falange. Among the individuals named as participants were the German neo-Nazi Priester, the Swedish neo-Nazi Engdahl, former SS General Korsemann and the notorious Nazi intelligence agent Skorzeny. The Executive Council of the European Social Movement hoped to secure a pledge of Falange cooperation from Franco
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.788617
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #6, segment 1)
+Text: the notorious Nazi intelligence agent Skorzeny. The Executive Council of the European Social Movement hoped to secure a pledge of Falange cooperation from Franco. Comment: The Falange has maintained friendly relations with other fascist groups in Europe, especially the Italian Social Movement, and the Franco regime has given asylum in Spain to a considerable number of prominent German Nazis, including Skorzeny. The aim of the anti- Communist, anti-US European fascist movements is to achieve a militarily strong and independent union of fascist European governments. Except for the Falange the fascist organizations do not represent, as yet, important political forces in their respective countries
+Token count: 103
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #7, segment 1)
+Text: at least through the November elections. Neither the Navy nor the Air Force is in a position to revolt. Peron has the support of labor. None of the opposition political parties has means to effect a coup at this time
+Token count: 40
+Recut: none

@@ -1,0 +1,102 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.681792
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. PERVUKHIN HEADS NEW TOP-LEVEL SOVIET ECONOMIC PLANNING GROUP
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. INDONESIAN MOSLEM PARTIES REPORTED READY TO DEMAND NEW CABINET UNDER HATTA
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 1. PERVUKHIN HEADS NEW TOP-LEVEL SOVIET ECONOMIC PLANNING GROUP Comment on: The appointment of presidium member M. G. Pervukhin in place of M. Z. Saburov as head of the USSR State Economic Commission apparently signals the beginning of strenuous efforts to adjust Moscow's plans to meet recently increased economic pressures. These pressures arise from changes in economic relationships with the Satellites, the need to maintain large military forces, and the leadership's apprehension of potential discontent within the USSR. In addition, the output of basic raw materials and building materials has fallen behind schedule. The assignment of six top Soviet administrators--five of whom had been deputy premiers and who represent all aspects of the domestic economy--as assistants to Pervukhin, indicates the seriousness with which the regime regards its economic problems. The statement issued on 24 December by the party central committee ignored all of these issues except the shortages of some basic raw materials. The central committee also apparently either rejected or postponed decision on plans for an immediate and "significant" increase in housing construction revealed by intercepted messages earlier in December. The central committee statement reiterated the main lines of Soviet policy set forth at the 20th party congress. It also emphasized very strongly one of the basic policies associated with Khrushchev since he became the dominant member of the "collective leadership"--the need for continued primary emphasis on heavy industry in the race to compete with leading capitalist countries in economic output. The central committee also called for greater economic decentralization and efficiency, in order
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: to achieve the simultaneous fulfillment of all plans. Solutions more far-reaching than these, however, will probably be required to satisfy the additional demands recently placed on the Soviet economy. Khrushchev himself did not figure personally in the public statements emanating from the central committee meeting and no public mention has been made of serious political problems which the meeting presumably discussed. Reiteration of policies laid down at the 20th party congress, however, and the appointment to the planning commission of top-level administrators closely associated with the Khrushchev-Bulganin program suggest that no dramatic change in the top leadership is imminent. Pervukhin's new appointment is in line with earlier indications that he has been steadily improving his position over the course of the past two years. In contrast, Saburov's planning organization has been directly criticized by Khrushchev on several occasions
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.244444
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: INDONESIAN MOSLEM PARTIES REPORTED READY TO DEMAND NEW CABINET UNDER HATTA A representative of the Masjumi, Indonesia's largest Moslem party, will tell President Sukarno on 27 December that former vice president Hatta must be appointed prime minister to head a cabinet of experts which Hatta would select himself. If the president refuses, both the Masjumi and the Nahdlatul Ulama--the second largest Moslem party--will withdraw from the cabinet. Comment A cabinet crisis
+- original #7 segment 1: full_page_or_admin
+  Text: Indonesia appears unavoidable in view of the government's inability to influence developments in Sumatra, where the army now controls the governments of two provinces following a bloodless coup on 20 and 21 December. Withdrawal of both the Masjumi and the Nahdlatul Ulama would bring the fall of the Ali government. The Masjumi demand for a cabinet of experts led by Hatta is in accord with demands by Sumatran army elements under Colonel Simbolon for the resignation of the Ali cabinet and the return of Hatta to "unite and then lead the country and people." President Sukarno probably would be reluctant to entrust the cabinet to Hatta, with whom he has been in basic disagreement
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.943325
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: Comment on
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Souphannouvong
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.950365
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

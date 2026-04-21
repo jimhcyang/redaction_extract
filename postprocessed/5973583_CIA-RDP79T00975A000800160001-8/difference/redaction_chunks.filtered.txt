@@ -1,0 +1,86 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.778125
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 2
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.936594
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 2. Air warning system in North Korea "seemingly infallible
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: WESTERN EUROPE 7. French see East German "reforms" as turning point
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.957676
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 2. Air warning system in North Korea "seemingly infallible": A United Nations bomber cannot enter North Korea undetected by night, thanks to a "seemingly infallible" early warning system manned by Russian, Chinese and Korean personnel. This system has been steadily improved in the past eight months. Comment: The enemy early warning system is one of the strongest aspects of the air defense establishment in Manchuria and North Korea
+Token count: 68
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: WESTERN EUROPE 7. French see East German "reforms" as turning point: The reorganization measures approved by the East German Parliament on 23 July marked the end of that "semi-bourgeois phase" during which "the Russians had not wanted to do anything which would exclude the possibility of a reunification of Germany." Comment: Communist propaganda emphasis has shifted temporarily from the unity campaign, the immediate objective of which was to block Western defense plans, to the "socialization" of East Germany. The Soviet Union has not abandoned its ultimate objective of reuniting Germany on Soviet terms, however, and East German leaders expressly hope that the Bonn government can be upset from a Communist base in East Germany
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: Comment: Communist propaganda emphasis has shifted temporarily from the unity campaign, the immediate objective of which was to block Western defense plans, to the "socialization" of East Germany. The Soviet Union has not abandoned its ultimate objective of reuniting Germany on Soviet terms, however, and East German leaders expressly hope that the Bonn government can be upset from a Communist base in East Germany

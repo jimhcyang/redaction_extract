@@ -1,0 +1,220 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.869423
+kept_candidate_count=1
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #3, segment 2)
+Text: 6. NEW COUP IN CUBA REPORTED IMMINENT (page 9). 7. ARMY MAY SEIZE CONTROL IN ECUADOR
+Token count: 16
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 8
+- original #3 segment 3: noncontent_keyword
+  Text: page 10
+- original #4 segment 1: noncontent_keyword
+  Text: page 11
+- original #5 segment 1: noncontent_keyword
+  Text: page 12
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 13
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.935869
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: in-flight
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: performance
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: refueling
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.454989
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #10, segment 1)
+Text: COMBAT RADII OF SOVIET JET HEAVY BOMBER WITH 10,000-POUND BOMB LOAD 11 MAY 1956
+Token count: 15
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.872087
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: according
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Premier
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reopening
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.939995
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: sheikdoms
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: pro-British
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: cordial
+- original #17 segment 1: short_span_min_tokens
+  Text: develop
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.846134
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: particularly
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: insisted
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: radically
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: statement
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: ambassadors
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.901643
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: foreign
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: harassment
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: appeals
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.123133
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: full_page_or_admin, noncontent_keyword
+  Text: 6. NEW COUP
+- original #27 segment 1: full_page_or_admin
+  Text: CUBA REPORTED IMMINENT Comment There have been previous reports that officers who served under former president Prio were planning a general revolt, which would be set off by the assassination of President Batista. On 9 May the Cuban police expelled Prio from Cuba on charges of inciting uprisings and the entire Prio "clique" is to be deported. Popular dissatisfaction with the Batista regime has been mounting, and Batista, in an effort to strengthen his position, is reorganizing the military and has suspended constitutional guarantees
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #28 segment 1: full_page_or_admin
+  Text: 7. ARMY MAY SEIZE CONTROL IN ECUADOR Comment The approach of the 3 June national elections for president, vice president and congress has occasioned numerous reports of plots to gain control of the government by force. The army is the most important factor in Ecuadoran politics. In the past 30 years Ecuador has had some 22 presidents, only one of whom was regularly elected and served out his four-year term. Velasco was ousted from the presidency in 1935 and again in 1947 because of his dictatorial measures
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.882216
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #29, segment 1)
+Text: Comment on: Reports that Cho Pong-am, President Rhee's remaining opponent in South Korea's presidential race, has gone into hiding for fear of assassination reflect increasing tension in South Korea prior to the 15 May presidential elections
+Token count: 36
+Recut: none
+
+Excluded candidates:
+- original #30 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: succession
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.915201
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #31 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: country
+- original #32 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: international
+- original #33 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: announcement
+- original #34 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: encourage
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=0.892202
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #4 (original #38, segment 1)
+Text: Press) The six Vampire jet fighters with Syrian markings which landed for refueling in Athens on 26 April, presumably on their way to Syria, were delivered to Syrian air force officers training in Egypt. They were delivered under an old contract and added that 12 more aircraft were included in the contract for future delivery
+Token count: 55
+Recut: none
+
+Excluded candidates:
+- original #35 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Jordanian
+- original #36 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Jerusalem
+- original #37 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Jordanians

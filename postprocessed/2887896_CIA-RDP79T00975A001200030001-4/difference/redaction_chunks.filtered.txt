@@ -1,0 +1,77 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.976220
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 5. 6. Semenov reported ready to agree to all-German elections
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 2
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.999171
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 2
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.998864
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 5
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.899078
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #5, segment 1)
+Text: 6. Semenov reported ready to agree to all-German elections: Soviet ambassador Semenov reportedly wants an early meeting with the three Western high commissioners at which he will agree to all-German elections provided they are on a zonal rather than a nation-wide basis. He has allegedly been instructed to cite the Potsdam agreement as the legal basis for all questions and to state that the Oder-Neisse frontier cannot be discussed before an all-German government is formed; Comment: This may be a fabrication The Bonn government could be expected to oppose the Potsdam declaration as the legal basis for any new arrangements, and to adhere to the Bundestag resolution of September 1951 that all-German elections must be on the basis of a single electoral district covering the whole country. In any event, a Soviet approach along the lines of this report would put Adenauer in an embarrassing position
+Token count: 146
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

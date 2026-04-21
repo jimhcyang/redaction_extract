@@ -1,0 +1,203 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.650000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122286
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 31 JANUARY 1959 I. THE COMMUNIST BLOC Guided Missile Intelligence Committee statement about Soviet guided-missile submarines. UAR instructs ambassador
+- original #2 segment 1: full_page_or_admin
+  Text: Peiping to reject Communist China's offer of arms "with thanks". North Vietnamese message explains communist intention in Taiwan Strait issue as promoting split between US and Taiwan, not immediate capture of island. Yugoslavs respond to Khrushchev's statements at party congress with severe personal press attacks on Soviet leader. Soviet delegates at Geneva state privately that negotiations should continue until treaty is signed. II. ASIA-AFRICA Chinese Nationalists order interception of Communist shipping in Taiwan Strait area. Shah of Iran says he intends to wait one week before deciding on non-aggression pact with USSR. Libyan military mission now in Cairo reported discussing acquisition of arms from the USSR. Cambodia - Dap Chhuon reported to have approached Thai authorities for support in plot against Sihanouk. Japanese - South Korean relations will worsen as a result of Japanese decision to permit Korean residents to depart Japan for North Korea. III. THE WEST Paraguay - Attempt to oust President Stroessner may be imminent
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.890385
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 1)
+Text: Modified Soviet submarines: The Guided Missile Intelligence Committee has made a preliminary assessment of the evidence concerning the modification of at least three Soviet Z-class submarines. Although there may be other reasons for this modification, GMIC believes that it is a distinct possibility that these submarines have been equipped to fire ballistic missiles having a range of 100 to 200 nautical miles. (Page 1) Communist China - UAR: The UAR informed its embassy in Peiping to "extend thanks" but that the artillery offered to a UAR military mission by Communist China was "not suitable," and that no contract was to be concluded. (Page 2) North Vietnam: Chinese Communist policy in the Taiwan Strait is "to fire at times and cease fire at times" and "not to liberate Quemoy and Matsu immediately." Peiping's policy is to "win over world opinion" and create discord between the US and the Chinese Nationalists
+Token count: 148
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: Page 3
+- original #4 segment 1: noncontent_keyword
+  Text: Page 4
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.898288
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #5, segment 1)
+Text: USSR-Geneva talks: The chief Soviet delegate at the nuclear test-cessation talks in Geneva told the American and British delegates that he does not wish nor intend to break off the negotiations. The number-two man on the Soviet delegation said the USSR also had new data on underground explosions but "could not discuss it until the treaty is signed." Another Soviet delegate admitted that "military authorities" in the USSR did not want to stop tests and would be happy if no treaty were concluded
+Token count: 83
+Recut: none
+
+Clean Chunk #3 (original #6, segment 2)
+Text: Iran-USSR: In treaty negotiations with the USSR, the Shah will offer to agree not to sign a pending bilateral defense agreement with the US and not to permit Iran to be used as a base against the Soviet Union. In exchange, the Shah will ask for a Soviet guarantee not to attack Iran and to cease hostile propaganda. He says he intends to wait one week before making a final decision on concluding the projected nonaggression pact. The Shah indicated that Iran will remain in the Baghdad Pact and has refused Soviet economic aid. Court Minister Ala says the Shah will be glad to see the American ambassador at any time
+Token count: 111
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Page 5
+- original #6 segment 3: noncontent_keyword
+  Text: Page 6
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.886782
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #7, segment 1)
+Text: Libya: A Libyan military mission led by the defense minister is reported to have been meeting with the Soviet military attaché in Cairo and the Egyptian army chief of staff to discuss the acquisition of arms from the USSR. According to earlier reports, the purpose of the Libyan mission's visit to the UAR was to request from Cairo heavy equipment, including tanks and armored cars, which the Libyan Government had unsuccessfully sought from the British. Cambodia: External and internal plotting against the Sihanouk regime may soon be coordinated. General Dap Chhuon, commander in northwestern Cambodia, is reported to have approached Thai authorities for the first time and to have urgently requested their support for his efforts. Daily anti-Sihanouk broadcasts from a mobile station on the Thai-Cambodian border are scheduled to begin next week
+Token count: 133
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #8, segment 2)
+Text: III. THE WEST *Paraguay: Opposition elements, including some within Paraguay's ruling Colorado party, have stepped up their plotting and plan an attempt to remove President Stroessner within the next few days. Stroessner is known to be aware of at least some of the plots against his administration and has taken special security measures, particularly since the Castro victory in Cuba
+Token count: 60
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #7 segment 2: noncontent_keyword
+  Text: Page 7
+- original #8 segment 1: noncontent_keyword
+  Text: Page 8
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.243878
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Possible Soviet Ballistic Missile Submarines At least three Soviet Z-class submarines
+- original #10 segment 1: full_page_or_admin
+  Text: the Northern Fleet and perhaps one or more in the Far East have been modified and are markedly different from others in this class. This modification, which may date back to 1956, involves an extensive alteration of the conning tower fairwater. The fairwater has been enlarged and two circular covers or domes are on top of the after portion of this structure. The three Northern Fleet units identified as modified Z-class boats operate in a somewhat different manner from other submarines of that fleet. One of these units is now on patrol in the northeast Atlantic. The Guided Missile Intelligence Committee has made a preliminary assessment of the evidence concerning these submarines. Although there may be other reasons for this modification, GMIC believes that it is a distinct possibility these units have been equipped to fire ballistic missiles. If equipped for this purpose, it is estimated that each submarine can carry two missiles having a 100- to 200-nautical-mile range with circular error probability of 2 to 4 nautical miles and a payload of 1,000 pounds. The two domes on top of the conning tower could be the covers of vertical tubes for launching these missiles. These modifications to the Z class could serve the dual role of providing the USSR a limited operational capability and serving as a research and development system for a later, more advanced missile and submarine system. It is estimated that the USSR has 18 Z-class submarines. Four and possibly five of this class are in the Pacific Fleet, 11 or 12 are in the Northern Fleet, and the remainder are in the Baltic Fleet
+- original #10 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 31 Jan 59 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: Chinese Communist Arms Offer Refused by UAR The artillery offered to the UAR by the Chinese People's Republic is "not suitable," and that no contract is to be concluded. A UAR military mission, described as a coastal defense committee, in early December witnessed a demonstration in China of 122-mm. and 152-mm. artillery pieces. The mission planned to begin discussing a draft agreement with Peiping for the purchase of these arms in mid-December
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 31 Jan 59 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: Hanoi Discusses Peiping's Taiwan Strait Strategy A "conflict" between the United States and Nationalist China might be sharpened by current Chinese Communist tactics--"to fire at times and cease fire at times" and "not to liberate Quemoy and Matsu immediately." The "conflict" stems from the alleged US desire for a withdrawal of Nationalist forces from the two island groups in order "to build up Taiwan into a separate China" and the opposition to this by Chiang Kai-shek, who is attempting to "maintain the status quo." Peiping's policy was to "win over world opinion" and that if the United States maintains its position, "it will be held in contempti" The American position is already increasingly unpopular among Chinese on Chinmen, Matsu, and Taiwan. This line of reasoning suggests that the Chinese Communists are counting on a long-term political effort together with some military pressure to prevent a "two-Chinas" situation from developing. By drawing certain parallels between the situation in South Vietnam and the Taiwan Strait, indicates close coordination between Peiping and Hanoi. The United States has aroused the suspicion of its smaller allies since, "If it wants to remain, it remains; if it wants to withdraw, it withdraws
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 31 Jan 59 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.243705
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: Shah States His Terms for Iranian-Soviet Nonaggression Pact The Shah of Iran informed the Pakistani ambassador to Iran and a British Foreign Office official
+- original #14 segment 1: full_page_or_admin
+  Text: separate audiences on 29 January that he has offered to sign a treaty with the Soviet Union which would include as its minimum terms a Soviet assurance that the USSR would not attack Iran and that it would discontinue hostile propaganda against Iran. In return Tehran would agree not to sign the pending bilateral defense agreement with the US and would not permit use of Iran as a base for aggression against the Soviet Union. The Shah stated that Iran would remain in the Baghdad Pact and that he has refused Soviet economic aid. The Soviet delegation which arrived by special plane in Tehran on 29 January presumably brought a response to the Shah's terms or at least authority to negotiate further. The Shah is definitely prepared to sign the nonaggression treaty if the Soviet Union meets Iran's terms, but that if Soviet counterproposals are rigid he "may have second thoughts." The Pakistani ambassador had reported to his government that the Shah intended to sign a 30-year nonaggression pact with the USSR on 1 February. The Shah had indicated he would wait one week before making his final decision regarding an Iranian-Soviet treaty. Turkish officials fear he may take precipitate action which will have serious repercussions both on domestic politics in Turkey and throughout the Middle East. Turkish Prime Minister Menderes was particularly depressed following these talks. The Shah emphasized to the Turks Iran's dissatisfaction with the "small repayment" for joining the Baghdad Pact, and reiterated Iran's need for $107,000,000 in budgetary assistance. He criticized the US for offering only $20,000,000 and complained that the US would not supply Iran with antiaircraft missiles and training necessary for their use. Court Minister Ala has informed US Ambassador Wailes that the Shah will be glad to see him at any time, presumably to keep the way open for US offers of increased aid designed to forestall the Iranian-Soviet rapprochement
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 31 Jan 59 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: Plotting Against Cambodian Government Accelerated Preparations by Cambodian General Dap Chhuon for an internal coup against Prince Sihanouk may shortly be coordinated with the heretofore separate Thai-Vietnamese intrigues against the Sihanouk government. Chhuon, whose military command region in northwestern Cambodia fronts on Thailand, urgently requesting support for his planned move against the Sihanouk government around 8-10 February. Chhuon presumably is seeking logistical support in the form of gasoline and ammunition. Chhuon's request will probably elicit sympathetic response from Thai officials, although they have become much more circumspect in their plotting against Sihanouk as a result of the presence of a UN special mediator, Baron Beck-Friis. Even if diplomatic relations between Cambodia and Thailand are restored through his efforts, this would not change the basic Thai premise that Sihanouk must be eliminated before his soft attitude toward international Communism imperils all of Southeast Asia. "Voice of Cambodian Resistance" broadcasts will soon be started from a mobile station on the Thai-Cambodian frontier. In these broadcasts and in Cambodian-language pamphlets prepared for wide distribution throughout Cambodia, Sihanouk is to be portrayed as endangering the nation's welfare by his despotic leadership and pro-Communist policies. Sam Sary, former Cambodian royal councilor who is now in Bangkok working with the Thais and Vietnamese against Sihanouk, is in charge of this propaganda campaign
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 31 Jan 59 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=10 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=11 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=12 unred_source_page=16
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

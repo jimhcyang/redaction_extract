@@ -1,0 +1,63 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.747768
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens
+  Text: E37
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.876595
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 2)
+Text: EASTERN EUROPE 2. Special measures ordered to suppress rural uprising in eastern Czechoslovakia
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.990051
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: EASTERN EUROPE 2. Special measures ordered to suppress rural uprising in eastern Czechoslovakia
+Token count: 13
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.948760
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #4, segment 1)
+Text: Comment: This is the first confirmed instance of organized resistance in Eastern Europe since the June demonstration in western Czechoslovakia and later uprisings in East Germany. It is also the first apparent instance in several years of a Satellite regime being required to mount a major security operation against peasant resistance
+Token count: 51
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: l954
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.946032
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

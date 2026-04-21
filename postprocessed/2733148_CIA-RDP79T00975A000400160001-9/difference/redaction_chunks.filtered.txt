@@ -1,0 +1,73 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.975625
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. Portugal acts to limit flow of military goods to China
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.925000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 2. Portugal acts to limit flow of military goods to China: in late September the Lisbon government instructed the Macao authorities that an embargo on the shipment of military supplies to Communist areas was to go into effect on 1 October. on 26 September the avowedly anti-Communist Macao chief of police prevented the transfer of eight aircraft engines from a Macao warehouse for possible sale to the Chinese Communists. Meanwhile, the head of Macao's Economic Services, P. J. Lobo, reportedly refused to announce the embargo. He maintained that export trade with China could continue, inasmuch as no export licenses are required in Macao
+Token count: 103
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.931460
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #3, segment 1)
+Text: Comment: Lobo, reputedly political boss of the colony with a sizable financial interest in Macao's smuggling activities, has opposed any attempt to regulate the China trade. Although Portugal has not recognized the Peiping Government, it is anxious not to antagonize the Chinese Communist regime, because of possible loss of the colony. While in general agreement with the need for an embargo, the Lisbon government has hitherto maintained that Macao, which depends on Communist China for much of its food and even its water, is an exceptional case
+Token count: 87
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: McGee
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.982923
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: whatever
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: increasingly

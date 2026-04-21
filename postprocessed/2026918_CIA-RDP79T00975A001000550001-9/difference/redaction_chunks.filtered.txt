@@ -1,0 +1,92 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.932836
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #3, segment 1)
+Text: 4. Comment on West German Court's decision on Bonn and Paris treaties
+Token count: 12
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 6. Italian Communists reported preparing for violence to avert electoral defeat
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+- original #4 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.997632
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: WESTERN EUROPE 4. Comment on West German Court's decision on Bonn and Paris treaties: Although the West German Constitutional Court rejected on 7 March the government's petition for an immediate ruling on the Bonn and Paris treaties, the Bundestag is expected to ratify them by the end of March. Bundesrat approval, however, has now become much more unpredictable and will probably not be forthcoming until summer, when the federal election campaign gets under way. In any event, the opposition Social Democratic Party will almost certainly resubmit its case to the court should both houses of parliament approve the treaties in the next two months. Should the court then declare the treaties incompatible with the constitution, a decision which is now somewhat more likely, a governing coalition of all major parties might be formed following the elections. After some delay this coalition would likely "re-ratify" the treaties by amending the constitution
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.962971
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #7, segment 1)
+Text: 6. Italian Communists reported preparing for violence to avert electoral defeat: The leadership of the Italian Communist Party has ordered the creation of action squads to stir up violence throughout Italy if the party's defeat appears certain because of the new electoral law. the squads would be made up of seasoned Communist partisans of World War II resistance groups
+Token count: 59
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #8, segment 1)
+Text: Comment: Although the security forces would be capable of dealing with any disturbances, Communist filibusters have delayed final action on the electoral law until 22 March, and the government is using Communist obstructionism as an excuse for postponing EDC ratification
+Token count: 40
+Recut: none

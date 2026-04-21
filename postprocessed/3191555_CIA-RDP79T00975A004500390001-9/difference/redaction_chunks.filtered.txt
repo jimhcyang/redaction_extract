@@ -1,0 +1,167 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.696429
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.246305
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 25 JUNE 1959 I. THE COMMUNIST BLOC Communists reported planning to harass West German presidential election set for
+- original #2 segment 1: full_page_or_admin, short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: July
+- original #3 segment 1: full_page_or_admin
+  Text: West Berlin. New evidence of MIG-19 jet fighters in Communist China. II. ASIA-AFRICA Algerian rebels mount strongest attack in past two years; French counterattacking in force. Tunisia and UAR negotiating rapprochement. Indonesian rebel representatives to be expelled from Singapore and Malaya; will hamper rebel activity. III. THE WEST President Betancourt of Venezuela opposes OAS action concerning Dominican Republic; he believes Trujillo should be pressed to resign
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.973288
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #5, segment 1)
+Text: Communist China: Ten aircraft, probably MIG-19s, This supports other evidence that high-performance jet fighters are based in Communist China. The MIG-19 is a twin-engined supersonic jet fighter first observed in the USSR in May 1955
+Token count: 35
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: Page 1
+- original #5 segment 2: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.873741
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #6, segment 1)
+Text: Algeria: The attack by Algerian rebels on the outskirts of the eastern port city of Bone, about 30 miles from the Tunisian frontier, is the strongest rebel military action in two years. It appears designed primarily to demonstrate the rebels' ability to continue the war in the face of reverses which have ended, at least temporarily, organized military resistance in western Algeria. The French have counterattacked in force and appear to have routed the attacking Algerian force. (Page 3) Tunisia-UAR: Tunisian and UAR officials have established direct contact in Libya with a view to reaching agreement on an early restoration of normal relations. Presidents Bourguiba and Nasir, despite their continuing distrust of one another, appear to have concluded that the desirability of an appearance of Arab unity in North Africa makes a reconciliation expedient. Diplomatic ties between Tunis and Cairo have been disrupted since last October when Tunisia denounced the Nasir regime at a public meeting of the Arab League Council. (Page 4) Indonesia: The Malayan and Singapore governments reportedly have agreed to an Indonesian Government request not to renew the visas of Indonesian rebel representatives. The dissidents are arranging to transfer their major overseas operations from Singapore to Hong Kong, a change in distance which will make rebel activities far more difficult. The Malayan port of Penang and Singapore have played key roles in the delivery of supplies to the rebels
+Token count: 232
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 2: noncontent_keyword
+  Text: Page 5
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.997115
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Page 6
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.988936
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: Probable MIG-19s in China 10 jet fighter aircraft, probably MIG-19s, at Tsanghsien Airfield 110 miles south of Peiping. These fighters were definitely larger than MIG-17s which, along with IL-28 jet light bombers, were also on the field. The numerous reports, received since last fall, of high-altitude flights over the Chinese mainland may have been reflections of familiarization and training operations with this aircraft. Most of the extreme altitudes reported are within the capability of the MIG-19, which has a service ceiling of 62,200 feet. This supersonic rapid-climbing aircraft enhances the overall capability of the Chinese Communist Air Force as it can be used for low-altitude and toss bombing in addition to intercept operations. The MIG-19 carries one or two small cannons, unguided rockets, and could easily be adapted to use homing missiles. One model, the MIG-19B, has an all-weather capability. Communist China, with Soviet assistance, is preparing to produce this aircraft
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 25 June 59 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.122610
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Algerian Rebels Battle French Outside Bone The attack by a "strong" band of Algerian rebels on the outskirts of the eastern Algerian port city of Bone, about 30 miles from the Tunisian frontier, is the first on such a scale
+- original #11 segment 1: full_page_or_admin
+  Text: two years. French forces in the area are believed to outnumber the rebels, who are armed with rifles, grenades, and some automatic weapons. The nature of the attack suggests that it was designed to demonstrate the rebels' ability to continue the war rather than to achieve any single military objective. French successes in western Algeria have been such that French statements have alluded to the Oran area as "pacified," and rebel messages have reflected a breakdown in organized resistance. 25 June 59
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 3
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: Tunisia and UAR Moving Toward Formal Reconciliation Tunisia and the UAR appear to be moving toward an early formal reconciliation despite the strong dislike between Presidents Bourguiba and Nasir. Tunis broke off diplomatic ties with Cairo last October after accusing the UAR of trying to dominate other countries at a public meeting of the Arab League Council. High-level Tunisian and UAR officials recently met in Libya to discuss an early restoration of normal relations. Tunisians expressed appreciation for a "note verbale" transmitted to Bourguiba by Fuad Galal, UAR representative at the recent meeting in Tunis of the steering committee of the All-African People's Conference. The Tunisians were saying that Bourguiba was "very interested" in a rapprochement and that mediation--a reference to active efforts since early April by Morocco to bring the two disputants together--was no longer necessary. The Tunisians then proposed further secret talks in Libya. Arrangements were said to have been made for contacting Bourguiba--now on vacation in Italy--at any time. Earlier this month Bourguiba told the American ambassador in Tunis he had informed Galal that Cairo's refusal to expel Salah ben Youssef, Bourguiba's exiled extremist rival, was "wholly secondary" and that Tunisia would be willing to re-establish relations if Cairo evidenced a willingness to refrain from interfering in Tunisian affairs. Bourguiba referred specifically to Cairo radio's attacks on him, which had been vitriolic but have ceased since early May. Bourguiba and Nasir appear to have concluded that the desirability of an appearance of Arab unity in North Africa makes a normalization of relations expedient. Such a move has long been favored by many of Bourguiba's subordinates. 25 June 59
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 4
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: Singapore and Malaya Reportedly Will Oust Indonesian Dissident Representatives The Malayan and Singapore governments have agreed to comply with an Indonesian Government request to deny residence and entry to Indonesian dissident representatives after their visas expire in early July. Djakarta has given both governments a list of dissidents known to be abroad. The Communist-infiltrated People's Action party, which won control of the Singapore government in May, promised the Indonesian Consulate General last February that it would oust dissident representatives when it achieved power. Indonesian Prime Minister Djuanda requested similar action from the Federation of Malaya. The dissidents are reported making plans to transfer their major overseas operations from Singapore to Hong Kong. The distance involved in operating from Hong Kong, however, is likely to cause them further difficulties. Singapore and the port of Penang in the Federation of Malaya have been ideally suited for dissident purposes, particularly for operations in Sumatra. These two cities are within easy reach of the Sumatran coast by small vessels, and provide a ready market for rubber, the dissidents' principal barter product. Although the rebels will undoubtedly attempt to continue smuggling to and from Singapore and Malaya, the operation will be more difficult. 25 June 59
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 5
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=8 unred_source_page=12
+alignment_score=0.990590
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=10 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

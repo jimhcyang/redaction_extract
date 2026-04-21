@@ -1,0 +1,222 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.257500
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. C 63 CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 1 AUGUST 1959 I. THE COMMUNIST BLOC Peiping gets Crown Prince Badr's permission to send more techni- cians to Yemen. II. ASIA-AFRICA Iraq--Army instructors ordered withdrawn from Popular Resistance Force, Communists reported con- sidering strikes and sabotage in oil fields. World Bank loan to Nasir for Suez Canal improvement may be blocked by Israel and UK. Israelis want loan tied to commitment on freedom of transit. King Saud agrees to meet with Nasir. Japan indicates it will "sign repatria- tion agreement with North Korea; may cause Seoul to withdraw offer to resume talks with Tokyo. South Korea--Rhee's personal control of government may be weakening as result of mental deterioration. Afghan propaganda charges US collu- sion in alleged Pakistani aggression against 'Pushtoonistan. Somalia requests arms from Italy; could aggravate tensions with Ethi- opia. III. THE WEST Reported plots against Castro re- gime seen as unlikely to succeed if attempted at this time
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=2 unred_source_page=4
+alignment_score=0.244196
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 1 August 1959 DAILY BRIEF
+- original #3 segment 2: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Communist China - Yemen: Communist China, falling behind
+- original #4 segment 1: full_page_or_admin
+  Text: its road construction program in Yemen has re- ceived permission to send in another 202 "experts" in early August. These will be in addition to 500 Chinese personnel now in Yemen. Most of them are laborers engaged in constructing a 40-mile section of the Al Hudaydah - Sana road. Peiping has asked Crown Prince Badr in early June for permission to increase the num- ber of Chinese "engineers." Badr had refused the request because the Chinese were attempting to subvert the local population. The subsequent change in Badr's attitude probably reflects a hope that the concession to the Chinese will induce further aid offers from the West. (Page 1) II. ASIA-AFRICA Iraq: Military personnel engaged in training the Commu- nist-infiltrated Popular Resistance Force (PRF) have been or- dered to rejoin their army units immediately. Withdrawal of these personnel, along with recent orders banning the wearing of PRF uniforms and withdrawal of arms from the PRF units, should further reduce its potential. Communist elements "are gathering in all areas of Iraq," and Communist officials in the Iraqi oil fields are con- sidering employing strikes or sabotage. UAR: Nasir's hoped-for $40,000,000 loan from the World Bank for Suez Canal improvement may be at least temporarily
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=3 unred_source_page=5
+alignment_score=0.859709
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #5, segment 1)
+Text: blocked by British and Israeli opposition. The British are seeking a delay, partly because they fear that, if the loan is granted before the problem of the return of sequestered British property is resolved, damaging "awkward questions" might be asked during the period before the parliamentary elections, which are expected this fall. Israel has informed the British Foreign Office of its desire to see commitments regarding freedom of transit attached to the loan and is seiz- ing on Nasir's recent belligerent statements to launch an in- ternational propaganda campaign to discredit his reliability. (Page 2) UAR - Saudi Arabia: King Saud has accepted an invita- tion from Nasir to visit Egypt sometime after Saud's return from Europe in late August or early September. The invitation was conveyed to Saud by UAR Vice President Marshal Amir in mid-July when the King's yacht passed through the Suez Canal. The meeting would be the first encounter between the two lead- ers since the UAR accused Saud of plotting Nasir's assassina- tion in the spring of 1958. Japan-Korea: Japanese Foreign Minister Fujiyama indicated Tokyo's desire to sign the Japanese - North Korean repatriation agreement, following consultation with the International Committee of the Red Cross, now that South Korea had "given in on the repatriation to North Korea". Fujiyama probably fears that Pyongyang, which has been pressing for immediate signing, might denounce the agree- ment because of Seoul's 30 July proposal to resume talks with Tokyo and to accept repatriates. Despite Seoul's "uncondi- tional" offer, the signing of the North Korean agreement prior to the opening of the South Korean - Japanese talks probably would be regarded as a provocation by the Rhee govern- ment and might cause it to refuse to begin talks with Japan
+Token count: 288
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.893892
+kept_candidate_count=2
+excluded_candidate_count=10
+
+Clean Chunk #2 (original #9, segment 2)
+Text: Afghanistan: The government-controlled Afghan press, in a new departure in its propaganda, is attacking alleged Pakistani "aggression against Pushtoonistan." This line, which may be Soviet-inspired, claims US-Pakistani agreements are intended to convert Pakistan's Pushtu region into an American military base. This attack follows the conclusion of recent agreements for Soviet economic and military assistance. Kabul has also made arrangements for Soviet military advisers to work in the Ministry of Defense and apparently is preparing for ten Soviet experts to work on the second five-year plan
+Token count: 85
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #13, segment 2)
+Text: III. THE WEST Cuba: Various sources of the American Embassy report plotting to oust the Castro regime in the near future. The con- spiracy is said to involve the planned assassination of Fidel and
+Token count: 34
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- portedly
+- original #8 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: advo- cated
+- original #9 segment 1: noncontent_keyword
+  Text: Page 3
+- original #9 segment 3: noncontent_keyword
+  Text: Page 4
+- original #10 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: of- ficials
+- original #11 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Mog- adiscio
+- original #12 segment 1: short_span_min_tokens
+  Text: an
+- original #13 segment 1: noncontent_keyword
+  Text: Page 5
+- original #13 segment 3: noncontent_keyword
+  Text: 1 Aug 59 DAILY BRIEF
+- original #13 segment 4: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: Raul Castro, the revolt of a portion of the armed forces, and coordinated landings by armed groups from the Dominican Republic. Although Dominican Dictator Trujillo is known to be supporting an irregular armed force, led by Cuban exiles, for use against Castro, he is not likely to unleash it prior to the inter-American meeting of foreign ministers scheduled to begin on 12 August. Even if attempted, such plots would be unlikely to succeed at this time
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 6) 1 Aug 59 DAILY BRIEF
+- original #14 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: iv
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Peiping Sending More "Road Experts" to Yemen An additional 202 Chinese Communist "road experts" have been given permission to enter Yemen, where Peiping's road construction project is falling behind schedule. The Chinese will arrive in early August, Since 1958, about 500 Chinese Communists have arrived in Yemen. The majority of them are working on the 173-mile road Peiping agreed to build between Al Hudaydah and Sana under the terms of its 1958 technical assistance agreement. the Chinese would be un- plete the first 40-mile section of the road by the original June deadline. Peiping is anxious to impress underdeveloped nations with its capability to provide technical aid and is driving hard to make a success of the Yemen program despite difficulties with local labor. Crown Prince Badr resented the entry of the Chinese and had denied a re- quest to bring in 150 more "engineers" because they were attempt- ing to subvert the local population. At the time, Badr hinted he would be happy to see them leave the country if only he had the money to pay off the used portion of Peiping's $16,000,000 interest- free loan. The subsequent change in Badr's attitude probably re- flects a hope that the concession to the Chinese will induce further aid offers from the West
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 1 Aug 59 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=5 unred_source_page=9
+alignment_score=0.243783
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA British and Israeli Opposition May Delay World Bank Loan to Nasir Nasir's hoped-for $40,000,000 loan from the IBRD for start- ing his ambitious Suez Canal improvement scheme may be de- layed at least temporarily by British and Israeli opposition. The British, concerned over possible adverse domestic reaction to UK acquiesence to the loan without an acceleration of the return of sequestered British property and a solution to the Suez Canal transit problem, have indicated to IBRD President Black that they favor a delay, and probably London would prefer waiting until after the parliamentary elections expected this fall. Foreign Minister Lloyd told Secretary Herter
+- original #17 segment 1: full_page_or_admin
+  Text: Geneva on 30 July that the UK "thought it would be safer to let the loan slide until November as long as the UK was not charged with slowing it up." Egyptian knowledge of the UK's stand would probably further delay resumption of UK-UAR diplomatic relations, which, according to a Foreign Office official "Egypt knows the UK stands ready to resume at any time." Israel has informed Britain of its desire to see "commit- ments" regarding transit of the canal attached to the IBRD loan. A Foreign Office official on 29 July stated his impression that Israel might attempt to force this issue, presumably by demand- ing UN consideration of the subject. Israel's cabinet will con- sider the problem on 2 August. Ambassador Reid has reported from Tel Aviv that the Hebrew press on 28 July carried the sug- gestion that Israel may be planning to launch an "information" campaign to enlist public opinion, especially in the United States, against the proposed IBRD loan. Nasir has recently made sev- eral belligerent statements in reaction to the call made by Israel's former chief of staff, Moshe Dayan, for a firmer pol- icy against the UAR. Israel may use these statements against Nasir in a campaign to discredit his reliability
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 1 Aug 59 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=6 unred_source_page=10
+alignment_score=0.981676
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Ambas- sador
+- original #19 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: report- ed
+- original #20 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: in- stability
+- original #21 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: demon- strated
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=7 unred_source_page=11
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: Afghan Press Criticizes US "Bases" in Pakistan as Kabul Accepts Soviet Military Advisers The government-controlled Afghan press has criticized American "bases" in Pakistan, declaring the Pakistani Gov- ernment was compelled to carry out "aggression" against the Pushtu region in Pakistan under the terms of a US-Pakistani agreement in order to convert the area into an American mili- tary base. The Afghans are apparently referring to the re- cent US-Pakistani agreement to establish a communication facility in northern West Pakistan and to a series of tribal incidents in Baluchistan, at the southern end of the Pakistani Pushtu tribal region. The propaganda attack follows the con- clusion of recent agreements for Soviet military and economic assistance and is a marked departure from Afghanistan's customary neutral position. Kabul, which in the past has secured advisory assistance almost entirely from the West, is now accepting Soviet advisers as distinct from technicians. Soviet military advisers--to be identified as "instructors"--are to work in the Afghan Ministry of Defense. The Afghans apparently are arranging for ten Soviet experts to help work out the details of the second five-year plan. A Soviet major general, with the reported title of "Director General of Soviet Military Groups in Afghanistan," arrived in Kabul on 23 June. Such a designation would indicate that Soviet military technicians and advisers are now organized into a formal military assistance group. Afghan military training and reorganiza- tion seem likely to be accelerated with Soviet assistance
+- original #22 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 1 Aug 59 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=8 unred_source_page=12
+alignment_score=0.988717
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: inde- pendence
+- original #24 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: approxi- mately
+- original #25 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: satisfac- tion
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: full_page_or_admin
+  Text: III. THE WEST Attempt Against Fidel Castro Regime May Occur Soon an active conspiracy exists against the government of Cuban Prime Minister Castro. The coup effort, which most sources indicate will be launched in the near future, would include at- tempts to assassinate Fidel Castro and his brother Raul, chief of the armed forces. A revolt of a portion of the armed forces would be coordinated with landings of armed groups from the Dominican Republic. A key figure in the conspiracy is William Alexander Morgan, renegade American and former second in command of a guerrilla band that fought independently of the Castro forces during the revolution against the Batista regime. Morgan, now a major in the Cuban Army, is reported to have agreed to defect, taking numerous army colleagues with him. Past reports of Morgan's anti-Castro plotting, his known hostility to "Che" Guevara, an officer close to Castro, and the disillusionment of Morgan and his associates, who expected more influential positions in the Castro regime, suggest that Morgan may well defect. It is very doubtful, however, that he could count on a sufficiently large segment of the military to threaten the regime seriously. Although Dominican dictator Trujillo is known to be sup- porting an irregular armed force in the Dominican Republic for use against Castro if he considers it necessary, he is not likely to unleash it prior to the inter-American meeting of foreign min- isters scheduled to begin on 12 August. If, however, the San- tiago meeting does not produce what Trujillo considers adequate protection against further Cuban-backed rebel incursions into the Dominican Republic, Trujillo may again consider defensive action against Cuba. Discontent has increased in Cuba, but is not believed to have reached the point where it seriously endangers the regime, and Castro has demonstrated that he still retains the ardent support of the Cuban masses. The American Embassy believes the reported conspiracy would almost certainly fail, but would "add further to the weight of bloodshed and tragedy which Cuba now
+- original #26 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 1 Aug 59 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=10 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=11 unred_source_page=15
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

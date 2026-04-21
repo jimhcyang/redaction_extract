@@ -1,0 +1,134 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.916279
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. CYPRUS TALKS TO BE RESUMED
+Token count: 6
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 4. VIET MINH PROPOSES TRADE RELATIONS WITH EGYPT
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 3: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 1. CYPRUS TALKS TO BE RESUMED Greek foreign minister Theotokis says Archbishop Makarios and Governor Harding have agreed to resume talks on the Cyprus question. Theotokis says Harding has agreed to "free discussions," but the foreign minister is not optimistic, since he doubts Britain's readiness to make an acceptable settlement. Harding has reported from Cyprus that the security situation will not permit prolonged discussions. Comment Despite Theotokis' understanding that there will be "free discussions," they are likely to be based on the British formula and will probably break up over its implicit recognition of Turkey's interest in the future status of Cyprus. Turkey remains adamant in its opposition to any concession toward self-determination. Ankara has recently repeated its demand that any British plan for self-government provide equal representation for the island's Greek and Turkish communities
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.949059
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: elements
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: considerable
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: maneuvered
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: support
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: pressure
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.932905
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Comment on
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: dissolution
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: illegal
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: parliament
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: unresolved
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: 4. VIET MINH PROPOSES TRADE RELATIONS WITH EGYPT Comment Earlier reports have suggested Viet Minh efforts to establish diplomatic relations with Egypt. This proposal is in keeping with the continuing Viet Minh and Orbit campaign to gain political influence among neutralist Afro-Asian powers by the extension of economic relations. The Viet Minh needs cotton to restore its textile industry to full production. A substantial amount of the cotton utilized by the industry in North Vietnam prior to the Communist takeover was supplied under American aid programs. (Prepared jointly with ORR
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.868980
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #20, segment 1)
+Text: While the Syrians may merely be attempting to bargain, Syria may be about to finalize an arms contract with Czechoslovakia. Three Soviet freighters arrived at the Egyptian port of Alexandria from Soviet Black Sea ports between 1 and 5 January and have reportedly been unloading military equipment in a heavily guarded security area. Two of them are the Smela and the Admiral Ushakov. Both previously delivered arms cargoes to Alexandria. The third is probably the Sukhona, which passed Istanbul on 2 January. All three declared a cargo of machinery for Albania. The Egyptian naval training vessel Mharussa reportedly left Alexandria on 26 December 1955 carrying 360 officers of the Egyptian army, navy and air force. The officers are allegedly on their way to Eastern Europe, where they will undergo specific periods of training--six months, one year, and two years--in their specialties. This report is unconfirmed, but other evidence indicates that some Egyptian pilots have already received training in Czechoslovakia and that plans have also been made for the training of Egyptian army and navy personnel in Eastern Europe
+Token count: 180
+Recut: none
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: spokesman
+- original #18 segment 1: short_span_min_tokens
+  Text: Press
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: consideration
+
+========================================================================
+[PAGE 09]
+kind=red_only red_source_page=8 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

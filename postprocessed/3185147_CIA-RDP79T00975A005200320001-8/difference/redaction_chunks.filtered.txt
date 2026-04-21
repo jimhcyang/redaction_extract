@@ -1,0 +1,178 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.530000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122610
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 6 AUGUST 1960 I. THE COMMUNIST BLOC USSR negotiating building of gift hospitals
+- original #3 segment 1: full_page_or_admin
+  Text: Libya; proposal involves Soviet training of Libyan medical personnel. USSR fires unusual missile from Kapustin Yar rangehead. Khrushchev's latest letter to Macmillan reflects tougher, more militant, Soviet policy line. II. ASIA-AFRICA Republic of Congo—Hammarskjold's request for immediate meeting of UN Security Council is effort to bring all possible international pressure on Tshombé to permit peaceable entry of UN troops into Katanga. African nationalists plan new disorders on 8 August in Salisbury area of Southern Rhodesia; may spread to other Rhodesian cities. South Vietnamese Communist guerrillas continue widespread attacks. Moroccan Government rejects Spain's offer to withdraw troops by December 1961. III. THE WEST Dominican Republic—Trujillo may stage fake coup on 7 August
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.933554
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #5, segment 1)
+Text: USSR: A ballistic missile of undetermined characteristics was fired on 3 August from Kapustin Yar possibly to an extended range. Preliminary analysis of available data indicates that the missile was apparently launched on an azimuth about 30 degrees north of the normal line of flight and traveled between 1,000 and 2,500 nautical miles. The area of impact is currently unknown. The pattern of associated practices at Kapustin Yar during July and the fact that the missile was not destroyed in flight suggest that the deviation from the normal azimuth of Kapustin Yar launch was intentional. The missile was considerably more heavily instrumented with telemetry equipment than has been customary in Kapustin Yar firings. (See
+Token count: 116
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #5, segment 3)
+Text: on reverse of page
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: gift
+- original #5 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: map
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #6, segment 1)
+Text: APPARENT FLIGHT PATH OF SOVIET TEST MISSILE LAUNCHED 3 AUGUST 1960 TO UNKNOWN IMPACT AREA KAPUSTIN YAR MISSILE TEST RANGE
+Token count: 20
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.967201
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Tshomb
+- original #8 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Tshombé's
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Tshomb
+- original #10 segment 1: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.811393
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #11, segment 1)
+Text: and has been studying the recommendations of a Malayan mission for strengthening anti-terrorist operations. (Page 2) Morocco-Spain: The Moroccan Government has rejected Spain's offer to withdraw its 3,000 troops remaining in Moroccan territory by December 1961 and insists they be pulled out by 7 April 1961. Moroccans argue that the Republic of the Congo is demanding and obtaining immediate complete evacuation of foreign military forces. Rabat can be expected to press even more strongly than heretofore for the evacuation of French forces and demand an accelerated evacuation of the American air bases in Morocco, now scheduled to be completed in December 1963
+Token count: 103
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #12, segment 1)
+Text: THE WEST Dominican Republic: a simulated coup may occur on 7 August, a date when all Dominicans have already been told to remain home to await census takers. Such a maneuver would be consistent with his past tactics. It would be designed to convince other Latin American governments that the regime had fallen, but the "revolutionaries" would be expected later to restore full powers to "The Benefactor". The maneuver might backfire, however, since anti-Trujillo sentiment is at an unprecedented high in the country and is believed even to be shared by key military figures
+Token count: 94
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #11 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 3
+- original #12 segment 2: noncontent_keyword
+  Text: Page 4
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.958197
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.931711
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #14, segment 1)
+Text: President Diem is reported recently to have held meetings with his top civilian and military advisers to study recommendations for strengthening antiterrorist operations submitted by the Malayan defense mission which visited South Vietnam in April. Diem has indicated particular interest in proposals to improve the army's communications network and to centralize
+Token count: 51
+Recut: none
+
+Clean Chunk #7 (original #15, segment 1)
+Text: collection. The mission also recommended that military operations be coordinated with psychological warfare and rural development programs
+Token count: 17
+Recut: none
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: kidnaping
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: Morocco Presses for Spanish Troop Withdrawal by April The Moroccan Government has rejected Spain's offer to withdraw its 3,000 troops from Moroccan territory by the end of 1961 and is demanding that these forces be pulled out by 7 April, fifth anniversary of Spain's agreement to Moroccan unity and independence. The Spanish foreign minister had claimed on 2 August that Madrid had Morocco's consent to the offer, which would not have included the 23,000 Spanish troops now stationed in the Spanish enclaves of Ceuta and Melilla. The Moroccans argue that because the Republic of the Congo is demanding and obtaining immediate complete evacuation of foreign military forces, Morocco can accept no less than total evacuation at a very early date. The Moroccan Government has in effect embargoed trade with Spain by refusing in recent weeks to grant any import permits. Although Spain has responded in kind, it will be more difficult for Madrid to restore normal trade when the embargo is lifted because Spain imports only phosphates and iron ore from Morocco, whereas the latter imports a wide variety of Spanish commodities. Under a 1957 commercial agreement, Morocco is obligated to import annually for four years $13,500,000 more in Spanish goods than the value of Moroccan products sold to Spain in order to provide capital for Spanish investment in Morocco. Morocco has not lived up to this agreement, however, in fact maintaining a credit with Spain in both 1958 and 1959. In view of Morocco's adamant stand with regard to Spanish evacuation, Rabat can be expected to intensify its efforts to seek the early withdrawal of the 15,000 to 20,000 French troops now in Morocco. It will probably also seek to accelerate the withdrawal of American troops, now slated to be completed in December 1963
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.122021
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: Simulated Coup Against Trujillo Reportedly Planned For 7 August Dominican dictator Trujillo may be planning a simulated coup on 7 August to convince other Latin American governments that his regime has fallen. Dominicans have been told to remain home on that date to await census takers. Such a plan would be consistent with Trujillo's past tactics. A group of army officers would oust newly installed President Balaguer and seize power, perhaps prevailing upon a member of the clergy to participate
+- original #18 segment 1: full_page_or_admin
+  Text: the resulting junta. The "revolutionary" government would send delegates to the OAS foreign ministers' meeting claiming that the Trujillo regime had been overthrown. In reality, however, Trujillo would hope to maintain control of the government from behind the scenes, resuming full powers openly at a time of his choosing. Preparations for such a maneuver are suggested: warning commanders to intensify patrolling of coastal sectors and to maintain a state of alert day and night from 4 to 9 August. chiefs of all radio stations to maintain permanent service until further orders. A "controlled coup" might backfire, since anti-Trujillo sentiment is at an unprecedented high in the country and is believed even to have reached key military figures. Trujillo's appointment on 4 August to head the Dominican delegation to the United Nations' session beginning 20 September does not necessarily mean his loss of control. Trujillo has gone abroad before and on one occasion his departure was followed by a particularly bloody period of repression. The date of his departure has not been announced
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=11 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,112 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.622222
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122658
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 22 FEBRUARY 1960 I. THE COMMUNIST BLOC II. ASIA-AFRICA UAR and Israeli military forces strengthened; Cairo anticipates army coup
+- original #2 segment 1: full_page_or_admin
+  Text: Iraq in near future Indonesia--Lack of rapport between Khrushchev and Sukarno may obviate any "deal" between the two. Indian high official believes India may be compelled to recognize East Germany by end of 1960 despite Nehru's avowed intention not to do so in near future. III. THE WEST Initial series of French nuclear tests to involve three additional shots of lighter, smaller devices; weapon device not expected for a year. Peruvian Communist congressman's request to Moscow for disaster relief brings reported offer of $7,100,000 loan. Cuban Government reportedly to procure bloc arms and ammunition and British-built aircraft from UAR
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.839655
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #3, segment 1)
+Text: UAR-Israel-Iraq: While no new UAR troop movements into Sinai have been noted, some reserve units reportedly have been called up in both Syria and Egypt. Units deployed in Sinai have been issued extra artillery ammunition. Some additional Syrian troops have been ordered to the Israeli frontier. Nasir was informed that Lebanese Army intelligence had information that certain Israeli Army units had been strengthened along the Syrian border, but that these measures appeared to be precautionary and that no attack against Syria was expect
+Token count: 83
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: n non-communi
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: f rappo
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: y believ
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: s willi
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: d milita
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.803397
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #2 (original #13, segment 1)
+Text: III. THE WEST France: The initial series of French nuclear tests is expected to involve three additional explosions of lighter, smaller devices. The next shot is planned before May and possibly within a month. The third and fourth shots in the series are planned for the fall of 1960, presumably after September, when the summer heat abates. A version of the device suitable for use as a weapon is not expected, however, for about a year. The extent of adverse foreign reaction to the first test has reportedly annoyed President De Gaulle and will probably stimulate France to study means for underground testing. One of the three remaining shots may be an underground test, although the site has not yet been selected. Peru: A Peruvian Communist congressman has requested Moscow to grant a loan for reconstruction in the area of southern Peru affected by the earthquake on 15 January and is said to have received an encouraging response. The reported reply offered a loan of $7,100,000--not a usual form of Soviet disaster relief--conditioned on official government acceptance from Lima. While the conservative Peruvian Government would prefer not to accept this offer, Prime Minister Beltran informed the US Embassy in Lima that he was on the spot, intimating that he might feel obliged to accept. Cuba: The Castro government's growing rapport with the UAR may be used to facilitate purchase of arms and the aircraft Castro has been seeking in many countries
+Token count: 245
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Secretary
+- original #10 segment 1: short_span_min_tokens
+  Text: it
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: intention
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: currently
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #14, segment 1)
+Text: Czech arms and ammunition will be sent to Cuba under cover of a recent UAR-Cuban barter transaction. Cuba is purchasing obsolescent British-built aircraft from the Egyptian Air Force
+Token count: 28
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #14 segment 2: noncontent_keyword
+  Text: 22 Feb 60 DAILY BRIEF
+- original #14 segment 3: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.999427
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: National Se
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

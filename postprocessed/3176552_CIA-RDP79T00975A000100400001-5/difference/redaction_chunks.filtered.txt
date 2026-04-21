@@ -1,0 +1,83 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.676190
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.977485
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Government's
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Egypt's
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Cabinet's
+- original #4 segment 1: short_span_min_tokens
+  Text: used
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.955299
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Malan's
+- original #6 segment 1: short_span_min_tokens
+  Text: may
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Government's
+- original #8 segment 1: noncontent_keyword
+  Text: FAR EAST
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.983554
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #10, segment 1)
+Text: the first appearance of Soviet
+Token count: 5
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Lattre's
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.959928
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Argentina's
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Peron's
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Argentina's

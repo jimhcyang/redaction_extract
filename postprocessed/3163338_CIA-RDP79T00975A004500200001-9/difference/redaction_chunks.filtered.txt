@@ -1,0 +1,223 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.757143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.123095
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 3 JUNE 1959 I. THE COMMUNIST BLOC Cooperation between USSR and UAR
+- original #2 segment 1: full_page_or_admin
+  Text: international front groups deteriorating. II. ASIA-AFRICA Indonesia--Move to restore authoritarian 1945 constitution fails on final reading; army take-over may be imminent. Burmese trade mission to Moscow will seek practical projects on grant basis in place of proposed cultural center. Iraq--Rumors persist that action against Communists, with or without Qasim, is imminent. III. THE WEST Invasion of Nicaragua may encourage added support for general strike. IV. Conclusions of the special USIB committee on the Berlin situation
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.884668
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #4, segment 1)
+Text: The Soviet member of the movement's permanent secretariat is reported to have charged that a 27 May meeting of the "Anti-Colonial Conference" in Cairo was arranged by the UAR "to attack Russia
+Token count: 32
+Recut: none
+
+Clean Chunk #2 (original #8, segment 1)
+Text: 2) Burma--USSR: A Burmese trade mission, soon to leave for Eastern Europe and the USSR, will ask Moscow to substitute more practical projects for the theater and cultural and sports center which the USSR originally offered as gifts. The U Nu government then insisted on paying for them in rice. The mission instead will seek projects in the fields of irrigation, flood control, or port development on a purely grant basis. The Burmese also plan to ask Soviet agreement to transfer one half of Burma's trade credits with to China, with whom Burma has a deficit
+Token count: 97
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: USSR- UAR
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: apparently
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reading
+- original #8 segment 2: noncontent_keyword
+  Text: Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.927656
+kept_candidate_count=1
+excluded_candidate_count=7
+
+Clean Chunk #3 (original #9, segment 1)
+Text: Iraq: Rumors persist in Baghdad of some imminent action by anti-Communist elements against Communist influence and, possibly, against Qasim as well. The rumors do not yet seem to have substantial foundation and probably arise from cooler relations between Qasim and the Communists
+Token count: 42
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #9 segment 2: noncontent_keyword
+  Text: Page 4
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: revolutionaries
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: uncommitted
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attracted
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: remain
+- original #14 segment 1: noncontent_keyword
+  Text: Page 6
+- original #15 segment 1: noncontent_keyword, ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: 100.5-2
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.939509
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: negotiations
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: prospects
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: probably
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: advantageous
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Berlin
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Berlin
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.896751
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #4 (original #23, segment 1)
+Text: The Soviet member of the movement's permanent secretariat has charged that the meeting on 27 May in Cairo of the "Anti-Colonial Conference" had been arranged by the UAR "to attack Russia." Earlier, the Soviet and Chinese Communist members of the secretariat were reliably reported to have frustrated UAR efforts to enlist Afro-Asian support for Nasir's campaign against Iraq
+Token count: 58
+Recut: none
+
+Excluded candidates:
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: deterioration
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Conference
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: decided
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.928633
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #5 (original #30, segment 1)
+Text: Army Chief of Staff General Nasution was assured nationwide officer support for some such move
+Token count: 15
+Recut: none
+
+Excluded candidates:
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: incorporation
+- original #27 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: initiative
+- original #28 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Abdulgani
+- original #29 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: maneuvers
+- original #31 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: activity
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #32 segment 1: full_page_or_admin
+  Text: Burma to Seek Adjustments in its Economic Relations With USSR A Burmese mission, which will soon leave for Eastern Europe, will go on to Moscow to ask the USSR to substitute more economically practical projects for the theater and cultural and sports center originally offered by Bulganin and Khrushchev in 1955. While the projects were offered as gifts, former Prime Minister U Nu later insisted that Burma pay for them in 20 annual payments of rice. A technological institute, hotel, and hospital included in this offer are well on their way toward completion, but the Burmese Government delayed initiation of the other two projects for budgetary reasons. The mission has been instructed to obtain projects in the fields of irrigation, flood control, or port development, all on a grant basis. This reflects Prime Minister Ne Win's strong preference for grant aid as opposed to loans. Moscow presumably will treat the Burmese request sympathetically. The mission will also seek Soviet approval for the transfer of half of Burma's unexpended trade credits to its account with Communist China, with which it has a trade deficit. Burma's credits with the USSR now stand at about $4,000,000 and may be doubled by the end of the year. While these credits have been used in the past to pay for purchases from Czechoslovakia, Peiping recently indicated it did not wish to participate in a similar transaction which would "encroach upon the USSR's market
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #33 segment 1: full_page_or_admin
+  Text: Rumors of Imminent Coup Attempt in Iraq Widespread rumors in Iraq that anti-Communist groups are preparing for forceful action. According to one version, a combination of military, tribal, and "nationalist" political figures intends to move both to overthrow the Qasim regime and to wipe out Communist power. an army group headed by the military governor general and the commander of the First Division plans action to replace the present government with a non-Communist military council, retaining Qasim as its chairman. Such rumors do not yet seem to have substantial foundation and probably stem from cooled relations between Qasim and the Iraqi Communist party and from persisting reports that Qasim has begun to remove some extreme pro-Communists from influential positions. In late May, for example, Lieutenant Colonel Ghadhban al-Saad, formerly of Qasim's office staff, had been sent to Moscow as military attache; that Qasim's military aide, Colonel Wafsi Tahir, and Director of Radio Baghdad Salim Fakhri were to be exiled to the Iraqi Embassy in Bonn; and that Director of Military Planning Brigadier Taha al-Shaykh Ahmad was to be sent as ambassador to Peiping. Qasim had torn up a list of 60 officers whom Colonel Ahmad proposed for retirement. There has been some resurgence in the activities of anti-Communist, pro-UAR elements in Iraq, and the UAR Embassy is in contact with them. They do not, however, appear to have the necessary strength or support for a successful coup attempt. In view of the widespread rumors, the director general of Iraqi police recently ordered special precautions, and several companies of police reserves who had been temporarily assigned
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.247082
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #34 segment 1: full_page_or_admin
+  Text: to Mosul have been sent to Baghdad. units from all army divisions are to be stationed around Baghdad continuously for the
+- original #35 segment 1: full_page_or_admin
+  Text: few days. An Iranian newspaper on
+- original #36 segment 1: full_page_or_admin
+  Text: June reported that an Iraqi brigade had revolted on the night of 1 June and had attempted to march against Baghdad. Other Iraqi Army units put down the revolt, the paper said. There has been no confirmation of this news story. (UNCLASSIFIED
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.914176
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #37 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: uncommitted
+- original #38 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attracted
+- original #39 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: defiance
+- original #40 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reported
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,188 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.757143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: LATE ITEM *Possible Soviet Lunar Probe A vehicle of undetermined characteristics and objectives was successfully launched from Tyura Tam about 1507Z (1007 EDT), 15 April 1960, after a smooth two-hour countdown. It at least traveled to the vicinity of Kamchatka. NSA preliminary evaluation has led to their conclusion that this could be a lunar probe attempt of undetermined purpose and success. However, the lack of participation of the KGB communications network, previously associated with all space attempts, and the appearance of at least one indicator heretofore specific only to ICBM tests, indicate the possibility that the vehicle may be an ICBM. The Soviets have publicly announced their previous successful space events within a few hours after launching. If this is a space vehicle, lack of such an announcement could mean either a vehicle failure or that a major objective is to be accomplished at a later stage in the flight
+- original #1 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 16 Apr 60 CENTRAL INTELLIGENCE BULLETIN Page 0
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=2 unred_source_page=4
+alignment_score=0.122470
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 16 APRIL 1960 I. THE COMMUNIST BLOC East German announcement on completion of agricultural collectivization probably overstates picture
+- original #3 segment 1: full_page_or_admin
+  Text: many areas; local authorities instructed to frustrate plans for public church protests on Easter Sunday. II. ASIA-AFRICA Afghan premier leaves Vienna for Moscow; will probably discuss Soviet aid programs and may discuss support for Kabul in its difficulties with Pakistan. Recent death of Cambodian King leads to test of strength between Sihanouk and palace circles. Saudi Crown Prince Faysal expected to go abroad soon for health reasons; King Saud already preparing moves to regain domination over government. Prospects for Rhodesia-Nyasaland Federation termed "extremely bleak"; Hastings Banda seems determined to detach Nyasaland, and white prime minister of Southern Rhodesia seeks end to British restrictions on racial legislation. III. THE WEST Venezuelan President concerned over reports of plotting by dissident military groups; period of rising tension likely
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=3 unred_source_page=5
+alignment_score=0.934481
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #4, segment 1)
+Text: I. THE COMMUNIST BLOC East Germany: The Ulbricht regime's announcement on 14 April that it has completed agricultural collectivization probably represents little more than a paper accomplishment in many areas. The full impact of the program will probably not be felt by the farmers until after the fall harvest, when the regime attempts to regiment their lives and property. Meanwhile, the Evangelical Church is planning to have protests against the collectivization program read from pulpits throughout the nation on Easter Sunday. Local authorities have been instructed to block the reading of these protests, by "state means" if necessary
+Token count: 98
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 2: noncontent_keyword
+  Text: Page 1
+- original #5 segment 1: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.908842
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #6, segment 1)
+Text: Saudi Arabia: Crown Prince Faysal's health has continued to deteriorate, and he will probably go abroad before the middle of May for several months for medical treatment. King Saud, who is already preparing moves to regain domination over the government, has proposed a clandestine meeting with the American ambassador, presumably "to seek some type of US support for his plans. The removal of Faysal, whether through illness or by action of the King, would quickly and sharply reduce Saudi Arabian political and economic stability
+Token count: 84
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #8, segment 1)
+Text: Venezuela: President Betancourt, who may be under pressure from certain elements in the armed forces to make changes in the government, has shown considerable concern over numerous reports of plotting by dissident military groups, and his coalition regime is taking extensive security precautions. The uneasy atmosphere in Caracas on the eve of the 19 April national holiday is intensified by depressed economic conditions and dissension within the coalition. Betancourt, who is believed to have the loyalty of most top military leaders, is probably capable of controlling the situation for the present, but a period of rising tension is likely
+Token count: 99
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 2: noncontent_keyword
+  Text: Page 3
+- original #7 segment 1: noncontent_keyword
+  Text: Page 4
+- original #8 segment 2: noncontent_keyword
+  Text: Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.122031
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: THE COMMUNIST BLOC East German Regime Announces Full Collectivization The Ulbricht regime announced on 14 April that it has completed the collectivization of all but insignificant strips of East Germany's agricultural land. The announcement followed a three-month, all-out drive to force independent farmers to sign statements that they were "voluntarily" joining collectives to show their support for the regime. The speed and scope of this drive indicates that "collectivization" is still largely on paper
+- original #10 segment 1: full_page_or_admin
+  Text: many areas. The regime appears to be delaying any drastic reorganization of the whole agricultural system until after the harvest, when a further drive to regiment the farmers and communize their property in actuality may be expected. Many farmers have already fled to West Berlin and West Germany, despite the regime's actions in blocking their savings deposits and intensifying controls on travel. Others are planning to go as soon as they can acquire sufficient funds to support them when they reach the West. Flights would be greatly increased if farmers became convinced that West Berlin might be cut off as a result of developments at the summit meeting. Meanwhile, the regime is seeking to crush the strong resistance of Evangelical Church leaders, who are continuing their public denunciation of the police methods used by the regime against the farmers. in at least one district is preparing to use "state means," if necessary, to prevent the reading of a protest from Evangelical Church pulpits on Easter Sunday
+- original #10 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 16 Apr 60 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.988002
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Cambodian
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: Political Maneuvering in Saudi Arabia Crown Prince Faysal, who has maintained political stability in Saudi Arabia and brought financial order out of chaos, is again seriously ill. He has been advised to go abroad for several months of medical treatment and will probably leave in the next few weeks. King Saud, whose rule of the country from late 1953 until early 1958 was characterized by political ineptness, widespread corruption, and enormous royal expenditures, is already preparing moves to regain domination over the government. He has proposed a clandestine meeting with the American ambassador, presumably to seek some sort of US support. If the King follows through with his plans, he will force a showdown with the same group of senior princes who eased him out of power in favor of Faysal in March 1958. The result of determined action by the King to displace Faysal and regain power, whether or not successful, will be to increase dissension within the royal family and to reduce political stability. The way might be opened to organized plotting by antiroyalist groups in the bureaucracy, army, and merchant class. While there are several among the senior princes who could undoubtedly do a better job of governing than King Saud, there is none who has any The ability, drive, and honesty of Faysal. 16 Apr 60
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 3
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.988082
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: colonial
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: III. THE WEST Subversive Activity in Venezuela Numerous reports of plotting by dissident Venezuelan military groups, including exiled followers of former Dictator Perez Jimenez who have Dominican support, have caused President Betancourt considerable concern, and his regime is taking extensive precautions throughout the country. According to some of these reports, incursions are being planned from the Dominican Republic to foment unrest in Venezuela and possibly to coincide with a projected invasion attempt on 18 April from the Colombian border in co-ordination with opposition Venezuelan military elements. Betancourt has recently met with top military leaders to make certain of their support in return for extensive changes in the composition of his government and for outlawing the Venezuelan Communist party (PCV)--which is excluded from the coalition. The uneasy atmosphere in Caracas on the eve of the 19 April national holiday is intensified by unfavorable economic conditions, including the marked decline in foreign exchange and bank deposits, high unemployment, an increasing rate of business failures, tight credit, and a general lowering of business confidence. Politically, there is dissension within the three-party coalition, and radical elements in Betancourt's own Democratic Action party (AD) may be moving to set up a new political group. the Democratic Republican Union party (URD), might withdraw from the government if the dissident AD faction and the PCV remain outside the coalition. The present party strife has in some degree been brought to a head by the division of attitudes toward Fidel Castro's regime. The URD, AD radicals, and Communists are stanch Castro supporters, while Betancourt and most of his government have been critical of him. Betancourt, who is believed to command the loyalty of the majority of the top military leaders, is probably capable of controlling the situation for the present, but these adverse political 16 Apr 60
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 5
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.125087
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #15, segment 1)
+Text: developments could touch off a prolonged period of unrest. the government has alerted the security forces against a border invasion, sabotage at oil installations, and terrorist acts aimed to bring about "an uprising
+Token count: 33
+Recut: none
+
+Clean Chunk #5 (original #16, segment 1)
+Text: the military." 16 Apr 60
+Token count: 5
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #16 segment 2: noncontent_keyword
+  Text: Page 6
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=0.993818
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

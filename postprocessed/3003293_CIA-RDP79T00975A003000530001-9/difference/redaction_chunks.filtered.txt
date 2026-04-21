@@ -1,0 +1,123 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.727328
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. THE JORDANIAN SITUATION
+Token count: 4
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. MILITARY DEVELOPMENTS IN EGYPT
+Token count: 5
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 8
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 1. THE JORDANIAN SITUATION Comment on: The position of the Khalidi cabinet appears very insecure as a result of West Jordanian demands that it resign and of an intensive campaign being waged against it by Egyptian and Syrian propaganda media. Reports that its members have actually submitted their resignations, however, have been officially denied. In Damascus, former chiefs of staff Nuwar and Hiyari are reportedly meeting with Syrian leftist leader Hawrani, according to the American army attache there. The presence in Damascus of Major General Maayta, who has been reported as having left his post as chief of the Jordanian security force, is unconfirmed. The attache notes, however, that during a previous stay in Damascus, Maayta was considered a leftist sympathizer and friend of Syrian army intelligence chief Sarraj. King Hussain said he would not call for support from Iraq unless internal conditions in Jordan worsened
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: but he was grateful to have the support of Iraqi troops available. Regarding Israel, Hussain informed Ambassador Mallory on 22 April that he believes the Israelis have "behaved very well:" The king wanted to assure the Tel Aviv authorities that Jordan is not encouraging infiltration across the border. The king appeared energetic and self-assured in his interview with Mallory. According to another report, Hussain feels the army is in hand, and he now intends to assert control over the police. The king's attitude, his intended moves, and the cabinet crisis all point to an imminent attempt by the king to set up a military government
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.244940
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: MILITARY DEVELOPMENTS
+- original #8 segment 1: full_page_or_admin
+  Text: EGYPT The military alert instituted in Egypt on 4 April shows some signs of relaxation. informed units in Sinai that all ranks were to be permitted leave, though not to exceed three days and not for more than 10 percent of the forces at any one time. the armed forces are now on a "25-percent alert," the lowest of several levels of alert. full-scale maneuvers including the army, navy, and air force will begin on 1 May and continue for one month. A further report stated that Nasr believes that any renewed hostilities will include an attempt on his person and has ordered the army to prepare defenses which will provide him with maximum security. Ground reconnaissance of the Suez Canal zone by the American army attache on 18 April indicated continuing defensive preparations at Suez, Ismailia and Kantara areas
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.965657
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.930888
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.958897
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Comment on

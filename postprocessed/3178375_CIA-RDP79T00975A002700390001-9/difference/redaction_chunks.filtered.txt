@@ -1,0 +1,155 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.908594
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. SOVIET-SPANISH DIPLOMATIC RELATIONS MAY BE ESTABLISHED SOON (page 4). 3. ATTEMPTED ASSASSINATION OF NICARAGUAN PRESIDENT SOMOZA (page 5). 4. SOVIET BLOC TO SUPPORT ARMS DELIVERIES TO JORDAN
+Token count: 28
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 6
+- original #2 segment 1: noncontent_keyword
+  Text: page 7
+- original #2 segment 3: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.950776
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: officials
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: growing
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: worsening
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: become
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: support
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: increasing
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 2. SOVIET-SPANISH DIPLOMATIC RELATIONS MAY BE ESTABLISHED SOON Comment Resumption of diplomatic relations between Spain and the Soviet Union has been under consideration for some time. Madrid probably anticipates increased trade opportunities and wider acceptance in international circles to result from formal relations with Moscow, but no change is expected in Spain's relations with the United States or in its anti-Communist policy. General Franco had reportedly demanded as preconditions the return of Spanish war prisoners and restitution of Spanish gold sent to the Soviet Union by the Republican government during the civil war. About 500 Spanish civilian refugees from the civil war are scheduled to embark from Odessa this week, the first of an estimated 1,300 who have received exit permits from the USSR
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 Sept 56 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.244043
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 3. ATTEMPTED ASSASSINATION OF NICARAGUAN PRESIDENT SOMOZA Comment on: The attempted assassination of Nicaraguan president Somoza on 22 September by a member of an opposition party will probably result
+- original #11 segment 1: full_page_or_admin
+  Text: serious repression of the opposition. Somoza's condition is serious but not critical. Should Somoza die, a chaotic situation would probably develop. Martial law has been declared in the entire country. Leaders of the opposition Conservative Party have long considered the assassination of Somoza the only way to bring about a change in government. Somoza, Nicaraguan strong man since 1934, was planning his "re-election" to another six-year term next February. It is not known whether the assassination attempt was co-ordinated with the revolutionary plans of exiles outside Nicaragua. Some of these exiles, who were recently reported in Costa Rica and Mexico, probably include Communist sympathizers. Even if the assassination attempt were purely of a local political nature, the Nicaraguan government will probably seek to implicate Somoza's hated enemy, President Figueres of Costa Rica, and, even in the absence of conclusive evidence of Costa Rican complicity, might go so far as to launch an attack on Costa Rica. The Nicaraguan exiles in Costa Rica and high Costa Rican officials were involved in the April 1954 attempt to assassinate Somoza. Figueres feels impelled to lead the fight against the dictators of the Caribbean area and is known to have given moral and financial support in a recent effort to have the president and security chief of Venezuela assassinated
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 Sept 56 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: 4. SOVIET BLOC TO SUPPORT ARMS DELIVERIES TO JORDAN Comment Syria is to act as the intermediary in this latest extension of bloc arms supply to the Arab states by procuring about $7,000,000 worth of arms through its purchasing mission in Prague and forwarding them to Jordan. The cost of this deal is to be borne chiefly by Saudi Arabia, Egypt and Syria, with provisions for other Arab states to contribute to the program. Although bloc pricing policies on arms sales in the Middle East in many cases bear little relation to cost, the discount feature indicates a Soviet desire to influence the uncertain alignment of Jordan. The British have warned Jordan that they would have to reconsider the Anglo- Jordan treaty if substantial numbers of non-British arms were acquired
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 Sept 56 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.972330
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: disorders
+- original #14 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Antigovernment
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Unzaga
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.243816
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 23 September) Jordanian forces were reported to have killed six persons and wounded 23 others inside Israel on 23 September, apparently for approaching prohibited military zones
+- original #18 segment 1: full_page_or_admin
+  Text: the Jerusalem area. In one incident, according to an Israeli military spokesman, Jordanian machine-gun fire killed three and wounded 17 members of an Israeli archeological convention who were part of a group viewing tombs within Jordan from a water tower in Israel. Apparently referring to a separate incident, a Jordanian military source announced with "deep regret" that three French tourists in Israeli territory were killed and six wounded when they approached a prohibited military zone. The shootings possibly indicate a breakdown in discipline among the bitter, poorly led and poorly equipped Palestinian Arabs of the Jordan National Guard, the force which mans the border. It is primarily forces of the National Guard -- that is, Palestinians recruited during the last two months -- who are on guard in Jerusalem. Tension in West Jordan soared following two Israeli raids during the second week of September, bringing forth new pressure for revenge against Israel. The recently publicized decision by Egypt, Syria and Saudi Arabia to supply arms to the National Guard, and the arrival of at least token shipments in Jordan, may also have promoted cockiness in West Jordan. The incidents raise the prospect of a serious new round of Israeli retaliatory raids, and confront the Amman government with a test of its ability to maintain control in West Jordan. Jordan has requested that the Iraqi army chief of staff, General Rafiq Arif, join the current Iraqi- Jordanian military talks in Amman. Nuri stated that he had consented to this, and added that Iraq had already supplied Jordan with 1,000 rifles from its limited arms supply, but had no additional small arms in reserve
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 Sept 56 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #19, segment 1)
+Text: Egyptian army engineers were preparing a "model settlement" which, upon completion, could be studied by a Syrian engineer officer. The field agency comments that the "model settlement" may be intended for use in training for attacks on Israeli border settlements
+Token count: 40
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #19 segment 2: noncontent_keyword
+  Text: 23 Sept 56 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

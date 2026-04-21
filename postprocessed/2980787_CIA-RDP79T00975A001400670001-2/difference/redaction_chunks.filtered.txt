@@ -1,0 +1,100 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.901235
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: Chinese Communist bombers move to base near Tachen Islands
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: EASTERN EUROPE Czech Border Guard officers instructed in atomic weapons and countermeasures
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.989056
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.994158
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.948116
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: Chinese Communist bombers move to base near Tachen Islands: Comment: TU-2's involved in the move to Hangchow. Communist bombers at Hangchow could be used in an attack against the nearby Tachen Islands off the coast of Chekiang Province, now held by the Chinese Nationalists. Peiping is not expected, however, to undertake new military ventures prior to its appearance at the Geneva conference
+Token count: 62
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.972486
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #6, segment 1)
+Text: EASTERN EUROPE Czech Border Guard officers instructed in atomic weapons and countermeasures
+Token count: 12
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Turkish-Pakistani
+- original #5 segment 1: ocr_equivalent_to_redacted_text
+  Text: Syrian and Egyptian
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.971296
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #7, segment 1)
+Text: Comment: Conduct of such training in a Satellite border guard formation makes it likely that similar training is under way in Satellite armies
+Token count: 23
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.931599
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #8, segment 1)
+Text: Lecoeur, until now considered France's number three Communist, had given only lukewarm support to Moscow-directed united front tactics. His successor, Marcel Servin, has reportedly been in charge of the party's liaison with the USSR since the fall of 1950
+Token count: 39
+Recut: none

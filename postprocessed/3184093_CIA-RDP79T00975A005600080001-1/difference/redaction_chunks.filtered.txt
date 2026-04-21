@@ -1,0 +1,248 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.560000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 24
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122975
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: LATE ITEM USSR: Sputnik IX was launched from Tyura Tam at about 0629 GMT (0129 EST) 9 March 1961. The period of the orbit appears to be about ninety minutes. Preliminary data received suggests the satellite may be similar to Sputnik V and VI which both carried dogs as part of the payload. Sputnik V was successfully recovered on 20 August 1960 after about 25 hours
+- original #3 segment 1: full_page_or_admin
+  Text: space while Sputnik VI burned up on re-entry, probably during a recovery attempt. It is probable that the Soviets will attempt a recovery of Sputnik IX within about 24 hours
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.929327
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #4, segment 1)
+Text: 1. Situation in the Congo
+Token count: 5
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 3)
+Text: 2. India: Nehru believes Khrushchev attempting to isolate New Delhi from African neutralists. (Page i) 3. Burma: General Ne Win to visit USSR. (Page ii) 4. West Germany: Adenauer cool to Brandt in meeting prior to latter's visit to US. (Page ii
+Token count: 42
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 2: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #5, segment 1)
+Text: Republic of the Congo
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 2: noncontent_keyword
+  Text: 9 Mar 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #5 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.244087
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 9 March 1961 DAILY BRIEF
+- original #6 segment 2: full_page_or_admin
+  Text: Congo: Tshombé has so far held the center of the stage at the Tananarive conference. He is apparently playing on the general opposition of the participants to the UN
+- original #7 segment 1: full_page_or_admin, noncontent_keyword
+  Text: an attempt to create a united front and bring about increased military cooperation. Mobutu is still touring Equateur Province. In response to repeated urging from Leopoldville officials, he has reportedly agreed to launch an attack against Orientale Province. However, Mobutu remains reluctant to undertake the operation. Moreover, the troops that he had brought into Equateur, except for 800 in Bumba, have been dispersed in small units and will be difficult to reassemble. A visiting Ghanaian delegation agreed that arms now in Cairo would be sent to Gizenga via Accra. The details of this agreement have apparently not yet been worked out. (Backup, Page 1) (Map) India-USSR: Nehru apparently has interpreted Khrushchev's recent letters on the Congo and UN reorganization problems as a deliberate attempt to isolate India from the leading African neutralists and thus counter New Delhi's restraining influence. Foreign Secretary Dutt reportedly described Nehru in early March as irritated and puzzled by the Soviet leader's unusual action in publicly expressing flat disagreement with Indian positions. Dutt characterized Khrushchev's proposal that the UN operation in the Congo be replaced by an African commission as a personal affront to Nehru, since the prime minister had already made his contrary position clear to Moscow. New Delhi apparently believes
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.684058
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: that a recent proposal of further economic aid from Soviet First Deputy Premier Kosygin implies an attempt to blackmail the Indian Government into changing its independent policies. Nehru probably is also concerned that Indo-Soviet friction will make it more difficult for New Delhi to pursue its tactic of trying to play off Moscow against Peiping. Burma-USSR: General Ne Win will visit Moscow for two weeks beginning 30 March. While Ne Win in the past has been opposed to the procurement of Soviet military equipment, he reportedly now feels American influence in the army is "excessive." (Backup, Page 3) West Germany: Both Chancellor Adenauer and West Berlin Mayor Brandt apparently intend to use their forthcoming visits to the United States to enhance their positions with the West German public prior to the election campaign this fall. In preparation for his visit, scheduled to begin 11 March, Brandt met with Adenauer on 1 March. Adenauer's reception of Brandt was formally correct but "frigid." He avoided giving Brandt any guidance for his trip, indicating that he now regards him strictly as a political rival
+- original #8 segment 2: noncontent_keyword
+  Text: Backup, Page 4
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.954602
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #4 (original #9, segment 1)
+Text: elections. Embassy officials do not believe the move will have a lasting impact on West Germany's trade or balance of payments and expect that the only significant effect will be short-term money movements in which foreign speculators will withdraw funds to take their profits
+Token count: 44
+Recut: none
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: regime's
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: regime's
+- original #12 segment 1: noncontent_keyword
+  Text: Backup, Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: Situation in the Congo Nkrumah's 7 March General Assembly speech, in which he called for a strengthening of the UN under a "primarily" African command, further modifies his earlier proposals which would have excluded European units in the UN force and would have put Asians in a subordinate role. He told American officials earlier in the day that his desires would be met with the designation of an African or Asian as UN military commander and some increase in Afro-Asian membership in the UN staffs. He presented these proposals—which may have originated with General Alexander, the British commander of the Ghanaian army—as a means for stimulating a willingness among uncommitted nations to contribute troops. Mobutu reportedly is unhappy over the failure of civilian officials in Leopoldville to consult him before setting up the Ileo government. He apparently is traveling around Equateur, his home province, paying little attention to political developments. He has reorganized the upper echelons of his command in an attempt to strengthen his control and may ask Belgium to provide him with military advisers who could serve with his forces as "civilian" technicians. Plans for his military operation into Orientale envisage the capture of the gasoline supplies at Aketi, with Stanleyville a possible second objective. Mobutu reportedly is approaching the operation "like a sheep going to slaughter"; he seems to believe he will be killed during the campaign. Furthermore, no attempt has been made to keep up training or increase discipline. The Ileo government, meanwhile, has sent the UN a proposal for reorganizing the Congolese army, according to the American embassy in Leopoldville. Although the Congolese suggestions are carefully hedged to retain final Congolese control over the program, their substance is fairly moderate. The proposals envisage establishment of a joint UN–Congolese defense council, headed by a "neutral" officer responsible to Kasavubu. The message also expresses the Leopoldville government's willingness to permit the UN to begin with the reorganization of Mobutu's troops, provided firm agreements are made for similar steps to be taken with other Congolese forces. There is no indication that these proposals would be accepted by the troops concerned, who are
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.243804
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: already wary of possible disarmament moves and who are largely unresponsive to civilian authority. The Soviet Government has asked permission to transport 3,000 tons of gasoline by rail across Kenya and Uganda for shipment into areas
+- original #15 segment 1: full_page_or_admin
+  Text: the Congo loyal to Gizenga. No other information is available concerning this request. If Gizenga should receive petroleum products through this channel, one key aspect of Mobutu's blockade of Orientale Province would be broken. Uganda officials comment that such a shipment could not legally be denied if payment is arranged outside of East Africa; however, the British in Kenya and Uganda are unlikely to permit its passage unimpeded. The US ambassador in Khartoum has been assured by high Sudanese officials that the Sudan, despite its recent statements critical of the UN and its withdrawal of troops from the Congo, will not change its position regarding denial of transit rights for movements into the Congo not under UN auspices. The first contingents of Indian troops are being readied for a scheduled departure from New Delhi on 14 March en route to Leopoldville. The airlift is to be completed during the following two weeks. New Delhi now is planning to send a brigade group, which with 3,000 infantry troops and supporting units will total 4,731 men. Gizenga has expressed his displeasure with the passive attitude taken by the Ghanaian UN force in Luluabourg at the time of the abortive incursion into that area by Stanleyville troops. Gizenga complained that he had expected active support from the Ghanaian command and considers himself betrayed by its failure to assist in securing control of the area for Stanleyville. He asked for clarification of Nkrumah's position, evidently in an effort to determine how much reliance he can place on arrangements to use Accra as a transshipment point for moving arms from the UAR to Stanleyville
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: Burma May Obtain Soviet Arms There have been persistent rumors of projected Burmese arms purchases from the Soviet Union, including an unsubstantiated press report of a $20,000,000 purchase agreement. In 1957 a military purchasing mission carried on negotiations with European satellite governments but failed to obtain satisfactory terms for the materiel they sought. With the exception of small quantities of Czech small arms and transport equipment for the military police, the army is equipped largely with British materiel, supplemented by supplies from Israel, Japan, Sweden, and Yugoslavia. Under a 1958 contract, Burma has purchased much of its modern materiel from the United States and negotiations are under way for extending these purchases. Although the bloc was not responsive to Burmese efforts to obtain military supplies in 1957, since early 1960 it has made extensive efforts to build up its economic relations with Burma and, in connection with this economic offensive, there have been several efforts to introduce military equipment. In January 1960 the Soviet Union presented Burma with "samples" of small arms—from carbines to heavy machine guns—and General Ne Win has had a standing invitation to visit Moscow as a state guest since his resignation as prime minister in April 1960. The projected military mission to Moscow, which Ne Win apparently will lead, reportedly is being sent at the invitation of the Soviet Government. Burma's current irritation over the Chinese Nationalist irregulars and their supplies of allegedly American materiel would also make the Burmese more willing to accept Soviet arms
+- original #16 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: Brandt Seeking Enhanced Prestige in US Trip Brandt reportedly hopes to use his forthcoming visit to the United States to enhance his prestige in the West German political campaign this fall by "proving" to the German electorate that he is on a par with Adenauer in dealing with the United States and that American leaders accept him as a possible chancellor. Brandt also seeks to impress US officials that they have nothing to fear from him as chancellor. The least he hopes to achieve is a neutral US attitude toward the election outcome. SPD leaders are worried over the damaging effect of the current CDU smear tactics against Brandt, because he spent most of the war fighting in the Norwegian underground against the Nazis. He is being assailed for deserting the fatherland and returning to Germany in a foreign uniform. His illegitimate birth, as well as his change of name during the Nazi period, has also come under heavy CDU fire. In response to Brandt's complaint to Adenauer about these attacks, the chancellor replied that he regretted them but was not responsible for them and that a political campaign is "rough and difficult to control." Brandt's close associates are also worried over his failure to win complete support of SPD elements who have in the past opposed his independent political thinking and complained over his failure to win the SPD many votes in last fall's local elections. At their meeting, Chancellor Adenauer said that Foreign Minister von Brentano had given him a fairly gloomy report on the "increasingly negative" attitude of the American press and people toward Germany. Adenauer said, however, that he did not believe the situation to be as bad as pictured by several opposition Socialist leaders who recently visited the United States. The chancellor also indicated that he considered the Berlin situation "very serious," in view of the Soviet intention to push for an interim solution
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: on Berlin this year and Soviet insistence that Berlin be dealt with apart from other East-West issues. While in the United States Brandt will make a conscious attempt to demonstrate that he is more flexible on the Berlin question than is Adenauer, whom he has often criticized for failing to take a sufficiently strong stand in defense of the city's interests. He has cited specifically Bonn's reluctance to continue annual Bundestag meetings in West Berlin. Brandt firmly believes that West Berlin's interests must be considered in any negotiations on the city's future, and will continue to reserve the right to approve any future solutions
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=9 unred_source_page=15
+alignment_score=0.976235
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Peiping's
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Peiping's
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Peiping's
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Tibet's
+- original #23 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=10 unred_source_page=16
+alignment_score=0.992224
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: regime's
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=11 unred_source_page=17
+alignment_score=0.975428
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=12 unred_source_page=18
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

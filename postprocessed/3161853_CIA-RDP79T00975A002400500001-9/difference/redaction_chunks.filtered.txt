@@ -1,0 +1,191 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.433333
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.890534
+kept_candidate_count=3
+excluded_candidate_count=9
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 3. BONN REPORTED DRAWING UP DEVELOPMENT PLAN FOR MIDDLE EAST
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 2)
+Text: 6. REPORTED SINKING OF BATTLESHIP LINKED WITH SHAKE-UP IN SOVIET NAVAL HIGH COMMAND
+Token count: 13
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #5, segment 3)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 3: noncontent_keyword
+  Text: page 8
+- original #5 segment 1: short_span_min_tokens
+  Text: LEADERSHIP
+- original #5 segment 2: noncontent_keyword
+  Text: page 9
+- original #5 segment 4: noncontent_keyword
+  Text: page 10
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.981357
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ex- pansionist
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: confi- dent
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: tactics
+- original #9 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: it- self
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.964891
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: sup- port
+- original #11 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: com- mitments
+- original #12 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: dem- onstrate
+- original #13 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Den- mark
+- original #14 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: instruc- tions
+- original #15 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pre- dicament
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: 3. BONN REPORTED DRAWING UP DEVELOPMENT PLAN FOR MIDDLE EAST Bonn is reportedly preparing a draft "Colombo type" plan proposing the establishment of a bank- ing institute whose function would be to assist economic development in the Mediterranean and Middle Eastern coun- tries. Membership in the proposed institute would be "open to all Western countries--neutrals and Yugoslavia possibly included." Comment The West Germans are seriously con- cerned over the Soviet economic drive in underdeveloped areas. The Krupp interests have proposed a similar type of economic development program for the un- committed countries of South Asia and the Middle East
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.970679
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #4 (original #22, segment 1)
+Text: Concurred in by ORR
+Token count: 4
+Recut: none
+
+Excluded candidates:
+- original #17 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: fol- lowed
+- original #18 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Hato- yama
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: intransigence
+- original #20 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: im- plied
+- original #21 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ac- tivities
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.971194
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: carry- ing
+- original #24 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ar- rived
+- original #25 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ex- press
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: full_page_or_admin
+  Text: 6. REPORTED SINKING OF BATTLESHIP LINKED WITH SHAKE-UP IN SOVIET NAVAL HIGH COMMAND The Soviet Black Sea Fleet battleship Novorossiysk capsized in October 1955 after striking a mine near Sevastopol. Because of panic and a lack of discipline, watertight doors were not closed in time and the ship reportedly capsized; 900 crewmen were lost. Following this incident Marshal Zhukov is reported to have conducted an investigation of Soviet naval forces and to have found serious deficiencies in com- bat and political training, as well as poor discipline. As a result, Admiral Kuznetsov, commander in chief of the Soviet fleet, was removed from his post, reduced in rank to vice admiral, and retired. Comment In mid-October an inspection of the Black Sea Fleet by Marshal Zhukov, party secretary Khrushchev and Premier Bulganin is known to have taken place. Admiral Kuznetsov has not appeared at public functions since July 1955 and may have been in eclipse as early as that time. He apparently has been replaced by Admiral S. G. Gorshkov, head of the Black Sea Fleet until mid-1955. The Novorossiysk, the largest ship in the Soviet navy, is the 29,000-ton ex-Italian battleship Julius Caesar. Extended inactivity is sometimes caused by the entry of the ship into drydock for routine repairs
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.993987
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Soviet- endorsed
+
+========================================================================
+[PAGE 11]
+kind=red_only red_source_page=10 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=11
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #28 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 22 March) Egypt claims an Israeli patrol crossed into Egyptian-held territory in the Gaza strip, resulting in an exchange of fire lasting 70 minutes during which UN observers were temporarily pinned down. (Press) The Egyptian National Guard personnel in the strip are undisciplined and untrained. Uncontrolled firing at Israeli targets is common, although the Israeli actions are often provocative. Young offi- cers in the Gaza strip are anxious to begin war with Israel. Many of them claim that Israel would only be the beginning---the ultimate target would be Turkey. The Egyptian arms purchas- ing mission in Prague requested Cairo to "send the navy experts with a copy of all previous Czech and Polish contracts." The Egyptian naval experts are to go to Poland to complete arrangements for the purchase of destroyers and pos- sibly other naval equipment. Last September, the USSR approved the furnishing to Egypt by the Soviet bloc of two destroyers and two submarines. At least 12 motor torpedo boats, a few 40- to 60-foot landing craft, and possibly some mines have already been delivered

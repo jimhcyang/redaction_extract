@@ -1,0 +1,472 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.332143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.779219
+kept_candidate_count=4
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Soviet anti-ballistic-missile test activity
+Token count: 5
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. Laos: King Savang is willing to receive chairman of International Control Commission. (Page 3) 3. Congo: Pro-Lumumba forces from Kivu Province reportedly have invaded northern Kasai. (Page 5) 4. USSR reportedly to ship to Indonesia an additional $244,000,000 in military equipment during next three years
+Token count: 48
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #2, segment 1)
+Text: 8) 6. Iran: Some protests and demonstrations against the government's rigging of current parliamentary elections. (Page 10) 7. King Saud is attempting to bolster his internal position and dissipate Nasir's suspicion. (Page 12) 8. Tunisia's President Bourguiba appears ready to end his isolation from the Arab League
+Token count: 47
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #3, segment 1)
+Text: 16) 10. Portuguese Government still concerned over the seizure of the Santa Maria
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: Page 1
+- original #1 segment 4: noncontent_keyword
+  Text: Page 7
+- original #2 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 14
+- original #3 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 18
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 20
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 28 January 1961 DAILY BRIEF
+- original #5 segment 2: full_page_or_admin, noncontent_keyword
+  Text: USSR: Soviet missile activity in mid-January at the Sary Shagan Test Complex (SSTC)—including one or possibly two firings into the complex—is a continuation of anti-ballistic-missile research and development. The type and quantity of equipment present in this complex provide part of the basis for estimates that the USSR has an extensive and high-priority program in the field of warning and defense against ballistic missiles. (Backup, Page 1) (Map) Laos: Government forces north of the Phou Khoun road junction of Routes 7 and 13 have apparently made contact with elements of the Communist forces controlling the junction; however, a concerted effort to retake this key position will probably await the arrival from the south of another government force now at Muong Kassy. In southern Xieng Khouang Province the government garrison at Tha Thom is said to be bracing for another enemy attack which is expected to be stronger than two previous attempts to take the village. Two Soviet AN-12 heavy transports which left Moscow on 24 January reached Peiping yesterday, and today flew on to continue to North Vietnam from Canton. King Savang’s willingness, announced by General Phoumi, to receive the Indian chairman of the International Control Commission for Laos removes one obstacle to its reactivation; nevertheless the USSR continues to show little inclination to accept the British compromise proposal on the ICC. Soviet Deputy Foreign Minister Sobolev recently reiterated to the British ambassador Moscow’s support for the Cambodian proposal for a 14-nation conference
+- original #5 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 3) (Map
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.818208
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Congo: Two independent reports indicate that an invasion of northern Kasai Province by pro-Lumumba forces from Kivu Province has been in progress for several days. The invaders, who appear to be heading for areas inhabited by Lumumba’s supporters, are meeting little resistance from the local police or the civilian population. Belgian military officials, with the aid of the Defense Ministry, are purchasing large quantities of munitions and military equipment, including bullet-proof vests, for shipment to Tshombe’s regime in Elisabethville. In Leopoldville, a rapid rise in retail prices will probably lead to further unrest in the army and among the large number of unemployed. (Backup, Page 5) (Map) USSR-Indonesia: The new Soviet-Indonesian arms deal, signed in Moscow on 6 January, reportedly calls for the delivery to the Indonesian Army, Navy and Air Force of more than $244,000,000 in Soviet arms and equipment during the next three years (1961-63). Although official Indonesian statements claim that the January agreement provides for the supply of a wide variety of Soviet equipment, the inclusion of certain items, particularly high-performance jet aircraft, suggests the listings probably reflect requests as well as actual Soviet commitments. Total bloc military assistance, including the reported new arms deal and a naval agreement of $277,000,000 signed late last year, amounts to almost $750,000,000 since 1958, and the addition of economic aid would raise the total to almost $1.250 billion, making Indonesia second only to the UAR among non-bloc nations in the amount of bloc aid received
+- original #6 segment 2: noncontent_keyword
+  Text: Backup, Page 7
+- original #6 segment 3: short_span_min_tokens
+  Text: Charts
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Albania’s
+- original #8 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Moscow’s
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.885319
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Tirana’s
+- original #10 segment 1: noncontent_keyword
+  Text: Backup, Page 8
+- original #10 segment 2: noncontent_keyword
+  Text: Iran: The Iranian Government, as a matter of policy, is giving little publicity to the current parliamentary elections through either the local press or radio. There have been some protests and demonstrations against the government’s rigging of the elections. Meanwhile, radio propaganda from Moscow and from the Soviet-sponsored clandestine National Voice of Iran, beamed from East Germany, has been stepped up sharply after a five-month lull. The basic theme has been electoral corruption, and the Iranian ambassador in Moscow was instructed to protest the broadcasts. (Backup, Page 10) Saudi Arabia: King Saud seems to be trying to bolster his position and dissipate Nasir’s suspicion of him. Saud, who has long feared Nasir’s capabilities for subversion in Saudi Arabia and whose withdrawal from active leadership of his government in 1958 was a result of a controversy with Nasir, probably feels uneasy and hopes to avoid Nasir’s opposition at this time to his new experiment with a relatively liberal cabinet. The “liberals,” whom the King adopted in order to displace his brother, Crown Prince Faysal, as prime minister
+- original #10 segment 3: noncontent_keyword
+  Text: 28 Jan 61 DAILY BRIEF
+- original #10 segment 4: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.874212
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: last December, favor political reform and economic development. Several of the King’s advisers have warned that he must move quickly to improve the lot of the general populace in order to prevent the growth of opposition. Some elements in the bureaucracy and merchant class, who are dissatisfied with recent developments, are reported to have adopted a “wait-and-see” attitude toward Saud’s new government; some dissident officers in the Saudi Army and Air Force, however, are probably continuing their plotting against the regime. (Backup, Page 12) Tunisia - Arab League: Responding to initiatives of Iraq, President Bourguiba appears willing to explore means of ending Tunisia’s self-imposed isolation from the Arab League. Bourguiba now apparently feels that this policy, adopted when UAR President Nasir supported Bourguiba’s radical opponents, is no longer profitable in view of Nasir’s growing influence in Africa—particularly in Morocco, Tunisia’s rival for North African leadership. Bourguiba has asked that the Arab League foreign ministers’ conference presently scheduled for 30 January in Baghdad be postponed in order to allow time for negotiations for Tunisian participation
+- original #11 segment 2: noncontent_keyword
+  Text: Backup, Page 14
+- original #12 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: EEC’s
+- original #13 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Greece’s
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.947527
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #14, segment 1)
+Text: Portugal: Portuguese Government circles continue uneasy over the seizure of the Santa Maria. The Foreign Ministry fears Henrique Galvao may try to set up a “Castro-type government” in Portuguese Guinea or Angola, where the possibility of defection among white Portuguese is beginning to worry Lisbon. The regime is also said to fear Galvao’s move will encourage cleavages among its supporting factions at home, which are reported already planning to present candidates in next October’s general elections to end the monopoly of the 120 seats in the National Assembly enjoyed by Salazar’s National Union
+Token count: 96
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #14 segment 2: noncontent_keyword
+  Text: Backup, Page 18
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.901947
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Betancourt’s
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: MISSILE TEST RANGE FACILITIES ASSOCIATED WITH SOVIET ANTIBALLISTIC MISSILE RESEARCH AND DEVELOPMENT Instrumentation site possibly associated with ABM program ICBM Impact Area USSR Rangehead Kapustin Yar missile test range Down range launch points associated with Sary Shagan test complex operations Impact Area T-1 Sary Shagan test complex ICBM / Space launching facilities
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.122679
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: Soviet Anti-Ballistic-Missile Activity Soviet missile activity
+- original #18 segment 1: full_page_or_admin
+  Text: mid-January at the Sary Shagan Test Complex (SSTC)—including one or possibly two firings into the complex—is a continuation of anti-ballistic-missile research and development involving SP-5, a launch point about 500 nautical miles (n. m.) away. There have been four periods of activity of this type: earlier periods occurred in late 1958, late 1959, and the summer of 1960; the latest began on 26 October 1960. During these periods, firings from SP-5 are controlled by an organization at Sary Shagan which, among other possible interests, is believed to be collecting re-entry data on missiles fired into the area and developing components of defensive systems
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: The Sary Shagan complex is known to contain a number of electronic installations, including six interferometer-type instrumentation sites, several large radars, and two launch complexes, one of which contains two surface-to-air (SAM) sites. The type and quantity of equipment present in this complex provide part of the basis for estimates that the USSR has an extensive and high-priority program in the field of warning and defense against ballistic missiles. The continuation of research on the problems of defense against short- and medium-range missiles—together with the limited number of ICBM firings to Kamchatka (a total of 21, including 9 since the summer of 1959) which would provide re-entry data—suggests that the Soviet anti-missile test program uses the 1,100-n. m. missile as the primary target for research and development purposes. The shorter range missile fired from SP-5 may represent a target for research and development of a system for defense of ground-force units
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: noncontent_keyword
+  Text: LAOS 28 JANUARY 1961 Government forces Government Antigovernment Kong Le/Pathet Lao forces Main route number Road Trail Antigovernment concentrations
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: Situation in Laos A two-battalion government force north of the junction of Routes 7 and 13 has apparently begun probing the Communist defenses around this key position. Government troops are in contact with the enemy near the road junction, but the initial skirmishing is said to have resulted in a standoff, with the Communists making liberal use of 105-mm. artillery fire. Communist artillery fire was advanced as the main reason that the government was forced to abandon the junction on 18 January. Meanwhile, there is a report that the Kong Le - Pathet Lao joint command is sending reinforcements to the road junction from the Communist base area at the Plaine des Jarres. The government column which took Muong Kassy, 25 miles south of the junction, on 25 January has apparently decided to stay there for the time being. This column had established defensive positions. A government effort to retake the road junction will probably have to await the arrival of the column presently at Muong Kassy. The Communists in the past few days are reported to have launched two attacks on the government position at Tha Thom, in southern Xieng Khouang Province. The Tha Thom garrison expects a third Communist attack at any moment, and Laotian sources anticipate it will be of greater severity than the first two. Earlier in the week, General Phoumi had evinced considerable pessimism about his ability to hold this last remaining government position of any importance in Xieng Khouang Province. Phoumi announced on 26 January that King Savang was prepared to receive the Indian chairman of the International
+- original #21 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=15
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: Control Commission for Laos, in line with the British proposal of 21 January that the ICC take preliminary soundings, through its chairman, on whether it could perform a useful role in Laos. The USSR, however, continues to show little disposition toward supporting the return of the ICC, at least until some sort of international conference is held on Laos. Replying to the British ambassador’s comment that Prince Sihanouk had withdrawn his proposal for a 14-nation conference on Laos, Soviet Deputy Foreign Minister Sobolev remarked that this was not his government’s understanding and that the USSR still favored the Cambodian proposal. Without US and Thai participation his proposal might have to be withdrawn. Soviet leaders probably feel that Sihanouk’s plan has provided valuable non-Communist support for the bloc’s diplomatic position and has given the Communists an opportunity to delay any international action or negotiations on Laos by prolonging East-West exchanges over the timing, composition, and agenda of a conference. The two Soviet AN-12 heavy transports which left Moscow on 24 January reached Peiping on 27 January, and today flew on to Canton. They may continue to North Vietnam. Soviet AN-12s—which are heavy four-engine turboprop transports capable of carrying between 15 and 20 tons of supplies—have been involved in Laos-associated airlift operations on two previous occasions. The first group consisting of three AN-12s arrived in Canton from the USSR on 18 December. Their cargo was off-loaded and ferried to Hanoi aboard the Soviet IL-14s which had been engaged in airlift operations since early December. A second group of seven AN-12s, two of which were part of the 18 December group—arrived in Canton on 24 December. Three days later six flew on to North Vietnam—five to Haiphong and one to Hanoi. One remained at Canton, apparently because of mechanical difficulty. By 29 December, all six of the AN-12s which arrived in North Vietnam were returning to the USSR; the one delayed at Canton returned on 13 January
+- original #22 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 16]
+kind=unred_only red_source_page=None unred_source_page=16
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: noncontent_keyword
+  Text: Republic of the Congo 28 JANUARY 1961 UNCLASSIFIED
+
+========================================================================
+[PAGE 17]
+kind=unred_only red_source_page=None unred_source_page=17
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: full_page_or_admin
+  Text: Situation in the Congo An invasion of remote northern Kasai Province by pro-Lumumba forces from Kivu Province apparently has been in progress for several days. According to two independent reports, the invaders, who crossed the border from Kindu, have taken two large towns. They reportedly are now split into two groups, one heading toward the provincial capital at Luluabourg and the other trying to reach pro-Lumumba territory in eastern Leopoldville Province. Most of the area’s civilian population supports Lumumba. The police are divided in their loyalties, although the local military commander and the provincial government are pro-Mobutu. The invading force reportedly is meeting little opposition from either police or civilians. This is the first offensive operation by Lumumba supporters since the invasion of Katanga Province on 9 January. In the intervening period, the invaders of Katanga were consolidating their gains. The new incursion probably is subject to only tenuous control by Gizenga in Stanleyville; however, the continued military success of forces associated with him is likely to increase Gizenga’s following among the Congolese population, to the detriment of the position of Mobutu and Kasavubu. Belgian military officials apparently are purchasing munitions in Brussels for shipment to Tshombe’s regime in Elisabethville. Immediate shipment of large quantities of rifle and machine-gun ammunition was being arranged. The Belgians were shopping for rifles, grenades
+- original #24 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 18]
+kind=unred_only red_source_page=None unred_source_page=18
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: full_page_or_admin
+  Text: smoke bombs, and bullet-proof vests, and that Belgian Defense Ministry officials were helping to supply grenades, cartridges, and fuzes. Aid on this extensive scale, coupled with the current effort to provide Belgian military advisers and to recruit white soldiers in Belgium and elsewhere in Europe, would add greatly to the military capability of Tshombe’s forces. In Leopoldville, a recent study has shown a marked upswing in retail prices at the beginning of 1961, and informed observers expect a sharp inflationary spiral. Prices have risen only gradually heretofore, and economic activity in the Leopoldville area has continued, although at a greatly reduced rate. Half the city’s labor force of 120,000 is unemployed, but the needs engendered by the slowdown in the money economy have largely been met from the subsistence sector, which has been relatively unaffected by the political turmoil. However, Mobutu’s blockade of the upper Congo River, while it has effectively cut off supplies of gasoline to Gizenga, has also dried up the source of about 40 percent of the exports by value which previously were being shipped through Leopoldville. With the foreign exchange from these exports no longer available, and with revenues from export duties reduced, the Leopoldville authorities have meager reserves with which to combat inflation
+- original #25 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 19]
+kind=unred_only red_source_page=None unred_source_page=19
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: full_page_or_admin
+  Text: MAJOR BLOC ARMS SUPPLIED INDONESIA (THROUGH 1960) AIR IL-28 jet light bombers 20 Other bombers 32 MIG-17 jet fighters 62 Other fighters 24 Other aircraft (including trainers and helicopters) 93 LAND 130-mm. truck-mounted rocket launchers 12 85-mm. antiaircraft guns 25 37-mm. antiaircraft guns 25 NAVAL Skoryy-class destroyers 4 W-class submarines 2 Submarine chasers 8 MAJOR BLOC ARMS TO BE PROVIDED INDONESIA (1961-1963) AIR TU-16 jet medium bombers 20 IL-28 jet light bombers 5 “MIG-21F” jet fighters 20 MIG-19 jet fighters 10 LAND PT-76 amphibious light tanks 80 BTR-40 armored personnel carriers 130 100-mm. antiaircraft guns 86 57-mm. antiaircraft guns 182 122-mm. field artillery 72 “DL-10” landing craft 131 NAVAL Light cruiser 1 Destroyers 4 Submarines 2 Submarine chasers 8 Minesweepers 6 Motor torpedo boats 10 Armored landing vehicles 60 Amphibious tanks 60 122-mm. artillery 22
+
+========================================================================
+[PAGE 20]
+kind=unred_only red_source_page=None unred_source_page=20
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: full_page_or_admin
+  Text: Details of Soviet-Indonesian Arms Agreement In the latest recent $244,000,000 Soviet-Indonesian arms deal, the Indonesian Army’s purchases, apparently made under the direction of Chief of Staff General Nasution, consist largely of light armor, artillery, and infantry weapons. The purchases underscore the army’s efforts to develop its capabilities for antiaircraft defense, as well as for amphibious and air operations, and constitute—for the first time—acceptance of large-scale bloc military assistance by the Indonesian Army. Indonesian naval purchases under this agreement are limited to miscellaneous equipment, presumably because a separate naval agreement for the supply of more than $277,000,000 in Soviet—and apparently Polish—ships was concluded late last year during Admiral Martadinata’s visit to the Soviet Union. The reported purchases of the air force—apparently made by Air Marshal Suryadarma, who accompanied General Nasution on his visit to Moscow in January—seem to be excessive for Indonesian Air Force needs, suggesting the listing may reflect the air force’s requests as well as actual Soviet commitments. Although Moscow may be willing to supply some MIG-19s, it appears unlikely that the USSR would agree to provide such aircraft as MIG-21s and TU-16s, which have not yet been supplied to the European satellites in quantity. In the summer of 1960, Indonesian requests for these high-performance aircraft were parried by Moscow with claims that Soviet Premier Khrushchev personally would have to approve of their delivery to Indonesia
+- original #27 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 21]
+kind=match red_source_page=11 unred_source_page=21
+alignment_score=0.991305
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #28 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Gromyko’s
+- original #29 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Moscow’s
+
+========================================================================
+[PAGE 22]
+kind=match red_source_page=12 unred_source_page=22
+alignment_score=0.977993
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #30 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Ulbricht’s
+
+========================================================================
+[PAGE 23]
+kind=unred_only red_source_page=None unred_source_page=23
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #31 segment 1: full_page_or_admin
+  Text: Progress of Iranian Elections In the current parliamentary elections a deputy was elected “with a majority of 4,556 votes” but “against the wishes of the people.” This reflects the favorite technique of switching ballot boxes. The same report adds that this caused “an extraordinarily undesirable reaction and shocking propaganda against the government.” Other reports show protest demonstrations and violence, with occasional nongovernmental candidates winning. The current Majlis (lower house) elections in Iran are for 200 deputies from about 154 constituencies. These elections were originally held in August after wide publicity proclaiming their freedom. The fiasco which resulted from the inept rigging produced such a volume of protests that the Shah was forced to cancel the whole election. Prime Minister Sharif-Emami has told an American diplomat that in the present round of voting about 50 deputies have been elected thus far, with government “influence” being used to assure the choice of 25 of them. The remainder were elected from a list of government-approved candidates. Sharif-Emami’s estimate may be optimistic, as he apparently has not been an active participant in the rigging, a job the Shah has given to the corrupt and venal minister of the interior, General Alavi-Moqadam. Elections in key urban areas, including Tehran, have not yet been carried out. Wide demonstrations and violence are possible in these more volatile areas if the rigging is as obvious as elsewhere. Although security forces can probably control any violence, they may have to use force to do
+- original #31 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 10
+
+========================================================================
+[PAGE 24]
+kind=unred_only red_source_page=None unred_source_page=24
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #32 segment 1: full_page_or_admin
+  Text: so, and this would widen the existing breach between the government and the people. Iranian parliamentary elections for the last four decades have normally been rigged, if not by the central government then by local authorities. The parliamentary representatives usually have represented the most influential person in the constituency, the local landlord, tribal chief, or military commander. Often the same results would have been achieved if a genuinely free election had been held, simply because the people could not have found anyone more capable of holding the office. With political awareness spreading to the grass roots, however, traditional electoral chicanery is becoming more difficult to carry out. Soviet propaganda, which was toned down after the appointment of a new Iranian prime minister in August, has resumed its hostile tone, apparently to encourage Tehran to make moves toward improving relations with the USSR. The USSR has sought since 1959 to extract political concessions from Iran, such as the prohibition of foreign military bases. The renewed Soviet propaganda, keyed to the rigged elections, is probably designed to exploit popular dissatisfaction with the voting. Moscow also probably hopes to force Iran’s projected good-will mission to Moscow to enter into political negotiations. Iran’s ambassador to protest the propaganda barrage, which is “wholly at variance with the talks of recent months and the good will of both sides
+- original #32 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 11
+
+========================================================================
+[PAGE 25]
+kind=match red_source_page=13 unred_source_page=25
+alignment_score=0.243871
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #33 segment 1: full_page_or_admin
+  Text: King Saud Courts Nasir King Saud, who fears subversion by Nasir
+- original #34 segment 1: full_page_or_admin
+  Text: Saudi Arabia, is attempting to improve his relations with the UAR leader. Immediately after reasserting authority on 21 December, Saud sent a secret emissary to assure Nasir of the “progressive” nature of the new government. The King hoped that Nasir’s “brotherly friendship would last forever.” Saud withdrew from active leadership of his government in March 1958 after exposure of his clumsy effort to break up the UAR by attempting to bribe Syrian internal security chief Sarraj with over $5,000,000. Sarraj denounced the attempt and backed up his charges with photographs of the actual bank drafts. The fiasco shook Saud’s prestige so seriously that Crown Prince Faysal assumed the premiership upon the insistence of the other Saudi royal princes. However, Faysal’s policy of severe financial retrenchment, although it repaired Saudi finances, became very unpopular within the royal family and the merchant community. Over the past two years Saud has thus been able to rebuild his political stature within the country by favoring the tribes and siding with the princes who opposed any curtailment of their purses. To oust Faysal last December Saud obtained support of Saudi Arabian “liberals” by naming four of them to cabinet posts. Now for the first time more than half of the Saudi cabinet is drawn from outside the royal family. While it would appear that the King has enough backing among the tribal leaders and within the royal family to support his new policies, a group of dissident army officers in late December requested UAR support for a coup against Saud. This group planned to set up an independent state in the western part of the country
+- original #34 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 12
+
+========================================================================
+[PAGE 26]
+kind=unred_only red_source_page=None unred_source_page=26
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #35 segment 1: full_page_or_admin
+  Text: While the UAR may not commit itself to any extensive support for this group at this time, it may give assistance for a move later. Disgruntled army officers in Riyadh approached American military personnel last summer regarding the US attitude toward an anti-monarchist coup, and educated elements of the civil population have long felt that a radical change of government is needed
+- original #35 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 13
+
+========================================================================
+[PAGE 27]
+kind=unred_only red_source_page=None unred_source_page=27
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #36 segment 1: full_page_or_admin
+  Text: Tunisia May Resume Seat in Arab League Tunisian President Habib Bourguiba withdrew his representative from the Arab League in October 1958—subsequently breaking relations with Cairo—culminating a long period of acrimonious exchanges with UAR President Nasir. Bourguiba, although under pressures from other Arab states to return to the League, has refused to do so without significant concessions from Nasir—notably an agreement that Bourguiba’s rival, Salah Ben Youssef, will no longer be harbored in Cairo, and a full-scale review by the League of Tunisia’s dispute with the UAR. Now at odds with the King of Morocco, who excluded him earlier this month from the Casablanca conference of certain African and Asian chiefs of state, Bourguiba senses his growing isolation as Nasir’s influence expands in Africa. Consequently Bourguiba has apparently become more receptive to recent approaches by Iraqi Premier Qasim and Jordanian King Husayn proposing that Tunisia attend the conference of Arab State foreign ministers which convenes in Baghdad on 30 January. Mokaddem is slated to remain in the Middle East for two weeks, ostensibly to chair a meeting of Tunisian diplomats, and could easily sit in on the foreign ministers’ conference should Bourguiba consider it expedient to be represented
+- original #36 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 14
+
+========================================================================
+[PAGE 28]
+kind=unred_only red_source_page=None unred_source_page=28
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #37 segment 1: full_page_or_admin
+  Text: The Iraqi foreign minister and Arab diplomats in Baghdad are reported confident that some compromise formula will be worked out to permit Tunisia’s attendance, if only as an observer. Any improvement in Tunisia’s relations with the UAR, however, is likely to be superficial since Bourguiba will probably remain suspicious that Nasir desires to undermine the Tunisian regime and will continue to fancy himself as Nasir’s rival for influence in the Arab world
+- original #37 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 15
+
+========================================================================
+[PAGE 29]
+kind=match red_source_page=14 unred_source_page=29
+alignment_score=0.990000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #38 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: associations
+- original #39 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Greece’s
+
+========================================================================
+[PAGE 30]
+kind=match red_source_page=15 unred_source_page=30
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 31]
+kind=unred_only red_source_page=None unred_source_page=31
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #40 segment 1: full_page_or_admin
+  Text: Impact of Santa Maria Seizure on Salazar Regime The Portuguese Government evinces growing nervousness over the political challenge represented by seizure of the privately-owned Portuguese luxury liner Santa Maria on 22 January. It fears in particular that the 70 proclaimed opponents of Prime Minister Salazar, headed by former army Captain Henrique Galvao may get through to some port in Africa and try to stir up trouble among disaffected groups. The government has alerted its armed forces at home and in its African provinces and sent two platoons of paratroopers overseas by air in the latest of a series of reinforcement moves. Galvao, who claims to act in the name of former opposition presidential candidate Humberto Delgado, now residing in Brazil, is regarded by Lisbon as a determined and capable adversary. Portuguese Foreign Minister Mathias expressed apprehension to Ambassador Elbrick on 24 January that Galvao might take the ship to the Cape Verde Islands or Portuguese Guinea and try to set up a “Castro-type government” on the west coast of Africa. Galvao’s action probably foreshadowed a coup attempt against some part of the overseas provinces and emphasized the need for cooperating with the military in order to prevent a surprise landing. Lisbon feels there is no doubt about the loyalty of the officer corps but is apparently less sure of the attitude of some sectors of the noncommissioned officers. Galvao and Delgado have for many months been coordinating antiregime plans among Portuguese exiles in Brazil, Venezuela, and apparently other areas in Latin America. Their primary objective reportedly has been to gain strong support from opposition groups in both Portugal and Spain and eventually effect armed landings in either country to oust Franco and Salazar. The two men are said to have received financial
+- original #40 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 18
+
+========================================================================
+[PAGE 32]
+kind=match red_source_page=16 unred_source_page=32
+alignment_score=0.244208
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #41 segment 1: full_page_or_admin
+  Text: aid of unknown amounts from sympathizers
+- original #42 segment 1: full_page_or_admin
+  Text: Venezuela. Delgado enjoyed considerable support at home in the African provinces during the presidential election campaign of 1958. Galvao also has been held in high esteem among opponents of Salazar in Portugal and even, reportedly, among some high-ranking officers. However, the US Embassy in Lisbon reports that local press disclosures that most of the 70 men involved in the seizure of the Santa Maria were Spaniards has already dampened what public admiration Galvao’s “theatrical gesture” may have generated. The Salazar regime appears concerned over possible defections by white Portuguese in Angola who are in favor of independence for the province and might work with African nationalists to secure it. It also probably fears that Galvao’s move may encourage cleavages among its supporting factions which are reliably reported already planning to offer their own candidates for the National Assembly elections next October. Capture of even a small number of seats would end the monopoly of the 120 seats in that body hitherto enjoyed by the regime’s National Union. Another factor probably increasing the nervousness in government circles is the current partial incapacitation of Salazar. The 71-year-old dictator is regarded not to have fully recovered from the mild attack of pneumonia he incurred early this month
+- original #42 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 19
+
+========================================================================
+[PAGE 33]
+kind=match red_source_page=17 unred_source_page=33
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 34]
+kind=match red_source_page=18 unred_source_page=34
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #43 segment 1: noncontent_keyword
+  Text: 28 January 1961 Copy No. Co8-8 CENTRAL INTELLIGENCE BULLETIN

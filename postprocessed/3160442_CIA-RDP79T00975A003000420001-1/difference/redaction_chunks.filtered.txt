@@ -1,0 +1,101 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.894318
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. NASR TELLS ARABS REASONS FOR REJECTING US PROPOSALS ON SUEZ
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. DEVELOPMENTS IN JORDAN
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6). 10 Apr 57 Current Intelligence Bulletin Page 2
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 1. NASR TELLS ARABS REASONS FOR REJECTING US PROPOSALS ON SUEZ Nasr informed King Saud, King Hussain and President Quwatli that the modifications of Egypt's Suez memorandum proposed by the United States are unacceptable because they "do not conform with Egyptian sovereignty and honor," He said the six principles are subject to varying interpretations, particularly the third principle regarding the separation of the canal from politics. Each country, he noted, would make its own interpretation according to its point of view, as proved by "the announcement by Britain, France, and America that Israel has the right of passage through the canal." Nasr added that should Egypt accept this principle and then prevent Israeli ships from passing, "Israel will have recourse to the International Court of Justice." The Americans' suggestions for representation of users, Nasr commented, "would give them rights which are really the prerogative of Egypt. . . . This would be tantamount to another internationalization of the canal." He said the suggestion for multilateral adherence to the memorandum would allow Israel as a member of the UN to sign the Egyptian memorandum, "thus putting her in the position of a joint contractor with Egypt." Comment These are the same objections Egypt has made to American officials. Nasr's characterization of the American proposals suggests this may be in part designed to indicate to these Arab rulers that the United States, as well as Britain and France, is seeking to rob Egypt of its sovereignty and promote the cause of Israel. The Egyptians may thus hope to justify Egypt's opposition to the broader American Middle East proposals as well as to the specific suggestions for the Suez Canal declaration
+- original #4 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 Apr 57 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.243921
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin, noncontent_keyword
+  Text: 2. DEVELOPMENTS
+- original #6 segment 1: full_page_or_admin
+  Text: JORDAN Comment on: Deployment on 8 April of armored cars and infantry elements of the Jordanian army's 10th Armored Brigade to cover the approaches to Amman appears to have been undertaken by ultranationalist army officers to discourage King Hussain from attempting to dismiss army chief of staff Nuwar and the leftist-dominated cabinet of Prime Minister Nabulsi. Supporters of Nuwar and the cabinet had apparently learned of Hussain's plans to take action against them on 9 April. According to press reports from Amman on 9 April, the cabinet had been in a night-long meeting attended by General Nuwar. Hussain did not order the deployment of troops around Amman, which had been reported as a "routine training exercise." Although Hussain professed confidence that they would not move against him, Nuwar and the ultranationalist "free officers" had advised Hussain that the army would not support him against popular demonstrations which would break out if the cabinet were changed. These troop movements will therefore probably forestall hasty action by Hussain. He would have no chance of successful action without army support. Should Hussain now attempt to appeal directly to loyal army units against the "free officers," a breakdown in internal order could occur which would invite moves by Israel, and possibly Iraq, on Jordan. Saudi Arabia and Syria presently each have over 3,000 troops in Jordan. At the time of the termination of Britain's responsibilities to defend Jordan, on 13 March, about 1,300 British troops--including a tank battalion--were deployed in South Jordan near Aqaba. Evacuation of these forces has begun and is scheduled to be completed in the next few months
+- original #6 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 Apr 57 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.993976
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Comment on
+- original #8 segment 1: noncontent_keyword
+  Text: 10 Apr 57 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.988290
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: Comment on
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Nahdlatul
+- original #11 segment 1: noncontent_keyword
+  Text: 10 Apr 57 Current Intelligence Bulletin Page 6

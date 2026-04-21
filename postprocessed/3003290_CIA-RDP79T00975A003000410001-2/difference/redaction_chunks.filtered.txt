@@ -1,0 +1,119 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.648462
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 124
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.946429
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 2. PRO-NASR LEBANESE POLITICIANS DISCOURAGED
+Token count: 5
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 3: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #4 segment 1: noncontent_keyword
+  Text: page 6
+- original #5 segment 1: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.969595
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #9, segment 1)
+Text: Sukarno can be expected to continue efforts to undermine autonomous movements, as is indicated in his reported call for "volunteer battalions" throughout Sumatra to "defend justice and fight for the right
+Token count: 31
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Comment on
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Nahdlatul
+- original #8 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: provision is
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 2. PRO-NASR LEBANESE POLITICIANS DISCOURAGED Pro-Egyptian opposition politicians in Lebanon have almost lost hope of reversing the country's pro-Western policy. He added that, unless immediate Egyptian assistance were forthcoming, the position of the "free elements" would become hopeless, and suggested that the Egyptian press and radio give support to the opposition. Comment On 6 April the pro-Western Lebanese prime minister received an overwhelming 30-to-1 vote of confidence for his foreign policy based on adherence to the American proposals for the Middle East. Seven pro-Egyptian opposition deputies resigned from parliament just before the vote. Both the Egyptians and the Syrians have spent much money and effort to cause the fall of the present government and its replacement with a pro-Nasr one; they are likely to increase their efforts in connection with the parliamentary elections scheduled for June
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.991138
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Comment on
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.998101
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.998537
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 09]
+kind=red_only red_source_page=8 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

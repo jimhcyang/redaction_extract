@@ -1,0 +1,135 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.694000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.926316
+kept_candidate_count=3
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. SOVIET OFFICIAL ASSURES THAT WAR IS UNLIKELY
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 4. CHINESE COMMUNIST PARTY CONGRESS
+Token count: 5
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 2)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #2 segment 3: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 8
+- original #3 segment 3: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 2. SOVIET OFFICIAL ASSURES THAT WAR IS UNLIKELY Comment on: Grigory T. Zaitsev, chief of the Middle East division of the Soviet Foreign Ministry, agreed with the view that the Suez crisis will not lead to war against Egypt because the West "knows the seriousness of it in the atomic age". Zaitsev said the unwillingness of a majority of NATO members to approve anything which would lead to war and the disagreement within the British government itself were added deterrents. Zaitsev's remarks indicate that Moscow continues to believe that negotiations can be prolonged as a means of forestalling military action against Egypt. The Soviet statement suggested that Moscow might take the initiative in bringing the problem before the UN Security Council
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 4. CHINESE COMMUNIST PARTY CONGRESS The Chinese Communist Party has used its Eighth Congress, which is still in session, to profess its devotion to collective leadership and to take a few steps in that direction. At the same time, the speeches at the congress reveal that the stature of Mao Tse-tung--described as the "great helmsman of the party"--has not been diminished. While Mao clearly continues to dominate the party, the distance between him and other leaders is being reduced. Mao is apparently to remain as chairman of the central committee and politburo, but there are now to be several vice chairmen. One of these, rather than Mao, will probably head the new Standing Committee of the politburo. Moreover, Mao will probably be replaced as chairman of a new secretariat. The congress provides fresh evidence that Liu Shao-chi remains the ranking Chinese Communist after Mao. While Mao himself delivered the main address at the previous party congress in 1945, he designated Liu to give it this time. Liu's status will probably be formalized by appointment as senior vice chairman of the party. Chou En-lai still appears to be in the third-ranking position. Chou En-lai's speech on the Second Five-Year Plan (1958-1962) displayed Peiping's confidence that the present rapid rate of industrial growth can be maintained. Industrial output is to be increased by 100 percent, a rate comparable to that which will probably be accomplished under the First Five-Year Plan. Agricultural output is to be raised by 35 percent--a very optimistic goal that is considerably higher than the rate called for under the current Five
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.126429
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: Year Plan. Some Chinese ministries had earlier announced higher goals, but the USSR
+Token count: 13
+Recut: none
+
+Clean Chunk #5 (original #7, segment 1)
+Text: August proposed reduction in Chinese economic plans. Peiping's announced goals presumably have been co-ordinated with Moscow
+Token count: 16
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.985437
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Nahdlatul
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: hold
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 17 September) An Egyptian spokesman has charged that on 16 September an Israeli patrol crossed the demarcation line at Sabha, near the El Auja demilitarized zone, and clashed with an Egyptian patrol. No casualties were reported. American officials in Jerusalem reported a minor incident between Israeli and Jordanian patrols on 16 September. Israeli army chief of staff Dayan said in a speech to army cadets on 17 September, "There is no other way to protect the lives of oil and water drillers on our borders than by setting a high price on their blood." Dayan said, "If we keep away from the border, it will cease to be our frontier." Israel is preparing a new note to the UN Security Council protesting the Egyptian ban on Israeli shipping through the Suez Canal, according to a press report from Jerusalem
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

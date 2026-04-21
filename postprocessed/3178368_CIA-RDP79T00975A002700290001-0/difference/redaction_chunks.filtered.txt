@@ -1,0 +1,172 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.674375
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.831373
+kept_candidate_count=2
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #3, segment 2)
+Text: 3. EGYPT READIES SABOTAGE OF BRITISH INSTALLATIONS IN LIBYA
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #5, segment 2)
+Text: 6. BURMA REPORTEDLY TO ACCEPT SOVIET TECHNICAL ADVISERS
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 3: noncontent_keyword
+  Text: page 5
+- original #4 segment 1: noncontent_keyword
+  Text: page 6
+- original #5 segment 1: noncontent_keyword
+  Text: page 7
+- original #5 segment 3: noncontent_keyword
+  Text: page 8
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 9
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.941904
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: embassy
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: two-day
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: national
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=4
+alignment_score=0.927351
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: positive
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: domestically
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: sanctions
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: American
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: 3. EGYPT READIES SABOTAGE OF BRITISH INSTALLATIONS IN LIBYA Comment The Egyptian potential for stirring up trouble in Libya is probably considerable, although the police were able to maintain control during pro-Egyptian demonstrations in Benghazi on 9 August and Tripoli on 16 August. There are no "nationalist units" known to exist in Libya at the present time; however, this might be a reference to the banned Libyan National Congress Party, whose leader has been in exile in Egypt for the past four years
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=0.944011
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: placement
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: shipments
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: rehabilitation
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=7
+alignment_score=0.927605
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: September
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soviet-Japanese
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: developed
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: normalization
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: insistence
+- original #23 segment 1: short_span_min_tokens
+  Text: Mongolia
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: full_page_or_admin
+  Text: 6. BURMA REPORTEDLY TO ACCEPT SOVIET TECHNICAL ADVISERS Burmese prime minister Ba Swe is reported to have stated that the Burmese government has decided to accept five Soviet technicians who are to have functions similar to technicians of the American engineering firm long under contract to Burma. Ba Swe reportedly said this was the only way Burma could get something in return for its barter credits with the USSR. Comment These would be the first resident technicians sent to Burma by the Soviet Union. The American firm formulated Burma's original seven-year development plan and has since been closely connected with high-level development planning. The presence of Soviet technical advisers would enable Moscow to obtain valuable information on which to base a revitalization of its own economic offensive in Burma. The unfavorable climate of opinion in Rangoon resulting from the Sino-Burmese border dispute and dissatisfaction with Burma's barter trade with the bloc will, at least initially, limit the scope of activity of the Soviet technicians
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 11 September) Egypt charged that an Israeli patrol crossed the Egyptian border west of the El Auja demilitarized zone on 11 September and killed five Egyptian soldiers. A sixth Egyptian was reported wounded. Egypt alleged that the clash occurred ten miles inside Egyptian territory. The raid was probably in retaliation for sabotage of the Tel Aviv-Beersheba rail line on the previous night, which an Israeli army spokesman attributed to Egyptian terrorists. Israeli spokesmen have charged that the six Israeli soldiers killed in a clash on the Jordan border on 10 September were fired on from Jordan and that their bodies were subsequently dragged across the border by the Jordanians. the Syrian-Lebanese military agreement now under discussion is "at the chiefs of staff level only," and is "of limited scope." The agreement would provide for entry of no more than three Syrian battalions into southeast Lebanon in the event of an Israeli attack on either Syria or Jordan. Syria considers defense of this sector vital to the protection of its right flank against Israel. Chamoun, however, professed to be uncertain that the agreement would be signed, since the Syrians were asking additional concessions which Lebanon was unwilling to grant
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=red_only red_source_page=10 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,78 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.672769
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: US OFFICIALS ONLY
+Token count: 3
+Recut: none
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 6
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.885187
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #3, segment 1)
+Text: SOUTHEAST ASIA Vietnam army seen poorly prepared against enemy infiltration
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 1)
+Text: Egypt reportedly trying to prevent Libyan-Western base agreements
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: page 3
+- original #4 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.929615
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: 2. Vietnam army seen poorly prepared against enemy infiltration: Adequate measures have not been taken to guard against Viet Minh infiltration of regular Vietnamese army battalions now being formed. The former French commander, General Salan, had opposed the training of counterespionage units within the Vietnamese army, fearing they would work more against the French than the Viet Minh. The new command shares this fear but, in view of the critical situation, has approved the initiation of such training. Comment: The problem of the loyalty of the Vietnamese army has a considerably wider scope than the mere apprehension of enemy agents. The troops, being under French command and uncertain whether they are being used to further Vietnamese interests, are generally susceptible to subversion
+Token count: 122
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 6. Egypt reportedly trying to prevent Libyan-Western base agreements: Comment: Egypt is in no position to offer substantial economic assistance to Libya, but there are indications that the Egyptians have convinced Libyan advisers to King Idriss of Cairo's intention to give aid. Such efforts will encourage Libya's tendency to delay agreements with the West and enlarge its demands for Western financing
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,222 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.622500
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 12
+- original #1 segment 2: noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.926056
+kept_candidate_count=2
+excluded_candidate_count=8
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 1. KHRUSHCHEV REPORTED CONSIDERING RE-ESTABLISHING INTERNATIONAL COMMUNIST LINKS
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #5, segment 2)
+Text: 5. INDONESIAN ARMY OFFICERS ALLEGEDLY PLAN COUP (page 7) * * * * THE ARAB-ISRAELI SITUATION
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: page 4
+- original #4 segment 1: noncontent_keyword
+  Text: page 5
+- original #5 segment 1: noncontent_keyword
+  Text: page 6
+- original #5 segment 3: noncontent_keyword
+  Text: Top Secret
+- original #5 segment 4: short_span_min_tokens
+  Text: Eider
+- original #5 segment 5: noncontent_keyword
+  Text: page 8
+- original #6 segment 1: noncontent_keyword
+  Text: page 10
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 1. KHRUSHCHEV REPORTED CONSIDERING RE-ESTABLISHING INTERNATIONAL COMMUNIST LINKS Comment on: Soviet leaders had under study proposals to "re-establish links" between Moscow and foreign Communist parties to exchange views and information. They discussed the possibility of having representatives of Communist parties meet at regular intervals and forming a telegraphic news agency to transmit information to Communist parties. Khrushchev agreed that something of the sort was necessary. Moscow believes it necessary to establish some new form of international control to prevent serious deviations in Communist parties. speculation that this is the subject of current talks has probably inspired press reports that Khrushchev has already proposed such a plan to Tito. Tito would fear the inevitable domination of an arrangement of this sort by Moscow and would prefer to exert Yugoslavia's influence through bilateral relations. Any loose organization along Cominform lines would be inadequate to deal with Moscow's problem of maintaining, and where necessary re-establishing, discipline over Satellite Communist parties. An overt organization reminiscent of the old Comintern or Cominform would damage Communist efforts to establish unity of action with West European Socialists
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 4 Oct 56 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.909128
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #9, segment 1)
+Text: Comment Britain is probably assisting Iraq to strengthen its influence in Jordan in order to be in a position to profit from an eventual partition of Jordan and to strengthen Iraq as a counterweight to Egypt. In addition to recent diplomatic moves aimed at promoting the proposed Iraqi troop movement, the British are evidently active in Jordan itself on Iraq's behalf
+Token count: 61
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: standpoint
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: movement
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: remain
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.946763
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: economic
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: construction
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: large-scale
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: specific
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: initial
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: proposals
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.974629
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: enmity
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: relatively
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: strenuous
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=red_only red_source_page=8 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=8
+alignment_score=0.244533
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: 5. INDONESIAN ARMY OFFICERS ALLEGEDLY PLAN COUP As of mid-September, three high-ranking Indonesian army officers--one of them former deputy chief of staff Colonel Lubis--were still planning action to take over the government. They expected to implement their plans sometime after
+- original #22 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: October and anticipated no resistance from within the army except
+- original #23 segment 1: full_page_or_admin
+  Text: East Java. Comment Reports of an impending army coup have appeared regularly since mid-summer, and it is quite likely that Colonel Lubis is eager to take some form of action against the government. In such an action, he would be supported by a number of young officers, chiefly at the brigade command level, in West Java. Army dissatisfaction derives from a feeling that the army is not receiving adequate material support from the government, a belief that the government has interfered unnecessarily in strictly military affairs, and disillusionment over corruption in the government. Army leaders may also be disturbed by President Sukarno's strong show of friendship toward Communist countries during his current tour of the Sino-Soviet Orbit
+- original #23 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 4 Oct 56 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 3 October) Israel plans to restrict its future participation in the proceedings of the Israeli-Jordanian Mixed Armistice Commission, according to an unconfirmed report from the Israeli sector of Jerusalem. It plans not to request meetings to discuss armistice violations by Jordan, and will not attend meetings called by Jordan to consider alleged armistice violations by Israel. Israel, according to a Foreign Ministry spokesman, "sees no useful purpose in continued routine examinations of border incidents... in view of steady attempts by the UN Truce Supervision Organization to equalize Jordanian acts of aggression with justified Israeli measures in self-defense." The spokesman denied that the new policy amounted to a complete boycott of the commission, and stated that Israel would continue to register complaints against Jordan if border violations were reported. (Press) the movement of Iraqi troops into Jordan is imminent, Other reports, however, suggest that if any Iraqi troops are sent into Jordan, the force will probably not exceed a battalion. many people questioned whether Jordan was a viable state, and that even the British doubted whether it could survive. The Israeli government recognizes that retaliation is not a solution to the border problem
+- original #24 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 4 Oct 56 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: full_page_or_admin
+  Text: but considers it an effective deterrent and believes that conditions would be much worse along the border without retaliation. Rapid Egyptian response to Jordan's appeal for military aid following the Israeli raid resulted in delivery of 21 tons of arms by air and 60 tons on the following day, the arrival of five Egyptian transport aircraft, described in the press as IL-14's, on the 28th, and an additional eight aircraft were expected later. three planeloads of Egyptian arms were delivered to Amman, and a shipload of undisclosed size was dispatched to Jordan via the Syrian port of Latakia. In addition, Syria is attempting to expedite delivery of $1,300,000 worth of arms to Jordan from Czechoslovakia
+- original #25 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 4 Oct 56 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.953277
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: September--3
+- original #27 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reconnaissance
+- original #28 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: encounter
+- original #29 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: liberate
+- original #30 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: indicated
+- original #31 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: renunciation
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #32 segment 1: full_page_or_admin
+  Text: TAIWAN STRAIT SITUATION CHINESE COMMUNIST AIRFIELD
+- original #32 segment 2: full_page_or_admin, noncontent_keyword, short_span_min_tokens
+  Text: LEGEND
+- original #32 segment 3: full_page_or_admin
+  Text: DESIGNATIONS ACTIVE BASE FOR MILITARY & CIVILIAN AIRCRAFT. SOME BASES USED BY PISTON TYPES MAY BE USABLE BY JETS INACTIVE BASES CAPABLE OF USE BY AIRCRAFT CURRENT STATUS UNDETERMINED PRIMARY AIRFIELD CONSIDERED MOST IMPORTANT IN AREA WITH PREPARED RUNWAY GENERALLY 5000 FEET OR LONGER SECONDARY AIRFIELD AUXILIARY OR EMERGENCY BASES RUNWAYS GENERALLY LESS THAN 5000 FEET OPERATIONAL SERVICEABLE UNKNOWN USABILITY IL-15 TU-2 IL-28 MIG-17 LA-9/11 IL-10 F-4U B-26 C-47 FIELDS NOT CONSIDERED CAPABLE OF SUPPORTING SUSTAINED OPERATIONS AT PRESENT. CURRENT STATUS UNDETERMINED UNKNOWN UNDER CONSTRUCTION Railroad Under construction or projected Primary roads Secondary roads Scale: 0 50 100 150 Statute miles 0 50 100 150

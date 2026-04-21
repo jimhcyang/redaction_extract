@@ -1,0 +1,167 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.495312
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.691964
+kept_candidate_count=2
+excluded_candidate_count=8
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. INITIAL EGYPTIAN REACTION TO US STATEMENT ON HIGH DAM
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 2)
+Text: 4. JAPANESE FOREIGN MINISTER REQUESTS INFORMATION ON US-PHILIPPINES BASES ARRANGEMENT (page 6). 5. NEW ARMS SHIPMENTS TO ALGERIA
+Token count: 18
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: MORATORIUM
+- original #4 segment 1: noncontent_keyword
+  Text: page 5
+- original #4 segment 3: noncontent_keyword
+  Text: page 7
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: SATELLITES
+- original #6 segment 1: noncontent_keyword
+  Text: page 8
+- original #7 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 9
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 1. INITIAL EGYPTIAN REACTION TO US STATEMENT ON HIGH DAM Comment on: Egyptian spokesmen in Cairo state that replies to the American and British withdrawal of offers on the dam will be made after the government studies reports from its ambassadors in Washington and London. The Egyptian press, which will be followed by the Arab press generally, has taken a bitter line toward the US and Britain over the withdrawal of the offer to help build the dam and asserts that the dam will be built whether the "imperialists" help or not. Radio Cairo, meanwhile, is broadcasting reports that Soviet news releases are commenting favorably on Egypt's "new and independent policy" and quoting Soviet press criticism of the American action
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.926537
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: American
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communists
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: opportunistic
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.935539
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: continuation
+- original #14 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: 4. JAPANESE FOREIGN MINISTER REQUESTS INFORMATION ON US-PHILIPPINES BASES ARRANGEMENT Comment The details of the transfer of American ownership of bases in the Philippines have yet to be negotiated. The Japanese may be expected to follow these negotiations closely and to use any agreement as a precedent in the future for opposing American ownership of bases on Okinawa
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.122206
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: 5. NEW ARMS SHIPMENTS TO ALGERIA REPORTED Ten loads of arms, possibly light antitank guns, destined for the Algerian rebels were to be shipped from Belgium to Libya by a Belgian airline beginning 12 July. Moroccan government is now supplying the Algerians with small arms being turned over to the Moroccans by the Spanish army as part of the general transfer of authority
+- original #17 segment 1: full_page_or_admin
+  Text: the northern zone. Arrangements have been made with Spain to understate in official records the number of arms turned over and that weapons "lost" in this fashion have already been channeled to the Algerian resistance. The Moroccans have also made a deal with Spain to purchase other arms--ostensibly for their own army but actually for the Algerians who have already made the money available for this transaction. Comment The direct complicity of the Moroccan government in the traffic had been suspected but not previously confirmed. This complicity, probably encouraged by Spain, may be expected to increase in the light of the avowed determination of the sultan's government to support Algerian independence "to the limit." The Algerian nationalists continue to suffer from a general shortage of weapons and munitions
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.915818
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: solution
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Germany
+- original #20 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: information to
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.927702
+kept_candidate_count=0
+excluded_candidate_count=11
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: cease-fire
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: indemnity
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #27 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reserves
+- original #28 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: follows
+- original #29 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: exercises
+- original #30 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #31 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: submarines

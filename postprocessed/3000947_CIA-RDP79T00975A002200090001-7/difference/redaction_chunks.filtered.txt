@@ -1,0 +1,89 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.958333
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. COMMENT ON INCREASED CHINESE COMMUNIST JET FIGHTER STRENGTH NORTH OF THE MATSUS
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 2. COMMENT ON INCREASED CHINESE COMMUNIST JET FIGHTER STRENGTH NORTH OF THE MATSUS The Chinese Communists recently have almost doubled the number of MIG jet fighters at their East Coast base of Luchiao, the operational field closest the Nationalist-held Matsus and Formosa. Chinese Nationalist photo-reconnaissance of 7 September revealed 78 jet fighters there as compared with 42 in August. Increased fighter strength at Luchiao appears to be another Communist move to improve defenses against Nationalist overflights. New and more modern radar equipment has been detected recently along the China coast, and Communist fighter units have been trying a variety of tactics in efforts to halt Nationalist reconnaissance flights
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.953361
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: Reports from Morocco indicate general disbelief that Paris will soon remove Ben Arafa. Former sultan Ben Youssef, however, has reportedly agreed to make an appeal for calm to the Moroccan people, over whom he has great influence
+Token count: 37
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.994975
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Athens
+
+========================================================================
+[PAGE 09]
+kind=red_only red_source_page=8 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,118 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.536364
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.923846
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #3, segment 2)
+Text: 4. JAPANESE SOCIALISTS PLAN TO SEND ATOMIC ENERGY MISSION TO MOSCOW (page 6). 5. AFGHAN-SOVIET ARMS DEAL APPEARS IMMINENT (Secret) (page 7). * * * * THE ARAB-ISRAELI SITUATION
+Token count: 25
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 3: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 4. JAPANESE SOCIALISTS PLAN TO SEND ATOMIC ENERGY MISSION TO MOSCOW Japan's Socialist Party has announced that it will send a team of nuclear experts and Diet members to Moscow in September to explore the possibility of obtaining Soviet aid for Japan's atomic energy program and co-operation for an exchange of nuclear scientists, according to Reuters. The Socialists, having obtained an invitation through the Soviet fishery mission in Tokyo, called on the ruling Liberal-Democratic Party to join the nuclear group. The government party has not replied but is reported to favor making the group nonpartisan in nature. Comment Japan is anxious to launch an atomic energy program leading to early application of nuclear power to industrial use. It is seeking an experimental nuclear reactor on the best terms obtainable and plans to send a mission to study Britain's atomic energy program in late 1956. Japanese Atomic Energy Commission chairman Matsutaro Shoriki has favored the British system because of his belief in its economic feasibility and the absence of some of the security restrictions required by the United States. Both the Japanese government and industrialists probably would give favorable consideration to a Soviet offer of aid extended on liberal terms without restrictions
+- original #4 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 July 56 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #5, segment 1)
+Text: 5. AFGHAN-SOVIET ARMS DEAL APPEARS IMMINENT
+Token count: 6
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 2: noncontent_keyword
+  Text: 28 July 56 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=0.247545
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 27 July) As a result of Egypt's nationalization of the Suez Canal Company, a conservative member of the British parliament, Sir Charles Boothby, has announced that he will urge the British government
+- original #7 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: week to "reconsider its decision not to allow Israel to purchase arms for its defense." (Press
+- original #7 segment 2: full_page_or_admin, noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: 28 July 56 Current Intelligence Bulletin
+- original #8 segment 1: full_page_or_admin, noncontent_keyword, short_span_min_tokens
+  Text: 8
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: 28 July 56 Current Intelligence Bulletin Page 9

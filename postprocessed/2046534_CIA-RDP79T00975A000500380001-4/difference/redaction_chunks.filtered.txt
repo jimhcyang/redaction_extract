@@ -1,0 +1,75 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.702500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.981868
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 3. Tanker shipments to Communist China at new high
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996310
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens
+  Text: that
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.925453
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #3, segment 1)
+Text: Tanker shipments to Communist China at new high: Four of the estimated thirteen tankers in the Soviet Far East Tanker fleet were en route from the Vladivostok area to Chinese ports in early January. The combined carrying capacity of these tankers is over 40,000 tons. Comment: Only one tanker carrying petroleum unloaded in a Chinese port in January 1951; for the entire year the total of tanker arrivals was ten — all from the Soviet Far East or the Black Sea. The apparent step-up in these sea-borne shipments follows a sizable increase in the second half of 1951 in Soviet deliveries to China
+Token count: 103
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: for
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.996304
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.997099
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.994178
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

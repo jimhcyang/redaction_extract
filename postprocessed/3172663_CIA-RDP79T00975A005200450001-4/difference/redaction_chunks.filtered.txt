@@ -1,0 +1,234 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.757143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=red_only red_source_page=3 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 22 AUGUST 1960 I. THE COMMUNIST BLOC Soviet recovery of space capsule. USSR asks Nepal to propose admission of Communist China to UN. II. ASIA-AFRICA Mali Federation--Senegalese secession may bring violence. Laos--Souvanna Phouma and General Phoumi continue to seek negotiations while Phoumi moves troops toward Vientiane. North Vietnam increases number of illicit radio stations in South Vietnam. The Congo situation
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 22 August 1960 DAILY BRIEF
+- original #2 segment 2: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC USSR: Preliminary evaluation of all source data tends to support Soviet statements of 20 August regarding recovery of the capsule contained in Sputnik V. The capsule, which was moving across the USSR from southwest to northeast, was recovered at about 0530 hours EDT, 19 August, at a point (approximately 51° 13'N-61° 47'E) about 220 nautical miles due north of the Kapustin Yar 650-nautical mile impact area. (Map) Communist China-UN: The USSR has asked Nepal to request inscription of an item on the UN General Assembly agenda for the admission of Communist China. At a reported meeting of Sino-Soviet bloc foreign ministry officials in early August, the Chinese Communists expressed hope that India would raise the issue as in the past, but it was agreed that a bloc country would do so if necessary. The Indian Government apparently does not intend to initiate action this year, although it would support the move. Katmandu also favors Communist China's admission but, like New Delhi, may be reluctant to take the lead while its border problems with the Chinese remain at issue. II. ASIA-AFRICA Mali Federation: Senegalese authorities appear to be exercising complete control in Dakar, following their proclamation of secession from the Mali Federation of Senegal and Soudan on 20 August. Trouble may break out, however, in rural areas of Senegal where there are Soudanese residents. The attitude in the Soudanese capital of Bamako is reported bitter, and a strong
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #3, segment 1)
+Text: SPUTNIK V POINT OF RECOVERY Kapustin Yar Missile Test Range
+Token count: 10
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.909797
+kept_candidate_count=3
+excluded_candidate_count=4
+
+Clean Chunk #2 (original #6, segment 1)
+Text: Senegal's action, which follows a lengthy period of tension with Soudan, was greatly influenced by the secret visit to Guinea of the Soudanese interior minister in early August, He is said to have committed Mali to join the Guinea-Ghana union, and he may also have reached agreement on a union of Soudan and Guinea in the event of a breakup in the federation
+Token count: 63
+Recut: none
+
+Clean Chunk #3 (original #8, segment 1)
+Text: There also are reports that
+Token count: 5
+Recut: none
+
+Clean Chunk #4 (original #9, segment 2)
+Text: South Vietnam: Hanoi has increased the number of its illicit radio stations in South Vietnam from six to 17 since late 1959, presumably for tighter control and coordination of clandestine activity and intelligence collection. Almost all of the new stations are located in the southern portion of South Vietnam, where Communist guerrilla activity has intensified greatly since late last year
+Token count: 60
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soudanese
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soudanese
+- original #7 segment 1: noncontent_keyword
+  Text: Page 1) (Map
+- original #9 segment 1: noncontent_keyword
+  Text: Page 3
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: Congo (Information as of 0300, 22 August 1960): The UN Security Council adjourned early on 22 August without taking formal action on Lumumba's appeals for the withdrawal of non-African troops and for UN assistance in re-establishing central authority in Katanga. The expected rejection of Lumumba's appeals--which were supported by the USSR--will probably increase the tension between the Congolese Government and the UN. Lumumba, who has continued his bitter criticism of Hammarskjold, may demand the complete withdrawal of UN forces from the Congo. Recent public statements indicate that many African leaders are increasingly concerned over Lumumba's continued criticism of the UN. With the exception of Guinea and possibly Ghana, all African states appear to be solidly behind Hammarskjold. Ghanaian President Nkrumah seems to be under conflicting pressures, with his delegation to the UN favoring cooperation with Hammarskjold and his representatives in the Congo pressing for a position supporting Lumumba
+- original #10 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 5
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.901013
+kept_candidate_count=1
+excluded_candidate_count=12
+
+Clean Chunk #5 (original #23, segment 1)
+Text: the immediate reason for secession was the recent visit of Soudanese Interior Minister Madeira Keita to Guinea. He reportedly committed the federation to join the Guinea-Ghana union; he may have reached agreement with Conakry for a union between Soudan and Guinea in the event of the federation's breakup. After learning of the visit, the Senegalese apparently decided to delay secession in the hope of reaching a last-minute compromise, but Modibo
+Token count: 70
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soudanese
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soudanese
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soudanese
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soudanese
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soudan's
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soudanese
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soudanese
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soudanese
+- original #19 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Senegal’s
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soudanese
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soudan
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soudan
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.165625
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: UNCLASSIFIED
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.935156
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soudanese
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soudanese
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.967273
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #28, segment 1)
+Text: Souvanna has harbored Prince Souphannouvong in his home
+Token count: 8
+Recut: none
+
+Excluded candidates:
+- original #27 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: complete
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.921429
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #29, segment 1)
+Text: since 11 August. This report is unconfirmed and may be tendentious. Souphannouvong, Souvanna's half-brother and the titular leader of the pro-Communist Neo Lao Hak Sat, escaped from jail in Vientiane in late June
+Token count: 33
+Recut: none
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #30 segment 1: full_page_or_admin
+  Text: The Congo (22 August) The UN Security Council adjourned early on 22 August without taking formal action on Lumumba's appeals for the withdrawal of non-African troops and for UN assistance in re-establishing central authority in Katanga. Although the Soviet delegate denounced the use of "NATO forces in the Congo" and bitterly criticized Hammarskjold, the Secretary General was supported by Italy, Argentina, Ceylon, Ecuador, and Tunisia, the only African country represented on the Security Council. The expected rejection of Lumumba's appeals will probably increase tension between the Congolese Government and the UN; Lumumba, who has continued his criticism of Hammarskjold, may demand the complete withdrawal of UN forces from the Congo. Public statements made prior to the Security Council session indicate that many African leaders are increasingly concerned over Lumumba's continued criticism of the UN. the UN is the only agency which can keep the Congo crisis from spreading. Tunisia is supporting Hammarskjold's interpretation of the UN mission in the Congo, and most African delegations reportedly are irritated at Lumumba's attacks on him. This concern may lead to considerable criticism of the Congolese Government at the forthcoming conference of independent African states, whose foreign ministers are scheduled to convene in Leopoldville on 25 August. African support for Lumumba now appears to be concentrated in Guinea, which has repeatedly criticized the UN, and among some influential leaders in Ghana. Ghanaian President Nkrumah seems to be under conflicting pressures, with his delegation to the UN favoring cooperation with Hammarskjold and his representatives in the Congo pressing for a position in support of Lumumba. Nkrumah, whose prestige in Africa makes him a key figure in the dispute, has not committed himself. He apparently hopes to assume the role of mediator, either between the UN and Lumumba or between the Congolese Government and Katanga
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=14 unred_source_page=15
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #31 segment 1: noncontent_keyword
+  Text: TOP SECRET TOP SECRET

@@ -1,0 +1,108 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.953125
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 5. JAPANESE DIPLOMATS FORESEE FULL RECOGNITION FOR COMMUNIST CHINA IN 1957 (page 7). 6. EAST PAKISTAN POLICE STRIKE
+Token count: 18
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.987972
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #2, segment 1)
+Text: and the recently reported arrival in Kabul of 235 truckloads of Czech automatic weapons, ammunition, and grenades
+Token count: 17
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.991145
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: protege
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.993464
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Cafe
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 5. JAPANESE DIPLOMATS FORESEE FULL RECOGNITION FOR COMMUNIST CHINA IN 1957 Participants at a recent conference of Japanese diplomats in Bangkok agreed that Communist China would be admitted to the United Nations by the spring of 1957 and would gain full recognition later that year. The conferees agreed that in view of this probability, the strategic value of Taiwan and the importance of keeping it from Communist China should be emphasized, and the status of the Chiang Kai-shek regime de-emphasized. The Japanese officials showed concern over the fact that the Chinese were shipping large quantities of inferior but cheap goods to Southeast Asia, and that this was posing a serious threat to a market vital to Japan. Comment Long-standing Japanese policy has envisaged the eventual recognition of Communist China and the relegation of the Chinese Nationalist government to a relatively minor role in international affairs. Tokyo, however, has tended previously to avoid involvement in the problem. At the Bandung conference last April, the Chinese Communists declared that neighboring countries could now be supplied with Chinese machinery. No machinery is known to have arrived as yet, but large quantities of consumer goods from Communist China have appeared on the market during 1955. (Concurred in by ORR
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.121964
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 6. EAST PAKISTAN POLICE STRIKE Five hundred local police who began a strike
+- original #7 segment 1: full_page_or_admin
+  Text: Dacca, capital of East Pakistan, on 21 November, have been arrested by the East Pakistan Rifles, the province's special security police unit. The army's 14th Division, which is stationed in East Pakistan, has been called out by the civil administration to take over the Rifles' normal duties while they engage in street patrol. An additional battalion of troops is moving to Dacca from another city. The general officer commanding the division feels the situation can be handled if the East Pakistan Rifles remain loyal. Comment The police strike, ostensibly for higher pay, expresses the growing demoralization of the police force and climaxes a week of popular unrest over rice and salt shortages. It may have been encouraged by several hundred political agitators, many of them Communists, who were released last month by the United Front chief minister of the province. A recent request from the army commander in chief for transfer of the East Pakistan Rifles to his control indicated that there is some doubt as to the 3,000-man unit's loyalty, but changes in its officers may have remedied this danger. The police strike follows three months of degeneration of political stability in East Pakistan and directly challenges the central government. While Karachi will probably be able to weather the crisis by a judicious mixture of strength and concessions, its freedom of action will be limited by the fact that the central government depends for its survival on the United Front Party, which is deeply entrenched in East Pakistan and will probably oppose any attempt by Karachi to take over direct control of the province
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

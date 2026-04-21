@@ -1,0 +1,97 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.834096
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 2)
+Text: FAR EAST 2. Further indication of Chinese Communist logistical build-up in Formosa area
+Token count: 13
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: LATIN AMERICA 5. Communist coup allegedly scheduled for Guatemala
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.946702
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: FAR EAST 2. Further indication of Chinese Communist logistical build-up in Formosa area: Shipments of empty oil drums down the Yangtze River to Shanghai and Nanking in recent months have revealed a significant shift from civil to military consignees
+Token count: 39
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.891422
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #4, segment 1)
+Text: There have also been indications that the national petroleum distributing company--which normally receives these empty drums--has been in extremely short supply for upriver shipments. Comment: The East China Military District includes the Fukien coast opposite the Nationalist-held offshore islands. This area has probably had a recent increased military need for petroleum products. The East China Military District could also be stockpiling drums for future use. (Concurred in by ORR
+Token count: 71
+Recut: none
+
+Clean Chunk #5 (original #5, segment 1)
+Text: While this report may have been planted by Zahedi's enemies to influence the Shah
+Token count: 14
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.958944
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #6 (original #8, segment 1)
+Text: Communist coup allegedly scheduled for Guatemala A Communist coup in Guatemala is scheduled according to Communist revolutionary circles
+Token count: 18
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens
+  Text: the
+- original #7 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: LATIN AMERICA
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.865810
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #9, segment 1)
+Text: The plot allegedly is to be carried out by "a group of teachers" aided by "a strong group" of militant Communists and pro-Communists in Mexico which includes Mexican General Calvo Ramirez. Comment: Guatemalan Communists are not believed capable of staging a successful coup at the present time, but some attempt may be made. A clandestine Communist newssheet counseled in December, however, against violence, suggesting that Communist leaders were placing their hopes for a comeback in long-term political action. The estimated 200 Guatemalan Communists and pro-Communists in Mexico are prohibited from engaging in political activity and are divided among themselves. General Calvo, a reported Communist and now head of the army's military justice section, has associated, however, with the Guatemalan exiles, as have other Mexican Communists
+Token count: 125
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.901449
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

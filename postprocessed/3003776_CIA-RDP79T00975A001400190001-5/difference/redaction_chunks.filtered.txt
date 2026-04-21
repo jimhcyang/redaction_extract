@@ -1,0 +1,67 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.650000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.967647
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Captured documents reveal Viet Minh underground in Thailand
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.838342
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 1. Captured documents reveal Viet Minh underground in Thailand: Documents seized in north-eastern Thailand definitely establish that a Viet Minh underground in Thailand is controlled from Indochina. One document instructed the Viet Minh in Thailand to increase assistance to "military units stationed nearby" through the provision of arms, recruits, and intelligence on Thai military dispositions. It contained an order to commence resistance "on hearing the sound of battle," and stated that "the battle to liberate all Vietnamese brothers will start soon." Comment: Thailand quickly declared a state of emergency in 12 northeastern provinces after the 25 December Viet Minh thrust to the Mekong River. There is no firm indication that the Viet Minh intends an early uprising among the 60,000 Vietnamese in northeast Thailand but the presence of an organized underground among them is a continuing threat to Thai security
+Token count: 141
+Recut: none
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: subversive
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: frequently
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Netherlands
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.948804
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: recognition
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: position
+- original #8 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: anyone’s
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: precipitate
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: continue
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: proportion
+- original #12 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: obtains significant

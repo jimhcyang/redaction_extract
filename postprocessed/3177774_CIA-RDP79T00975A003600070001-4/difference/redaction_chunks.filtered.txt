@@ -1,0 +1,246 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.660000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122523
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 8 MARCH 1958 I. THE COMMUNIST BLOC Khrushchev still faces opposition on agricultural reorganization. Bulganin repeats call for early foreign ministers’ conference. USSR agrees conditionally to procedural discussion of disarmament by Security Council. II. ASIA-AFRICA Djakarta continues deployments for attack on dissidents; Sukarno-Hatta talks postponed. Egypt may plan build-up of forces on Sinai and Red Sea coast. Lebanon - Chamoun's plan to seek re-election likely to precipitate serious disorder. Okinawa - Leftists will probably make significant gains
+- original #2 segment 1: full_page_or_admin
+  Text: 16 March legislative election. III. THE WEST France - Gaillard's proposal for Mediterranean pact hints some form of independent status for Algeria. French decide "in principle" to undertake early reduction of forces in Morocco. Announcement of Sandys' proposed visit to Moscow designed to meet British public demand for moves toward East-West detente. West German leaders split on policy toward possible summit agenda
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.849439
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #4, segment 2)
+Text: Disarmament--Soviet view: After discussions with Soviet delegate Sobolev, UN Secretary General Hammarskjold believes that the USSR will conditionally accept the United States proposal for a Security Council procedural meeting to discuss means by which disarmament talks can be resumed
+Token count: 40
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #6, segment 1)
+Text: Indonesian Government is continuing its efforts to get military forces ready for military
+Token count: 13
+Recut: none
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: Page 1
+- original #4 segment 1: noncontent_keyword
+  Text: Page 2
+- original #4 segment 3: noncontent_keyword
+  Text: Page 3
+- original #5 segment 1: short_span_min_tokens
+  Text: Indonesia
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.943976
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #7, segment 1)
+Text: operations against the dissidents. The Hatta-Sukarno talks have been postponed
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #7, segment 3)
+Text: Egypt: Recent Egyptian military and naval movements suggest that Cairo is taking a more active interest in its eastern defenses on the Sinai Peninsula and the Red Sea coast. A gradual build-up of Egyptian strength in these areas would be a logical prelude to an Egyptian demand for the withdrawal of the UNEF forces which now patrol the Egyptian-Israeli border and are stationed at Sharm El Sheikh at the entrance to the Gulf of Aqaba
+Token count: 75
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #7 segment 2: noncontent_keyword
+  Text: Page 4) (Map
+- original #7 segment 4: noncontent_keyword
+  Text: Page 5) (Map
+- original #8 segment 1: noncontent_keyword
+  Text: Page 7
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.956383
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #5 (original #11, segment 1)
+Text: West Germany: Sharp differences between Adenauer and his own party leaders over foreign policy are the real reason for postponing the major foreign policy debate scheduled for 12 March. Some elements within the Christian Democratic Union are seriously questioning the government's approach to unification, and one top party leader is supporting the inclusion of a German peace treaty, distinct from the unification issue, as a summit conference item--a position which the government has always rejected
+Token count: 76
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: Page 8
+- original #10 segment 1: noncontent_keyword
+  Text: Page 9
+- original #11 segment 2: noncontent_keyword
+  Text: Page 11
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.999231
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens
+  Text: that
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: USSR Agrees to Security Council Procedural Session on Disarmament the USSR is agreeable to the US proposal for a Security Council procedural meeting to discuss means by which disarmament talks can be resumed, provided the council would not become the "future custodian of disarmament matters." the prospects for a summit meeting might be torpedoed by the argument that the USSR had agreed to put and keep disarmament negotiations on the Security Council agenda. the Soviet Union continues to object to a meeting of the Disarmament Commission. This is a reversal of Moscow's position on possible further UN talks on the disarmament issue. As late as 31 January, Sobolev told the Burmese delegation that "no useful purpose" would result from further discussions of the subject in the UN. The Soviet leaders have probably agreed to a Security Council meeting in order to avoid possible charges of inflexibility
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #14, segment 1)
+Text: INDONESIA Dissident areas 8 MARCH 1958 NETHERLANDS NEW GUINEA (Status in Dispute
+Token count: 12
+Recut: none
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.243899
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Indonesia: The Indonesian Government is continuing preparations to deploy troops for an attack on Central Sumatra. Two battalions on Java have been alerted for probable assignment to the "combined operations command task force." A third battalion is scheduled for Sumatra, although apparently to replace a unit now
+- original #16 segment 1: full_page_or_admin
+  Text: Medan. The Indonesian destroyer Gadja Mada, carrying troops, is said to have sailed from Djakarta for an undisclosed destination on 5 March, and other ships are reported to have loaded tanks and supplies there. an attacking force of three battalions plus a composite battalion of special troops is now in the Riau Islands. military action of some type will occur even if a Sukarno-Hatta agreement is reached. The next meeting between Sukarno and Hatta, originally scheduled for 6 March, has again been postponed indefinitely. The air force chief of staff, meanwhile, issued orders on 7 March requisitioning commercial aircraft and drafting civilian aviation technicians into the air force. The orders said this action was taken in the interest of internal defense and for conducting "military work." Foreign Minister Subandrio has told the American Embassy that Prime Minister Djuanda will advise on 8 March whether Americans should be evacuated from Pakanbaru. This suggests that the timing of Djakarta's operational plans may not yet be firm, or that Djakarta is trying to create a misleading impression. Sukarno will make a one-day trip to Makassar in South Celebes on 12 March. The trip could be related to the central government's plans to mount an invasion of dissident North Celebes. This operation, however, apparently is running into some difficulty, owing to the refusal on 1 March of the Central Java commander to supply troops
+- original #16 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #17, segment 1)
+Text: SINAI PENINSULA 8 MARCH 1958
+Token count: 5
+Recut: none
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: Egyptians Step up Military Activity in Sinai and Red Sea Area Egyptian military and naval movements in recent weeks have placed renewed emphasis on the deployment of forces in the Sinai Peninsula and the Red Sea area. Egyptian army strength in Sinai was increased from 6,100 to about 10,000 late in February, deployed there later. Forces of the Frontier Corps and the Palestine Army probably number another 2,300. Prior to the 1956 hostilities, Egyptian army strength in Sinai was 35,000. continuing development of the new military base at Ghardaqa, at the entrance to the Gulf of Suez and within operating distance of the entrance to the Gulf of Aqaba, During February, Egypt increased the number of motor torpedo boat squadrons south of the Suez Canal from two to four--a total of 12 to 15 boats. One of these squadrons has been sent to Ghardaqa. Two national guard battalions and a light antiaircraft battery have been detailed to guard the base, and some "secret work" is being undertaken there. A former British military airfield near Ghardaqa is now used by the Egyptian Air Force, although no operational air unit is known to be based there. While Cairo's interests at this time would appear to be best served by continuing to accept the protective UNEF screen along the Egyptian-Israeli border and at the entrance to the Gulf of Aqaba, a gradual Egyptian build-up in these areas would logically precede any demand for withdrawal of UNEF
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=9 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=10 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=11 unred_source_page=16
+alignment_score=0.994286
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: membership by
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=12 unred_source_page=17
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=13 unred_source_page=18
+alignment_score=0.997867
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #8 (original #20, segment 1)
+Text: the British Government's
+Token count: 3
+Recut: none
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=14 unred_source_page=19
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: Confusion Over Foreign Policy Continues in Bonn The postponement of West Germany's major foreign policy debate scheduled for 12 March reflects sharp differences between Chancellor Adenauer and Christian Democratic Union (CDU) Bundestag leaders. A group of CDU deputies has created confusion and uncertainty by beginning to question whether the government's continued adherence to the "policy of strength" can ever lead to unification. Bundestag President Gerstenmaier is proposing--in direct opposition to official policy--that a summit conference discuss a German peace treaty as an item not necessarily linked to unification. Gerstenmaier also supported the "Strauss plan" for an extended nuclear-free zone, despite an official renunciation of the plan. The conflicting views already expressed by Gerstenmaier, Strauss, and press chief Eckardt have seriously embarrassed the government, and Adenauer is reported to be "furious" with Gerstenmaier for postponing the Bundestag debate without consulting him. While much of the controversy is concerned with tactics, these differences of opinion concerning unification policies could lead to a serious split in the Adenauer administration
+- original #21 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 11

@@ -1,0 +1,83 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.694000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.947826
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: Possible Soviet atomic tests in the near future (page
+Token count: 9
+Recut: none
+
+Clean Chunk #2 (original #3, segment 1)
+Text: FAR EAST 2. Five additional Chinese Communist air divisions reported (page 3). 3. Viet Minh cites French "promise" to negotiate
+Token count: 20
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SOVIET UNION
+- original #3 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: SOVIET UNION 1. Possible Soviet atomic tests in the near future: Moscow, states, "Three observations are tentatively scheduled for the period from the middle of May to the middle of July." Comment: Since seismic stations usually operate continuously, the mention of three observations is taken to imply that three separate predictable events are expected in the period from mid-May to mid-July. Fairly good confirmation of the use of Soviet seismic stations to record phenomena associated with atomic explosions occurred prior to the atomic explosion of September 1951, the installation of improved instruments should be completed by August 1951 -- a few weeks before the explosion occurred. FAR EAST 2. Five additional Chinese Communist air divisions reported: five previously unknown Chinese Communist air divisions are located in China proper. Four of them were first noted in November 1951, and the fifth in February
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.245421
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: The operational status, type and strength of aircraft, and numerical designations of these divisions are unknown. Comment: increases to 25 the number of known Chinese Communist air divisions. Only ten, with an estimated strength of 500 planes, are
+- original #6 segment 1: full_page_or_admin
+  Text: Manchuria, where 350 to 400 Soviet and Korean jets and conventional fighters are also based. The number of combat planes in the Chinese Communist Air Force increased from an estimated 1,000 in June 1951 to the present estimate of 1,800 planes. 3. Viet Minh cites French "promise" to negotiate: Comment: there have been persistent rumors of a French intention to arrive at a negotiated peace with the Viet Minh. These rumors have continued despite French denials
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.750484
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.909603
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #7, segment 1)
+Text: arms, including over 500 machine guns, from that country to Panama. The Panamanian Minister of Government says that the shipments are destined for Venezuela. Meanwhile, Ambassador Wiley reports that US Army intelligence in Panama has information that the Caribbean Legion is moving arms to the west coast of Costa Rica. Comment: The arms may be coming from the plantation of Jose Figueres, ex-President of Costa Rica whose name has long been linked with activities of the Caribbean Legion, a heterogeneous group of political exiles whose aim is the overthrow of dictatorships
+Token count: 91
+Recut: none

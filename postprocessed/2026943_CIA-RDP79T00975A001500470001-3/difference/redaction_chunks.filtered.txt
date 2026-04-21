@@ -1,0 +1,98 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.676190
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.948630
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. Visas requested for additional Viet Minh delegates to Geneva
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: EASTERN EUROPE 5. French ambassador believes Yugoslavia moving closer to West
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.979612
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 2. Visas requested for additional Viet Minh delegates to Geneva
+Token count: 10
+Recut: none
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.963338
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: Comment: Five Viet Minh representatives arrived in Geneva on 4 May and in their first press release referred to "the national rights" of the people of Laos and Cambodia as well as Vietnam. The requests for a total of 34 visas suggest that the Communists may have at hand delegations to represent the Viet Minh-sponsored regimes of Laos and Cambodia
+Token count: 60
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.991379
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #7, segment 1)
+Text: French ambassador believes Yugoslavia moving closer to West
+Token count: 8
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: EASTERN EUROPE
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.928349
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #8, segment 1)
+Text: Comment: Yugoslavs are considering closer relations with the West. With Western economic aid scheduled to end in another year, the Yugoslavs probably realize that their ability to obtain future aid and favorable trade relations will be lessened if they continue to emphasize their "independent" position under present world conditions. In addition to economic preoccupations, the Yugoslavs may desire to play a more important role in future European planning
+Token count: 68
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: partition
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.983654
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,85 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.628125
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.908010
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: GENERAL 1. Soviet Union advocates Pole as Secretary General of UN
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: SOVIET UNION 2. Radar coverage on Sakhalin Island possibly improved (page 3). FAR EAST 3. IL-28's probably flying to Peiping
+Token count: 20
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 4
+- original #1 segment 5: noncontent_keyword
+  Text: SOUTHEAST ASIA 4
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.244293
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin, noncontent_keyword, short_span_min_tokens
+  Text: GENERAL
+- original #4 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: Soviet Union advocates Pole as Secretary General of UN: The Soviet Government has decided to present the candidacy of Stanislaw Skrzeszewski, Minister of Foreign Affairs and head of the Polish Delegation to the General Assembly, for the position of the Secretary General of the United Nations. Comment: This statement underlines the likelihood of an East-West stalemate over a successor to Trygve Lie
+- original #5 segment 1: full_page_or_admin
+  Text: a conversation with the American delegation two years ago, Gromyko indicated a willingness to consider qualified people from any area, but early last month he said that "the situation was different." Skrzeszewski was a high official in the Lublin Committee. SOVIET UNION 2. Radar coverage on Sakhalin Island possibly improved: a possible CPS-6 type radar at Shaktersk airfield on the west coast of Sakhalin Island. Comment: A possible CPS-6 type radar was previously identified in the vicinity of Korsakov in the southernmost part of Sakhalin. These two installations would give the USSR improved GCI and early-warning coverage over most of Sakhalin, the northern tip of Hokkaido and a portion of the Maritime Military District on the mainland. This installation would bring to six the total of possible CPS-6 type radar sites in the Soviet Far East; the other four are in Southern Maritime area
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #6, segment 1)
+Text: FAR EAST 3. IL-28's probably flying to Peiping: Comment: The ferrying of these jet bombers to Peiping supports previous indications of their planned transfer to the Chinese Communist Air Force and would be the first appearance of IL-28's in China proper. SOUTHEAST ASIA 4
+Token count: 44
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.990761
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.996975
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.986719
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

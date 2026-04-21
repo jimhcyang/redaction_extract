@@ -1,0 +1,111 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.747500
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: TOP SECRET SECURITY INFORMATION
+- original #2 segment 1: noncontent_keyword
+  Text: Copy No. 51
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.955495
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #3, segment 1)
+Text: SOVIET UNION 1
+Token count: 3
+Recut: none
+
+Clean Chunk #2 (original #4, segment 1)
+Text: SOUTHEAST ASIA 3. Thai premier may try to oust Phao
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #5, segment 2)
+Text: 7. French Communist Party seen weakened
+Token count: 6
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 2: noncontent_keyword
+  Text: page 4
+- original #4 segment 3: noncontent_keyword
+  Text: NEAR EAST - AFRICA 4
+- original #5 segment 1: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.990816
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: SOVIET UNION 1
+Token count: 3
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: SOUTHEAST ASIA 3. Thai premier may try to oust Phao: Police Director General Phao is maintaining contact with pro-Communist elements. Phibun may attempt to oust Phao unless the police director submits to his control. Comment: control of a large paramilitary police force renders his removal difficult. Nevertheless, it is becoming increasingly apparent that the Thai Government is seriously attempting to check Communist activity. NEAR EAST - AFRICA 4
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.935088
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #8, segment 1)
+Text: 7. French Communist Party seen weakened: The French Communist Party may need two years to recover from the repercussions of the Marty-Tillon affair. French popular reaction to the Czech trials is also injuring the Communist cause. At the Moscow Congress, French Communists were instructed to encourage neutralism and to emphasize the economic rather than the political activities of the General Labor Confederation (CGT) in order to obtain united action with all French labor unions
+Token count: 74
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.962887
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #9, segment 1)
+Text: Comment: The prestige of the party's national leadership and its present capabilities for blocking Western rearmament have been severely damaged. Concentration by the CGT on the workers' economic aims, however, could speed up a revival of those capabilities in the event Premier Pinay's anti-inflation and anti-Communist programs fail
+Token count: 48
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.990654
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: elections

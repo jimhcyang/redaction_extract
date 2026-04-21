@@ -1,0 +1,124 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.941304
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. REPORTS OF FURTHER SOVIET ACTIVITY IN SYRIA
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 5. OUSTER OF ARGENTINE PRESIDENT REPORTED IMMINENT
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 3: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 2. REPORTS OF FURTHER SOVIET ACTIVITY IN SYRIA Comment on: Recent reports indicate that Soviet activities within Syria are accelerating in both the military and propaganda fields. the Soviet technical specialists being sent to instruct at Syrian army schools will include two specialists for the weapons scheduled to reach Latakia on 3 October. the recent shipment of 50,000 submachine guns and 2,000 light machine guns are for equipping the Syrian army, rather than the popular resistance forces. The resistance groups may be equipped with the older arms of the Syrian army. Another report states that a representative of the Soviet press and propaganda office recently arrived in Damascus to arrange for the printing of Communist propaganda in Arabic for distribution throughout the Arab world. Under present circumstances Damascus may be a better focal point for Communist propaganda than Cairo, where Nasir has recently stepped up anti-Communist activities
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.991187
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: SOVIET-SYRIAN
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.997692
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens
+  Text: Reference
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 5. OUSTER OF ARGENTINE PRESIDENT REPORTED IMMINENT Comment on: Important civilian and military backers of the provisional government are believed extremely apprehensive over Aramburu's promise of free elections in February, fearing control would go to demagogic nationalists angling for Peronista and Communist support. It seems unlikely, however, that any palace coup will be attempted as early as this week end unless there are indications that Aramburu is unable to control the Peronista-backed general strike that began on 27 September. The strike is apparently part of a Peronista campaign to regain control of Argentine labor, but its effectiveness cannot yet be assessed. On 24 September, Aramburu termed the strike plan irresponsible and unpatriotic and announced that the government would not even discuss the demands put forward by the strike leaders
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=red_only red_source_page=10 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

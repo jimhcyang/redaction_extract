@@ -1,0 +1,165 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.681250
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.929286
+kept_candidate_count=1
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 3. CHINA AND EAST EUROPEAN SATELLITES PUT ECONOMIC PRESSURE ON JAPAN
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #2 segment 3: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+- original #5 segment 1: noncontent_keyword
+  Text: page 9
+- original #6 segment 1: noncontent_keyword
+  Text: page 10) 10 June 56 Current Intelligence Bulletin Page 2
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.773409
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 56
+- original #7 segment 2: noncontent_keyword
+  Text: Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.995276
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: 10 June 56 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.989444
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #10, segment 1)
+Text: Concurred in by ORR
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: proteg
+- original #10 segment 2: noncontent_keyword
+  Text: 10 June 56 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: 3. CHINA AND EAST EUROPEAN SATELLITES PUT ECONOMIC PRESSURE ON JAPAN the European Satellites are co-operating with Communist China to exercise economic pressure on the Japanese. Japan is currently running an unfavorable balance of trade with China exceeding $50,000,000. East European Satellites have agreed not to pay for imports from Japan with foreign exchange which Japan could use to reduce its debt to China. By this strategy and the refusal to accept additional commodities which Japan has offered to China, Peiping is attempting to prevent Japan from paying its debt. Peiping probably hopes to use Japan's increasing indebtedness to force it to establish official economic relations with Communist China, a first step toward diplomatic recognition. (Prepared jointly with ORR
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 June 56 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.994340
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: 10 June 56 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.994643
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: noncontent_keyword
+  Text: 10 June 56 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.943068
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #15, segment 1)
+Text: General Valle was reported in mid-May planning a rebellion--possibly in two stages and including high army officers on active duty--which had objectives similar to those cited in the rebel manifesto. The manifesto called for immediate release of all political and trade union prisoners, returning control of the trade unions to the workers, measures to fight "the enormous price increases," and general elections within 180 days with no political party excluded
+Token count: 72
+Recut: none
+
+Excluded candidates:
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communiqu
+- original #16 segment 1: noncontent_keyword
+  Text: 10 June 56 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.983217
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attach
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attach
+- original #19 segment 1: noncontent_keyword
+  Text: 10 June 56 Current Intelligence Bulletin Page 10
+
+========================================================================
+[PAGE 12]
+kind=red_only red_source_page=11 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

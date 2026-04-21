@@ -1,0 +1,72 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.858333
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.933898
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Communists halt movement of goods into Korea
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 3. Merchant shipping to Communist China reaches high point in February
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword
+  Text: SOUTHEAST ASIA 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.942675
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 1. Communists halt movement of goods into Korea: Comment: It is possible that the above action may have been taken in anticipation of an early cease-fire. In the past, stoppages have been occasioned by either the lack of storage facilities or damaged rail lines in North Korea, but these factors are not known to be responsible in the present case
+Token count: 60
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 3. Merchant shipping to Communist China reaches high point in February: During the month of February, 45 merchant ships totaling 297,000 gross tons arrived in Communist China from overseas. This is the largest number of such arrivals observed during any one month since the May 1951 embargo on shipment of strategic goods to China. About half of these vessels were of non-Communist registry, mainly British and Greek. The Communist ships were Russian and Polish. Comment: The tonnage arriving in Communist China from overseas during February was more than twice the monthly average in 1952. There has been no corresponding increase in shipping arriving at Chinese Communist ports from Hong Kong. The shipping figures reflect Peiping's progress in decreasing its dependence on Hong Kong middlemen by establishing direct contact with European sources of supply. SOUTHEAST ASIA 4
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

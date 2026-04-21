@@ -1,0 +1,104 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830455
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.951705
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #3, segment 1)
+Text: Soviet official suggests armistice solution lies in New York
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 2. Enemy twin-jet bombers arrive in Manchuria
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: GENERAL
+- original #3 segment 2: noncontent_keyword
+  Text: page 3
+- original #4 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: GENERAL 1. Soviet official suggests armistice solution lies in New York: Comment: The USSR has launched a campaign to undermine the United States stand on the Korean question and create dissension among UN members. FAR EAST 2. Enemy twin-jet bombers arrive in Manchuria: Eight Soviet IL-28 jet bombers flew from Chita in Soviet Russia to Tsitsihar in Manchuria
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.565021
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #6, segment 1)
+Text: Comment: These twin-engine light bombers may be destined ultimately for Port Arthur to replace the TU-2 bomber division which left there in early October. Since they represent the only known jet bombers in Manchuria, their presence in Mukden, even on a temporary basis, would increase the capability of Communist air power against UN targets in Korea
+Token count: 56
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.104033
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: palace officials
+- original #8 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: Baghdad have resolved
+- original #9 segment 1: full_page_or_admin, short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: bring
+- original #10 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: deteriorating political situation
+- original #11 segment 1: full_page_or_admin
+  Text: attention of the Regent. Comment: Parliament was dissolved on 27 October. Iraq, now governed by a caretaker government, awaits the decision of the Regent on the date of the elections, which will be held shortly, on whether there are to be reforms, and on the make-up of the caretaker cabinet which will conduct the elections. The political parties threatening a boycott are extremists and their demands for electoral reforms have had the backing of the Communists. These reports indicate that the political pressures which have been causing upheavals in Syria, Jordan, Egypt and Lebanon may also be powerful in Iraq
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.819284
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: régime's
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.948430
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #13, segment 1)
+Text: and consequently is experiencing difficulty in controlling the nationalist members of his cabinet, who he says are inclined to favor Russia. Nagib cited his failure to obtain jet aircraft and the release of 5,000,000 pounds from Great Britain as handicaps that make it difficult for him to convince extremists in the cabinet that a pro-Western policy is worthwhile
+Token count: 60
+Recut: none

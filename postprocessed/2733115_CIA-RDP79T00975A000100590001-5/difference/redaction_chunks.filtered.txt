@@ -1,0 +1,82 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.653704
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.908453
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: GENERAL 1. Rau recommends new Indian approach to Peiping
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 6. Communist plans for sabotage of Italian rearmament
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: FAR EAST
+- original #2 segment 1: noncontent_keyword
+  Text: EASTERN EUROPE
+- original #3 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: GENERAL 1. Rau recommends new Indian approach to Peiping: Sir Benegal Rau, chief of the Indian delegation to the UN, has recommended to his government that it instruct Indian Ambassador Panikkar in Peiping to approach the Chinese Communist foreign office, referring to recent events as serving to remove any Peiping suspicions and urging Peiping to respond to the Entezam communication. Comment: A note from UN General Assembly chairman Entezam to the Peiping regime, inviting Communist China to negotiate with the UN Good Offices Commission, was dispatched on 15 February. There has been no reply to, or acknowledgment of, the note. The Indian delegate apparently regards the removal of General MacArthur as providing Peiping with a face-saving device and therefore as warranting another peace effort. FAR EAST
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.994019
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: EASTERN EUROPE
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.991016
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: countercharges
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.867890
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #7, segment 1)
+Text: Communist plans for sabotage of Italian rearmament: The Italian Communist Party reportedly has a three-stage plan for the sabotage of Italian rearmament: (1) large-scale strikes in war production plants, ostensibly for economic motives in order to woo public sympathy; (2) in the event that strikes fail, acts of sabotage scheduled for April 1951 in selected factories, particularly in the automotive field and on the railroads, to be carried out by specialists selected and detached from the Communist para-military forces; and (3) mobilization of the entire para-military organization for sabotage and guerrilla action in the event of a deterioration of the international situation to the point where a state of emergency is declared and the government calls out large numbers of reserves. Communist leaders are reportedly not optimistic over the success of the strikes but believe that the working masses are ready for revolutionary action to obtain satisfaction of their demands. Comment: Since the government is capable at this time of handling any internal insurrectionary activity, sabotage alone appears to offer the Communists some chance of success, particularly in the transportation field, where the Italian Communist Party controls the great majority of workers
+Token count: 192
+Recut: none

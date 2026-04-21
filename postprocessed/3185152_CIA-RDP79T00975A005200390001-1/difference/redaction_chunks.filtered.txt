@@ -1,0 +1,215 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.757143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.244190
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin, short_span_min_tokens
+  Text: The
+- original #1 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Daily Brief
+- original #1 segment 3: full_page_or_admin
+  Text: of the
+- original #1 segment 4: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+- original #1 segment 5: full_page_or_admin
+  Text: is produced by the Director of Central Intelligence
+- original #2 segment 1: full_page_or_admin
+  Text: consultation with representatives of departments and agencies of the United States Intelligence Board. Back-up material is produced by CIA with as much consultation with other departments and agencies as is practicable. When, because of the time factor, consultation with the department or agency of primary concern is not practicable, the brief will be produced by CIA and marked with an asterisk. Intelligence in this publication is based on all sources, including Interpretations of intelligence information in this publication rep- resent immediate and preliminary views which are subject to modi- fication in the light of further information and more complete analysis. Certain intelligence items in this publication may be designated specifically for no further dissemination. Other intelligence items may be disseminated further, but only on a need-to-know basis. WARNING This
+- original #3 segment 1: full_page_or_admin
+  Text: contains classified information affecting the national security of the United States within the meaning of the espionage laws, US Code Title 18, Sections 793, 794, and 798. The law prohibits its transmission or the revelation of its contents in any manner to an unauthorized persons, as well as its use in any manner prejudicial to the safety or interest of the United States or for the benefit of any foreign government to the detriment of the United States
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 15 AUGUST 1960 I. THE COMMUNIST BLOC USSR fires second unusual missile from Kapustin Yar rangehead. II. ASIA-AFRICA Congo--Entry of UN forces leaves polit- ical status of Katanga unresolved. III. THE WEST Belgium--Political pressure continues for drastic cut in defense budget. British find Adenauer favors concentrat- ed effort to close breach between Com- mon Market and Outer Seven. LATE ITEM The situation in Laos
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 15 August 1960 DAILY BRIEF
+- original #5 segment 2: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC *USSR: At 1230 EDT on 13 August the USSR fired a bal- listic missile about 2,000 nautical miles from the Kapustin Yar Missile Test Range. It impacted in an area midway be- tween Krasnoyarsk and the northern tip of Lake Baykal. Sim- ilar range and launching azimuth were used on 3 August. This second launching confirms Soviet intent to use a launch- ing azimuth considerably north of the normal one and an im- pact area outside the limits of the Kapustin Yar Missile Test Range. II. ASIA-AFRICA Congo: The entry of UN forces into Elisabethville, and the beginnings of a Belgian troop withdrawal from Katanga, have not brought any resolution of the political status of the disputed province. Katanga Premier Tshombé has stepped up the train- ing of his own security force, and would probably take any ac- tion necessary to prevent the entry of representatives of the Lumumba government. Congo Premier Lumumba, in demanding withdrawal of "white" contingents of the UN force, may hope that an all-African force would be responsive to his demands and would take action against Tshombé. In Leopoldville, President Kasavubu's 14 August appeal for national unity stopped short of endorsing Lumumba's policies, and appears unlikely to halt anti- Lumumba plotting among elements of the Abako party
+- original #5 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=3 unred_source_page=5
+alignment_score=0.896198
+kept_candidate_count=1
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #10, segment 3)
+Text: Adenauer-Macmillan Talks: The chancellor has accepted the indefinite postponement of further steps toward the supra- national integration of Europe in favor of a concentrated effort to close the breach between the European Common Market and the British-led Outer Seven. Such a major shift in Adenauer's foreign policies would be motivated by concern that the Common Market's farm policies would cause Adenauer serious difficulties in the 1961 elections, by a desire to present a united European front against any future Soviet pressures, and possibly by fear that De Gaulle's concept of European cooperation would tend to place West Germany in a secondary role
+Token count: 102
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Bel- gian
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: an- nouncement
+- original #8 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: com- mitments
+- original #9 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: or- dered
+- original #10 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Ruanda- Urundi
+- original #10 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 3
+- original #10 segment 4: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.938359
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #13, segment 1)
+Text: Lao Defense Minister General Phoumi, chief advocate of forceful action against the rebel units in Vientiane, has refused to accept the king's decision on the Somsanith government. He apparently intends to go forward with his plans for military counteraction, but it is problematical that a unilateral move in defiance of the king's wishes could succeed
+Token count: 55
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Som- sanith
+- original #12 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Som- sanith
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: rapprochement
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.121949
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: The Situation
+- original #16 segment 1: full_page_or_admin
+  Text: the Congo The entry of UN forces into Elisabethville and the begin- nings of a Belgian troop withdrawal from Katanga have not brought any resolution of the political status of the disputed province. Katanga Premier Tshombé has stepped up the training of his own security force, which possibly will be led by former Belgian officers of the Force Publique. its European commander left Elisabethville for Brussels on 8 August "to ac- celerate recruitment." the number of volunteers for the Katanga force was taxing available facilities. Although spokesmen for Tshombé have characterized his talks with Hammarskjold as "cordial," it appears likely that there are considerable areas of disagreement. Hammarskjold almost certainly failed to recognize the "independence" of Ka- tanga, and probably indicated that he could not permit Tshombé to establish the number and nationalities of the UN soldiers to be moved into Katanga. Congo Premier Lumumba's 13 August demand for the with- drawal of white contingents of the UN force appears likely to meet an equally negative response from the Secretary General. Lumumba possibly hoped that an all-African force would be sus- ceptible to pressure for the forcible unification of the Congo if sufficiently pressed by himself and his Ghanaian and Guinean al- lies. The anti-white sentiment implicit in Lumumba's demand, however, will increase the apprehension of Europeans in both the Congo and Katanga. On 14 August, Congo President Kasavubu broke a long silence with a radio speech in which he urged Congolese to support the cen- tral government. He stopped short of endorsing Lumumba's pol- icies, however, and his plea appears unlikely to halt anti-Lumumba plotting among elements of the Abako party. Spokesmen for Lu- mumba have hinted at the imposition of press censorship, and
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #17, segment 1)
+Text: Lumumba has alluded to "special tribunals" which would be set up to judge any persons who "provoke trouble" by their attitudes or writings
+Token count: 23
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=0.952666
+kept_candidate_count=0
+excluded_candidate_count=8
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: polit- ical
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: infighting
+- original #20 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: lev- els
+- original #21 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ini- tiate
+- original #22 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: rearma- ment
+- original #23 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: de- fense
+- original #24 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: gov- ernment
+- original #25 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: reduc- ing
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: full_page_or_admin
+  Text: Adenauer-Macmillan Major Shift in Policy on European Integration In his recent discussions with Prime Minister Macmillan, Chancellor Adenauer apparently indicated that he has decided to postpone indefinitely further steps toward the supranational in- tegration of Europe in favor of an accommodation between the European Common Market and the British-led European Free Trade Association or Outer Seven. This subject was the major problem discussed by Adenauer during Macmillan's visit to Bonn on 10-11 August, and while no decisions were made, this major shift in Adenauer's postwar policies was "confirmed." In deciding to delay indefinitely his ideal of an integrated Europe, Adenauer probably was motivated by both domestic and foreign policy considerations. The decision earlier this year to accelerate the institution of the Common Market's agricultural policy has confronted the West German farmer with a prospective reduction in prices, and Adenauer fears he may in consequence lose votes in the 1961 Bundestag elections. Adenauer evidently also sees an urgent need for European unity on basic policy and pos- ture toward the USSR, and he stressed again in his talks with Mac- millan his concern that Washington may not be able to act firmly during the American elections. A bid by Adenauer for Six-Seven unity may cause trouble be- tween Bonn and Paris. It is doubtful that De Gaulle would welcome London in the European confederation he has hoped to develop under French leadership. Even though Adenauer's shift toward a looser form of European integration would be in line with De Gaulle's views, British Foreign Office sources have the impression that Adenauer is "piqued" with the French leader, and he may fear that in a "Gaul- list" Europe Bonn would be reduced to a satellite. The Bonn Foreign Ministry is extremely uneasy that in the course of talks with De Gaulle on 29 and 30 July Adenauer may have undercut the Common Market's institutions. Similar expressions of concern have been heard from other Common Market countries
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.927759
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #28, segment 1)
+Text: Subsequent negotiations in Luang Prabang between the government and a rebel delegation, however, resulted in "complete understanding
+Token count: 17
+Recut: none
+
+Clean Chunk #5 (original #30, segment 1)
+Text: When informed of the king's decision to accept the resignation of the Somsanith government, Phoumi is reliably reported to have expressed surprise. He said that he refused to accept the decision and indicated that he intends to go ahead with his plans to salvage the situation by military means from his command post at Savannakhet in southern Laos. It is doubtful, however, if a uni- lateral move against the king's wishes could succeed
+Token count: 73
+Recut: none
+
+Excluded candidates:
+- original #27 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pre- vious
+- original #29 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: in- creasingly
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.866667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

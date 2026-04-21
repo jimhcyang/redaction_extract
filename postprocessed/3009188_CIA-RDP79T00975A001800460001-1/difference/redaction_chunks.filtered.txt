@@ -1,0 +1,93 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.977895
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 2)
+Text: SOVIET UNION 2. Soviet fighters fail to attack aircraft approaching Sakhalin
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens
+  Text: A
+- original #2 segment 1: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.990984
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: SOVIET UNION 2. Soviet fighters fail to attack aircraft approaching Sakhalin
+Token count: 11
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.938028
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: Comment: The restrained attitude displayed by Soviet ground controllers and pilots in these two incidents contrasts markedly with previous incidents in which Soviet fighters attacked Western planes. Soviet attacks on Western aircraft usually have occurred when Soviet radar has indicated that the intruder had violated Soviet-claimed territorial limits. The failure by Soviet air defense authorities to order attacks in recent cases raises the possibility that for policy reasons Moscow has ordered Soviet air defense authorities to exercise restraint at this time in reacting to overflights of Soviet boundaries
+Token count: 88
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.949623
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: Two railroad engineer units have reportedly just moved from northern areas of China into Kueichi and Shaowu in southeast China (see map, p. 6). These are on the route of a once-planned railroad connecting Kueichi on the Chekiang--Kiangsi railroad with the port of Foochow opposite the Nationalist-held Matsus. Three other railroad engineer units have been identified at Kueihsien, Yulin, and Fort Bayard in South China. They may be building a 200-mile line from Kwangsi to the coast which has also been in the planning stage for many years
+Token count: 89
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.945122
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: International boundary International boundary in dispute or indefinite Province boundary Southeast China STATUTE MILES KILOMETERS
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.988838
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens
+  Text: for
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

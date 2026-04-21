@@ -1,0 +1,83 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.700000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.124917
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 5 JANUARY 1960 I. THE COMMUNIST BLOC Deployment of Sibir-class ships
+Token count: 11
+Recut: none
+
+Clean Chunk #2 (original #3, segment 1)
+Text: North Pacific suggests early Tyura Tam launch involving these vessels. II. ASIA-AFRICA New protocol to Sino-Ceylonese rice-rubber agreement meets Colombo's terms on quantities despite Peiping's attempts to contract for larger amounts
+Token count: 31
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.914208
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #4, segment 1)
+Text: I. THE COMMUNIST BLOC USSR: Three of the four Soviet Sibir-class missile range instrumentation ships which left Petropavlovsk, Kamchatka, in late December now are in the North Pacific about 380 miles west-northwest of Midway Island. The fourth ship was last sighted on 2 January approximately 560 n. m. northwest of Midway. October, when these ships were deployed to a position about 600 n. m. northeast of their present position and 4,700 n. m. from the Tyura Tam rangehead, two vehicles launched from Tyura Tam impacted near them. It is almost certain that the USSR is planning to launch a test vehicle from Tyura Tam in the near future in an operation involving these ships
+Token count: 115
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: rice -rubber
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: top
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: setbacks
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #8, segment 1)
+Text: 22 OCTOBER ACTIVITY Reported location of three Sibir-class vessels Reported fourth vessel's location 25 OCTOBER ACTIVITY Reported location of three Sibir-class vessels Reported fourth vessel's location TYURA TAM LAUNCHING AREA 1 VESSEL JANUARY 1960 3 VESSELS Midway Is
+Token count: 38
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.996852
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,140 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.729545
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.877232
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 3. FIRST SUBMARINES REPORTEDLY LAUNCHED AT SHANGHAI (page 5). 4. SYRIAN DEFENSE MINISTER SEEKS INVITATION TO CAIRO
+Token count: 17
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: STALEMATE
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: 24 July 56 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.952400
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: ambassador
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: developments in relations
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: possible
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Molotov's
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 3. FIRST SUBMARINES REPORTEDLY LAUNCHED AT SHANGHAI Comment. Facilities at Kiangnan were expanded between October 1952 and April 1955, and a large number of Soviet experts in "W-class" construction have been identified in the Shanghai area since early 1955. The "W-class" long-range submarine, with a maximum patrol radius of about 4,700 miles, would add considerably to Chinese Communist offensive capabilities
+- original #10 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 24 July 56 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.123077
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: 4. SYRIAN DEFENSE MINISTER SEEKS INVITATION TO CAIRO Comment. The antileftist army group
+- original #12 segment 1: full_page_or_admin
+  Text: Syria presumably is worried about the possibility that Egypt might support a countercoup by leftist elements. The antileftist group was not satisfied with the results of the visit to Cairo last week of General Nizam al-Din, new Syrian chief of staff. Raslan will probably try to convince Cairo that no change in Syrian-Egyptian military relations will occur as a result of the ouster of former chief of staff Shuqayr
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 24 July 56 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.944472
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: including
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: response
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communists
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: pro-Peiping
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: discouraging
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.864143
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #2 (original #19, segment 1)
+Text: Press) The death of Lt. Col. Mustafa, Egyptian military attaché in Jordan and director of terrorist activity against Israel from Jordan, moved the Cairo press to call for revenge. Although evidence remains circumstantial, Egypt considers Israel responsible for the recent killing of Egyptian terrorist leaders with bombs sent in parcels through the mail
+Token count: 53
+Recut: none
+
+Excluded candidates:
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: announced
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Jordan
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: daybreak
+- original #22 segment 1: short_span_min_tokens
+  Text: Press

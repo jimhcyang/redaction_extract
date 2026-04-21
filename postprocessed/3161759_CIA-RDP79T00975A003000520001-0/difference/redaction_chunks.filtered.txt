@@ -1,0 +1,156 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.762747
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 3. MAKARIOS' VIEWS ON CYPRUS ISSUE
+Token count: 6
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #2 segment 3: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.860955
+kept_candidate_count=1
+excluded_candidate_count=11
+
+Clean Chunk #2 (original #15, segment 1)
+Text: King Hussain was trying to get Syrian forces to withdraw from Jordan and was attempting to gain control of the army in preparation for making an alliance with the West and accepting the American proposals on the Middle East
+Token count: 39
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: Comment on
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: antimonarchical
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attempting
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: consolidating
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: nationalist
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: appointed
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Although
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: antimonarchical
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: resignation
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attaches
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: independence
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=4
+alignment_score=0.764649
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #16, segment 1)
+Text: Foreign Minister Nabulsi and others had been forced to join the cabinet by the king's threats, and would take the first opportunity to escape
+Token count: 24
+Recut: none
+
+Clean Chunk #4 (original #19, segment 1)
+Text: Demonstrations and riots are expected to occur in West Jordan after Easter in an attempt to overthrow the King. On 20 April the Egyptian military attaché in Damascus urged Cairo to publicize Jordanian events immediately, and recommended preparation of Jordan's "people, political organizations and reliable men for opposition to the King's wishes, if he is bent on carrying his plans through to the end." The attaché added that the Syrians had sent an officer to contact those "free officers" in Jordan who were still in command of their units, but admitted that their disposition in relation to other army units was unfavorable since they could not leave the Israeli front unguarded. He said that if Cairo desired to act in Jordan, "the work should be co-ordinated with Syria quickly," and urged that the Saudis be made to understand that their support of Hussain would lead to Jordan's disintegration
+Token count: 148
+Recut: none
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: active
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reported
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=0.878906
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #5 (original #25, segment 1)
+Text: the USSR never expected the West to accept the declaration proposed in its note of 11 February, but considered that the note had a high propaganda potential
+Token count: 27
+Recut: none
+
+Excluded candidates:
+- original #20 segment 1: noncontent_keyword
+  Text: Comment on
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: declaration
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: settlement
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: argument
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: preventing
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: full_page_or_admin
+  Text: 3. MAKARIOS' VIEWS ON CYPRUS ISSUE Reference: Archbishop Makarios' views on a solution of the Cyprus issue remain the same as when his negotiations with British governor Harding were broken off in February 1956. Makarios then demanded an elected legislature appropriately reflecting the island's Greek majority, amnesty for members of the EOKA underground, Cypriot control of internal security, and the grant of self-determination within a fixed time limit. Makarios' statement means his ultimate goal remains the union of Cyprus with Greece. Following a discussion among Makarios and Foreign Minister Averoff and his subordinates on 17 April, all concerned regarded partitioning Cyprus as "utterly unacceptable." Averoff also said that Makarios seemed interested in the concept of "guaranteed independence" but did not respond to Averoff's offer to work for that solution. According to Averoff's account, Makarios is pleased with the Greek government's handling of the issue and particularly with Prime Minister Karamanlis. Makarios disagrees with Athens' attempts to avoid offending Ankara, whose reaction he insists is "contrived." The Turks would "have to be satisfied" with assurances on minority rights but cannot expect to participate in any negotiations. Makarios also rules out NATO consideration because of the "complications" which would be created for the Greek government. Makarios reportedly intends to leave Athens in a few days because of his fear of becoming embroiled in local politics: "If I stay, it will become like a coffeehouse wherever I am
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: full_page_or_admin
+  Text: 4. FIRST SHIPMENT OF CHINESE COMMUNIST AID TO CAMBODIA UNDER WAY Comment on: The first shipments under the $22,400,000 Chinese Communist aid program to Cambodia are scheduled to depart Hong Kong on 20 and 24 April, according to the American embassy in Phnom Penh. The aid will consist of 1,200 tons of cement, 1,400 tons of textiles, and "iron and steel cargo." This shipment is being made at a time when anti-Communist sentiment is perceptively increasing in neutralist Cambodia. Peiping's long delay in implementing the aid agreement negotiated nearly a year ago has caused dissatisfaction in Phnom Penh, culminating in a newspaper attack on Chinese aid "promises" by a high Cambodian official during late March. Growing Communist subversion in Cambodia has heightened this dissatisfaction and has raised doubts as to the efficacy of Cambodia's present "neutralist" policies. Cambodia is concerned that South Vietnam--with which its relations have been gradually improving--will not permit these shipments to transit its waters, thereby forcing them to be off-loaded in lighters at the new Cambodian port of Kampong Som in the Gulf of Siam
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=red_only red_source_page=8 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,234 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.492308
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122565
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 6 MARCH 1958 I. THE COMMUNIST BLOC Tyura Tam-Klyuchi ballistic missile test range resumes activity; range considered
+- original #3 segment 1: full_page_or_admin
+  Text: state of readiness, and operations, not necessarily imminent, could begin with little or no warning. Khrushchev may be considering assumption of premiership in April if summit talks appear likely. USSR continues pressure for diplomatic relations with Malaya. II. ASIA-AFRICA Nasir, Sarraj launch open attack on Saud exposing his covert opposition to UAR. Indonesia - Djakarta continues moves toward invasion of dissident areas. Algeria - Upsurge of rebel activity continues. Moroccan leaders consider exchange of ambassadors with USSR. Saud reports he rebuffed visiting Soviet diplomat's offer of aid, diplomatic relations. Kishi criticizes trade accord signed with Chinese Communists for excessive concessions. III. THE WEST Selection of new Cuban cabinet may cause crisis if Batista excludes opposition representatives
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.938312
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #4, segment 1)
+Text: USSR Missile Test Range (as of 0200 6 March): There has been a resumption of activity at both ends of the USSR's Tyura Tam-Klyuchi ballistic missile test range on 5 March. There is no indication at present that the activity observed at both ends of the range involves an actual countdown, but aircraft activity has been of such a nature that the range must be considered in a state of readiness, and a launching operation could begin with little or no warning. This does not necessarily imply that a launching attempt is imminent
+Token count: 93
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.891667
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #7, segment 1)
+Text: Nasir opens attack on King Saud: Nasir has publicly attacked King Saud by exposing Saud's clandestine efforts to prevent formation of the United Arab Republic and subsequently to break it up. Syrian army intelligence chief Sarraj has echoed Nasir's attack. This is the first time Nasir has categorized the protector of Islam's holy places as among the agents of Western imperialism, and it may mark Nasir's open break with the traditionally respected elements in the Arab world. These moves suggest that Nasir is confident that he can now use his popular support throughout the area to neutralize, or defeat from within, those governments which oppose him. (Page 3) Indonesia: Indonesian military forces are continuing to make moves to invade both Central Sumatra and North Celebes. Continuing talks between President Sukarno and former vice-president Hatta, however, suggest the remote possibility that they may agree on a compromise settlement acceptable to the dissidents
+Token count: 151
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Page 2
+- original #7 segment 2: noncontent_keyword
+  Text: Page 4) (Map
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.964118
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #3 (original #9, segment 1)
+Text: Morocco-USSR: Moroccan Foreign Minister Balafrej, who heretofore has opposed the establishment of diplomatic relations with the USSR, now feels such relations are inevitable and has suggested an exchange of ambassadors to King Mohamed V. Rabat also plans to make an official request to the US for arms and equipment for the royal army
+Token count: 53
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: Page 5
+- original #9 segment 2: noncontent_keyword
+  Text: Page 6
+- original #10 segment 1: noncontent_keyword
+  Text: Page 7
+- original #11 segment 1: noncontent_keyword
+  Text: Page 8
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.995588
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: Page 9
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.996032
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Malayans
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Nasir Launches Attack on King Saud Nasir has commenced a campaign to discredit King Saud by publicizing Saud's clandestine efforts to undermine the governments of Egypt, Syria, and Yemen and break up the United Arab Republic. In a speech on 5 March, Nasir asserted that three checks "from Riyadh," amounting to $5,300,000, had been offered Syrian G-2 chief Sarraj at the end of February to prevent Syrian unity with Egypt. Sarraj has openly named Saud as the source of the money, and has accused him of trying by bribery to block Arab unity. Testimony on 4 March in the treason trial in Cairo publicly implicated Saud in a conspiracy last summer with certain Western powers to overthrow Nasir and restore the Egyptian monarchy. Apparently in anticipation of this public break, Nasir had arranged for the Egyptian armed forces mission in Saudi Arabia to withdraw about 11 March. In addition to bringing the split with Saud into the open, Nasir may now seek to exploit his initiative by working among pro-Egyptian members of the Saudi royal family to overthrow the King
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 6 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #15, segment 1)
+Text: INDONESIA Dissident areas 6 MARCH 1958
+Token count: 6
+Recut: none
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.122239
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: Indonesia Djakarta is preparing for military operations against the dissidents
+- original #17 segment 1: full_page_or_admin
+  Text: North Celebes as well as Sumatra. This operation will involve five battalions of army troops and various supporting units. This force was to have started assembling in Palopo in Central Celebes on 1 March, and at least one battalion, the 527th, is already on its way. The objective of this force is Gorontalo, a town with an airfield located about 200 miles from the dissident stronghold of Menado. The Central Sumatran dissidents reportedly have deployed some 3,000-3,500 men in the Padang-Bukittingi area to meet any amphibious assault on the west coast, and 1,500-2,000 in the area between Pakanbaru and the east coast. Reports from Djakarta continue to suggest the remote possibility of a compromise between Hatta and Sukarno that might be acceptable to the rebels. It still seems probable, however, that the only meeting of minds between the two men will be on the basis of a surrender by Hatta. Meanwhile, Indonesia is preparing to take further advantage of Communist bloc assistance
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 6 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=0.479167
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: noncontent_keyword
+  Text: 6 MARCH 1958
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=12 unred_source_page=15
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: Morocco May Exchange Ambassadors With USSR and Ask For American Materiel Moroccan Foreign Minister Balafrej, who heretofore has opposed closer relations with the USSR, told King Mohamed V that ambassadors probably will have to be exchanged with Moscow. The King, who also has opposed such a move, is now seriously considering this step. Feeling within the government and the dominant Istiqlal party for such an exchange is now so strong that it can no longer be ignored. The Moroccans are particularly sensitive about the fact that the major Western powers as well as the United Arab Republic maintain embassies in Moscow. Rabat is also reported to be considering an early request for American arms and equipment for the royal army and gendarmerie. The Moroccans strongly resent the fact that France has a near monopoly over the equipment of their forces and can therefore exercise substantial control over Moroccan military capabilities. They also believe that inasmuch as the United States supplies materiel for France and Spain, it should agree to a Moroccan request
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 6 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=13 unred_source_page=16
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=14 unred_source_page=17
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=15 unred_source_page=18
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=16 unred_source_page=19
+alignment_score=0.958696
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #20, segment 1)
+Text: USSR Missile Test Range (as of 0200 6 March): There has been a resumption of activity at both ends of the USSR's Tyura Tam-Klyuchi ballistic missile test range on 5 March. There is no indication at present that the activity observed at both ends of the range involves an actual countdown, but aircraft activity has been of such a nature that the range must be considered in a state of readiness, and a launching operation could begin with little or no warning. This does not necessarily imply that a launching attempt is imminent
+Token count: 93
+Recut: none
+
+Excluded candidates:
+- original #21 segment 1: noncontent_keyword
+  Text: Page 1

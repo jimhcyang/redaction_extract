@@ -1,0 +1,120 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.540385
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.937500
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 2. TYURA TAM MISSILE TEST RANGE RESUMES ACTIVITY
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 4. ISRAEL SEEKS NATO GUARANTEE
+Token count: 5
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 3: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 3: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+- original #5 segment 1: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.989820
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Khru- shchev's
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: hushchev
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 2. TYURA TAM MISSILE TEST RANGE RESUMES ACTIVITY Comment on: The Tyura Tam Missile Test Range again was active on 5 November, less than 46 hours after the launching of the second Soviet earth satellite. It is believed that the 5 November ac- tivity represented practice rather than an actual launching attempt. Such practice this soon after the launching of Sputnik II on 3 November could indicate plans for another launching in the near future
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 6 Nov 57 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.992063
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 4. ISRAEL SEEKS NATO GUARANTEE Comment on: The Israelis presumably are aware of the difficulties in getting NATO protection. Israel's aim at this time there- fore may be merely to continue to impress upon Western countries the idea that serious consideration should be given Israels interests. Should the Middle East situation dete- riorate further, the Israelis probably would quickly seek a spe- cific French commitment of support against the threat posed by Soviet-armed Syria and Egypt. These tactics are complementary to Tel Aviv's previously reported approach to the United States for heavy arms
+- original #10 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 6 Nov 57 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

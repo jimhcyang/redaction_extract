@@ -1,0 +1,155 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.702500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.758974
+kept_candidate_count=3
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. THE SITUATION IN SYRIA
+Token count: 5
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 3. BULGANIN NOTE TO ADENAUER
+Token count: 5
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 2)
+Text: 6. BRITAIN READY TO ACT QUICKLY AT KUWAIT (page 8). 7. HANOI PROPOSES PATHET LAO DROP CHINESE COMMUNIST AID AS CONDITION FOR SETTLEMENT
+Token count: 23
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 3: noncontent_keyword
+  Text: page 9
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 10
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 1. THE SITUATION IN SYRIA Comment on: While some of the proposed transfers of Syrian army officers have been carried out, the army chief of staff, as a result of a compromise among army factions, is reported to have agreed to retain leftist Lieutenant Colonel Sarraj as G-2, for the present. The Egyptian embassy apparently is supporting the Sarraj-leftist group. The situation remains unsettled. Leftist moves to involve "street" support are suggested by reports that Damascus youth were issued Czech submachine guns on 20 March in preparation for a "parade" on 24 or 25 March. Several thousand members of the leftist paramilitary "Futuwa" organization are believed similarly armed
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.938537
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #8, segment 1)
+Text: In any case, the Foreign Office is reported to be increasingly pessimistic over the prospects for Jordan's survival as a national entity
+Token count: 22
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 3. BULGANIN NOTE TO ADENAUER Comment on: Premier Bulganin has tried to create the impression that Adenauer has gone further toward accepting Soviet terms for a Soviet-West German agreement than is the case. Bulganin, proposing trade talks in April in either Moscow or Bonn, tried to commit Adenauer to a formal trade agreement which the chancellor has been avoiding. Bulganin said Adenauer had agreed to talks on "regulation and expansion of trade relations," although Adenauer only referred to talks on trade "development." Soviet officials have been hinting that First Deputy Premier Mikoyan would like to visit West Germany, and that he would probably initiate the trade talks. Bulganin also distorted Adenauer's endorsement of discussions on scientific-technical co-operation by also including cultural co-operation and tried to commit him to negotiations on the setting up of consulates, which Bonn has opposed. Bulganin only briefly repeated the Soviet thesis that East-West German agreement is prerequisite to reunification, and made no reference to Adenauer's plea for repatriation of German civilians in the USSR. Bulganin criticized Foreign Minister Brentano by name, probably because of Brentano's National Press Club speech in early March in which he called Soviet control of East Germany "a constant and incessant aggression... against the German people
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.967639
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #11, segment 1)
+Text: were privately
+Token count: 2
+Recut: none
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.958344
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens
+  Text: Reference
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: 6. BRITAIN READY TO ACT QUICKLY AT KUWAIT In the discussion of the Middle East at Bermuda, British Foreign Secretary Lloyd emphasized the great importance of Kuwait as a source of oil for the West and indicated that Britain might have to take action at once if it should be confronted with a dangerous situation there. The American consulate in Kuwait has reported that the British security adviser employed by the Kuwaiti government has said he intends to resign in April because the apathy and hostility of Kuwaiti officials have made it impossible for him to accomplish anything. In particular, he indicated that he has been obstructed by the president of the Public Security Department in his efforts to continue arrests of Iraqi Communists who remain at large due to the inefficiency, if not complicity, of the department's counterintelligence chief. The British political agent at Kuwait doubts that the Kuwaitis would accept another British security officer, according to the consulate. Comment Lloyd's statement suggests that London believes the chances are great that it may have to intervene militarily to preserve its vital oil interests in Kuwait. More than a dozen British advisers have been forced to resign their posts in the Kuwaiti government in the past three months. Communist and other clandestine activity in Kuwait appears to be continuing. The arrival of three Jordanian Communist leaders and a group equipped with arms and explosives was reported in January
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: 7. HANOI PROPOSES PATHET LAO DROP CHINESE COMMUNIST AID AS CONDITION FOR SETTLEMENT The Pathet Lao delegation in Vientiane stated that Pathet chief Souphannouvong could tell premier Souvanna Phouma that if Laos gave up its demand for the dissolution of the Pathet Lao, the Pathets "could defer the question of seeking aid from China." Comment Souphannouvong told Souvanna Phouma that he would propose to his headquarters in Sam Neua that demands for Laotian acceptance of Chinese Communist aid be waived. The Viet Minh, who raised the issue of Chinese aid as a counterproposal to Laotian demands for the dissolution of the Pathet Lao movement, apparently hope to avoid a showdown on both issues, which might lead to a rupture in negotiations. With negotiations now deadlocked, the Viet Minh apparently intend to build popular support as a means to bring pressure on the crown prince and cabinet for settlement. Viet Minh instructed Viet Minh cadres to remain in Laos in order to "convince the populace and upper classes" of the need for successful conclusion of the negotiations
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: 8. LEGAL DEPORTATIONS REINSTITUTED IN HUNGARY The American legation in Budapest believes a decree of 19 March reinstituting legal deportations in Hungary will remind the Hungarian public of the worst days of the Rakosi terror, when tens of thousands were deported. The decree covers all persons considered dangerous to the state or detrimental to the state's interests or the economy. The police may, on 15 days' notice, ban such persons from "defined areas" and may place them under police surveillance in permanent or temporary domicile for a maximum of two years. The only provision for legal protection against deportation, which is completely under the control of national police headquarters, is an appeal to this same office. The decree gives no indication of the nature of the evidence necessary or the procedure of the hearings, if any. The decree is intended to provide a convenient disposal for regime enemies against whom formal charges are difficult to find. The legation feels that the decree could also provide a convenient means of punishing refugees should they return. Comment Implementation of the decree will further increase the hostility of the population to the Kadar regime but may contribute to the breakup of remaining centers of dissidence

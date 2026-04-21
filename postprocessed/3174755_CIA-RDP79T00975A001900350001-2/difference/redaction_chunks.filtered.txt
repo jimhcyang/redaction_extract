@@ -1,0 +1,84 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.797619
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.793747
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOVIET UNION 1. New Soviet aircraft designations FAR EAST 2. Tokyo reportedly will resist Soviet pressure for recognition of Communist China (page 3). 3. "Military replacements" being transported down the Yangtze River from Southwest China
+Token count: 35
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.244612
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin, noncontent_keyword
+  Text: SOVIET UNION
+- original #3 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: New Soviet aircraft designations Comment: This is the first known reference to IL-40 and MIG-19 aircraft. While these designations cannot be equated with specific aircraft types, analysis of available evidence indicates that the USSR now has, or is developing, the following aircraft: a jet heavy bomber, a new jet light bomber or a variant of the IL-28, an improved propeller transport and/or jet transport, and several new models of fighters, including an all-weather interceptor and a supersonic fighter. Of these types, a new transport and a heavy bomber are needed by the USSR to provide a balanced air establishment. FAR EAST 2. Tokyo reportedly will resist Soviet pressure for recognition of Communist China: Tokyo will not make any definite gesture toward Peiping so long as the latter's international status has not been generally accepted. Japanese military and economic circles are placing their hopes
+- original #4 segment 1: full_page_or_admin
+  Text: an international settlement which would authorize Peiping alone to represent the Chinese nation, and recognize Formosa, at least provisionally, as a new state
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: Comment: Chinese premier Chou En-lai in January reportedly told Shozo Murata, semiofficial Japanese trade representative, that Peiping hopes for trade and cultural exchanges with Japan, but will not press for other forms of recognition at present. Japan does not intend to break with Taipei but will await the evolution of Formosa as an independent state. While the Hatoyama government does not advocate immediate recognition of Peiping, it favors expansion of trade and cultural contacts with Communist China. It believes that the Yoshida government suffered politically from its unyielding attitude toward Peiping. 3. "Military replacements" being transported down the Yangtze River from Southwest China: Comment: The shipment of troop replacements eastward may be to strengthen units in East China which are training or staging for future operations against the Nationalists. The troops may be new recruits. Under the terms of Peiping's new draft law, some 450,000 men were to be drafted between last November and February as replacements for veterans who were to be demobilized. (Concurred in by ORR
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.974436
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: WESTERN EUROPE 7. West German Socialists plan delaying tactics on defense legislation: The West German Social Democratic Party will attempt to delay passage of defense legislation necessary to implement the Paris treaties "as long as possible," party leaders told American representatives in Bonn on 23 February. The Social Democrats will press for an East-West conference on German unity prior to the passage of such
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.677895
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=6 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

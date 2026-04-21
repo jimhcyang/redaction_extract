@@ -1,0 +1,106 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.920312
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. USSR MAKES ARMS OFFER TO ECUADOR (page 4). 3. RHEE AVOIDS NEGOTIATIONS WITH JAPAN
+Token count: 15
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.964551
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #2 (original #7, segment 1)
+Text: Concurred in by ORR
+Token count: 4
+Recut: none
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: principles
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: restraining
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: condemns
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: included
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Moscow's
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 2. USSR MAKES ARMS OFFER TO ECUADOR Comment Whether or not the Velasco government intends to accept these offers at this time is not known. Ecuador is now engaged in an arms race with its neighbor Peru, with which it has a long-standing boundary dispute. During the past year the Velasco regime has been negotiating with Czechoslovakia for arms. It now appears, however, that Quito may sever relations with Prague because of Velasco's strong belief that the Czech legation was deeply involved in the recent student riots, which for a period threatened the stability of his government. Ecuador has ordered its diplomatic and consular offices abroad to suspend the granting of visas to Czech diplomatic couriers. Concurred in by ORR
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.123173
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 3. RHEE AVOIDS NEGOTIATIONS WITH JAPAN Comment South Korean propaganda
+- original #10 segment 1: full_page_or_admin
+  Text: the last few days has closely followed the line reported ordered by Rhee. The Japanese government has expressed the hope that the United States will mediate in the fisheries dispute. Rhee's primary objective is to undermine Japan's special position in Asia. Ambassador Allison notes that previous conciliatory efforts by Japan have been contemptuously dismissed by Rhee as "tricks," and that strong pressures would be necessary to induce Rhee to negotiate with Japan on reasonable terms
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.883409
+kept_candidate_count=1
+excluded_candidate_count=6
+
+Clean Chunk #3 (original #17, segment 1)
+Text: An additional Soviet freighter, the Admiral Ushakov, docked at Alexandria. This makes three Soviet vessels which apparently delivered military equipment to Egypt at that time. The other two were the freighter Alexander Nevsky and the tanker Gregory Vakulentchuk. The size of crates observed on the Nevsky and Ushakov suggests that they carried disassembled jet aircraft as well as other types of arms. The Vakulentchuk evidently carried a limited amount of military equipment as deck cargo. On 10 December the US air attaché saw 12 BEAGLES (IL-28 jet light bombers) at Cairo West military airfield. He had seen only five BEAGLES there on 8 December and believes the others must have been flown in from the assembly airfield at Dikheila west of Alexandria
+Token count: 122
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: December
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Popular
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: conferred
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: December
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: agreement
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

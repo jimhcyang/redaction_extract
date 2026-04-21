@@ -1,0 +1,226 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.530000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122516
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 7 MAY 1959 I. THE COMMUNIST BLOC Chinese Communist rebuttal of Nehru's remarks about Tibet hints at desire to improve Sino-Indian relations; further exchanges likely. Soviet note charging Kishi with wanting to involve Japan
+- original #3 segment 1: full_page_or_admin
+  Text: nuclear arms race is aimed at influencing June elections for Japanese upper house. Gromyko makes strong statement to Iranian ambassador on Iranian-Soviet relations. II. ASIA-AFRICA Iraqi Embassy in Moscow empowered to issue visas to bloc personnel without Baghdad. Iraqi security forces with aid from irregulars regaining control of tribal areas near Turkish and Iranian borders. West Germans to build pipeline and terminal facilities for Iran from Abadan to Persian Gulf. Arms en route to Algerian rebels believed to have come from Saudi Arabia. III. THE WEST British Icelandic fishing dispute aggravated by more incidents. Nicaragua - Exile groups still planning action against Somoza regime
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.946137
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #6, segment 2)
+Text: USSR-Iran: Soviet Foreign Minister Gromyko told the Iranian ambassador on 30 April that an improvement in Soviet-Iranian relations was dependent on Tehran's taking some positive steps which would "make us confident of Iran's sincerity." Gromyko charged Iranian officials with preparing to break relations, and declared that Tehran must find a way "as soon as possible" to make up for the "insult we have suffered." Iranian messages still indicate deep concern over continuing Soviet propaganda attacks
+Token count: 75
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: Page 1
+- original #5 segment 1: short_span_min_tokens
+  Text: in
+- original #6 segment 1: noncontent_keyword
+  Text: Page 2
+- original #6 segment 3: noncontent_keyword
+  Text: Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.910359
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #7, segment 1)
+Text: Iraq-USSR: The Iraqi Embassy in Moscow has been empowered to issue visas to citizens of the Soviet Union and other bloc countries without first obtaining approval from Baghdad. This procedure contrasts with stringent restrictions which the Iraqi Government has placed on the issuance of visas to citizens of Western countries, and is probably designed to speed up the entry of Soviet technicians to Iraq in connection with recent aid agreements. Iraq: Iraqi security forces, supplemented by Popular Resistance groups and volunteers, are gradually regaining control of villages and police posts which had been occupied by dissident Kurdish tribes near the Turkish and Iranian borders, according to intercepted Iraqi messages. (Page 4) Algeria: An Arab ship, believed to be carrying 250 tons of unmarked arms and some military vehicles from Jidda to the Algerian rebels, is scheduled to arrive in Bengasi on about 7 May
+Token count: 144
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #7 segment 2: noncontent_keyword
+  Text: 7 May 59 DAILY BRIEF
+- original #7 segment 3: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.918839
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #3 (original #8, segment 1)
+Text: Saudi Arabia, which purchases arms for the rebels in West Germany, is becoming, along with Iraq, a major supplier of aid to the Algerian rebels. Iran-U. K
+Token count: 27
+Recut: none
+
+Clean Chunk #4 (original #10, segment 2)
+Text: Nicaragua: Exile groups continue planning revolutionary action against the Somoza regime. An opposition leader inside Nicaragua claims to have been informed that an exile group in Costa Rica plans a probing action across the border in the near future
+Token count: 39
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 5) (Map
+- original #10 segment 1: noncontent_keyword
+  Text: Page 6
+- original #10 segment 3: noncontent_keyword
+  Text: Page 7) 7 May 59 DAILY BRIEF
+- original #10 segment 4: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.995219
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: 7 May 59 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.995620
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: 7 May 59 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: Moscow Rejects Iran's Efforts to Halt Soviet Propaganda Attack Soviet Foreign Minister Gromyko told Iranian Ambassador Masud-Ansari that an improvement in Soviet-Iranian relations depended on Tehran's taking "some positive action" which would "make us confident of Iran's sincerity." Gromyko charged Iranian officials with preparing to break relations, and declared that the Iranian Government must find a way "as soon as possible" to make up for the "insult we have suffered"--an apparent reference to Iran's conduct during the talks on a nonaggression pact which were broken off on 10 February. Soviet officials did not specify the nature of the "positive action" by Iran necessary to assure an improvement. Gromyko, referring to Soviet propaganda broadcasts attacking the Shah, had asked Ansari on 12 April, "If these statements are stopped, are you willing to come to an agreement with us?" Gromyko's statements on 30 April were a verbal reply to a strongly worded Iranian note, delivered by Masud-Ansari, which proposed that Moscow halt its "indecent" and "repulsive" attacks in order to preserve friendly relations. Masud-Ansari had been making friendly approaches to Gromyko since 12 April, but apparently without success. Radio Moscow has continued its strong attacks on the Shah and his regime. On 4 May, Radio Moscow told Iranian listeners that "the personal life of the Shah... can in no way provide an instructive example for his subjects." "The National Voice of Iran," a clandestine station apparently in the USSR, began broadcasting about 27 April. In comparison with overt Soviet broadcasts, this station tends to be even more specific and personal in attacks on the Shah, and attempts more openly to incite social minorities and tribes to revolt
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 7 May 59 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.122104
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Iraqi Army Units Pressing Attack Against Dissident Kurdish Tribes The reinforced Third Brigade of the Iraqi Army's Second Division is gradually regaining control of villages and police posts occupied by dissident Kurdish tribes near the Turkish and Iranian borders. Brigadier Janabi, commander of the Second Division, is receiving support from the Iraqi Air Force and is also using Popular Resistance groups and volunteers to supplement his forces. On 2 and 3 May, when the rebellious tribesmen were proving difficult to dislodge, Janabi was considering arming the nearby Barzani tribesmen, who are loyal to the Qasim government, and using them against the dissidents. It is not yet clear whether he actually did so; such action would risk further antagonizing a number of other Kurdish tribal chieftains who, though still quiescent, are already bitter about the special favors the government has granted to the Barzanis, led by the pro-Soviet Mulla Mustapha. Iraqi military allege the involvement of Turkish, Iranian, and American military personnel
+- original #15 segment 1: full_page_or_admin
+  Text: the frontier areas. The Iraqi military command's edginess about border infringements was indicated on 6 May when Iraqi planes forced down a commercial Italian airliner. On the same day Radio Baghdad broadcast a proclamation from the military governor reinstituting an earlier prohibition on the use of Iraqi airports at night
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 7 May 59 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.564270
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: nonempty_redacted_alternate_conflict
+  Text: SAUDI ARABIA
+- original #17 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: UNCLASSIFIED
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=0.990259
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: leading
+- original #19 segment 1: noncontent_keyword
+  Text: 7 May 59 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=11 unred_source_page=13
+alignment_score=0.995539
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: noncontent_keyword
+  Text: 7 May 59 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=12 unred_source_page=14
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: Nicaraguan Revolutionaries Continue Plotting Opponents of Nicaraguan President Luis Somoza, both in exile and inside the country, continue to plan revolutionary action against him. An opposition leader in Nicaragua claims to have been informed that an armed and well-trained exile group in Costa Rica plans a foray into Nicaragua on 10 May. The invaders plan either to disperse and remain within Nicaragua or to draw back across the border, depending on the degree of resistance they encounter. Internal opposition leaders feel this group plans to act prior to completing preparations for a "full-scale invasion" because of fear that a Cuban-led exile group might act first. Anti-Somoza leaders inside the country tend to disagree on whether to create diversionary action in the capital during the border foray. Meanwhile, the Nicaraguan National Guard has received unevaluated information that another group of exiles, this one across the northern border in Honduras, plans an invasion of the Pacific coast, also on 10 May. Another report alleges that a group of 35 armed Cubans planned to leave Cuba on 6 May by sea for Mexico, where it is to prepare for a later invasion of Nicaragua. Anti-Somoza groups are divided into competing factions, some of which are subject to varying degrees of Communist influence. None of them is believed prepared at this time for a major revolutionary effort, but one or more small groups may attempt to establish guerrilla operations inside Nicaragua and all of them are benefiting from the mounting "war of nerves" that makes Nicaraguan officials increasingly uneasy and may weaken public confidence in the regime
+- original #21 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 7 May 59 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=13 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=14 unred_source_page=16
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: noncontent_keyword
+  Text: 7 May 1959 Copy No. C 63 CENTRAL INTELLIGENCE BULLETIN

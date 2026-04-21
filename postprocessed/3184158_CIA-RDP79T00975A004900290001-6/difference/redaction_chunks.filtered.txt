@@ -1,0 +1,114 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.393750
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.123008
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 5 FEBRUARY 1960 I. THE COMMUNIST BLOC Warsaw Pact meeting provides demonstration of Bloc solidarity prior to summit; Khrushchev's speech, not yet released, may give more specific indications of Bloc plans. II. ASIA-AFRICA Voroshilov's 18-day visit to India makes little impact. Indian cabinet committee approves Nehru's proposal to meet Chou En-lai
+- original #3 segment 1: full_page_or_admin
+  Text: mid-March. Burma-Party of former Premier Nu expected to win elections on 6 February; Western relations with new civil government may be somewhat more difficult than with military regime under Ne Win. UAR, Jordan, and Lebanon to co-ordinate demands for increased revenue from Tapline
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.878844
+kept_candidate_count=3
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #4, segment 1)
+Text: Sino-Indian Border Dispute: Nehru's plan to invite Chou En-lai to New Delhi in mid-March without insisting on preconditions has been approved by the Indian cabinet's foreign affairs committee. Nehru somewhat heatedly countered objections by arguing that in view of increasing international pressure, India should maintain its case but not avoid a meeting. Nehru apparently has decided that India's full legal position should be on record before Khrushchev's arrival on 11 February. Release of this new note will almost certainly provoke strong protests in the Indian Parliament and press
+Token count: 88
+Recut: none
+
+Clean Chunk #2 (original #5, segment 1)
+Text: but intends to continue to exercise influence over the government from behind the scenes
+Token count: 14
+Recut: none
+
+Clean Chunk #3 (original #6, segment 2)
+Text: Middle East Oil: At Lebanese suggestion, the UAR, Jordan, and Lebanon will confer to co-ordinate their policy toward the Trans Arabian Pipeline Company (Tapline). All three states have demanded sharply increased transit revenues. The claims of these nations and of Saudi Arabia together exceed the pipeline's total profits, and a crisis will develop unless they are scaled down sharply
+Token count: 59
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Page 1
+- original #6 segment 3: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.951442
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #7, segment 1)
+Text: Army leaders, who prefer the "Stable" party, are resigned to Nu's return to the premiership, even though they consider him politically untrustworthy and administratively incompetent. They plan to keep him under close scrutiny, however, and intend to take over again should it appear necessary. General Ne Win, who will resume his post as military commander in chief, will be in a particularly powerful position in this respect. He has long commanded the undivided loyalty of the army as well as civilian respect. His role in Burma's recent border agreement with Communist China and his successful domestic reforms have enhanced his position
+Token count: 101
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: Arabs Coordinate Demands on Tapline At Lebanese Prime Minister Karami's suggestion, the UAR, Jordan, and Lebanon will hold a conference to co-ordinate their demands for sharply increased revenues from the Trans Arabian Pipeline Company (Tapline). Tapline currently moves from 30 to 40 percent of Saudi Arabia's oil production overland to the Mediterranean. More than three years of intermittent negotiations between the company and these governments and Saudi Arabia have resulted in almost no progress. Collectively, the Arab demands exceed the pipeline's total profits, and thus far the Arabs have shown no inclination to reduce their demands. Last fall the company, confronted with a UAR ultimatum, began to consider the possibility of shutting down. The UAR temporarily withdrew its ultimatum, however, when Tapline argued that Saudi demands against the company had to be settled first. Little has developed since then in company talks with the Saudi Government, which still is pressing a claim for some $300,000,000. The Saudis want a 50-percent share in the pipeline's profits. Negotiations probably will resume later this month. Unless Arab demands--especially the Saudi claim--are scaled down sharply, a new crisis probably will develop
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 5 Feb 60 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.999423
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

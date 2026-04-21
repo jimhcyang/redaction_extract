@@ -1,0 +1,26 @@
+{
+  "pair_key": "2001968_CIA-RDP79T00975A005600110001-7",
+  "aligned_page_count": 18,
+  "original_candidate_count": 57,
+  "segment_candidate_count_after_recut": 64,
+  "kept_candidate_count": 2,
+  "excluded_candidate_count": 62,
+  "recut_removed_segment_count": 10,
+  "failure_counts": {
+    "full_page_or_admin": 7,
+    "noncontent_keyword": 13,
+    "nonempty_redacted_alternate_conflict": 2,
+    "ocr_equivalent_to_redacted_text": 45,
+    "short_span_min_tokens": 46
+  },
+  "config": {
+    "min_tokens": 2,
+    "full_page_coverage": 0.95,
+    "low_alignment_score": 0.25,
+    "min_full_page_tokens": 50,
+    "ocr_similarity_threshold": 0.5,
+    "short_ocr_similarity_threshold": 0.5,
+    "alternate_near_full_page_coverage": 0.9,
+    "copy_source_pdfs": true
+  }
+}

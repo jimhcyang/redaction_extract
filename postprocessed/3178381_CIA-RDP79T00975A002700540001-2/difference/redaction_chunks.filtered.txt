@@ -1,0 +1,130 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.923729
+kept_candidate_count=3
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. WEST GERMAN CABINET SHAKE-UP MAY BE IMMINENT
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 4. SHAH STRIVES FOR CLOSER TURKISH-IRANIAN COLLABORATION
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 2)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 3: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 3: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 1. WEST GERMAN CABINET SHAKE-UP MAY BE IMMINENT A reorganization of the Bonn cabinet will soon be announced. In the main shifts, Vice Chancellor Bluecher would be replaced by Karl Arnold, former minister president of the important industrial state of North Rhine Westphalia. This shift would conciliate the left-wing element of the Christian Democratic Party and offset the demotion of unpopular Defense Minister Blank, a trade union man, to the Labor Ministry post. Blank is to be replaced by Minister of Atomic Affairs Strauss, a move possibly foreshadowing greater emphasis on atomic rather than conventional weapons for the West German army. Meanwhile, Minister Blank is disturbed and believes Adenauer may give in to increasing pressure to replace him. Blank made no mention of any decision having been reached at the recent cabinet meeting, and states that the whole matter of a cabinet reshuffle will be discussed by Adenauer and coalition leaders on 11 October in Berlin
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 4. SHAH STRIVES FOR CLOSER TURKISH-IRANIAN COLLABORATION The Shah stressed the need for greater Turkish-Iranian collaboration. The railways of the two countries should be "unified" immediately, an oil pipeline should be constructed from Iran through Turkey to the Mediterranean, and arms and ammunition should be "co-ordinated." The Shah also sought assurances of Turkish assistance in Iranian air defense. Comment Iran feels insecure in its new Baghdad pact defense role and wants assurance that its territorial integrity will be guaranteed. It is especially anxious to acquire additional American aid and the early accession of the United States to the pact. The Shah regards Turkey as one of the strongest military powers in the Middle East and was greatly impressed by Turkey's show of air strength during his visit there last May. The Shah is also seeking closer co-operation with Turkey through exchanges of students and officers and through an exchange of training officers
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 10 October) Two Israeli citrus workers were killed by Arab infiltrators near an Israeli village about 6 miles from the Jordanian border. Israel is convinced that many of the recent actions of this sort have been carried out by terrorist bands under Egyptian direction. According to a press report from Amman, an Israeli plane flying over the Jerusalem district in Jordan was forced to retreat when Jordanian forces opened antiaircraft fire. According to the report, Israeli ground forces in the area then opened fire on Jordanian forces with automatic and light arms in an exchange lasting about one hour. (Press) The Israeli foreign minister told the American ambassador on 9 October that Israel is withdrawing its conditional acquiescence in the movement of Iraqi troops into Jordan until a number of facts are made known to Tel Aviv. According to the foreign minister, Israel wants assurances that Iraqi troop movements are not connected with an Iraqi-British program to force Israel into negotiations which would involve territorial concessions, or with an Iraqi-Jordanian treaty detrimental to Israel's security. An Israeli Foreign Ministry spokesman charged on 10 October that the real objective of Iraq's recent proposal for a peace settlement with Israel on the basis of the 1947 UN resolutions was to jeopardize Israel's "sovereignty and entity" and was only a cover for Iraqi territorial expansion. The American army attaché in Amman has been told that the movement of Iraqi troops into Jordan would probably result in Arab fighting Arab. The attaché believes that Iraqi troops will be stationed not only at Mafraq but also at Amman, with the purpose of stopping
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.123095
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: civil outbreaks while the Jordanian army is deployed on the west bank of the Jordan River. The attaché also considers that Egypt may direct an effort to overthrow King Hussain as a result of his inviting Iraqi troops into Jordan. A press report from Amman stated that the second consignment of Iraqi military supplies
+- original #9 segment 1: full_page_or_admin
+  Text: two weeks arrived in Jordan aboard two large transport planes. The Iraqi embassy there said it intended to "pour military and financial aid" into Jordan to help protect Jordan from any future Israeli attacks. (Press
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

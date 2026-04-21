@@ -1,0 +1,152 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.735764
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. 103
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.892857
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 2. EGYPT REPORTED PLANNING PAN-ARAB OIL WORKERS' UNION (page 4). 3. LEBANON REPORTED UNDER PRESSURE TO ACCEPT SOVIET ARMS OFFERS (page 5). 4. EGYPT DISCUSSING FURTHER ARMS PURCHASE FROM INDIA (page 6). 5. MONGOLIA SEEKING DIPLOMATIC RELATIONS
+Token count: 37
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 3: noncontent_keyword
+  Text: page 7
+- original #3 segment 1: noncontent_keyword
+  Text: page 8
+- original #4 segment 1: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.994551
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 2. EGYPT REPORTED PLANNING PAN-ARAB OIL WORKERS' UNION Egyptian labor officials are planning to form a general union of Arab oil workers in order to "cut the vital artery" of Britain's Middle East oil supplies, The new union--negotiations for which begun by an Egyptian labor mission to Syria, Iraq, Saudi Arabia, Kuwait and Bahrain in early April--is to maintain close contact with the Liberation Rally, the political group sponsored by the Nasr regime, and the Islamic Congress, of which Egyptian minister of state Anwar Sadat is the head. The formation of the new union has been approved by leading persons in all the countries concerned. Comment Instances of unrest among Arab oil workers in Syria and the Persian Gulf area have be- come more frequent in recent months, and exploitation of this situation would assist Egypt in reducing British influence in the Middle East. An Arab oil workers' union presumably would be associated with an Arab Confederation of Labor, inde- pendent of both the pro-Western ICFTU and the Communist- front WFTU, which Cairo is sponsoring. It is likely to be some time, however, before this movement becomes an ef- fective instrument of Egyptian policy
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.247143
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: LEBANON REPORTED UNDER PRESSURE TO ACCEPT SOVIET ARMS OFFERS Comment Although Chamoun is trying to impress the United States that action on Lebanese arms requests should be expedited at the "reduced or token" prices which Lebanon is seeking, he is certainly under pres- sure to "go along" with the other Arab states, since Lebanon alone among the Arab states bordering Israel has not accepted Egyptian leadership
+- original #7 segment 1: full_page_or_admin
+  Text: military policy
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 4. EGYPT DISCUSSING FURTHER ARMS PURCHASE FROM INDIA Comment Egypt has maintained its interest in Indian arms since the date of its first known purchase in October 1955. India is apparently interested in continu- ing to use its surplus production of arms and ammunition as a means of extending its influence in the Near East and in North Africa, which is probably the ultimate destination for many of the arms. India is also counting on profits from such sales as a source of revenue for domestic economic de- velopment under its Five-Year Plan
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 5. MONGOLIA SEEKING DIPLOMATIC RELATIONS Comment At the last session of the General Assem- bly, the Chinese Nationalists argued against Outer Mongolia's admission on the basis of its nonparticipation in international affairs and lack of recognition by other nations. This approach to the Burmese suggests there may be similar Outer Mongolian attempts to seek diplo- matic recognition from other neutralist nations in the Near and Far East. Last December India became the only non-Communist country to establish diplomatic relations with Outer Mongolia. Burma, which follows India's lead on many international questions, is likely to follow suit
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=10
+alignment_score=0.986552
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #10, segment 1)
+Text: Air photos of the past 10 days appear to confirm previous estimates that
+Token count: 13
+Recut: none
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.877360
+kept_candidate_count=3
+excluded_candidate_count=6
+
+Clean Chunk #3 (original #16, segment 1)
+Text: LA-9/11 LI-2
+Token count: 3
+Recut: none
+
+Clean Chunk #4 (original #17, segment 1)
+Text: UNKNOWN UNDER CONSTRUCTION
+Token count: 3
+Recut: none
+
+Clean Chunk #5 (original #19, segment 1)
+Text: Primary roads Secondary roads
+Token count: 4
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: AIRCRAFT
+- original #12 segment 1: short_span_min_tokens
+  Text: UNKNOWN
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: IN
+- original #14 segment 1: short_span_min_tokens
+  Text: RUNWAYS
+- original #15 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: AUXILIARY OR
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: OPERATIONS

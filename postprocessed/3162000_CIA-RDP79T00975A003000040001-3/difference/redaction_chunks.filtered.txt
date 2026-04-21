@@ -1,0 +1,95 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.558730
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. EGYPTIAN FOREIGN MINISTER FEARS PRESSURE ON EGYPT TO MATCH ANY CONCESSIONS BY ISRAEL (page 3). 2. SHEPILOV ADVISES EGYPT ON KEEPING THE INITIATIVE
+Token count: 24
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+- original #1 segment 3: noncontent_keyword, short_span_min_tokens
+  Text: 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #2 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: 4
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 1. EGYPTIAN FOREIGN MINISTER FEARS PRESSURE ON EGYPT TO MATCH ANY CONCESSIONS BY ISRAEL Comment on: Egypt's Foreign Minister Fawzi and Ambassador Hussain expressed misgivings that President Eisenhower's speech on 20 February presaged increasing difficulties for Egypt and increasing pressure for concessions by Egypt, once Israel has withdrawn from occupied territory. Fawzi indicated concern that when such withdrawal had been completed "a series of pressure operations are going to be started against Egypt" for the purpose of assuring unrestricted use of the Gulf of Aqaba and the Suez Canal by ships of all nations. He also foresaw efforts to increase the UN force in Egypt and extend its jurisdiction; to establish a special regime for the Gaza strip; to reach agreements on the matter of Suez Canal tolls; and to separate the canal and the area around it from Egypt. Hussain also admitted having the impression that the United States had lost patience with Egypt's tactics of delaying settlement of the canal issue. Fawzi summed up by observing that Egypt was confronted with a more serious problem than in the past and "would have a portion of the UN that is not small" --including those now on the sidelines--working against it. He added "the battle is going to be more difficult not easier." Fawzi stated that Washington was aware its position would be easier if Egypt committed any blunders, and was watching carefully for any Egyptian mistake. He added "we can depend on ourselves to make mistakes--if we don't open our eyes we are going to get whipped!" Fawzi and Hussain are diplomats of the old school in Egypt and do not have a place in the inner circle
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #5, segment 1)
+Text: of Nasr's government. They have frequently expressed disapproval of measures taken by the Nasr regime. Their suspicion of American intentions, however, is probably also reflected in Cairo
+Token count: 27
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.243910
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: SHEPILOV ADVISES EGYPT ON KEEPING THE INITIATIVE Comment on: Former Soviet foreign minister Shepilov has warned that Egypt must not lose the initiative
+- original #7 segment 1: full_page_or_admin
+  Text: the Middle East. He suggested that Cairo explore prospects for support from "friendly Asian and Socialist countries" for a conference of all canal users "to reaffirm the 1888 convention, amend it, or work out a new convention." He stated that it was up to Egypt to decide when the canal should be opened in accordance with the 1888 convention and stressed that there is no reason for compromise with the West although Egypt should act with caution. Shepilov said that "even now the aggressors are still hatching plans against Egyptian sovereignty and the Arab countries!" He predicted that Britain, France and the United States plan to isolate Egypt from the Arab countries and then bring pressure to bear on Saudi Arabia and Jordan. Shepilov sought to arouse suspicion that the Western powers are attempting to use the UN Emergency Force to impose settlements of the Suez and Arab-Israeli conflicts. He noted that new functions have been devised for the UN force, "about which he always had suspicions," which, he said, exceed its mission as originally defined by the General Assembly and which run counter to Egyptian and Arab interests. He said the Western proposal that Suez Canal tolls be paid to the World Bank is a "flagrant violation of Egyptian sovereignty" and represents another attempt "to impose the Menzies or Dulles plan" for international control. He also told the ambassador that his new post--as one of the eight secretaries of the central committee of the Soviet party--will keep him in close touch with foreign policy, "especially Egyptian affairs
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.972691
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.964980
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: Comment on

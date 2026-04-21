@@ -1,0 +1,138 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.763889
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.972269
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 6. Iran rejects UK request for arbitration of oil issue
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 10. French Communists reportedly prepare new strike wave
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 6
+- original #2 segment 2: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=0.897436
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: of US favors by supporting the House bill, which provides wheat to India solely on a loan basis. The final terms of a US loan may be the determining factor governing an Indian decision to accept US or Communist offers. FAR EAST 5. Communist China seeks rubber from Indonesia: The Government of Indonesia is considering Communist China's offer to purchase 50,000 tons of rubber. In conversations with the
+Token count: 69
+Recut: none
+
+Clean Chunk #4 (original #4, segment 1)
+Text: 6. Iran rejects UK request for arbitration of oil issue: The UK request to Iran for arbitration of the oil issue was formally rejected by the Iranian Ambassador in London on 8 May. He informed the British Foreign Office that Iran will proceed with its oil nationalization program and will not submit to international arbitration. According to the UK Embassy in Tehran, the Anglo-Iranian Oil Company's demand for arbitration was inspired by a message from the Shah indicating that Iranian Prime Minister Mossadeq would welcome such a demand because it would enable him to procrastinate. Mossadeq is understood, however, to have expressed astonishment at the demand for arbitration. Comment: Mossadeq's rejection of the UK demand for arbitration is consistent with his previous stand. It was probably conditioned by the consideration that Iran could not accept arbitration under the terms of the 1933 concession and still maintain that the concession was invalid. Whether the UK action was taken at the Shah's instigation or not, it will probably have the effect of forcing
+Token count: 171
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=0.637489
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #5, segment 1)
+Text: Mossadeq to delineate his plans on the oil issue more clearly. To date, he has indicated that he will not take drastic action immediately and that he intends eventually to replace Anglo-Iranian Oil Company technicians with Iranians
+Token count: 37
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens
+  Text: urgent
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: the better." Egyptian Foreign Minister Salaheddin recently told the US Ambassador that if the forthcoming British reply allows Egypt "to save some face," the Egyptian public will be told that the door to further discussions is still open and Salaheddin will then go to London for subsequent negotiations. Salaheddin indicated that Egypt would be prepared for discussions throughout the summer but that if no progress had been made by November, Egypt would denounce the 1936 Treaty. The US Ambassador believes that the King's desire to prevent a breakdown in negotiations at this time is the main reason for the present change in the Egyptian attitude toward the treaty problem. Comment: King Farouk's opposition to a break in Anglo-Egyptian treaty discussions, coupled with Salaheddin's more moderate attitude toward the defense problem, should help considerably in bringing about a continuation of the talks. Nevertheless, a wide gap remains between British and Egyptian thinking on the defense issue
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=8
+alignment_score=0.851304
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 10. French Communists reportedly prepare new strike wave: A widespread strike movement will probably be unleashed following the Congress of the General Workers' Confederation at the end of May. Although this renewed strike activity is planned as part of the electoral campaign, the Communist Party expects to pursue the strikes primarily within the framework of economic demands, with such political tie-ins as conditions warrant. The predominance of economic over political slogans was particularly noticeable at this year's Communist May Day demonstration in Paris. Intensified French Communist propaganda at the plant level in support of both economic and political objectives has been making progress since the Easter strikes, and several well-informed non-Communist labor leaders have affirmed that a concentrated "unity of action" program on "exclusively worker demands" would force the Socialist and Christian industrial unions to cooperate or lose their following. Comment: A new round of wage demands is to be expected soon, because the steady rise in the price level is rapidly nullifying benefits gained by the March strikes. The Communists seem, however, to have picked June for fomenting new strikes with an eye to political rather than to economic aims, since the pre-election government will not be in a position to commit its successor to a new wage program. Should the Communists give the strikes a too pronounced political coloring, however, labor's readiness to cooperate would be
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=10 unred_source_page=9
+alignment_score=0.984000
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #9, segment 1)
+Text: sharply checked because of its wariness of being exploited by the French Communist Party
+Token count: 14
+Recut: none
+
+Clean Chunk #7 (original #10, segment 1)
+Text: on 9 May prior to presentation to the National
+Token count: 9
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

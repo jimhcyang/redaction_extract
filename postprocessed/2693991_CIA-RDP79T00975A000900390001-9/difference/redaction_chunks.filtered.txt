@@ -1,0 +1,77 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.962500
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. 5
+- original #2 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.942319
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #3, segment 2)
+Text: 2. Burma to take stand against forced repatriation of Korean POW's
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: page 3
+- original #4 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: page 4
+- original #4 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.989815
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #5, segment 1)
+Text: 2. Burma to take stand against forced repatriation of Korean POW's
+Token count: 11
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

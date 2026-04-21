@@ -1,0 +1,97 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.997600
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: GENERAL 1
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: GENERAL
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.996016
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens
+  Text: been
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.942545
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #4, segment 1)
+Text: 6. Egyptian military regime to seek $100,000,000 in US economic aid: Colonel Amin, a member of the Egyptian army inner circle, has indicated to Ambassador Caffery that the military regime intends to request approximately $100,000,000 in economic aid from the United States. In addition Colonel Amin handed the Ambassador a note from General Nagib including a list of military equipment desired and stating in general terms Egypt's desire to cooperate with the United States. Comment: This is the first time that Egypt has revealed the extent of its economic demands in return for cooperation with the West. According to General Nagib, Egyptian participation in MEDO is also dependent on withdrawal of British troops from the Suez area. 7. British Government sees possibilities in Egyptian proposals on Sudan: British officials in London, Khartoum and Cairo state that the Egyptian proposals for the Sudan seem generally acceptable
+Token count: 149
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=red_only red_source_page=6 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=0.930435
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #5, segment 1)
+Text: but that their implementation would involve considerable practical difficulty. One of them, a member of the Sudan Government, although skeptical about the good faith of some of General Nagib's advisers, considers that Nagib's own new attitude makes a settlement possible. Comment: British officials evidently feel that it will be possible to discuss their points of difference with the Egyptians. They had previously stated that the proposals as presently framed would delay Sudanese elections for at least a year and would cut across Britain's promise to make no major changes in the government without consulting the Sudanese
+Token count: 96
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

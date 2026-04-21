@@ -1,0 +1,188 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.673077
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 13 February 1958 I. THE COMMUNIST BLOC USSR threatens to obstruct Japanese fishery negotiations to force peace treaty discussion. Opposition to East German Communist boss Ulbricht continues. Moscow - TASS cautiously endorses Egyptian-Syrian union; USSR will probably recognize the new state. II. ASIA-AFRICA Indonesia - Disunity among dissidents; government likely to engage in political and military maneuvering. King Saud and President Chamoun inform King Hussayn they will have to recognize Egyptian-Syrian union after 21 February plebiscite. III. THE WEST Tunisia - Bourguiba will ask for immediate evacuation of French troops
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 13 February 1958 DAILY BRIEF
+- original #2 segment 2: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC USSR-Japan: The USSR is attempting to force Japan to discuss a peace treaty on Soviet terms by threatening to obstruct current fishery negotiations. Prime Minister Kishi has held that Japan is willing to undertake peace treaty discussions, if Japanese views on the southern Kurils territorial issue are accepted by the USSR. It is doubtful that Tokyo will change its stand on this issue--the major obstacle to a treaty--in order to gain fishing concessions. (Page 1) (Map) East Germany: Last week's purge in the East German Communist party has not quelled opposition to party boss Ulbricht. However, as long as Ulbricht continues to receive Soviet support, his opposition will not be able to unseat him or to bring about any significant changes in policy. (Page 2) *Egyptian-Syrian union--Moscow view: After a period of apparent hesitation and avoidance of comment, the Soviet news agency TASS has broadcast a cautious Soviet endorsement of the United Arab Republic. The Soviet government remains officially silent. While the brief TASS comment fell short of the welcome previously accorded the Egyptian-Syrian union by Chou En-lai, the Eastern European press, and the Ukrainian party newspaper, it suggests that the USSR is preparing to extend recognition to the new state soon after Nasir is proclaimed president
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA *Indonesia: Indonesian dissidents are not united on their future plans. The central government may attempt to exploit this disunity by sending some troops to areas where foreign economic interests are concentrated, according to one late report. However, all factions desire to avoid open conflict, and a period of political and military maneuvering is probable. (Page 3) Saud to recognize UAR: King Saud informed Jordan's King Hussayn he will be unable to delay recognizing Egyptian-Syrian union after the plebiscite scheduled for 21 February. Hussayn has received a similar message from Lebanese President Chamoun. Taiwan Strait: In the Taiwan Strait area, Chinese Communist air defense capabilities have shown progressive improvement during the past few months. This trend is discussed in the report of the IAC Current Intelligence Group for the Taiwan Strait problem, covering the period from 9 January to 12 February 1958. (Page 4) (Map) III. THE WEST French-Tunisian situation: President Bourguiba intends to ask the UN Security Council to order all French forces--including those at the Bizerte base--to evacuate Tunisia. If France agrees publicly to such an action, Bourguiba will not press his appeal. The over-all evacuation would be staged over a period of time, but withdrawal from southern Tunisia, according to Bourguiba, would have to be "almost" immediate. Although the French may relinquish their remaining posts in southern Tunisia, they are not likely under present circumstances to give up Bizerte
+- original #3 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 5) 13 Feb 58 DAILY BRIEF
+- original #3 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: 0 50 100 Statute Miles 0 50 100 Nautical Miles SAKHALIN SEA OF OKHOTSK KURIL ISLANDS URUPPU ETOROFU KUNASHIRI SHIKOTAN HOKKAIDO
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=4 unred_source_page=7
+alignment_score=0.994444
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: 13 Feb 58 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=5 unred_source_page=8
+alignment_score=0.989078
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #6, segment 1)
+Text: and feels the fight has just begun
+Token count: 7
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: 13 Feb 58 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=0.889623
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #8, segment 1)
+Text: Indonesian dissidents in Central Sumatra are split over their next move. Two key figures in the dissident group, Colonels Simbolon and Lubis, have little hope of pushing through their original plan to form a provisional government. The central government in Djakarta may already be planning to exploit this disunity. Djakarta may send limited numbers of troops to areas where foreign economic interests are concentrated, to ensure continued foreign exchange remittances to Djakarta
+Token count: 72
+Recut: none
+
+Clean Chunk #3 (original #9, segment 1)
+Text: National party leaders plan to recommend to him the formation of a new cabinet led by former Vice President Hatta. Should Sukarno refuse, they will recommend that he at least drop two leftist ministers from the cabinet
+Token count: 37
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #9 segment 2: noncontent_keyword
+  Text: 13 Feb 58 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: TAIWAN STRAIT SITUATION 12 FEBRUARY 1958 STATUS OF AIR FACILITIES DELINEATED RUNWAYS used by military or civilian aircraft. 7000 feet or over 6000 feet to 6999 feet 5000 feet to 5999 feet 4000 feet to 4999 feet RUNWAY SURFACE P - Permanent T - Temporary N - Natural UC - Under Construction UNK - Unknown OTHER - Air facilities printed in black are those under construction, unserviceable, cannot be determined, or on which the availability of information is such that the current status cannot be determined. * Delineated runways are explained as a defined or marked area on an airfield prepared or selected for landing and take-off of aircraft
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=7 unred_source_page=11
+alignment_score=0.243732
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: Report No. 113 of the IAC Current Intelligence Group for the Taiwan Strait Problem, Covering the Period From 9 January To 12 February 1958
+- original #12 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: There were no significant combat operations
+- original #13 segment 1: full_page_or_admin
+  Text: the area during the period. 2. Chinese Communist air defense capabilities have shown progressive improvement during the past few months. There has been a noticeable increase in the frequency and scope of Ground Control Intercept attempts by Chinese Communist jet fighters against Nationalist jets overflying the China mainland. This intensified effort to counter Chinese Nationalist air activities is primarily a result of additional fighter coverage in Southeast China. While these factors reflect a tightening of Chinese Communist air defenses and are chiefly attributable to Chinese Communist willingness to challenge Nationalist air operations, the Chinese Communist Air Force, with an estimated 1,625 jet fighters, is still believed to be deficient in many areas. Sufficient numbers of all-weather fighters are lacking; pilot proficiency is relatively low; and major logistic support is still dependent on the USSR. 3. the port of Amoy now is open to Japanese shipping. It is probable that the Chinese Communist motive in opening the port to the Japanese was in part a desire to embitter relations between Japan and Nationalist China. The Chinese Nationalists on 3 February issued a statement reiterating their "port closure" of all China mainland ports and warned that foreign shipping entering the Taiwan Strait should inform Nationalist officials in advance. If Japanese shipping does commence using Amoy, the Nationalists probably will confine their protests to the diplomatic field. British ships since last August have been entering Amoy without interference. 4. Chou En-lai, in his foreign policy address on 10 February, devoted considerable attention to the charge that the US was attempting to create acceptance of the status quo on Taiwan and thus to bring about a "two Chinas" situation, which he termed "absolutely unacceptable." Chou reaffirmed Peiping's determination to gain control of Taiwan but did not discuss the means by which this is to be accomplished
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 13 Feb 58 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=8 unred_source_page=12
+alignment_score=0.982295
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #14, segment 1)
+Text: Prior to this formulation of Tunisian aims, UN Secretary General Hammarskjold had advised Tunisian delegate Mongi Slim to "play for time" before formally requesting a Security Council meeting
+Token count: 28
+Recut: none
+
+Excluded candidates:
+- original #15 segment 1: noncontent_keyword
+  Text: 13 Feb 58 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=10 unred_source_page=14
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 13 February 1958 DAILY BRIEF
+- original #16 segment 2: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC USSR-Japan: The USSR is attempting to force Japan to discuss a peace treaty on Soviet terms by threatening to obstruct current fishery negotiations. Prime Minister Kishi has held that Japan is willing to undertake peace treaty discussions, if Japanese views on the southern Kurils territorial issue are accepted by the USSR. It is doubtful that Tokyo will change its stand on this issue--the major obstacle to a treaty--in order to gain fishing concessions. (Page 1) (Map) East Germany: Last week's purge in the East German Communist party has not quelled opposition to party boss Ulbricht. However, as long as Ulbricht continues to receive Soviet support, his opposition will not be able to unseat him or to bring about any significant changes in policy. (Page 2) Egyptian-Syrian union--Moscow view: After a period of apparent hesitation and avoidance of comment, the Soviet news agency TASS has broadcast a cautious Soviet endorsement of the United Arab Republic. The Soviet government remains officially silent. While the brief TASS comment fell short of the welcome previously accorded the Egyptian-Syrian union by Chou En-lai, the Eastern European press, and the Ukrainian party newspaper, it suggests that the USSR is preparing to extend recognition to the new state soon after Nasir is proclaimed president. Saud to recognize UAR: King Saud informed Jordan's King Hussayn he will be unable to delay recognizing Egyptian-Syrian union after the plebiscite scheduled for 21 February. Hussayn has received a similar message from Lebanese President Chamoun

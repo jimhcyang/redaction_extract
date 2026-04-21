@@ -1,0 +1,92 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.729545
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.813893
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #3, segment 1)
+Text: SOUTHEAST ASIA 3. Chinese Communists in Burma reportedly advised to be ready to leave
+Token count: 14
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: WESTERN EUROPE 6. France seeks close collaboration with US on new weapons development
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 2: noncontent_keyword
+  Text: page 4
+- original #4 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.907105
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens
+  Text: INFORMATION
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.857751
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #8, segment 1)
+Text: The delivery of weapons to Communist China by sea has been rarely attempted, because rail shipment through the USSR is more secure. SOUTHEAST ASIA 3. Chinese Communists in Burma reportedly advised to be ready to leave: Comment: The Chinese Communists may believe that the continued presence of Chinese Nationalist troops in Burma will greatly intensify anti-Chinese sentiment among the Burmese. They may thus be taking steps to avoid entanglement in official or unofficial Burmese retaliation against the Chinese community
+Token count: 79
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.982064
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin, noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #10 segment 2: full_page_or_admin
+  Text: WESTERN EUROPE 6. France seeks close collaboration with US on new weapons development: Comment: Bidault has publicly expressed the interest of his government in a NATO strategy based on atomic weapons. The French representative to the North Atlantic Council has stated that Paris is concerned not over the question of the withdrawal of American troops now, but about modifications of the 1954 NATO military program and changes in future planning. The French press, however, has played up statements of American officials regarding the possible withdrawal of some United States ground troops from Europe during the next two years

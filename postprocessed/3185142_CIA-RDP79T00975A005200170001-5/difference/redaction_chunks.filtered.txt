@@ -1,0 +1,181 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.300000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. C 11 CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.245443
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 20 JULY 1960 I. THE COMMUNIST BLOC 1. USSR to resume substantial arms shipments to UAR; also apparently will provide Iraq with MIG-19 aircraft
+- original #3 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: USSR may be preparing for another space vehicle launching. II. ASIA-AFRICA 3. Republic of Congo--Belgian Government considering recognition of Katanga Province's secession; situation
+- original #4 segment 1: full_page_or_admin
+  Text: northeast Congo tense, and rising unemployment in Leopoldville Province poses threat of riots. 4. Iraqi oil exports through Persian Gulf likely to be closed down unless Qasim revokes decree raising loading charges. III. THE WEST 5. Cuba--Castro indicates concern over growing church opposition to Cuba's increased Communist ties. 6. West German defense minister "dubious" of wisdom of Adenauer's position of avoiding "provocative actions" in Berlin
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 20 July 1960 DAILY BRIEF
+- original #5 segment 2: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC USSR - Middle East: A Soviet merchant ship--the Lipetsk--has been scheduled to load a cargo of arms in the near future for the UAR at the Black Sea port of Nikolaev, the first significant Soviet arms shipment consigned to the UAR in more than a year. Additional military equipment, presumably also destined for the UAR, now is arriving at Nikolaev, suggesting that major arms deliveries are about to be resumed. Earlier evidence indicates that the UAR probably will receive MIG-19 jet fighters and T-54 medium tanks, as well as other weapons and equipment. Moscow also has apparently decided to provide Iraq with MIG-19s. a group of officers and enlisted men are preparing to go to the Soviet Union to take training on "the care and maintenance of the MIG-19 aircraft." (Page 1) USSR: Recent activity on the Tyura Tam missile test range indicates that another space vehicle launching may occur soon. Following the 7 July firing to the mid-Pacific there has not been the usual departure of large numbers of aircraft from the rangehead area. Instead, an unusually high number of Moscow-based transport aircraft have been noted flying into Tyura Tam. Two rangewide practices were conducted on 13 and 18 July. Although identification of the type of vehicle is not yet possible and the activity may culminate in a normal ICBM firing to Kamchatka, a forthcoming launching will be connected with space operations
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=3 unred_source_page=5
+alignment_score=0.917343
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #8, segment 1)
+Text: in its public attitude toward the Castro government, but its stand will probably be hardened by the spontaneous anti-Communist demonstrations of churchgoers on 17 and 18
+Token count: 26
+Recut: none
+
+Clean Chunk #2 (original #9, segment 1)
+Text: US Ambassador Bonsal feels that Soviet Premier Khrushchev's 9 July statement of support for Cuba has been a serious blow to the Castro regime in that, by clarifying any doubt regarding the Communist orientation of the government, it has put Castro on the defensive. (Page 4) West Germany: Defense Minister Strauss has indicated to the American Embassy in Bonn that he is "dubious" regarding the wisdom of Chancellor Adenauer's position that the federal government must avoid taking any action in Berlin "which would create difficulties for our allies." Strauss feels that if the Bundestag session is not held in Berlin this fall, it probably would not ever be held there again. Another party official explained Adenauer's position on the ground that any action, whether it had precedent or was something new, which would serve as a pretext for a separate treaty between the USSR and East Germany must be avoided. He said it was assumed that the US would not wish to be put in the kind of difficult situation which would result from a separate treaty touched off by holding a Bundestag meeting in Berlin
+Token count: 186
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Page 2
+- original #7 segment 1: noncontent_keyword
+  Text: Page 3
+- original #9 segment 2: noncontent_keyword
+  Text: Page 5
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens
+  Text: continued
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=4 unred_source_page=7
+alignment_score=0.062233
+kept_candidate_count=2
+excluded_candidate_count=10
+
+Clean Chunk #3 (original #11, segment 1)
+Text: Bloc Arms Aid
+Token count: 3
+Recut: none
+
+Clean Chunk #4 (original #22, segment 1)
+Text: the MIG-19 aircraft." Iraqi military personnel have recently been assigned to go to the Soviet Black Sea port of Poti for motor torpedo boat training
+Token count: 25
+Recut: none
+
+Excluded candidates:
+- original #12 segment 1: nonempty_redacted_alternate_conflict
+  Text: UAR and Iraq
+- original #13 segment 1: nonempty_redacted_alternate_conflict
+  Text: Soviet merchant ship Lipetsk
+- original #14 segment 1: nonempty_redacted_alternate_conflict
+  Text: been scheduled to carry an arms cargo to Alexandria from
+- original #15 segment 1: nonempty_redacted_alternate_conflict
+  Text: Black Sea port of Nikolaev later this month, apparently initiating the first significant Soviet deliveries of military equipment
+- original #16 segment 1: short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: UAR
+- original #17 segment 1: nonempty_redacted_alternate_conflict
+  Text: well over
+- original #18 segment 1: nonempty_redacted_alternate_conflict
+  Text: year. Additional Soviet materiel, presumably also consigned to the UAR, now is arriving at Nikolaev, suggesting that Cairo is again to receive large quantities of military supplies from
+- original #19 segment 1: nonempty_redacted_alternate_conflict
+  Text: Lipetsk shipment appears to climax almost two years of intermittent and frequently troubled negotiations. the USSR had planned to supply the UAR with MIG-19 jet fighters, T-54 medium tanks, and a wide assortment of other arms and equipment. Czech-UAR negotiations concerning additional military aid--including arms repair shops and spare parts for equipment previously supplied the UAR--also appear
+- original #20 segment 1: nonempty_redacted_alternate_conflict
+  Text: nearing a successful conclusion in Prague. The UAR negotiator in late June informed Cairo that he hoped to resolve all the problems concerning the agreement in early July, and that he planned to return to the UAR by the middle of the month. There are indications that the UAR has begun negotiations with Poland, too, for the supply of military equipment--possibly arms production facilities. Moscow apparently now has decided to provide Iraq also with MIG-19s. a group of officers and enlisted men is being prepared to take training
+- original #21 segment 1: nonempty_redacted_alternate_conflict
+  Text: Soviet Union on "the care and maintenance
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.951182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.974242
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.963968
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government's
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.979762
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=13
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

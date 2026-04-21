@@ -1,0 +1,171 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.757143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122991
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 23 OCTOBER 1959 I. THE COMMUNIST BLOC Soviet disapproval of communes causing dissension
+- original #2 segment 1: full_page_or_admin
+  Text: Chinese party. Chinese leaders tell Indian Communist chief they want "proper atmosphere" before beginning border talks with Nehru. II. ASIA-AFRICA Soviet diplomat visiting Jordan; USSR offer of aid "with no strings" reported. Nasir makes new effort to speed up political and economic reform in Syria. Terrorist activity in Cameroun may include attacks on US and British consular installations. Pakistan President Ayub has invited Afghan prime minister to visit Karachi and discuss settlement of differences. LATE ITEM Ballistic vehicle launched at Tyura Tami
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.906795
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 2)
+Text: Communist China - India: Mao Tse-tung on 6 October sought to provide Indian Communist party leader Ajoy Ghosh with a display of Peiping's "reasonableness" which Ghosh could use in offsetting Indian Communist party factional disputes arising out of the Sino-Indian border dispute. Mao admitted Peiping had "made some mistakes" by continuing to publicize its extensive border claims, but he assured Ghosh the Chinese would not press the full claims in any negotiations over border outposts. Both Mao and Liu Shao-chi told Ghosh negotiations on the border could begin as soon as the "proper atmosphere" developed--suggesting the Chinese expect the Indian Government to adopt a more friendly tone in public. Nehru said on 21 October that he had received no reply to his latest letter to Chou En-lai and commented that the Chinese did not show the same "eagerness for peace" as Khrushchev
+Token count: 142
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: Page 1
+- original #3 segment 3: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.974389
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #5, segment 1)
+Text: Attacks by extremist members of the Union of the Cameroons Population (UPC) on British and American consular installations in Douala and Youandé--originally slated for 15 and 19 October--are now scheduled for 1 November
+Token count: 35
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 4
+- original #4 segment 2: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Cameroun
+- original #6 segment 1: noncontent_keyword
+  Text: Page 5
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.875110
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #7, segment 1)
+Text: Afghanistan-Pakistan: Pakistani President Ayub has invited Afghan Prime Minister Daud to visit Pakistan to "discuss a settlement of their differences." Daud has indicated willingness to make the trip if Ayub assures him he will discuss the Pushtoonistan dispute. A meeting of the two leaders might check the deterioration in relations resulting from recent heated propaganda exchanges, but it is doubtful that either side is ready to make the concessions necessary for a settlement of the difficult Pushtoonistan problem
+Token count: 78
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #8, segment 1)
+Text: LATE ITEM USSR: A ballistic vehicle was launched on the Tyura Tam missile test range at about 1333 EDT on 22 October. Location of the impact area is not clear, because of conflicting evidence: 28 minutes after launch, Soviet and American elements reported visually sighting the vehicle near the Kamchatka Peninsula; on the other hand, a descending vapor trail was sighted four minutes later by an American observer about 1,100 miles further down range, near three heavily instrumented Soviet ships which were addressees for the Tyura Tam countdown. Insufficient information is available at this time to permit assessment of the mission as an ICBM test or capsule-recovery event
+Token count: 109
+Recut: none
+
+Excluded candidates:
+- original #7 segment 2: noncontent_keyword
+  Text: Page 6
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.972996
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Peiping's
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: Mao Seeks to Reassure Indian Communist Leader Mao Tse-tung on 6 October sought to provide Indian Communist party leader Ajoy Ghosh with arguments to offset criticism of Communist China, which has split the Indian Communist party on the border dispute. Admitting that Peiping had "made some mistakes" in publicizing its border claims, Mao assured Ghosh the Chinese had no intention of pressing these full claims in negotiating with the Indians to settle disputes over the location of individual border outposts along the McMahon line. Mao did not abandon Communist China's claims, however, and stated it would be necessary to develop the "proper atmosphere" before any negotiations could be held. This suggestion that the Indian Government adopt a more friendly tone in public probably was intended to reach Nehru and, along with the other comments on the border, apparently was conveyed by one of the Indian Communists to the Indian ambassador in Peiping. Mao praised the Indian party for efforts to "overcome nationalist feelings" and conceded that, "under certain circumstances," public endorsement of Peiping was not feasible. Seconding earlier instructions from Moscow, Mao told Ghosh the Indian party should try to "save Nehru from the rightists" and side with him for the time being. Mao's alleged assurances should provide Ghosh with powerful ammunition in subduing "nationalist" and "internationalist" extremists and restoring party discipline. Nehru told the press on 21 October that he had received no reply to the letter he sent Chou En-lai three weeks ago, in which he said no negotiations could be held until China evacuates outposts it holds on the Indian side of the "traditional" frontier. His comment that the Chinese did not show the same "eagerness for peace" as Khrushchev apparently was designed to bolster his theory that Peiping and Moscow are at odds over relations with India
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.964466
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword, ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ASIA--AFRICA
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.977104
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.919733
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #13, segment 1)
+Text: Attacks by UPC extremists on British and American consular installations in Douala and Yaoundé--originally slated for 15 and 19 October--are now scheduled for 1 November. The terrorists presumably plan these attacks, which allegedly include assassinating the American consul general in Yaoundé and the British vice consul in Douala, as a prelude to a new campaign of violence aimed at ousting the moderate government of Premier Ahidjo and forcing new elections in Cameroun before it becomes independent on 1 January 1960
+Token count: 82
+Recut: none
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 11
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: Afghan and Pakistani Leaders May Meet to Discuss Pushtoonistan Dispute Pakistani President Ayub has invited Afghan Prime Minister Daud to visit Pakistan to "discuss a settlement of differences." Ayub's invitation, extended on 19 October, is his first conciliatory gesture to the Afghans. After he took power in October 1958, Ayub generally ignored Kabul's Pushtoonistan propaganda, which became increasingly violent. Since early September, however, Pakistan has been retaliating with its own propaganda offensive. Daud has said he is willing to go to Pakistan if assured that the Pushtoonistan dispute will be the subject of discussion. He has suggested, however, that his brother, Foreign Minister Naim, might first talk with Ayub and learn whether conditions seem favorable to a solution of this problem. Daud probably does not want to return home from a trip to Pakistan with nothing to show for his trouble; if he should feel that Ayub had used a meeting for propaganda purposes, his own Pushtoonistan propaganda would probably become still more violent. The willingness of both leaders to meet suggests they may desire to halt the deterioration in relations resulting from heated propaganda exchanges. It is doubtful, however, that either side is ready to make sufficient concessions to secure a lasting settlement
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.986698
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens
+  Text: The

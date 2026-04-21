@@ -1,0 +1,98 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.905556
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.931250
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 3. Prisoners presumably released under amnesty being re-employed locally (page 4). SOUTHEAST ASIA 4. Chinese Communist drive into Southeast Asia (page 4). 5. Thai political refugee reportedly organizing Thai government-in-exile
+Token count: 30
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 7. Egyptian Communists invite Wafd to join political united front
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996119
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.882199
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 3. Prisoners presumably released under amnesty being re-employed locally: A group of people had been "taken away from the construction" and had been gathered together at the settlement where "the order" was read to them. The official also said that "the contract forms have already been drawn up and today we are beginning to sign them on one by one." Comment: The prisoners released under the recent amnesty proclamation will be required to remain in the area of their former imprisonment and continue to work at the same jobs. SOUTHEAST ASIA
+Token count: 91
+Recut: none
+
+Clean Chunk #4 (original #4, segment 1)
+Text: Chinese Communist drive into Southeast Asia: The invasion of Laos is directed by Peiping, and clearly connected with long-formulated Chinese Communist plans for a drive into Southeast Asia. With the large amounts of American equipment now at hand, France and Vietnam have the materiel to defeat the Communists in Indochina, but there were no Vietnamese troops to use it
+Token count: 59
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.884692
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #5, segment 1)
+Text: Comment: Chinese Communist aid to the Viet Minh has recently more than doubled in quantity and Chinese Communists for a long time have been providing advice on strategy. So far, however, there is no evidence that the present campaign is a prelude to a Chinese Communist invasion of Southeast Asia. 5. Thai political refugee reportedly organizing Thai government-in-exile: Tiang Sirikhan, an influential leftist politician who fled from Thailand last December, is in Rangoon organizing a Thai "government-in-exile" consisting of supporters of exiled former Premier Pridi, in addition to maintaining liaison with leftist elements in Burma and Thailand, Tiang might be in contact with the new "Free Laos Government." Comment: Tiang was arrested in 1948 on charges of fomenting a separatist movement in northeast Thailand, but was later released for lack of evidence. At the time of his disappearance, the Thai police announced that Tiang had fled to Burma, but later intimated that he may have gone to Indochina. Tiang was a staunch supporter of Pridi, whose name has frequently been mentioned in connection with Communist plans to take over Thailand
+Token count: 180
+Recut: none
+
+Clean Chunk #6 (original #7, segment 1)
+Text: 7. Egyptian Communists invite Wafd to join political united front: Yusuf Hilmi, head of the Communist-front organization "Partisans of Peace," met on 24 April with Wafd leaders to discuss formation of a political united front of Wafdists, Communists and others opposed to the Nagib regime. Comment: Egyptian Communists, numbering but a few thousand, have not exerted much influence in the past. They participated in anti-British guerrilla activity in 1951-52 in the Suez Canal Zone when they associated themselves with other extremists, including some Wafd adherents. Their current effort will probably not result in an alliance, but it may bring about public demonstrations; and at this critical point in the Suez negotiations, Nagib and his associates are greatly concerned over public opinion and inclined to follow it
+Token count: 126
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Sheikhdoms
+
+========================================================================
+[PAGE 06]
+kind=red_only red_source_page=6 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=0.994785
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

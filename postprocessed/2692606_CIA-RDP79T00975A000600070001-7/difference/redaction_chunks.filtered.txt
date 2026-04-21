@@ -1,0 +1,101 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.738182
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: TOP SECRET SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.963148
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 4. Plot against Thai Government reported
+Token count: 6
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: LATIN AMERICA 9. Possible coup d'etat in Bolivia
+- original #3 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996398
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.978169
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: Plot against Thai Government reported: A coup d'etat is to take place in Thailand during the period between 3 March and 13 March. The identity of the leaders is not known
+Token count: 31
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.938176
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: Comment: This is the latest in a long series predicting planned coups, and reflects the widespread dissatisfaction in Thailand with the ruling military clique. The increasingly blatant corruption and dictatorial actions of the Thai Government and warned of possible "deep and serious repercussions." Plotting for the overthrow of the government is constant, but no attempt can be successful unless the military services are persuaded to abandon their leaders. This fact has probably prevented any recent coup effort and will be a deterrent to future action
+Token count: 85
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.996828
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.948703
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #8, segment 1)
+Text: LATIN AMERICA 9. Possible coup d'etat in Bolivia: A faction of the Bolivian General Staff, led by the head of Army Intelligence, is planning a coup which will have army support and may occur shortly, according to a reliable source. The plans call for the establishment of a mixed junta of military and civilian ministers, and possibly with Hernan Siles Zuazo as president. General Torres Ortiz, Chief of the General Staff is not involved. Comment: Hernan Siles Zuazo, was the Nationalist Revolutionary Movement's candidate for Vice President in the May 1951 elections
+Token count: 92
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Middle-East
+- original #7 segment 1: short_span_min_tokens
+  Text: may
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: On 18 February, General Torres, had switched his support from the Nationalist Revolutionary Movement, to the present governing junta in the belief that the Movement is backed by the small Bolivian Communist Party. All military units are subject to Torres' command and it would be difficult for the new conspiracy to engineer a coup without army support

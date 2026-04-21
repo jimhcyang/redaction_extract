@@ -1,0 +1,161 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.530000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.123327
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 5 OCTOBER 1959 I. THE COMMUNIST BLOC USSR launches another moon shot. Communists draft treaty proposals for summit meeting. Khrushchev leaves Peiping without usual prior joint communiqué. II. ASIA-AFRICA Indonesian rebels sabotage Sumatran oil installations. South Vietnam--Aggressive Communist guerrillas ambush army units. UAR warns Washington embassy improvement of relations with US should not risk antagonizing USSR. III. THE WEST Bloc postpones trade talks with Iceland until after elections, possibly as weapon to improve Communist prospects
+- original #3 segment 1: full_page_or_admin
+  Text: new government
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.898283
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #4, segment 1)
+Text: USSR: For a preliminary evaluation of the latest space launching by the USSR, see
+Token count: 14
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #5, segment 2)
+Text: USSR: Khrushchev and the Soviet delegation to Peiping's tenth anniversary celebration left for Moscow on 4 October amid signs that the talks with the Chinese Communist leaders had been less than satisfactory from the USSR's viewpoint. In an unusual exception to standard bloc practice on such occasions, no communiqué was issued prior to the Soviet delegation's departure. Khrushchev's farewell speech suggests he failed to win Peiping's support for Moscow's current calls for a détente. He said, "We Communists of the Soviet Union consider it our sacred duty and primary task" to end the cold war and guarantee the "triumph of the cause of peace," but he gave no indication that the Chinese had endorsed this line. The USSR feels anxiety over Peiping's recent behavior, particularly in the Sino-Indian border dispute, and would like somehow to hold China in check
+Token count: 140
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 2: noncontent_keyword
+  Text: Page 1
+- original #5 segment 1: noncontent_keyword
+  Text: Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.958824
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #6, segment 1)
+Text: Dissident threats to commit sabotage unless the oil companies support the rebels have been periodically reported for months
+Token count: 18
+Recut: none
+
+Clean Chunk #4 (original #8, segment 1)
+Text: UAR-USSR: The UAR Foreign Ministry in Cairo cautioned that Cairo did not want "to skid into the cold war" between East and West--if America wishes to improve relations with us, that is all right, but not at the expense of our relations with Russia
+Token count: 45
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens
+  Text: South
+- original #9 segment 1: noncontent_keyword
+  Text: 5 Oct 59 DAILY BRIEF
+- original #9 segment 2: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.243786
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Soviet Space Vehicle (Lunik III) Launching At about 0044 GMT 4 October 1959 (2144 EDT 3 October) the Soviet Union, after a smooth four-hour countdown, launched a space vehicle from the Tyura Tam Missile Test Range. About three and a half hours later, the operation was publicized by Moscow's overseas broadcasts as the launching of the third Soviet cosmic rocket with a major portion of its objectives being lunar associated. The USSR has issued considerable propaganda on this space event, the more significant being
+- original #11 segment 1: full_page_or_admin
+  Text: the satellite (Lunik III) will swerve around the moon and record the reverse side (possibly including photography) from a distance of about 6,000 miles; (2) it will begin a return to the vicinity of the earth after circumnavigating the moon; (3) its exact path after these maneuvers cannot yet be established with certainty--not excluded is that Lunik III may become a long-lived earth satellite with a very elongated axis; (4) it will accumulate scientific data during its travel, but will transmit to earth only two to four hours per day under control of a Soviet ground control station; (5) over-all, the last-stage weight is only slightly heavier (about 3 percent) than Lunik II, but the instrumentation load is about 10 percent heavier, suggesting an exchange of fuel weight for additional instrumentation. While no mention was made as to when Lunik III would start its circumnavigation of the moon, on the basis of the flight times of Luniks I and II, this phase of the operation would start about noon EDT, 5 October. Other than during the initial part of the flight, there is little independent Western evidence. The USSR sent space-tracking data to the large radio telescope installation at Jodrell Bank, UK, which reportedly was able to lock on and track the satellite for only a very brief time before the signals abruptly ceased
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 5 Oct 59 CENTRAL INTELLIGENCE BULLETIN
+- original #12 segment 1: full_page_or_admin, noncontent_keyword, short_span_min_tokens
+  Text: 1
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.981818
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #13, segment 1)
+Text: The Soviet delegation to a summit conference will present an "unusual" appearance in that it will include scientists, economists, and writers as well as political leaders and diplomats
+Token count: 28
+Recut: none
+
+Excluded candidates:
+- original #14 segment 1: noncontent_keyword
+  Text: 5 Oct 59 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.986968
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: accounted
+- original #16 segment 1: noncontent_keyword
+  Text: 5 Oct 59 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.985019
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens
+  Text: The
+- original #18 segment 1: short_span_min_tokens
+  Text: The
+- original #19 segment 1: short_span_min_tokens
+  Text: The
+- original #20 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

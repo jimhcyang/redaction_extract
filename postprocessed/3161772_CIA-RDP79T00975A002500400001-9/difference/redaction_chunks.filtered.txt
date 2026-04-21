@@ -1,0 +1,95 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.652273
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.807390
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. CAIRO SEES FOREIGN AFFAIRS ENTERING CRITICAL PHASE
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: nonempty_redacted_alternate_conflict
+  Text: THE ARAB-ISRAELI SITUATION
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.971064
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 2. CAIRO SEES FOREIGN AFFAIRS ENTERING CRITICAL PHASE Comment on: Egypt may be reconsidering its foreign policy in the light of the Soviet statement of 17 April on the Middle East and the subsequent British-Soviet communique. The USSR's apparent desire to avoid war in the Near East may have upset Premier Nasr's calculations. He faces a dilemma in deciding on future policy. He can now seek closer relations with the USSR in the belief that this might encourage the Soviet Union to permit Egypt to continue preparations for war against Israel. Alternatively he can seek to strengthen Egypt's ties with the West by moderating his attitude toward Israel
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.945007
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.970135
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 9 May) A new clash was reported on the Egyptian-Israeli frontier as UN truce supervisor Burns commenced negotiations with Egyptian officials on implementation of measures to strengthen the truce supervisory machinery arranged by Secretary General Hammarskjold. Burns will attempt to obtain the consent of both sides to the establishment of observation posts and the operation of mobile patrols. (Press

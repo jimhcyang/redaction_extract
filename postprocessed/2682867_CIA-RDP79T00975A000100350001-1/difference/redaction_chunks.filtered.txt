@@ -1,0 +1,92 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.581940
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.839286
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: GENERAL FAR EAST 2. Major Chinese Communist forces still in Wonsan area
+Token count: 12
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: EASTERN EUROPE 5. Polish partisans attack Soviet installations and personnel
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.133929
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: GENERAL FAR EAST 2. Major Chinese Communist forces still
+Token count: 9
+Recut: none
+
+Clean Chunk #4 (original #5, segment 1)
+Text: Wonsan area
+Token count: 2
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: Comment: The Chinese Communist 9th Army Group, representing the largest uncommitted Chinese reserve force known to be in Korea, was identified in the Wonsan area early in February. Subsequent reports indicated that elements of this Army Group were moving south into central Korea to positions north of the 38th Parallel. The continued presence of major Chinese Communist units on defensive missions in the Wonsan area precludes their immediate use as reinforcements in the front lines
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.949035
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #5 (original #9, segment 1)
+Text: Polish partisans attack Soviet installations and personnel: Comment: During the past two years, Polish security forces have been hunting down resistance bands operating in the heavily forested area of eastern Poland. For the most part, these
+Token count: 36
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: latter's
+- original #8 segment 1: noncontent_keyword
+  Text: EASTERN EUROPE
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #10, segment 1)
+Text: bands have directed their resistance activities against minor Polish Communist officials, farm cooperative organizations and telephone lines of the Polish Internal Security Police. An attack against an important Soviet communications line is a more sophisticated form of resistance
+Token count: 38
+Recut: none

@@ -1,0 +1,97 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.842105
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #1, segment 1)
+Text: US OFFICIALS ONLY
+Token count: 3
+Recut: none
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.899982
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #3, segment 1)
+Text: NEAR EAST - AFRICA Sudanese leader protests Egyptian activities in Sudan
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: FAR EAST China improves weather-reporting service
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.991327
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.989868
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: cynicism
+- original #5 segment 1: noncontent_keyword
+  Text: FAR EAST
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.918632
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #6, segment 1)
+Text: China improves weather-reporting service: The number of radiosonde or high-altitude weather reporting stations in Communist China was recently expanded from five to eight. The new ones, the first to be established in southern China, are at Hankow, Nanning and Foochow. They have been observed reporting heights up to 53,000 feet. Comment: Ground weather reporting stations have also increased in Communist China in the past few years, from about 50 in 1948 to 300 at present. China probably now has a weather service adequate to meet the flight requirements of its growing military and civil air fleets
+Token count: 97
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.993478
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.955359
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #8, segment 1)
+Text: Sudanese leader protests Egyptian activities in Sudan: Comment: The rise in Cairo of Colonel Nasr and Major Salam may bring a strengthened campaign for closer ties to the Sudan. This would further irritate Anglo-Egyptian relations and could lead to local disturbances
+Token count: 41
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.995251
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

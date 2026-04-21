@@ -1,0 +1,128 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.729545
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.946667
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: GENERAL 1. USSR informally proposes establishment of diplomatic relations with Saudi Arabia
+Token count: 12
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 2. Soviet delegation's reaction to President's inspection proposals
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: 24 July 55 CURRENT INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: GENERAL 1. USSR informally proposes establishment of diplomatic relations with Saudi Arabia: Comment: This would be a logical step in advancing the growing Soviet diplomatic offensive in the Middle East aimed at undermining American defense policy there. The timing of the proposal probably reflects Moscow's judgment that Saudi Arabia might now be receptive because of its hostility to the Turkish-Iraqi pact and its unsettled relations with the United States. Prior to World War II, the USSR and Saudi Arabia had diplomatic relations. King Saud, basically anti-Communist, is likely to postpone action on this matter. His ultimate decision will probably depend on his personal reaction to American policy at any given time. SOVIET UNION 2. Soviet delegation's reaction to President's inspection proposals: Soviet representatives at Geneva were nonplussed by President Eisenhower's proposals of 21 July on exchange of military blueprints and aerial photography. He said, "You Americans have built up a house of friendship and conciliation, and then suffocated us with the bricks that came tumbling down all around us." He said the proposal caused the Soviet delegation a lot of confusion. "We had thought there might be a rabbit in the hat, but we did not expect anything on this scale
+- original #4 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 24 July 55 CURRENT INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.959768
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #5, segment 1)
+Text: While he recognized the proposal as a dramatically contrived propaganda maneuver, he thought--on the basis of the President's performance at Geneva--that it was more than mere propaganda. He mentioned the possibility that Marshal Zhukov might come to the United States, and added that Khrushchev, whom he described as a man of "infinite curiosity," would also like very much to come. He brushed aside the protocol difficulties the latter's visit would create
+Token count: 73
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: 24 July 55 CURRENT INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.990750
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+- original #8 segment 1: noncontent_keyword
+  Text: 24 July 55 CURRENT INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.993684
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: 24 July 55 CURRENT INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.990789
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Batlle
+- original #11 segment 1: noncontent_keyword
+  Text: 24 July 55 CURRENT INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.990000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: 24 July 55 CURRENT INTELLIGENCE BULLETIN Page 8
+
+========================================================================
+[PAGE 10]
+kind=red_only red_source_page=9 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,125 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.671875
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 334
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.921831
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 1. ARAB JOINT COMMAND DESIRES TO AVOID MAJOR CLASH WITH ISRAEL
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 2)
+Text: 4. IRAQI PRIME MINISTER OUTLINES FUTURE IRAQI-SAUDI MOVES (page 6). 5. FRENCH APPARENTLY FAVOR COALITION GOVERNMENT IN LAOS
+Token count: 18
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: page 4
+- original #4 segment 1: noncontent_keyword
+  Text: page 5
+- original #4 segment 3: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 1. ARAB JOINT COMMAND DESIRES TO AVOID MAJOR CLASH WITH ISRAEL The military position of Egyptian and Syrian forces is such that any clash leading to general hostilities with Israel should be avoided before the end of 1957. Cairo added, however, that this position would be reconsidered in the light of the prevailing political and military situation "if circumstances develop in such a way that an armed clash with Israel is necessary to prevent her from attempting the project." Comment The "project" refers to Israeli irriga- tion and power development schemes which have been planned along the Jordan River between Syria and Israel. In some areas, notably between Lake Hula and Lake Tiberias, completion of the Israeli development projects will require excavation and other work in the demilitarized zone along the river. The most favorable season for this work is now at hand. Syria warned last spring that it would fire on Israeli workmen if projects were undertaken in the demilita- rized zone. This year Damascus warned Cairo that Israel might begin work in the demilitarized zone to pro- voke the Syrian army into conflict. Cairo has previously urged Syria to re- frain from becoming involved militarily with Israel in view of its limited military capabilities
+- original #5 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 May 57 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.991973
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: em- bassy
+- original #7 segment 1: short_span_min_tokens
+  Text: an
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.952086
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Coun- cil
+- original #10 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: oc- curred
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Beersheba-Eilat
+- original #12 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: inef- fectiveness
+- original #13 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: mil- itary
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: 4. IRAQI PRIME MINISTER OUTLINES FUTURE IRAQI-SAUDI MOVES Iraq's Prime Minister Nuri Said informed the American ambassador in Baghdad on 20 May that King Saud had suggested dur- ing their recent talks that a declaration by Moslem members of the Baghdad pact to the effect that it is not aimed at any Arab country would considerably ease Saudi Arabia's position in respect to the pact. Saud added that an opportune time for such a declaration would be a Mos- lem conference he intends to convene in the near future. Saud has asked Syrian president Quwatli to describe the conference to Nasr and to urge Nasr to apologize for recent Egyptian in- trigues in Saudi Arabia. Saud wants it made plain to Nasr that unless he first apologizes, Egypt will not be invited to attend. When queried by the ambassador regard- ing Iraqi plans for financial help to Jordan, Nuri replied that Saud has exerted considerable pressure for Iraqi assistance to Jordan. Nuri stated that Iraq is making available between the equivalent of $2,800,000 and $4,200,000 "for economic pur- poses," primarily for the superphosphate and potash indus- tries. Comment It has been reported earlier that Saud in- tends to call a Moslem conference which will put Nasr in the minority, if he attends, or isolate him if he refuses an invitation. Saud reportedly has already paid at least half and possibly all of his annual share, amounting to $14,000,000, of the Jordanian subsidy under the terms of the Arab solidarity agreement. Since Egypt and Syria have not paid their share, approximating $19,750,000, Jordan is in need of funds to pay current government expenses. How- ever, Iraq has been committed for some time to invest in the Jordanian potash industry and any such payments at this time will not relieve the Jordanian budget situation
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 May 57 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.123327
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: 5. FRENCH APPARENTLY FAVOR COALITION GOVERNMENT
+- original #16 segment 1: full_page_or_admin
+  Text: LAOS Comment The French apparently are setting the stage for Souvanna Phouma's "new" plan for breaking the deadlock with the Pathet Lao which reportedly continues to offer the Pathets participation in a coalition gov- ernment. As in the past, they apparently are prepared to sac- rifice Western unity in the hope of increasing their influence in Laotian affairs through support of pro-French Souvanna Phouma
+- original #16 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 May 57 Current Intelligence Bulletin Page 7

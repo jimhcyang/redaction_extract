@@ -1,0 +1,77 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.406250
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 61
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.951171
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 1)
+Text: SOVIET UNION 3. USSR increases size of short-term bank deposits in US
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+- original #3 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996875
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.914468
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #6, segment 1)
+Text: SOVIET UNION 3. USSR increases size of short-term bank deposits in US: On 3 September, Soviet short-term deposits in one major US bank alone amounted to $11,800,000. Comment: In 1948 Soviet deposits in American banks were maintained at about $70,000,000. Between the outbreak of the Korean war in 1950 and July of this year, total deposits fluctuated between $1,700,000 and $5,500,000. There is no evidence that the increase has resulted from the direct sale of Soviet goods to US firms. Such an expansion of working capital might be expected, however, to accompany current Soviet efforts to increase trade with the United States and other Western countries. Figures are not yet available on current deposits in the other major banks used by the Soviet Union
+Token count: 132
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.998160
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION

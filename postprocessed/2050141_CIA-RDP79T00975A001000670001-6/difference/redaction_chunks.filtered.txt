@@ -1,0 +1,103 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.771875
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. 60
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.941667
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #3, segment 1)
+Text: 5. Submarine training reportedly starts for East Germans
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: LATIN AMERICA 7. Panama threatens to air Canal Zone case in international body
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: SOUTHEAST ASIA 3. Viet Minh offensive believed imminent
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+- original #4 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996124
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: considered
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.954032
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #6, segment 1)
+Text: SOUTHEAST ASIA 3. Viet Minh offensive believed imminent: Viet Minh military operations in northern Indochina are imminent. In addition, there have been indications that training programs begun after the last campaign were to be terminated sometime this month
+Token count: 38
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.966346
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #7, segment 1)
+Text: 5. Submarine training reportedly starts for East Germans: Submarine training for the East German Sea Police is reported to have started at Sassnitz on Ruegen Island, with advanced training to take place in the USSR
+Token count: 35
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.935551
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #8, segment 1)
+Text: Comment: This is the first indication that submarine training has actually begun in East Germany, although units of the East German Sea Police were said to be receiving instruction in submarine operations in Kronstadt, near Leningrad, in December. In January, the commanding officer of the Sea Police Coastal Patrol division reportedly announced to a class of students that four former German submarines of 250 tons displacement were lying in Sassnitz awaiting transfer to the Sea Police
+Token count: 76
+Recut: none
+
+Clean Chunk #6 (original #9, segment 1)
+Text: LATIN AMERICA 7. Panama threatens to air Canal Zone case in international body: President Remon has threatened to bring his case for revision of the 1936 Canal Zone treaty with the United States to the forthcoming Inter
+Token count: 37
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: American Conference in Caracas or to the United Nations. He is reportedly requesting other Latin American countries to support Panama's claims. Comment: Virtually all Panamanian opinion approves Remon's avowed effort to revise the 1936 treaty in such respects as the size of the annual payment made by the United States and the rights of Panamanian citizens in the Canal Zone. Remon, who is basically pro-US, has wanted for some time to discuss the problem personally with President Eisenhower and has become increasingly bitter at what he feels is official US discouragement of a Washington visit. Remon will probably not take his case to the Inter-American Conference or to the UN unless he feels balked in his efforts to "obtain justice" for Panama through bilateral negotiations

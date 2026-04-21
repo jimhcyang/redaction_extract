@@ -1,0 +1,92 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.702500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.848981
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: NEAR EAST - AFRICA 4. WESTERN EUROPE 5. West German Socialist support seen for independent national army
+Token count: 16
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: LATIN AMERICA 7. Brazilian Communists reported planning further disturbances
+Token count: 9
+Recut: none
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.968122
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+- original #5 segment 1: short_span_min_tokens
+  Text: charge
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.970324
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #7, segment 1)
+Text: NEAR EAST - AFRICA 4. WESTERN EUROPE 5. West German Socialist support seen for independent national army
+Token count: 16
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.909082
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #8, segment 1)
+Text: Comment: Neutralism in Germany is closely associated with sentiment in favor of rapprochement with the USSR. The opposition Social Democrats will for domestic political reasons continue to push for a four-power conference on German unity, but they apparently desire to explore the possibility of a bipartisan foreign policy if EDC fails. At present, several views are emerging in Bonn on EDC alternatives, such as expansion of the border police, formation of an independent army in NATO, or the establishment of a five-power EDC which France could join at a later date
+Token count: 91
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: LATIN AMERICA 7. Brazilian Communists reported planning further disturbances: The Communists allegedly plan to incite factory strikes and then lead the workers into the streets. They believe that General Estillac Leal, commander of the central military zone, may not oppose their activities. Comment: The Communists have already provoked several serious riots, including attacks on American installations, since President Vargas' suicide on 24 August. Estillac Leal, whose headquarters is in Sao Paulo, has been accused of Communist sympathies. The Brazilian Communist Party, though outlawed, is the largest and possibly the wealthiest Communist party in Latin America. It is believed to have increased its membership nearly 50 percent in the past two years to about 110,000. Recruitment priority has been given to industrial workers, centered mainly in Sao Paulo

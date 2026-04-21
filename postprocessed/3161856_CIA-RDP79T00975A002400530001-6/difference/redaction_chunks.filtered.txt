@@ -1,0 +1,131 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.288854
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: CURRENT INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.953247
+kept_candidate_count=1
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #6, segment 2)
+Text: 6. USSR REPORTED TO HAVE INDEFINITELY POSTPONED MOSCOW DISARMAMENT MEETING
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: page 4
+- original #4 segment 1: noncontent_keyword
+  Text: page 5
+- original #5 segment 1: noncontent_keyword
+  Text: page 6
+- original #6 segment 1: noncontent_keyword
+  Text: page 7
+- original #6 segment 3: noncontent_keyword
+  Text: page 8
+- original #7 segment 1: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.987348
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #10, segment 1)
+Text: Prepared jointly with ORR
+Token count: 4
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: Comment on
+- original #9 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Arab- Israeli
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.999231
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: CONFIDENTIAL
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: 6. USSR REPORTED TO HAVE INDEFINITELY POSTPONED MOSCOW DISARMAMENT MEETING The unofficial meeting on disarmament that was reportedly scheduled to begin in Moscow on 29 March has been indefinitely postponed, according to press reports from Japan and Britain. The Japanese news agency Kyodo reported that a Japanese professor who had agreed to attend the meeting had been notified by cable from Moscow that the meeting had been suspended. British members of parliament who had accepted invitations received similar notification. Comment The USSR had apparently failed to attract any important leaders of non-Communist parties. The Soviet leaders may have decided that a meeting in Moscow without the participation of such responsible leaders would merely duplicate the World Peace Council conference on disarmament to be held in Stockholm from 5 to 9 April
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.900000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #13, segment 1)
+Text: Press) The Egyptian army command has fixed 1 July 1956 as the date when Egypt will reach "maximum" preparedness for war. After this date any provocation or border incident by Israel will lead to retaliation in force. The Israeli defense force reportedly has estimated Egypt would attack Israel about August 1956. Both the reported Egyptian and Israeli estimates apparently assume that by 1 July, the Egyptian army would be prepared only to the minimum extent required to launch an offensive
+Token count: 80
+Recut: none
+
+========================================================================
+[PAGE 11]
+kind=red_only red_source_page=10 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

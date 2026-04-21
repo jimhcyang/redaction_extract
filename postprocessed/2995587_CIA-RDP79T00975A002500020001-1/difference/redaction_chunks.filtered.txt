@@ -1,0 +1,157 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.554762
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.876663
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. USSR REPORTED SEEKING FRENCH SUPPORT FOR CONFERENCE ON NEAR EAST (page 4) 3. USSR REPORTED WILLING TO SUPPLY ARMS TO NORTH AFRICAN NATIONALISTS
+Token count: 24
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 6. SOVIET AID TO BURMA
+Token count: 5
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: YUGOSLAV-SOVIET
+- original #3 segment 2: noncontent_keyword
+  Text: page 8
+- original #4 segment 1: noncontent_keyword
+  Text: 25 Mar 56 Current Intelligence Bulletin Page 2
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.977985
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- consider
+- original #6 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Anglo- Jordanian
+- original #7 segment 1: noncontent_keyword
+  Text: 25 Mar 56 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 2. USSR REPORTED SEEKING FRENCH SUPPORT FOR CONFERENCE ON NEAR EAST the Soviet Union might consider stopping send- ing arms to the Near East if a conference of all the great powers reached general agreement on this issue. Premier Bulganin was noncommittal with Auriol re- garding Moscow's views on French policies in North Africa. Comment In mid-March, Foreign Minister Pineau proposed a meeting of Britain, France, and the United States which would call upon the USSR to halt the arms race in the Middle East. Premier Mollet stated on 24 March that an em- bargo on arms to the area must be imposed "very soon." The USSR has hinted several times since last summer that it would be willing to participate in a great-power conference on Middle Eastern problems, but that the initiative must come from the West. Although Moscow has referred to the UN Security Council as better qualified to deal with the problem than the tripartite powers, it would probably prefer a special conference-- including Egypt and possibly India--to deal with the area's problems
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 25 Mar 56 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.122210
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 3. USSR REPORTED WILLING TO SUPPLY ARMS TO NORTH AFRICAN NATIONALISTS The leader of the Tunisian nationalists
+- original #10 segment 1: full_page_or_admin
+  Text: Libya, Abdul Aziz Chouchane, said in early March that the USSR has agreed to supply free, via Egypt, any arms needed by nationalists in French North Africa. Chouchane recently returned to his headquarters in Tripoli after a visit to Egypt where he said the Cairo office maintained by the nationalists made the approach to the Russians. Comment Chouchane is chief agent in Libya for exiled Tunisian extremist leader Salah ben Youssef. It is highly unlikely that Moscow would want to jeopardize its relations with France, at this time, by becoming involved in a direct deal with the nationalists in French North Africa. The USSR might be instrumental, however, in making arms available to nationalists by deal- ing with a third party--such as Egypt or Libya. Soviet bloc arms may, in fact, have already reached nationalist guerrilla fighters in French North Africa via Libya. definitely one and possibly four shipments of Czech machine guns and ammunition arrived in Libya during the first two months of 1956
+- original #10 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 25 Mar 56 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.978943
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: YUGOSLAV- SOVIET
+- original #12 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: aban- don
+- original #13 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: con- versations
+- original #14 segment 1: noncontent_keyword
+  Text: 25 Mar 56 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.965224
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ac- cording
+- original #16 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: there- fore
+- original #17 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: inter- national
+- original #18 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: self- sufficient
+- original #19 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: rep- resentation
+- original #20 segment 1: noncontent_keyword
+  Text: 25 Mar 56 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: 6. SOVIET AID TO BURMA Comment Mikoyan, a first deputy Soviet premier, led a 40-man delegation to Pakistan's republic day celebrations on 23 March. He plans trade talks with the Pakistanis and will also visit India and North Vietnam. His visit to Burma, as well as Kaganovich's and Saburov's, was requested by U Nu and is connected with planning for technical and capital assistance. The Burmese, who were reported staggered when they learned of the USSR's grandiose plans for a technological institute, have announced that the insti- tute will have facilities to train 1,000 students at the college level and 100 post-graduate students. The Russians are also reported planning to build apartments for the faculty
+- original #21 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 25 Mar 56 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.931696
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #22, segment 1)
+Text: an Egyptian intent to attack Israel soon. Among other indications, construction of storage depots in Sinai; recent Egyptian divisional maneuvers based on cutting off the Negev, capturing Beersheba and linking up with Jordan's Arab Legion; and training of units in Sinai in attacking mock villages constructed to resemble Israeli border settlements. it could be assumed Egypt would be ready to attack by May or June, and this consideration had recently forced Israel to undertake all- out defense measures. Although life in Israel was still normal, progressive dislocation toward maximum war economy would soon develop
+Token count: 94
+Recut: none
+
+Excluded candidates:
+- original #23 segment 1: noncontent_keyword
+  Text: 25 Mar 56 Current Intelligence Bulletin Page 9

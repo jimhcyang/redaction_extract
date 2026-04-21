@@ -1,0 +1,220 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.757143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin, short_span_min_tokens
+  Text: The
+- original #1 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Daily Brief
+- original #1 segment 3: full_page_or_admin
+  Text: of the
+- original #1 segment 4: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+- original #1 segment 5: full_page_or_admin
+  Text: is produced by the Director of Central Intelligence in consultation with representatives of departments and agencies of the United States Intelligence Board. Back-up material is produced by CIA with as much consultation with other departments and agencies as is practicable. When, because of the time factor, consultation with the department or agency of primary concern is not practicable, the brief will be produced by CIA and marked with an asterisk. Intelligence in this publication is based on all sources, including Interpretations of intelligence information in this publication rep- resent immediate and preliminary views which are subject to modi- fication in the light of further information and more complete analysis. Certain intelligence items in this publication may be designated specifically for no further dissemination. Other intelligence items may be disseminated further, but only on a need-to-know basis. WARNING This document contains classified information affecting the national security of the United States within the meaning of the espionage laws, US Code Title 18, Sections 793, 794, and 798. The law prohibits its transmission or the revelation of its contents in any manner to an unauthorized persons, as well as its use in any manner prejudicial to the safety or interest of the United States or for the benefit of any foreign government to the detriment of the United States
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 13 AUGUST 1960 I. THE COMMUNIST BLOC Khrushchev offers aid to Ghana in addi- tion to that covered in economic aid agree- ment soon to be announced. (1) Chinese Communists now moving to soften their dispute with Indonesia. (2) II. ASIA-AFRICA Federation of Mali--Dispute between leaders of constituent states of Soudan and Senegal sharpens to the extent their federation may be threatened. (3) III. THE WEST Peru to support diplomatic break with Dominican Republic in forthcoming OAS session but is not yet ready to support a move against Cuba. (4) LATE ITEMS (5) Comment on situation in Laos. (6) Comment on situation in Congo
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.925991
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #3, segment 1)
+Text: USSR-Ghana: Khrushchev on 5 August told the Ghanaian delegation now in the USSR that Moscow would be willing to provide assistance for the Ghanaian merchant marine, for a naval base and school, and for a civil air line. These offers are apparently in addition to the projects covered in an aid agreement believed recently concluded and soon to be announced. Khrushchev indicated at the same time that, should Nkrumah re- quest it, the USSR would assist Ghana with its Volta River hydro- electric scheme on terms more favorable than those obtainable in the West; this project is in the final stages of negotiations with Western aluminum interests and the International Bank
+Token count: 111
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: Page 1
+- original #4 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: karta’s
+- original #5 segment 1: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.954271
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #9, segment 1)
+Text: Lao govern- ment leaders in Luang Prabang have rejected the terms of the Revolutionary Committee, and are not going to Vientiane, as earlier reported. General Phoumi has re- turned to Savannakhet after conferring in Luang Prabang and is eager to "get fighting
+Token count: 42
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Page 3
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+- original #8 segment 1: noncontent_keyword
+  Text: Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.862657
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #10, segment 2)
+Text: Republic of the Congo: The relatively uneventful entry into Katanga of Secretary General Hammarskjold and the advance guard of his UN occupying force has coincided with efforts by Congo Premier Lumumba to strengthen his government in Leo- poldville. However, a conference of the separatist Abako party, scheduled to begin on
+Token count: 50
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #11, segment 1)
+Text: August, may lend new impetus to anti- Lumumba sentiment by declaring the lower Congo area independ- ent of the central government. the USSR is looking forward to the time when, in concert with African states such as Ghana and Guinea, it might demand the evacuation of UN contingents from the Congo, presumably after Belgian troops have been withdrawn, on the ground that the UN should not be charged with the future administration of the Congo. Moscow, presumably confident of securing African support for such a move, could be expected to accompany the demand with new of- fers of technical and economic aid
+Token count: 102
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Page 5
+- original #11 segment 2: noncontent_keyword
+  Text: Page 7
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: Moscow Expands Offer of Economic Aid to Ghana Soviet Premier Khrushchev, in talks at Yalta on 5 August with a Ghanaian delegation, expanded the USSR's earlier offer of economic and technical aid to include assistance for a Ghanaian naval base and school and for the Ghanaian merchant marine and a civil airline. The delegation--which had come to the USSR to negotiate the earlier Soviet offer, reportedly amounting to $280,- 000,000--agreed with Khrushchev's suggestion that discussions on the new proposals begin as soon as possible. Soviet aid for the merchant marine and the civil airline may include the supply of ships and aircraft, as well as technical assistance for the opera- tion of such services. Khrushchev also offered to assist Ghana with its Volta River hydroelectric and aluminum production project on terms more fa- vorable than those available in the West. Ghana now is in the final stages of negotiations with the International Bank of Reconstruction and Development and a consortium of Western aluminum producers regarding aid for this project. Khrushchev's response to Accra's decision to accept Soviet aid reflects an awareness of the key role Ghana plays in Western African political affairs. The bloc's aid effort in this region has so far concentrated largely on Guinea. The USSR offered in June to carry out some 28 projects in Ghana, including the construction of hotels and sewer systems, car assembly and fertilizer plants, an atomic reactor, and a steel mill. Inasmuch as Moscow and Accra are preparing a joint commu- nique covering the results of negotiations over this offer, an agree- ment has evidently been reached under which at least some of these projects will be implemented. As in similar arrangements with underdeveloped countries, Moscow will probably accept local commodities in payment for its aid. The Ghanaian delegation has made tentative arrangements for the USSR to buy cocoa directly from Ghana instead of through the international market in London
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.928668
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #14, segment 1)
+Text: Indian delegates returning from the first session of "fact-finding" talks in Peiping reportedly contend that the Chinese showed not the least accommodation on the Ladakh occupation and in- sisted that an agreement could be negotiated only on the basis of Chou En-lai's compromise formula, under which Chinese claims in the Ladakh area would be recognized in exchange for Indian claims along the McMahon line, in northeastern India
+Token count: 67
+Recut: none
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: ori
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.943689
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #15, segment 1)
+Text: they have decided definitely to op- pose Senghor, whom they regard as an obstacle to the "consolida- tion" of the federation and to a possible future association with other independent states of former French West Africa. the Soudanese, who are in a position to pre- vent any candidate from obtaining the necessary two-thirds major- ity, plan to seek an indefinite postponement of the balloting or, if that is not possible, to support Senghor's Senegalese rival, Lamine Gueye
+Token count: 77
+Recut: none
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.959852
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.909665
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #17, segment 1)
+Text: the government leaders in Luang Prabang have rejected the terms of the Revolutionary Committee and are not proceeding to Vientiane as earlier reported. General Phoumi, who has established a temporary command post at Savannakhet in south central Laos, is eager to "begin fighting" after a series of quick conferences with both Lao and Thai government leaders. Phoumi has ordered the immediate return to Savannakhet of 200 paratroopers who have been undergoing advanced training in Thailand. He apparently is counting on using these troops and an additional 400 paratroopers stationed in Luang Prabang and Pakse as the nucleus of a potential strike force against Vientiane
+Token count: 104
+Recut: none
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.966752
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #8 (original #18, segment 1)
+Text: there are reports that some junior officers are becoming disgusted, while others are clamoring for action
+Token count: 16
+Recut: none
+
+Excluded candidates:
+- original #19 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: peace loving
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: LATE ITEM The Situation in the Congo The arrival in Elisabethville of Secretary General Ham- marskjold and the first two companies of the UN occupying force was accomplished without serious incident on 12 August. Premier Tshombé's conspicuous display of the flag of "inde- pendent" Katanga, however, together with his continuing ban on the entry of any representative of the Lumumba government, in- dicates that he will continue his vigorous opposition to any move to reunite Katanga with the Congo government as presently con- stituted. In Leopoldville, Premier Lumumba has taken steps designed to bolster his internal position in the face of mounting criticism of the unitary state he espouses, and growing sentiment for the type of Congo confederation favored by Tshombé. The Congo Government on 11 August arrested the editor of a Catholic news- paper who had earlier been linked with alleged plotting against the government. On the same day, Information Minister Kash- amura personally closed down the Belgian news agency outlet in Leopoldville, charging it with false reporting in connection with antigovernment demonstrations on 10 August. The leftist Kash- amura, whose anti-Belgian broadcasts helped inflame Congolese opinion during the recent Force Publique depredations, stated that the Belgian facilities would be operated by the Congo Govern- ment. The government reportedly is also closing down the facil- ities of the official French news agency. A conference of the separatist Abako party, scheduled to be- gin outside Leopoldville on 13 August, may lend new impetus to anti-Lumumba sentiment by declaring the lower Congo area--where the Abako has long been dominant--independent of the central gov- ernment. the Abako cen- tral committee plans to take such action, with or without the con- currence of its leader, President Kasavubu. the USSR is look- ing forward to the time when, in concert with African states, it
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=12 unred_source_page=14
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: might demand the evacuation of UN contingents from the Congo, presumably after Belgian troops have been withdrawn. Ambas- sador Menshikov, in a meeting in early August with the Liberian ambassador in Washington, inquired if Liberia would support a demand for withdrawal of UN forces from the Congo after order had been restored, in order that the Congolese might be "free to choose" their sources of aid and assistance. Menshikov asserted that he did not think the UN should be charged with the future ad- ministration of the Congo. Moscow is probably confident of se- curing support from African governments, especially Guinea and Ghana. Moscow could be expected to accompany such demands by of- fers of economic and technical assistance to the Congo Govern- ment, despite disclaimers by First Deputy Foreign Minister Kuz- netsov to Hammarskjold on 10 August that the Soviet Union would be willing--in contrast with normal Soviet policy--to channel its aid to the Congo through the UN. The Soviet Union has already provided some direct aid in the form of food, medical assistance, and one transport aircraft
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=13 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=14 unred_source_page=16
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

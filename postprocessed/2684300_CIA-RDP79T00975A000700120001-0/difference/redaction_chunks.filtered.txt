@@ -1,0 +1,63 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.590417
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.822500
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: Chinese restrict Indian contacts with non-Communist diplomats
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword
+  Text: WESTERN EUROPE Tripartite naval talks allay French suspicions
+- original #2 segment 4: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.988435
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.982470
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: Chinese restrict Indian contacts with non-Communist diplomats
+Token count: 7
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: Comment: Top Chinese Communist officials have attempted privately to impress the Indian delegation with their devotion to peace in general and their desire for a settlement in Korea in particular. In line with this, Peiping has apparently attempted to restrict Indian contacts with non-Communist diplomats who might give conflicting testimony. WESTERN EUROPE Tripartite naval talks allay French suspicions: French suspicions that the US and Britain intended to exclude France from discussions of naval problems in the Mediterranean were allayed by the scheduling of preliminary tripartite talks for 22 May. Previously Ambassador Bonnet in Washington had been instructed to make a demarche on the subject

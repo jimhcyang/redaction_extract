@@ -1,0 +1,189 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.757143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.123327
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Attempted launching at Tyura Tam Missile Test Range
+- original #2 segment 1: full_page_or_admin
+  Text: Moscow maneuvering to divide the West on test-cessation issue. (2) Soviet submarines increase out-of-area operations. (3) II. ASIA-AFRICA UAR attempting to widen breach between Qasim and the Communists. (4) British-Yemeni relations unlikely to be improved by talks opening today. (5) Sudan - power struggle remains unresolved. (6) Ceylon - cabinet crisis forestalled. (7) Laos - one of two holdout Pathet Lao battalions capitulates; surrender of other expected shortly. (8
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.895535
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #4, segment 1)
+Text: USSR: An attempt was made to launch a vehicle of undetermined nature at the Tyura Tam Missile Test Range (TTMTR) on 16 May 1959. The countdown operation began with "X-8" hours at 0855 EDST and reached "X-4" at 1100 EDST. The operation was canceled shortly thereafter, possibly because of communications difficulties between the range elements. One possibly significant variation from all previous TTMTR launchings was noted during this operation; the time intervals between the X-8 hour announcement and subsequent announcements down to X-4 were considerably shortened, being respectively 16, 16, 36, and 57 minutes. While no firm reason for this time compression can currently be given, it is possible that this may presage for selected operations at TTMTR a considerable decrease in real time consumed in the countdown procedure
+Token count: 129
+Recut: none
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: DAILY BRIEF
+- original #5 segment 1: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.888575
+kept_candidate_count=3
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #6, segment 1)
+Text: USSR: A Northern Fleet submarine detachment, probably larger than those recently engaged in similar activity, is continuing nonexercise operations and is estimated to be in the northeastern Atlantic--southern Norwegian Sea area. One Albanian-based unit is believed to be in the Mediterranean, and one or more submarines are operating beyond local areas in the Pacific. (Page 3) II. ASIA-AFRICA UAR-Iraq: The UAR is making further efforts to widen the breach between Qasim and the Iraqi Communist party. The Pakistani ambassador in Baghdad on 11 May set the stage for the UAR chargé to meet with the Iraqi foreign minister--and possibly Qasim himself--to convey UAR assurances of support for Qasim should he take action against the Communists. Since 16 May the Cairo press and radio have sharpened their propaganda attacks against the Iraqi Communist party
+Token count: 136
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #6, segment 3)
+Text: UK--Yemen
+Token count: 2
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #8, segment 1)
+Text: Sudan: The power struggle within the Sudanese military government remains unresolved. Several senior officers, disgusted with the Supreme Council's continuing appeasement of
+Token count: 22
+Recut: none
+
+Excluded candidates:
+- original #6 segment 2: noncontent_keyword
+  Text: Page 4
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: British--Yemeni
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.946104
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #5 (original #9, segment 1)
+Text: the junior officers movement and the breakdown of army discipline, have proffered their resignations. Meanwhile, the government has become increasingly irritated with the prospect that the World Bank will approve a loan to Nasir for the Suez Canal improvement, while refusing credits for the Sudanese Roseires Dam project pending a Sudanese-Egyptian agreement on division of the Nile waters. Sudanese-Egyptian relations may deteriorate this summer when the Sudanese plan to increase substantially their diversion of Nile waters for irrigation purposes
+Token count: 79
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #9 segment 2: noncontent_keyword
+  Text: Page 5
+- original #10 segment 1: noncontent_keyword
+  Text: Page 6
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.140179
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: 18 May 59 CENTRAL INTELLIGENCE BULLETIN
+- original #12 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA UAR Moving to Back Qasim Against Iraqi Communists The UAR Government, conscious of the breach which has opened between Iraqi Prime Minister Qasim and the Iraqi Communist party and aware of the present weakness of pro-UAR elements in Iraq, has begun efforts to support Qasim against the Communists. Beginning on 16 May, Cairo sharpened its press and radio attacks on the Iraqi Communist party. It charged that the Communist party's insistence on participation in the Iraqi Government had unveiled its "sinister plans and real objectives" and had alienated Iraqi public opinion. It claimed that the party, now faced with disaffection of opportunist elements, was preparing "to go underground," prior to staging a sudden uprising to seize power by force. Within Iraq, the dispute persists between Qasim and Communist party leaders on the issue of legalizing political parties and appointing acknowledged Communist party representatives to the cabinet. Communist-controlled newspapers and mass organizations continue to press these demands, despite Qasim's reiteration in a 14 May speech that "the time had not yet come" for a return to political parties
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 18 May 59 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: Sudanese Situation Khartoum remained calm during the extraordinary 10-12 May meeting of the Supreme Military Council and commanders of all the major army commands. Maneuvers for an immediate shift in the power balance appear to have produced a temporary deadlock. Abboud, whose policies of compromise have permitted the steady growth in Shannan's power, is reported still anxious to retire. Several senior officers outside the Supreme Council have proffered their resignations because of disgust over what they regard as appeasement of the junior officers movement and the consequent breakdown of army discipline. Sudanese-Egyptian relations will be subject to further strain in the first part of July when the Sudanese plan to increase their diversion of Nile waters to about 20 percent more than the amount permitted by the 1929 Sudanese-Egyptian agreement
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 18 May 59 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.978852
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #15, segment 1)
+Text: members of Bandaranaike's Sri Lanka Freedom party who sympathize with Gunawardena contains their threat to resign if Bandaranaike stands firm in his decision
+Token count: 23
+Recut: none
+
+Clean Chunk #7 (original #16, segment 1)
+Text: Senanayake seemed agreeable to joint operations against the leftists although he felt it premature to discuss a specific election agreement
+Token count: 20
+Recut: none
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=12 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

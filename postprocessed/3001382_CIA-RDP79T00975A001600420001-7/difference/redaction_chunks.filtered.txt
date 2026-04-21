@@ -1,0 +1,74 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.938000
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOVIET UNION 2. Four Soviet merchant ships ordered to leave Singapore for rendezvous point
+Token count: 14
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: NEAR EAST - AFRICA 5. Ankara seeks Iranian commitment to join Turkish-Pakistani defense pact
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.992857
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: on
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: SOVIET UNION 2. Four Soviet merchant ships ordered to leave Singapore for rendezvous point: Comment: According to a press report from Singapore, the Alexander Nevsky, the A. Andreev, the Leningrad, and another tanker, the Maikop, left Singapore on 12 July. It is likely that once the ships have sailed well north of Formosan waters, some will be redirected to China. However, the Chinese Nationalists are credited with the capability of intercepting vessels 500 miles off Formosa. While there is no evidence of Soviet or Chinese Communist plans to provide naval escort or air cover to convoy the group of merchant ships, that possibility is suggested by the establishment of a rendezvous point. The first Soviet note to the United States on the Tuapse incident, sent on 24 June, stated that necessary measures would be taken to protect Soviet ships in the Far East. An alternative to armed escort would be to keep as far as practicable outside Formosan waters. The intercepted Soviet tanker Tuapse is still held by the Chinese Nationalists
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.903077
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: NEAR EAST - AFRICA 5. Ankara seeks Iranian commitment to join Turkish-Pakistani defense pact: Recognizing that Iran's immediate adherence is not possible, Ankara nevertheless wants Tehran to commit itself now to eventual participation. Comment: The shah and Prime Minister Zahedi have accepted the principle that Iran should adhere to the Turk-Pakistani pact. They insist, however, that careful preparation of the public is a prerequisite, and the shah has hinted that Iranian participation may depend on substantial increases in American military aid. The current Soviet campaign to block Iran's participation in Western defense planning suggests the degree of Moscow's concern over these discussions. Tehran's new anxiety over Soviet intentions will probably preclude Iran's acceptance of the pact in the near future and increase its equivocation on Western commitments
+Token count: 126
+Recut: none

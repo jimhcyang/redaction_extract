@@ -1,0 +1,89 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.815474
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 3. BURMA READY TO EXCHANGE DIPLOMATIC REPRESENTATIVES WITH OUTER MONGOLIA
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: nonempty_redacted_alternate_conflict
+  Text: THE ARAB-ISRAELI SITUATION
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.972581
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.972908
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 3. BURMA READY TO EXCHANGE DIPLOMATIC REPRESENTATIVES WITH OUTER MONGOLIA Comment Burma's decision is in response to an initiative by Ulan Bator's representative in Peiping last June and is consistent with its support of the principle of "universal" membership in the UN. The question of Outer Mongolia's effective sovereignty was the basis for opposition to its admission last year. Recognition of Ulan Bator by Rangoon, following Indian recognition last December, will be advanced by Outer Mongolia in support of its claim that it is eligible for UN membership. Premier Tsedenbal of Outer Mongolia recently sent a letter to Secretary General Hammarskjold reapplying for admission. The USSR has given no indication of retreating from its insistence on UN membership for Outer Mongolia as a condition for Japan's admission
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.971429
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 25 September) An Israeli tractor driver was killed and another wounded in an incident on the Jordan border, according to an Israeli military spokesman. (Press) The American embassy in Tel Aviv reports that the Jordanian attack on the Israeli archaeological party on 23 September has aroused public concern in Israel to an unusual degree. The entire Jordanian army, about 38,000 troops, with the exception of two armored car squadrons and one battery of antiaircraft, is now in West Jordan, according to the American army attaché in Amman. In the attaché's opinion this disposition would make it possible for Israel to capture the entire Jordanian army within a few days. Greece granted Syria overflight and landing clearance between 21 and 25 September for eight Vampire jets en route from Italy to either Damascus or Cairo, according to the American air attaché in Athens. Syria reportedly ordered 44 reconditioned Vampires from Italy last spring. Including these eight, Syria has now obtained 24 of the 44 ordered. All of the previous Vampires were sent to Egypt, where Syrian pilots are training. The Syrians are also planning to have flying personnel trained in fighter tactics in Poland or Czechoslovakia. Soviet bloc negotiators have indicated that winter weather would prevent the start of such training before February. Syrian crews are now training under bloc supervision in Egypt
+
+========================================================================
+[PAGE 09]
+kind=red_only red_source_page=8 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

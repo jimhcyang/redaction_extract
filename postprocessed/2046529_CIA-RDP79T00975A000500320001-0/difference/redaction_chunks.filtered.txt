@@ -1,0 +1,65 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.886667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.980588
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 5. Burma may introduce documentary evidence against Chinese Nationalists
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.994531
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: armistice
+- original #3 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.934600
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: Burma may introduce documentary evidence against Chinese Nationalists: The Burmese UN delegate reiterates his opposition to an immediate appeal to the UN of the problem of Chinese Nationalist troops in Burma. He emphasizes, however, that if a decision is made to approach the UN at this time, the allegations must be supported by documentary evidence "somewhat on the pattern of the Yugoslav White Book." In this connection, he suggests that officials from the Burmese Foreign and War Offices be ordered to Paris, as well as spokesmen for the tribal districts where the Nationalist troops now are located. These witnesses, the representative states, must be prepared to answer any questions
+Token count: 109
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

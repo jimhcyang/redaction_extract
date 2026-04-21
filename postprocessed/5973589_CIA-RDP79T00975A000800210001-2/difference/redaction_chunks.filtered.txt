@@ -1,0 +1,74 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.763889
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.946384
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 3. Turkish participation proposed in imminent Greek-Yugoslav military talks
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 5. Egyptian Military Attaches undertake political reporting
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.995405
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.929322
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 3. Turkish participation proposed in imminent Greek-Yugoslav military talks: A Yugoslav military mission will arrive in Athens on 17 August, and that the Greeks have proposed that Turkey be included in the forthcoming talks. Comment: Despite previous agreements, the Greeks had not been keeping the Turks informed of their negotiations with Yugoslavia. Turkey did not expect the Greek-Yugoslav meeting before the end of September
+Token count: 64
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.992623
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #4, segment 1)
+Text: Egyptian Military Attaches undertake political reporting
+Token count: 6
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.946684
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #5, segment 1)
+Text: Comment: Egypt's Military Attaches abroad are now reporting directly to the Ministry of War on political and security matters. Previously they had limited their activities to purely military affairs. The army group under Nagib, despite declarations of intentions to the contrary, continues to control the political life of the country and to issue daily statements over regular Egyptian broadcast facilities on government objectives and policies
+Token count: 65
+Recut: none

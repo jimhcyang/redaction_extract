@@ -1,0 +1,97 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.771875
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: A 6-July
+Token count: 2
+Recut: none
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens
+  Text: C7
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.973437
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.994177
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #3, segment 1)
+Text: This source also reported that
+Token count: 5
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: nonempty_redacted_alternate_conflict
+  Text: it is
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.988970
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: long series
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: NEAR EAST 6. No progress in Iraqi oil negotiations: The Regent of Iraq has expressed his concern to the British Ambassador over the lack of progress in the negotiations with the Iraq Petroleum Company. According to the Regent, an extraordinary meeting of the Iraqi Cabinet on 30 June concluded that the company was stalling and ended with the Prime Minister offering his resignation and that of his Cabinet. The Prime Minister had previously told the British Ambassador that he felt the IPC was juggling its figures and that its previous offers were possibly unfair
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.673828
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #7, segment 1)
+Text: WESTERN EUROPE 7. French import plan would bolster rearmament program and appease labor: The French Cabinet has decided to send a note to the US Government outlining the "exceptional gravity" of the inflationary problem resulting from France's military program and recommending that the problem can be met only by an expansion in the volume of consumer goods. French Finance Minister Petsche, who prepared the note, advises that this expansion can best be accomplished by sharply increasing imports. He argues that these
+Token count: 81
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.756639
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=red_only red_source_page=8 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

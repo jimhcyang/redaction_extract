@@ -1,0 +1,274 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.454286
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 68
+- original #1 segment 2: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122449
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 21 MAY 1960 I. THE COMMUNIST BLOC Peiping makes show of firm support for Khrushchev, but indicates concern that he may not maintain uncompromising stand toward West. Much of East German populace concerned over summit breakdown; open criticism of Khrushchev noted. Sino-Algerian rebel communique reflects Peiping's efforts to align "liberation movements" with anti-US policies. II. ASIA-AFRICA India to construct two more oil refineries; Soviet assistance likely. Kishi under attack from press and leftists for "undemocratic" methods of securing lower-house approval of US-Japan security pact. Proffered resignation of South Korean army chief of staff may affect military capabilities if other officers follow suit. Saudi Arabia--Saud and Faysal clash as King moves to regain domination over government. III THE WEST Castro government orders Western refineries to begin using Soviet crude oil. LATE ITEMS Comment on Khrushchev's East Berlin speech. Comment on USAF C-47 forced down
+- original #3 segment 1: full_page_or_admin
+  Text: East Germany
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.928814
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #4, segment 3)
+Text: East Germany: Communist party public opinion surveys show open criticism among the populace, particularly workers, of Khrushchev's use of the U-2 incident to wreck the summit conference. The surveys suggest widespread concern among East Germans over the breakdown of negotiations, even among intellectuals who publicly endorsed Khrushchev's stand. The whole party apparatus was mobilized to turn out a mass welcome for Khrushchev in East Berlin and to propagandize his remarks throughout the country. (Page 2) Communist China -- Algeria: The Chinese Communists, who are calling on "liberation movements" to focus hostility on the US, would "welcome" an Algerian rebel diplomatic post in Peiping. There was no time set for establishing
+Token count: 109
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: CONFIDENTIAL
+- original #4 segment 2: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.944708
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #2 (original #5, segment 1)
+Text: the mission and did not mention Chinese military aid to the Algerians. The leader of the rebel delegation, on his departure from Peiping on 20 May, however, expressed his thanks for China's "material sacrifices" on behalf of the Algerians. the rebel delegation, which has been touring the Far East, did not request Chinese volunteers for Algerian fighting and was reluctant to agree to Chinese demands to denounce the US openly and to publicly oppose the US-Japanese security treaty. Algerian reluctance on the security treaty was overcome
+Token count: 86
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Page 4
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: US--Japan
+- original #8 segment 1: noncontent_keyword
+  Text: Page 5) 21 May 60 DAILY BRIEF
+- original #8 segment 2: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.944686
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #3 (original #9, segment 1)
+Text: Saudi Arabia: King Saud, taking advantage of Crown Prince Faysal's impending departure for at least six weeks of medical treatment abroad, has made the first move in his plan to regain domination over the Saudi Government. He refused to accept Faysal's suggestions for interim appointments to supervise government affairs. The crown prince responded by issuing a virtual ultimatum to the King; the disagreement between the two royal brothers has reached the point that Faysal might either have to remain abroad or return to take over as king
+Token count: 87
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #9 segment 2: noncontent_keyword
+  Text: Page 6
+- original #10 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Cuban Soviet
+- original #11 segment 1: noncontent_keyword
+  Text: Page 7) 21 May 60 DAILY BRIEF
+- original #11 segment 2: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #12, segment 1)
+Text: SWEDEN DENMARK BALTIC SEA Copenhagen Initial radar track (1188 Z) Putnitz Rostock Wismar Aircraft reportedly landed here (1205 Z) Track faded (1201 Z) Hamburg Schwerin WEST GERMANY EAST GERMANY POLAND Berlin USAF C-47 INCIDENT - 20 MAY 1960 Soviet radar track of transport 0 50 Miles 0 100 Kilometers
+Token count: 48
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.926102
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #5 (original #14, segment 2)
+Text: Air incident in East Germany: On 20 May, a USAF C-47 transport en route from Copenhagen to Hamburg with nine persons aboard apparently was forced to land about 15 nautical miles northwest of Wismar in the extreme northwest corner of East Germany at approximately 1205Z. It was forced down by Soviet fighters. No fighter activity, however, was noted at that time although some Western radar reflections suggest such activity. The transport was tracked for some 25 minutes by Soviet radars. No information, including weather conditions, explains why the aircraft had deviated from its intended course. the aircraft was undamaged and the personnel were turned over to the Soviet commandant in the area. the American personnel were later transported by helicopter to Putnitz. (See
+Token count: 123
+Recut: kept_after_recut
+
+Clean Chunk #6 (original #14, segment 4)
+Text: on facing
+Token count: 2
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: detente-policy
+- original #14 segment 1: noncontent_keyword
+  Text: Page 8
+- original #14 segment 3: noncontent_keyword, short_span_min_tokens
+  Text: map
+- original #14 segment 5: noncontent_keyword
+  Text: page.) 21 May 60 DAILY BRIEF
+- original #14 segment 6: short_span_min_tokens
+  Text: iv
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.993035
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: their
+- original #16 segment 1: noncontent_keyword
+  Text: 21 May 60 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: East German Workers Criticize Khrushchev's Moves to Wreck Summit Meeting Crash public opinion surveys made by Socialist Unity (Communist) party (SED) officials in East Germany from 17 to 19 May reveal open criticism among the people--particularly workers--of Khrushchev's use of the U-2 incident to wreck the summit meeting. East Germans are greatly concerned over developments in Paris and in some cases have publicly contrasted with Khrushchev's disruptive moves the attempts of Western leaders to continue the negotiations. SED headquarters in Potsdam District reported that workers in many factories were expressing "indefinite" and "negative" views, such as: "The airplane should have been the last item on the agenda instead of the first"; "Khrushchev shouldn't play the spoil sport"; "Everyone must compromise"; and "The summit conference needn't be shattered because of this, thereby killing the hopes of the people." In two cases party members had expressed such opinions. Similarly, Magdeburg officials reported on 17 May that workers in one factory accused Khrushchev of using "sledge-hammer tactics." Even among intellectuals who have publicly supported Khrushchev's moves, there is obvious concern over the breakdown of negotiations. For example, students at Rostock University said: "If the summit conference had taken place, at least something would have resulted for Germany." The regime's propaganda apparatus has been put into full swing to counteract such opinions and give maximum coverage for Khrushchev's statements in East Berlin. It is nevertheless probable that the already low morale of the East German populace has dropped further as a result of the developments in Paris. Many East Germans will probably fear that access to West Berlin may soon be barred by the regime and attempt to flee now. The flow of refugees to West Berlin has already
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 May 60 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.123095
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: reached proportions of the 1958 mass flights as a result of last winter's collectivization drive, despite the regime's urgent efforts to stop them
+- original #19 segment 1: full_page_or_admin
+  Text: the week ending 17 May, 3,883 refugees reached the city--an increase of 550 above the preceding week and more than 2,000 above the comparable week last year. Since the East-West German border is practically sealed as a result of heightened security precautions, nearly all East German refugees now are using the West Berlin escape hatch
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 May 60 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=0.995455
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: noncontent_keyword
+  Text: 21 May 60 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=11 unred_source_page=13
+alignment_score=0.996141
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: noncontent_keyword
+  Text: 21 May 60 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=12 unred_source_page=14
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: Struggle for Power Within Saudi Royal Family Crown Prince Faysal is expected to leave very soon for at least six weeks of medical treatment in Europe, and King Saud has taken the first step in his plan to regain domination over the government. he refused to accept Faysal's suggestions for interim appointments to supervise government affairs. The crown prince responded by reiterating his recommendations in the form of a virtual ultimatum to the King. This names, as acting prime minister, Prince Musaid Ibn Abd-al-Rahman, who served in that capacity during Faysal's absence in Europe from October to December last year, and as presiding officer over the Council of Ministers, Prince Fahd Ibn Abd al-Aziz, minister of education, who headed the Saudi delegation to recent Arab League meetings. The next move is up to King Saud. His personal advisers, some of whom are corrupt holdovers from Saud's bungling and extravagant rule from 1953 to 1958, are urging him to press for a complete showdown. If he does, the outcome is likely to be determined by the attitudes of ten or twelve influential senior princes. While this group was responsible for easing the King out of power in favor of Faysal in March 1958, several of its members reportedly have since become unenthusiastic about supporting the crown prince. The quarrel within the royal family has become so serious as to reduce political stability. The way might be opened to organized plotting by antiroyalist groups not only in the bureaucracy and merchant class but also in the army, where disaffection is reported spreading
+- original #22 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 May 60 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=13 unred_source_page=15
+alignment_score=0.995683
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: noncontent_keyword
+  Text: 21 May 60 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=14 unred_source_page=16
+alignment_score=0.989377
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #7 (original #24, segment 1)
+Text: declared publicly what Foreign Minister Gromyko had pledged on 17 May to British Foreign Secretary Selwyn Lloyd
+Token count: 17
+Recut: none
+
+Excluded candidates:
+- original #25 segment 1: noncontent_keyword
+  Text: 21 May 60 CENTRAL INTELLIGENCE BULLETIN Page 8
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=15 unred_source_page=17
+alignment_score=0.989189
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: noncontent_keyword
+  Text: 21 May 60 CENTRAL INTELLIGENCE BULLETIN Page 9
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=16 unred_source_page=18
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=17 unred_source_page=19
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

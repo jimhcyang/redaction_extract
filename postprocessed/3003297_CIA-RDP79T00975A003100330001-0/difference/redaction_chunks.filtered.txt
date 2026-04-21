@@ -1,0 +1,152 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.444231
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.925000
+kept_candidate_count=2
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. SAUDIS AT AQABA TO AVOID CLASH WITH ISRAEL UNLESS ATTACKED
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 4. ALGERIAN REBELS SEEK MORE CZECH ARMS
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #2 segment 3: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+- original #5 segment 1: noncontent_keyword
+  Text: page 9) 2 June 57 Current Intelligence Bulletin Page 2
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.992781
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens
+  Text: the
+- original #7 segment 1: noncontent_keyword
+  Text: 2 June 57 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 2. SAUDIS AT AQABA TO AVOID CLASH WITH ISRAEL UNLESS ATTACKED Saudi Arabian forces deployed in the Aqaba area have been ordered by the Saudi regional commander to refrain from provoking the Israelis in nearby Eilat and the Gulf of Aqaba. It was pointed out to the Saudi commander in the Aqaba area that he was not prepared to attack the Israelis at present, and that he should not overlook his "lack of capabilities." If attacked, he was instructed to fight a "defensive action." The Saudi regional commander also suggested to the minister of defense in Riyadh that the present impetuous commander of the Saudi forces in Aqaba be replaced "lest he drag us into something while we are unprepared for it." The Saudis are unlikely to attempt to interfere militarily with the passage of Israeli vessels to Eilat at this time. The Israelis have stepped up military activity in the Eilat area. Saudi positions have been reconnoitered by sea and air, and Israeli artillery has been emplaced at Eilat. On 23 May the Saudis complained to Egyptian commander in chief-Amer that the delay in delivery of antiaircraft guns had left Saudi positions vulnerable to Israeli observation. The Saudi complaint may also provide an excuse for avoiding action against Israeli shipping
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 2 June 57 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.989474
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: 2 June 57 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #10, segment 1)
+Text: 4. ALGERIAN REBELS SEEK MORE CZECH ARMS Comment
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #10 segment 2: noncontent_keyword
+  Text: 2 June 57 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.974653
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: antiwestern
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communist-Syrian-Egyptian
+- original #14 segment 1: noncontent_keyword
+  Text: 2 June 57 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.994737
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: noncontent_keyword
+  Text: 2 June 57 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.994570
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: noncontent_keyword
+  Text: 2 June 57 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 11]
+kind=red_only red_source_page=10 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

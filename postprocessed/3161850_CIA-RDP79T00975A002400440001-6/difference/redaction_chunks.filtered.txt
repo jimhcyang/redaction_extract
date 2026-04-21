@@ -1,0 +1,205 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.934507
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 3. USSR REPORTEDLY OFFERS EGYPT NUCLEAR POWER STATION
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 2)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+- original #4 segment 3: noncontent_keyword
+  Text: page 9) 9 Mar 56 Current Intelligence Bulletin Page 2
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.969656
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #3 (original #6, segment 1)
+Text: on 6 March
+Token count: 3
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Ambassador
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: complete
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: measures
+- original #9 segment 1: noncontent_keyword
+  Text: 9 Mar 56 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.952935
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: number
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Ambassador
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: ambassador
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: forthcoming
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: escape
+- original #16 segment 1: noncontent_keyword
+  Text: 9 Mar 56 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.927652
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: progressively
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: unification
+- original #19 segment 1: noncontent_keyword
+  Text: 9 Mar 56 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: 3. USSR REPORTEDLY OFFERS EGYPT NUCLEAR POWER STATION The Soviet government had expressed willingness to supply Egypt with a nuclear power station "for development of the desert and for running factories," The Soviet government allegedly wants the Egyptian government to make an official request for such a power station. Comment A Soviet offer of this nature would have great impact on Egypt and would increase Soviet prestige not only in the Arab world but in other countries that hope for rapid industrial development. The USSR agreed to help Egypt set up a nuclear physics laboratory in Cairo. The Soviet Union has not yet agreed to furnish even the European Satellites or Communist China with a nuclear power station. It has, however, assured the other bloc countries of technical assistance in the eventual construction of their own nuclear power station. (Concurred in by OSI
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 Mar 56 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.921324
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Military
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Chinese
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: deploy
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: imminent
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: fortifications
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: expected
+- original #27 segment 1: noncontent_keyword
+  Text: 9 Mar 56 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.882112
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #28 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: circles
+- original #29 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: conversation
+- original #30 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: anti-Communist
+- original #31 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: importance
+- original #32 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: anti-Communist
+- original #33 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reorientation
+- original #34 segment 1: noncontent_keyword
+  Text: 9 Mar 56 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 10]
+kind=red_only red_source_page=9 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=0.244404
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #35 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 8 March) An Egyptian spokesman charged that an Israeli post fired on an Egyptian post
+- original #36 segment 1: full_page_or_admin
+  Text: the Gaza sector. Some casualties were reported. (Press) Syria has proclaimed a state of emergency in the areas near the Syrian-Israeli border. The American embassy in Tel Aviv reports that all Israeli newspapers except those of the extreme left and Communist parties are demanding some immediate response to the alleged Syrian attack on Israeli police boats on Lake Tiberias either by the Israeli government or by the United Nations. Israeli fishermen will continue their activity and that the Israeli army will take the necessary measures to defend them, the Egyptian flag vessel Khedive Ismail, which sailed from Alexandria on 27 February and arrived at Latakia, Syria, on 1 March, carried military equipment. Its cargo reportedly included 24 33-ton tanks (approximately the weight of the Soviet T-34), 900 tons of ammunition, and an unknown number of heavy artillery pieces. The fact that shipments to Syria of major items of Soviet bloc military equipment were either already under way or to begin soon was indicated
+- original #36 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 Mar 56 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #37 segment 1: full_page_or_admin
+  Text: the Syrians by the end of April would receive 60 tanks, 18 self-propelled guns, and 30 heavy antiaircraft guns. * * * British prime minister Eden has asked Jordan to relieve all remaining British Arab Legion officers of command responsibility, but Amman has asked London to reconsider its decision to recall some 15 officers who are not under contract to Jordan. London has informed the 50 British officers under contract to the Jordan government that no requests for transfer will be accepted while their future status is being considered. the meeting of Egyptian prime minister Nasr, King Saud, and President Quwatli of Syria now taking place in Egypt planned to discuss Israeli and Jordanian matters, the establishment of the Arab League army, the inclusion of Lebanon in the joint command, the granting of financial aid to Jordan, and the purchase by Jordan of Mafrak airfield, built by the British
+- original #37 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 Mar 56 Current Intelligence Bulletin Page 10

@@ -1,0 +1,245 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.711189
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: TOP SECRET
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.244884
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 28 APRIL 1958 I. THE COMMUNIST BLOC Soviet vehicle launching at Tyura Tam; see Guided Missile Intelligence Committee statement
+- original #3 segment 1: full_page_or_admin, noncontent_keyword
+  Text: Daily Brief
+- original #3 segment 2: full_page_or_admin
+  Text: on page i. II. ASIA-AFRICA Nasir's plans for Soviet tour starting 29 April call for considerable negotiation, mostly economic. Poor Syrian grain harvest will strain UAR budget and may hurt Nasir politically. European extremists in Algiers renew call for army takeover in Paris; rumors of coup d'etat in Algeria recur. Indonesia - Bloc jet trainers reportedly will be offloaded at Surabaya; IL-14 transports expected within two weeks. Bukittinggi may now have fallen to central government forces. Construction of military installation on Yemeni coast at entrance to Red Sea progressing under direction of Soviet bloc engineers. III. THE WEST Adenauer stressing disarmament as summit topic; opponents of government's nuclear arms policy will exploit Mikoyan offer. Guatemalan President Ydigoras ready with propaganda campaign agitating for "return" of British Honduras
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.861881
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #4, segment 1)
+Text: I. THE COMMUNIST BLOC Soviet Missile Activity: Guided Missile Intelligence Committee Statement as of 1200 EDT, 27 April 1958. Available information does not permit positive identification of the operation, but the following possibilities exist: The launching of an ICBM or ESV essentially similar to the previous two Sputniks; The launching of another type space vehicle such as one used in a lunar operation or a more sophisticated satellite, such as a recoverable one; Failure of the intended operation; A unique type of practice which could also serve as a part of a hoax
+Token count: 93
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.973158
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #5, segment 1)
+Text: The most likely of these possibilities is that the operation was to launch some type of space vehicle, such as one used in lunar operations or a more sophisticated ESV
+Token count: 30
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Page 1
+- original #7 segment 1: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.897885
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #8, segment 1)
+Text: Indonesia: Bukittinggi may now have fallen to central government forces. In Djakarta, the recently arrived Soviet ship Ismail will unload jet trainers at Surabaya. IL-14 transport aircraft will arrive in Indonesia within the next two weeks and that IL-28 bombers will follow within several months. (SECRET NOFORN) (Page 3) (Map) Yemen-USSR: Construction of military installations on the Yemeni coast at the southern entrance to the Red Sea--flanking the oil-tanker route from the Persian Gulf to Western Europe--is progressing under the direction of Soviet bloc engineers. The British in Aden state that the Soviet-financed projects include an airfield, defensive installations, and coastal gun positions
+Token count: 105
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #9, segment 1)
+Text: West Germany: Adenauer's increased emphasis on his new policy line that disarmament should be the main topic at a summit conference stems primarily from his concern over the domestic West German political interest in the nuclear armament issue. By relegating such questions as German reunification to a lesser place, Adenauer evidently hopes to evade heavy opposition criticism of his nuclear weapons policy in five important state elections this year
+Token count: 69
+Recut: none
+
+Excluded candidates:
+- original #8 segment 2: noncontent_keyword
+  Text: Page 5) (Map
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.936975
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #5 (original #10, segment 1)
+Text: This policy has also met with considerable public criticism. Soviet Deputy Premier Mikoyan's statement offering to renounce Soviet use of nuclear arms against West Germany if the Federal Republic is kept free of nuclear weapons has given West German opposition parties new ammunition for their campaign
+Token count: 46
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #10 segment 2: noncontent_keyword
+  Text: Page 6
+- original #11 segment 1: noncontent_keyword
+  Text: Page 7
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.990978
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: cover
+- original #13 segment 1: noncontent_keyword
+  Text: 28 Apr 58 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.993363
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: Indonesia Bukittinggi may now be in central government hands. Singapore monitors of the radio station there report it is now announcing itself as "Radio Republic Indonesia" rather than using its former name of "Radio Revolutionary Republic Indonesia." With the fall of Bukittinggi several days after the capture of Solok, government forces are expected to push for a final rout of dissident troops believed concentrated between these two points. The government has announced the appointment of Lt. Col. Nasution, operations commander in eastern Central Sumatra, as "war administrator" of that area, and apparently plans to name the western commander, Col. Jani, as chief administrator there, with over-all authority for Central Sumatra. It has also banned political activities in former dissident-held areas. The Soviet vessel Ismail, which recently arrived in Djakarta with bloc military equipment, will offload Soviet-made jet trainers in Surabaya. The anticipated IL-14 transport deliveries will be made within two weeks, followed within several months by IL-28 bombers. Col. Simbolon, foreign minister of the dissident regime in Central Sumatra, has approved the suggestion of North Celebes commander Col. Sumual that the dissident capital be moved to Menado after Bukittinggi's fall. Also approved was the appointment of Col. Warouw, former military attaché in Peiping, as vice premier. The dissident air force's attacks on Ternate Island apparently have had a considerable demoralizing effect
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Apr 58 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: short_span_min_tokens
+  Text: INDONESIA
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.122253
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: The government has become a vacuum and all of the people
+- original #18 segment 1: full_page_or_admin
+  Text: the city have evacuated to the hills." Central government agents are keeping close surveillance on the dissidents' airfield at Menado. Soviet Ambassador Zhukov has delivered to the Indonesian Communist party (PKI) instructions from Moscow to stage a coup d'etat in Djakarta if the central government appears ready to reach a damaging compromise with the dissidents. Zhukov indicated the Soviet Union was prepared to send weapons and aircraft if needed for the coup. It is improbable that Moscow would consider such a move, in view of the fact that sponsorship of armed PKI action would shatter the bloc's posture of noninterference which is fundamental to its policy throughout Asia and Africa. There is also little likelihood of any compromise damaging to the PKI, which probably will emerge from the present crisis in a stronger position than ever. Moreover the PKI is believed well satisfied with its rapidly increasing political gains and unlikely to risk these by gambling on the success of a coup
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Apr 58 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: Soviet-Directed Construction of Military Installations in Yemen Two Soviet engineers have visited the Bab al-Mandab area in Yemen repeatedly during the last three months in preparation for construction of an airfield at the southern entrance of the Red Sea. Work was scheduled to begin about 25 April. The project is being financed by the USSR as well as directed by Soviet technicians. Yemen's deputy foreign minister in mid-April admitted Soviet assistance was being received on the construction of military installations at Bab al-Mandab and "elsewhere along the Aden Protectorate border." The nature of the latter installations is unclear. However, an airfield had been rebuilt in the Baidha area near the disputed Aden Protectorate frontier. A field at Harib may have been similarly repaired. Three new gun emplacements on a hill overlooking Bab al-Mandab Strait. In September, two Soviet engineers were reported to have inspected the area prior to the arrival of guns and ammunition. The "new guns" at Bab al-Mandab, along with one at the village of Dhubab, 16 miles to the north, had been inspected and cleaned by the "experts." The emplacements are suitable for the Soviet 122-mm. field gun, several of which have been received by Yemen. The models of this gun thus far identified in Yemen do not have sufficient range to cover the navigable channel through the strait completely, although a later model, which may also have been received, could do so. The guns can cover the British airfield on Perim Island, which lies in the strait
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Apr 58 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=15
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: III. THE WEST Adenauer's Flexibility on Summit Talks Faced with Soviet First Deputy Premier Mikoyan's statement on 25 April that the USSR will refrain from using nuclear weapons against West Germany if Bonn keeps its territory free of nuclear weapons, Chancellor Adenauer may be expected to counter with his new and more flexible policy line that controlled disarmament should be the chief goal of a summit conference. He amplified this line in an interview on 26 April at which he reportedly said a summit conference need not have a formal agenda and could run for two or three years at the committee level. West German public opinion now strongly favors a summit conference, and Adenauer's more flexible attitude is a tactical retreat in view of the five important state election campaigns facing his party this year. Adenauer must counter a strong Social Democratic party (SPD) attack on his policy of accepting nuclear weapons for the West German armed forces. The 25 April debate in the Bundestag on submitting this policy to a national referendum, however, revealed considerable confusion and lack of unity among the opposition in pressing this issue. Moreover, Mikoyan's "hard line" on German reunification, as stated in his 26 April press interview, is likely to help Adenauer rather than the SPD by bringing home to the German public that the USSR remains adamantly opposed to any compromise on this question
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 6
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=10 unred_source_page=16
+alignment_score=0.995683
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: noncontent_keyword
+  Text: 28 Apr 58 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 17]
+kind=unred_only red_source_page=None unred_source_page=17
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 28 April 1958 DAILY BRIEF
+- original #22 segment 2: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Soviet Missile Activity: Guided Missile Intelligence Committee Statement as of 1200 EDT, 27 April 1958. Available information does not permit positive identification of the operation, but the following possibilities exist: The launching of an ICBM or ESV essentially similar to the previous two Sputniks; The launching of another type space vehicle such as one used in a lunar operation or a more sophisticated satellite, such as a recoverable one; Failure of the intended operation; A unique type of practice which could also serve as a part of a hoax. The most likely of these possibilities is that the operation was to launch some type of space vehicle, such as one used in lunar operations or a more sophisticated
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=11 unred_source_page=18
+alignment_score=0.122610
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: full_page_or_admin
+  Text: III. THE WEST West Germany: Adenauer's increased emphasis on his new policy line that disarmament should be the main topic at a summit conference stems primarily from his concern over the domestic West German political interest
+- original #24 segment 1: full_page_or_admin
+  Text: the nuclear armament issue. By relegating such questions as German reunification to a lesser place, Adenauer evidently hopes to evade heavy opposition criticism of his nuclear weapons policy in five important state elections this year. Guatemala - British Honduras: His primary motive is to strengthen his domestic political position by taking a strong stand on an issue with emotional appeal to all Guatemalans. He threatens a series of dramatic gestures, including an appeal in the United Nations for Latin American solidarity against "colonialism
+- original #24 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 7) 28 Apr 58 DAILY BRIEF
+- original #24 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: iv

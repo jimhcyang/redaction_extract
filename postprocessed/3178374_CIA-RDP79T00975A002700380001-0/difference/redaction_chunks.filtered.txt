@@ -1,0 +1,102 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.702500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.714394
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. IDEOLOGICAL CONTROVERSY UNRESOLVED DURING TITO'S JUNE VISIT TO MOSCOW
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 3. NASR SAYS HE SEEKS PROPAGANDA GAIN FROM MEETING WITH OTHER ARAB LEADERS
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 1. IDEOLOGICAL CONTROVERSY UNRESOLVED DURING TITO'S JUNE VISIT TO MOSCOW Yugoslavs had deviated significantly from Marxism-Leninism. The Yugoslavs rejected a Soviet plan for the establishment of common ideological bases, and instead presented their own plan which did not adhere to the principles of Marxism-Leninism. The Soviets accepted the Yugoslav plan, but only after "serious corrections." Comment The "ideological differences" probably concern, in large part, the right of every country to its "own road to socialism." Developments throughout the Communist world in the last two months may have made the gap appear significant enough to motivate Khrushchev's present trip to Yugoslavia. Soviet directive to the Satellite parties warning them against Yugoslav influence. This directive, in the version originally received by the American embassy in Belgrade, contained a criticism of Bulganin's overly commendatory statements regarding Yugoslavia
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=4
+alignment_score=0.968075
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 3. NASR SAYS HE SEEKS PROPAGANDA GAIN FROM MEETING WITH OTHER ARAB LEADERS Comment Nasr planned to visit Saud to discuss the possibility of shifting the refining and marketing of Saudi oil from Aramco to the USSR. The Saudis, however, would be unlikely to give serious consideration to such a maneuver, particularly while the outcome of the Suez dispute is still uncertain. Nasr is almost certainly anxious to counteract the impression that Saudi Arabia's support of Egypt is weakening
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=0.967925
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=7
+alignment_score=0.958344
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens
+  Text: Press
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

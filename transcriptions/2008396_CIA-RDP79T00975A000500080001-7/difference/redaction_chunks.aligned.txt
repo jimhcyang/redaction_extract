@@ -1,0 +1,64 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.741304
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.866434
+
+Chunk #1
+Predicted text: ussr far east near east africa western europe
+Unredacted context: summary [UNRED_ONLY: ussr far east near east africa western europe] scandinavia 6 denmark
+Redacted context: [L@0:summary] [RED_GAP:<empty>] [R@1:scandinavia] 6 denmark insists
+
+Chunk #2
+Predicted text: latin america
+Unredacted context: poland page 6 [UNRED_ONLY: latin america]
+Redacted context: [L@11] to poland page 6 2
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+
+Chunk #3
+Predicted text: ussr far east
+Unredacted context: [UNRED_ONLY: ussr far east]
+Redacted context: (no redacted anchors available)
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+
+Chunk #4
+Predicted text: near east africa western europe
+Unredacted context: [UNRED_ONLY: near east africa western europe]
+Redacted context: (no redacted anchors available)
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=3 unred_source_page=5
+alignment_score=0.000000
+
+Chunk #5
+Predicted text: ussr far east
+Unredacted context: [UNRED_ONLY: ussr far east]
+Redacted context: (no redacted anchors available)
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.990670
+
+Chunk #6
+Predicted text: latin america
+Unredacted context: with the danes [UNRED_ONLY: latin america]
+Redacted context: [L@121] side with the danes 6
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.

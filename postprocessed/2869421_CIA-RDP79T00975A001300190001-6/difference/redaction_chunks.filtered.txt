@@ -1,0 +1,111 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.536364
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.964545
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 6. USSR and Iran reportedly sign agreement on Caspian fisheries property
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: EASTERN EUROPE 8. Cutbacks in Albanian industrial construction revealed
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.998696
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.999013
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.937500
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #7, segment 1)
+Text: NEAR EAST - AFRICA 6. USSR and Iran reportedly sign agreement on Caspian fisheries property: An agreement which settles the compensation to be paid by Iran for the installations of the former Soviet fishing concession on the Caspian Sea was signed early in September
+Token count: 43
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.911688
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #8, segment 2)
+Text: and the complementary Soviet-Iranian trade agreement signed on 3 September constitute a gesture of appeasement toward Moscow by the new Iranian government. Comment: A liquidation commission for resolving the question of the fisheries property was set up last February. There was an unconfirmed report in April that the Soviet share of the property was valued at 40,000,000 rials and that Iran would pay this sum by supplying fish and caviar to the USSR. The USSR blocked a solution to this problem in the preliminary negotiations. Since the USSR lost prestige in Iran following the Zahedi coup, the alleged agreement is more likely to represent a concession on the part of Moscow rather than Tehran
+Token count: 116
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #9, segment 1)
+Text: EASTERN EUROPE 8. Cutbacks in Albanian industrial construction revealed: Albanian officials have been "requested" to cancel several construction
+Token count: 18
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.933589
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #6 (original #10, segment 2)
+Text: projects, including the Tirana steel foundry, the copper smelting works in Rrubig, and an automobile repair depot in Elbasan. Comment: These cutbacks in the Albanian industrial program have apparently been ordered by Moscow. Cancellation of these projects will help to relieve a burden on Czechoslovakia, which has been the chief exporter of industrial equipment to Albania. This is the first firm evidence that sizable reductions are planned in Albanian industrial development. In his 1 August keynote address before the newly reorganized Albanian government, Premier Hoxha alluded to possible cutbacks in nonessential industries, and there is some evidence of a curtailment of activity on the major hydroelectric project on the Mat River
+Token count: 111
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: governor

@@ -1,0 +1,330 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.110224
+kept_candidate_count=4
+excluded_candidate_count=8
+
+Clean Chunk #1 (original #2, segment 1)
+Text: Recent developments in western Soviet Arctic raise possibility
+Token count: 8
+Recut: none
+
+Clean Chunk #2 (original #3, segment 1)
+Text: further nuclear testing in Novaya Zemlya area. Chinese Nationalist jet reconnaissance plane attacked and probably shot down by Chinese Communists near Dairen. Pyongyang expected to use kidnaped
+Token count: 27
+Recut: none
+
+Clean Chunk #3 (original #10, segment 1)
+Text: Jordan consider bringing Kuwait into Arab Federation; Britain will oppose. King Saud orders moves
+Token count: 14
+Recut: none
+
+Clean Chunk #4 (original #12, segment 1)
+Text: Yemen. Sudanese concerned over Nasir's approach on border question. Indonesia - Djakarta government maintains uncompromising attitude toward dissidents; outlaws dissidents’ political organizations. III. THE WEST Cyprus - Prospects for solution remain slight. Cuba Army steps up campaign against rebel units in eastern Cuba
+Token count: 41
+Recut: none
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 19 FEBRUARY 1958
+- original #4 segment 1: short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: lever
+- original #5 segment 1: nonempty_redacted_alternate_conflict
+  Text: LATE ITEM Korea
+- original #6 segment 1: nonempty_redacted_alternate_conflict
+  Text: declare intention
+- original #7 segment 1: nonempty_redacted_alternate_conflict
+  Text: withdraw all Chinese troops from
+- original #8 segment 1: short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: end
+- original #9 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: 1958. II. ASIA- AFRICA Iraq
+- original #11 segment 1: nonempty_redacted_alternate_conflict
+  Text: undermine Imam
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 19 February 1958 DAILY BRIEF
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 1. THE COMMUNIST BLOC Soviet Arctic activity: Recent developments in the western Soviet Arctic raise the possibility that a new series of nuclear tests is being prepared. A Soviet BEAR turboprop heavy bomber recently flew from Kerch/Bagerovo (a nuclear energy associated installation) to Novaya Zemlya. In the past week, flights by five possible BADGERS from Kerch to Olenya have been noted. Olenya is the Kola Peninsula location which served as the base for some air activity associated with previous nuclear tests in the Novaya Zemlya area. (See map at top of reverse page.) Chinese Nationalist aircraft shot down: A Chinese Nationalist jet reconnaissance aircraft was apparently attacked and probably shot down in waters near Dairen by Communist fighters during a daylight mission. The Nationalist RB-57 was pursued by fighters for over an hour as it flew an erratic course over the Shantung Peninsula. Radar tracking ceased near Dairen, indicating a successful attack had occurred. The Nationalist aircraft failed
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #14, segment 1)
+Text: AREA CLOSED OFF NOVAYA ZEMLYA Area of the Soviet Naval exercises 10 SEPTEMBER - 15 OCTOBER 1957 AREA CLOSED 15 FEBRUARY - 15 MARCH 1958 Approximate position of shootdown
+Token count: 27
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.902601
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #6 (original #15, segment 1)
+Text: to land at a US base
+Token count: 6
+Recut: none
+
+Clean Chunk #7 (original #19, segment 1)
+Text: Saudi moves against Yemen: King Saud has ordered moves to undermine the Imam of Yemen. Saud's principal officer in Saudi territory adjacent to northeastern Yemen is being secretly allotted money for propaganda against the Imam and has been told to allow Yemeni tribesmen free access to Saudi territory. Some Yemeni dissident groups have sought intervention by Saud to establish a protectorate over Yemen. Although King Saud has repeatedly warned the Imam against the dangers of Communism, the planned propaganda campaign is probably designed to increase Saud's own influence as well as to reduce Soviet and Egyptian influence in Yemen
+Token count: 99
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communists
+- original #17 segment 1: noncontent_keyword
+  Text: Page 1
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Unless
+- original #19 segment 2: noncontent_keyword
+  Text: Page 2
+- original #20 segment 1: short_span_min_tokens
+  Text: a
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.864440
+kept_candidate_count=2
+excluded_candidate_count=9
+
+Clean Chunk #8 (original #24, segment 1)
+Text: but with orders not to fire even if fired on
+Token count: 10
+Recut: none
+
+Clean Chunk #9 (original #25, segment 3)
+Text: Indonesia: The Djakarta government, at least outwardly, is maintaining an uncompromising attitude toward the dissident movement and has declared all the rebel political organs illegal. Army Chief of Staff Nasution has formulated plans for military operations against Central Sumatra should President Sukarno decide to take this course of action. The military commander in North Celebes and his deputy, who declared their support for the rebel government on 17 February, have been dishonorably discharged from the army, and the navy chief of staff has declared ports in Central Sumatra and North Celebes to be closed areas
+Token count: 95
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: anti-Egyptian
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: promoting
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: union
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: unconfirmed
+- original #25 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 3) (Map
+- original #25 segment 4: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 4) (Map
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: British
+- original #27 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Ankara’s
+- original #28 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: partition
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #10 (original #29, segment 1)
+Text: CUBA HAVANA CIENFUEGOS ORIENTE SANTIAGO DE CUBA
+Token count: 7
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #30 segment 1: full_page_or_admin
+  Text: Cuba: The army has stepped up its campaign against rebel units in eastern Cuba following a new flare-up in rebel sabotage and terrorism. Disaffection is believed to be growing among the Cuban military, Batista's principal bulwark. (See map.) LATE ITEM Communist China-North Korea: The announcement of Peiping's intention to withdraw all Chinese troops from North Korea by the end of 1958 paves the way for a Communist diplomatic and propaganda campaign presenting the United States as the major obstacle to Korean reunification. Such a campaign may be intended to develop a Far Eastern issue as a pretext for Chinese participation in summit talks. The campaign will probably include renewed bids for north-south negotiations. The troop withdrawal, the first stage of which is to be completed before 30 April, could serve to undercut arguments against Communist China's admission to the UN on the grounds of its aggressive posture in Korea
+- original #30 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 Feb 58 DAILY BRIEF
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #31 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC North Korea Uses Plane Incident to Press for North-South Negotiations Pyongyang apparently views the landing on 16 February of a South Korean airliner in North Korea as an opportunity to force its demands for negotiations with Seoul. The North Koreans' claim that the 34 passengers voluntarily defected is intimation that they will not be released immediately but may be held for their hostage value. The North Koreans have refused to discuss the incident in the Military Armistice Commission and have proposed instead "direct" negotiations between the governments of North and South Korea. Repeated bids by the Communists for North-South negotiations to promote trade and prepare for unification elections have heretofore been categorically rejected by Seoul. North Korea is linking the incident to its current propaganda campaign for the withdrawal of foreign forces from South Korea. Pyongyang is alleging that the passengers defected because they opposed the "occupation" of the South by US troops. Communist China's Premier Chou En-lai, who now is in North Korea to discuss the withdrawal of Chinese Communist forces, will probably exploit the incident in a similar way, stressing US "occupation" and Chinese Communist willingness to act to get all foreign troops out of Korea
+- original #31 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 Feb 58 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=6 unred_source_page=11
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #32 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA King Saud Moves to Undermine the Imam of Yemen King Saud's growing apprehension over the threat posed to Saudi Arabia by Yemen's headlong drift into closer association with the Sino-Soviet bloc and Nasir's antimonarchical state has resulted in moves to strengthen Saud's following in Yemen and undermine the Imam. Despite his growing loss of influence in Yemen, Saud has been slow to take action. In December, he warned the Imam that closer Yemeni relations with the Soviet bloc posed an intolerable threat to the security of Saudi Arabia, and on 1 February he cautioned the Imam that Nasir's new state imperiled the Arab monarchies, advising against Yemen's hasty adherence
+- original #32 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 Feb 58 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=7 unred_source_page=12
+alignment_score=0.372144
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #33 segment 1: nonempty_redacted_alternate_conflict
+  Text: Khartoum Port Sudan Wadi Halfa
+- original #34 segment 1: short_span_min_tokens
+  Text: Aswan
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=8 unred_source_page=13
+alignment_score=0.961842
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #11 (original #36, segment 1)
+Text: from Port Sudan with orders not to fire even if fired on
+Token count: 12
+Recut: none
+
+Excluded candidates:
+- original #35 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: territory
+- original #37 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: established
+- original #38 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: below
+- original #39 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: territory
+- original #40 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: presage
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #41 segment 1: noncontent_keyword
+  Text: 19 FEBRUARY 1958
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=9 unred_source_page=15
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #42 segment 1: full_page_or_admin
+  Text: Indonesian Government Continues Uncompromising Position Toward Rebels Army Chief of Staff General Nasution apparently is proceeding with plans to use force against Central Sumatra, and several political leaders are now openly pessimistic over the possibility of avoiding conflict. Under Nasution's proposed military operation, army troops, commandos, and marines would seize the Central Sumatran oil centers of Pakanbaru and Rengat. This action is to be supported by a navy show of force in the Padang area and air force leaflet drops over Central Sumatran towns. The plan avoids transiting in either North or South Sumatra in the hope that these areas will stay neutral. Nasution reportedly believes his plan would cause no large-scale fighting but would force rebel leader Hussein to capitulate. If the dissidents do not back down, Nasution plans to attack the Padang-Bukittinggi area with naval and air force support. Nasution hopes to move quickly unless President Sukarno opposes him. Djakarta's uncompromising attitude is further underscored by its outlawing of all political organizations established by the dissidents. In line with this tough policy, moreover, the navy recently ordered that ports in the two rebel areas of Central Sumatra and North Celebes be closed to all shipping, and the two top dissidents in North Celebes were dishonorably discharged from the army. The rebel areas are nevertheless continuing their military and economic preparations. A significant aspect of their economic progress is the apparent integration of South Sumatra in dissident budgetary and banking arrangements
+- original #42 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 Feb 58 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=10 unred_source_page=16
+alignment_score=0.914821
+kept_candidate_count=1
+excluded_candidate_count=9
+
+Clean Chunk #12 (original #52, segment 1)
+Text: British security forces on Cyprus have been alerted for serious clashes. The Greek Cypriots, however, may follow a plan of EOKA-enforced passive resistance, pending clarification of British intentions
+Token count: 28
+Recut: none
+
+Excluded candidates:
+- original #43 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Foreign
+- original #44 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Cyprus
+- original #45 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Foreign
+- original #46 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: statement
+- original #47 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: immediate
+- original #48 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: expressed
+- original #49 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Archbishop
+- original #50 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Britain
+- original #51 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: regards
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=11 unred_source_page=17
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=12 unred_source_page=18
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #53 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 19 February 1958 DAILY BRIEF
+- original #53 segment 2: full_page_or_admin, noncontent_keyword
+  Text: I. THE COMMUNIST BLOC Soviet Arctic activity: Recent developments in the western Soviet Arctic raise the possibility that a new series of nuclear tests is being prepared. A broad area in the Barents Sea was to be closed between 15 February and 16 March. This closure involves the same general area which was closed during a series of nuclear tests last year, but a much smaller area in the Barents Sea is involved in the current closure. A BEAR turboprop heavy bomber recently flew from Kerch/Bagerovo (a nuclear energy associated installation) to Novaya Zemlya. In the past week, flights by five possible BADGERS from Kerch to Olenya have been noted. Olenya is the Kola Peninsula location which served as the base for some air activity associated with previous nuclear tests in the Novaya Zemlya area. (See map at top of reverse page.) Chinese Nationalist aircraft shot down: A Chinese Nationalist jet reconnaissance aircraft was apparently attacked and probably shot down in waters near Dairen by Communist fighters during a daylight mission. The Nationalist RB-57 was pursued by fighters for over an hour as it flew an erratic course over the Shantung Peninsula. Radar tracking ceased near Dairen, indicating a successful attack had occurred. The Nationalist aircraft failed to land at a US base in South Korea as scheduled. (See map at bottom of facing page.) Indonesia: The Djakarta government, at least outwardly, is maintaining an uncompromising attitude toward the dissident movement and has declared all the rebel political organs illegal. Army Chief of Staff Nasution has formulated plans for military operations against Central Sumatra should President Sukarno decide to take this course of action. The military commander in North Celebes and his deputy, who declared their support for the rebel government on 17 February, have been dishonorably discharged from the army, and the navy chief of staff has declared ports in Central Sumatra and North Celebes to be closed areas. (Page 4) (Map) Cuba: The army has stepped up its campaign against rebel units in eastern Cuba following a new flare-up in rebel sabotage and terrorism. Disaffection is believed to be growing among the Cuban military, Batista's principal bulwark. (See map.) LATE ITEM Communist China-North Korea: The announcement of Peiping's intention to withdraw all Chinese troops from North Korea by the end of 1958 paves the way for a Communist diplomatic and propaganda campaign presenting the United States as the major obstacle to Korean reunification. Such a campaign may be intended to develop a Far Eastern issue as a pretext for Chinese participation in summit talks. The campaign will probably include renewed bids for north-south negotiations. The troop withdrawal, the first stage of which is to be completed before 30 April, could serve to undercut arguments against Communist China's admission to the UN on the grounds of its aggressive posture in Korea
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=13 unred_source_page=19
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #13 (original #54, segment 1)
+Text: AREA CLOSED OFF NOVAYA ZEMLYA AREA CLOSED 15 FEBRUARY - 15 MARCH 1958 Approximate position of shootdown CHINA NORTH KOREA SOUTH KOREA YELLOW SEA CUBA CIENFUEGOS ORIENTE SANTIAGO DE CUBA 19 FEBRUARY 1958
+Token count: 32
+Recut: none

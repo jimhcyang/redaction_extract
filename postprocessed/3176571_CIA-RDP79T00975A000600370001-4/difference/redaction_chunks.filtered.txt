@@ -1,0 +1,125 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.751515
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.949104
+kept_candidate_count=3
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #3, segment 1)
+Text: Iraq challenges Venezuela on oil exports to Israel
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 6. Egyptian King may be planning new government under present Minister of Interior
+Token count: 13
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #5, segment 1)
+Text: French official warns against liberalization of Allied controls in Berlin
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: GENERAL
+- original #3 segment 2: noncontent_keyword
+  Text: page 3
+- original #4 segment 2: noncontent_keyword
+  Text: page 6
+- original #5 segment 2: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.891412
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #7, segment 1)
+Text: Iraq challenges Venezuela on oil exports to Israel: Comment: Venezuelan exports of crude oil to Israel have increased steadily the past few years. In the first nine months of 1951 they accounted for approximately 75 percent of the crude processed at Haifa. As was explained Venezuelan exports are controlled not by the government, but by the oil companies themselves. There is no apparent reason for the Venezuelan Government to consider approaching the companies at this time. In January, Mexico instructed its Minister to Lebanon to deny that it was selling oil to Israel, but to state that the government-owned oil company obviously had the right to sell to any buyer not proscribed by the United Nations
+Token count: 116
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: GENERAL
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.996640
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.996768
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.836000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #8, segment 1)
+Text: 6. Egyptian King may be planning new government under present Minister of Interior: The Minister, Maraghi Bey, apparently expects the resignation of Hilali, the postponement of elections, his own accession to power on the basis of a strong program for social reform, and, should the Anglo-Egyptian dispute still not be settled, an ultimatum from Farouk giving the British 60 to 90 days to satisfy national aspirations. Should these not be satisfied, the source concludes that "a national struggle would begin under Maraghi's direction." Comment: This is the first indication that the possible resignation of the Hilali government might be followed by something other than general chaos. Maraghi is considered able and ambitious. There have been rumors, termed "absolutely untrue" by the Chief of the Royal Cabinet, that Farouk is not fully supporting Hilali. Lending some credence to these rumors is a report that Hilali has resisted royal pressure to take into his cabinet two of the King's friends who are notoriously corrupt
+Token count: 162
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.996272
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.906002
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #6 (original #11, segment 1)
+Text: French official warns against liberalization of Allied controls in Berlin: The chief French representative in Berlin complains that the United States draft statement of the position of West Berlin under future contractual agreements is "hardly acceptable". The French official asserts that the American plan "assimilates the city, as a matter of fact" with West Germany. The representative fears that the text is too vague and too brief. He advises Paris to hold to its former proposal, which would more clearly define the special situation of Berlin and provide strict rules limiting the freedom of action of the Germans and the Allies. The French claim to have convinced British authorities in Berlin of the soundness of their position
+Token count: 117
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: organization's
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: unaggressiveness
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #12, segment 1)
+Text: Comment: The French attitude stems from a basic fear that liberalization of Allied controls in Berlin would enable the Germans to lead the Allies into war. This has caused the French in the past to oppose the establishment of West Berlin as a twelfth state of the Federal Republic
+Token count: 49
+Recut: none

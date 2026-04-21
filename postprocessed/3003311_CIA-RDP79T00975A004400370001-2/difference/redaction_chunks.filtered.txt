@@ -1,0 +1,245 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.757143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122638
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 25 APRIL 1959 I. THE COMMUNIST BLOC Khrushchev's letter to Nasir. II. ASIA-AFRICA Iranians protest against Soviet overflights; their count believed exaggerated. Yemen - Crown Prince Badr tightens security measures. Power struggle
+- original #2 segment 1: full_page_or_admin
+  Text: Sudanese military government appears to be approaching showdown. Morocco to resume negotiations on US air bases; will press for further steps toward evacuation. Britain decides to sell heavy weapons to Iraq; delivery will not take place before 1960. Afro-Asian Economic Conference to take up question of admitting USSR. Burmese Army using Tibet situation to stimulate sentiment against Communist China. Japanese elections disclose no major shift in party strengths. III. THE WEST West German public opinion poll. Britain - Deferral of elections will tend to put Macmillan under pressure to compromise in East-West negotiations
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.936982
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 1)
+Text: I. THE COMMUNIST BLOC USSR-UAR the USSR in supporting Iraq, is merely fulfilling requests Nasir made when he visited Moscow following the Iraqi revolution. Khrushchev again denied that the USSR controls local Arab Communist parties, and warned Nasir not to look to the West for assistance. he does not intend to slacken his campaign against Communism. He may, however, curb his attacks on conditions in the Soviet bloc
+Token count: 68
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: Page 1
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.897157
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #5, segment 1)
+Text: Yemen: Crown Prince Badr's representatives in the northern capital at Sana on 20 April moved to arrest plotters believed attempting to seize control of the city. Stringent security measures in Sana are being tightened further. contrary to the claims of Yemen's deputy foreign minister, Badr has not received full assurance of support from the influential northern tribal leaders. Several Yemeni officials, meanwhile, have indicated to the American charge in Taiz that Badr is planning to curtail Soviet bloc activity in Yemen. Such action would probably reflect assurances of additional Egyptian support for Badr. (Page 2) Sudan: The behind-the-scenes struggle for power within the Sudanese military government seems to be approaching a showdown. Brigadier Shannan, spokesman of the junior officers' movement, is reported to have alerted troops and officers loyal to him to be ready for a coup attempt on short notice. A majority of the Supreme Military Council opposes Shannan, and a meeting of all military commanders has been called for 10 May. As a special precaution in the meantime, Army Headquarters has issued orders to all regional commands requiring 24 hours' notice before any officer of the rank of major or above travels to Khartoum
+Token count: 196
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 2: noncontent_keyword
+  Text: Page 3
+- original #6 segment 1: noncontent_keyword
+  Text: Page 4) 25 Apr 59 DAILY BRIEF
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.971661
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #7, segment 2)
+Text: Japan: The ruling conservatives under Prime Minister Kishi maintained their predominance over the Socialists in the 23 April elections by winning the key governorships of Tokyo, Osaka, and Hokkaido. The contest in the crucial Tokyo race was close and the Socialists won the important governorship of Fukuoka as was anticipated
+Token count: 50
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Page 7
+- original #7 segment 3: noncontent_keyword
+  Text: 25 Apr 59 DAILY BRIEF
+- original #7 segment 4: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.892188
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #8, segment 1)
+Text: The elections revealed no major shift in the relative strength of the two parties. *Nevertheless, conservative success in stemming the pro-Socialist trend of recent years should exert an important psychological influence in favor of the conservatives in the June upper-house elections as well as strengthen Kishi's personal position. (Page 8) III. THE WEST West Germany - West Berlin: A public opinion poll in West Berlin and West Germany on the Berlin crisis reaffirms that faith in the West, particularly in the US, remains strong, both in terms of Western power and Western determination to protect Berlin. The Germans are not so confident of the West's negotiating position, but they discount the danger of war and believe the USSR will back down or compromise. West Germans favor accepting East German control over Allied access rather than risking war and nearly two-thirds of them would have Bonn negotiate with the East German regime on reunification. On this latter question opinion is divided in West Berlin, but a substantial majority in both areas agree that free elections are essential for reunification
+Token count: 177
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #8 segment 2: noncontent_keyword
+  Text: Page 9
+- original #9 segment 1: noncontent_keyword
+  Text: 25 Apr 59 DAILY BRIEF
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Moscow Continues Efforts to Mollify Nasir The USSR is continuing its efforts to convince Nasir that he would best serve his own long-term interests by relaxing his anti-Communist, anti-bloc campaign. Moscow's arguments that the UAR's attacks on Communism and the bloc aid only Western "imperialists," the USSR, in aiding Iraq, is merely fulfilling requests Nasir made when he visited Moscow following the Iraqi revolution Khrushchev reportedly again denied that the Soviet Union controls Arab Communist parties and apologized for his remark on 16 March accusing Nasir of using the "language of imperialists" on the grounds that he did not mean to imply that Nasir--"a true nationalist" and "the only leader in the Arab world"--is an imperialist. Soviet radio propagandists have taken up this theme, with one Arabic commentary on 23 April claiming the West cannot market Egyptian cotton and that "Israeli influence" prevents Western participation in the Aswan high dam project. The UAR Embassy in Moscow notified Cairo on 15 April that it was receiving an increasing number of letters and telegrams from Soviet citizens protesting the UAR's policy. Two days later the UAR charge in Moscow reported that Soviet presidium member Mukhitdinov had said he hoped UAR Ambassador Kuni would soon return to his Moscow post in view of Kiselev's return to Cairo. Nasir does not intend to slacken his campaign against Communism. It is possible, however that he will curb his attacks on conditions in the Soviet bloc. 25 Apr 59
+- original #10 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Opposition to Crown Prince Badr Increasing in Northern Yemen Crown Prince Badr, who has been left in charge in Yemen during his father's medical treatment in Italy, was informed on 20 April that his representatives in the northern capital of Sana had arrested several conspirators who were planning to seize control of the city. Badr's representatives intended to obtain details of the conspiracy by torturing the suspects. The already stringent security measures taken by Badr in Sana have been tightened further, and Badr's agents have requested authority to issue ammunition to loyal troops in the city. Badr is attempting to move army reinforcements to Sana, somewhat to the concern of some local commanders. contradicts earlier reports that the influential tribal leaders who are opposed to Badr's succeeding his father when the latter dies, had nevertheless assured him of full support as regent in the Imam's absence. Prior to his father's departure for Italy, Badr sent units of his personal bodyguard to Sana, replaced officials of questionable loyalty, and appointed an Egyptian officer in charge of the Sana police. Badr is in Taiz, the southern capital, where his position is less insecure. Several Yemeni officials have indicated to the American charge in Taiz that Badr is planning some unspecified curtailment of Soviet bloc activity in Yemen. This presumably relates to earlier reports that all foreign diplomatic installations in Yemen may be closed, and Yemen's foreign relations handled in Cairo through the mechanism of the United Arab States, the federation of the UAR and Yemen. Such action by Badr would probably reflect assurances of additional Egyptian support. 25 Apr 59
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=10
+alignment_score=0.243960
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: New Crisis
+- original #13 segment 1: full_page_or_admin
+  Text: Sudanese Military Government Brigadier Abd al-Rahim Shannan, who spearheads the dissident junior officers' movement, has encountered increasing opposition from Brigadier Hasan Beshir Nasir and a coalition of senior officers in the Supreme Military Council, the Sudan's highest government organ. While Shannan's group has obtained some of its demands--rehabilitation of a number of pro-Egyptian officers and establishment of a committee to purge the government ministries--its attempts to obtain full control of the government have been frustrated. Each faction has had some success in having its own supporters assigned to key middle-ranking army jobs. Impatient with the progress of his efforts, on 20 April Shannan is reported to have alerted troops and officers loyal to him to be ready for a coup effort on short notice. On 23 April, he and the two other brigadiers who used troop movements on 4 March to force their way onto the Supreme Council allegedly left Khartoum to line up adherents in their former regional commands. The senior officers of the Supreme Council who oppose Shannan are consolidating their support in preparation for a showdown, while Premier Abboud appears to be attempting to avoid violence and hold his military government together. The council has called a meeting of all military commanders for 10 May, and as a special precaution in the meantime, army headquarters has ordered all regional commands to give 24 hours' notice before any officer of the rank of major or above travels to Khartoum. Abboud himself plans to visit the Central and Western Commands early next week, presumably in an attempt to ensure their backing. 25 Apr 59
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 3
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.994681
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: noncontent_keyword
+  Text: 25 Apr 59
+- original #14 segment 2: noncontent_keyword
+  Text: Page 4
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.997642
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: noncontent_keyword
+  Text: 25 Apr 59
+- original #15 segment 2: noncontent_keyword
+  Text: Page 5
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=0.988636
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: noncontent_keyword
+  Text: 25 Apr 59
+- original #16 segment 2: noncontent_keyword
+  Text: Page 6
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=0.997340
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: noncontent_keyword
+  Text: 25 Apr 59
+- original #17 segment 2: noncontent_keyword
+  Text: Page 7
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=15
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: Japanese Conservatives Maintain Superiority Over Socialists In Nationwide Elections Prime Minister Kishi's Liberal Democratic party maintained its predominance over the Socialists in the 23 April elections held throughout Japan for gubernatorial and municipal offices. Although the elections do not reveal a major shift in the relative strength of the two major parties, the prestige of the conservatives has risen as a result of their winning the key governorships of Tokyo, Osaka, and Hokkaido on which national attention was focused. Hokkaido has been a Socialist stronghold during most of the postwar period. While local issues and personalities played the major role in the outcome, both parties made an effort to present international issues in the major contests. However, the narrow margin of the conservative victories in Tokyo, Osaka, and Hokkaido, where such issues normally would have the most impact, precludes any assessment of popular reaction to the Socialist leadership's identification with the Chinese Communist position on Asian issues on the one hand, and the conservatives' policy of cooperation with the United States on the other. Conservative success in stemming the pro-Socialist trend of recent years should exert an important psychological influence in favor of the conservatives in the important upper-house elections in early June. It should also strengthen Prime Minister Kishi's personal position in the party, since conservative dissidents had warned that they would demand that Kishi "take responsibility" if the conservatives did poorly. Conversely, the Socialist leadership is certain to come under fire, and their adverse showing will possibly weaken the unity of the party. A conservative-led administration in Hokkaido will probably improve civilian-military relations in a major defense area where there is a relatively large concentration of Japanese forces and American installations. In addition, the conservative gubernatorial victory in Tokyo may clear the way for Japanese Defense Agency plans to establish a missile testing center on Niijima Island which would have been opposed by a Socialist governor. 25 Apr 59
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 8
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=12 unred_source_page=16
+alignment_score=0.121939
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: III. THE WEST West German and West Berlin Public Opinion Survey
+- original #20 segment 1: full_page_or_admin
+  Text: an unpublished public opinion survey concluded on 19 April by a reputable private polling institute, almost two thirds of the West Germans interviewed favored direct political negotiations between Bonn and the East German governments on unification. These results indicate that Bonn's policy of rejecting such negotiations is apparently no longer supported by the majority of the public. West Berlin opinion on the question was almost evenly divided. Free elections, however, are considered an essential condition for unification by a majority of those polled. On the question of accepting East German control over Berlin access routes or sending a convoy through at the "risk of war," there were greater differences between West German and West Berlin opinion. Over 50 percent of the Berliners would prefer a risk of war, while only 21 percent of the West Germans would advocate such a move. Some dealings with East Germans would be acceptable to 41 percent of West Germans, while 38 percent were undecided. A majority of both West Germans and Berliners believed that the Western powers will "stand firm" in insisting on free access to Berlin. Although the chances for unification were considered poor by more than 50 percent, a majority of those interviewed expected some worthwhile results from the forthcoming East-West conferences. Eighty percent in Berlin and 59 percent in West Germany expected the Soviet Union to back down or compromise on the Berlin question. The poll shows a general indecisiveness over East-West troop withdrawals from Germany prior to unification. While 39 percent felt such a move would endanger German security, 37 percent believed it would not be dangerous or would make no difference, and 24 percent were undecided. 25 Apr 59
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 9
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=13 unred_source_page=17
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=14 unred_source_page=18
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

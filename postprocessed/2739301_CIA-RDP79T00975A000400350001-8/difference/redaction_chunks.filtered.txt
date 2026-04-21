@@ -1,0 +1,77 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.905556
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.934936
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 5. Yugoslav Government expects no agreement with Italy on Trieste
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: EASTERN
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: WESTERN EUROPE
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.990000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.995000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=0.925620
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: EASTERN EUROPE 5. Yugoslav Government expects no agreement with Italy on Trieste: Comment: Despite Italian and Yugoslav expressions of willingness to discuss the Trieste issue, there is no evidence that either country is willing to make concessions sufficient to satisfy the other's demands. The Yugoslav Government had agreed that the negotiations should be undertaken in secrecy, but Marshal Tito in a press interview on 31 October declared that the Trieste problem might be the subject of direct talks between Yugoslavia and Italy at the forthcoming UN General Assembly. WESTERN EUROPE 6. British appear reluctant to suspend German interzonal trade: Foreign Secretary Eden has requested a full report on the Berlin situation, and has instructed British High Commissioner Kirkpatrick to take
+Token count: 120
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,171 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.530000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.123483
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 11 JUNE 1959 I. THE COMMUNIST BLOC Geneva--Gromyko makes new Berlin proposal. Soviet vessel
+- original #3 segment 1: full_page_or_admin
+  Text: Gulf of Aden believed carrying Chinese Communist arms for Algerian rebels. II. ASIA-AFRICA Turkish foreign minister states that any East-West modus vivendi must keep USSR out of the Middle East. UAR planning to introduce unified currency in Egyptian and Syrian regions. Decline in Pakistani exports threatens government efforts to improve economy. Indian food-grain crop sets new record
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.971780
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #5, segment 2)
+Text: Communist China - Algerian rebels: A Soviet ship now believed to be in the Gulf of Aden may be carrying part of the Chinese Communist military aid granted to the Algerian rebels in February
+Token count: 33
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: USSR--Geneva
+- original #5 segment 1: noncontent_keyword
+  Text: Page 1
+- original #5 segment 3: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.938686
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #2 (original #6, segment 2)
+Text: EXCEPT UK AND CANADA) Turkey- USSR: Foreign Minister Zorlu in a review of the Middle East situation with Ambassador Warren on 6 June emphasized Turkish concern over anticipated Soviet advances in the Middle East. He stated that if Turkey and its Western allies "must reach a modus vivendi with the USSR, we must do so in such a way as to keep the USSR out of this area." On 15 May the Turkish ambassador in Moscow, reporting to Ankara on Western attitudes toward the USSR, had noted that "our principal allies are virtually racing with each other to tighten their contacts and ties with Soviet Russia
+Token count: 106
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: NOFORN
+- original #6 segment 3: noncontent_keyword
+  Text: Page 3
+- original #7 segment 1: noncontent_keyword
+  Text: Page 4
+- original #8 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.996667
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: Page 6
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.967875
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #10, segment 1)
+Text: confusion and bitterness in West German politics resulting from Adenauer's decision to remain as chancellor
+Token count: 15
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.122214
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: Chinese Communist Arms for Algerian Rebels The Soviet ship Stavropol, which has frequently engaged
+- original #12 segment 1: full_page_or_admin
+  Text: Soviet arms deliveries to free-world countries, may be carrying Chinese Communist arms to the Algerian rebels. The vessel, now in the Gulf of Aden, received instructions in early May at Rangoon to pick up a cargo for "Casablanca" in Shanghai. "The quantity and kind" of goods were to be designated at a later date. Until 6 June, when the vessel reported its position in the Gulf of Aden, it failed to make normal position reports, but instead followed communications procedures associated with previous Soviet arms deliveries to the Near East and Indonesia. In December of last year Chou En-lai informed an FLN delegation in Peiping that China was willing to supply the Algerian provisional government with arms. In February Peiping decided to grant $4,000,000 worth of military aid to the FLN. Peiping indicated that it would ship "light weapons and ammunition" to the UAR, but Cairo and the FLN would have to arrange for delivery to Algeria. Cairo in the past has frequently acted as the middleman in transshipping arms to the Algerian rebels
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Turks Fear East-West Modus Vivendi Would Ignore Their Interests Turkish Foreign Minister Zorlu told US Ambassador Warren on 6 June that if Turkey and its Western allies must reach a modus vivendi with the USSR, they should do so in such a way as to keep the USSR out of the Middle East. This is the first indication in recent years that Turkey sees any possibility of reaching an accommodation with the Soviet Union. The Turks seem primarily concerned lest, in a general settlement, Middle Eastern questions may be resolved in a manner counter to Turkey's interests. Zorlu reiterated Turkey's concern over a possible Communist take-over in Iraq, urging an early meeting of American, British, and Turkish officials for the purpose of contingency planning. Such a meeting, if it became known, could have serious repercussions in both Iraq and the USSR. The Turks may be re-examining their over-all policy toward the USSR--possibly to include more extensive cultural and educational ties--in the light of what they consider changes in Western attitudes. The Turkish ambassador to Moscow observed on 15 May to Ankara that cultural ties between the USSR and the Western world had widened and that "our principal allies are virtually racing with each other to tighten their contacts and ties with Soviet Russia
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.948073
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: short_span_min_tokens
+  Text: in
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.979580
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=0.970761
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: food-grains
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=11 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=12 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,116 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.929228
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: nonempty_redacted_alternate_conflict
+  Text: CJ - 4
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.961058
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 2)
+Text: USSR 2. Tass representative's views on proposed Foreign Ministers' Conference and congressional hearings
+Token count: 13
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: LATIN AMERICA 10. Rumors of revolutionary plot in Ecuador renewed
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: page 3
+- original #3 segment 2: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.967581
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #5, segment 1)
+Text: USSR 2. Tass representative's views on proposed Foreign Ministers' Conference and congressional hearings. In a 6 June conversation Yuri Zhukov, Tass representative in Paris, asked whether he considered that MacArthur's influence was declining and that the Truman Administration had won its point
+Token count: 42
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: transhipment
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.896324
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: he understood that the Chinese were also being circumspect in not sending troops south of the 38th Parallel. Zhukov asked why it was not possible to proceed quickly to a foreign ministers' conference in Washington based on the general agenda which was proposed by the Western Powers and inquired further whether raising points at the conference "between the Russians and Americans alone." Zhukov also expressed interest in the degree of warmindedness of the American people and political leaders, and concern that at the Washington hearings military leaders had discussed bases for the bombing of the USSR. Comment: During a similar conversation on 2 March Zhukov expressed interest in the conversion of American factories to war production and emphasized that only a Stalin-Truman meeting could reach a real solution of USSR-US differences. In a 23 April conversation Zhukov questioned whether the MacArthur affair was only a "coverup for full-scale American war in the Far East." When questioned, Zhukov reaffirmed his view that a Stalin-Truman meeting would be more profitable than the Paris deputies' meeting. Zhukov's approaches appear intended both to convey certain views and to probe for well-informed opinion
+Token count: 188
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.930769
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #7, segment 1)
+Text: NEAR EAST 5. Iranian financial need increasing pressure on Prime Minister: US Ambassador Grady in Tehran reports that the Anglo-Iranian Oil Company has made no monthly advances of funds to Iran since 31 March 1951. With the Iranian Government already failing to meet all its current obligations, suspension
+Token count: 48
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.746104
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.995070
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: WESTERN EUROPE
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: permanent
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.881057
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #10, segment 1)
+Text: LATIN AMERICA 10. Rumors of revolutionary plot in Ecuador renewed: Col. Carlos Mancheno, Lt. Col. Alberto Mittman and retired Gen. Alberto Carlos Enriquez Gallo, supported by followers of Guevara Moreno (i.e., the Concentration of Popular Forces - CFP), are planning a revolutionary attempt to overthrow the present government during the Liberal-Radical Party Congress which opened in Guayaquil on 5 June. The Minister of Government is extremely concerned over the possibility that either the CFP - Liberal-Radical Party group or the Minister of Defense will make a revolutionary attempt at any time. Comment: A Mancheno-CFP plot against the government has been brewing for the past eight months, and it is still possible that this group will make a revolutionary attempt. Although the group might be capable of creating serious disturbances in Guayaquil, it is not believed that it would be able to gain control of the whole country. There is evidence that the ambitious Minister of Defense and some prominent senior army officers might take advantage of such disturbances to assume control of the country under the guise of "protecting the constitution
+Token count: 180
+Recut: none

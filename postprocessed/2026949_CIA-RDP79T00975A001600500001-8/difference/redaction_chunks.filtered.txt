@@ -1,0 +1,86 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.944286
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: FAR EAST 1. Eight more IL-28 jet bombers to be ferried to China
+Token count: 13
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 3. Saudi minister urges firm stand on Onassis agreement
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.859881
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #3, segment 1)
+Text: FAR EAST 1. Eight more IL-28 jet bombers to be ferried to China: These apparently are the first jet bombers to be sent to China since November 1953. Comment: These planes would raise to about 140 the total number of jet bombers available to the Peiping regime, 23 of which would belong to naval air units. Assignment of additional jet bombers to naval units would fit an apparent Sino-Soviet plan to strengthen and expand Chinese Communist naval aviation--a plan already partly implemented by the recent activation in North China of a second flight training school for the navy. Meanwhile, the 80 piston-engine fighters and bombers of Peiping's two naval air divisions, both based in East China, have been assuming a more active role in air operations off the coast. Torpedo bombing training has been intensified, and fighter planes have successfully engaged Chinese Nationalist planes on several occa- sions in the past three months
+Token count: 154
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword, ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: 310- mile
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.925592
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #6, segment 1)
+Text: 3. Saudi minister urges firm stand on Onassis agreement: Comment: According to the Onassis agree- ment, the Saudi government is pledged to give full legal support to implementation of the arrangement. ARAMCO, on the other hand, has indicated that it will refuse to comply with clauses of the agreement which contravene the company's exclusive concessionary right to trans- port Saudi oil. They exert considerable influence on King Saud and, if they can persuade him to insist on implementation of the agreement without modification, a serious crisis in American-Saudi relations will probably result
+Token count: 92
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: govern- ment
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.985551
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: corre- spondents
+- original #8 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- taliation
+- original #9 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: bor- der
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

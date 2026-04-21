@@ -1,0 +1,95 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.484950
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 28 August 1952
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.892517
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 2. Railroad construction plan in Southwest China revealed (page 3). NEAR EAST - AFRICA 3. General Nagib may change army commanders in Sinai region (page 4). 4. Iran asks Turkey to mediate oil dispute (page 5). 5. Iranian Army ordered to avoid politics and civilian contacts
+Token count: 45
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 8. Denmark seeks French support on Bornholm issue
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.968720
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: FAR EAST 2. Railroad construction plan in Southwest China revealed: The Chinese Communists plan to build 600 kilometers of railroads a year in China's Southwest District
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: Comment: The Chinese have made a preliminary survey for 3,000 kilometers of new lines in Szechwan, Yunnan and Kweichow. They are also known to have definite plans for building 2,000 kilometers of new lines in the Northwest, but the timetable for this work is unknown. These networks will link six western provinces and connect them with the main Chinese rail net. When completed, they will provide export outlets for an area now relatively isolated, but rich in agricultural, mineral and petroleum products. NEAR EAST - AFRICA 3. General Nagib may change army commanders in Sinai region: General Nagib inspected the Egyptian garrison in the Sinai district for the first time on 22 August. The morale of these units is reportedly low and Nagib may appoint new commanders. many officers in this area are considered hostile to Nagib. They apparently also fear that their profitable contraband trade with Israel may be suppressed. Comment: The Sinai troops located on the coastal area below Gaza include Egypt's only full division. These units did not participate in the recent military coup. This force and the Wafd Party are the chief threats to the continued control of the Nagib clique
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.095705
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 4. Iran asks Turkey to mediate oil dispute: Comment: Mossadeq previously presented a similar request to the Italian Ambassador
+- original #7 segment 1: full_page_or_admin
+  Text: Tehran. These approaches appear to be part of an attempt to put pressure on Great Britain. Ankara has already informed its NATO representative that it favors American and British support of Mossadeq. 5. Iranian Army ordered to avoid politics and civilian contacts: Comment: This order is a direct contrast to those issued by Garzan during Qavam's brief rule, in which army commanders were urged to foster propaganda against the National Front because it was "allied with the Tudeh." This illustrates National Front success in limiting the army's political activity. Garzan and other anti-government officers were retired on 25 August
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.990000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: nonempty_redacted_alternate_conflict
+  Text: to force
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.915753
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #9, segment 1)
+Text: 8. Denmark seeks French support on Bornholm issue: The Danish Government has asked France's opinion on the advisability of warning the Soviet Union of the consequences of any action against the island of Bornholm. The Danish Charge in Paris called attention to recent Soviet aggressiveness in the Baltic as well as Moscow's propaganda attacks on Danish cooperation with NATO. Comment: In response to mounting Soviet pressure, Denmark has not only sought such assurances of Western support, but has also formally asked that the NATO maneuvers in the Baltic be restricted to avoid provoking the Soviet Union
+Token count: 96
+Recut: none

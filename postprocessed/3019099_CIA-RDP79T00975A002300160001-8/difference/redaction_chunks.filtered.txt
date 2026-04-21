@@ -1,0 +1,123 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.770058
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. THAI KING FEARS ARMED CLASH IN BANGKOK IMMINENT
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 6. ECUADORAN-CZECH ARMS NEGOTIATIONS
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: INEVITABILITY
+- original #3 segment 2: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.245257
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: TURKISH PRIME MINISTER MAY BE SUFFERING BREAKDOWN Comment Contrary to earlier reports, Menderes was apparently unaware of the extent and intensity of the political opposition within the Democratic Party until it forced the resignation of his cabinet on 29 November. The intraparty upheaval probably made Menderes realize that his power was broken. President Bayar, who was apparently not included
+- original #5 segment 1: full_page_or_admin
+  Text: the intraparty criticism, cannot long delay action if a new prime minister is to be named, since the country is without an effective government. Deputy Prime Minister Fuat Koprulu, Refik Koraltan, president of the Grand National Assembly, and Nuri Birgi, secretary general of the Foreign Ministry, are among the possible successors. The major problem facing the new cabinet will be Turkey's serious economic condition
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 2. THAI KING FEARS ARMED CLASH IN BANGKOK IMMINENT King Phumiphon stated on 1 December that he feared an armed clash between elements of the Thai armed forces and the police was imminent, The king is especially concerned that the bloodshed might extend to civilians. He pointed to the possibility that the hotheaded chief of the air force, Marshal Fuen, might order his planes on a bombing or strafing mission. Comment
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.960333
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: INEVITABILITY
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: closeness
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.947287
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.921839
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 6. ECUADORAN-CZECH ARMS NEGOTIATIONS Comment Arms negotiations between Ecuador and Czechoslovakia have been under way for about a year, but apparently no firm agreements have been reached to date. Ecuador is currently in an arms race with Peru because of a long-standing boundary dispute, and has turned to Soviet Satellite countries for arms because of its inability to make purchases from American and Western European sources on the terms it desires. (Concurred in by ORR
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.959608
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache

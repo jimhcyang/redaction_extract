@@ -1,0 +1,277 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.490000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.941805
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 3)
+Text: 2. Angola: South Africa giving Portugal increased arms aid. (Page ii) 3. Congo: Spaak says Belgian advisers should be removed from Congo. (Page ii) 4. USSR: Helicopters conduct night anti-submarine warfare operation. (Page iii
+Token count: 34
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 1. Laos
+- original #1 segment 2: noncontent_keyword
+  Text: Page 1
+- original #2 segment 1: short_span_min_tokens
+  Text: Page
+- original #3 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Gaitskell’s
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 9 May 1961 DAILY BRIEF
+- original #4 segment 2: full_page_or_admin
+  Text: Laos: No agreement was reached in negotiations held on 8 May in the Nam Lik area. The government delegation offered to go to enemy-held Namone village for military talks if the other side would come to government territory for political discussions, but the enemy delegation insisted that the talks be held at the same place, presumably Namone. Phoumi now plans to ask the ICC to intercede to make the cease-fire more effective and to take other steps to circumscribe enemy freedom of action. He also says he will request the ICC to sponsor tripartite political talks in Vientiane between Souvanna, Souphannouvong, and himself. While the presence of ICC representatives in both Vientiane and Xieng Khouang should help to facilitate a settlement between the two sides, the ICC is not empowered to play the direct role envisaged by Phoumi. Little action is reported from the main fronts, although fighting continues in the area south and east of the Plaine des Jarres between Meo guerrillas and enemy forces. Scattered skirmishing is reported elsewhere. The continuing redeployment to better positions of both government and enemy forces, however, increases chances of more serious fighting. Bloc airlift operations were scheduled through 8 May
+- original #4 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 1) (Map
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=4 unred_source_page=7
+alignment_score=0.243936
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: Portugal - South Africa: The continuing unrest
+- original #6 segment 1: full_page_or_admin, noncontent_keyword
+  Text: Angola apparently has led South Africa to reconsider its refusal to provide Portugal with substantial military assistance. The South Africans have agreed to furnish 2,000 twenty-pound bombs and are assisting the Portuguese in obtaining 5,000 rifles. As recently as 21 April, the Verwoerd government declined to provide assistance beyond the 500 bombs already furnished, pleading internal security needs. Reinforcement of Portuguese forces in Angola is continuing. Between 1,200 and 1,500 troops arrived in Luanda by ship on 2 May; 2,200 additional troops embarked at Lisbon on 5 May, and are scheduled to arrive in Angola about 13 May. With these reinforcements, the security forces in the province will number about 14,000, of whom approximately 6,000 are white. Contrary to recent Portuguese press reports, there is no reliable information that the back of the rebellion has been broken. (Backup, Page 3) Congo: UN does not plan to use its forces to disarm Katanga's armed forces. The UN does not consider using its troops in case of civil war or tribal conflicts, and does not intend to take the initiative in disarming troops anywhere in the Congo. Tension continues high in Elisabethville, however, and Katanga's forces reportedly have been alerted to repel any "raid" by UN forces. Belgian Foreign Minister Spaak told Ambassador MacArthur on 5 May that Belgium was ready to cooperate with the UN and that Belgian "political advisers" should be withdrawn from the Congo as rapidly as possible. He also endorsed a withdrawal of Belgian military personnel, but observed that these should not be withdrawn precipitously lest
+- original #6 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 May 61 DAILY BRIEF
+- original #6 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=5 unred_source_page=8
+alignment_score=0.933379
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #7, segment 1)
+Text: their departure lead to chaos in the Congolese armed forces. USSR: The first known night anti-submarine warfare (ASW) operation by Soviet helicopters was conducted in late April by eleven Hounds (MI-4s) of the Black Sea Air Force. A submarine and a surface ship participated in the activity. Helicopters are assigned to Soviet fleets to augment BE-6 seaplanes, which have the primary airborne ASW role. Helicopters configured for ASW carry depth charges, radar, and magnetic anomaly devices (MAD) in addition to sonobouys. Some Soviet destroyers are equipped to carry helicopters, thus increasing the seaward range of these aircraft. The recent activity in the Black Sea is a further reflection of the continuing Soviet emphasis on increasing ASW capabilities
+Token count: 117
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: activities
+- original #9 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: Backup
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=0.998119
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: Backup
+- original #11 segment 1: noncontent_keyword
+  Text: Backup, Page 7
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=10
+alignment_score=0.983032
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #13, segment 1)
+Text: French officials close to De Gaulle have expressed considerable anxiety over the possibility of more trouble with the settlers and the army
+Token count: 22
+Recut: none
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: Backup, Page 10
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: Situation in Laos Souvanna Phouma, who claims he will not attend the Geneva Conference, has returned to Xieng Khouang from Phnom Penh, possibly to assume a more direct role in negotiations with the Boun Oum government. He recently told Ambassador Trimble in Phnom Penh that he would have to contend with a well-organized and highly trained leadership core of "perhaps 200" Communists in the Pathet Lao, but expressed confidence that he could impose his will. He insisted he could keep major cabinet portfolios--such as defense, interior, and foreign affairs--out of Communist hands by holding these positions himself if necessary. He felt that new general elections could not be held for seven or eight months at the earliest. Outlining his program in some detail to Ambassador Trimble, Souvanna said his government would maintain close contact with the people and strive to meet their needs while setting an example of sacrifice and hard work. He held that the abandonment by present Laotian leaders of the country's traditional socialism, based on simple small holdings, was the root of much of Laos' difficulties. Souvanna felt that foreign economic aid, to be accepted unconditionally from both East and West, should be on a bilateral basis but that there would be no need for military aid, since the army would be reduced to two battalions. In addition to a police force, he envisaged a universal military training program in which all young men would receive ten months' instruction in military matters, manual trades, and good citizenship. The Boun Oum government, meanwhile, plans to submit its recommendations to King Savang today on the composition of the government delegation to Geneva. Phoumi still holds the view, apparently shared by the King, that initially at least the delegation's role should be purely consultative. He feels there can be no serious negotiations with the other side until an international framework is established and foreign influence excluded from Laos. The Communists, foreseeing protracted negotiations over formation of a new Laotian government, are publicizing the
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 May 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: possibility that the three forces in Laos will have to be individually represented at the Geneva Conference. On 8 May, Moscow rebroadcast a statement by Khamsouk Keola, the "acting premier" of Souvanna Phouma's Xieng Khouang "government," which insisted that Vientiane, the Pathet Lao, and the "lawful government" in Xieng Khouang each would have to send a delegation to Geneva if a coalition was not formed by the opening of the conference. a new training school for instruction in "new weapons and heavy weapons" will open in the Plaine des Jarres area on 8 May. troops are to be sent to Hanoi for communications training. There have been previous references to such training being conducted at Hanoi
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 May 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=8 unred_source_page=13
+alignment_score=0.243847
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: Portugal Obtains Military Assistance
+- original #17 segment 1: full_page_or_admin
+  Text: South Africa The Union of South Africa has been attempting to expand its armaments industry and has expressed an interest in supplying the Federation of Rhodesia and Nyasaland as well as Portugal with munitions. the Union will begin producing the Belgian FN rifle in August and will be manufacturing its own bombs next year. In the meantime, however, South African officials told the Portuguese that they plan to purchase 40,000 rifles in Belgium. They indicated a willingness to supply Portugal with 5,000 rifles out of their present stock, provided the Belgian factory could replace them within a short time. The efforts of the Portuguese to bolster their military forces and materiel in Angola were reflected in a speech by the new overseas minister to the Angolan legislative council on 2 May. He indicated that Lisbon was determined at all costs to crush the rebellion in the province and maintain its sovereignty in Portuguese Africa. He also implied that what was good for Portugal in the past would be good for it in the future. Political and socio-economic reforms in the overseas provinces were, he said, of secondary importance for the moment. The American Embassy in Lisbon feels that the speech failed to consider the question of Portugal's ability to carry out such a policy. It cites the opinion of responsible officials that within a year or year and a half the nation's resources would be exhausted. The embassy feels that at that point a political evolution or revolution of some kind would be inevitable. A prolongation of Portugal's military effort in Angola might have repercussions on its ties with Western defense. Lisbon would temporarily suspend its NATO commitments in order to have all its troops available for Africa
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 May 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: The Situation in the Congo The UN is moving to apprehend white mercenaries in the Katanga armed forces. According to press reports, seven South Africans have been taken into custody by UN forces in northern Katanga, while another group of South Africans has surrendered to the UN in Elisabethville. These developments, together with the continued silence of UN officials with regard to Tshombé's arrest, have probably heightened concern regarding a possible UN move to disarm all Katangan forces. The UN attitude toward an effort to bring Tshombé to trial remains unclear. During the period when Tshombé was under detention at Coquilhatville, UN officials indicated that they had no plans to intervene on his behalf. However, the widespread criticism that would be stimulated by a new political execution in the Congo might lead Bomboko to dismiss charges against Tshombé in return for his concession of Leopoldville's sovereignty over Katanga. Reports from Coquilhatville indicate that Bomboko--who has dominated the political conference there and who appears to have instigated Tshombé's arrest--is closely supported by Congo Army chief Joseph Mobutu. the financial situation in Orientale Province "grows daily more and more alarming," the parties of the nationalist bloc are going to unite soon and fuse into one... party which will be called... the Lumumba African National Party." Such a move might be designed to mobilize leftist deputies with a view toward any reconvening of the Congo parliament
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 May 61 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=9 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=10 unred_source_page=16
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=11 unred_source_page=17
+alignment_score=0.935951
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #19, segment 1)
+Text: Husayn's supporters within the government, including Cabinet ministers, are making no particular effort to hide their feelings that the King has betrayed them and violated his trust as ruler of the country. Foreign Minister Musa Nasir has indicated incomprehension that Husayn could have made such an unwise and "dangerous" decision--an act, he said, of a "spoiled child." These supporters feel that if the King were not going to marry an Arab or Moslem, at least he should marry someone whose station in life is comparable to his own; and the fact that Miss Gardiner is a British commoner is viewed as almost the ultimate of insults. Among typical comments heard is one that is heavy with sarcasm: "Now they (the British) are all our relatives
+Token count: 126
+Recut: none
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=12 unred_source_page=18
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=13 unred_source_page=19
+alignment_score=0.996570
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: unilateral
+- original #21 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 20]
+kind=match red_source_page=14 unred_source_page=20
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 21]
+kind=match red_source_page=15 unred_source_page=21
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 22]
+kind=match red_source_page=16 unred_source_page=22
+alignment_score=0.975939
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 23]
+kind=match red_source_page=17 unred_source_page=23
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: noncontent_keyword
+  Text: 9 May 1961 Copy No. C CENTRAL INTELLIGENCE BULLETIN

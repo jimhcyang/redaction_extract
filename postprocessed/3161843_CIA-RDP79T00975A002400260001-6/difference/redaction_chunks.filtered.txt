@@ -1,0 +1,206 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.812442
+kept_candidate_count=3
+excluded_candidate_count=8
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. ECUADORAN OFFICIALS REPORTED ON ARMS MISSION TO SOVIET BLOC
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 2)
+Text: 5. CHINESE COMMUNIST CIVIL AIR SERVICE SCHEDULED TO RANGOON BY APRIL
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #5, segment 2)
+Text: 7. USSR AND COMMUNIST CHINA REPORTEDLY MOVE TO EASE HUNGARIAN FOREIGN EXCHANGE CRISIS (page 9). 8. TUNISIAN UPRISING REPORTED SCHEDULED FOR MID-MARCH
+Token count: 22
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #4 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 3: noncontent_keyword
+  Text: page 7
+- original #5 segment 1: noncontent_keyword
+  Text: page 8
+- original #5 segment 3: noncontent_keyword
+  Text: page 10
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 11
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 1. ECUADORAN OFFICIALS REPORTED ON ARMS MISSION TO SOVIET BLOC Colonel Leonidas Hidalgo, Ecuadoran armed forces territorial commander now traveling through Western Europe has been instructed to include Soviet bloc countries in his tour and to visit in particular Prague and Moscow, where he will observe demonstrations of various weapons. Colonel Bolivar Pico Santos, Ecuadoran air attaché in London, reportedly is also visiting European countries on an official arms purchasing mission. The third secretary of the Czech legation in Quito has arranged to have him visit Prague and presumably also Moscow. Comment The top Soviet diplomatic officials in Mexico, who visited Ecuador last December, made "attractive" offers of arms on "easy" credit terms to the Velasco government. Arms negotiations between Ecuador and Czechoslovakia have been under way for over a year, but apparently no firm agreements have been reached to date. Ecuador has been engaged in an arms race with Peru, and has turned to bloc countries for arms and ammunition largely because of its inability to make purchases elsewhere on the terms it desires. (Concurred in by ORR
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.882123
+kept_candidate_count=0
+excluded_candidate_count=9
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: relations
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: according
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: confidence
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: leadership
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: officials
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: negotiating
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: proposed
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: official
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: economic
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.885890
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attach
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: medium
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: airfield
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: observation
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.918729
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: circumstances
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: resistance
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: collapse
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: discussions
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Domnitsky's
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: territorial
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: full_page_or_admin
+  Text: 5. CHINESE COMMUNIST CIVIL AIR SERVICE SCHEDULED TO RANGOON BY APRIL Peiping has formally notified Burma of its intention to begin scheduled civil air service from Kunming to Rangoon in April. Comment A Sino-Burmese civil air agreement was signed last November. In view of China's greater resources in trained personnel and equipment, it will have at least a temporary monopoly on this line. The establishment of this route places Communist China in a favorable position to extend air service in both South and Southeast Asia, particularly to India, with which the Chinese are trying to conclude an air agreement. (Prepared by ORR
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.910693
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #29, segment 1)
+Text: Concurred in by ORR
+Token count: 4
+Recut: none
+
+Excluded candidates:
+- original #28 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Agreement
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #30 segment 1: full_page_or_admin
+  Text: 7. USSR AND COMMUNIST CHINA REPORTEDLY MOVE TO EASE HUNGARIAN FOREIGN EXCHANGE CRISIS The Soviet Union has canceled half of the debt of approximately $187,000,000 owed it by Hungary as payment for former German assets. The USSR has also agreed to permit Hungary to suspend for one year payment on a $2,500,000 loan. An official of the Hungarian National Bank, during a recent visit to Communist China, was able to arrange for a loan to Hungary of $5,560,000 in pounds sterling from the Peiping government. Comment Despite this aid, Budapest's foreign exchange situation remains critical, and the Soviet Union may be compelled to subsidize the Hungarian economy further by a large, long-term loan. Prior to the reported cancellation, Hungary owed the USSR $340,000,000 and Western countries about $229,000,000. (Prepared jointly with ORR
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #31 segment 1: full_page_or_admin
+  Text: 8. TUNISIAN UPRISING REPORTED SCHEDULED FOR MID-MARCH Nationalists will attack the French in Tunisia in about a month. The Tunisians now have enough arms to equip 10,000 men. These arms have been supplied by Egypt, mainly by desert caravan. The Tunisians hope the unified command now being formed for nationalist forces in all of French North Africa can direct uprisings in Morocco and Algeria, simultaneously with the one in Tunisia. They doubt, however, that this could be done within a month. Comment Tunisian extremist Salah ben Youssef, who is believed to be in Tripoli at present, probably is attempting to foment disorders in Tunisia prior to the general elections scheduled for 25 March. A Tunisian revolt on such a large scale, however, is not likely at this time
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.914546
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #5 (original #33, segment 1)
+Text: A number of Syrian air force officers are training in the use of MIG-15 jet fighters at Egyptian military airfields; this training is being given because of an agreement that in the event of an Arab-Israeli war Syria will receive Soviet aircraft
+Token count: 42
+Recut: none
+
+Excluded candidates:
+- original #32 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: military
+- original #34 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: information
+- original #35 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: American

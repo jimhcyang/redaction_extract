@@ -1,0 +1,96 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.536364
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.934146
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. URUGUAYAN REPRESENTATIVE REPORTS ON TALK WITH CHOU EN-LAI
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #2 segment 3: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.988809
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: un- seating
+- original #4 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: es- pecially
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 2. URUGUAYAN REPRESENTATIVE REPORTS ON TALK WITH CHOU EN-LAI Comment The declining demand of Uruguay's tradi- tional customers for its high-priced exports, principally wool tops, has caused it to look for additional markets. The Soviet bloc has been purchasing large amounts of Uruguayan wool over the past two years directly from Uruguay and through buyers in the Netherlands and the United Kingdom. (Concurred in by ORR
+- original #5 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Jan 56 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.979188
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: am- bassador
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: consid- erations
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 20 January) No significant military incidents have been reported. Syria is to sign a contract with Czechoslovakia in the amount of 187,250 pounds for submachine guns, ammunition, and possi- bly other small arms. (Similar contracts in the past have been quoted in pounds sterling, which in this case would be equiva- lent to $524,300.) Deliveries are to begin as soon as the con- tract is signed. Syria had concluded a $5,880,000 contract with Czechoslovakia in November, providing for delivery within four months of 60 T-34 tanks complete with accessories, replacement parts for three years, 40,000 shells, and 2,000,000 rounds of machine gun ammunition
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Jan 56 Current Intelligence Bulletin Page 6

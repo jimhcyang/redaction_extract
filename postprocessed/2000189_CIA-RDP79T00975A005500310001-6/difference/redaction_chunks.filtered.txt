@@ -1,0 +1,353 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.891450
+kept_candidate_count=3
+excluded_candidate_count=9
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 1. USSR: Criticism in Soviet press of certain passages in President's State of the Union message represents no significant departure from Soviet propaganda line since the inauguration
+Token count: 27
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #6, segment 1)
+Text: 1) 7. Angola: Portuguese authorities can at present probably contain any further disorders, but African nationalist strength is expected to increase
+Token count: 21
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #8, segment 1)
+Text: 1) 10. Colombia: Pressure from right-wing political groups to break relations with Cuba
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 7 February 1961
+- original #2 segment 2: noncontent_keyword
+  Text: Page 1
+- original #3 segment 1: noncontent_keyword
+  Text: 1) 3. Laos: Government forces are preparing to put into effect plans for recapture of Plaine des Jarres
+- original #3 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 1
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+- original #6 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 1
+- original #7 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+- original #8 segment 2: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.875507
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #9, segment 1)
+Text: USSR: Moscow's first critical comments on the President's State of the Union message appeared in authoritative articles in Izvestia and Pravda on 4 and 5 February. Having permitted publication of the full text of the address, the Soviet leaders probably felt those passages dealing with the bloc and specific East-West issues called for a critical response. Both articles contained a general criticism of the address for repeating "cold war echoes" and for "failing to renounce old, worn-out ideas." The main criticism was directed against the defense measures announced by the President and the statements on arms control which Izvestia described as avoiding the questions of "effective disarmament." Both Pravda and Izvestia attacked the statements on the aspirations of world Communism and the references to the situation in Cuba. The articles, however, do not represent a significant departure from general Soviet and Eastern European propaganda since the inauguration, which has maintained a cautious and skeptical approach toward the US. The East German party issued orders to district newspapers on 31 January to emphasize "positive" aspects of the address but "without fostering any illusions about future American policy
+Token count: 186
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #9 segment 2: noncontent_keyword
+  Text: Backup, Page 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.928797
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #5 (original #10, segment 2)
+Text: Laos: Government forces are preparing to put into effect plans for the recapture of the Plaine des Jarres. The troops to be committed are adequate for their mission. The Pathet Lao radio has broadcast a statement attributed to the "legal government of the Laotian kingdom" warning that if the United States and Thailand do not stop their "overt armed interference" in Laos, the "government" would be "obliged to appeal for help from friendly countries." The statement, signed by "acting premier" Khamsouk Keola and others claiming to be acting in behalf of the Souvanna "government" in Xieng Khouang, was dated 2 February, the same day that Chinese Communist Foreign Minister Chen Yi announced in Peiping that his government was prepared to give aid if requested
+Token count: 124
+Recut: kept_after_recut
+
+Clean Chunk #6 (original #11, segment 1)
+Text: detrimental to Kasavubu's legal position, and might result in the early restoration to power of Lumumba
+Token count: 16
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Backup, Page 3
+- original #10 segment 3: noncontent_keyword
+  Text: Backup, Page 4) (Map
+- original #11 segment 2: noncontent_keyword
+  Text: Backup, Page 6
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.879742
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #7 (original #15, segment 2)
+Text: Angola: Although Portuguese authorities in Angola reacted quickly and firmly to the outbreaks of nationalist rioting in Luanda on 4 and 5 February, disorders and gunfire are reported to have broken out again early this morning. The government will probably be able to control the situation, but, despite heavy government repression, nationalism is likely to become a significant force over the next few years
+Token count: 64
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #13 segment 1: noncontent_keyword
+  Text: Backup, Page 7
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: antiregime
+- original #15 segment 1: noncontent_keyword
+  Text: Backup, Page 8
+- original #15 segment 3: noncontent_keyword
+  Text: Backup, Page 9
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.960690
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #8 (original #17, segment 2)
+Text: Colombia: Pressures for a diplomatic break with Cuba have been increased by a demand of the right-wing faction of the Conservative party for such action and by charges that Cuban agitation may be partly responsible for the rising violence in rural areas. The Colombian Communist party is reported to be making plans for demonstrations against US business and diplomatic establishments if Colombia does break relations with Cuba
+Token count: 67
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #16 segment 1: noncontent_keyword
+  Text: Backup, Page 11
+- original #17 segment 1: noncontent_keyword
+  Text: Backup, Page 13
+- original #17 segment 3: noncontent_keyword
+  Text: Backup, Page 14
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.243622
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: Soviet Press Criticism of President's State Of the Union Address The critical tone of "Observer" articles
+- original #19 segment 1: full_page_or_admin
+  Text: Pravda and Izvestia and of a commentary on the State of the Union message by the Soviet weekly Life Abroad probably is designed to convey the impression that the Soviet leaders believe the US has failed to respond adequately to their initial overtures for improving Soviet-American relations. Bloc spokesmen have taken a similar line in private conversations by stressing that the next move is up to the US. Izvestia comments that although the President's message reflected a "passing" awareness of the crucial stage in international relations, the US must now draw the "appropriate conclusions." Pravda cautions, however, against any judgment of US policies on the basis of the "first steps" and asserts that only "the near future" will tell whether the new administration intends to embark on a new course in US foreign policy. The propaganda pattern developed by the USSR and the European satellites since the inauguration features relatively factual coverage of statements by US officials, some indications of optimism over future Soviet-American relations, and a generally skeptical over-all tone. This combination reflects the conflicting pressures on the Soviet leaders to create a favorable climate for the advancement of their objectives through negotiations with the West, on the one hand, and to maintain bloc unity on the other, by avoiding an overly favorable estimate of US intentions which might intensify the dispute with the Chinese Communists. Such an approach suggests that Moscow will continue to take a conciliatory position on the official level, in such matters as the release of the RB-47 crew members and the agreement to postpone the resumption of talks on banning nuclear tests. At the same time, the Soviet leaders will probably feel compelled to respond critically to statements by US officials on the bloc's international posture and on specific East-West issues. In contrast to the Izvestia editorial of 4 February, the Soviet note on the same date, agreeing to a postponement of the Geneva talks, omitted the standard Soviet position that the USSR preferred to expedite matters and was agreeing only as a concession to the US. Instead Moscow noted the US desire to reach a successful conclusion to the talks. The continued caution in commenting on the new US administration
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 7 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: district newspapers to stress the President's references to disarmament and coexistence, but called attention, "in contrast to these positive tendencies," to the President's statements on US defense policy, his alleged disapproval of "peoples' fighting for their independence," and his "interpretation of the freedom of the East European countries as the hope of American policy." The commission commented that the President's line on Eastern Europe "would signify the practical continuation of a policy which could offset the favorable beginning of a relaxation of tensions on the part of the United States
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 7 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #9 (original #21, segment 1)
+Text: LAOS 1 FEBRUARY 1961 KHET Government forces Government Antigovernment Antigovernment concentrations Kong Le/Pathet Lao forces Main route number Road Trail Pass, M -2; Chinese Nationalist Irregulars 0 25 50 75 100 Kilometers 0 25 50 75 100 Miles
+Token count: 39
+Recut: none
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=0.243753
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin, short_span_min_tokens
+  Text: Situation
+- original #23 segment 1: full_page_or_admin
+  Text: Laos The Pathet Lao radio announced on 4 February that the "legal (Souvanna Phouma) government" and the Pathet Lao had established a joint "administrative committee" for Luang Prabang Province. This brings to three the number of provinces nominally under "joint" administration by elements claiming to be acting in behalf of the Souvanna "government" and the Pathet Lao. Sam Neua Province has been under Pathet Lao control since last September, and a coalition provincial government was established in Xieng Khouang last month, shortly after the Kong Le - Pathet Lao forces captured the Plaine des Jarres and Xieng Khouang town. Phong Saly Province may be the next to receive an "administrative committee" in the continuing elaboration by the Kong Le - Pathet Lao forces of the legal and administrative mantle with which they are cloaking their drive to gain control of Laos. Colonel Khamouane, the provincial strong man of Phong Saly, has been sitting on the fence in the struggle between the Kong Le - Pathet Lao forces and the Boun Oum government, but he may be induced to throw in his lot with the antigovernment movement--particularly now that the Souvanna "government" in Xieng Khouang has been given more apparent substance with the designation of Khamsouk Keola as "acting premier." The Boun Oum government's symbolic take-over of the French-held Seno base near Savannakhet apparently proceeded without incident, despite prior indications that clashes might arise between the French garrison there and Laotian Army elements. Although the French offered no resistance to Vientiane's action, Paris refuses to recognize the legality of the move; Seno's status may become the subject of protracted negotiations between Laos and France. French Ambassador Falaize has acted with restraint in the face of General Phoumi's various anti-French moves in the past six weeks; however, feelings are becoming increasingly bitter between Vientiane government officials and local French, and incidents could occur at any time. Soviet airlift operations into Laos continue to be scheduled. recently recovered shell casing
+- original #23 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 7 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: full_page_or_admin
+  Text: indicates that the Pathet Lao are in possession of Soviet 85-mm. guns. The casing, recovered at Phout Khoun by a US PEO adviser on 4 February, had Russian markings and was tentatively identified as an 85-mm. high-velocity type. This is the first indication that the Pathet Lao have been supplied with this weapon, although they are known to have 105-mm. artillery pieces and 120-mm. mortars
+- original #24 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 7 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=12 unred_source_page=15
+alignment_score=0.942179
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #10 (original #27, segment 1)
+Text: Ne Win acted on information that the officers involved, other than Maung Maung, were planning to oust him from command and to stage a coup d'etat during the current commanding officers' conference. As has been his practice where the integrity and unity of the army are at stake, Ne Win acted with finality and the affected officers have little hope of appeal
+Token count: 62
+Recut: none
+
+Excluded candidates:
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: these
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: proteges
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=13 unred_source_page=16
+alignment_score=0.974779
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #11 (original #28, segment 1)
+Text: The Shah frequently alternates between periods of confidence and depression. Basically weak and insecure, he has attempted in recent years to imitate his father's strong approach. In these periods of uncertainty he is apt to make a rash move similar to that of two years ago when the Soviet Union was invited to discuss a nonaggression pact
+Token count: 57
+Recut: none
+
+========================================================================
+[PAGE 17]
+kind=unred_only red_source_page=None unred_source_page=17
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #29 segment 1: full_page_or_admin
+  Text: Disorders in Angola Authorities in Lisbon attribute the disorders in Angola to the "subversive plan" of General Delgado and Enrique Galvao. that pamphlets of the Iberian Liberation Movement were found on some of the 100-odd Africans taking part in the assault on central police headquarters, the civil jail, and the military jail, the attackers were armed with pistols and managed to take possession of two machine guns belonging to the police as well. Three Europeans involved in the disturbances were believed captured. Official allegations of Communist involvement remain unsubstantiated. The Communist-influenced Movement of the People for the Liberation of Angola--one of the two known Angolan nationalist movements--apparently had no such plans as of 28 January. On that date its office in Leopoldville queried headquarters in Conakry about the organization's position in the Santa Maria affair and any measures in connection with Angola. Nationalists in Angola probably hoped to capitalize on the world publicity concerning the Santa Maria incident and the presence of a dozen foreign journalists in Luanda to dramatize resistance to Portuguese rule. These disorders have been the most serious to occur in recent years in Angola, but opposition to the Portuguese is unlikely to be effective unless it is supported by significant elements of the military and police. Portugal has been reinforcing its troops in the province since the Congo's independence last summer, and now has about 10,000 army troops and several thousand police there. Most African agitation has occurred along the northern border, where as recently as 27 January, according to the governor general's report to the overseas minister in Lisbon, natives were claiming allegiance to President Kasavubu of the Congo and might have to be subdued by force. The Angola administration has also been trying to curtail the smuggling
+- original #29 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 7 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 9
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=14 unred_source_page=18
+alignment_score=0.124838
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #12 (original #30, segment 1)
+Text: of arms from Congo sources across this northern border. Such smuggling is probably now being carried out on a limited basis but might
+Token count: 23
+Recut: none
+
+Clean Chunk #13 (original #31, segment 1)
+Text: the future become a significant factor in the development of Angolan nationalism
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #31 segment 2: noncontent_keyword
+  Text: 7 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 10
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=15 unred_source_page=19
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 20]
+kind=match red_source_page=16 unred_source_page=20
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 21]
+kind=match red_source_page=17 unred_source_page=21
+alignment_score=0.999318
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #32 segment 1: short_span_min_tokens
+  Text: to
+
+========================================================================
+[PAGE 22]
+kind=match red_source_page=18 unred_source_page=22
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #33 segment 1: full_page_or_admin
+  Text: Colombia May Break Relations with Cuba Colombian-Cuban relations have been strained for over six months, and the two countries do not now exchange ambassadors. President Alberto Lleras may be forced to a formal break of diplomatic relations in the near future because of increasing pressure from both factions of the Conservative party and a majority of the Liberal party, as well as from the right and moderate press, business circles, and Colombia's influential labor organization, the Confederation of Colombian Workers. President Lleras, who is a former secretary general of the OAS, apparently opposes such action since he fears it might jeopardize Colombia's chance to mediate or lead in solving the Cuban problem and because he prefers multilateral action. armed banditry has increased greatly and that "it is thought there has been intervention by Castro agents." Previously reported intervention includes dissemination of Cuban and Communist propaganda, smuggling arms to sympathetic guerrilla bands, and training pro-Castro Colombians in guerrilla warfare tactics. Rural violence--springing mainly from a complex of agrarian grievances, regional rivalries, and sharp party antagonisms--has cost the lives of over 250,000 people in the past 13 years--over 2,600 last year. Its recent upward swing is increasing tension at local levels between the political parties which make up the National Front coalition government. Latin American nations which have either broken or suspended relations with Cuba are Guatemala, Nicaragua, Peru, the Dominican Republic, Haiti and Paraguay. The status of Cuban - El Salvadoran relations is not clear
+- original #33 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 7 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 14
+
+========================================================================
+[PAGE 23]
+kind=match red_source_page=19 unred_source_page=23
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 24]
+kind=match red_source_page=20 unred_source_page=24
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #34 segment 1: noncontent_keyword
+  Text: 7 February 1961 Copy No. C 78 CENTRAL INTELLIGENCE BULLETIN

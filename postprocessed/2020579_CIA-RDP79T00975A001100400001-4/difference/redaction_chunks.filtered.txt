@@ -1,0 +1,103 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.652273
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.927206
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOVIET UNION 4. FAR EAST 5. Chiang Kai-shek "determined" not to withdraw forces from Burma
+Token count: 15
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: EASTERN EUROPE 7. Yugoslavia opposes NATO representation in staff talks with Greece and Turkey
+Token count: 14
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.997213
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.995750
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: Comment: Moscow's anti-Zionist campaign was toned down following Stalin's death. Vyshinsky's remarks, however, indicate that the USSR still intends to exploit this theme among the Arabs. SOVIET UNION 4. FAR EAST 5. Chiang Kai-shek "determined" not to withdraw forces from Burma: Chiang Kai-shek is "strongly determined" that Li Mi's forces in Burma will not be withdrawn "under any circumstances." Chiang's policy is to "play along" with American efforts, short of actual evacuation
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.912771
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: Comment: Nationalist forces in Burma are awaiting Taipei approval to begin a campaign to drive Burmese troops from the area east of the Salween River and establish a separate state there (see map, p. 7). that supply flights to Li Mi's forces will be resumed if American efforts to prevent them are eased. Should the Nationalist lack of good faith in the evacuation effort become apparent to the Burmese, the latter may be expected to renew their protests to the United Nations with added bitterness
+Token count: 85
+Recut: none
+
+Clean Chunk #4 (original #5, segment 1)
+Text: EASTERN EUROPE 7. Yugoslavia opposes NATO representation in staff talks with Greece and Turkey: The Yugoslav Foreign Office has tentatively rejected the Turkish plan to have a NATO representative included in future discussions of the joint staffs of Yugoslavia, Greece and Turkey
+Token count: 42
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #6, segment 1)
+Text: PROVISIONAL THE UNION OF BURMA 1948 Administrative Boundaries
+Token count: 8
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.125179
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #7, segment 1)
+Text: Comment: This negative Yugoslav reception of the Turkish plan demonstrates Belgrade's reluctance to become too closely identified with NATO
+Token count: 19
+Recut: none
+
+Clean Chunk #7 (original #8, segment 1)
+Text: the absence of any clear-cut guarantee of military assistance from the principal NATO powers in the event of Soviet attack
+Token count: 20
+Recut: none

@@ -1,0 +1,36 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.967273
+
+Chunk #1
+Predicted text: eastern europe 4 collapse of communist albania may be imminent page 4
+Unredacted context: snag page 4 [UNRED_ONLY: eastern europe 4 collapse of communist albania may be imminent page 4]
+Redacted context: [L@42] hit snag page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996222
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.951961
+
+Chunk #2
+Predicted text: eastern europe
+Unredacted context: suez canal zone [UNRED_ONLY: eastern europe] 4 collapse of
+Redacted context: the suez canal [L@102:zone] [RED_GAP:<empty>] [R@103:4]
+
+Chunk #3
+Predicted text: collapse of communist albania may be imminent comment while reports of a general intensification of security measures in albania probably are true there has been no evidence to suggest that communist control has weakened or that there is any significant challenge to that control at this time
+Unredacted context: eastern europe 4 [UNRED_ONLY: collapse of communist albania may be imminent comment while reports of a general intensification of security measures in albania probably are true there has been no evidence to suggest that communist control has weakened or that there is any significant challenge to that control at this time]
+Redacted context: [L@103] suez canal zone 4

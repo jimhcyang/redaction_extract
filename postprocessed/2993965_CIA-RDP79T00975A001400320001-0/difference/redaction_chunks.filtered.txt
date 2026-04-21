@@ -1,0 +1,67 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.433333
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.972414
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. USSR prepares for withdrawals from strategic state reserves to increase consumer goods production
+Token count: 14
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.418590
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #2, segment 1)
+Text: SOVIET UNION 1. USSR prepares for withdrawals from strategic state reserves to increase consumer goods production: the Ministry of the Aircraft Industry ordered the plant to "select urgently" from state reserves a list of materials required for the fourth quarter program of consumer goods and basic production. The materials were to be returned to state reserves by the end of 1953 from allocations for current production, except for "white rolled metal," the return of which could be delayed until 1 May 1954. Comment: This procedure still required final approval by the Council of Ministers. However, the fact that the government had already arranged details for borrowing from state reserves as strategic a material as "white rolled metal," believed to refer to aluminum or aluminum alloys, underscores the importance being given to the immediate expansion of consumer goods output. In addition, the extra time permitted for returning the aluminum to state reserves suggests that the availability of this metal was not expected to keep pace with rising demands. This arrangement coincided with a conference convened in Moscow on 8 October by the First Chief Directorate of Aircraft Production to discuss "questions relating to assuring the output of high quality of consumer goods
+Token count: 201
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.949490
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: Comment: This is the first public announcement that the 1956-1960 Five-Year Plans of Orbit nations will be coordinated beyond the general directives set forth by Moscow, and indicates an important step in the trend toward greater integration of Orbit economic affairs. Orbit leaders apparently hope that by 1956 present imbalances can be corrected and a new and more closely coordinated phase of economic growth can begin
+Token count: 66
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.996774
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Palestine
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

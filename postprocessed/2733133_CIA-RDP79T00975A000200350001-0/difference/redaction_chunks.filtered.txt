@@ -1,0 +1,87 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 29 May 1951 Copy No. CJ -4 CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.985326
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 2. Two Manchurian airfields closed for repairs
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.991768
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: FAR EAST 2. Two Manchurian airfields closed for repairs
+Token count: 9
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.953723
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #4, segment 1)
+Text: Comment: The nature of the reported repair or construction is not known, but it may be necessitated by the intense air activity of the past six months in Manchuria. Another possibility is that the Chinese are expanding the capacity of certain airfields in Manchuria, although Kungchuling was only recently expanded to handle YAK-15 and YAK-17 jet fighters
+Token count: 57
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens
+  Text: An
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.826803
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.958493
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #6, segment 1)
+Text: Comment: Initial Arab satisfaction with the terms of the 18 May UN Security Council resolution has been reflected in reports from several Arab capitals. The possibility exists, however, that Arab confidence in the UN will again be shaken by Israel's failure to comply in full with the Security Council measure and that criticism of the US and UK will reappear in the Arab press
+Token count: 64
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: inactive
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,169 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.530000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 16 NOVEMBER 1960 I. THE COMMUNIST BLOC II. ASIA-AFRICA New Soviet arms shipment arrives in Guinea; USSR to train personnel for Guinean Navy. Situation in the Congo; Katanga trying to import arms through Portuguese Angola. Situation in South Vietnam. Situation in Laos. III. THE WEST El Salvador-- Military preparing counter-coup to oust pro-Communist and pro-Castro civilian members of ruling junta; latter reportedly planning peasant militia
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=2 unred_source_page=4
+alignment_score=0.366642
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 16 November 1960 DAILY BRIEF
+- original #3 segment 2: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC II. ASIA AFRICA Guinea-USSR: Guinea continues to receive military assistance from the USSR. A late September shipment of arms apparently totaling 1,750 tons has been supplemented by another such shipment to total
+- original #4 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: 188 tons now being unloaded at night under stringent security precautions. Meanwhile, 80 Guineans who went to the USSR last winter for military training were due to depart for home late last month and that the USSR had provided "scholarships" for 166 additional trainees to begin studies
+- original #5 segment 1: full_page_or_admin
+  Text: January, apparently "for the navy." (Page 1) Republic of the Congo: Mobutu's position has been "greatly strengthened" within the Congolese Army and that "he is in fact in control of most of it." There are various indications, however, that the loyalty of the army cannot be relied upon. Katanga minister of commerce, accompanied by two Belgian officers, visited Angola in early November to request permission to import arms and ammunition to Katanga by way of Angola. Such imports might be permitted, "provided that officially everything passes as articles of regular commerce" such as machinery parts
+- original #5 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=3 unred_source_page=5
+alignment_score=0.977580
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #6, segment 1)
+Text: Diem is said to have consulted with loyal military staff officers and leaders of his semiclandestine Can Lao political clique, with the latter reportedly pressing him to crush all known and potential political opponents
+Token count: 34
+Recut: none
+
+Clean Chunk #2 (original #8, segment 1)
+Text: Many military officers appear to believe
+Token count: 6
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Page 3
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #9, segment 1)
+Text: that the junta must be overthrown promptly. However, there are divisions within their own ranks which could nullify preparations now under way or cause a delay that might jeopardize their chances for a successful countercoup
+Token count: 35
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #9 segment 2: noncontent_keyword
+  Text: Page 5) 16 Nov 60 DAILY BRIEF
+- original #9 segment 3: short_span_min_tokens
+  Text: III
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: Guinea Receiving More Military Aid From USSR A second shipment of arms and ammunition from the USSR is being unloaded in Conakry under stringent security precautions by Guinean military personnel. This most recent shipment, which arrived aboard the Soviet vessel Serge Botkin, totals 2,188 tons--nearly 500 tons more than the cargo delivered in late September by the Soviet freighter Firyuza. Both ships took on their Conakry consignments at the Black Sea port of Nikolaev, the usual port of origin for Soviet arms shipments. The size of the two cargoes suggests that Moscow's arms aid is not limited to small arms and ammunition but probably includes heavier infantry weapons, such as machine guns and mortars. These first known major arms deliveries from the Sino-Soviet bloc to Guinea since March 1959, when the Czechs provided a substantial gift of arms, were apparently arranged during President Touré's visit to Moscow last September. $1,500,000 of a $21,500,000 "supplementary credit" extended by the USSR had been earmarked for military equipment. It is possible, however, that some of the recently arrived materiel may be intended for transshipment to neighboring Mali, which has sought arms from the US and Israel and presumably from the bloc. Meanwhile, 80 Guineans who had been in the USSR--apparently since last winter--for military training at Tashkent had completed their program and were due to depart for home late last month. At the same time, a "grant" of 166 "scholarships" under which other Guinean trainees could begin studies in January, apparently "for the navy." This is the first indication that the Touré regime may be thinking of developing a naval force for Guinea
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=4 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: The Situation in the Congo Mobutu's position within the Congolese Army had been "greatly strengthened" and that "he is in fact in control of most of it." With Mobutu during the conference, was "the commander of the Congolese forces in Thysville," presumably Lt. Col. Boboso. impressed by a show of unity between Mobutu and Boboso, since as recently as late October Boboso had been rumored to be the choice of a major army faction to depose Mobutu. meeting with Mobutu suggests that the latter enjoys for the moment the support of most army elements, continued political instability and mounting economic hardships in the Congo render such support uncertain. Mobutu continues to be at a political disadvantage with respect to Lumumba because the UN continues to provide Lumumba with physical protection and to regard his participation as indispensable to any political solution in the Congo. Meanwhile, the threat to "independent" Katanga posed by the activities of dissident Baluba tribesmen in the interior has contributed to increased friction within the Tshombé government. According to one report, a faction of Tshombé's cabinet led by Interior Minister Munongo wants to expel all Balubas from Katanga as soon as possible. Pro-Lumumba, anti-Tshombe elements in Orientale Province have attempted to capitalize on the tribal warfare in Katanga, and are believed to have prompted the recent proclamation by Baluba leaders of a separate Baluba province in northern Katanga. the Katanga minister of commerce, accompanied by two Belgian officers, visited Angola in early November to request permission to import arms and ammunition to Katanga by way of Angola. Such imports might be permitted, "provided that officially everything passes as articles of regular commerce" such as machinery parts
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=5 unred_source_page=9
+alignment_score=0.970737
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Houmpanh
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Houmpanh
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=6 unred_source_page=10
+alignment_score=0.617185
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #14, segment 1)
+Text: In the political realm, little apparent progress was made in separate talks the King held with Phoumi and former Premier Phoui. Phoumi reportedly tried to persuade the King to withdraw his support from Souvanna and announce the formation of a new government, but was rebuffed. The King insisted he must act within the constitution. On the other hand, the King showed little hope that a meeting between Souvanna, Phoui, and Phoumi would produce a political settlement
+Token count: 76
+Recut: none
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=7 unred_source_page=11
+alignment_score=0.893644
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #15, segment 1)
+Text: Countercoups Being Planned to Oust Leftist Regime in
+Token count: 8
+Recut: none
+
+Clean Chunk #6 (original #16, segment 1)
+Text: Many military officers believe the junta must be overthrown promptly. Ex-President Oscar Osorio, who was behind the ouster of Lemus, may be planning a countercoup. However, he appears to have lost much of his popularity among the armed forces, which expected him to keep leftist influence under control. A group of high-ranking officers who were closest to Osorio and another group of younger and more junior officers who distrust Osorio and the older officers seem to be planning separate coups. Either group would probably establish a pro-US regime with a reform program designed to alleviate the country's deep-seated social and economic problems. However, these divisions within the military's ranks could nullify preparations now under way or cause a delay that might jeopardize chances for a successful countercoup
+Token count: 127
+Recut: none
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=8 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

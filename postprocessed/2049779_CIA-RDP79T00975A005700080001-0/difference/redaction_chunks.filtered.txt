@@ -1,0 +1,273 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.600000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.951316
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 3)
+Text: 2. Cuba: Militia in Santiago instructed to "take over" parochial schools. (Page iii
+Token count: 13
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: Page iii) 4. USSR: Activity of Northern Fleet submarines, probably nuclear powered, at high level this spring
+Token count: 17
+Recut: none
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 4 May 1961
+- original #2 segment 1: noncontent_keyword
+  Text: 1. Laos
+- original #2 segment 2: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: NORTHERN LAOS Forces in Contact KONG LE - PATHET LAO KONG LE - PATHET LAO AREAS ROAD TRAIL ROUTE NUMBER STATUTE MILES
+- original #4 segment 2: noncontent_keyword
+  Text: 4 May 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #4 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 4 May 1961 DAILY BRIEF
+- original #5 segment 2: full_page_or_admin
+  Text: Laos: The royal government ordered its forces to cease all military activity on 3 May in response to the Kong Le - Pathet Lao cease-fire order. Ban Namone, the location proposed by Kong Le for a negotiating site, is in the area of the initial contacts between emissaries of the two sides and is acceptable to General Phoumi. There is not enough information yet to judge the general response of Kong Le - Pathet Lao troops to the 3 May cease-fire. The local cease-fire in the area south of Vang Vieng continues in effect. Laotian Army sources claim that Pha Lane, in southern Laos midway between Tchepone and Savannakhet, was under attack early on 3 May, but the attack reportedly ended at 0700 that morning. In a 3 May broadcast over Xieng Khouang radio, Souvanna Phouma proposed that all parties in the present crisis meet in Ban Namone on 5 May to negotiate political as well as military issues. He apparently envisaged that military and political delegations would conduct discussions separately but simultaneously. Souvanna stipulated that the political issues to be settled were the formation of a coalition government and a Laotian delegation to attend the conference at Geneva. The Indian Government informed Ambassador Galbraith that the Geneva co-chairmen would issue instructions to the ICC on the night of 3 May to proceed at once to Laos. Six Soviet and North Vietnamese aircraft were engaged in airlift operations on 2 May--three Soviet LI-2s and three North Vietnamese transports. Eight Soviet IL-14s and two Soviet LI-2s made flights from Hanoi to Xieng Khouang on 3 May, and nine Soviet aircraft were scheduled for flights into Laos on 4 May
+- original #5 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 1) (Map
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.245296
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: The Watch Committee at its meeting on
+- original #7 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: May reached the following conclusion concerning Laos:) While the Communists appear willing to cease fire
+- original #8 segment 1: full_page_or_admin
+  Text: Laos for the moment, they will insist that any political settlement in Laos reflect their dominant military position. The Communists will improve their military capabilities during a cease-fire and will be prepared to resume offensive operations at any time they become dissatisfied with the course of negotiations, provided they estimate that this can be done without incurring SEATO intervention. No military movements indicative of Chinese Communist intent to become involved in Laos have been noted nor is there any indication of a Soviet intent to become directly involved beyond the present airlift effort
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 4 May 61 DAILY BRIEF
+- original #8 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #9, segment 1)
+Text: NUCLEAR SUBMARINE DEVELOPMENTS, USSR BARENTS SEA LITSA BAY KOLA PEN. Murmansk Severodvinsk Miles
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #9 segment 2: noncontent_keyword
+  Text: 4 May 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #9 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=5 unred_source_page=8
+alignment_score=0.900152
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #10, segment 1)
+Text: Cuba: The regime is moving against private schools in Cuba following Castro's 1 May announcement that laws will be passed "in the next few days" to nationalize private and parochial schools and expel foreign priests. Ramiro Valdes, Communist chief of Cuban army intelligence, instructed his subordinate in Santiago, "take over" the parochial schools with militia "in order to prevent sabotage in them." There are some 250 parochial schools in Cuba, with a normal enrollment of about 130,000 students. The American-founded Villaneuva University was specifically slated for nationalization in Castro's May Day speech. The church has never exercised great strength in Cuba outside the educational field and has had relatively little political influence. Over 500 of Cuba's approximately 700 priests are non-Cubans, most of them Spaniards. Castro, in his speech, said "honest" foreign priests may remain in Cuba if they ask permission and said there is no reason why the Catholic Church cannot "coexist with the new social system in Cuba, now that the "bourgeois republic" is disappearing
+Token count: 168
+Recut: none
+
+Clean Chunk #5 (original #11, segment 2)
+Text: USSR: Activity of the seven probably nuclear-powered submarines comprising the Northern Fleet's sixth division has been at a high level this spring. During the past two weeks, at least three of these units have been engaged in local operations in Northern fleet waters and one unit operated in
+Token count: 48
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Backup, Page 2
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=0.952787
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #12, segment 1)
+Text: the northern Barents Sea. The sixth division, which is believed based in Litsa Bay west of the entrance to Murmansk, probably includes all the nuclear submarines in operational status in the Soviet Navy. In addition to the nuclear submarines estimated to be presently operational, at least one in both the Northern Fleet and Pacific Fleet areas are outfitting or are in trials and training status. As many as six additional probable nuclear submarines may be under construction at Komsomolsk in the Far East and an unknown number under construction at Severodvinsk on the White Sea
+Token count: 95
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #12 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: Map
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=10
+alignment_score=0.928763
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #7 (original #13, segment 1)
+Text: Jordan: King Husayn intends within a month to appoint a caretaker cabinet to supervise elections, according to a source close to the King. Husayn told the British ambassador that the elections would be held in late June. The decision apparently is an initial step toward fulfillment of Husayn's plans for installing a more youthful and progressive government. Coming at this time, it probably also reflects the King's sensitivity about possible adverse repercussions from his announcement of his intention to marry an English woman. DISSEMINATION the prevention of demonstrations after the wedding plans were announced "even if it be for the purpose of rejoicing." While there reportedly have been some celebrations in Amman, the American ambassador reports an attitude of "dismay and bewilderment" among many Jordanians following Husayn's betrothal. The UAR's government-controlled press has been only mildly critical so far
+Token count: 139
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #13 segment 2: noncontent_keyword
+  Text: Backup, Page 4
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.995946
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: noncontent_keyword
+  Text: Backup, Page 5
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: Situation in Laos Although there is no evidence that Vinh and Dong Hoi are being used for staging or pass-over points for airlift flights in central southern Laos, such a function is possible. Prior to 22 April only individual Soviet aircraft were noted in infrequent flights to the southern part of North Vietnam. On that date, however, five LI-2s and five IL-14s were tracked by North Vietnamese air-warning facilities in the Thanh Hoa and Vinh areas. On 28 April four Soviet IL-14s were noted in round-trip flights between Hanoi and Vinh. All of this activity indicates increased deliveries to Pathet Lao elements in central and southern Laos. It is also possible that some of the supplies flown to southern North Vietnam may be destined for Viet Cong guerrilla elements in South Vietnam. Indian preparations to move the ICC to Laos are considerably advanced. At the request of the Indian chairman of the ICC, the Cambodian ambassador in New Delhi asked his government whether it could, in the very near future, accommodate 200 ICC members for three days and transport them to Laos. The Royal Laotian Government on 2 April reportedly gave its approval in principle to the return of the ICC. The Chinese Communist Foreign Ministry yesterday charged that a Laotian government plane "intruded" into Chinese air space on 2 May, and said this "cannot but arouse the serious concern
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 4 May 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=0.123456
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: of the Chinese government." It stated that "the Phoumi - Boun Oum rebel clique must immediately discontinue such encroaching acts" or else "shoulder all consequences arising therefrom." The Foreign Ministry statement, not an unusually strong one for Peiping, is similar
+- original #17 segment 1: full_page_or_admin
+  Text: tone to the many protests Peiping has made for the record regarding alleged violations of Chinese waters and air space along the east coast of China
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 4 May 61 CENTRAL INTELLIGENCE BULLETIN
+- original #17 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Page 1A
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=10 unred_source_page=14
+alignment_score=0.993007
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Proenca
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=11 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=12 unred_source_page=16
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: King Husayn to Install New Government King Husayn has expressed a desire to institute a "new look" in Jordan by reshuffling army personnel and weeding out incompetents from the government, in addition to appointing a new cabinet. However, he has had difficulty in getting the people he wants to associate themselves with his regime because of its unpopularity. Potential candidates will be even more reluctant now that he has exposed himself to new charges of subservience to "imperialism" by his betrothal to the daughter of a British military adviser in Jordan. The source, who is close to Husayn, believes the King will try to use the caretaker cabinet to attract new people whom he later may be able to persuade to become permanent ministers. The caretaker cabinet probably will include Court Minister Hasan Katib either as prime minister or foreign minister. Husayn's engagement to "Muna al-Husayn," née Toni Gardiner, was opposed by Queen Mother Zayn, members of the present cabinet, and the British ambassador, but the King appears confident that no serious consequences will result from his decision. However, some Jordanians have said privately that he has made a serious mistake, and the American ambassador was struck by what he called the "muted" atmosphere at the palace the morning after the engagement was announced. Cairo's Al-Akhbar newspaper, reviewed by Cairo radio, has called attention to Husayn's statement that he had "searched for love and warmth but could not find them." Al-Akhbar commented: "By this the King means that among the entire Jordanian people, he could find no one to offer him love and warmth in life, so he turned to the West to solve this family problem, just as it solves his other problems for him. He asked for the hand of a British girl in whom he found the warmth he missed in his own people and the love he could not find in Jordanian hearts
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 4 May 61 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=13 unred_source_page=17
+alignment_score=0.993047
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #8 (original #21, segment 1)
+Text: The agitator
+Token count: 2
+Recut: none
+
+Excluded candidates:
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: was
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=14 unred_source_page=18
+alignment_score=0.975939
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=15 unred_source_page=19
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

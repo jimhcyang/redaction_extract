@@ -1,0 +1,87 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.681250
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.654545
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. JORDAN "RESISTANCE OPERATION" BEING ORGANIZED BY EGYPT AND SYRIA
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 5
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.925833
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: capitulating
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: position
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: planning
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: president
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 2. JORDAN "RESISTANCE OPERATION" BEING ORGANIZED BY EGYPT AND SYRIA Reference: Arrangements are being made to form a committee of the Jordanian political leaders now in exile in Damascus in order to organize a "resistance operation," the committee, which will be composed of representatives of extreme nationalist parties and of the Communists, was to meet on 11 May to draw up a program
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.902457
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: submarine
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: submarine
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reconnoiter
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: testing
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: submarines
+- original #13 segment 1: short_span_min_tokens
+  Text: advance

@@ -1,0 +1,192 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.738462
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.245183
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 21 OCTOBER 1960 I. THE COMMUNIST BLOC Chinese are delaying decisions on 1961 trade with other bloc countries; this probably is due
+- original #2 segment 1: full_page_or_admin
+  Text: part to agricultural difficulties, but Sino-Soviet dispute may also be factor. (1) II. ASIA-AFRICA UAR Commander in Chief Amir apparently to visit USSR shortly; probably will try to get USSR to accelerate delivery of military equipment. (2) British, determined to keep Uganda intact, will reject formal Buganda request for separate independence by early 1961. (3) Situation in the Congo. (4) III. THE WEST Castro regime may be preparing to stage another "incident" to back up charges of US aggression against Cuba. (5) LATE ITEM Khrushchev's 20 October speech seen as strong effort to buttress Soviet position at November meeting of world Communist leaders in Moscow. (6
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.858129
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 1)
+Text: I. THE COMMUNIST BLOC Communist China: Peiping is postponing decisions on the extent and nature of its 1961 trade with the rest of the Communist bloc. The level of trade this year has also been affected by Chinese delays in signing some new contracts and cancellation of some import orders. These developments probably are attributable in part to Communist China's internal economic difficulties, notably in agriculture over the past two years, although the basic dispute between the USSR and China may have contributed to China's uncertainty over its future trade prospects. Drought and flood have cast a shadow over China's foreign trade potential, since up to two thirds of China's exports to other bloc countries consist of agricultural products and goods processed from them
+Token count: 124
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: UAR-USSR: Arrangements for a visit to the Soviet Union by UAR Commander in Chief Amir. No date for the trip is mentioned, but the tone suggests the very near future. Although the reason for the visit is not disclosed, Amir probably will try to get the USSR to accelerate delivery of military equipment from the bloc, and possibly discuss arrangements for additional new equipment
+Token count: 64
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: Page 1
+- original #4 segment 2: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.840367
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #5, segment 1)
+Text: Republic of the Congo: The warning of Governor Kamitatsu of Leopoldville Province on 20 October that his province will "secede" from the Congo unless Mobutu ends his "reign of terror" in Leopoldville was designed primarily to provide support for Lumumba. Abako spokesmen in Leopoldville have periodically threatened secession in the past, the threat had not previously been used by Kamitatsu's African Solidarity party. He and other representatives urged that Cairo come forward with a Congo program based on a reconvening of parliament and the neutralization of Western influence in the country
+Token count: 91
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 2: noncontent_keyword
+  Text: Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.961506
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #4 (original #10, segment 1)
+Text: in Ottawa
+Token count: 2
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens
+  Text: pointed
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: The Castro
+- original #8 segment 1: short_span_min_tokens
+  Text: last
+- original #9 segment 1: nonempty_redacted_alternate_conflict
+  Text: request early
+- original #11 segment 1: noncontent_keyword
+  Text: Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.244097
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin, short_span_min_tokens
+  Text: Uncertainty
+- original #13 segment 1: full_page_or_admin
+  Text: Communist China Over Trade Prospects Peiping is postponing decisions on the extent and nature of its future trade with the rest of the bloc. Peiping, in the process of conducting a survey of its economy, feels it is not in a position to estimate its 1961 export capabilities. The Chinese have delayed signing new contracts and have canceled some import orders, which will affect the level of trade this year. The cancellation of imports applies only to orders which have not been formalized in contracts; formal contracts signed earlier by the Chinese are still in effect, and deliveries to China are continuing as usual. Export contracts are apparently still being honored, but Peiping is delaying any new commitments. Peiping's indecisiveness about trade plans for next year is probably attributable in part to the regime's recognition of its internal economic difficulties. The Chinese have been uncommonly vague about economic accomplishments this year and have been especially worried about agriculture. Difficulties of maintaining agricultural production because of drought and flood this year throw China's trade potential into doubt. Agricultural products, both raw and processed, make up approximately two thirds of China's exports to the bloc. China's dispute with the USSR probably has also contributed to its uncertainty over future trade. In addition to the existing debt to the Soviet Union, Peiping has been running a deficit in its balance of payments with the bloc
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Oct 60 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: UAR Commander in Chief Amir Scheduling Visit to Moscow Arrangements are being made for UAR Vice President and Commander in Chief Abd al-Hakim Amir to visit Moscow. The initiative for the visit was not disclosed and no date has been set, but Amir will probably try to get the USSR to accelerate the delivery of military equipment from the bloc and possibly discuss arrangements for additional new equipment. Amir had "ordered" the UAR Embassy to contact Soviet authorities to determine "what they have to offer for armaments." The embassy was instructed to report to Cairo "the types, numbers, and prices offered, and particularly the new offers." The matter of a new arms "contract or commitment" with the USSR already had been discussed in Cairo. Moscow apparently has been reluctant since 1958 to honor Cairo's requests for more large-scale arms aid, although it continues to supply the UAR with some military equipment and earlier this year agreed to provide MIG-19 jet fighters. The MIG-19s, however, have not yet been delivered
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Oct 60 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: noncontent_keyword
+  Text: UGANDA UGANDA UNCLASSIFIED 31380
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.121902
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: The Situation
+- original #17 segment 1: full_page_or_admin
+  Text: the Congo The warning on 20 October by Cleophas Kamitatsu, governor of Leopoldville Province, that his province will "secede" from the Congo unless Mobutu ends his "reign of terror" in Leopoldville is designed primarily to provide propaganda for deposed premier Lumumba. Although spokesmen for Kasavubu's Abako party have periodically threatened secession in the past, the threat had not been invoked by Kamitatsu's African Solidarity party (PSA), the Abako's main rival. Kamitatsu's statement may reflect the desire of PSA chief Antoine Gizenga to undermine Mobutu by portraying him as an obstacle to Congo unity. Western diplomats in the Congo were "anesthetizing" UN representative Dayal with their protestations of support for Congo unity. He urged that Cairo come forward with a Congo program based on a reconvening of parliament, the removal of the Congo Army from politics, and the expulsion of all Belgians. He added that all "foreign activity" should be ended except that devoted to "consolidating the national economy under the supervision of the central government". Lulua villages in Kasai Province appeared to have suffered heavy damage in the sporadic tribal fighting between the Balubas and Luluas. Defeated Lulua tribesmen have reportedly fallen back on the city of Luluabourg, as fighting has shifted to Katanga. There Baluba attacks pose a serious threat to the government of Moise Tshombe, and recent statements by the Katanga leader have reflected dissatisfaction with the measures taken by UN forces to maintain security. Elsewhere, five Soviet IL-18s in Accra, which have been used by Ghana while it awaited delivery on five IL-18s purchased from the USSR, have scheduled return flights to Moscow on about 21 October. Two other IL-18s--presumably the first of those ordered by Ghana--were scheduled to arrive in Accra on 20 October. The returning Soviet aircraft would carry Soviet diplomatic personnel who were evacuated from Leopoldville in September
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Oct 60 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=11 unred_source_page=13
+alignment_score=0.997486
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #18, segment 1)
+Text: given to Macmillan
+Token count: 3
+Recut: none
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=12 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=13 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

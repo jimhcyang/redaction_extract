@@ -1,0 +1,81 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.541118
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. 60 CURRENT INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.942308
+kept_candidate_count=3
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: GENERAL 1. France willing to resume trade talks with USSR
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 3)
+Text: SOVIET UNION 2
+Token count: 3
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 6. Franco reported ready to sign US-Spanish agreements
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: GENERAL 1. France willing to resume trade talks with USSR: Comment: The French delegate to the Geneva talks informed American officials that a tentative agreement was reached whereby France would build cargo ships in exchange for Soviet grains. French business circles have recently shown renewed interest in an expansion of trade with the USSR to give a boost to lagging French industry and to help solve France's foreign exchange difficulties. Trade talks between the two countries over a proposed exchange of ships for wheat broke down last summer. SOVIET UNION 2
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.995355
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.971263
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: 6. Franco reported ready to sign US-Spanish agreements: General Franco would sign the US-Spanish base agreements when Ambassador Dunn returned to Madrid. Franco's primary concern during the negotiations was reportedly the number of American troops to be stationed in Spain
+Token count: 40
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: Comment: The question of the number and function of American troops in Spain was settled early in the negotiations. The biggest obstacle to the agreements until last month was Spain's insistence on large-scale military assistance while the bases were under construction. The Spaniards now concede that American military aid, while related to their minimum defense needs, must nevertheless be conditioned by the limitations of the United States' foreign aid budget and prior NATO commitments

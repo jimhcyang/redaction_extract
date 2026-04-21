@@ -1,0 +1,187 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.915060
+kept_candidate_count=3
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. COMMUNIST MILITARY CONSTRUCTION NOTED ON ISLAND NEAR NATIONALIST-HELD WUCHIUS
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 4. USSR OFFERS TO DEVELOP YUGOSLAV COPPER MINE (page 6). 5. BURMESE COMPLAIN TO PEIPING ABOUT FAILURE TO PROVIDE GOODS FOR RE-EXPORT
+Token count: 22
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 2)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #2 segment 3: noncontent_keyword
+  Text: page 7
+- original #3 segment 1: noncontent_keyword
+  Text: page 8
+- original #4 segment 1: noncontent_keyword
+  Text: page 9
+- original #4 segment 3: noncontent_keyword
+  Text: page 10
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.140179
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: 15 Mar 56 Current Intelligence Bulletin
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 2. COMMUNIST MILITARY CONSTRUCTION NOTED ON ISLAND NEAR NATIONALIST-HELD WUCHIUS considerable Chinese Communist military activity on Lutzu Island, ten miles northwest of the Nationalist-held Wuchiu Islands, between Matsu and Quemoy. Numerous coastal defense and artillery positions have been completed and others are under construction. The island is crisscrossed by antitank ditches, and four barracks have been built. Comment little Communist activity and no artillery positions on Lutzu. Some of this construction involves defensive preparations, but the readying of artillery positions indicates that the Communists may be preparing to increase pressure on the Wuchius, currently garrisoned by about 500 Nationalist guerrilla forces. Chinese Communist attacks on Ichiang Island, in the Tachen group, in late 1954 and early 1955 included artillery fire from a small island immediately to the north. The Nationalist navy has shelled Lutzu several times in recent months, fearing that the Communists might be preparing to bring the Wuchius under fire from the island
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Mar 56 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.934732
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: decision
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Conservative-Progressive
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: major
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Conservative
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: non-Communist
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: revision
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: election
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: 4. USSR OFFERS TO DEVELOP YUGOSLAV COPPER MINE Russia has offered Yugoslavia $50,000,000 for developing the Majdanpek copper mining complex, the loan is offered at two percent for 25 years with the interest payable in crude copper, finished copper, or currencies beginning the sixth year. Comment Yugoslavia to date has declined to export copper ore to the Soviet bloc. In their current negotiations with the French for financing the Majdanpek projects, Yugoslav officials have said that although Soviet terms are more favorable, they prefer to deal with the West. Yugoslavia proposed to France and the United States that France supply an $18,000,000 credit at 5 percent to cover imported equipment, and that local costs, equivalent to $40,000,000, be supplied from US-held dinars acquired through Yugoslav counterpart payments. Yugoslavia, Europe's largest copper ore producer, has for many years sought to modernize the Majdanpek complex. The $50,000,000 Soviet offer would presumably cover the entire cost of the project, including local expenses as well as foreign exchange purchases. Last September the USSR was reportedly willing to supply foreign exchange credits, but refused to finance local expenditures. (Concurred in by ORR
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Mar 56 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.244233
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: 5. BURMESE COMPLAIN TO PEIPING ABOUT FAILURE TO PROVIDE GOODS FOR RE-EXPORT the Chinese Communists had not carried out Chou En-lai's "repeated assurance" that Chinese goods would be made available to Burma for re-export to other countries. proper lists and prices on such goods had not been provided and asked the Burmese ambassador
+- original #17 segment 1: full_page_or_admin
+  Text: Peiping to "intervene" with the foreign trade minister and, "if advisable," with Chou En-lai. Comment Peiping's stalling on the question of goods for re-export probably stems from a desire to deliver a maximum amount of goods for consumption in Burma. China is trying to develop a market for light manufactured and industrial items there as well as in other South and Southeast Asian countries. The Burmese also are concerned over China's re-export of Burmese rice to Ceylon. Burma could probably itself absorb all of the approximately $15,000,000 worth of Chinese goods it is committed to take through next September in exchange for rice deliveries, but it would prefer to realize some foreign exchange from the transaction. Its balance-of-payments position promises to be extremely tight again this year. In trade negotiations with Pakistan, Burmese officials have cited their dissatisfaction with barter arrangements--a feature of Burmese trade with the Communist bloc. (Concurred in by ORR
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Mar 56 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.946635
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: before
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: maintained
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: examining
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: subsidy
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.962181
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: dismissal
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Company
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reform
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: violence
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 14 March) The Jordanian chief of staff has issued an order to all Arab Legion brigades and National Guard units that the same restraint exhibited by the Legion on the border in the past would be observed and fire would not be returned unless absolutely necessary. The return to Egypt of some of the Egyptian military personnel who have received training in the Soviet bloc is scheduled for the latter part of March. Some 200 Egyptian naval officers and noncommissioned officers have been receiving training under Soviet supervision in the Polish port of Gdynia, and some Egyptian army and air personnel are also believed to be training in Czechoslovakia. Agents for Israel are reportedly negotiating the purchase of 34 British Vampire jet fighters each from Sweden and Norway, pressure is building in Israel for purchase of Soviet arms. He believes such a deal may be in the making
+- original #26 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Mar 56 Current Intelligence Bulletin Page 10

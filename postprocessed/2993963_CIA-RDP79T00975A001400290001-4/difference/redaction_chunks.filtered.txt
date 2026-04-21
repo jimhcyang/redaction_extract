@@ -1,0 +1,135 @@
+========================================================================
+[PAGE 01]
+kind=red_only red_source_page=1 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: January 1954
+- original #1 segment 2: noncontent_keyword
+  Text: Copy No. 84 CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.973313
+kept_candidate_count=3
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 1. Eden sees Berlin meeting as test of Soviet attitude
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: SOVIET UNION 4. MVD to regain forced labor and other economic functions
+Token count: 12
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 1)
+Text: and German leaders
+Token count: 3
+Recut: none
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: GENERAL 1. Eden sees Berlin meeting as test of Soviet attitude: Foreign Secretary Eden sees little chance of settling the question of free all-German elections during the Berlin conference. He hopes, however, that disagreement on one point will not prevent discussion of others, and that the renewed East-West contacts can be maintained after the conference. Comment: Eden's views as reported here are compatible with Churchill's attitude that, at a minimum, the meetings may reveal what the Malenkov regime is thinking on a variety of subjects. 2. Summary of possible Soviet position at Berlin passes censors: Soviet censors passed an Associated Press dispatch from Moscow which described the probable Soviet position at the Berlin conference as follows: (1) unalterable opposition to EDC and rearmament of West Germany within the framework of Western defense; (2) opposition to internationally supervised all-German elections; (3) support for a provisional all-German government; (4) a demand for the elimination of American bases abroad; (5) rejection of security guarantees and an emphasis on the Franco-Soviet pact as a better idea for real security; and (6) support for a five-power conference and perhaps a five-power peace pact. Ambassador Bohlen notes that the mere fact that the report passed Soviet censorhip does not assure its accuracy but does lend it additional weight. He believes that the only deletions from the dispatch, references to exclusion of the United States from Europe, resulted from a Soviet desire to avoid attracting attention to this point rather than from inaccuracy of the statement
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.588954
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: SOVIET UNION 4. MVD to regain forced labor and other economic functions
+Token count: 12
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.829369
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #7, segment 1)
+Text: Comment: The productive units of the MVD, which had been in charge of many large economic development projects, were transferred to various ministries of the government in March 1953. These transfers left the MVD with only police and intelligence functions, and thus drastically reduced its ability to influence economic matters in other ministries. The return of some economic functions to the MVD at this time suggests that it was stripped of its forced labor and productive functions primarily as a result of the power struggle which developed after Stalin's death. Now, with Beria purged and the ministry under strict party control, the MVD may resume many of its former functions as an important economic organ of the government exploiting forced labor
+Token count: 121
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: anti-aircraft
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.988538
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #9, segment 1)
+Text: regarding the Viet Minh's possession of 37mm antiaircraft artillery, which might be a serious threat to French air supply and attack missions
+Token count: 22
+Recut: none
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens
+  Text: is
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.691258
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #11, segment 1)
+Text: and German leaders
+Token count: 3
+Recut: none
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.919421
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #8 (original #12, segment 1)
+Text: The embassy believes that this news will provoke new sentiment for complete withdrawal. Although Pleven and Finance Minister Faure reportedly wish to end the conflict as soon as possible, Fauvet stated that there are no supporters in the cabinet for a policy of abandonment. Comment: Pleven told the American ambassador in Paris last week that he will try to fulfill Navarre's request for 300 officers and 1,800 noncommissioned officers. Combat, an anti-NATO Paris daily, has already seized on the new Vietnamese government's demand for complete independence as additional proof that there are no reasons left for France to stay in Indochina. Domestic pressure will probably be cited by the French delegation at Berlin in any plea for American and British forbearance if the Soviet delegation makes overtures on Indochina
+Token count: 130
+Recut: none

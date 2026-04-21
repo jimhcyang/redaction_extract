@@ -1,0 +1,60 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.562753
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. 6
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.628431
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: SOUTHEAST ASIA 1. EASTERN EUROPE 2. Yugoslav government reportedly sees no real improvement in relations with Soviet bloc
+Token count: 18
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.123214
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: SOUTHEAST ASIA EASTERN EUROPE 2. Yugoslav government reportedly sees no real improvement
+- original #4 segment 1: full_page_or_admin
+  Text: relations with Soviet bloc: Soviet bloc gestures to Yugoslavia since the death of Stalin have led to nothing more concrete than have the "gestures of appeasement" made by Moscow to the Western world. the Yugoslav-Rumanian negotiations had not been encouraging. An agreement reached on 31 May by a Yugoslav-Rumanian commission concerning the administration of the Iron Gate had not yet been approved in Bucharest. There had been no Orbit policy change
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.960390
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #5, segment 1)
+Text: in the Danubian Commission, and Communist propaganda, although somewhat less abusive politically, was more critical than ever when dealing with Yugoslav social and economic measures. Comment: Yugoslav press releases of 24 August allege that negotiations with Albania are stalled because of the latter's hindering tactics
+Token count: 45
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

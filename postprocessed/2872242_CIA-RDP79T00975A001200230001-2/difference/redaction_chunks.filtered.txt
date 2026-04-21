@@ -1,0 +1,107 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.598214
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.925931
+kept_candidate_count=3
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #3, segment 1)
+Text: GENERAL 1. USSR moves to improve relations with Greece
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 2. Chinese Communists may be planning late July offensive on western Korean front
+Token count: 13
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #5, segment 1)
+Text: SOUTHEAST ASIA 6. Negotiations for Romulo's withdrawal from Philippine campaign reported
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: page 3
+- original #4 segment 2: noncontent_keyword
+  Text: page 3
+- original #5 segment 2: noncontent_keyword
+  Text: page 5
+- original #5 segment 3: noncontent_keyword
+  Text: NEAR EAST - AFRICA
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: GENERAL 1. USSR moves to improve relations with Greece: Comment: Soviet efforts to resume normal relations with Greece are in line with recent conciliatory gestures toward the other members of the Balkan pact designed to weaken the alignment and forestall any further development of Western bases on Orbit frontiers. The reported trade agreement, together with recent Greek-Satellite pacts, calls for a sharp increase over 1952 in trade with the Soviet bloc. FAR EAST 2. Chinese Communists may be planning late July offensive on western Korean front: Comment: The 21st Artillery Regiment is believed to be taking up new positions on the western front opposite the American I Corps sector. other artillery units are also moving to this area, and an increase in tank strength from two to four regiments has been noted
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.981432
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #7, segment 1)
+Text: There are indications that an offensive by the North Koreans on the eastern front also may be planned for late July
+Token count: 21
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: SOUTHEAST ASIA 6. Negotiations for Romulo's withdrawal from Philippine campaign reported: Comment: Most of Romulo's support has been drawn from the Magsaysay camp. His only chance of winning the presidency has appeared to lie in the possibility that Quirino might be forced to forego the Liberal candidacy for reasons of health, thus opening the way for Romulo to head a Liberal-Democratic coalition. Reports that Quirino's health has improved may have led Romulo to seek an arrangement with Magsaysay
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.987939
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA
+- original #10 segment 1: short_span_min_tokens
+  Text: in
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.992964
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: commandants

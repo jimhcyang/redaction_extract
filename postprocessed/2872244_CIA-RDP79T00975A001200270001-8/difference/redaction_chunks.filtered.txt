@@ -1,0 +1,79 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.961633
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 7. Threat to Trieste Communist Party seen in Beria arrest
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.969697
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: GENERAL
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.983525
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #3, segment 1)
+Text: nearly as many civilian laborers are still in the USSR
+Token count: 10
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: of
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.994654
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.946826
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: WESTERN EUROPE 7. Threat to Trieste Communist Party seen in Beria arrest: Comment: Vittorio Vidali, chief of the pro-Cominform party in Trieste, recently declared before a party meeting that the Beria case has had a "demoralizing effect" on the Communist parties of both Trieste and Italy. Rumors linking Vidali with Beria and predicting his imminent purge are current in Trieste party circles
+Token count: 62
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.992544
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

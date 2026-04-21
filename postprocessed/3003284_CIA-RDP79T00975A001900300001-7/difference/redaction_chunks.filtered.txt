@@ -1,0 +1,82 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.913043
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. Comment on North Korean measures to deceive armistice inspection teams
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: SOUTHEAST ASIA 4. Availability of tanks to Viet Minh confirmed (page 5). NEAR EAST - AFRICA 5. Comment on Iranian attitude toward Middle East defense arrangements
+Token count: 25
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.983078
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #4, segment 1)
+Text: FAR EAST 2. Comment on North Korean measures to deceive armistice inspection teams: the aircraft may have been
+Token count: 18
+Recut: none
+
+Excluded candidates:
+- original #3 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Malenkov--Khrushchev
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.909852
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: withdrawn from their bases to escape detection by inspection teams of the Neutral Nations Supervisory Commission (NNSC). An inspection of six North Korean airfields was to begin on 11 March following a UN Command charge that North Korea has violated the armistice by introducing jet fighters, which were not operationally based within the country at the time of the cease-fire. North Korean army preparation of measures to conceal military activities in anticipation of impending visits by teams of the NNSC. Such precautions have previously been unnecessary because of rigid controls over movements of inspection teams in North Korea. A relaxation of these controls, initiated to counteract the UN Command's efforts to disband the NNSC, is forcing increased attention to deception and concealment
+Token count: 122
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.878125
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #6, segment 1)
+Text: SOUTHEAST ASIA 4. Availability of tanks to Viet Minh confirmed: Comment: The date on which the Viet Minh received this materiel from Communist China is not made clear. If the tanks crossed the border after mid-October, they would constitute the first significant shipment of prohibited military materiel noted since that time. NEAR EAST - AFRICA 5. Comment on Iranian attitude toward Middle East defense arrangements: Iranian officials are extremely cautious about associating Iran with any Middle East defense arrangements, and adherence to any regional bloc is not likely in the near future
+Token count: 91
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #7, segment 1)
+Text: The Shah has long insisted that Iran would be interested in joining an area defense pact only when its military power has been sufficiently built up. He can be expected to continue to press for greatly expanded American military aid and delay any decision until he obtains it
+Token count: 48
+Recut: none

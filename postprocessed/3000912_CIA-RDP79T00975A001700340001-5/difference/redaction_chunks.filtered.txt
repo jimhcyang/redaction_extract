@@ -1,0 +1,83 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.630435
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.919643
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: FAR EAST 1. Possibility of violence to prevent Yoshida trip reported
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. Chinese Nationalists reported planning raid on coast after 30 September
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 3
+- original #1 segment 5: noncontent_keyword
+  Text: NEAR EAST - AFRICA 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.245219
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin, noncontent_keyword
+  Text: FAR EAST
+- original #3 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: Possibility of violence to prevent Yoshida trip reported: Comment: While Japanese labor union leaders are generally anti-Yoshida, most of them would probably oppose the use of force. Extremists
+- original #4 segment 1: full_page_or_admin
+  Text: some of the unions may well employ violence, however, in the hope of preventing Yoshida's departure on a world tour which they believe would enhance his domestic political stature. During the past six months there have been several abortive attempts on Yoshida's life. The Japanese police have labeled these the work of cranks. Many observers, both American and Japanese, however, have expressed alarm at the similarity of the present situation in Japan with that in the 1930's, when extremists committed a series of assassinations. 2. Chinese Nationalists reported planning raid on coast after 30 September
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: Comment: It is probable that the planned "raid" will be merely an attempt to reconnoiter the Amoy area for intelligence purposes. There is a possibility, however, that the Nationalists will deliberately attempt to provoke major Communist counteraction, in the hope of involving American forces. Recent Nationalist moves to strengthen the Quemoy garrison, would improve Nationalist capabilities for such an operation. In the past the Chinese Communists have frequently known in advance of operations planned by the Nationalists. They may well learn of the raid scheduled for next month. NEAR EAST - AFRICA 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.993103
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: memoires
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.994444
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens
+  Text: for

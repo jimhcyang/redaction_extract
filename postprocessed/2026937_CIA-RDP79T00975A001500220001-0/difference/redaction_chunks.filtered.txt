@@ -1,0 +1,113 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.194973
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: CENTRAL INTELLIGENCE AGENCY
+- original #1 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: 6 April 1954
+- original #2 segment 1: noncontent_keyword
+  Text: Copy No. 1
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.902956
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #3, segment 1)
+Text: SOVIET UNION Jets redeployed in northeast Siberia (page 4). FAR EAST Chinese Communists and North Koreans apparently receiving more Soviet IL-28's
+Token count: 21
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.987023
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.949395
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #5, segment 1)
+Text: Jets redeployed in northeast Siberia: Two IL-28 jet light bombers and eight MIG-15 jet fighters flew from Provideniya to Cape Schmidt on 3 April (see map, p. 5). The movement of the MIG-15's was supported by 14 transport flights from Velkal and Provideniya to Cape Schmidt on 2 and 3 April
+Token count: 51
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: aids
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #6, segment 1)
+Text: SIGNIFICANT FLIGHT ACTIVITY IN THE CHUKOTSK
+Token count: 6
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #6, segment 3)
+Text: MIG-15 Flights Transport Flights Line of land-fast ice generally unnavigable except with ice breaker assistance or by heavily built vessels. Maximum Ice Line (March) Minimum Ice Line (September
+Token count: 28
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: LEGEND
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.244107
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: Comment: These flights indicate a redisposition of jet fighter strength
+- original #8 segment 1: full_page_or_admin
+  Text: northeast Siberia and represent an extension of Soviet air defense capabilities in the area. The only jet aircraft in the Chukotsk area have been based at Provideniya, where there has been at least one jet fighter regiment since late 1952. Cape Schmidt and nearby Wrangel Island have been the terminal points of extensive transport operations by European and Far Eastern-based planes since late February. FAR EAST 5. Chinese Communists and North Koreans apparently receiving more Soviet IL-28's: An unknown number of twin-jet bombers entered Manchuria from Chita in the USSR on 3 April and flew to Tsitsihar, Peiping's IL-28 base in Manchuria. Three and possibly four of the aircraft were reported taking off the next day for Kungchuling, Manchurian base of the North Korean 4th Air Division, an IL-28-equipped unit. Comment: About 55 IL-28 jet bombers have been delivered from the USSR to China since the truce last July, but these would be the first since November. Six other aircraft recently delivered are believed to be TU-4 medium bombers. Meanwhile, increased activity by Chinese Communist MIG-15 units near the Yalu and the presence of an additional regiment of MIG's at Canton in southern China suggest that more jet fighters have been made available to Peiping since the cease-fire. The current movement is the first indication that the North Korean air force may also have received aircraft since the truce
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.996852
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.996768
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.994551
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

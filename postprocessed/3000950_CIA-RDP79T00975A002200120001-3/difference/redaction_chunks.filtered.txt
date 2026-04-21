@@ -1,0 +1,101 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.968269
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. USSR MAKES BID FOR EXPANDED TRADE WITH JAPAN
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 1. USSR MAKES BID FOR EXPANDED TRADE WITH JAPAN Soviet delegate Malik, currently negotiating with the Japanese in London, emphasized the importance of Soviet-Japanese trade. Malik said the Soviet Union would prefer to place "a great amount" of orders with Japan rather than with European countries. Malik said that ships would be among the imports the USSR would desire from Japan. Comment Moscow is fully aware of Tokyo's current economic problems, and has previously hinted at lower levels that it would like to expand trade with Japan. The USSR apparently hopes to use the possibility of expanded trade as an inducement to the Japanese to agree to an early normalization of relations on Soviet terms. There are opportunities for an expansion of Soviet-Japanese trade, especially in an exchange involving Soviet raw materials for Japanese finished products. (Concurred in by ORR
+- original #2 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Sept 55 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.971392
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: agreements
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: American
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: graphite
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: assertion
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.967836
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Chancellor
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: admitted
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Further
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: uninstrumented
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: probably
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.960985
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: coalition
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: assemblies
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: unification
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: suggestion

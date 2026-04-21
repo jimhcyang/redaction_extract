@@ -1,0 +1,134 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.610417
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.790800
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. TYURA TAM ICBM/ESV RANGE RESUMES PRACTICE ACTIVITY
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. SOVIET DESTROYER POSSIBLY EQUIPPED WITH GUIDED MISSILES (page 4). 3. POSSIBLE SOVIET CENTRAL COMMITTEE MEETING
+Token count: 16
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 9
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 1. TYURA TAM ICBM/ESV RANGE RESUMES PRACTICE ACTIVITY Comment on: The Tyura Tam - Klyuchi missile test range resumed practice activity on 23 and 24 November. Resumption of practice activity indicates probable preparations for another event; either an ICBM test or another satellite launching attempt. Previous extensive practice activity started on 4 November--the day after the launching of Sputnik II--and ran through 10 November. This was followed on 13 and 14 November by KRUG direction-finding activity which ceased on 15 November. The period of relative quiet following the extensive practice activities of 4-10 November and the KRUG practices of 13-14 November could have been caused by the delay or postponement of a scheduled ICBM/ESV flight test or by changes in range communications. Judging by Soviet statements of the number (12-14) of satellites to be launched during the International Geophysical Year at the rate of about one per month, the orbiting of another earth satellite, possibly containing another animal, is considered more likely than an ICBM test. The timing of this event cannot yet be determined, but the attempt is likely to occur in the near future
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.245443
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: SOVIET DESTROYER POSSIBLY EQUIPPED WITH GUIDED MISSILES Comment on: sighted a new Soviet destroyer
+- original #8 segment 1: full_page_or_admin
+  Text: the Amur River on 16 September. The presence of a "catapult" and the absence of gun mounts on the stern constitute the first evidence that the USSR may be equipping destroyers with guided missiles. The ship is probably the 3,880-ton Kotlin-class destroyer which left Komsomolsk shipyard on the Amur River on 14 September for at Vladivostok. this shipyard was working on at least one Kotlin-class destroyer. A number of sighting reports, and numer- Work was suspended in 1955 on five Sverdlov-class cruisers in European Soviet shipyards, possibly as a result of a decision to delay completion of these units
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 3. POSSIBLE SOVIET CENTRAL COMMITTEE MEETING Comment on: There is increasing likelihood that the Soviet party central committee will meet sometime in the middle of December. Alerting the central committee members well in advance suggests that the topics for discussion would be more routine than those considered in June and October. Problems affecting the economy have not been brought to the attention of the central committee since the beginning of the year. Indications of another central committee session appear at a time when Khrushchev in his recent spate of publicized interviews with foreigners is giving the impression of enjoying complete pre-eminence. he still faces significant opposition within the party. Recently, Bulganin has been the subject of conflicting reports, some continuing to allege that he will be replaced soon as premier
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.901749
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #11, segment 1)
+Text: This latest report suggests that in discussions with Mao and other bloc leaders he did not receive the degree of support he had expected
+Token count: 24
+Recut: none
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.974344
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.968687
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: 7. TURKISH CABINET FORMED AFTER MONTH DELAY Comment on: The membership of the Turkish cabinet announced on 25 November indicates that Prime Minister Menderes has emerged from his intra-party struggle over government policy and personalities with his control somewhat shaken. Both the government and opposition parties have grievances carrying over from the October elections and are apparently ready for a showdown concerning their future roles. The new cabinet contains two thirds of the previous ministers and includes the controversial Fatin Rustu Zorlu as minister of foreign affairs. Fevzi Ucaner, at one time commander of the Turkish air force, was the only former top-level military leader to receive cabinet appointment. If opposition criticism intensifies, Menderes and other extremists in his party may undertake drastic measures against the press and the political opposition

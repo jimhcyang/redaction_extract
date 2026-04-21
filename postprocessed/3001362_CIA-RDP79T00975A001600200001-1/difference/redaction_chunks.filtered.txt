@@ -1,0 +1,80 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.452222
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.890541
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 3. Haiphong munitions dump reported threatened by Viet Minh (page 4). NEAR EAST - AFRICA 4. Nasr moves toward removal of Nagib from Egyptian presidency (page 4). LATIN AMERICA 5. Brazil sees no general agreement on US resolution prior to OAS meeting
+Token count: 41
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 6. Guatemalan army officers see Arbenz stalling on ultimatum
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+- original #1 segment 4: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996627
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.904412
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #2, segment 1)
+Text: 3. Haiphong munitions dump reported threatened by Viet Minh: destruction of the dump would almost level Haiphong. Comment: Viet Minh sabotage capabilities, despite French security measures, are considerable. The most recent incident apparently attributable to Viet Minh saboteurs was the partial destruction of a 5,000-ton munitions dump near Saigon on 2 June. NEAR EAST - AFRICA
+Token count: 56
+Recut: none
+
+Clean Chunk #4 (original #3, segment 1)
+Text: Nasr moves toward removal of Nagib from Egyptian presidency
+Token count: 9
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.122343
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: Photographs of Nagib
+- original #5 segment 1: full_page_or_admin
+  Text: government offices are being replaced by Koranic verses and several thousand photographs of Nasr are ready for display. The change-over is expected prior to the celebration of the regime's second anniversary on 23 July. Comment: Nasr is unlikely to remove Nagib from the presidency until he is certain he can control the situation. Meanwhile the Nasr regime has adopted a policy of discrediting Nagib. LATIN AMERICA 5. Brazil sees no general agreement on US resolution prior to OAS meeting: The ministry noted that a number of countries were offering reservations and that little time was available for negotiation. It added that the meeting itself is the "proper place" to reach agreement, and that insistence on prior agreement may "compromise the very principle of calling the meeting." Comment: Brazil has offered to intercede with other governments on behalf of American objectives in this case, but is not itself committed to the text of the resolution proposed by Washington on 5 June
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: The argument that the OAS meeting is the proper place to work out a resolution runs counter to the belief of several other countries that lack of prior agreement will invite a fiasco. To date, eight governments are committed to the American resolution without serious reservation. Fourteen votes are needed for action. 6. Guatemalan army officers see Arbenz stalling on ultimatum: A group of Guatemalan army officers led by Colonel Elfego Monzon was pressing for the immediate ouster of President Arbenz, even prior to his reply to an army ultimatum. Arbenz is said to have agreed to resign, but only on certain unacceptable conditions, and these officers believe he is merely stalling. Comment: Arbenz will have to make significant concessions to the anti-Communist army officers or risk ouster. He has been under growing army pressure to reverse his pro-Communist policies since as long ago as last November. Colonel Monzon, minister without portfolio in the Arbenz cabinet and an influential officer, claimed a majority of the army's officers would join him in a move against the government

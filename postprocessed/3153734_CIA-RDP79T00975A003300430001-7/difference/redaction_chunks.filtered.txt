@@ -1,0 +1,221 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.935514
+kept_candidate_count=3
+excluded_candidate_count=10
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. HEAVY SOVIET AIR ACTIVITY IN BLACK SEA AREA CONTINUES
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 3. NEW SOVIET-SYRIAN $25,000,000 ARMS CONTRACT
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #7, segment 2)
+Text: 10. PEIPING MAY ASK FOR FRENCH TECHNICAL ASSISTANCE
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+- original #5 segment 1: noncontent_keyword
+  Text: page 8
+- original #6 segment 1: noncontent_keyword
+  Text: page 9
+- original #7 segment 1: noncontent_keyword
+  Text: page 11
+- original #7 segment 3: noncontent_keyword
+  Text: page 13
+- original #8 segment 1: noncontent_keyword
+  Text: page 14
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 1. HEAVY SOVIET AIR ACTIVITY IN BLACK SEA AREA CONTINUES Comment on: A total of 289 Soviet military aircraft of various types were scheduled for flights in the southeastern area of the Black Sea near the Turkish border during the period 17-19 October. Flight schedules reflected a continuation of this activity, which involves units of the tactical and Long Range air forces. Naval forces conducted a major exercise in the Southeastern part of the Black Sea on 18 October with some of these air units. The timing and scope of the activity probably are intended to augment Soviet efforts to relieve Turkish pressure on Syria. Ground forces appear to reflect a high state of operational readiness in the Transcaucasus Military District. Soviet air activity in the Black Sea and Transcaucasus areas began to increase in volume earlier this month. Between 9 and 15 October, at least 15 aircraft of the Air-borne forces and two Long Range Air Force TU-4's flew to Kutaisi near the Turkish border. During the same period, the 11th Air Army held an exercise in the Transcaucasus involving more than 150 IL-28's and MIG fighters. Other flights by Soviet naval aircraft were reported over the central Black Sea, and some TU-16 activity resembling reconnaissance activity along the Turkish coast was also reported
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 22 Oct 57 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 3. NEW SOVIET-SYRIAN $25,000,000 ARMS CONTRACT Comment on: The value of the recently negotiated new Soviet-Syrian arms contract is approximately $25,000,000 "after allowing for the discount." Advance deliveries of arms and scheduled shipments of equipment have already taken place under this new deal. Naval craft, armored vehicles, and small arms were sent in September in response to urgent Syrian requests. In addition, IL-28 jet bombers, MIG-17 jet fighters, and IL-14 transports are to be delivered shortly. The new contract raises Syria's debt to the bloc for arms to nearly $100,000,000. The real value of the arms, however, is somewhat higher. Substantial discounts were also granted by the bloc under the earlier agreements
+- original #10 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 22 Oct 57 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.990196
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens
+  Text: Reference
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.998492
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.998661
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=0.971301
+kept_candidate_count=0
+excluded_candidate_count=8
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: noncontent_keyword
+  Text: Comment on
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Souphannouvong
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Souphannouvong
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Souphannouvong
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=11 unred_source_page=11
+alignment_score=0.994730
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: noncontent_keyword
+  Text: Comment on
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: co-operation
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=12 unred_source_page=12
+alignment_score=0.998723
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=13 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=14 unred_source_page=14
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: full_page_or_admin
+  Text: 10. PEIPING MAY ASK FOR FRENCH TECHNICAL ASSISTANCE Comment on: The Chinese Communists, probably in an effort to promote diplomatic recognition, expressed increased interest in French technical assistance, but told a French economic mission, which recently concluded talks in Peiping, that a formal trade agreement between the two countries would have to await the establishment of diplomatic relations. Chou En-lai told Senator Rocherau, head of the mission, that Peiping has decided to ask for French participation in setting up chemical industries and electrifying Chinese railways. A delegation of Chinese engineers is expected to leave for France late this year or early next year to hold further discussions with French industrial experts. The French were told Peiping is contemplating either hiring French engineers to assist the Chinese or placing contracts with French industrial firms to take complete charge of construction projects. Peiping's acceptance of engineers from a major Western country would mark a sharp break from its established practice of relying on the Soviet bloc for foreign engineering advice. As early as February 1956, Peiping hinted that France could be the first major non-Communist country to participate in the industrial development of China through technical assistance. Despite the lack of an official commercial agreement, Sino-French trade rose from $18,000,000 in 1955 to $38,000,000 in 1956. During the first half of 1957, trade totaled $21,000,000
+- original #25 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 22 Oct 57 Current Intelligence Bulletin Page 13
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=15 unred_source_page=15
+alignment_score=0.936301
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #27, segment 1)
+Text: Peronista plans call for revolutionary action with army support between 31 October and 2 November. These plans include a "campaign" into northern Argentina from Bolivia. The Chilean and Paraguayan presidents recently warned Aramburu to be alert for "early action" by the Peronistas. The government reportedly feels confident of army loyalty, however, and of its ability to suppress any Peronista action
+Token count: 60
+Recut: none
+
+Excluded candidates:
+- original #26 segment 1: noncontent_keyword
+  Text: Comment on

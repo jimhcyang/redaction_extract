@@ -1,0 +1,120 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.660833
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION CURRENT INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.915321
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: FAR EAST 2. North Korean Army unit disproves police report of BW incident (page 3). SOUTH ASIA 3. Soviet Union interested in French plans to exploit Afghan oil
+Token count: 28
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 4. Syria plans dissolution of political parties and restrictions on Western business
+Token count: 12
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 6. Arab pressure for UN discussion of Tunisian problems increases
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+- original #4 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.906382
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #4 (original #8, segment 1)
+Text: FAR EAST 2. North Korean Army unit disproves police report of BW incident: a civilian police officer had discovered an American bacteria bomb. The policeman's findings apparently were based on the coincidence of a UN bombing attack and the appearance of "flies" in the area
+Token count: 45
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: pro-American
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: spokesman
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: suggestion
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: A North Korean military sanitation officer, sent to affirm this incident, reported that the policeman's report was false and that the flies "were not caused from the bacterial weapon but from the fertilizers on the place." Comment: This is the first observed instance in which a Communist unit has investigated and entered a negative report on an alleged American use of BW agents. SOUTH ASIA 3. Soviet Union interested in French plans to exploit Afghan oil: Early in March the Soviet Ambassador in Kabul initiated with the French Ambassador a discussion of French plans to obtain an oil drilling concession in northern Afghanistan. The Soviet Ambassador pointed out the practical difficulties in operation and transportation which would be faced by Western concessionaires, and remarked that the USSR could exploit Afghan oil fields with much greater ease. He also indicated that the USSR was closely following the progress of the Afghan oil question and that it had political as well as economic aspects of the problem in mind. The French Ambassador, apparently worried by the Soviet approach, urged in two cables that his government reconsider the advisability of undertaking oil drilling operations in northern Afghanistan. Comment: Heretofore, the USSR has displayed its interest in the Afghan oil question merely by its propaganda output, accusing Western "imperialists" of infiltrating the Afghan economic system and of conducting intelligence activities along the Soviet frontier. The Afghan oil deposits are adjacent to the Russian border
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.843642
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #10, segment 1)
+Text: The present Soviet move is likely to lessen the French desire to obtain an Afghan oil concession. It may also lead to a repetition of the British "go-slow" advice, tendered to the United States in mid-1951. Plans for oil exploitation by two American and one French company are under Afghan consideration. Russian pressure might eventually convince the Afghan Government that development of its oil resources near the Soviet border would be an unwise political move. NEAR EAST - AFRICA 4. Syria plans dissolution of political parties and restrictions on Western business: Syrian Army Chief of Staff Shishakli intends to dissolve all Syrian political parties and to stop publication of all but two of Syria's newspapers by 31 March. In addition, the American Minister in Beirut reports that the Syrian Government plans to require all "foreign concessions" to be operated by Syrian-organized companies with a majority of Syrian directors. Comment: There are approximately thirty daily newspapers in Syria. The reported restrictions would supplement measures recently adopted by the military regime in Damascus to eliminate domestic opposition
+Token count: 174
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: elections
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.865192
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #6 (original #13, segment 1)
+Text: 6. Arab pressure for UN discussion of Tunisian problems increases: The French Foreign Office informed the Resident General in Tunisia on 22 March that the Pakistani representative on the UN Security Council had urged that France and Tunisia come to an agreement as soon as possible, since he was under continuous pressure from other members of the Arab-Asian bloc to present the Tunisian case for Council discussion. Comment: Reimposition of censorship and the arrest on 25 March of Tunisian Prime Minister Chenik and three of his Ministers, including the Bey's son-in-law, will undoubtedly lessen the chances of successful negotiation of the recent French offer of a reform program and increase the pressure for Security Council action. The measures may also cause reconsideration of the problem by various Security Council members such as Turkey, Greece, the Netherlands and Brazil, whose tentative support of France has been revealed in French diplomatic communications
+Token count: 150
+Recut: none
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: negotiations
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: recommended
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.983073
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government's
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: nationalism

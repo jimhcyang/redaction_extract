@@ -1,0 +1,409 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.907535
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1) 2. Laos. (Page ii) 3. Neutralist Conference: Preparatory meeting proposed for 5 June in Cairo. (Page iii
+Token count: 18
+Recut: none
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: anti-Communist
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: maneuvers
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Berlin
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.976175
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #7, segment 1)
+Text: who was reported last month to be planning a coup
+Token count: 10
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: controls
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: issuing
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: NORTHERN LAOS GOVERNMENT Forces in contact KONG LE - PATHET LAO Forces in contact KONG LE - PATHET LAO AREAS ROAD TRAIL ROUTE NUMBER 0 50 100 STATUTE MILES
+- original #9 segment 2: noncontent_keyword
+  Text: 16 May 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #9 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.245536
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: Laos: Tripartite talks at Namone between the Boun Oum government, the Souvanna group, and the Pathet Lao continue to be inconclusive. The third session of 15 May broke up without agreement on the agenda, with the Pathet Lao continuing to insist that political matters be placed high on the agenda and the government urging that detailed cease-fire arrangements be discussed first. The
+- original #11 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: meeting is scheduled for 17 May, with another to follow on 19 May. The military situation
+- original #12 segment 1: full_page_or_admin
+  Text: the major operational areas remains quiet, although the progovernment Meo guerrilla base at Pa Dong is still under enemy artillery harassment. Airlift operations were scheduled through 16 May
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 3) (Map
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.884202
+kept_candidate_count=3
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #13, segment 1)
+Text: Neutralist Conference: Plans for a conference of some 20 "nonaligned" countries are now taking definite form, with the UAR and Yugoslav governments--prime movers in organizing the conference--proposing that a preparatory meeting be convened in Cairo on 5 June. India and Indonesia are being asked to join in issuing invitations to this meeting, which will consider the agenda, time, and place of a neutralist summit conference. Nehru, under pressure from Nasir and Tito, has agreed to participate, at least in the preparatory meeting, but has strong reservations about the value of such a conference. Aside from the problem of differentiating between uncommitted and committed nations, Nehru is concerned that the conference will be used primarily as a forum for anticolonialist tirades which would intensify rather than moderate the cold war
+Token count: 131
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #14, segment 1)
+Text: Khrushchev reportedly attacked the UAR for claiming to be a socialist state but at the same time jailing Communists. Khrushchev claimed that Nasir did not understand "anything about socialism or Communism
+Token count: 31
+Recut: none
+
+Clean Chunk #5 (original #16, segment 1)
+Text: Nasir is reported to have responded to Khrushchev's attack by ordering on 4 May a shift in Cairo's propaganda output
+Token count: 20
+Recut: none
+
+Excluded candidates:
+- original #13 segment 2: noncontent_keyword
+  Text: Backup, Page 4
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: relatively
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.950896
+kept_candidate_count=1
+excluded_candidate_count=11
+
+Clean Chunk #6 (original #23, segment 1)
+Text: as reliably reported
+Token count: 3
+Recut: none
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: scheduled
+- original #18 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: Backup
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: concentrate
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: official
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: factions
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: appointment
+- original #24 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: Backup
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: leaders
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Berlin
+- original #27 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: intensity
+- original #28 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: Backup
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.972354
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #29 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: designed
+- original #30 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: President
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.947136
+kept_candidate_count=2
+excluded_candidate_count=8
+
+Clean Chunk #7 (original #34, segment 1)
+Text: Yi is reliably reported to be against the coup
+Token count: 9
+Recut: none
+
+Clean Chunk #8 (original #37, segment 1)
+Text: However, according to the reports of last month
+Token count: 8
+Recut: none
+
+Excluded candidates:
+- original #31 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: However
+- original #32 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: deployed
+- original #33 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: revolutionary
+- original #35 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: proclaimed
+- original #36 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: strengthen
+- original #38 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: supporters
+- original #39 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: position
+- original #40 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: permitted
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.942635
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #41 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: evidence
+- original #42 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: today's
+- original #43 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reaction
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.122332
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #44 segment 1: full_page_or_admin, short_span_min_tokens
+  Text: Situation
+- original #45 segment 1: full_page_or_admin
+  Text: Laos Additional information indicates that on 14 May, a total of three aircraft may have been involved in airlift operations. Two of these--Soviet LI-2s--were scheduled for Xieng Khouang but were not actually reflected in flight. Flights scheduled for 15 May indicate a resumption of nearly normal airlift activity after a two-day lull on 13 and 14 May. The Soviet AN-12 en route to North Vietnam from the USSR left Canton and arrived at Haiphong on 15 May. The Communist Chinese have rebroadcast Pathet Lao charges of 15 May that some South Vietnamese forces have crossed into Laotian territory. This is the first Communist bloc reaction to the 4 May movement of South Vietnamese special forces to a point several miles inside Laos along Route 9. The Peiping broadcast avoids any direct threat of retaliatory action but charges that recent South Vietnamese and Thai troop movements are aimed at sabotaging a peaceful settlement in Laos
+- original #45 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 16 May 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #46 segment 1: full_page_or_admin
+  Text: Preparations for Neutralist Conference Nehru's initial reaction to the Tito-Nasir initiative, which took the form of a joint diplomatic note sent in mid-April to the heads of 17 Asian-African and four Latin American states, revealed considerable pique over being presented with a fait accompli. Nehru has long expressed the view that an ill-planned gathering of neutralist nations, either on a worldwide basis or limited to the Asian-African bloc, would merely dramatize the lack of agreement among these governments on various international questions and contribute little toward solving them. The Indian leader also is reluctant to encourage the formal establishment of any "third bloc" or alliance to offset the major power blocs, both because this would be inconsistent with New Delhi's strict adherence to a nonalignment policy and because it might lessen Nehru's prestige and freedom of action as an independent world leader. In talks with UAR and Yugoslav representatives in New Delhi, Nehru immediately raised the problem of how to differentiate between uncommitted and committed nations and questioned the omission of certain neutralist European and African countries from the list of those to be invited. Nehru expressed disapproval of the inclusion of Cuba, whose government he apparently feels is formally aligned with the "socialist" camp. New Delhi also fears that Cuba's presence would inject a strident anti-US note into the discussions which would merely heighten international tension and possibly also have a harmful effect on Indo-American relations. The question of inviting European states to the summit conference, along with the question of what constitutes nonalignment, will probably be thrashed out at Cairo. Cairo's interpretation of nonalignment explaining the criteria for the invitations to the Cairo meeting. Each country invited was considered to have adopted and officially declared a policy of nonalignment and was not linked militarily to either major power bloc or to any one of the great powers. Cairo further stated it would be
+- original #46 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 16 May 61 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #47 segment 1: full_page_or_admin
+  Text: pleased to invite "any" country which was prepared to proclaim such a policy. Indonesia is expected to co-sponsor the meeting, despite Djakarta's reported conviction that Nasir and Tito, in calling a "neutralist summit," have seized the initiative from President Sukarno, who has been urging a second Afro-Asian political conference for almost a year. Sukarno, midway on a global tour, arrives in Cairo on 16 May and presumably will clarify Indonesia's position. In Latin America, Brazil, Cuba, Mexico, and Venezuela have been invited; Brazilian Ambassador Thompson in Cairo reported to his Foreign Ministry on 9 May that "there is some thought of inviting Ecuador and Bolivia also." None of the Latin Americans has clearly accepted. Cuban Foreign Minister Roa apparently rebuked the Cuban Embassy in Cairo as a result of a UPI report that a spokesman for that embassy had announced Castro would attend. Roa instructed the embassy to clarify that the embassy has not received official notice in this respect. Brazilian President Quadros is apparently pursuing an equivocal course. Belgrade and Cairo have indicated that Quadros has accepted, and the Cuban press reports that he recently told a spokesman of the visiting Sukarno entourage that Brazil would attend. However, the Brazilian foreign minister denied the acceptance to US Ambassador Cabot
+- original #47 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 16 May 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=12 unred_source_page=15
+alignment_score=0.935511
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #9 (original #48, segment 1)
+Text: Nasir cannot prevent Egyptians from being Communists and that "what you are doing will lead to revolution and you will be overthrown just like you overthrew King Farouk." Khrushchev said, "Everybody knows that UAR neutrality is for hire. You are a nation of corruption." Such remarks resemble those made by Khrushchev during the public exchange of recriminations between Moscow and Cairo two years ago
+Token count: 64
+Recut: none
+
+Excluded candidates:
+- original #49 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: secretariat
+- original #50 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Khrushchev's
+- original #51 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: deterioration
+- original #52 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communists
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=13 unred_source_page=16
+alignment_score=0.958193
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #53 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: unfavorable
+- original #54 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: growing
+- original #55 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: forthcoming
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=14 unred_source_page=17
+alignment_score=0.959117
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #56 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: punished
+- original #57 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: relatively
+- original #58 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: supporting
+- original #59 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: minister
+- original #60 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 100-percent
+- original #61 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: electoral
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=15 unred_source_page=18
+alignment_score=0.953953
+kept_candidate_count=1
+excluded_candidate_count=8
+
+Clean Chunk #10 (original #62, segment 1)
+Text: simple, uneducated
+Token count: 2
+Recut: none
+
+Excluded candidates:
+- original #63 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: support
+- original #64 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Minister
+- original #65 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: constitution
+- original #66 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: intends
+- original #67 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: primarily
+- original #68 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: dangerous
+- original #69 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: loyalty
+- original #70 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: anti-monarchical
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=16 unred_source_page=19
+alignment_score=0.964070
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #71 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reiterating
+- original #72 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: provocation
+- original #73 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Germany
+- original #74 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: meeting
+- original #75 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: meetings
+- original #76 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: meetings
+- original #77 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: session
+
+========================================================================
+[PAGE 20]
+kind=match red_source_page=17 unred_source_page=20
+alignment_score=0.894554
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #11 (original #78, segment 1)
+Text: Adenauer faces a difficult decision on this question since failure to support a parliamentary meeting in Berlin could be exploited by the opposition Social Democrats in this fall's election campaign as showing a lack of sympathy for Berlin. On the other hand, he probably believes holding such a meeting would be beneficial to the Socialists by focusing attention on the city and on his opponent in the election--Mayor Willy Brandt
+Token count: 71
+Recut: none
+
+========================================================================
+[PAGE 21]
+kind=match red_source_page=18 unred_source_page=21
+alignment_score=0.975939
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #79 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 22]
+kind=match red_source_page=19 unred_source_page=22
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #80 segment 1: noncontent_keyword
+  Text: 16 May 1961 CENTRAL INTELLIGENCE BULLETIN

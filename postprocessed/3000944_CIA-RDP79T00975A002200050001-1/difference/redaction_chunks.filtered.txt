@@ -1,0 +1,89 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.433333
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.739883
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 4. SOVIET FARM DELEGATES WILL NOT VISIT MEXICO
+Token count: 8
+Recut: none
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 6). 5. FURTHER COMMENT ON SOVIET NUCLEAR OFFER TO EGYPT
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.880702
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.916957
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: Ala's note seems to be based on a study prepared for the Shah by an Iranian intelligence organiza- tion. The study suggested that Iran take advantage "of the international crisis and of the competition existing between the East and the West" to improve its own position
+Token count: 46
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #4, segment 1)
+Text: 4. SOVIET FARM DELEGATES WILL NOT VISIT MEXICO Comment Anti-Soviet demonstrations during the farm delegation's visit to Canada may in part be responsible for the decision
+Token count: 26
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.122556
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 5. FURTHER COMMENT ON SOVIET NUCLEAR OFFER TO EGYPT the Soviet Union has offered Egypt technical and scientific assistance
+- original #6 segment 1: full_page_or_admin
+  Text: peaceful uses of atomic energy. The United States has announced the establish- ment of a program for the development of an isotope capability in Egypt and is training Egyptian personnel in the United States. Even if this Soviet offer is more than a duplication of the American program, it is not likely to be as extensive as the Soviet program presently being implemented with the Satellites. Nuclear aid in these cases has consisted of 2,000- to 4,500-kilowatt research reactors, cyclotrons and various other laboratory appurtenances for the development of nuclear research capability within the countries. These programs have also included the train- ing of technicians in the USSR. (Prepared by OSI

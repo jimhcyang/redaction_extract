@@ -1,0 +1,61 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.950000
+
+Chunk #1
+Predicted text: top secret security information
+Unredacted context: [UNRED_ONLY: top secret security information] 30 november 1952
+Redacted context: [R@0] 30 november 1952 copy
+
+Chunk #2
+Predicted text: top secret security information
+Unredacted context: central intelligence agency [UNRED_ONLY: top secret security information]
+Redacted context: [L@15] intelligence central intelligence agency
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.975000
+
+Chunk #3
+Predicted text: 3 egypt reportedly to include wafdists in cabinet reshuffle page 4
+Unredacted context: near east africa [UNRED_ONLY: 3 egypt reportedly to include wafdists in cabinet reshuffle page 4] 4 british ambassador
+Redacted context: 3 near east [L@30:africa] [RED_GAP:<empty>] [R@31:4] british ambassador sees
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.929622
+
+Chunk #4
+Predicted text: re pulsing
+Unredacted context: for one month [UNRED_ONLY: re pulsing] any viet minh
+Redacted context: san for one [L@34:month] [RED_GAP:repulsing] [R@36:any] viet minh attack
+
+Chunk #5
+Predicted text: near east africa 3 egypt reportedly to include wafdists in cabinet reshuffle comment salaheddin who was responsible for abrogation of the british treaty in 1951 is an extreme nationalist and somewhat anti-western he is now a member of the reorganized wafd party the two other prospective cabinet ministers highly respected for their work in social affairs and education were never active in the party their membership in the cabinet would strengthen it in areas to which the government has recently been giving increased attention
+Unredacted context: and fighter-bomber support [UNRED_ONLY: near east africa 3 egypt reportedly to include wafdists in cabinet reshuffle comment salaheddin who was responsible for abrogation of the british treaty in 1951 is an extreme nationalist and somewhat anti-western he is now a member of the reorganized wafd party the two other prospective cabinet ministers highly respected for their work in social affairs and education were never active in the party their membership in the cabinet would strengthen it in areas to which the government has recently been giving increased attention]
+Redacted context: [L@118] supply and fighter-bomber support
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.977273
+
+Chunk #6
+Predicted text: in
+Unredacted context: the heavy recession [UNRED_ONLY: in] prices general nagib
+Redacted context: of the heavy [L@20:recession] [RED_GAP:of] [R@22:prices] general nagib has

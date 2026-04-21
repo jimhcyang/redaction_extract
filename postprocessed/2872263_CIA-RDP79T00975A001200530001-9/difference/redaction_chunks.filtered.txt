@@ -1,0 +1,57 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.851793
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: NEAR EAST - AFRICA 4. 5. Iranian Communists reportedly prepare for armed uprising
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: GENERAL 1
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.915584
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: GENERAL 1
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.981111
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: NEAR EAST - AFRICA 4. 5. Iranian Communists reportedly prepare for armed uprising: Comment: Since Zahedi is expected to adopt a vigorous policy against the Communists, the Tudeh might logically attempt a coup before his government is firmly entrenched. The new chief of staff has been alerted, and the security forces are considered capable of suppressing any Tudeh violence

@@ -1,0 +1,90 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.692045
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: C 1 -'1
+- original #2 segment 1: noncontent_keyword
+  Text: TOP SECRET
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: 9 June 1951 Copy No. Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY TOP SECRET
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.998256
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: USSR
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.991071
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Stanrealm
+
+========================================================================
+[PAGE 05]
+kind=red_only red_source_page=4 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=0.929335
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #6, segment 1)
+Text: NEAR EAST 4. Syrian officials concerned by Israel's "non-compliance" with UN resolution: According to US Minister Cannon in Damascus, top Syrian Government officials have complained that Israel is not complying in full with the terms of the UN Security Council resolution pertaining to the Syrian-Israeli border dispute. The Syrians are particularly troubled by (a) Israel's announcement that its suspension of the drainage project in the Lake Hule demilitarized area is only a "token compliance," and by (b) Israel's failure to allow the return of those Arab residents who were forcibly removed from the demilitarized region. Cannon expresses his fear that the psychological gain obtained by the West in Syria as a result of the passage of the UN resolution has been lost. WESTERN EUROPE 5. Serious East German economic difficulties reported: US authorities in Berlin report substantial evidence of serious economic difficulties in East Germany resulting in failure to achieve production targets in key industries. There is a shortage of materials caused by: (a) delayed shipments from the East; (b) internal disorganization and bad planning; and (c) reduced shipments from the West, partly reflecting improved Western controls, and partly the general tightening of the supply of critical materials. The shortages are creating a notable increase in unemployment, which gives concern to the East German Government, especially in regard to areas close to the interzonal border. The morale and political attitude of the workers are said to be affected. Comment: This is the first report for more than a year of appreciable unemployment in East Germany. It is doubtful whether the reported deterioration of the East German economy could be ascribable in any large measure to Western controls on shipments to the East. 6. High Commission plans retaliation against Soviet interference with West Berlin trade: At a special session on 8 June the Council of Allied High Commission agreed: (a) to order the West Berlin City Council to stop issuing certificates of origin of raw materials used
+Token count: 326
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

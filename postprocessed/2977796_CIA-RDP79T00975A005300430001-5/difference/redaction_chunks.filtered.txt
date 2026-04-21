@@ -1,0 +1,192 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.300000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. C 11 CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.245147
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 20 OCTOBER 1960 I. THE COMMUNIST BLOC Khrushchev, talking with Turkish foreign minister at UN, proposed mutual military withdrawal from common frontier, mentioned possibility of large-scale Soviet aid to Turkey. II. ASIA-AFRICA Situation
+- original #3 segment 1: full_page_or_admin
+  Text: Laos. Cypriot officials voice concern over country's economic problems; Vice President Kuchuk expresses fear government may be forced to accept Soviet aid. Leaders of former French territories in Black Africa to meet in Ivory Coast next week; conference will focus largely on Algerian problem. III. THE WEST Castro says he believes Sino-Soviet bloc will win East-West ideological struggle and hence it is necessary for him to align Cuba with the Communist countries. Training of Cuban pilots in Czechoslovakia; another shipment of military cargo from Soviet bloc to Cuba noted; Havana reportedly plans recognition of East German regime
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.875625
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #4, segment 1)
+Text: USSR-Turkey: Khrushchev, during a meeting with Turkish Foreign Minister Sarper at the UN, suggested that the USSR and Turkey withdraw military forces several hundred kilometers from their common border and allow inspection of the demilitarized zone. He also mentioned the possibility of large-scale Soviet aid to Turkey. The proposal for a military withdrawal is similar to one made to Iran in July, which the Shah rejected. While Moscow probably does not expect Ankara either to accept such a special military arrangement, the proposal follows other Soviet efforts to encourage closer ties with the new Turkish regime, including several letters from Khrushchev, suggestions for increased contacts, and offers of economic aid
+Token count: 110
+Recut: none
+
+Clean Chunk #2 (original #5, segment 1)
+Text: Laos: The Pathet Lao agreement on 18 October to turn back Sam Neua Province to government control fulfills a precondition set by Premier Souvanna for substantive talks. Government control of the province, however, will likely be only nominal. Pathet Lao terms for an over-all settlement--which include a coalition government and integration of armed elements--probably represent a maximum bargaining position. It is likely that the immediate aim of the Pathet Lao is to resume legitimate political activity so as to take advantage of the present situation
+Token count: 87
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 2: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.947625
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #3 (original #6, segment 1)
+Text: about to offer over $80,000,000 in aid have aroused considerable discussion in the press and official circles. Vice President Kuchuk is reported to a US official that he fears that the country's economic and the continuing Soviet propaganda may force the government--which would prefer more Western aid--to accept Soviet assistance
+Token count: 54
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 2: noncontent_keyword
+  Text: Page 3
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: African
+- original #8 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 4
+- original #9 segment 1: noncontent_keyword
+  Text: Page 5) 20 Oct 60 DAILY BRIEF
+- original #9 segment 2: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.985714
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: 20 Oct 60 - DAILY BRIEF
+- original #10 segment 2: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.982353
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: 20 Oct 60 DAILY BRIEF
+- original #11 segment 2: short_span_min_tokens
+  Text: iv
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: The Situation in Laos The Pathet Lao agreement, signed in Vientiane on 18 October, to restore Sam Neua Province to government control fulfills one of two preconditions set by Premier Souvanna Phouma for substantive negotiations. The other precondition was a cessation of Pathet Lao attacks on Laotian Army posts. The Pathet Lao negotiators had agreed to stop attacks on areas loyal to the Souvanna government but reserved the right to decide for themselves which area fell within this category. Although Pathet Lao compliance on both of these points will probably be only nominal, Souvanna is likely to construe full acceptance and thus be willing to proceed with negotiations in Vientiane. The Pathet Lao radio on 17 October broadcast a new version of Pathet demands for a settlement with the government, including unification of "all patriotic armed forces" and inclusion of the Pathet Lao's legal political front--the Neo Lao Hak Sat party (NLHS)--in a coalition government. These demands probably represent a maximum bargaining position. The Pathet Lao may be willing to defer entry into a coalition government if Souvanna offers assurances of early elections. The immediate Pathet Lao aim is probably to resume normal political activity through the NLHS so as to take advantage of the present favorable climate for such activity. Apparently at the premier's instigation, the National Assembly has passed a resolution condemning Communism and stating that Pathet Lao functionaries would be integrated into the government structure only if they forswear allegiance to a foreign ideology. The Laotian UN delegate's strong attack on the USSR in the General Assembly's administrative and budgetary committee on 18 October may also have been stimulated by Souvanna for the same purpose. The First Military Region, with headquarters at Luang Prabang, is reliably reported to be planning to send a delegation to Savannakhet within a few days to coordinate plans with
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.122689
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: General Phoumi for a contemplated effort to gain control of Vientiane. The attack, scheduled to begin
+- original #14 segment 1: full_page_or_admin
+  Text: a week, reportedly will involve diversionary action by Phoumi's troops southeast of Pak Sane aimed at luring Captain Kong Le's paratroopers out of Vientiane, followed by an uprising of anti-Kong Le forces within the capital. It is problematical whether this plan is within the capabilities of the cooperating groups. A high-level representative of the Diem government has contacted Prince Boun Oum in Savannakhet indicating South Vietnam's readiness to furnish "much military equipment" to Phoumi's troops. The South Vietnamese Government is also described as ready to send 10,000 troops into Laos if the "situation becomes more advantageous and if they attack Savannakhet
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=0.910366
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #17, segment 1)
+Text: Fidel Castro believes capitalism is on its way out, that the United States is "finished" as a major world power, that it is corrupt, two-faced and insincere, and that American democracy is really a fraud. He said he had no intention of letting up in his attacks on the United States, and that his "present state of confusion" kept on the defensive. He expressed confidence that the Sino-Soviet bloc would win the ideological war and it therefore seemed it necessary to align Cuba with the Communist countries. Since this conversation, Castro has appointed an ambassador to Communist China, and Cuba has become the first non-bloc nation to afford diplomatic recognition to North Korea. Castro went to considerable lengths in describing himself as the rising leader in Latin America and Africa, and he stated that only by taking an uncompromising attitude toward the United States could he keep faith with his obligation to the peoples of these areas. He specifically indicated concern about the attitude of the Betancourt government in Venezuela toward the Castro government, saying that if the Venezuelans were not with him, he could "undermine them politically . . . and bring them to their knees
+Token count: 194
+Recut: none
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens
+  Text: Fidel
+- original #16 segment 1: short_span_min_tokens
+  Text: Current
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=11 unred_source_page=13
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: Soviet Bloc Military Assistance to Cuba Cuban pilots are engaged in flight training in Czechoslovakia. Between eight and 15 Spanish-speaking pilots have been noted in exercises, including practice take-offs and landings, during which clearly identified Spanish terms were used to designate particular movements. The type of aircraft involved has not been determined. More than 100 Cubans were reportedly sent to Czechoslovakia in July and August for various types of military instruction, including flight and maintenance training on bloc aircraft. This information suggests that bloc military aircraft, if not already in Cuba, can be expected to arrive by the time this training is completed. Recent reports state that the two Soviet vessels which delivered arms to Cuba during the first ten days of October carried antiaircraft artillery, Czech machine guns and ammunition, at least 100 jeeps, probably more tanks, and other unidentified equipment. The Soviet merchant ship Atlask left the Black Sea on 3 October carrying the fourth major shipment of bloc arms to Cuba since early September. Of the ship's 8,000 tons of cargo, more than 2,400 tons is known to be materiel
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=12 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=13 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

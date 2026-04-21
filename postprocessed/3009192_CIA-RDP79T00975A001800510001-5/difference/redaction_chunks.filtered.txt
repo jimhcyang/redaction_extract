@@ -1,0 +1,76 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.944000
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: GENERAL 1. Chou En-lai reported planning to visit Djakarta in March
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 3. Peiping continues drive to divide West on trade issues
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword
+  Text: SOUTHEAST ASIA 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.890596
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: GENERAL 1. Chou En-lai reported planning to visit Djakarta in March: Chinese Communist premier Chou En-lai will visit Djakarta in March to sign the recently concluded agreement on the dual nationality problem of Chinese residents in Indonesia. Further discussions on the agreement--which thus far requires that persons born in Indonesia of Chinese parents choose one nationality or the other--are to take place in Djakarta in January, with one of Chou's deputies representing Peiping. Comment: Peiping has devoted less attention to Indonesia than to the other two principal Asian "neutrals," India and Burma, which Chou visited last summer. The Chinese Communists have since feted the Indian and Burmese premiers in Peiping. Increased interest in Indonesia was indicated in the appointment of a new and abler Chinese Communist ambassador to Indonesia last September. A visit by Chou En-lai, who has proved extremely effective in exploiting "neutralist" sentiments in other countries, will improve Communist China's already friendly relations with Indonesia
+Token count: 159
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.934574
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #4, segment 1)
+Text: 3. Peiping continues drive to divide West on trade issues: Peiping is anxious to expand trade with Britain and the United States in order to lessen Chinese dependence on Eastern Europe. China would discontinue ordering Czechoslovak trucks if Britain would guarantee delivery of large orders for heavy-duty trucks. Comment: The remarks of the Chinese foreign trade official are a continuation of Peiping's propaganda trade drive aimed at dividing the West by implying China's willingness to trade while the United States prevents "normalization
+Token count: 82
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.994000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: SOUTHEAST ASIA 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

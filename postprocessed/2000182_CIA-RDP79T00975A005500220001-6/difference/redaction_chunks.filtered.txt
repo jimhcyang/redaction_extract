@@ -1,0 +1,288 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.311250
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. C C55/=_7
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.809072
+kept_candidate_count=3
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 27 January 1961 Souvanna Phouma may move to Communist-con- trolled territory in northern Laos. (Page 1) Chinese Nationalist irregulars may withdraw from Burma into Laos
+Token count: 25
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 3)
+Text: North Vietnam (Page ii
+Token count: 4
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 1)
+Text: French foreign minister believes Paris is "on the verge" of agreeing to negotiate with the Algerian rebels. (Page ii
+Token count: 19
+Recut: none
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 1
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: LAOS 27 JANUARY 1961 Government forces Government Antigovernment Antigovernment concentrations Kong Le/Pathet Lao forces Main route number Road Trail 0 25 50 75 100 Miles 0 25 50 75 100 Kilometers
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.122001
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 27 January 1961 DAILY BRIEF
+- original #5 segment 2: full_page_or_admin
+  Text: Laos: Souvanna Phouma is reportedly under pressure to leave Phnom Penh for Communist-controlled territory
+- original #6 segment 1: full_page_or_admin
+  Text: north- ern Laos. Souvanna has now decided to leave at some indefinite date for Xieng Khouang. Souvanna to date has denied any such inten- tion, but it is possible that the blandishments of bloc diplomats in Phnom Penh may be beginning to have their effect. The Com- munists persist in their claim that Souvanna continues to head the "lawful government" of Laos; his presence in Xieng Khouang would considerably enhance the credibility of this claim. Communist-held Muong Kassy, on the Vientiane - Luang Pra- bang road, is reported to have been taken by government forces on 26 January. Some consolidation probably will be necessary before a government attempt is made against Phou Khoun, the road junction some 25 miles to the north controlling the eastward approach to the Plaine des Jarres. The Communists reportedly have been reinforcing Phou Khoun in anticipation of a govern- ment attack. In addition to the government column expected to move from Muong Kassy, Phoumi troops to the north have been preparing to join in the attempt to recapture Phou Khoun, which they lost on 18 January. Soviet airlift flights into Laos were confirmed through 25 January and were scheduled for 26 January. (Map) *Burma: Heavy pressure from Burmese and Chinese Com- munist troops may soon force the Chinese Nationalist irregu- lars in northeastern Burma, totaling about 2,000, to withdraw from Burma into Laos. Some irregulars have already withdrawn across the Mekong River into Laos
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.808562
+kept_candidate_count=3
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #7, segment 1)
+Text: Chiang was reported earlier to be seeking logistic support from the Laotian Government and to be willing to use his ir- regulars in support of General Phoumi's forces in Laos Chinese Communist forces in late November launched the first attack against the irregulars, with Burmese approval, but in recent weeks the Burmese Army has played the major role
+Token count: 58
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #8, segment 1)
+Text: Algeria-France: French foreign minister believes Paris is "on the verge
+Token count: 10
+Recut: none
+
+Clean Chunk #6 (original #9, segment 1)
+Text: agreeing to negotiate with the Algerian rebels. the French are "on the verge of reaching a satisfactory agreement" with regard to Algeria. This implies that preliminary contacts with the Provisional Government of Algeria may have already paved the way for high-level negotiations on Algeria's future. Increased terrorism in Algeria—probably by extremists whom the rebel government cannot
+Token count: 57
+Recut: none
+
+Excluded candidates:
+- original #7 segment 2: noncontent_keyword
+  Text: Backup, Page 1) (Map
+- original #7 segment 3: short_span_min_tokens
+  Text: Vietnam
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.956830
+kept_candidate_count=1
+excluded_candidate_count=10
+
+Clean Chunk #7 (original #10, segment 1)
+Text: control—and continuing military operations by both sides, however, could still jeopardize negotiations
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #10 segment 2: noncontent_keyword
+  Text: Backup, Page 5
+- original #11 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: suc- cessful
+- original #12 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: con- servatively
+- original #13 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ad- dress
+- original #14 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Octo- ber
+- original #15 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: empha- sized
+- original #16 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pre- sumably
+- original #17 segment 1: noncontent_keyword
+  Text: Backup, Page 7
+- original #18 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: de- pendence
+- original #19 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- orientation
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.979915
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Al- liances
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.151429
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #8 (original #21, segment 1)
+Text: CHINESE NATIONALIST IRREGULARS
+Token count: 3
+Recut: none
+
+Excluded candidates:
+- original #22 segment 1: short_span_min_tokens
+  Text: BURMA
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: full_page_or_admin
+  Text: Chinese Nationalist Irregulars May Withdraw From Burma Into Laos The military offensive against the Chinese Nationalist ir- regulars in northeast Burma, launched by the Chinese Com- munists in November and pressed by the Burmese Army, may force the withdrawal of some two thousand irregulars into Laos. Chiang Ching-kuo some of the irregulars have already crossed the Mekong River into Laos. President Chiang was earlier re- ported to be seeking a base for the irregulars in Laos and to be willing to use them in support of General Phoumi's forces. Chiang assured Ambassador Drumright on 14 January that he would consult with the United States before taking any action. The offensive against the irregulars was launched on the basis of a secret agreement calling for joint Sino-Burmese action in conjunction with the border-marking project now un- der way. the Chinese Communists moved before the Burmese Army was ful- ly prepared, and it has only been since the beginning of Janu- ary that the Burmese have been able to concentrate their ef- forts. all Chinese Communists except a small unit of 75-80 men had withdrawn from Burma. However, a Chinese Com- munist military air transport carried equipment from Kunming to an airfield in southern Yunnan Province not far from the area of the earlier Chinese Communist action against the irregulars in Burma. The Burmese, whose objective has been to capture the ir- regulars' headquarters at Kong Lap and destroy their air field at Mong Pa Liao, report they have run into strong resistance
+- original #23 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 27 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: full_page_or_admin
+  Text: and have suffered heavy casualties. On 17 January, however, the Burmese Air Force bombed the airfield and rendered it use- less for air resupply flights. The Nationalist irregulars are remnants of the troops who retreated into Burma before the advancing Chinese Commu- nists in 1949. In mid-1951 these forces, which then numbered about 11,000, were rearmed from Taiwan and tried to invade Yunnan Province. After vigorous protests by the Burmese Gov- ernment in the United Nations General Assembly, Taipei agreed to evacuate the irregulars to Taiwan, and—with assistance from the United States and Thailand—some 7,000 were flown out by May 1954, leaving behind approximately 5,000 in Burma and Thailand who refused evacuation. Taipei renewed its interest in the irregulars after the Taiwan Strait crisis in the fall of 1958 and continues to supply troops, arms, and ammunition for pos- sible future use against Communist China. An important element in the Nationalist program for supplying and controlling the ir- regulars in 1960 was the transfer to the area from Taiwan of junior officers and enlisted men with special forces training
+- original #24 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 27 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: full_page_or_admin
+  Text: North Vietnam South Vietnam North Vietnam has publicly avowed its intention to over- throw the present South Vietnamese government by combined political-paramilitary action and is taking positive steps to ensure coordination and control of Communist operations in South Vietnam. Within the past six months, North Vietnamese leaders have repeatedly urged the formation of a "broad united front" in South Vietnam and have expressed their willingness to work with any political elements opposed to President Diem. The Communists reportedly have approached disgruntled Souther- ners and offered to cooperate in the effort to topple Diem. Hanoi's objective is to coordinate anti-Diem sentiment, direct it toward overthrowing his regime, and form a coalition gov- ernment with the Communists included. This, in Hanoi's view, would be the preliminary step to "reunification" of North and South under the Communists. The number of active Communist terrorists in South Viet- nam has increased steadily since late 1959, when a marked
+- original #25 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 27 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: full_page_or_admin
+  Text: intensification of guerrilla activity began. Infiltration of mil- itary cadres from North Vietnam and local recruitment in the South is estimated to have increased their numbers to upwards of 7,000. They now control or influence a significant portion of the countryside south of Saigon, where they are most heavily concentrated, and in recent months have stepped up activity in areas farther north
+- original #26 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 27 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: full_page_or_admin
+  Text: French Foreign Minister Believes Paris "On Verge" of Agree- ing to Negotiate With Algerian Rebels Preliminary secret contacts between representatives of France and the rebel Algerian provisional government (PAG) may already have paved the way for high-level negotiations on Algeria's future. France is "on the verge of reaching a satisfactory agree- ment in Tunis," implying that formal negotiations may soon begin. many difficulties must be overcome before the Algerian problem can be settled. A sudden increase in terrorism within Algeria and con- tinuing military operations by both sides are creating an air of pessimism in France and Algeria, and could still jeopard- ize negotiations. Each side blames the other for the ter- rorism, but official statements have carefully attributed the acts to extremists and have added the hope that they would not stand in the way of negotiations. The terrorist activity in Algeria—the most recent acts have been particularly vicious—may be the work of rebel extremists whom the PAG cannot control. This is the French position, the Director of Information in Algiers having stated on 23 January that the PAG appears "incapable of controlling its ultras." There also is much speculation that the rebel fighting forces in Algeria, often in the past disdainful of the Tunis-based rebel government, may be opposed to its re- cent moderate statements. The PAG representative in Ankara stated that a military minority of the Algerian rebels wants to con- tinue the fight without compromise. French military forces fired across the Tunisian border over the weekend in response to what they claim was an unusually violent artillery barrage from rebel forces in
+- original #27 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 27 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=15
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #28 segment 1: full_page_or_admin
+  Text: Tunisia. Such measures by the French have been fairly com- mon during the entire course of the war, as they deeply resent the sanctuary afforded rebel forces on Tunisian soil. One such French reprisal, the bombing of Sakiet sidi Youssef in February 1958, led Tunisia to protest to the UN Security Coun- cil and hardened both the French and rebel attitudes. The Tuni- sian Foreign Ministry has protested to the French over this latest action, and fears that extremists within the French military may be trying to create an incident in order to sabo- tage peace talks
+- original #28 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 27 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=9 unred_source_page=16
+alignment_score=0.986062
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #29 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: dur- ing
+- original #30 segment 1: short_span_min_tokens
+  Text: of
+- original #31 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: democ- racy
+- original #32 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: prom- ised
+- original #33 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=10 unred_source_page=17
+alignment_score=0.988643
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #34 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ex- iled
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=11 unred_source_page=18
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=12 unred_source_page=19
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,139 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.476923
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.951923
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. THE SITUATION IN TAIPEI
+Token count: 5
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. JAPANESE COMMUNISTS PLAN TO EXPLOIT GIRARD CASE
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+- original #5 segment 1: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.244562
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: THE SITUATION
+- original #7 segment 1: full_page_or_admin
+  Text: TAIPEI Reference: Taipei, in reporting the 24 May riots observed that very few military or civil police were sent to the scene, and that the police made no positive efforts toward quelling the trouble, but instead seemed to give in to the violence of the mob. noted that the disturbance was carried on in a "somewhat organized manner!" about a week before the riots, Vice President Chen Cheng, generally regarded as Chiang's probable successor, gave a speech in which he predicted that the American authorities would "whitewash" Sergeant Reynolds. He reportedly said that this was an example of how the United States forced China to accept its decisions, and that the United States must be shown that China would not be forced into following US policy. Chen had vetoed the use of troops in the early stages of the riot. The situation in Taipei remains quiet, but martial law will remain in effect until the government feels assured that no further violence will occur
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 29 May 57 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 2. JAPANESE COMMUNISTS PLAN TO EXPLOIT GIRARD CASE The Communist Party in Japan instructed all departments of the central headquarters and prefectural committees to conduct an anti-American propaganda campaign exploiting the accidental killing last January of a Japanese woman by the American serviceman William Girard. The Communist campaign is making use of "public opinion" polls, handbills, posters and other printed materials. Front organizations have been instructed to carry out similar anti-American campaigns. Comment The Japanese press has been quick to note the similarities between the Girard incident and the Reynolds case on Taiwan, and some newspapers have printed inflammatory editorials. Leftist leaders in Tokyo may seek to avoid mob violence, however, because of the sharp drop in popular support for the leftists following a resort to violence in 1952. The Japanese Socialists may also use the Girard case to discredit the conservatives and promote neutralism. One Socialist member of the Diet has already applied for a demonstration permit
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 29 May 57 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.982203
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #9, segment 1)
+Text: high armed forces officials held an all-night meeting to co-ordinate the defense of Havana, indicating the extent of official concern over increasing reports of disturbances throughout the nation
+Token count: 28
+Recut: none
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.983695
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Comment on
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Kebreau
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.998842
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: noncontent_keyword
+  Text: Comment on

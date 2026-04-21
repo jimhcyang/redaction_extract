@@ -1,0 +1,79 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.905556
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.885593
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOUTHEAST ASIA 1. Reduction in Viet Minh military operations indicated
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. Burmese Communists anticipate additional defections (page 3). NEAR EAST - AFRICA 3. Kuwait firm offers two tankers to move Iranian oil (page 4). 4. Arabs reportedly oppose Turkish sponsorship of MEDO
+Token count: 31
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: SOUTHEAST ASIA 1. Reduction in Viet Minh military operations indicated: Comment: The bulk of the Viet Minh forces engaged in the fall campaign in western Tonkin have withdrawn to the northwest of the French defense perimeter where, they are undergoing additional training and are being resupplied. The pattern of previous campaigns suggests that the Viet Minh will not undertake another major offensive in Tonkin before March at the earliest. 2. Burmese Communists anticipate additional defections: The Burmese Communist Party expects more of its members to surrender to the government in the near future
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: Comment: Although the Burmese Communists have been on the defensive against constantly growing government pressure during the past three years, less than 10 percent of all insurgents who have surrendered have been Communists. Recently, however, there has been a slight but noticeable increase in Communist defections. NEAR EAST - AFRICA 3. Kuwait firm offers two tankers to move Iranian oil: A Kuwait firm notified the National Iranian Oil Company that it had an option on two 10,000-ton tankers and was prepared to conclude financial arrangements. Comment: This is another of several offers to buy oil or to furnish tankers that Iran has received since early December. The Kuwait firm claims to represent a large American company. 4. Arabs reportedly oppose Turkish sponsorship of MEDO: Arab circles in Paris oppose Turkey as a sponsoring member of MEDO because it might be entrusted with the defense of the Suez Canal zone and other strategic areas
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=3 unred_source_page=5
+alignment_score=0.937955
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: if Turkey can not be excluded from the initial phase, the addition of Greece and Italy as sponsoring members of MEDO would emphasize that the Nagib government "has freely chosen its partners." Comment: Turkey has shown an interest in assuming a helpful role in the Near East; reports from Arab sources, however, often reflect resentment and suspicion. Should the Arabs insist on the inclusion of Greece and Italy in MEDO, Middle East defense plans would be complicated still further, since Britain, the United States, and Turkey have objected to their membership
+Token count: 91
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

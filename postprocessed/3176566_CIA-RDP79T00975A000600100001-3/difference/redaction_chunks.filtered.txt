@@ -1,0 +1,84 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.762500
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 13
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.949219
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 1)
+Text: USSR 1. Arbitrary recomputation of Soviet factory output indicated
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 4. Lebanese Prime Minister expresses reliance on France
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: page 3
+- original #4 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.896037
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: USSR 1. Arbitrary recomputation of Soviet factory output indicated: 1951, the Irkutsk heavy machine building plant, which had evidently failed to meet its November plan by a considerable margin, was ordered by its Ministry in Moscow to recompute its output data in order to show that the plan had been fulfilled. The Moscow official added, "Send a supplementary telegram stating that gross output is 100 percent and later we will somehow readjust it on the balance sheet." the plant was again ordered to cover up its failure to fulfill the December plan. Comment: This is the first appearance of deliberate falsification of plan figures, although defectors have often reported that this practice is not uncommon. The Irkutsk plant is a key installation in the manufacture of metallurgical machinery
+Token count: 128
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.996667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.915942
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: 4. Lebanese Prime Minister expresses reliance on France: Lebanese Prime Minister Sami Solh, who took office early in February, has told the French that he intends to rely strongly upon France. Solh stated his determination to cooperate, encourage French capital and urged that France cooperate by not discouraging French investments in Lebanon. Comment: The Prime Minister's statements indicate the success France has achieved since World War II in strengthening its relations with Lebanon as well as with Syria. In addition to the Prime Minister, the President and other Lebanese officials have close connections with private French economic interests
+Token count: 98
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.997007
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.986066
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

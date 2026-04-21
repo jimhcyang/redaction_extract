@@ -1,0 +1,245 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.362500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.871475
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Laos: Phoumi says enemy stalling on second cease-fire meeting
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 5) 5. Iraq: Moslem extremists reported planning to assassinate Qasim
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: Page 1
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 4
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 4
+- original #4 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 6
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.140179
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: 6 May 61 CENTRAL INTELLIGENCE BULLETIN Map
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 6 May 1961 DAILY BRIEF
+- original #8 segment 2: full_page_or_admin
+  Text: Laos: The cease-fire discussions held just north of the Nam Lik on 5 May between representatives of the Vientiane and Xieng Khouang factions were unproductive. General Phoumi states that the low-ranking enemy representatives apparently had no authority to make decisions except on local problems--such as access to water supply in the area--and he is convinced that they were a "second team." The enemy representatives claimed that because of poor communications another meeting would not be possible before 7 May. The Vientiane government, meanwhile, has broadcast an offer to meet in Luang Prabang at any time between 6 and 10 May with leaders of the opposing party for discussions aimed at a "general reconciliation." This offer may merely be intended to give an impression of reasonableness toward Souvanna's proposal for political talks on the assumption that Luang Prabang is unacceptable as a site. It could, however, represent a modification of the government's professed opposition to political talks prior to the Geneva conference, in line with King Savang's preference for an internal settlement. The military situation is generally quiet, with only scattered activity reported. About 150 South Vietnamese troops are reported to have moved about 7 miles into southern Laos in what is described as primarily a defensive maneuver to provide fallback positions for the Laotian garrison retreating from Tchepone. Soviet airlift operations into Laos continue
+- original #8 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 1) (Map
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.926651
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #10, segment 1)
+Text: The Chinese premier said he was naive in dealing with the Americans and was being used by them in a scheme to make propaganda capital out of Communist China's food shortages. China, Chou added, could take care of itself
+Token count: 39
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Backup, Page 4
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.953732
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #4 (original #12, segment 1)
+Text: Iraq: Members of Moslem extremist groups are said to be planning to assassinate Prime Minister Qasim sometime this month. Among Qasim's most vocal critics have been Iraq religious leaders, who have consistently opposed his past reliance on the Communists for support and the suppression of rightist religious political parties. Moslem religious fanatics are more prone to desperate action to achieve their ends than are Arab nationalist elements
+Token count: 67
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: Backup
+- original #12 segment 2: noncontent_keyword
+  Text: Backup, Page 6
+- original #13 segment 1: short_span_min_tokens
+  Text: have
+- original #14 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: Backup
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.961660
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #15, segment 1)
+Text: recognized as a conservative opponent of the Shah, would have the support of General Bakhtiar, who has been engaged in his own planning for a possible removal of the Shah. Amini
+Token count: 31
+Recut: none
+
+Excluded candidates:
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: ultra-conservatives
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: Laos Pha Lane, east of Savannakhet on Route 9, was still in government hands as of 1600 hours on 5 May, contrary to an earlier Laotian Army report that the town had fallen. North of Pak Sane, a government battalion initiated a limited-objective attack on 5 May to improve its position. No other military activity in Laos has been reported. A group of about 100 Vietnamese special forces personnel is being assembled for possible covert missions in Laos along Route 9. One or two reconnaissance teams composed of such troops disguised as civilians are already operating in the Tchepone district. As of 4 May Laotian Army troops still held four posts on Route 9 between Tchepone and the Vietnamese border. TASS has characterized the cease-fire discussions of 5 May as "unofficial negotiations" on the location of the permanent armistice talks. It said the first meeting scheduled had not taken place because the Vientiane delegation did not go to Namone in accordance with Souvanna's proposal. In discussing French policy on Laos at Geneva, Paris favors having the conference limited to the Laotian problem, with all substantive decisions being unanimous. The goal of the conference should be to seek a peaceful solution, but if the conference failed, other steps, as noted in the SEATO resolution, would
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 6 May 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: have to be taken. The French prefer to see a government of national union formed in Laos before the conference, but the spokesman admitted this seemed an increasingly remote possibility. working level believes it is impossible to prevent the bloc from gaining some advantages from the conference because the West has "played its hand too badly for too long." It is unrealistic to hope to postpone the consideration of the formation of a new Laotian government, preferably under Souvanna with Pathet Lao representation. The British are encouraging the Laotian government to accept Souvanna's invitation to political talks now in Laos. While agreeing on the need for being prepared to take "vigorous action" if either the conference or the cease-fire breaks down, London is opposed to measures of readiness which they fear might wreck the negotiations, such as a troop build-up in Thailand or a "conspicuous" increase in US military support. London thinks any commission resulting from the conference must be truly neutral, such as a supervisory commission composed of one Western power, one Communist power, plus Cambodia, Burma, and India. In a 3 May discussion with UK Ambassador Roberts, Soviet Deputy Foreign Minister Pushkin suggested that Sihanouk's withdrawal of support for the conference was caused by the United States. However, he pointed out that he saw no reason why the conference could not proceed on schedule inasmuch as it was being convened at the invitation of the UK and the USSR. A Chinese Communist government statement of 4 May implied that Ambassador Harriman's trip to Laos was for the purpose of instigating the King of Laos to denounce Sihanouk's proposal for the conference. The Communists are also voicing suspicion over the Laotian King's call for a National Assembly session on 11 May. Hanoi characterizes this development as a move by the US and Vientiane to "cook up" a new government rather than join with Souvanna Phouma in the effort to form a coalition
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 6 May 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.245113
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: government and agree on a Laotian delegation to the Geneva conference. Note: Henceforth, airlift statistics reported
+- original #20 segment 1: full_page_or_admin, short_span_min_tokens
+  Text: the
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Central Intelligence Bulletin
+- original #20 segment 3: full_page_or_admin
+  Text: will be computed on the following basis: 100 percent of all Soviet and North Vietnamese flights scheduled into Laos less known cancellations, plus 50 percent of all Soviet and North Vietnamese transports scheduled for flights within North Vietnam. The latter category is considered to be associated with the airlift. Airlift tonnages, when reported, will be computed on the basis of 2.25 tons per IL-14 sortie and 1.5 tons per LI-2 sortie. On 4 May, 15 transports were involved in airlift operations--12 Soviet and 3 North Vietnamese. Of this number, 4 Soviet LI-2s were reflected flying round-trip from Hanoi to Xieng Khouang
+- original #20 segment 4: full_page_or_admin, noncontent_keyword
+  Text: 6 May 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=0.991229
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: North-South
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: Moslem Extremists Plan Assassination of Qasim Iraq's Moslem activist elements are divided into three groupings--the Islamic and Tahrir parties and the Moslem Brotherhood. Qasim has opposed all three and only the Islamic party received legal recognition following an appeal to the Iraqi courts. Vigorously anti-Communist, the party has been subjected to continued harassment by Qasim; its leaders were arrested last November and released in mid-March. Party branches have been closed. It is extremely conservative and a product of the traditional feudal stratified society of Iraq. The Tahrir is similar to the Islamic party--ultraconservative and religiously inclined. The strength of this clandestine group is untested. The Moslem Brotherhood, often referred to as the Ikhwan, has an ideology based on the thesis that the Holy Koran and Traditions of the Prophet Muhammad have established for all time the most perfect guidance in every situation of private and public life. The Moslem Brotherhood believes these precepts should replace constitutional, administrative, and economic patterns copied from the West. Founded in Egypt in 1929, the movement extends throughout the Arab states. Because it clashes with Nasir's secular policies, the Egyptian Ikhwan was dissolved by Nasir in January 1954. The following October radical members attempted to assassinate him
+- original #22 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 6 May 61 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=12 unred_source_page=15
+alignment_score=0.988315
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: maneuvers
+- original #24 segment 1: short_span_min_tokens
+  Text: then
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=13 unred_source_page=16
+alignment_score=0.975939
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=14 unred_source_page=17
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: noncontent_keyword
+  Text: 6 May 1961 Copy No. CENTRAL INTELLIGENCE BULLETIN

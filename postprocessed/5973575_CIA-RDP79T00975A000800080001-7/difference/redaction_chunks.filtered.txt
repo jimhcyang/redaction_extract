@@ -1,0 +1,88 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.702500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.956255
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 6. Israel will oppose reported Syrian territorial demand
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 3. Vietnam refuses to accept Indian Consul General
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.995526
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.600103
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 3. Vietnam refuses to accept Indian Consul General: The Vietnamese Government's rejection of the appointment of an Indian Consul General to Saigon because of India's refusal to recognize the Vietnam Government. In pointing out the Indian Government's "lack of good will" toward Vietnam, present French policy is strongly opposed to Chinese Nationalist efforts to establish diplomatic relations with the Associated States. Fear of provoking Peiping at this time is given as the reason. Thailand is the only Asian state which maintains diplomatic relations with Vietnam
+Token count: 85
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.910687
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: The American Ambassador, commenting on the apparently increasing inclination of the French Cabinet to conduct only a holding operation in Indochina, believes it imperative that the initiative be wrested from the Viet Minh. He concludes that a military stalemate will in the long run set the stage for ignominious negotiations with the Viet Minh. Comment: The British Minister in Saigon noted recently that Letourneau, during his recent trip to Singapore, had unfavorably impressed British officials with his lack of a "victory psychology
+Token count: 82
+Recut: none
+
+Clean Chunk #4 (original #5, segment 1)
+Text: 6. Israel will oppose reported Syrian territorial demand
+Token count: 8
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.946734
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #6, segment 1)
+Text: Comment: The disputed Tiberias region is demilitarized and subject to an armistice agreement. Israeli officials have long argued that the entire area should be awarded to Israel and have consistently opposed yielding any part of the region to Syria. Despite Arab objections to the drainage operations, Israel has never agreed to stop work except for limited periods of time
+Token count: 59
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens
+  Text: a
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.993359
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

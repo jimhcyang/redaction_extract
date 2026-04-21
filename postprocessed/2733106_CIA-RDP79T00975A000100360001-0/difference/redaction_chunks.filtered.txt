@@ -1,0 +1,74 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.671875
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens
+  Text: C1-9
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.937231
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: USSR 1. Some Soviet Government offices possibly being dispersed
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 3: noncontent_keyword
+  Text: FAR EAST
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: USSR 1. Some Soviet Government offices possibly being dispersed: Comment: Acute housing shortages in Moscow may be the cause of these arrangements. However, Soviet refugees arriving in Vienna have reported that some government decentralization is in progress. FAR EAST
+Token count: 39
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.995278
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.971719
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: rumors of Soviet
+Token count: 3
+Recut: none
+
+Clean Chunk #4 (original #5, segment 1)
+Text: claims that "many Cominformists" have successfully penetrated the army and the government and are now acting under instructions to remain passive until war breaks out
+Token count: 25
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.994218
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

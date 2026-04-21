@@ -1,0 +1,94 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.875556
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: TOP SECRET SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.914448
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #3, segment 1)
+Text: 4. Burmese Prime Minister proposes Chou En-lai visit to Burma and India (page 4). SOUTH ASIA 5. Afghanistan to delay oil-drilling operations near Soviet frontier
+Token count: 25
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: FAR EAST 2
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 3: noncontent_keyword
+  Text: NEAR EAST - AFRICA 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.990193
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: FAR EAST
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.940698
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #5, segment 1)
+Text: 4. Burmese Prime Minister proposes Chou En-lai visit to Burma and India: Prime Minister Nu proposed to the Chinese Ambassador in Rangoon on 30 August that Chou En-lai visit Burma and India. The Chinese Ambassador seemed favorably impressed with the idea, and Nu has asked Prime Minister Nehru for his views
+Token count: 51
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: Ambassador seemed favorably impressed with the idea, and Nu has asked Prime Minister Nehru for his views. Comment: In a widely publicized speech last July, Nu asked for Russian and Chinese economic aid, explaining privately that his purpose in doing so was to undercut his political opposition. There has been no known response from either country. Chou En-lai might well accept an invitation to visit Burma and India as a chance to encourage neutralist sentiment in both countries. SOUTH ASIA 5. Afghanistan to delay oil-drilling operations near Soviet frontier: To date there is no indication that the limited UN development and welfare projects in northern Afghanistan are being curtailed
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA 6
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.987915
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.991053
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

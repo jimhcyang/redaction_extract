@@ -1,0 +1,113 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.722656
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. ADDITIONAL TURKISH ARMOR ORDERED TO SYRIAN BORDER
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. SAUDIS SEEK NEGOTIATIONS WITH BRITAIN ON ARABIAN BOUNDARY PROBLEMS (page 4). 3. INDIA CRITICAL OF US ARMS SHIPMENTS TO MIDDLE EAST
+Token count: 22
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 8
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.123602
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 1. ADDITIONAL TURKISH ARMOR ORDERED TO SYRIAN BORDER The Turkish Second and Sixth Armored Brigades, based near Istanbul and the Erzurum area near the Soviet border, are under orders to move to the Syrian border. The addition of these units to those already slated to move south would raise Turkish military strength
+- original #6 segment 1: full_page_or_admin
+  Text: the Syrian border area to more than 30,000, including three of Turkey's six armored brigades
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 2. SAUDIS SEEK NEGOTIATIONS WITH BRITAIN ON ARABIAN BOUNDARY PROBLEMS Comment Saud's attitude on the question of relations with Britain, as well as his statements on the Syrian situation, reinforce other indications that the Saudis at this time are unwilling to make any open move which would make them vulnerable to charges that they had joined the pro-Western camp. While the British will probably continue to seek formal diplomatic relations, London will presumably feel unable to reject the Saudi overture for neutral country discussions. They will probably insist, however, that the scope of such discussions cover general political questions as well as Anglo-Saudi territorial disputes
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 3. INDIA CRITICAL OF US ARMS SHIPMENTS TO MIDDLE EAST Comment on: Prime Minister Nehru has told the Indian parliament that American shipment of arms to countries adjacent to Syria or any other application of the "Eisenhower doctrine" to the Middle East will lead to an arms race which will aggravate a dangerous situation. The Indian press generally has taken the same line. Nehru charged the USSR--which has supplied arms to Syria--as well as the West with contributing to the tension, although he has been critical of the Baghdad pact for having originally set Arab nations against each other. Nehru probably will continue to express his feelings publicly. However, he is unlikely to fight strongly against US actions as long as his finance minister is still exploring the possibility of obtaining up to $500,000,000 in economic assistance from Washington. On several occasions during the past two years, India has secretly shipped arms and ammunition to Egypt
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.961979
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.964583
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.932853
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #10, segment 1)
+Text: Chong's resignation would not be accepted by President Rhee or Defense Minister Kim unless further interrogation of the agents discloses that Chong was involved in their schemes
+Token count: 27
+Recut: none

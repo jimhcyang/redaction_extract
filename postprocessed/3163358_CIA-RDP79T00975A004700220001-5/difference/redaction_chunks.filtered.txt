@@ -1,0 +1,203 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.681429
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 63
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.245512
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 25 SEPTEMBER 1959 I. THE COMMUNIST BLOC
+- original #3 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: Peiping's domestic propaganda reflects opposition to Moscow's approach to the US. 2. Communist bloc continues efforts to establish closer ties with Guinea. II. ASIA-AFRICA 3. Laos--French military attache
+- original #4 segment 1: full_page_or_admin
+  Text: Vientiane tells Argentine member of UN subcommittee there is no foreign military intervention. 4. Indonesian Foreign Minister to visit Peiping to discuss Djakarta's restrictions on Chinese merchants. 5. India--Krishna Menon may lose post of Defense Minister. 6. Japanese Prime Minister threatens to dissolve Diet over disagreement on revision of US-Japan Security Treaty. 7. Yemeni Crown Prince may go to West Germany for reasons of "health." 8. Moroccan Crown Prince attempting to suppress left-wing elements
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.938848
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #8, segment 1)
+Text: One member of the Soviet delegation is planning to remain in Conakry as TASS correspondent to establish an office for news-gathering throughout West Africa
+Token count: 24
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #10, segment 1)
+Text: The Argentine representative on the UN subcommittee, General Ahrens, has been advised by the French military attache in Vientiane that there has been no real foreign military intervention in Laos and that Laos' appeal to the UN was possibly inspired by the policy aims of "a certain large power". The Laotian
+Token count: 51
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: Page 1
+- original #6 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Touré's
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Tour
+- original #8 segment 2: noncontent_keyword
+  Text: Page 2
+- original #9 segment 1: noncontent_keyword, ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ASIA AFRICA
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.918882
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #11, segment 2)
+Text: Indonesia: Indonesian Foreign Minister Subandrio will visit China, possibly in October, at Peiping's invitation, to discuss Djakarta's recently imposed restrictions on Chinese business. Although Indonesia has received two strong protests from Peiping regarding the treatment of local Chinese merchants, Subandrio says the Indonesian Government will not retreat from its position. (Page 4) Krishna Menon: Top government leaders in New Delhi are continuing to press Nehru to dismiss Defense Minister Krishna Menon. Nehru reportedly has told his cabinet colleagues he will respect their desires that Menon be removed from the Defense Ministry, and President Prasad has stated that Menon's chances of continuing to hold his post are nil. The subject of Menon's dismissal recently became a burning issue when army commander General Thimayya charged Menon with interfering in army affairs for personal and political reasons and with countermanding military measures ordered by Thimayya in defense of the Indo-Tibetan border. There is some possibility of a general cabinet shuffle within the next few months which would retain Menon in a less critical post
+Token count: 171
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Page 3
+- original #12 segment 1: noncontent_keyword
+  Text: 25 Sept 59 DAILY BRIEF
+- original #12 segment 2: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.899160
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #4 (original #13, segment 2)
+Text: UAR-Yemen: "the Imam is destroying everything which Badr did," and it is expected that the Yemeni military schools will be closed and the Egyptians sent home. The UAR deputy stated that the Crown Prince will go to West Germany, allegedly for reasons of health, from where he will contact President Nasir. The Imam has carried out several executions and mutilations of dissident individuals, reportedly to the disgust of some of the populace, but no one has yet dared oppose him. Morocco: Crown Prince Moulay Hassan he is attempting to goad left-wing elements into violence so that the army, which is being deployed, can suppress them. The prince, who has been unsuccessful in persuading the King to act against the left, may be taking advantage of the King's uncertain health. Right-wing Moroccans, also urging the King to suppress the leftists, claim that Cairo is subsidizing the leftists to promote a revolution
+Token count: 150
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #13 segment 1: noncontent_keyword
+  Text: Page 5
+- original #13 segment 3: noncontent_keyword
+  Text: Page 6
+- original #14 segment 1: noncontent_keyword
+  Text: 25 Sept 59 DAILY BRIEF
+- original #14 segment 2: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.961325
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #5 (original #19, segment 1)
+Text: One Soviet delegate will remain in Conakry to establish a TASS office for news-gathering throughout West Africa. Pravda's correspondent and Peiping's NCNA representative in Accra are both accredited to Guinea
+Token count: 30
+Recut: none
+
+Excluded candidates:
+- original #15 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Touré's
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: especially
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Tour
+- original #18 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Touré's
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.950195
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #20, segment 1)
+Text: French Official in Laos Questions Foreign Intervention There has been no real foreign military intervention in Laos and that Laos' appeal to the UN was possibly inspired by the policy aims of "a certain large power"-- The US, France, and Britain should do their utmost to maintain a united front and avoid giving conflicting opinions to subcommittee members. Action runs counter to assurances of French Embassy members that they would do everything possible to help the Laotian Government present its case to the subcommittee
+Token count: 84
+Recut: none
+
+Excluded candidates:
+- original #21 segment 1: short_span_min_tokens
+  Text: on
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: Sino-Indonesian Discussions Pending on Overseas Chinese Indonesian Foreign Minister Subandrio plans to visit China possibly in October--at Peiping's invitation--primarily to discuss Djakarta's recently imposed restrictions on Chinese business but with possible mention of the dual citizenship treaty and Chinese credits to Indonesia. Subandrio told the American ambassador he had received two strong protests from the Chinese Communist Government against treatment of local merchants. He said the second protest was very sharply worded. The Soviet ambassador had also protested, and the Indonesian Communist party secretary general had asked the government to modify its anti-Chinese measures. The subject of protest is a ban on alien retail businesses in rural areas effective 1 January. These businesses have until 30 September to file their intention to close, to transfer to Indonesian nationals, or to move to urban areas. It is estimated that approximately 25,000 businesses--most of them Chinese--will be affected. The ban must be enforced. He told the American ambassador on 21 September that although Djakarta does not wish a showdown with Peiping at this time, it cannot retreat. He is considering future anti-Chinese measures, such as closing the Djakarta branch of the Bank of China, and has advised President Sukarno that, in view of Communist China's growing strength, the Chinese problem in Indonesia must be "solved" within five years. Other aspects of Sino-Indonesian relations are the agreement abolishing dual citizenship which, although signed in 1955 and ratified by both governments, has yet to be implemented, and a $30,000,000 Chinese credit to Indonesia. In mid-September the Chinese promised speedy settlement of a drawing on this credit for a textile factory
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.996063
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: full_page_or_admin
+  Text: Moroccan Leftists May Be Goaded to Violence Moroccan Crown Prince Moulay Hassan he is attempting to goad left-wing elements into violence so that he can use carefully deployed units of the Royal Army, of which he is Chief of Staff, to suppress them. King Mohamed V has heretofore refused to permit suppression, but now he is very sick. The prince may be taking advantage of this to create a situation serious enough to warrant suppression of the newly organized National Union of Popular Forces (UNFP). Adherents of the Istiqlal party, which has refused to participate in the Ibrahim government, have also urged the King to repress the leftists
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.987266
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

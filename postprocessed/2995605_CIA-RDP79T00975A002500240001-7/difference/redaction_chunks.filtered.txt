@@ -1,0 +1,136 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.652273
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.568985
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. TURKISH AMBASSADOR GORK SUGGESTS TACTICS FOR INCREASING US AID
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 3. SOVIET TECHNICIANS DEPART FOR BURMA (page 5). 4. FORMER PREMIER PRIDI REPORTEDLY SEEKING TO RETURN TO THAILAND (page 6). 5. PARAGUAYAN COMMUNISTS REPORTED PLANNING GENERAL STRIKE
+Token count: 27
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword
+  Text: page 7
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 8
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 1. TURKISH AMBASSADOR GORK SUGGESTS TACTICS FOR INCREASING US AID Turkish ambassador Gork in Washington believes that Ankara should, for the time being, either accept the American decision not to increase aid to Turkey or raise the question of reappraising Turkish political relations with the United States. He regards the latter alternative as potentially effective. He suggested that additional aid depends on a belief in Washington either that Turkish-American political relations may be damaged if aid is not granted or that there might be "violent shake-ups" in Turkey which would benefit the Soviet Union. Ankara's request for additional aid could be renewed after the American elections, stating that "negative political factors" and "a group working against" Turkish interests in Washington make improbable any substantial increase in economic aid at this time. Comment The suggestion for a policy reappraisal is in line with the attitude expressed by other Turkish officials that a threat of neutralism encourages more American aid. In the absence of a substantial increase in American financial assistance, these officials, and some Turkish businessmen, believe that Soviet aid offers should be exploited
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.905223
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: critical
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: disorder
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: mainland
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communist
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 3. SOVIET TECHNICIANS DEPART FOR BURMA the USSR wishes to send the "best available men and material" to Burma for the technological institute offered by Bulganin and Khrushchev last December. Eight experts, including a director and deputy directors of a technological institute in Moscow, left for Rangoon by air on 17 April, Comment If Moscow fulfills its commitments to Burma promptly and competently, without making any political demands, it would probably allay Burmese suspicions of Soviet intentions and reduce Burmese reluctance to admit large numbers of Soviet advisers and technicians
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: 4. FORMER PREMIER PRIDI REPORTEDLY SEEKING TO RETURN TO THAILAND Comment Pridi has been in exile since 1947 and in mid-1954 broadcast from Peiping an appeal to the Thai people to overthrow the Phibun regime because of its pro-Western orientation. Phibun recently stated in public that Pridi, as a Thai national, was free to return to Thailand, but made no promises regarding his future if he did return. Peiping may consider it useful for Pridi to return--as a nonprovocative, retired "elder statesman"--as a token of its "earnest" desire for friendship and coexistence. Pridi's presence in Thailand would probably revive his still substantial following among civil servants and in nongovernmental intellectual circles, which Peiping might be able to exploit in the future
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.244543
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: 5. PARAGUAYAN COMMUNISTS REPORTED PLANNING GENERAL STRIKE The Paraguayan Communist Party (PCP) is planning to instigate a general strike starting 1 May against "hunger, the high cost of living and Yankee imperialism," The PCP reportedly plans to bomb the US military mission headquarters on that day. the Communists alone are too weak to stage a general strike, but that
+- original #13 segment 1: full_page_or_admin
+  Text: the present climate of general dissatisfaction with the government, they could probably obtain outside support for a strike and direct it. Comment A high government official in effect admitted to the American embassy in Asuncion recently that unrest, arising from economic distress, had reached a danger point. Recent student clashes with the police, moreover, have contributed to an unusually turbulent political atmosphere. The hard-core membership of the illegal PCP is estimated at under 2,000, but the party has considerable influence among the rank and file of various labor unions, and has infiltrated some political parties. All severely repressed opposition parties might be disposed to support the strike in line with their increasing antigovernment plotting and propaganda activities
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.861855
+kept_candidate_count=1
+excluded_candidate_count=6
+
+Clean Chunk #3 (original #18, segment 1)
+Text: A Yemeni delegation headed by Imam Ahmad is meeting with King Saud and Egyptian prime minister Nasr in Riyadh to sign Saudi-Yemeni and Egyptian-Yemeni military treaties. Lebanon and Syria are under strong pressure from Saudi Arabia and Egypt to finalize a Lebanese-Syrian military pact which the two countries have intermittently discussed without reaching an agreement for the past five months
+Token count: 60
+Recut: none
+
+Excluded candidates:
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: patrol
+- original #15 segment 1: short_span_min_tokens
+  Text: Press
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: campaign
+- original #17 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Egyptian-Syrian--Saudi
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reported
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: exchange

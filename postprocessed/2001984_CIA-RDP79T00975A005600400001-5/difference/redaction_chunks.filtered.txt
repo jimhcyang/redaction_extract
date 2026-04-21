@@ -1,0 +1,306 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.858333
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.878361
+kept_candidate_count=4
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 3)
+Text: 2. Congo: Indian troops shortly to arrive in Katanga from Dar es Salaam by air. (Page 11) 3. Angola-Portugal: Further uprisings north of Luanda; Salazar reshuffles military supporters of Moniz
+Token count: 30
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 111) 5. USSR: Test vehicle, probably an ICBM, launched yesterday, apparently failed in flight
+Token count: 14
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 1v) 8. Somali-Ethiopian border problem. (Page 1v
+Token count: 7
+Recut: none
+
+Clean Chunk #4 (original #5, segment 1)
+Text: 1v) 10. Honduras: President Villeda Morales places civil security forces on alert; apparently fears coup attempt. (Page v
+Token count: 18
+Recut: none
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 1. Laos
+- original #1 segment 2: noncontent_keyword
+  Text: Page 1
+- original #1 segment 4: noncontent_keyword
+  Text: Page 11
+- original #2 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 111
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 111
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: 15 Apr 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #6 segment 2: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 15 April 1961 DAILY BRIEF
+- original #7 segment 2: full_page_or_admin
+  Text: Laos: Steps are being worked out whereby the Boun Oum government would "inform" all concerned--including Souvanna Phouma and Pathet Lao leader Prince Souphannouvong--that they would be welcome at the late King's funeral ceremonies to be held in Luang Prabang the end of this month. The entire cabinet is scheduled to discuss this matter in Luang Prabang today with King Savang, who has indicated he would sanction such an informal get-together of the three Laotian factions. Enemy patrols are reported active against government positions on Route 13 south of Muong Kassy. The government is moving additional infantry and artillery to the Nhommarath area northeast of Thakhek, but many of these reinforcements have little training
+- original #7 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 1
+- original #7 segment 4: full_page_or_admin, short_span_min_tokens
+  Text: Maps
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.140179
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: 15 Apr 61 CENTRAL INTELLIGENCE BULLETIN Map
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: Congo: The 2,300-man addition to India's UN contingent has disembarked at Dar es Salaam, Tanganyika, and the first planeloads of troops are expected shortly in Katanga. In view of Tshombé's warnings against the reinforcement of UN forces in Katanga, Hammarskjold is considering sending UN military commander McKeown or his deputy to assume personal command of UN forces there. Gizenga's representative in Cairo, Pierre Mulele, has advised Stanleyville that, while arms and ammunition are available in Cairo, "We do not know how to send them to you." With respect to aircraft, Mulele reported that "the friends" had agreed to provide two to four IL-18s, but only if scheduled flights to Stanleyville could be arranged. He added that "if you can obtain for us an authorization to fly over the Sudan, the planes will reach you in 24 hours." Meanwhile, Gizenga has continued to leave the door open for a meeting with representatives of the Leopoldville government. Gizenga reportedly has suggested Addis Ababa, Berlin, or Athens as acceptable sites for a meeting. Angola-Portugal: Terrorist activity in the area north of Luanda is continuing in the face of a steady Portuguese military build-up. According to the Portuguese news agency, "thousands" of Africans attacked a village about 100 miles northeast of Luanda but were driven off with heavy casualties by the small garrison there. Disorders have also been reported in Cabinda. The outgoing overseas minister in Lisbon told Ambassador Elbrick that the situation is very grave and is not improving. He said that the residents of Angola were very nervous and that additional troops were being dispatched. Provincial authorities are calling for volunteers and are beginning to mobilize reservists. Lisbon instructed the Portuguese Embassy in Cape Town to purchase 500 twenty-pound bombs from the South African Government. In Portugal, Salazar has been reshuffling the military supporters of ex-Defense Minister Moniz, following the cabinet changes of 13 April
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 3) 15 Apr 61 DAILY BRIEF
+- original #9 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=5 unred_source_page=8
+alignment_score=0.930203
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #10, segment 1)
+Text: USSR: About 1924 GMT (1424 EST) 14 April a test vehicle, probably an ICBM, was launched from Tyura Tam and failed in flight shortly thereafter. Facilities associated with Soviet space program launchings from Tyura Tam were not involved in this launching. However, the Soviet vessels involved in the manned satellite launching of 12 April have not yet begun returning to port. This is the eighth probable ICBM launching
+Token count: 68
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: 15 Apr 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #11 segment 2: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=10
+alignment_score=0.923333
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #12, segment 1)
+Text: Somali Republic - Ethiopia: The Somali minister of interior expressed his concern over a reported large-scale build-up of Ethiopian military forces in the predominantly Somali-inhabited Ogaden region of eastern Ethiopia. The minister, in the northern region of the republic to investigate recent clashes between Ethiopian troops and Somalis, stated that the Ethiopians were "making no secret of their intention" to use the weapons and aircraft brought into the area "to exterminate once and for all" the Somali people there. However, relations in the Ogaden region between Somali tribesmen and Ethiopians are perennially bad and will further deteriorate following Ethiopia's recent reinforcement of its troops in the area. Ethiopia has also intensified patrol activities near the Somali border. Presumably this is an attempt to enforce its regulation against presence on Ethiopian soil of armed Somali tribesmen
+Token count: 134
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #12 segment 2: noncontent_keyword
+  Text: Backup, Page 7) (Map
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.923193
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #7 (original #13, segment 1)
+Text: Honduras: President Villeda Morales on 12 April placed the civil guard and other civilian-directed security forces on a state of alert. He has had increasing difficulty in coping with extreme leftist and rightist groups, and apparently now feels the rightists, with army and air force support, are about to make an attempt to unseat him. Pro-Castro groups, which are stronger in Honduras than in any other Central American country, would quickly exploit any effort to oust the moderate regime of Villeda Morales
+Token count: 82
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #13 segment 2: noncontent_keyword
+  Text: Backup, Page 8
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.140179
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: noncontent_keyword
+  Text: 15 Apr 61 CENTRAL INTELLIGENCE BULLETIN Map
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: Situation in Laos General Phoumi, discussing various aspects of a cease-fire in Laos with the chief of the American military mission, stated that he felt the Laotian Army this time should emulate Communist tactics employed after the 1954 Geneva Agreements by "playing the political game" while infiltrating wherever possible to expand Vientiane's control over as much territory as possible. Phoumi felt that with helicopters he could pre-position army units and establish control in certain areas throughout the country not occupied physically by the Pathet Lao. Although Phoumi did not mention Meo guerrilla assets in this connection, they probably would play a role in any such undertaking since they exercise de facto control over much of the mountainous terrain in Xieng Khouang Province and also have scattered bases in Luang Prabang, Sam Neua, and to a lesser extent Phong Saly Province. Phoumi saw only very slight possibility for an effective coalition government with the Pathet Lao since he felt they were by now strongly oriented toward Communist control. He expressed conviction that Souvanna's policy of peace, unity, and neutrality is not possible under present circumstances, and advocated instead a military solution. An enemy force, estimated to number 500 men, is reported to have attacked two government companies on 13 April at Ban Pha Pho, an outpost in southern Laos about 25 miles from the Cambodian border. Details are lacking, but radio contact with the post has been lost and a ranger company from Pakse has been ordered to reinforce the garrison. evidence that Russians are directing the airlift as well as flying the major part of it. On 12 February a DRV aircraft apparently was told not to use Vietnamese in contacting a Vietnamese airfield control tower. Two days later Dien Bien Phu airfield complained that "without a translator we can neither talk with
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: nor understand the friends. The friends are not pleased with this." The "friends" almost certainly are Russians. Airlift activity continues at about the average level. There are suggestions that in the projected conference on Laos, the Communists may seek to reopen other matters covered by the 1954 Geneva Agreements. The deputy chief of Poland's delegation on the ICC for Vietnam recently implied in Saigon that the bloc may attempt to resurrect the question of Vietnamese reunification. The Geneva Agreements alluded to reunification elections but did not specify when or how they were to be held. These details were spelled out in a separate declaration which stipulated that general reunification elections should be held throughout Vietnam in July 1956 under ICC supervision. North Vietnam signed both the agreement and the declaration and has endorsed the elections--it has a population majority over the South. South Vietnam agreed to honor the spirit of the agreement and accepted the ICC but signed neither document and has not accepted the election formula. This has not prevented North Vietnam from charging Saigon with "violating the Geneva Agreements" by refusing reunification elections, by accepting US military assistance, and by attempting to halt Communist guerrilla depredations in the South. Communist propaganda has charged that South Vietnam is supporting pro-Western forces in Laos and that it threatens peace in Southeast Asia
+- original #16 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=15
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: Situation in Angola officials in Angola believe the situation is worsening and that the terrorist activity can be countered only with increased military actions. On 11 April Luanda asked that additional rifles and machine guns be sent from Portugal for distribution to the civilian militia and to the police. Troop reinforcements from Lisbon reportedly have been landed in coastal cities north and south of Luanda, and an official Angolan communiqué announced that further "important" reinforcements would arrive soon. In recent months there has been some discussion between South Africa and Portugal on military aid and mutual protection. Previous initiatives aimed at closer military cooperation between the two nations have come largely from South Africa. In New York, Angola Peoples' Union (UPA) leader Holden Roberto told American officials that he would continue the current UPA campaign of violence in Angola in an effort to retain the initiative won from pro-Communist groups. He further asserted that UPA would be satisfied with nothing less than a target date within three years for independence. In Portugal, Salazar's supporters reportedly felt confident on 14 April that the prime minister's dismissal of key military ministers the previous day had prevented a planned "coup" led by Moniz. the new army minister is rapidly completing a change of unit commanders to counteract any immediate move by Moniz, and the pro-Moniz commander of the Lisbon military district has been replaced. Moniz' own whereabouts is unknown. If Moniz failed to act on 14 April, he would have missed his chance since many unit commanders loyal to him would have then been replaced
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=10 unred_source_page=16
+alignment_score=0.996429
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: castigation
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=11 unred_source_page=17
+alignment_score=0.918269
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=12 unred_source_page=18
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=13 unred_source_page=19
+alignment_score=0.243968
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: Somali Republic Fears Ethiopian Aggression Sporadic clashes have occurred over the years between Ethiopians and Somali tribesmen who follow their flocks into the Ethiopian Ogaden
+- original #20 segment 1: full_page_or_admin
+  Text: search of pasturage during the dry seasons. Recently, however, Somali nomads are reported to have taken part in organized efforts against the Ethiopian authorities, including political and paramilitary activities. On 2 April Somali infiltrators allegedly inspired tribal inhabitants of Dagabur--an Ogaden village located about 60 miles inside Ethiopian territory--to demonstrate for permission to organize a political party and to seek independence for the Somali-inhabited areas of Ethiopia. After Ethiopian security forces arrived on the scene, fighting broke out in which 115 were reported killed. the "whole civilian population of Gabredarre"--largely Somali--approached the provincial office and "demanded independence"; the governor was able to placate them, however, by promising to refer the matter to higher authority. The Dagabur incident is believed the first major outbreak of violence between Ogaden Somalis and Ethiopians since last December's clash at Danot, when several hundred Ethiopian troops and armed Somalis were involved. The Danot clash began when nomads from the Somali Republic attempted to use water holes already held by Somalis domiciled in Ethiopia. After two days of minor skirmishes involving Ethiopian police, the nomads withdrew across the Somali border for reinforcements. They returned--allegedly reinforced by a well-trained and-equipped paramilitary force--and attacked the local Ethiopian police garrison, but were repulsed by Ethiopian army units supported by aircraft. Addis Ababa reported 260 casualties in the conflict including 60 dead, and the Somali casualties were probably even greater
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 20]
+kind=unred_only red_source_page=None unred_source_page=20
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: Honduras Villeda is accused by his rightist opposition of weakening Honduran military forces while building up the politically dominated civil guard, of being lax toward the Communist and Castro elements, who are very active, and of tolerating Salvadoran exiles claimed to be plotting in Honduras. Leftists, including the radical wing of his own Liberal party, dislike his friendliness with the United States, his modus vivendi with armed forces chief Colonel Osvaldo Lopez, and his sporadic anti-Communist moves. They consider all these prejudicial to the interests of the Liberal party, which before Villeda's election to a six-year term in 1957 had been out of power for 25 years while the country was under military and authoritarian governments. Villeda's maneuvers to compromise between left and right have satisfied neither. Conservative groups have recently stepped up their activity against him. Conservative Nationalist party members reportedly fear that if they do not move soon, their chances of regaining power will be lost. They are believed to be plotting with military officials who fear that Villeda's neglect of the armed forces will soon leave them powerless. Colonel Lopez, however, has consistently resisted their approaches for his support of a coup, despite his distrust of Villeda. Both the Nationalists and the military have been in close contact with Salvadoran officials... These in turn have been encouraging Armando Velasquez, a Honduran revolutionary who has made several unsuccessful attempts to overthrow Villeda. Velasquez, reportedly believing Salvadoran and other Central American governments were not prepared to give him sufficient support, planned to return to Spain on 13 April. However, Villeda, evidently convinced that a combination of rightist forces backed by the Honduran military was preparing to move against him soon, acted accordingly. In addition
+- original #21 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 8
+
+========================================================================
+[PAGE 21]
+kind=unred_only red_source_page=None unred_source_page=21
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: to his alerting order of 12 April, he made a nationwide radio denunciation of leftist and rightist groups which opposed his "liberal, impartial, and democratic" administration and would undertake the "criminal adventure" of overthrowing the legal government. On 13 April, in an apparent move to reassure the Salvadoran governing directorate, Villeda sent an urgent message to the directorate through his ambassador stating that exiled former Salvadoran President Osorio was not in Honduras and would not be allowed to stay if he sought asylum there
+- original #22 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 15 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 9
+
+========================================================================
+[PAGE 22]
+kind=match red_source_page=14 unred_source_page=22
+alignment_score=0.976056
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 23]
+kind=match red_source_page=15 unred_source_page=23
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,231 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.453571
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.937600
+kept_candidate_count=2
+excluded_candidate_count=12
+
+Clean Chunk #1 (original #4, segment 2)
+Text: 5. COMMUNISTS REPORTED PLANNING FURTHER ATTACKS ON AMERICANS IN SOUTH VIETNAM
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #9, segment 2)
+Text: 11. FRENCH-ISRAELI RELATIONSHIPS (page 13). 12. PHILIPPINE LIBERAL PARTY TICKET REPORTEDLY WINS SUPPORT OF ROMAN CATHOLIC HIERARCHY
+Token count: 17
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #4 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 3: noncontent_keyword
+  Text: page 7
+- original #5 segment 1: noncontent_keyword
+  Text: page 8
+- original #6 segment 1: noncontent_keyword
+  Text: page 9
+- original #7 segment 1: noncontent_keyword
+  Text: page 10
+- original #8 segment 1: noncontent_keyword
+  Text: page 11
+- original #9 segment 1: noncontent_keyword
+  Text: page 12
+- original #9 segment 3: noncontent_keyword
+  Text: page 14
+- original #10 segment 1: noncontent_keyword
+  Text: page 15
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.998137
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.997857
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.993927
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #14, segment 1)
+Text: The report is supported by the fact that
+Token count: 8
+Recut: none
+
+Excluded candidates:
+- original #13 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.986986
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #16, segment 1)
+Text: is reportedly prepared to use force against Ydigoras' followers rather than give in to his demands. It
+Token count: 17
+Recut: none
+
+Excluded candidates:
+- original #15 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: 5. COMMUNISTS REPORTED PLANNING FURTHER ATTACKS ON AMERICANS IN SOUTH VIETNAM Comment on: Communist agents in South Vietnam are planning to attack members of the American delegation to the Colombo Plan conference prior to their departure from Saigon. Other reports from Saigon have also stated that the 22 October bombings which injured 13 Americans would be followed in the near future by additional assaults on American personnel and property. As a result of this information, President Diem offered to provide bodyguards for all members of the United States delegation. The American embassy also has taken extensive precautions to ensure the safety of Americans in South Vietnam
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 26 Oct 57 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.999242
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.998739
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.995603
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: noncontent_keyword
+  Text: Comment on
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: liberalists
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.998469
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.998678
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=0.122206
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: full_page_or_admin
+  Text: 11. FRENCH-ISRAELI RELATIONSHIPS Comment on: The departure of French Air Force Chief of Staff General Bally on 22 October for an official visit to Israel, together with a reliable report that 15 Vautour jet aircraft have been sold to Israel by France, indicates a continuing close military collaboration despite recent efforts by both countries to soft-pedal their ties. The aircraft are probably all-weather interceptors, which the Israelis need, but light bombers cannot be ruled out. Several Israeli air force personnel were reported early this month at the French air force all-weather training center, and two of them were described as flying
+- original #25 segment 1: full_page_or_admin
+  Text: Vautour jets. Doubts respecting the French-Israeli political relationship have appeared in recent months in both countries. The Israeli government apparently has no intention of asking for a formal treaty, despite the public enthusiasm demonstrated during the visit in August of French Gaullist leader Jacques Soustelle, who advocates a military alliance. In France, influential individuals have expressed the view that close relations with Israel hinder a rapprochement between France and the Arab states and prevent an improvement in the French situation in North Africa
+- original #25 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 26 Oct 57 Current Intelligence Bulletin Page 13
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=14 unred_source_page=15
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: full_page_or_admin
+  Text: 12. PHILIPPINE LIBERAL PARTY TICKET REPORTEDLY WINS SUPPORT OF ROMAN CATHOLIC HIERARCHY Comment on: The Roman Catholic hierarchy in the Philippines has decided to support Liberal party candidates Jose Yulo and Diosdado Macapagal in the 12 November election. Such support, together with the Liberal party organization and financial resources, could be decisive in defeating President Garcia and his Nacionalista running mate, Jose Laurel, Jr. Such a development increases the danger that the administration Nacionalistas may resort to fraud to ensure victory. The Catholic church is not necessarily hostile to President Garcia, but is strongly opposed to Nacionalista vice-presidential candidate Jose Laurel, Jr. Pro-Yulo clergymen, led by the archbishop of Manila, allegedly have prevailed over church officials sympathetic to other presidential candidates. Garcia is generally regarded as still leading in the presidential race. The Catholic church, an important factor in the Philippines, will find its most difficult obstacles to be the well-entrenched party machinery of the Nacionalistas and the powers of incumbency
+- original #26 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 26 Oct 57 Current Intelligence Bulletin Page 14
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=15 unred_source_page=16
+alignment_score=0.998522
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: noncontent_keyword
+  Text: Comment on

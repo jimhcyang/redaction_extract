@@ -1,0 +1,112 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.922611
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Chinese MIG's expand role in Korean war
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 3. Soviet jets pursue B-29 inland over Japan (page 4). 4. Chinese Nationalists in Burma still receiving outside aid
+Token count: 19
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 1)
+Text: EASTERN EUROPE 9. Hungarian Army General Staff scores lax discipline and desertions
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.852901
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #4, segment 1)
+Text: 1. Chinese MIG's expand role in Korean war: Chinese Communist aircraft continued to be "exceedingly aggressive" between 27 July and 5 August over Korea. At least 228 Chinese aircraft were noted on the Chinese voice ground-controlled intercept net, and there were many instances of definite contact with UN aircraft. Comment: Air defense of northwest Korea continues to be primarily a Soviet responsibility, but this increase in Chinese activity and aggressiveness, coupled with a recent expansion of the Chinese early warning coverage of Korea, suggests that the Chinese Communist Air Force is assuming a larger share of aerial combat
+Token count: 98
+Recut: none
+
+Clean Chunk #5 (original #7, segment 1)
+Text: Comment: Unusual Chinese Communist air and ground activity in the same general area. The amount of supplies which has been air-dropped to the Chinese Communist forces involved in this operation indicates that at least a regiment of troops has been committed there
+Token count: 42
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Tachaitzu
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 106
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 3. Soviet jets pursue B-29 inland over Japan: Far East Command reports that a B-29 on a surveillance mission over the Sea of Japan encountered six Soviet jet aircraft west of the northern tip of Hokkaido. On reaching the Hokkaido coast two of these planes followed the B-29 inland for a distance of ten miles. In an encounter over the Japan Sea on the Soviet aircraft turned back before reaching the Japanese coast. 4. Chinese Nationalists in Burma still receiving outside aid: General Li Mi is still in contact with Taipei and has recently received arms from Nationalist authorities there. Thai authorities are involved with the movement between Thailand and Formosa of Chinese Nationalists who are connected with Li Mi's operations. Comment: Li Mi still commands the Nationalist troops in Burma and that both Thai and Formosan authorities are supporting him, despite their denials. Such support is probably due to the control exercised by Li Mi's forces over the profitable opium trade in the area. The situation suggests that the Nationalist troops will not voluntarily agree to the plan of repatriation to Formosa which has recently been proposed by the Burmese Defense Minister
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.992857
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.973183
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #9, segment 1)
+Text: Comment: Mossadeq has a long-standing desire to eliminate the Shah's influence. At the time of Farouk's abdication, the pro-nationalist press in Tehran called attention to the fate of "kings who played politics
+Token count: 32
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.911329
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #10, segment 1)
+Text: EASTERN EUROPE 9. Hungarian Army General Staff scores lax discipline and desertions: lax discipline in the armed forces had permitted an excessive number of shooting accidents and desertions. The General Staff termed the number of desertions "unendurable," and threatened severe disciplinary action against corps and division commanders who fail to take necessary steps to cope with such situations. Comment: desertions from the Hungarian Army and security police is increasing, and several messages have referred to suicides
+Token count: 76
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.987857
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

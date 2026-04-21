@@ -1,0 +1,78 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.673077
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.966418
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 3. French seen abandoning Diem government to consolidate control in south
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.995115
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.937891
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 3. French seen abandoning Diem government to consolidate control in south: The French on
+Token count: 14
+Recut: none
+
+Clean Chunk #3 (original #3, segment 1)
+Text: July provided 6,000 rifles to the Binh Xuyen, the gangster organization in Saigon, this move and efforts by the French to win the support of politico-religious sects in the south as proof that they are, in effect, abandoning the Vietnamese government. France's policy of bolstering its own position in the south will force the Ngo Dinh Diem government to adopt an increasingly anti-French position. Comment: Increasing concern among French officials that Ngo Dinh Diem will become "another Syngman Rhee" lends weight to a report that the French are pressing Bao Dai
+Token count: 92
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.953155
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #4, segment 1)
+Text: to remain in France, where he will be more subject to their control and possibly may be used to sign an armistice agreement unacceptable to Diem and other Vietnamese leaders. The Binh Xuyen last May acquired control of the police force from Bao Dai at a price of over $1,000,000 and has since been the mainstay of his strength in Vietnam
+Token count: 63
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Jose
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.983469
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #6, segment 1)
+Text: Previous reports allege that the attack will be made by 14 July
+Token count: 12
+Recut: none

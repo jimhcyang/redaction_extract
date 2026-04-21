@@ -1,0 +1,139 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.761038
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #3, segment 2)
+Text: 3. DISSIDENT CUBAN MILITARY ELEMENTS REPORTED PLANNING REVOLT AGAINST BATISTA
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: USSR OFFERS TO INCREASE ITS MILITARY MAINTENANCE PERSONNEL IN EGYPT
+Token count: 10
+Recut: none
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: DISARMAMENT
+- original #2 segment 1: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 3: noncontent_keyword
+  Text: page 5
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.946210
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: considers
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: concerned
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Non-orbit
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: emphasis
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: propaganda
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: saying
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reducing
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=4
+alignment_score=0.950517
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: General
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: renouncing
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: situation
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: 3. DISSIDENT CUBAN MILITARY ELEMENTS REPORTED PLANNING REVOLT AGAINST BATISTA Comment Growing resentment within the armed forces against the present repressive regime has been reported recently, though support from the military has traditionally been Batista's main strength. Known leaders of an abortive army revolt in April 1956 were imprisoned, but others have evidently continued to recruit dissidents among young officers. Effective use of several planes might immobilize Camp Colombia, giving impetus and protection to other attacks on the government by some of the many groups which are bitterly opposed to Batista
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=0.848830
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #18, segment 1)
+Text: Abd al-Ilah is worried over King Saud's attitude. He said that while Saud had expressed concern to him over the Syrian developments, implying that Egyptian President Nasr was to blame, he nevertheless said the situation must not be remedied by force of arms
+Token count: 43
+Recut: none
+
+Clean Chunk #4 (original #21, segment 1)
+Text: Saud's cautioning against the overthrow of the present Syrian regime by force of arms may reflect fear of an Egyptian or Syrian countermove against him. Iraqi and Jordanian officials consider Saud's support essential for any attempt by the other Arab states to change the government in Syria. Saud may still cling to the idea that the trend there may be reversed by internal efforts
+Token count: 64
+Recut: none
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: requesting
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Hussayn
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Jordan
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: 5. USSR OFFERS TO INCREASE ITS MILITARY MAINTENANCE PERSONNEL IN EGYPT Comment on: The Soviet Union proposes to send 20 technicians to repair damages resulting from misuse of thermostat equipment on Egypt's three submarines and give training in maintenance. Egypt presumably will welcome these technicians. Cairo had previously requested Moscow to provide personnel to construct dry-dock facilities and to supervise the dry-docking of the submarines. Moscow also has recommended that Egypt accept 80 specialists to staff military "field and unit workshops." Egypt replied that this number of workshop specialists is "larger than can be accepted immediately" and that the "expenses are huge," the cost in 1957 of the program recommended by the USSR would be $600,000. Cairo suggested that only 30 of these specialists should be sent this year and that the number "be increased gradually in the future
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

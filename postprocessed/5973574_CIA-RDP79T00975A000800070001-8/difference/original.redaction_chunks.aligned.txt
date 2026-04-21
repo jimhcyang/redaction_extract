@@ -1,0 +1,67 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.604737
+
+Chunk #1
+Predicted text: security information
+Unredacted context: [UNRED_ONLY: security information] current intelligence bulletin
+Redacted context: [R@8] copy no 53 current intelligence bulletin office
+
+Chunk #2
+Predicted text: 27 july 1952
+Unredacted context: current intelligence bulletin [UNRED_ONLY: 27 july 1952] office of current
+Redacted context: 53 current intelligence [L@10:bulletin] [RED_GAP:<empty>] [R@11:office] of current intelligence
+
+Chunk #3
+Predicted text: security information
+Unredacted context: agency top secret [UNRED_ONLY: security information]
+Redacted context: [L@19] intelligence agency top secret
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.984848
+
+Chunk #4
+Predicted text: 1 guerrillas in west china located near kantzu page 3
+Unredacted context: summary far east [UNRED_ONLY: 1 guerrillas in west china located near kantzu page 3] 2 indian mission
+Redacted context: summary far [L@2:east] [RED_GAP:<empty>] [R@3:2] indian mission in
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.954878
+
+Chunk #5
+Predicted text: 1 guerrillas in west china located near kantzu comment since kantzu is on the principal route to tibet from chengtu a bandit uprising there would alarm the communists more than at most places in the border area
+Unredacted context: far east [UNRED_ONLY: 1 guerrillas in west china located near kantzu comment since kantzu is on the principal route to tibet from chengtu a bandit uprising there would alarm the communists more than at most places in the border area] 2 indian mission
+Redacted context: far [L@1:east] [RED_GAP:<empty>] [R@2:2] indian mission in
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.994898
+
+Chunk #6
+Predicted text: indo-china
+Unredacted context: or in the [UNRED_ONLY: indo-china] war 7 denmark
+Redacted context: rearmament or in [L@87:the] [RED_GAP:indochina] [R@89:war] 7 denmark fears
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.

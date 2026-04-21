@@ -1,0 +1,93 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.445652
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.981604
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOUTHEAST ASIA 5. Laotian government indicates desire for united anti-Communist stand
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.996774
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: one
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: However, it is still too early to make a final appraisal of the 1954 grain harvest. SOUTHEAST ASIA 5. Laotian government indicates desire for united anti-Communist stand: Comment: Laos has previously suggested its interest in a collective security system for Southeast Asia and its desire for American moral and material backing, excluding military intervention. The terms put forth by the Communists at Geneva for a Laotian settlement include Communist control of some part of that state and a ban on Laotian participation in a collective security system. There is evidence that the Laotian government is split on the question of whether to compromise with the Communists. EASTERN EUROPE 6. Comment on replacement of Semenov by Pushkin in East Germany: The appointment of G. M. Pushkin to replace V. S. Semenov as high commissioner and ambassador of the Soviet Union does not appear to indicate an immediate
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.776178
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: WESTERN EUROPE 7. West German defense commissioner fears consequences of rearmament delay: West German defense commissioner Theodore Blank has expressed a concern, reportedly shared by other Bonn coalition leaders, that British-American plans for West German sovereignty, with a prohibition on immediate rearmament, would only offer France further opportunities to hedge on EDC and to delay West German armament. Many Germans had supported rearmament only in return for regaining partial sovereignty, Blank told American officials, and if West Germany regained its sovereignty with no such condition, support for rearmament would wane. Social Democrats
+Token count: 92
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.953614
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: he said, were already returning to an antirearmament line and would exploit these sentiments to the detriment of Chancellor Adenauer's position. Comment: Adenauer appears less concerned with the rearmament delay. His advisers may be influenced by the unexpectedly strong encouragement to neutralism given by the all-German church rally in Leipzig a week ago, and the increasingly bitter SPD attacks on a future German national army, both of which could have serious political repercussions for the Bonn coalition
+Token count: 77
+Recut: none

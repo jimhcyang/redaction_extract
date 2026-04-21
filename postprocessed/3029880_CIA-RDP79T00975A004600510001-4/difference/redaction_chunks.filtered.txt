@@ -1,0 +1,229 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.525000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. C
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122914
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 28 AUGUST 1959 I. THE COMMUNIST BLOC Leading Chinese Communists reportedly to see Khrushchev about his talks with President Eisenhower. Chinese Communist military communications stepped up
+- original #3 segment 1: full_page_or_admin
+  Text: Taiwan Strait area. Khrushchev on forthcoming talks with President Eisenhower. II. ASIA-AFRICA Nasir decides against return of UAR students to USSR; seeks US instruction for them. India reassigns ministerial responsibility for food production in effort to meet production goals. Japanese - South Korean talks make no headway; South Koreans still trying to block Korean repatriation to North Korea. III. THE WEST De Gaulle's staff concludes military solution in Algeria impossible and will push political solution
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.916942
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #4, segment 1)
+Text: Taiwan Strait: There are a number of indications that Peiping may be preparing to step up the present level of military activity in the Taiwan Strait area. Communications activity bears a similarity to activity which occurred prior to the heavy bombardment of the offshore islands last fall. Naval and ground forces have been stepped up, and some observation posts have been giving hourly reports of weather and of the Chinese Nationalist Navy. Although Communist bomber activity continues at a very low level, fighter aircraft have been reacting strongly to Nationalist flights, and some mainland coastal air bases have greatly increased their number of alert flights. There has been no propaganda build-up, and these activities may reflect preparations for a military exercise, but they could also be indicative of preparation for some offensive military operations
+Token count: 134
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.910315
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #2 (original #5, segment 1)
+Text: USSR-Iraq: Khrushchev has solicited the Iraqi premier's views on Middle Eastern problems prior to the forthcoming meetings with President Eisenhower. Khrushchev intends to tell the President the USSR is determined to "prevent imperialist conspiracies" against Iraq. an apparent bid to reap goodwill by "showing concern for Iraqi interests"--"balances" a similar letter to UAR President Nasir in which Khrushchev asked for Nasir's opinions and assured him there would be no agreements "behind his back
+Token count: 74
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #6, segment 1)
+Text: UAR: President Nasir has decided not to allow UAR students to return to the USSR because while there they were subjected to effective political indoctrination. Nasir is now seeking to place 200 UAR students in American universities and desires some 100 to 150 American professors for UAR universities this fall. As recently as early June, the UAR was reported to be seriously concerned over political indoctrination of its students in the Soviet bloc; on 4 July, it had ordered them home for a "cultural seminar
+Token count: 85
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 2: noncontent_keyword
+  Text: Page 3
+- original #6 segment 2: noncontent_keyword
+  Text: Page 4
+- original #7 segment 1: noncontent_keyword
+  Text: Page 5) 28 Aug 59 DAILY BRIEF
+- original #7 segment 2: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.972845
+kept_candidate_count=4
+excluded_candidate_count=4
+
+Clean Chunk #4 (original #9, segment 1)
+Text: French Foreign Minister Couve de Murville, NATO representative Pierre de Leusse, and right-wing deputy Georges Bidault state that
+Token count: 18
+Recut: none
+
+Clean Chunk #5 (original #10, segment 1)
+Text: The foreign minister and De Leusse believe
+Token count: 7
+Recut: none
+
+Clean Chunk #6 (original #11, segment 1)
+Text: Bidault believes
+Token count: 2
+Recut: none
+
+Clean Chunk #7 (original #12, segment 1)
+Text: According to Couve de Murville
+Token count: 5
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: Page 6
+- original #13 segment 1: noncontent_keyword
+  Text: Page 7
+- original #14 segment 1: noncontent_keyword
+  Text: 28 Aug 59 DAILY BRIEF
+- original #14 segment 2: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.828723
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #8 (original #15, segment 1)
+Text: Reports of varying reliability state that
+Token count: 6
+Recut: none
+
+Excluded candidates:
+- original #16 segment 1: nonempty_redacted_alternate_conflict
+  Text: may be
+- original #17 segment 1: noncontent_keyword
+  Text: 28 Aug 59 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: visits more in line with Soviet comment. Peiping probably now feels the need to avoid further public statements which might significantly differ from the tone of bloc commentary and thereby suggest a lack of Sino-Soviet unity on a major international development. Therefore, any announcement of a visit by a top Chinese leader would portray it as another gesture of Sino-Soviet solidarity
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Aug 59 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: Khrushchev to Qasim Khrushchev has solicited the Iraqi premier's views on Middle Eastern problems prior to the forthcoming meetings with President Eisenhower. Khrushchev said he intends to tell the President that the USSR is determined to "prevent imperialist conspiracies" against Iraq. Khrushchev presumably also gave Qasim assurances that the USSR would not be a party to any agreements behind his back. Moscow has been careful over the past several months to maintain friendly ties with both Baghdad and Cairo. In addition to such gestures as profuse congratulations by Khrushchev and other Soviet leaders on the occasion of Iraq's and the UAR's revolution-day celebrations, the USSR has been implementing its economic and military assistance programs with both countries
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Aug 59 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: Nasir Bars Return of UAR Students to USSR and Seeks American Assistance Nasir has informed the American Embassy that UAR students now vacationing at home will not be allowed to return to the USSR because of the "disturbing" effectiveness of the Communist indoctrination received there. Nasir requested assistance in placing about 200 of these students in American universities this fall. Cairo newspaperman Muhammad Haykal, acting as Nasir's emissary, stated that a similar request to the United Kingdom was being considered, although the UAR was hesitating on this because of its "ingrained" suspicion of the British. In addition, Haykal indicated the UAR would like to obtain the services of 100-150 American professors to teach in UAR universities, as well as "some" scholarship aid. The UAR has reportedly been concerned for some time over Soviet attempts at indoctrination, but another substantial factor influencing Nasir's decision may have been student dissatisfaction with conditions in the USSR. Numerous reports have shown widespread discontent over such personal matters as food and living quarters, as well as the manner and content of the instruction received. The improvement in UAR relations with the West during the past several months has made Nasir's request politically feasible, and the change would probably be very well received by the students. The students apparently are those ordered by the UAR Government to return home last month for "screening." Two days after this order was issued, the USSR had "agreed to accept" 300 students for the next scholastic year. These 300, however, may have been scheduled for technical and vocational schools rather than universities
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 28 Aug 59 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.996532
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: noncontent_keyword
+  Text: 28 Aug 59 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.985687
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #9 (original #22, segment 1)
+Text: This activity has been accompanied by South Korean clandestine activities in Japan designed to obstruct repatriation plans
+Token count: 17
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #22 segment 2: noncontent_keyword
+  Text: 28 Aug 59 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=0.995455
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: noncontent_keyword
+  Text: 28 Aug 59 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=0.987266
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=red_only red_source_page=12 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=13 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

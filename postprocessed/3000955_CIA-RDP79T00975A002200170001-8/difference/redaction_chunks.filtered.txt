@@ -1,0 +1,82 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.551724
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. EGYPTIAN-SOVIET ARMS DEAL REPORTED IMMINENT
+Token count: 6
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 3. ASSOCIATES OF SUN LI-JEN TO BE REMOVED IN FORMOSA
+Token count: 10
+Recut: none
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 5
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 1. EGYPTIAN-SOVIET ARMS DEAL REPORTED IMMINENT the Soviet Union was press- ing Egypt to accept much more equipment than it wanted. The Soviet Union was also said to have offered long-term credit and a five-year supply of spare parts with each item shipped. Comment Since last spring the USSR has report- edly been offering arms to Egypt and other Middle Eastern states. An Egyptian arms purchas- ing mission was reported to have been sent to Moscow about 1 September. While these reports may have been passed on in order to hasten favorable American action on Egypt's arms requests, it now seems likely that Egypt will actually complete negotiations for Soviet arms
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.945508
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: sim- ilar
+- original #6 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: communica- tions
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: transpor- tation
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #9 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pro- posals
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 3. ASSOCIATES OF SUN LI-JEN TO BE REMOVED IN FORMOSA The commander in chief of Chinese Nationalist ground forces, General Chia Yu-hui, a former close sub- ordinate of General Sun Li-jen, ex- pects to be replaced by the chief of the Taipei garrison command. The Taipei garrison command reportedly will be taken over by a "Chiang Ching-kuo man" now in the Ministry of National Defense. Chiang Ching- kuo is planning to replace all persons in influential positions who have had close relations with General Sun. Lower-level officers who received training under Sun will be called in for "reindoctrination." Comment General Chia was reportedly being. closely watched early in August, as were other officers who had been close to Sun. Removal of capable commanders like Chia and wholesale "reindoctrination" of junior officers would lower morale in the army. Such moves would be interpreted as another victory for Chiang Ching-kuo, Chiang Kai-chek's son, who controls political officers as- signed to all military units

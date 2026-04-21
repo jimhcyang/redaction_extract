@@ -1,0 +1,128 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.782540
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #4, segment 1)
+Text: 6). 5. SOVIET ESPIONAGE IN IRAN
+Token count: 6
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 3)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: CHARGE
+- original #3 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: page 5
+- original #4 segment 2: noncontent_keyword
+  Text: page 7
+- original #4 segment 4: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.964806
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: Charles University
+Token count: 2
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.949254
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.934675
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: CHARGE
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.953208
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 5. SOVIET ESPIONAGE IN IRAN Comment on: Recent successes of the Iranian security forces in uncovering Soviet espionage nets could be used by the Shah to counter Moscow's offers of friendship and aid during his visit to the USSR in June. The Shah, who is now in Turkey, was informed by Iran's Supreme General Staff on 21 May that Iranian counterintelligence had uncovered a Soviet espionage net which had contacts in the Supreme General Staff, the American military advisory group, the police, and the gendarmerie. The eight Iranians in the net, which was headed by a Soviet national, were arrested and are under interrogation. An Iranian frontier commissioner has been arrested for espionage and complicity in border-crossing activities. The net to which the commissioner belonged apparently was uncovered a month ago when 400 persons were reported arrested in northern Iran. All these arrests will probably be exploited by the Iranian government to show the public that the USSR is still carrying on subversive activities in Iran in spite of recent friendly gestures. Wide publicity was given to the discovery in March that the Soviet assistant military attache in Tehran had been receiving documents from an Iranian air force officer. Likewise, Radio Tehran has been broadcasting the confessions of a former Iranian officer who allegedly had just returned to Iran after being trained in the USSR for espionage. In spite of these successes of Iran's security forces, Soviet espionage is probably still widespread
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 23 May) An Israeli policeman was wounded by Jordanian fire in the second clash in two days in the demilitarized zone on Mount Scopus in Jerusalem. (Press) The Israeli government makes no effort to disguise its growing concern over recent developments in Jordan, according to the American embassy in Tel Aviv. Israel's short-term concern relates to the diminishing will and ability in Jordan to control the border situation. Over the longer term it fears that present trends will proceed to the point where Jordan will become an outright military ally of Egypt. 12 Mystere jet-fighters from France may fly from Brindisi in southern Italy direct to Israel. It is necessary to await favorable winds at Brindisi, however, since the first flight of Mysteres over this route arrived in Israel with only eight minutes' fuel supply remaining. Israel did not take advantage of permission to stage the first group of 12 Mysteres through Greek airfields. Syria has signed a new contract with Czechoslovakia for additional Soviet bloc military equipment. Included are 38 122-mm howitzers, 25 122-mm field guns, 20 MIG aircraft and 75 armored vehicles. Soviet bloc deliveries under previous Syrian-Czech contracts are known to have included 15,000 submachine guns, 60 T-34 medium tanks, 18 100-mm self-propelled guns, 14 armored vehicles (of 45 ordered), 16 85-mm antiaircraft guns (of 32 ordered), 4 fire-control computers, MIG trainer aircraft, and spare parts and accessories for tanks. These deliveries are in addition to the Soviet bloc T-34 tanks and artillery supplied to Syria by Egypt under a separate arrangement. Syrian negotiations with the
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.122899
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: Soviet bloc have also covered other items: early-warning radar equipment, reconnaissance aircraft, mortars and grenades, a considerable number of military trucks, and possibly more tanks, self-propelled guns and MIG aircraft. Egypt, Syria, Jordan and Lebanon have stressed to diplomats
+- original #12 segment 1: full_page_or_admin
+  Text: Damascus the opposition of the Arab states to a return of UN secretary general Hammarskjold on a new mission with broader terms of reference than those of his first mission. (Press) At least 10 of the 12 new Soviet motor torpedo boats delivered to Egypt are now operational. These craft were observed conducting maneuvers, including target practice, off Alexandria on 19 May

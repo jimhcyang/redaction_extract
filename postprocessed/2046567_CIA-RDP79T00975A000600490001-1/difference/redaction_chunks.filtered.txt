@@ -1,0 +1,104 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.787500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.946835
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: comments on Soviet policy in Europe and Asia
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: North Korea purchases large number of trucks from USSR
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 4. internal deterioration in Egypt (page
+Token count: 6
+Recut: none
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: GENERAL
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: GENERAL 1. comments on Soviet policy in Europe and Asia: Two interviews granted by Soviet Foreign Minister Vyshinsky and Deputy Minister Zorin to members of the diplomatic corps in Moscow are reported as revealing Soviet policy in Europe and Asia. Zorin reportedly told that the time is ripe to bring about the unity of Germany and that if the Western Powers let this opportunity slip away, it will not soon come again. While it was not clear what Zorin intended, the USSR may expect the West to turn-down its present German proposals, in which event it will incorporate East Germany into the Soviet Orbit and offer coexistence in Europe. that this tactic might insure the temporary quiescence that the Soviet Union wants in Europe to be ready to meet any eventuality in Asia. In a separate interview with the Vyshinsky said that he believed that a Korean settlement is possible, but that the question of peace still would not be resolved in Asia because the United States is preparing to expand the conflict there. FAR EAST 2. North Korea purchases large number of trucks from USSR: Nearly 2,000 trucks are being imported by North Korea from the USSR, according to The North Korean mission in Moscow is instructed to open letters of credit for a Soviet export trust in payment for 2½-ton and 4-ton trucks and other motor vehicles
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.931579
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: Comment: indicate the continuing high level of logistical support given North Korea by the Soviet Union. The Far East Command estimated late in 1951 that the Communists had been able to keep nearly 10,000 vehicles operational, despite losses of nearly 32,000 vehicles since the beginning of the war
+Token count: 50
+Recut: none
+
+Clean Chunk #5 (original #7, segment 1)
+Text: internal deterioration in Egypt: The Egyptian monarchy may soon collapse, if measures are not taken now to counteract the recent "dangerous" turn in the internal situation. The ferment in the Army and the growing trend against King Farouk are particularly disturbing to palace and cabinet officials, who have admitted the seriousness of the situation
+Token count: 54
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: A person very close to the King has stated that the trend against Farouk would become more grave if he should make his customary European visit this year. The King, however, is not adopting any serious measures, but "continues his old life like a man sure of his own wisdom and destiny." Comment: King Farouk does not enjoy the full respect and confidence of his people. While his dismissal of the WAFD, his insistence on negotiations with Britain and his action in quelling the January riots in Cairo have added somewhat to his international stature, there is no evidence that his position inside Egypt has improved. Army ranks, however, may gradually be affected by popular discontent and widespread anti-British sentiment. 5. Syria willing to accept 500,000 more Arab refugees: Syria is willing to resettle 500,000 Arab refugees in addition to those already there, according to the Chief of State, Colonel Selo. Colonel Shishakli had previously intimated that he would welcome this opportunity for economic development. Colonel Selo urged an agreement integrating Syrian plans for a $200,000,000 development program with the UN Relief and Works Agency (UNRWA) projects. He also made it clear that in view of the political risks involved in accepting the refugees and in spite of the economic advantages, Syria would welcome any additional funds for general economic development which UNRWA could secure
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.736790
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=6 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.994186
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: country-wide

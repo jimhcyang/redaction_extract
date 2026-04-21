@@ -1,0 +1,79 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.800217
+
+Chunk #1
+Predicted text: security information
+Unredacted context: top secret [UNRED_ONLY: security information] 30 august 1952
+Redacted context: top [L@1:secret] [RED_GAP:us officials only] [R@5:30] august 1952 copy
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.955882
+
+Chunk #2
+Predicted text: page 3 2 twin-jet aircraft possibly identified in the 10th air army
+Unredacted context: soviet party congress [UNRED_ONLY: page 3 2 twin-jet aircraft possibly identified in the 10th air army] page 3 3
+Redacted context: on soviet party [L@10:congress] [RED_GAP:<empty>] [R@11:page] 3 3 comment
+
+Chunk #3
+Predicted text: near east africa 5 eastern europe 6 first identification of bomber unit in hungarian air force page 5
+Unredacted context: offensive page 4 [UNRED_ONLY: near east africa 5 eastern europe 6 first identification of bomber unit in hungarian air force page 5] western europe 7
+Redacted context: fall offensive page [L@34:4] [RED_GAP:<empty>] [R@35:western] europe 7 soviet
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.931081
+
+Chunk #4
+Predicted text: 2 twin-jet aircraft possibly identified in the 10th air army soviet far eastern intercepts of 11 august tentatively identified for the first time a twin-jet aircraft as being subordinate to the 10th air army the nature of the activity indicates either test flying or twin-jet transitional training comment the 10th air army in the far eastern military district is currently estimated to have 280 conventional light bombers the 9th air army in the maritime military district is estimated to have a total of 30 il-28 twin-jet aircraft while the soviet 5th fleet air force is believed to be re-equipping with tu-14 twin-jets
+Unredacted context: suppression of self-criticism [UNRED_ONLY: 2 twin-jet aircraft possibly identified in the 10th air army soviet far eastern intercepts of 11 august tentatively identified for the first time a twin-jet aircraft as being subordinate to the 10th air army the nature of the activity indicates either test flying or twin-jet transitional training comment the 10th air army in the far eastern military district is currently estimated to have 280 conventional light bombers the 9th air army in the maritime military district is estimated to have a total of 30 il-28 twin-jet aircraft while the soviet 5th fleet air force is believed to be re-equipping with tu-14 twin-jets]
+Redacted context: [L@119] any suppression of self-criticism
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.965054
+
+Chunk #5
+Predicted text: soviet union
+Unredacted context: [UNRED_ONLY: soviet union] 3 comment on
+Redacted context: [R@0] 3 comment on presence
+
+Chunk #6
+Predicted text: have begun for an october offensive although no major shifts of divisions have occurred there has been some regrouping of smaller units including artillery a campaign in the middle tonkin area is being planned the source comments that there may be an offensive in the northwestern sector of the tonkin delta with a diversionary attack on the southern perimeter near east africa 5
+Unredacted context: indicate that preparations [UNRED_ONLY: have begun for an october offensive although no major shifts of divisions have occurred there has been some regrouping of smaller units including artillery a campaign in the middle tonkin area is being planned the source comments that there may be an offensive in the northwestern sector of the tonkin delta with a diversionary attack on the southern perimeter near east africa 5]
+Redacted context: [L@213] vietnam indicate that preparations
+
+========================================================================
+[PAGE 05]
+kind=red_only red_source_page=5 unred_source_page=None
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=0.946813
+
+Chunk #7
+Predicted text: eastern europe 6 first identification of bomber unit in hungarian air force provided the first identification of a bomber unit in the hungarian air force the message sent from mezoetur stated that the 8th bomber regiment was moving from its home station comment previous to this report the hungarian air force was believed to have only fighter and ground-attack aircraft the recent re-equipment of some soviet light bomber units in hungary with jet aircraft may have permitted the transfer of the replaced pe-2 aircraft to the hungarian air force
+Unredacted context: [UNRED_ONLY: eastern europe 6 first identification of bomber unit in hungarian air force provided the first identification of a bomber unit in the hungarian air force the message sent from mezoetur stated that the 8th bomber regiment was moving from its home station comment previous to this report the hungarian air force was believed to have only fighter and ground-attack aircraft the recent re-equipment of some soviet light bomber units in hungary with jet aircraft may have permitted the transfer of the replaced pe-2 aircraft to the hungarian air force] western europe 7
+Redacted context: [R@0] western europe 7 soviet
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=0.998729
+
+Chunk #8
+Predicted text: western europe
+Unredacted context: [UNRED_ONLY: western europe] 8 schuman reportedly
+Redacted context: [R@0] 8 schuman reportedly more
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=7
+No candidate difference chunks on this aligned page.

@@ -1,0 +1,85 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.825000
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.973946
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.941880
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.968812
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens
+  Text: few
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.695455
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #6, segment 1)
+Text: Press) Egypt intends to station torpedo boats at the mouth of the Gulf of Aqaba. it should send specifications for the necessary pipes for supplying torpedo boats from a 5,000-gallon storage tank. Heretofore Egypt has stationed only a single patrol craft at the mouth of the gulf. The Israelis have recently transported three torpedo boats overland to Eilat, at the head of the gulf. The Soviet freighter General Cherniakhovsky, carrying heavy cases on deck, arrived at the Egyptian port of Alexandria on
+Token count: 83
+Recut: none
+
+Clean Chunk #2 (original #7, segment 1)
+Text: January and berthed in the closely guarded security zone there. This is the fourth vessel believed to have carried arms from the Black Sea to Alexandria since the beginning of the year. Each of them declared a cargo of machinery for Albania as it passed Istanbul. A fifth Soviet freighter, the Krasnodar, which reportedly made the same declaration when it passed Istanbul with large cases on deck on 8 January, may also be proceeding toward Alexandria. The Krasnodar has made two previous voyages carrying military equipment to Alexandria
+Token count: 88
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

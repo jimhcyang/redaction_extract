@@ -1,0 +1,264 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.660000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.927489
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Situation in Laos
+Token count: 4
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 4. Angola: Luanda generally calm; demonstrations against US held in front of American installations in Portugal. (Page ii) 5. North Vietnam: Army's political commissar removed from office, suggesting policy differences within party leadership. (Page iii
+Token count: 35
+Recut: none
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: Page 1
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: NORTHERN LAOS GOVERNMENT KONG LE - PATHET LAO KONG LE - PATHET LAO CONCENTRATIONS AREA OF ACTION ROAD TRAIL ROUTE NUMBER 0 50 100 STATUTE MILES
+- original #4 segment 2: noncontent_keyword
+  Text: 20 Mar 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #4 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.900897
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #5, segment 2)
+Text: Laos: (Information available as of 0400 EST) The government's blocking positions on Route 13--located about 25 air miles south of Luang Prabang and 15 miles north of Vang Vieng--have held so far against probing attacks by Kong Le - Pathet Lao forces. These positions, however, are vulnerable to enemy flanking movements. Government units in southern Xieng Khouang Province have been continuing their withdrawal toward Tha Thom. The chief of the US military mission in Laos reported on 18 March that General Phoumi is now rather desperate and cannot be persuaded to go on the offensive on any front. Phoumi, lacking trained reserves, is committing newly formed units in an effort to hold his defensive positions. Bloc airlift operations into Laos continue. Souvanna Phouma on 18 March arrived in India, where he hopes to obtain support for an immediate 14-nation conference on Laos. During his brief visit to Rangoon, Souvanna won Burmese Premier U Nu's agreement to participate in such a conference
+Token count: 162
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: DAILY BRIEF
+- original #5 segment 3: noncontent_keyword
+  Text: Backup, Page 1) (Map
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: NORTHWESTERN ANGOLA AREA OF UNREST 0 100 200 STATUTE MILES
+- original #6 segment 2: noncontent_keyword
+  Text: 20 Mar 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #6 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.943243
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #8, segment 1)
+Text: Angola-Portugal: Portuguese forces in Angola have taken prompt action to repress the terrorist groups which attacked numerous localities in northern Angola on 15 and 16 March. Portuguese officials have referred to "hundreds killed." These groups probably were largely directed by the Leopoldville-based Angolan People's Union (UPA). Torrential rains and difficult forested terrain have facilitated the withdrawal of the terrorists. The American consul in Luanda reported on 18 March that calm prevailed throughout the capital except at the airport, where troops and refugees were being shuttled to and from the areas attacked. In Portugal, demonstrations have been held in front of American diplomatic and consular establishments in protest
+Token count: 107
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Backup, Page 3) (Map
+- original #9 segment 1: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.931029
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: against the US vote in the Security Council last week. The Portuguese press claims the US vote has encouraged the Angolan agitators. (Backup, Page 5) (Map) North Vietnam: General Nguyen Chi Thanh, politburo member and North Vietnam's army political commissar for the past ten years, has been removed from his army post, according to a decree published in Hanoi on 15 March. It is not known whether this change will affect Thanh's politburo status or his position on the Defense Council. Probably the immediate cause of Thanh's removal is his rivalry with Chief of Staff General Vo Nguyen Giap; however, a more basic power struggle may be under way in Hanoi. Recent reports suggest there may be disagreement in the party on what tactics will be most effective in the campaign to overthrow South Vietnamese President Diem
+- original #10 segment 2: noncontent_keyword
+  Text: Backup, Page 6
+- original #11 segment 1: noncontent_keyword
+  Text: Backup, Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.990909
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Peiping's
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=0.121860
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin, short_span_min_tokens
+  Text: Situation
+- original #14 segment 1: full_page_or_admin
+  Text: Laos The collapse of the recent Phnom Penh talks with Souvanna Phouma has had a deleterious effect on the Boun Oum government's morale and confidence, already shaken by the military reverses. Laotian leaders, who had hoped that the talks might lead to a modus vivendi with the Pathet Lao, have turned their attention to various proposals of international action to resolve the crisis. They are even reconsidering the feasibility of some kind of UN action. General Phoumi has told Ambassador Brown that the Laotian Government prefers a 14-nation conference to a possible revival of the International Control Commission (ICC), but he said King Savang was prepared to accept almost any new formula for composition of an international body which would promise progress in the political field. Phoumi's remarks about Savang tend to confirm Indian Ambassador Ratnam's account of his recent meeting with the King, whom he described as discouraged and ready to accept any solution agreeable to East and West. The communique issued by the Boun Oum government on 17 March blaming Souvanna Phouma for the failure of the Phnom Penh talks came close to branding him a rebel. It denounced Souvanna for leaving on a world tour at the nation's critical hour and stated that the government could not permit his claim to represent before great powers "an authority of which parliament divested him and an influence over the factions that he never possessed." The communique advised that the Laotian Government would consider as an inimical gesture toward it any welcome of an official character that might be given Souvanna in any country he visited. Vientiane is particularly aroused by a report from its chargé in Paris that an official reception is being prepared for Souvanna in France and that he will be received officially by De Gaulle. Phoumi has instructed the chargé to protest and has told Ambassador Brown that Laos would be forced to break off its diplomatic relations with France if Souvanna were so received. French Foreign Ministry officials have told American representatives in
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 20 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=11 unred_source_page=11
+alignment_score=0.642900
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #5 (original #15, segment 1)
+Text: Paris that the French Government has not yet decided on how to handle Souvanna's visit, expected to last from 24 March to about 7 April. Burma termed Souvanna's recent visit "unofficial," even though a joint communiqué was issued. Communist bloc ambassadors, representatives, and correspondents are greeting Souvanna in full strength at each of his stops. Vientiane's concern over recent military and political developments is echoed in other Southeast Asian capitals. Prince Sihanouk has expressed pessimism over chances for achieving a truly neutral Laos, believing that a leftist-type neutrality is the best that can be hoped for in view of what he feels to be an irreversible trend toward Communist military dominance there. Philippine Foreign Affairs Secretary Serrano has stated that the West will be fortunate if it retains a small section of southern Laos against the Communists. A recent report spoke
+Token count: 141
+Recut: none
+
+Excluded candidates:
+- original #16 segment 1: nonempty_redacted_alternate_conflict
+  Text: lowered public morale in Vientiane and a spreading desertion movement among the Lao Army and civil servants. 15 Lao Air Force personnel, including five warrant officers and three sergeants, left their posts on the night of 16 March and are presumed to have deserted. a steady deterioration of Lao army morale; meanwhile, rumors and propaganda planted by the enemy have demoralized the civilian population. The Pathet Lao is pushing a campaign of psychological warfare to induce government troops to rally to its side, emphasizing that by so doing they will be saving their lives and hastening peace in Laos
+- original #17 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 2
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: noncontent_keyword
+  Text: Appropriate area controlled by: Kasavubu-Mobutu Gizenga Kalonji Tshombé United Nations Forces Selected road Selected railroad Selected airfield Cut railroad 0 STATUTE MILES 400
+- original #18 segment 2: noncontent_keyword
+  Text: 20 Mar 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #18 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=14 unred_source_page=15
+alignment_score=0.244150
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin, short_span_min_tokens
+  Text: Disorders
+- original #20 segment 1: full_page_or_admin
+  Text: Angola The attacks, directed primarily against white residents of frontier posts and isolated plantations but also against several towns, appear to have been confined to three administrative districts in northwestern Angola. They apparently were intended to focus world attention on the growing unrest among the native population rather than to signal the beginning of a civil war. The terrorists probably received some support from discontented natives who were serving the annual six-month term of forced labor required of unemployed Africans in Portuguese Africa. While the expected anti-American demonstrations in Angola have not yet materialized, the American consul in Luanda stated on 17 March that local officials had become openly unfriendly to consular personnel. A Portuguese official in Lisbon has unofficially recommended that Americans in Angola--who number about 225, mostly missionaries--remain off the streets for the next several days so as to avoid any possible incident. Salazar planned to visit General Franco in Madrid on 19 March to discuss "present Portuguese problems." Portuguese officials aware of the proposed visit believed an agreement would be reached at the meeting for Spain to provide military forces to help Portugal defend its overseas provinces. The visit has not yet been confirmed. Lisbon, which had been unresponsive to earlier initiatives by South Africa regarding joint defense efforts, may now be receptive to such an arrangement
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 20 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 16]
+kind=unred_only red_source_page=None unred_source_page=16
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: North Vietnam's Army Political Commissar Removed More politician than soldier, Nguyen Chi Thanh is a protegé of Truong Chinh, a tough-minded party theoretician who has been eclipsed as Ho Chi Minh's heir apparent by party First Secretary Le Duan. Both Truong Chinh and Thanh show affinity for the uncompromising approach taken by the Chinese Communists on domestic and foreign policy matters. Thanh has sought to inject Chinese concepts into the army, insisting on greater power for political officers and advocating the use of the armed forces in such nonmilitary functions as truck gardening. Thanh's ability to implement his views was considerably enhanced when he was promoted to full general in 1959. This made him the only officer to share this rank with Chief of Staff Vo Nguyen Giap. Rivalry between the two generals has been long suspected and seemed close to the surface last September when Giap made a speech containing a thinly veiled suggestion that political officers would do well to confine themselves to troop indoctrination and leave army administration to soldiers. Giap also has been reported opposed to using the army as a labor corps. In January the army began to divest itself of nonmilitary functions, and among the first to go were the army farms. Thanh's resignation reflects a serious power struggle among Ho Chi Minh's subordinates. Reportedly involved is disagreement over the most effective tactics for overthrowing South Vietnam's President Diem. Some guerrilla leaders reportedly favor less emphasis on the National Liberation Front advocated by Le Duan and more emphasis on violence, as advocated by Nguyen Chi Thanh. Hanoi's intention to maintain both paramilitary and political pressure on the South Vietnamese Government
+- original #21 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 20 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=15 unred_source_page=17
+alignment_score=0.905556
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=16 unred_source_page=18
+alignment_score=0.997076
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 13
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=17 unred_source_page=19
+alignment_score=0.976056
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 20]
+kind=match red_source_page=18 unred_source_page=20
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

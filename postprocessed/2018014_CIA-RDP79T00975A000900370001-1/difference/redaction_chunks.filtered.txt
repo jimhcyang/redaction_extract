@@ -1,0 +1,92 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.980000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.946951
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: FAR EAST 1. Communist China seeks general trade agreement with Ceylon
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 3)
+Text: SOUTH ASIA 2. Pakistan postpones consideration of withdrawal from the Commonwealth
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 4: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: FAR EAST 1. Communist China seeks general trade agreement with Ceylon: Comment: In support of its campaign to promote opposition to American sponsored restrictions on trade with China, Peiping has already negotiated a sale of 80,000 tons of rice in exchange for which the Colombo government agreed not to block exports of rubber to China. The above is the first reliable evidence that Ceylonese and Chinese Communist representatives have carried on extensive discussions looking toward a general trade agreement between the two countries. A general trade agreement would be a major success in Peiping's campaign, since it would be the first to be concluded between China and any government not under Soviet influence. SOUTH ASIA 2. Pakistan postpones consideration of withdrawal from the Commonwealth: The Pakistani Cabinet has decided to postpone consideration of Pakistan's withdrawal from the Commonwealth in the hope of being invited to participate in the Middle East Defense Organization; the government will reconsider the question of withdrawal if nothing comes of any invitation to join MEDO
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.928041
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #5, segment 1)
+Text: Comment: Pakistan is unlikely to withdraw from the Commonwealth in the near future since the benefits it now obtains from membership outweigh those to be gained by withdrawal. The government, recognizing an opportunity to obtain defense supplies and equipment, without immediate likelihood of its employment in the defense of the Middle East, may be using the threat of withdrawal to override criticism of the British plan for its inclusion by nations such as India, Turkey, and France and to ensure that the projected invitation is actually delivered
+Token count: 87
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens
+  Text: to
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.992969
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

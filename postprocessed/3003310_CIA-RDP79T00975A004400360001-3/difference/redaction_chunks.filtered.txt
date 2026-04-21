@@ -1,0 +1,145 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.757143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122857
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 24 APRIL 1959 I. THE COMMUNIST BLOC USSR and Nepal agree to exchange of diplomatic missions. II. ASIA-AFRICA Iran preparing protest on Soviet propaganda attacks; may take issue to the United Nations. Dalai Lama wants to make public statement about setting up "Free Tibetan" government; Peiping press more critical of India's role
+- original #2 segment 1: full_page_or_admin
+  Text: Tibetan issue. III. THE WEST Finnish commander in chief to make "friendship" visit to USSR in early May; USSR may renew pressure on Finns to buy Soviet weapons. France setting up new military commands involving Africa in move designed to emphasize De Gaulle's desire to mark off specific areas of defense responsibility
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.914286
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 2)
+Text: II. ASIA-AFRICA Iran-USSR: Foreign Minister Hekmat is greatly concerned over renewed propaganda attacks by the USSR and is preparing a very strong note of protest. He is again considering the advisability of raising the issue in the UN and indicated he may also protest the numerous recent overflights by Soviet aircraft. (Page 2) Tibet-India: The Dalai Lama expressed his determination to set up a "Free Tibetan" government and work for Tibetan independence. His desire to state these goals publicly has already created some difficulties with New Delhi. Since Nehru has indicated his opposition to political activities by the Dalai Lama while in India, the Dalai Lama has said he may feel impelled to seek asylum elsewhere. The Peiping press on 23 April adopted a tougher line toward India when it accused "Indian officials" of releasing the Dalai Lama's statement on 18 April, thus abetting "vicious attacks on China
+Token count: 148
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: Page 1
+- original #3 segment 3: noncontent_keyword
+  Text: Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.971700
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #4, segment 1)
+Text: The USSR may want Finland to use part of a commodity credit offered in May 1958 for arms purchases. Until now, the Finnish military leadership has consistently opposed such purchases
+Token count: 30
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 2: noncontent_keyword
+  Text: Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.964988
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #5, segment 1)
+Text: Ponomarenko informed the Indian Government on 20 April that such a move was pending and that the USSR had responded to "Nepali overtures"--an apparent effort to minimize New Delhi's reaction
+Token count: 31
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: agreement
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: invitation
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: expected
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.122017
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Iran Preparing Strong Protest to USSR Foreign Minister Hekmat Iran is preparing a "very strong" note, which it expects to deliver to the Soviet Union
+- original #10 segment 1: full_page_or_admin
+  Text: the near future, protesting "savage" propaganda attacks against the Shah and an estimated 100 unauthorized flights in recent months over the Iranian Azerbaijan area. Hekmat is also considering placing these problems before the UN. Iran's campaign to improve relations with the USSR apparently has made no headway, despite efforts by the new ambassador to Moscow, Abdol Hosein Masud-Ansari, to obtain the cessation of propaganda attacks and to create an atmosphere in which outstanding problems could be discussed. Although Hekmat claims that Soviet propaganda against Iran temporarily ceased on 17 April, American monitors have noted no such interruption. While Moscow's campaign had not stopped entirely, for several days Soviet propaganda had not attacked the Shah personally, which is probably Hekmat's principal concern in the matter. The Iranian Government denies that Soviet propaganda is having any effect on the Iranian public, but Tehran's recent overtures to Moscow are indicative of continuing concern over its possible effectiveness. The Foreign Ministry, Masud-Ansari remains optimistic and has informed Tehran that, in his opinion, the USSR is looking for a way to improve relations and would do so if Iran ceased its counterpropaganda. Available information suggests, however, that Moscow is unlikely to curtail its propaganda attacks which thus far have been the primary means used by the USSR to exert pressure against the Shah's regime
+- original #10 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 24 Apr 59 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: Dalai Lama Apparently Determined to Work for Tibetan Independence The Dalai Lama all Tibetans now are convinced that attempts to obtain autonomy are useless, and that he is determined to work for independence despite Prime Minister Nehru's advice that autonomy remain the goal of the Tibetans. The Lama also expressed his determination to establish a "Free Tibetan" government at Lhuntse Dzong in Tibet, near the Indian and Bhutanese borders, and seek international recognition for it. He added that if New Delhi objected to such action he and his cabinet would seek asylum outside India. Since Chinese Communist forces apparently are now in control of Lhuntse Dzong, the Dalai Lama may decide to set up a government-in-exile. His desire to state his goals publicly has already created some difficulties with the Indian Government, which opposed such a strong statement. Nehru has said that the Dalai Lama will be free to carry on his spiritual activities but that India cannot permit its territory to be used for political activities against Communist China. Nehru is likely to make strenuous attempts to persuade the Dalai Lama to moderate his goals at their 24 April meeting at Mussoorie, but might eventually request him to seek asylum elsewhere if he persists in his present plan. Peiping has dropped its reticence about attacking India directly. People's Daily on 23 April accused Indian Foreign Ministry officials of abetting "vicious attacks on China" by releasing the Dalai Lama's 18 April statement, in which he denied he was abducted from Tibet. This and similar charges made by speakers representing Communist China's puppet parties indicate that Peiping intends to maintain pressure on Nehru to curtail the Dalai Lama's activities and statements. The Chinese Communists, however, have thus far avoided a formal diplomatic protest on this issue
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 24 Apr 59 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.920884
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #14, segment 1)
+Text: The Heiskanen visit may involve the purchase of Soviet military equipment under the long-term credit in rubles of $100,000,000 to $125,000,000 offered Finland during Kekkonen's state visit in May 1958. During that visit Soviet officials pressed the Finns to purchase jet aircraft tanks, radar and communication equipment, and naval vessels. Kekkonen felt that Finland should purchase a limited number of MIG fighters to balance the acquisition of British jets and agreed to negotiate at a later date with the USSR. The Finnish armed services have consistently opposed such purchases
+Token count: 93
+Recut: none
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: generals
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Heiskanen
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

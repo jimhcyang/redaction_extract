@@ -1,0 +1,181 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.305000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. C CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.123114
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 8 OCTOBER 1960 I. THE COMMUNIST BLOC Communist China rebuts recent Soviet statement on need to avoid all wars. II. ASIA-AFRICA Union of South Africa--Narrow margin of victory
+- original #3 segment 1: full_page_or_admin
+  Text: favor of republic likely to deepen divisions within white population; Africans appear indifferent. Nigeria rebuffs Soviet bid for immediate diplomatic relations. Laos--King apparently abandons plan to promote political reconciliation between Vientiane and Savannakhet. Congo--Mobutu confronts UAR with evidence of intervention for Lumumba. III. THE WEST West Germany's cancellation of trade agreement with East Germany raises some misgivings
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.875623
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #4, segment 1)
+Text: Communist China: General Fu Chung, a deputy director of the Political Department of the Chinese Communist Army, in two articles in the People's Daily has described as a "naive illusion" the view that wars can be avoided while the class system exists. He said, "As long as classes exist there will be armies, arms, and wars," but he conceded the possibility of avoiding global war. He also declared that "atomic bombs could by no means destroy the human race" and that the outcome of a future war will depend upon men and not atomic bombs. The articles were in the form of a comment on the new edition of Mao Tse-tung's works on the Chinese revolution, and their content and timing have the effect of rebutting the Soviet view on war as expressed recently by General Talensky, who implied it was necessary to avoid all wars because of the danger that limited wars would lead to enormously destructive world wars. This unequivocal reaffirmation by the Chinese of the dogma that limited wars are inevitable and global wars possible, together with the downgrading of the effects of nuclear war, again indicates clearly that they feel there is less reason for the bloc to avoid the risk of war than does the USSR. Peiping is in effect urging a much-higher-risk policy on Moscow than the Soviet party thinks justified by the present balance of power
+Token count: 233
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.996233
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.870607
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #6, segment 1)
+Text: Republic of the Congo: Army chief Mobutu confronted him with documents in which Cairo agreed to place its UN contingent under Lumumba's command in event of a crisis. Mobutu spoke of reconvening the Congo parliament, a course of action which Mobutu may be inclined to favor since the action of a group of deputies in denouncing Lumumba on 3 October. He described Mobutu as "close to a nervous breakdown," and reported that Mobutu admitted to having lost 30 pounds
+Token count: 79
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #7, segment 1)
+Text: Berlin: West Germany's cancellation of its 1961 interzonal trade agreement--which initially received wide approval in Bonn--is now arousing second thoughts among government and party leaders there. Members of the Social Democratic foreign affairs working group in the Bundestag are reportedly highly critical of the move. One leader has voiced a fear that the new trade negotiations would, for the first time, have to be conducted on a government-to-government level, thus enhancing the position of East Germany and undermining the four-power status of Berlin. West Germany is apparently willing to negotiate a new trade agreement in exchange for East German access guarantees--a right which the West maintains is already guaranteed by the USSR in the 1949 agreement. It also notes continued British and French reluctance to impose economic sanctions in retaliation for East German travel restrictions
+Token count: 138
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 2: noncontent_keyword
+  Text: Page 3
+- original #7 segment 2: noncontent_keyword
+  Text: Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.988945
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #9, segment 1)
+Text: The First Military Region commander, whose headquarters is in Luang Prabang
+Token count: 11
+Recut: none
+
+Clean Chunk #5 (original #10, segment 1)
+Text: This commander
+Token count: 2
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: permitting
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Ouane
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.243921
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin, short_span_min_tokens
+  Text: Situation
+- original #13 segment 1: full_page_or_admin
+  Text: the Congo Army chief Mobutu confronted him with documents in which the UAR charge agreed in late September to place the UAR contingent in the Congo under Lumumba's command in the event of a crisis. denied this and other evidence of Cairo's intervention on Lumumba's behalf, he reported to Cairo that a search of files revealed that such a commitment had been made by his predecessor in a letter to the deposed premier. Mobutu spoke of reconvening the Congo parliament, an action which may have gained favor with Mobutu after a group of deputies spoke out against Lumumba on 3 October. has characterized as exaggerated the claim of anti-Lumumba spokesmen that Lumumba now is opposed by three quarters of the legislators from his erstwhile political stronghold, Orientale Province, but adds that the defections are significant, since Lumumba's parliamentary support has hitherto been based almost entirely on the unity of his followers from Orientale Province. Despite the recent trend against Lumumba--highlighted by the arrest of three of his lieutenants in Stanleyville and the erosion of his parliamentary support--he continues to enjoy a considerable measure of foreign support and to benefit from indecisiveness on the part of the harassed Mobutu. In addition to the active support he is receiving from Ghana, Guinea, and the UAR, Lumumba is supported somewhat less enthusiastically by Morocco, whose secretary general for foreign affairs stated on 6 October that the only feasible solution to the Congo impasse would be a working agreement among Kasavubu, Lumumba, and Mobutu, Lumumba may also benefit from the physical strain undergone by Mobutu, who has spoken of "quitting" and who was described
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 Oct 60 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: as "close to a nervous breakdown." Elsewhere, the director of the Congo Central Bank in Brussels has stated that the Congo Government has requested its last line of credit, and that after this is exhausted--around 15 October--the Congo will have no further funds. He noted, however, that it might be possible to permit further borrowing by raising the present debt ceiling
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 Oct 60 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: West Germans Having Second Thoughts on Cancellation of East German Trade Agreement West Germany's cancellation on 30 September of its 1961 interzonal trade agreement with East Germany--which initially received wide approval in Bonn--now is arousing second thoughts among government and party leaders there. Members of the opposing Social Democratic party's foreign affairs working group in the Bundestag are reportedly highly critical of the move. One leader has voiced a fear that the government might, for the first time, be forced to give in to East German pressure to conduct new trade negotiations on a government-to-government level, thus enhancing the position of East Germany and undermining the four-power status of Berlin. Although West Berlin Mayor and SPD chancellor candidate Willy Brandt and possibly other SPD leaders were consulted regarding the move, SPD Deputy Chairman Herbert Wehner complained that it took the party completely by surprise. He also stated that the party was in a quandary because Brandt had agreed to the cancellation before other SPD leaders had an opportunity to consider it. Deputy Foreign Minister Carstens, at an off-the-record briefing for newsmen on 4 October, reportedly conveyed the impression that Bonn is retreating a little from its trade pact decision and feels somewhat defensive about it. Bonn is apparently willing to negotiate a new trade agreement in exchange for East German guarantees on access to Berlin--a right which the West maintains is guaranteed by the USSR in the 1949 agreements. continued reluctance on the part of the French and British to impose effective economic or travel sanctions--including the denial of travel visas to East German trade mission personnel--in retaliation for East German travel restrictions. Ankara has informed Bonn not to expect Turkish
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 Oct 60 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: support in its economic or travel sanctions. Efforts to line up Allied support for countermeasures have been complicated by conflicting public statements of leading German officials regarding the significance of the trade pact cancellation and the statement in the North Atlantic Convention on 5 October by the West German permanent representative that--contrary to previous indications--interzonal trade could not in practice continue after 1 January 1961 in the absence of a new agreement with the East Germans
+- original #16 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 Oct 60 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=10 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

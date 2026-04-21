@@ -1,0 +1,124 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.652273
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.973864
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: FAR EAST 3. Central China floods damage railroad and airfields
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: LATIN AMERICA 10. Attack on Costa Rica reported imminent
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.968395
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: two
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.889264
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: FAR EAST 3. Central China floods damage railroad and airfields: The Yangtze River at Anking between Hankow and Nanking was approaching the 1949 flood level which broke the dikes. The Anking airfield was said to be under one to two feet of water. Meanwhile, a civil air transport began airlifting flood-stranded passengers from Changsha, on the main Hankow-Canton railroad, to Canton. The railroad roadbed was said to be washed out in the vicinity of Chuchou. Comment: The 1949 flooding of the Yangtze River and lakes in central China was one of the most severe recorded. It caused widespread damage to crops in the area known as the Rice Bowl of China, and was in part responsible for the famine of early 1950. Chuchou is a key junction of the railroads from Hankow and Shanghai, and all traffic for Canton and the Indochina border area passes through that city
+Token count: 148
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.990069
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: ultranationalist
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.976578
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #7, segment 1)
+Text: A report from Hanoi on 7 July that the French had begun to evacuate Son Tay Province, northwest of Hanoi, indicates that Ely's "one additional withdrawal" has already begun
+Token count: 29
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Scotten
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.995115
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.996816
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.968178
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #9, segment 1)
+Text: LATIN AMERICA 10. Attack on Costa Rica reported imminent: Comment: Costa Rican officials are showing extreme nervousness over the growing number of reports of an imminent attack sponsored by Venezuela and Nicaragua
+Token count: 32
+Recut: none
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: The Costa Ricans participating in such a move would be adherents of ex-dictator Calderon Guardia, who controlled the Communist-supported Picado government overthrown by Figueres in 1948. Despite Calderon's record of co-operation with Communists, rightist regimes in the Caribbean area have long backed him because of their hatred for Figueres. Figueres, who relinquished control of the government in 1949, regained the presidency in a regular election last July and has since given encouragement and probably material assistance to exiled opponents of these rightist regimes

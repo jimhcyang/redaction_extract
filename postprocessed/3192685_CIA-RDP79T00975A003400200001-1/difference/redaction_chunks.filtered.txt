@@ -1,0 +1,140 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.540385
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: CURRENT INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.949194
+kept_candidate_count=1
+excluded_candidate_count=8
+
+Clean Chunk #1 (original #6, segment 4)
+Text: 7. GUATEMALAN CRISIS NEARING A CLIMAX
+Token count: 6
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: page 4
+- original #4 segment 1: noncontent_keyword
+  Text: page 5
+- original #5 segment 1: noncontent_keyword
+  Text: page 6
+- original #6 segment 1: noncontent_keyword
+  Text: page 7
+- original #6 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: 6
+- original #6 segment 3: noncontent_keyword
+  Text: page 8
+- original #6 segment 5: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.998522
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.990952
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: Comment on
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: increasingly
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.998571
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.998678
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.992600
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: Comment on
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: advisers
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.140179
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: noncontent_keyword
+  Text: 24 Nov 57 Current Intelligence Bulletin
+- original #15 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 8
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: 7. GUATEMALAN CRISIS NEARING A CLIMAX Comment on: The Communist-infiltrated Revolutionary party (PR) plans a three-day general strike this week if it is not officially recognized and granted the right to participate in the 19 January elections. Peaceful PR demonstrations by about 3,000 persons in Guatemala City last week failed to achieve the party's aim; if the strike also fails to bring legal recognition, the party is believed ready and able to resort to serious violence. Railroad workers, who have the country's largest and best organized union and who are responsive to PR leadership, have decided to strike on 25 November if their wage and other demands are not granted. Though not related directly to the political situation, the strike is likely to be exploited by the PR. A PR-led group within the union is to plan the murder of American officers of the United Fruit Company as part of a sabotage and terror campaign to be launched if the PR is denied legal recognition. The decision for or against PR legality is likely to bring the tension to a climax. Several groups, ranging from extreme rightists to self-proclaimed moderates, are concurrently plotting to seize the government. Each claims support from some elements of the divided army. Decision of the controversial issue might provide one or more of them with the necessary pretext and the resulting breakdown of public order could be more serious than that which followed the abortive election of 20 October
+- original #16 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 24 Nov 57 Current Intelligence Bulletin Page 9

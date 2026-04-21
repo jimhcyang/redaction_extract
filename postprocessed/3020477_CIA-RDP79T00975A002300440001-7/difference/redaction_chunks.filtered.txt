@@ -1,0 +1,83 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.610417
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.975000
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.979144
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #4, segment 1)
+Text: There are indications that if a general strike of indefinite duration is called, they will try to break it even at the risk of splitting CUTCH
+Token count: 26
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.937368
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.920812
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #7, segment 1)
+Text: Soviet freighters Alexander Ushakov and Sukhona indicate that both were headed toward Egypt. These vessels passed Istanbul coming out of the Black Sea on 31 December and 2 January. Both declared cargoes of machinery for Albania. Similar bogus declarations were made by several of the Soviet freighters which previously carried military equipment to the port of Alexandria. The Ushakov delivered one such cargo, arriving at Alexandria on 4 or 5 December
+Token count: 71
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #6 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

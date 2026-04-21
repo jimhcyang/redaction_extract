@@ -1,0 +1,230 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.585000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 68
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.244871
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 20 MAY 1960 I. THE COMMUNIST BLOC
+- original #3 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: USSR may have attempted and failed recover of Sputnik IV cabin on 18 May. 2. Soviet bloc military activity conveys no threatening implications. 3. USSR, Japan sign 1960 fishing agreement providing further reduction of Japanese salmon quota. II. ASIA-AFRICA 4. Indian envoy
+- original #4 segment 1: full_page_or_admin
+  Text: Moscow feels U-2 forced Khrushchev to show himself ‘tougher’ than colleague but won’t reverse basic detente policy. 5. Indonesia ousts two Chinese Communist consuls in repatriation dispute. 6. Cambodia--Sihanouk calls for June plebiscite to show his domestic support in dispute with Bangkok, Saigon. 7. South Korea studies possible reorganization of armed forces to preclude involvement in politics. 8. Congo--Nationalist leader threatens forceful reaction to planned reinforcement of Belgian security units. 9. Iran withdraws support from Iraqi exiles in Jordan plotting against ‘regime. 10. Guinea--Touré seeks foreign aid for early start on Konkoure hydroelectric project
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.859534
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #5, segment 1)
+Text: I. THE COMMUNIST BLOC. *USSR: Preliminary evidence indicates that the USSR may have attempted on 18 May to recover the space cabin from Sputnik IV, and failed because of faulty orientation of the spaceship at the time of firing of the retrorocket. (Page 1) *USSR: There continue to be no significant changes in over-all pattern of Soviet and European satellite military activity. Soviet ground forces activity appears to be normal and, while there are some indications of unusual Soviet air and naval activity, these are not evaluated as significant increases in the readiness of Soviet forces for hostilities. Flight activity levels of the Long Range Air Force and of tactical and air defense units have been generally normal during the past week. Flight schedules calling for redeployment of most of the jet heavy bombers based at Ukraina in the Far East to European bases are believed to represent exercise activity; these may be used in a fly-by on Khrushchev’s return to Moscow. Twelve or more submarines may be leaving to Northern Fleet waters, possibly as a precautionary deployment similar to those noted during the Middle Eastern and Berlin crises of 1958 and 1959. The heavy bomber and possible submarine activity did not change the 18 May conclusion of the USIB Watch Committee that no Soviet bloc military activity has been detected which conveys threatening implications
+Token count: 226
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Japan’s
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.931828
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #7, segment 1)
+Text: India-USSR: Nehru’s public comments in Cairo suggest he will urge moderation on both bloc and Western statesmen. he believes the Soviet premier “does not like walking on the razor’s edge of war and peace” and will not reverse his policy of detente as long as there is the “slightest hope” of accommodation with the West. the firm American stand on the U-2 incident has placed Khrushchev in a difficult position, and that he now has to appear “tougher than his colleagues” in order to show himself to be “a more fervent Russian patriot than anyone else
+Token count: 98
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Djakarta’s
+- original #9 segment 1: noncontent_keyword
+  Text: Page 3
+- original #10 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Sihanouk’s
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.940457
+kept_candidate_count=1
+excluded_candidate_count=6
+
+Clean Chunk #3 (original #16, segment 1)
+Text: Iran-Iraq-Jordan: withdrawal of support, because of “the lack of security and impotence of the committee,” from Iraqi exiles led by former Premier Ali Jawdat Ayyubi who have been preparing for possible action against Iraq. Iran apparently sees no “necessity” for action against Iraq at this time because of recent shifts in Qasim’s policy. The Jordanian Government, which was cooperating with Iran in backing the Iraqi exiles, reportedly is also discouraged about the Ayyubi group but remains interested in exploiting the Iraqi situation
+Token count: 83
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Page 4
+- original #12 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Yi’s
+- original #13 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Yi’s
+- original #14 segment 1: noncontent_keyword
+  Text: Page 5
+- original #15 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Belgium’s
+- original #16 segment 2: noncontent_keyword
+  Text: Page 6
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.990128
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Konkoure
+- original #18 segment 1: noncontent_keyword
+  Text: Page 7
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Possible Attempt at Recovery of Sputnik IV Preliminary evidence indicates that the USSR possibly attempted recovery of the space cabin from Sputnik IV on 18 May and failed because of faulty orientation of the spaceship at the time of firing of the retrorocket. As Sputnik IV was approaching the Tyura Tam rangehead on its 63rd orbit, the rangehead was preparing for some undetermined operation, with timing signals to begin at about 1949 EDT when Sputnik IV was nearby. Subsequent to this time the orbital period of Sputnik IV has increased by three to four minutes. multiple objects aloft which could indicate that separation of the space cabin has taken place. At present the evidence is not conclusive, but it is possible that the retrorocket intended to return the space cabin to earth was oriented improperly at the time of firing and instead sent the cabin into a higher orbit with an attendant lengthening of the orbital period
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.975668
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Khrushchev’s
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.949462
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Djakarta’s
+- original #22 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Indonesia’s
+- original #23 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Indonesia’s
+- original #24 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Djakarta’s
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.955629
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Vietnam’s
+- original #26 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Sihanouk’s
+- original #27 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: for the asking
+- original #28 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: En-lai’s
+- original #29 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Chou’s
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.962667
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #30 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: organization’s
+- original #31 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Yi’s
+- original #32 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: military’s
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #33 segment 1: full_page_or_admin
+  Text: Iran Withdraws Support of Iraqi Exiles Plotting Against Qasim Iran’s National Intelligence and Security Organization (SAVAK) has withdrawn its support from the committee of Iraqi exiles led by former Iraqi Premier Ali Jawdat Ayyubi which has been preparing for possible action against the Iraqi Government. SAVAK referred to “the lack of security and the impotence of the committee” which indicated “there was no hope for their activities.” “the government of Iran sees no necessity for this type of activity,” in view of recent changes in the policy of the Iraqi Government--presumably including Qasim’s anti-Communist moves. The door was left open however for possible future cooperation with a new committee of exiles. The Jordanian Government apparently is also discouraged about backing the Ayyubi group. Nevertheless, King Husayn probably continues to believe that he could successfully exploit an upheaval in Iraq. Ayyubi reportedly told the Jordanians on 15 May that Iran had withdrawn its support, although he indicated that its dissolution actually was a maneuver to get rid of certain members and that the committee would continue to function. According to this report, a split developed within the committee between a group determined to restore monarchical rule in Iraq and a faction led by Ayyubi which advocates a republican regime. Meanwhile, the Jordanians have received information that a group of high-ranking army officers in Iraq is ready to cooperate with Jordan. Amman also has reports, however, that certain other Iraqi officers are preparing coups in Jordan and Syria. While none of these reports are confirmed, Qasim continues to promote his plan for a Palestine republic which would incorporate portions of Jordan and the UAR. In a speech on 15 May to Palestinian cadets--the nucleus of a projected Palestinian army backed by Iraq--he spoke ominously of his plan, which he said would be implemented suddenly and “astonish and destroy the enemy
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=0.968899
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #34 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: project’s
+- original #35 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Guinea’s
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=14 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=15 unred_source_page=16
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

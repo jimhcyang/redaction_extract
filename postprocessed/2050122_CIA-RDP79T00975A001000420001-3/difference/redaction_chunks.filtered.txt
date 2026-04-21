@@ -1,0 +1,63 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.778125
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 53
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.886036
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: S U M M A R Y GENERAL 2. Soviet official expects US pressure for Arab neutrality in Israeli dispute (page 3). SOVIET UNION 3. Early Soviet maneuvers in occupied Europe suggested
+Token count: 32
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: GENERAL 2. Soviet official expects US pressure for Arab neutrality in Israeli dispute: the United States will bring pressure on the Arab countries to adopt a neutral position toward the Soviet-Israeli dispute at the coming meetings of the General Assembly. Comment: This approach probably represents Moscow's first step to align Arab support behind the Soviet anti-Israeli moves in the General Assembly meetings which resume on 24 February
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.519126
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: In the earlier meetings of the Seventh General Assembly, there were indications that the Arab-Asian bloc was ready to accept Soviet support. SOVIET UNION 3. Early Soviet maneuvers in occupied Europe suggested: Comment: Similar activity was noted in 1952, beginning two to three weeks later, prior to the departure of combat troops to their field training areas. Soviet ground force elements in Germany and Austria, lend credence to the possibility that field training may begin earlier this year
+Token count: 78
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.938344
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: If the government's petition is accepted, Adenauer will postpone Bundestag action until April, in the expectation that the court's opinion on the treaties' legality would be favorable. Comment: The Chancellor recently stated that the French protocol demands might cause further delay. His coalition supporters are now urging rapid ratification without any treaty changes. They suggest that the protocols might later be negotiated and approved by executive action
+Token count: 67
+Recut: none

@@ -1,0 +1,71 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.926187
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: FAR EAST 1. South Korean corps commander urges support for pro-American generals
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.885419
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #2, segment 1)
+Text: FAR EAST 1. South Korean corps commander urges support for pro-American generals: General Chong Il-kwon, commander of the South Korean II Corps, is anxious for the United States to support American oriented and trained South Korean generals should the army resist an order to march north. He also wants the US to make "flexible plans" covering, among other things, the possibility of Rhee's death and a coup d'etat. Comment: This is the second time in recent weeks that General Chong has hinted at the possibility of a coup or that the South Korean army might refuse to obey an order from Rhee to renew the war. Chong is a competent and respected military leader. He is also highly ambitious and may hope that such statements will generate American support for his appointment as chief of staff
+Token count: 136
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.965306
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.987072
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.955626
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: established
+- original #4 segment 1: short_span_min_tokens
+  Text: contract
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 200
+- original #6 segment 1: short_span_min_tokens
+  Text: for
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: worth while

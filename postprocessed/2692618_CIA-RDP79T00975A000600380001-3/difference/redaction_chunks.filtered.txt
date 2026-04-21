@@ -1,0 +1,112 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.735326
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION CURRENT INTELLIGENCE BULLETIN
+- original #2 segment 1: short_span_min_tokens
+  Text: LIGENCE
+- original #3 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.894484
+kept_candidate_count=3
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #4, segment 1)
+Text: GENERAL 1. Soviet Orbit charters of foreign vessels increasing
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #5, segment 1)
+Text: 3. Chinese again report civilian suffering in North Korea (page 4). 4. Chinese guard against plague threat from Korea
+Token count: 19
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #7, segment 1)
+Text: 9. Possible end of West Berlin coalition government seen
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 2: noncontent_keyword
+  Text: page 3
+- original #4 segment 3: noncontent_keyword, short_span_min_tokens
+  Text: 2
+- original #5 segment 2: noncontent_keyword
+  Text: page 4
+- original #6 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA 7
+- original #7 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.244533
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin, noncontent_keyword, short_span_min_tokens
+  Text: GENERAL
+- original #9 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: Soviet Orbit charters of foreign vessels increasing: Soviet Orbit countries chartered at least 421 merchant ships, including 32 tankers, totalling approximately 1,525,089 gross tons from non-Communist countries during the fourth quarter of 1951
+- original #10 segment 1: full_page_or_admin
+  Text: the first ten months of 1951 the Soviet Orbit chartered 583 non-Communist ships, including 44 tankers, aggregating approximately 3,438,254 gross tons. Most of the ships involved were of British, Norwegian, Panamanian, or Greek registry. Comment: The Soviet Orbit drive to expand trade with non-Communist countries is limited by dependence on foreign merchant vessels, particularly tankers, since ships of foreign flag carry the greater part of Soviet Orbit ocean traffic. Some of these ships were used in the China trade. The total shipping chartered in the first ten months of 1951 exceeded by over a million tons the combined Soviet and Satellite merchant fleet in January 1951, which was estimated at 2,225,000 gross tons. Tankers chartered during the fourth quarter amounted to 112,000 gross tons, or nearly seventy percent of the total capacity owned by the Orbit
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: FAR EAST 3. Chinese again report civilian suffering in North Korea: Comment: Civilian food shortages, already critical, are probably being accentuated by the traditional "spring hunger" --the period between consumption of the fall rice harvest and the maturing of the summer grains in June. All indications, however, point to a continued adequate level of supply for both Chinese Communist and North Korean military units. 4. Chinese guard against plague threat from Korea: The Chinese Communists are restricting the return from Korea of personnel without an inoculation record and a "no-plague" certificate
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.981083
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #12, segment 1)
+Text: Comment: are understandable in view of the fact that plague is endemic to the area. They also serve to emphasize the biological warfare charges
+Token count: 24
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.984465
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.911049
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #14, segment 1)
+Text: Possible end of West Berlin coalition government seen: Prospects for the successful continuation of the present anti-Communist coalition government in West Berlin are diminishing. One leading Christian Democrat stated that, rather than agree to the Socialist demand for new elections, his party and the Free Democrats would form a new government without the Socialists but with a slim majority of five votes in the local assembly. Comment: Considerable bickering has threatened the existence of the Berlin city government since late January 1952, but an outright split has so far been avoided. Although any new government formed would be a pro-Allied grouping, the elimination of the Socialists, including Mayor Reuter, would bring to an end the long-standing cooperation between major Berlin parties which in the past has greatly aided the Allies in their occupation
+Token count: 133
+Recut: none

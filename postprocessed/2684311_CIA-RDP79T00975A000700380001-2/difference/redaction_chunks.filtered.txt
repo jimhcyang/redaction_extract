@@ -1,0 +1,100 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.802083
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 26 June 1952 Copy No. 53
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.910000
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: SOVIET UNION 2. Soviet Third Long Range Air Army transports fly to Chukotsk area (page 3). FAR EAST 3. French again reported attempting to contact the Viet Minh
+Token count: 28
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: WESTERN EUROPE 6. West Berlin Allied legal position there weakened
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: SOVIET UNION 2. Soviet Third Long Range Air Army transports fly to Chukotsk area: at least 12 transports of the Third Long Range Air Army, believed to be based in the southern part of the Maritime Military District, departed for the Chukotsk area on 12 June. the northward progress of the operation from Magadan to Markovo on 18 June; on 19 June all 12 were engaged in shuttle flights between Markovo and Tanyurer. Comment: The Soviet Union has been steadily developing the military and economic potential of the Chukotsk area since the war. During April of this year an air shuttle operation involving an unprecedented number of aircraft occurred along this route with the apparent destination of Povarnya Krestik. The present activity, and the earlier airlift, may be connected with a unit move into the Chukotsk area or support of some unidentified economic activity in the area. (See
+- original #4 segment 2: full_page_or_admin, noncontent_keyword, short_span_min_tokens
+  Text: map
+- original #4 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: on
+- original #4 segment 4: full_page_or_admin, noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.553785
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: FAR EAST 3. French again reported attempting to contact the Viet Minh: Comment: During his recent visit in Washington, Minister for Associated States Letourneau categorically denied that France would consider peace negotiations with the Viet Minh. French approaches could be intended to explore Viet Minh attitudes, extract intelligence, undermine and confuse enemy leadership or arrange for the exchange of prisoners
+Token count: 60
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.924085
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: Before the Greek action, only Moslem countries had recognized Farouk's title. Belgium, the Vatican, and Japan had recognized Egyptian officials accredited to them in the name of the King of Egypt and the Sudan, but they had not re-accredited their own representatives in Cairo. While Britain's policy remains unchanged, the addition of Greece, Pakistan, and probably Italy to the list of countries recognizing Farouk's title will encourage Egypt to maintain its present attitude
+Token count: 73
+Recut: none
+
+Clean Chunk #5 (original #7, segment 1)
+Text: WESTERN EUROPE 6. West Berlin Allied legal position there weakened
+Token count: 10
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: Mayor Reuter had "done all the harm possible" by agreeing to the integration of Berlin into the Federal Republic and abandoning the "essential principle" that West Berlin belongs to neither the West nor the East German state. the Allies would find themselves in a difficult legal position if the Russians were to proceed with countermeasures and the rearming of East Germany, including their sector of Berlin. Comment: Although West Berlin is not covered by the contractual agreements, the Communists have charged that it is included as a result of the recent West Berlin law adopting Federal Republic financial legislation. This lays the basis for a possible subsequent claim that the status of West Berlin has been altered and that the Allies have therefore lost their right to remain in the city

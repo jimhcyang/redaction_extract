@@ -1,0 +1,100 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.850000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 49
+- original #2 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.972368
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 1)
+Text: 1. Ambassador Muccio reports on Syngman Rhee's senility
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 3. New Chinese Communist army may be in Korea
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: page 3
+- original #4 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.938176
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #5, segment 1)
+Text: 1. Ambassador Muccio reports on Syngman Rhee's senility: Emphasizing President Rhee's diminishing "lucidity," Ambassador Muccio reports that the President's one-man conduct of government is becoming more emotional and irrational. No member of the South Korean Cabinet is willing to stand up to the President's wrath even when given a "stupid order." Muccio's anxiety over Rhee's advancing senility is accentuated by the lack of stature of potential successors, by his determination to seek re-election in June, and by the strong probability that he will win
+Token count: 84
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens
+  Text: UN
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.945676
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #7, segment 1)
+Text: 3. New Chinese Communist army may be in Korea: The presence in Korea of a new Chinese Communist army was identified as the 10th Army, previously in southwest China, and its subordinate 28th, 30th, and 184th Divisions. Comment: This new identification, in conjunction with other recent intelligence that the 16th Army is in the Korea-Manchuria theater, suggests a significant reinforcement of the Communist forces in North Korea
+Token count: 67
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.999380
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,89 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.916667
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Peiping willing to accept bilateral talks with US on ambassadorial level (page 3). 2. Comment on Soviet-Viet Minh communique
+Token count: 20
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: EASTERN EUROPE 4. Additional Soviet jet bombers moved to East Germany
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.190065
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin, noncontent_keyword, short_span_min_tokens
+  Text: GENERAL
+- original #4 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: Peiping willing to accept bilateral talks with US on ambassadorial level The Peiping regime has agreed to a meeting of American and Chinese Communist representatives on the ambassadorial level
+- original #5 segment 1: full_page_or_admin
+  Text: Geneva and has proposed 21 July for the first meeting. These Geneva talks are to be held with a view to facilitating the settlement of "the question of civilian detainees" in Communist China and the United States "and to discuss other questions at issue." Comment: Chou's willingness to raise the level and expand the scope of the consular-level talks under way in Geneva for the past year reflects his hope of gaining prestige, of obtaining a more comprehensive statement of the American position on Chinese issues, and of persuading the Asian "neutrals" and the major Western powers that he is continuing to seek a peaceful settlement of those issues. These talks may quickly run into trouble on the question of their scope. Peiping has frequently indicated that it wishes to take up major matters, such as the American commitment to the defense of Formosa, rather than to confine the talks to lesser questions. Chou may plan to take a conciliatory line on the smaller matters in the hope of arranging formal negotiations on the larger. The Chinese Communists have recently been calling for an international conference on Far Eastern issues as well as for direct talks with the United States. Peiping may well believe that such a conference would offer the best opportunity for bringing political pressure to bear on the American position
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 2. Comment on Soviet-Viet Minh communique: The Soviet-Viet Minh communique issued on 18 July just prior to the departure of Ho Chi Minh from Moscow generally follows the format of the Sino-Viet Minh communique of 7 July. Emphasis is placed on the happy state of Sino-Soviet-Viet Minh solidarity and the importance of unifying Vietnam "within the time limit provided for in the Geneva agreement." The communique includes the announcement of a Soviet economic aid program amounting to 400,000,000 rubles--$100,000,000 at the official rate--which is less than a third of the aid promised by the Chinese on 7 July. The new aid is to be used to raise the standard of living and rehabilitate the economy of North Vietnam, including the development of 25 "industrial and public utilities," and for the training of technical specialists in the USSR. The Chinese program is aimed primarily at improving Vietnamese transportation and communications facilities. As in the case of North Korea, the Soviet Union has thus assumed responsibility for handling the more complex problems of rehabilitating the economy of North Vietnam. The communique, in contrast with the Sino-Viet Minh declaration, does not contain any virulent attacks on the United States. Although one paragraph is devoted to a denunciation of the Manila pact and criticizes "some foreign powers" for interfering in the internal affairs of South Vietnam, Laos and Cambodia, the United States is not specifically mentioned. This difference in attitude, also reflected in recent propaganda, apparently springs from the USSR's desire to appear conciliatory during the summit conference. (Concurred in by ORR
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.955720
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #7, segment 1)
+Text: EASTERN EUROPE 4. Additional Soviet jet bombers moved to East Germany: The transfer of a Soviet jet light bomber unit from the western USSR to the Soviet zone of Germany has been indicated by incoming rail shipments and the arrival of a minimum of 24 aircraft at Welzow in southeastern Germany on 18 July. The number of aircraft involved to date and the scale of logistical support indicate that a move of at least regimental proportions is now in progress
+Token count: 80
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.959701
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #8, segment 1)
+Text: Other evidence suggests that the 18 July flights are a permanent reinforcement. This increase in bomber strength, together with the continued improvement and construction of airfields, the recent replacement of FAGOTS (MIG-15's) with FRESCOS (MIG-17's), indicate continuation of a program to increase the size and capabilities of the Soviet air force in East Germany
+Token count: 54
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,78 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.743889
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.977941
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 6. Possible revolutionary attempt in Ecuador
+Token count: 6
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #2 segment 3: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.995273
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: four- power
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.957143
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: A military tribunal in Kielce condemned to death three members of a resistance band and sentenced three others to prison. The individuals convicted were accused of having engaged in "banditry" against the local people from 1946 until last November
+Token count: 39
+Recut: none
+
+Clean Chunk #3 (original #5, segment 1)
+Text: where the trials were held
+Token count: 5
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.908696
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: 6. Possible revolutionary attempt in Ecuador: A revolution is being planned by presidential candidate Velasco Ibarra and Mayor Guevara Moreno of Guayaquil. Government officials have reportedly discussed plans for counteracting the movement and creating a pretext for the arrest of Velasco. The US Embassy in Quito comments that the violence in Cuenca on 12 April when Velasco supporters clashed with proponents of another presidential candidate may be the forerunner of more serious disturbances. Comment: There have been reports that at least one dead and 31 wounded resulted from the clash in Cuenca on 12 April. Velasco, a compelling right-wing demagogue, apparently decided to return to Ecuador from his exile in Argentina after conversations with emissaries of the neo-fascist revolutionary Guevara Moreno. There have been reports of plans for a preventive coup by the Defense Minister. This, however, would run directly counter to President Galo Plaza's known desire to preserve democratic processes at all costs
+Token count: 154
+Recut: none

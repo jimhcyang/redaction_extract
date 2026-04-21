@@ -1,0 +1,94 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.558000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.929330
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: USSR 3. Tax exemptions cancelled
+Token count: 5
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 6. Sino-Tibetan negotiations apparently continue
+Token count: 5
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #1 segment 3: noncontent_keyword
+  Text: FAR EAST
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.973016
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.888467
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: USSR 3. Tax exemptions cancelled: Comment: This is another in a series of recent measures that have at least partially nullified the effects of the retail price reductions announced on 1 March. The State Budget for 1951, "ratified" by the Supreme Soviet on 10 March, called for an increase over the 1950 figure of 7.7 billion rubles (21.6%) in taxes "from the population." In December 1950, the Council of Ministers ordered a 25% reduction in worker bonuses. FAR EAST
+Token count: 81
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.982419
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Lattre's
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Minh's
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 6. Sino-Tibetan negotiations apparently continue: The US Embassy in New Delhi has been informed by an official of the Indian Ministry of External Affairs that although a new Tibetan mission has been appointed to go to Peiping for peace negotiations, no agreement has been reached. According to the Indian official, the Tibetans are willing to accept Chinese suzerainty but do not wish Chinese troops and officials to enter Tibet. Comment: Reports of a final agreement on the future status of Tibet are believed to be premature. It is expected, however, that the Chinese will succeed in obtaining control of Tibetan defense matters (which will mean stationing troops and officials in Tibet) and that any guarantee of autonomy will be merely nominal. EASTERN EUROPE
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.995503
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

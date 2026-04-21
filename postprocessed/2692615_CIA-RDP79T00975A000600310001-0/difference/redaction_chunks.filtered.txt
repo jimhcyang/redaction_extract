@@ -1,0 +1,112 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.789474
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #2 segment 1: noncontent_keyword
+  Text: COPY NO
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.951351
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #3, segment 1)
+Text: 1. Communists report BW attacks in South China
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 7. Spain favors Portuguese participation in military talks with United States
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #5, segment 1)
+Text: LATIN AMERICA 9. Bolivia considers lower price in new tin negotiations
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: page 3
+- original #4 segment 2: noncontent_keyword
+  Text: page 7
+- original #5 segment 2: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.929918
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: 1. Communists report BW attacks in South China: Officials of the Telegraph Bureau at the city of Chiehyang near the southeast China coast have reported to their superiors that two enemy planes "released poisonous germs" there on 22 March. The officials declared that "cholera, typhus, and cerebral meningitis" germs were dropped and urged that since local medical facilities were inadequate, preventive medicines for these diseases, as well as for plague, be sent immediately. Comment: Peiping has previously accused the United States of BW attacks in Korea, Manchuria, and North China. The allegation of an attack in South China came from minor officials and has not yet been picked up in Peiping's propaganda
+Token count: 112
+Recut: none
+
+Clean Chunk #5 (original #7, segment 1)
+Text: An official
+Token count: 2
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.996124
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens
+  Text: and
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.910556
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #9, segment 1)
+Text: 7. Spain favors Portuguese participation in military talks with United States: The Chief of the Spanish High General Staff has told the Portuguese Ambassador in Madrid that Portugal should be included in American-Spanish military negotiations in order that a trilateral pact, rather than the intended bilateral agreement, can be arranged. Another Spanish General Staff officer remarked that Franco himself held a similar opinion. The officer called attention, however, to the strong resistance such a tripartite pact would cause in France, Britain, and the United States. The same officer reiterated Spain's wish to avoid membership in NATO, as well as any commitments to the United States beyond the immediate defense of the Iberian peninsula. Comment: Portugal has consistently maintained that considerations of Iberian defense have a higher priority than its commitments under NATO to western European defense as a whole. It undoubtedly feels that, as US-Spanish military arrangements will directly affect Portuguese security interests, Portugal should have a voice in these arrangements
+Token count: 161
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.888259
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #10, segment 1)
+Text: LATIN AMERICA 9. Bolivia considers lower price in new tin negotiations: Bolivian tin producers now in Washington intend to propose a price of 1.39 dollars a pound, c.i.f. New York, with the possibility that this price will be reduced if it is not accepted by the United States. The Bolivian Ambassador informed his Foreign Office that he had made no objection to this proposal, in view of previous instructions authorizing him to indicate that Bolivia would accept less than 1.50 dollars. He did, however, point out the inadvisability of gradually lowering the price instead of making a firm proposal. Comment: There are indications that Bolivia may be willing to accept a price only slightly higher than the 1.215 dollars a pound established for Malayan tin. The Bolivian Government is extremely anxious to conclude an agreement, because it believes that if its new efforts fail, it will be unable to continue to restrain anti-American elements. Since Bolivia depends on tin for approximately 70 percent of its foreign exchange earnings, the year-long delay in negotiations has resulted in considerable economic hardship
+Token count: 184
+Recut: none

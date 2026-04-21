@@ -1,0 +1,90 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.940000
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 3. MUTINY OF MOROCCAN TROOPS REPORTED PLANNED
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 5. COMMENT ON PROSPECTS FOR MILITARY COUP IN BRAZIL
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+- original #2 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: 3. MUTINY OF MOROCCAN TROOPS REPORTED PLANNED A mutiny of Moroccan officers and men within the French army in Morocco is planned for November. This mutiny will be synchronized with an extension of rebel operations. Meanwhile, the so-called rebel "army of liberation" is to continue its hit-and-run attacks against French military outposts, primarily to capture more arms and equipment. Comment There have been reports of a few isolated incidents of mass insubordination and native desertions from the French army in North Africa. The nationalists are also known to have infiltrated many Moroccan units. Nevertheless, this is the first report of plans for a country-wide mutiny. Approximately one fourth of the 70,000 French troops now in Morocco are Moroccans. Si Bekkai is himself a reserve lieutenant colonel in the French army and an adviser of deposed sultan Mohamed ben Youssef
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.993939
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Laotian
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 5. COMMENT ON PROSPECTS FOR MILITARY COUP IN BRAZIL According to the press, anti-Kubitschek forces are planning a move to disqualify Kubitschek and Goulart by court action on the charge that their margin of victory was accounted for by Communist votes. Since the Communist Party is illegal and a federal law prohibits candidates from financial dealings with illegal parties, they presumably hope that Kubitschek's election would be invalidated. there were too many variables in the situation to predict with certainty the likelihood of a coup but that if one is attempted the most favorable time would be within the next three weeks
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

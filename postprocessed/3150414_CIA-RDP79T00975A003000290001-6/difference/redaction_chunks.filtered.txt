@@ -1,0 +1,127 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.652273
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.930769
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 3. CZECH SPECIALISTS AND MATERIEL ARRIVING IN EGYPT
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.990936
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: Comment on
+- original #6 segment 1: short_span_min_tokens
+  Text: old
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.988053
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens
+  Text: Reference
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 3. CZECH SPECIALISTS AND MATERIEL ARRIVING IN EGYPT Comment on: Apparently in accordance with an Egyptian decision in December to rely principally on Czech personnel for military training and maintenance programs, 14 Czech experts, accompanied by a 540-ton load of Czech military equipment, including 11 workshops and tank spare parts, were scheduled to arrive in Alexandria on 23 March on a Soviet ship. Czech experts were also scheduled to make a survey in February to determine the extent of Egypt's military requirements following the November hostilities. While small arms, ammunition and military vehicles have been regularly delivered since December, no major arms deliveries to Egypt since last October have been confirmed
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.947603
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #11, segment 1)
+Text: Following the Communists' announcement that they would call out SOBSI, Indonesia's largest labor federation, in a general strike if the Masjumi is included in the cabinet and the Communists are barred, army headquarters and the territorial commanders reportedly have agreed to deal "ruthlessly" with Communist strikers if unrest develops
+Token count: 49
+Recut: none
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.987768
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #12, segment 1)
+Text: reportedly planned to urge his followers at party meetings in Dacca on 25-26 March to accept the resignation. Suhrawardy
+Token count: 19
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: CORRECTION TO ITEM 5
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: PAGE 7
+- original #13 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: OF
+- original #13 segment 4: full_page_or_admin, noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN
+- original #13 segment 5: full_page_or_admin
+  Text: DATED 24 MARCH 1957 The first sentence of the second paragraph should read: "In recent exploratory talks, the oilmen agreed that the proposed system should consist of two pipelines, both using 34- and 36-inch pipe and having a combined capacity of 1,200,000 barrels a day, the first line to be completed by 1960; that it should ultimately transport petroleum from Iraq, Kuwait, Iran and Saudi Arabia, and that it should be protected by treaty

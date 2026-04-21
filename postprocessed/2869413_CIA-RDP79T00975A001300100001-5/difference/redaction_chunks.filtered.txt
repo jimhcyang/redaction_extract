@@ -1,0 +1,81 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.380208
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.970761
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOUTHEAST ASIA 3. New Chinese Nationalist air strip in Burma reportedly completed
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.983396
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: party-secretary
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Buro
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.912297
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: SOUTHEAST ASIA 3. New Chinese Nationalist air strip in Burma reportedly completed: Chinese Nationalist forces have constructed a new air strip in southern Burma near the important port of Moulmein, withdrawing from the airfield at Mong Hsat, their main base in Burma, because it is no longer secure. Comment: This is the construction of air strips in areas of southern Burma controlled by Karen insurgents. Cooperation between the Karens and Nationalists is not a new development, but further Nationalist exploitation of this tie, following the collapse in Bangkok of negotiations for the evacuation of the Chinese forces, would be especially galling to the Burmese. They had considered the Karens virtually defeated before they received arms from the Nationalists. Mong Hsat had been subjected to an air attack on 20 September
+Token count: 130
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.996239
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.962688
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #5, segment 1)
+Text: Comment: General Gruenther has asked Montgomery not to raise this subject during his visit to Turkey. Montgomery made similar suggestions to Greek officials twice last year. As in the past, his statement may renew Greek demands for increased American aid in order to keep armed forces at their current strength
+Token count: 50
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens
+  Text: that
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.993145
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

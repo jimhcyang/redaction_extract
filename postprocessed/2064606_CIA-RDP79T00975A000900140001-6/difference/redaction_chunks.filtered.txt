@@ -1,0 +1,71 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.769853
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.960573
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: SOVIET UNION 1. Barrage balloons apparently protect key bridge in Soviet Far East
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.882876
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: SOVIET UNION 1. Barrage balloons apparently protect key bridge in Soviet Far East: barrage balloons at Khabarovsk in the Soviet Far East, probably to protect the Transsiberian Railroad bridge over the Amur River. Comment: Although barrage balloons are effective only against low-flying aircraft, their use indicates the unusual extent of preparedness measures taken to augment air defenses in the Soviet Far East. The installation of up-to date radar equipment, the conversion of most fighter units to jet aircraft, and the integration of local air force and navy fighter intercept control during the past year and a half have been noted previously. The Khabarovsk railway bridge is a vital point on the major communication link between the Soviet Far East and the rest of the Soviet Union
+Token count: 126
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.993146
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: of
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.996154
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.994949
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens
+  Text: he

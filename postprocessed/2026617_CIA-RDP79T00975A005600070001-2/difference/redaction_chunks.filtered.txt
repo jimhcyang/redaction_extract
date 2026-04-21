@@ -1,0 +1,241 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.415625
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.870510
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Situation in the Congo
+Token count: 5
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. Laos: Vientiane troops in Phou Khoun road junction area withdraw in face of aggressive probing actions by Kong Le - Pathet Lao forces
+Token count: 23
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 6) 5. UAR: Nasir invited to Mexico in September. (Page iii
+Token count: 11
+Recut: none
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: Page 1
+- original #1 segment 4: noncontent_keyword
+  Text: Page 1
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 4
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: 8 Mar 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #4 segment 2: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.244007
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 8 March 1961 DAILY BRIEF
+- original #5 segment 2: full_page_or_admin
+  Text: Congo: Gizenga's statement of 7 March to an American correspondent that he does not plan to attend the Tananarive conference appears confirmed. Without Gizenga's participation, the only significant result of the conference probably will be a slight strengthening of the ties between Leopoldville and Elisabethville
+- original #6 segment 1: full_page_or_admin, noncontent_keyword
+  Text: Leopoldville, American and UN officials believe that there is little time remaining before inflation gets completely out of control, with the consequent possibility of disorders in the hitherto quiescent civilian population. Ambassador Timberlake reports that Foreign Minister Bomboko and the UN commander, General McKeown, met on 5 March and agreed on a number of measures to reduce tensions between Congolese and UN troops, particularly in Matadi. Hammarskjold admitted to Ambassador Stevenson on 6 March that Rajeshwar Dayal, his representative in the Congo, was unable to communicate with any Congolese leaders and indicated that Dayal would not return to the Congo after his trip to New York for "consultations" which is scheduled to take place in a few days. (Backup, Page 1) (Map) Laos: (Information available as of 0400 EST) Vientiane's forces in the Phou Khoun road junction area withdrew in the face of aggressive probing actions initiated by Kong Le - Pathet Lao forces on 6 and 7 March. Indications are that the enemy forces had not planned a major attack, but were quick to capitalize on the government's hasty withdrawal and may have gained at least temporary control of the Phou Khoun road junction. General Phoumi is making urgent plans to regain the lost ground, but the
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: 8 Mar. 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #7 segment 2: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.906599
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #8, segment 1)
+Text: reversal on this main front could have a serious impact on the over-all morale of the Laotian Army, and points up the inadequacy of the army's leadership and lack of will to fight. In a recent discussion of the Laotian crisis with Ambassador Trimble in Phnom Penh, Souvanna Phouma suggested a course of action which he felt would obviate the need for an international conference, provided both East and West agreed to guarantee Laos' neutrality. Souvanna said he would submit his own resignation if the King replaced the Boun Oum government with a caretaker government composed of civil servants which would be responsible for preparing general elections. The elections would be supervised by an international commission, and the countryside disarmed, except for police. Souvanna made it clear, however, that he believes the eventual establishment of a government of national union, including the Pathet Lao, is essential for Laos. Meanwhile, General Phoumi reports that he will go to Phnom Penh on 9 March to confer with Souvanna
+Token count: 166
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #8 segment 2: noncontent_keyword
+  Text: Backup, Page 2) (Map
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: leftist
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.945400
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #10, segment 1)
+Text: Latin America - UAR: President Lopez Mateos "could receive President Nasir" on a state visit between 4 and 8 September. Nasir has also received invitations from Cuba and Venezuela and might use the trip to visit other Latin American countries, particularly Brazil. In January, President Quadros was said to be interested in meeting with Tito, Nasir, and Nehru. Yugoslavia has already accepted a Brazilian invitation for Tito to visit there later in the year. Nasir may hope that his trip to Latin America will present an opportunity to visit the United States
+Token count: 91
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: Situation in the Congo Hammarskjold stated that Makki Abbas of Sudan would immediately be installed as the UN's acting representative in the Congo and that Dayal would leave "this week." Continuing tension in Matadi apparently has postponed Dayal's departure. He continues to hold himself aloof from the Congolese; recently he failed to turn up at a meeting with Foreign Minister Bomboko, reportedly for fear that Bomboko "might make a political attack on him." Hammarskjold also plans to set up a Congo planning and advisory group within the UN secretariat, composed exclusively of Africans and Asians. Within a few weeks he hopes to send to the Congo as his permanent representative either Adnan Pachachi of Iraq or Robert Gardiner of Ghana, both of whom would be members of the proposed group. According to the American Embassy in Leopoldville, the UN Command has failed to provide leadership in the economic field as a result of its preoccupation with political questions, coupled with Dayal's ignorance of economic factors and his tactic of withholding budgetary support as a means of pressuring the Leopoldville government. Moreover, foreign aid furnished so far has suffered from a lack of coordination as well as from inefficiency and venality on the part of Congolese officials. UN financial experts in Leopoldville believe that the establishment of a flexible fund under UN control is the only way to salvage the economic situation, which apparently has not resulted in popular outbreaks so far only because most of the population is not dependent on the money economy. However, the population in Leopoldville, where most of the working force is unemployed, is vulnerable to inflation in basic commodities, and the UN economists believe outbreaks will occur when the price spiral takes hold
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: Situation in Laos Souvanna has stressed the urgency for a political settlement in Laos. Souvanna told them that judging from the reception he had received from the people during his visit to northern Laos he felt the Communists could still be kept from dominating the situation, but that time was growing short. He claimed Pathet Lao leader Souphannouvong--his half-brother--had agreed with him that Laos should follow a policy of "Cambodian-type socialism." Souvanna said his visit to North Vietnam had gone well, and that he was pleased by the atmosphere he had found in Hanoi. He claimed that Premier Pham Van Dong and Defense Minister Vo Nguyen Giap had told him that North Vietnam and Communist China were content to see "true neutrality" re-established in Laos, and that the bloc's strong reaction against the United States had been caused by "sure information" of American plans to develop rocket-launching facilities in central Laos. While Souvanna continues to be sanguine of his ability to control the Communists, he seems to feel it necessary to try to retain freedom of action. On his return from a world tour, which he plans to start this week end, he might establish himself in Phong Saly. This province is largely controlled by Laotian forces under Colonel Khammouane--a local strongman and supporter of Souvanna Phouma-- who apparently has succeeded so far in getting the Communist-supported Pathet Lao forces to respect his "middle position." Before his recent trip to North Vietnam and Laos, Souvanna made a similar proposal for a caretaker government. He may have discussed aspects of this plan with his Communist hosts and possibly found them receptive to the idea of a general election as long as some supervisory scheme
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=8 unred_source_page=12
+alignment_score=0.122136
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: could be employed to ensure sizable Pathet Lao representation
+- original #14 segment 1: full_page_or_admin
+  Text: the government and in the National Assembly. the only feasible solution to the Laotian crisis lies in an international conference which would lead to the partition of the country "following the Indochina pattern." Bloc governments, however, have never acknowledged partition as a possible basis for a Laotian settlement. The bloc position is and probably will continue to be that an international conference must be called before any commission can be sent to Laos. Cambodian officials, including Sihanouk, are indicating growing anxiety over developments in Laos, and have expressed doubt as to whether Souvanna can still salvage the situation from the Communists. Sihanouk now believes Souvanna has gone over to the Pathet Lao side; Son Sann, personal adviser to Sihanouk on foreign affairs, has expressed the same view. Soviet transports continue to be scheduled for airlift operations into Laos. Since the arrival on 22 February of a Soviet AN-12 at Hanoi, two others have flown to North Vietnam. The one which arrived at Hanoi on 22 February reportedly crashed and is apparently still there. One of the last two to arrive has returned to the USSR and the third is at Haiphong scheduled for Canton
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=10 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=11 unred_source_page=15
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: table with Abbas, an aide were to hand him a note saying that French children had just been killed in Algeria by rebel terrorists. The Algerian National Liberation Army is estimated at approximately 10,000 men within Algeria and is dispersed into small bands difficult to control. Rebel terrorists, who have acted semi-independently throughout the rebellion, may consider that the Tunis-based PAG does not represent their interests. There are also indications that the outlawed Algerian Communist party now may be in a position to foment terrorism designed to disrupt negotiations. Well-armed, die-hard European settlers are not now considered capable of threatening De Gaulle's government without military support--which has seemed increasingly unlikely. They could, however, especially in view of the Moslem-European rift evident since the December riots, create spectacular incidents which would antagonize the PAG and cause its leaders to question De Gaulle's good faith
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=12 unred_source_page=16
+alignment_score=0.996885
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Youssefi
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=13 unred_source_page=17
+alignment_score=0.998333
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens
+  Text: are
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=14 unred_source_page=18
+alignment_score=0.976056
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=15 unred_source_page=19
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: noncontent_keyword
+  Text: 8 March 1961 Copy No. C Ed CENTRAL INTELLIGENCE BULLETIN

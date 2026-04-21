@@ -1,0 +1,101 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.395556
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.591388
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. USSR REPORTEDLY ASKS LIBYA FOR USE OF AIRSTRIP
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. ETHIOPIA MAKES OIL AGREEMENT WITH CZECHOSLOVAKIA
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 6
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.244581
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: USSR REPORTEDLY ASKS LIBYA FOR USE OF AIRSTRIP The American embassy
+- original #4 segment 1: full_page_or_admin
+  Text: Tripoli comments that these airstrips are numerous and that most of them would need only minor repairs to handle aircraft up to Dakota size. The ostensible purpose of the airstrip would be to provide unrestricted access for Soviet planes ferrying diplomatic personnel, their supplies, equipment, etc. It could also be used to observe United States air force and British army operations and for actively supporting the North African nationalists. In the absence of any evidence to confirm or deny the American embassy views it with considerable reservation." Comment Libya is dependent on payments it receives from Britain and the United States in return for base rights. If the USSR has made such a request in connection with establishment of its diplomatic mission in Libya, Prime Minister Ben Halim may see an opportunity for further bargaining with the West. Ben Halim has indicated that he believes Egypt successfully maneuvered the West into an offer of financial aid for its high dam project
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 2. ETHIOPIA MAKES OIL AGREEMENT WITH CZECHOSLOVAKIA Comment Communist exports of petroleum are prominent in Moscow's trade with underdeveloped countries. In the first six months of 1955, Ethiopian-Soviet bloc trade amounted only to about $100,000. The Czechs have shown increasing economic interest in Ethiopia by their large trade mission and by their expensive exhibit at the Jubilee Fair in November. Communist interest in Africa has increased recently as demonstrated by the Soviet Union's diplomatic representation in Libya and its request for similar privileges in Liberia. (Concurred in by ORR
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.936794
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #6, segment 1)
+Text: Stroessner is also being pressed by Argentina to get rid of this pro-Peron group. While Ortega is not known to be a Communist, he has protected Communist friends, and the Communists are so well placed in the police that few surprise raids against Communists can be made
+Token count: 47
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.947721
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #7, segment 1)
+Text: negotiations for procurement
+Token count: 3
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: of arms from the Soviet bloc were continuing, and that tentative arrangements had been made for delivery in January of 2,000 small arms. Additional deliveries were scheduled to be completed in March. It is not clear at this time whether or not Syria has contracted for the more important items some 60 T-34 medium tanks complete with replacement parts, 40,000 shells and 2,000,000 rounds of machine gun ammunition

@@ -1,0 +1,86 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.948901
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: WESTERN EUROPE 4. France seen trying to build case of American connivance with German militarists
+Token count: 15
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: LATE ITEM 6. Chou and Nehru reported as reaching "oral nonaggression agreement
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+- original #2 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.985548
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #4, segment 1)
+Text: WESTERN EUROPE 4. France seen trying to build case of American connivance with German militarists
+Token count: 15
+Recut: none
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: unpromising
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.925000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: Comment: Mendes-France may be planning to use reports of American contacts with German "militarists" to arouse French nationalism and to justify French pressure for East-West talks if the London discussions on German rearmament break down. French assembly approval of any proposal for German rearmament will be almost impossible without substantial Socialist backing. Those French Socialists who oppose any German rearmament can be expected to seek help from the West German and other Socialist parties in influencing their party colleagues in the National Assembly
+Token count: 83
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.925000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #6, segment 1)
+Text: LATE ITEM 6. Chou and Nehru reported as reaching "oral nonaggression agreement": Comment: During their talks in New Delhi in late June, the only time Chou and Nehru have been in personal contact, they evidently discussed the 29 April Sino-Indian agreement on Tibet. The communique they issued after these talks heavily stressed the five principles contained in the preamble of that agreement as an example for other nations to follow in conducting their foreign relations. The publicity given the Tibetan agreement suggests that India at that time considered it an adequate statement of nonaggressive intentions. It is unlikely that India now desires to go further than it did in June
+Token count: 110
+Recut: none

@@ -1,0 +1,74 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 17 March 1953 Copy No. 60 CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.880882
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: GENERAL 1. Yugoslav official advises Burma on form of projected UN appeal (page 3). NEAR EAST - AFRICA 2. Kashani attempts to organize religious support for Shah (page 3). 3. Egypt and Syria propose strengthening Arab League pact (page 4). EASTERN EUROPE 4. Czechs consider shift to barter trade with non-Orbit countries
+Token count: 51
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 5
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: GENERAL 1. Yugoslav official advises Burma on form of projected UN appeal: Comment: Burma's socialist leaders feel a close ideological relationship with Yugoslavia's Communist leaders and respect the latter's attainment of a Marxist state free from Soviet domination. Any Yugoslav counsel, therefore, may be expected to receive serious consideration in Rangoon. NEAR EAST - AFRICA 2. Kashani attempts to organize religious support for Shah: Comment: Organized support of the Shah by religious groups could be a strong weapon against Prime Minister Mossadeq. Kashani and Behbehani, whose religious and political views have differed in the past, apparently are now willing to work together to support the Shah. Another anti-Mossadeq faction, the ten-man "Freedom" group, has just been formed in the Majlis. Together with other opposition elements, it could cause Mossadeq considerable difficulties
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 3. Egypt and Syria propose strengthening Arab League pact: Comment: The Egyptian-Syrian interest in making the league a more effective organization may be in preparation for a proposal that the league's military pact, rather than MEDO, be the basis for Middle East defense. In any event, a more effective league organization would be used chiefly to put more pressure on Israel and to attempt to obtain more concessions from the West. EASTERN EUROPE 4. Czechs consider shift to barter trade with non-Orbit countries: Comment: Czechoslovakia has for almost a year pursued a policy designed to increase its commercial and political activities in such areas as Asia, Africa and Latin America. It is apparently now attempting to circumvent troublesome West European middlemen and to overcome its serious shortage of dollars and sterling
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.968577
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: production
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: estimated
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.961364
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,81 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.452222
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.910448
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: GENERAL 1. Burmese official reports on trade agreements with the Satellites
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: SOVIET UNION 2. Soviet flight operations indicative of atomic debris sampling program
+Token count: 12
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #2, segment 1)
+Text: EASTERN EUROPE 4. IL-28 jet light bombers possibly delivered to Czechoslovakia
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: GENERAL 1. Burmese official reports on trade agreements with the Satellites: Comment: Burma has also signed a trade agreement with Czechoslovakia, the terms of which are not yet available. If Moscow agrees to buy 200,000 tons of rice, the Orbit--including Communist China--will be committed to take almost one third of Burma's 1955 export surplus, which should exceed 1,500,000 tons. Since Rangoon's ambitious development plan is largely financed by rice exports, full implementation of these agreements will provide the Orbit with important leverage over Burma's economy, which has heretofore been oriented to the West. (Concurred in by ORR
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.692573
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #4, segment 1)
+Text: SOVIET UNION 2. Soviet flight operations indicative of atomic debris sampling program: Analysis of the flight operations of a Soviet air division equipped with TU-4 medium bombers and based at Poltava in the Ukraine reveals that this unit conducted daily roundtrip flights to the Leningrad area during the US nuclear test series in the spring of 1954, and possibly again beginning in late February 1955 during the current series. During the 1954 US tests, this division also sent six TU-4's temporarily to China. During the Soviet nuclear tests in the fall of 1954, the Poltava division conducted similar flights to the Leningrad area, and deployed aircraft temporarily to southern Turkestan and to the Saratov area, north of the Caspian. Comment: The coincidence of this unusual pattern of flight operations by Poltava division TU-4's with American and Soviet nuclear weapons tests indicates that the USSR initiated an atomic debris sampling program during the spring of 1954
+Token count: 155
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.880201
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #5, segment 1)
+Text: EASTERN EUROPE 4. IL-28 jet light bombers possibly delivered to Czechoslovakia: Comment: This is the first indication of delivery flights of IL-28's to Czechoslovakia. Poland, the only Satellite equipped with IL-28's, has received approximately 70 since early 1953. There are no bomber units in the Czechoslovak air force. The air forces of Rumania, Hungary and Bulgaria have bomber units equipped with TU-2 piston light bombers. The airfield at Prerov is the site of final pre-operational training of Czech jet fighter pilots. It is quite possible that transition training in the jet light bomber will take place here. Malacky has been reported as a bombing and gunnery training base, but no air force unit is known to be assigned there
+Token count: 119
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,200 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.540385
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 25 January 1957
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.819964
+kept_candidate_count=4
+excluded_candidate_count=9
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 1. NASR THREATENS TO HALT CANAL CLEARANCE
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 3)
+Text: 2. SUEZ CANAL FEES SUGGESTED AS REPAYMENT FOR SOVIET GOLD LOANS
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 2)
+Text: 4. POSSIBLE SOVIET AIR-TO-SURFACE MISSILE DELIVERY OF NUCLEAR WARHEAD
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #4, segment 1)
+Text: 7. SAUDI ARABIA SEEKS HEAVY ARMAMENTS FROM JAPAN (page 9). 8. LAOTIAN CABINET HEDGING ON AGREEMENT WITH PATHET LAO
+Token count: 19
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 4: noncontent_keyword
+  Text: Top Secret
+- original #2 segment 5: short_span_min_tokens
+  Text: Eider
+- original #2 segment 6: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 3: noncontent_keyword
+  Text: page 6
+- original #4 segment 2: noncontent_keyword
+  Text: page 10
+- original #5 segment 1: noncontent_keyword
+  Text: page 11
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 13
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.245584
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: NASR THREATENS TO HALT CANAL CLEARANCE President Nasr told Emile Bustani, former Lebanese minister of public works, on 19 January that he was determined to stop clearance of the Suez Canal if Israel refused to obey the United Nations resolution regarding Israeli withdrawal from Egyptian territory or attempted to impose conditions for withdrawal. Comment During the past three days the officially controlled Cairo press has uttered threats along this line. Nasr was previously stated that he would bar British and French vessels from the cleared canal if Israel had not withdrawn behind the 1949 armistice line. Nasr apparently believes that that threat is not sufficient
+- original #8 segment 1: full_page_or_admin
+  Text: the present situation
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 2. SUEZ CANAL FEES SUGGESTED AS REPAYMENT FOR SOVIET GOLD LOANS Cairo requested its Moscow embassy "to inform Shepilov" that Egypt wishes to obtain Soviet gold with which to "meet the current economic pressure," in exchange for "a sufficient amount of Egyptian goods!" The Moscow embassy asked the Egyptian foreign office how long a repayment period was contemplated, what kind of goods would be available, and whether part of the repayment could be made in hard currencies from future Suez Canal revenues. Comment Egypt's request reflects the urgency with which Cairo now is viewing its foreign exchange crisis. Egypt needs at least $50,000,000 to ease the problem, but Soviet gold holdings are more than sufficient to accommodate Egypt's immediate needs to finance purchases from the West. The Egyptian ambassador's query on committing future canal revenues suggests that Moscow may be seeking to gain some leverage on future operation of the Canal. With Egypt almost bankrupt and the bulk of its cotton crop already committed to the Soviet Bloc, Cairo must seek new means of paying for additional Soviet "aid," which has been characterized by quid pro quo arrangements. Cairo is unwilling to draw on its own gold reserves, amounting to about $174,000,000, since these constitute the backing for the Egyptian pound
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.975325
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: 4. POSSIBLE SOVIET AIR-TO-SURFACE MISSILE DELIVERY OF NUCLEAR WARHEAD The flight of a BADGER (TU-16) medium jet bomber across the Kapustin Yar rangehead at the time of the 19 January Soviet nuclear test strongly suggests delivery of the weapon by air-to-surface missile. The aircraft was initially detected in the Vladimirovka area, from which it flew counterclockwise around the area of the nuclear explosion, passing within approximately five nautical miles of the tentative ground zero, and orbiting in the Vladimirovka area before landing. The area of operations is the same as that in which TU-16's of a special-purpose unit (X-502) launched air-to-surface missiles with an estimated range of 50 miles during the period 14 September-10 October 1956. A TU-16 based at Ostrov/Gorokhovka, the base of special-purpose unit X-502, was observed on 18 January flying from Omsk to Belaya Tserkov, and may have been associated with the 19 January operation
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.975325
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.966667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.122095
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: 7. SAUDI ARABIA SEEKS HEAVY ARMAMENTS FROM JAPAN Saudi Arabia's Deputy Foreign Minister Yusef Yasin has stated that his government would like to purchase from Japan tanks, jet fighters, antiaircraft equipment, and coast artillery "for the Jidda coast," and that Saudi Arabia did not desire to buy arms from the Soviet bloc and that Saudi Arabia assumed that purchases of heavy arms from the United States would be limited. Comment Saudi Arabia's anxiety to obtain antiaircraft and coastal guns to defend its ill-armed outposts on the Gulf of Aqaba from harassment by Israeli naval craft. Syria has responded with 32 Swiss light antiaircraft guns and 18 French 105-mm. guns. The Japanese ordnance industry is geared largely to the production of materiel according to American specifications, and the sale of such items must be approved by the United States. The industry, however, has recently produced Japanese-designed prototypes of self-propelled weapons and a medium tank which are not subject to this restriction. Although the Japanese sorely need orders, the government, because of the tense situation
+- original #14 segment 1: full_page_or_admin
+  Text: the Middle East, is likely to seek Washington's views before deciding its policy on any Saudi purchase. Japan and Saudi Arabia have recently taken steps toward closer contacts. Saudi Arabia plans to conclude an oil development agreement with Japan following completion of a survey of Saudi oil resources by Japanese experts
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: 8. LAOTIAN CABINET HEDGING ON AGREEMENT WITH PATHET LAO Laotian cabinet members appear generally convinced that the government's 28 December agreement with the Pathet Lao requires additional safeguards on the restoration of government control over the two provinces, on the dissolution of the Pathet Lao movement, and the disavowal of Communism by Pathets joining the coalition government. This stiffening attitude was apparently brought about by Deputy Premier Katay, who has urged that the agreement be publicly revised. Most of the ministers, however, appear to favor embodying the safeguards in a secret supplementary declaration to be signed by the Pathet Lao. Comment Pathet chief Souphannouvong's prolonged stay at his headquarters in Sam Neua, where he is seeking Pathet approval of the agreement he worked out with Premier Souvanna Phouma, has prevented the premier from seeking early assembly endorsement of the agreement. Now that opposition has crystallized, he may find it difficult to win Pathet Lao acceptance of any increased demands from the cabinet. While the Pathets would be most reluctant to jeopardize the advantages they have already won in negotiations
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=11
+alignment_score=0.970690
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=12
+alignment_score=0.962089
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: noncontent_keyword
+  Text: Comment on
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: proposal
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: ANNEX Watch Report 338, 24 January 1957 of the Intelligence Advisory Committee Conclusions on Indications of Hostilities On the basis of findings by its Watch Committee the Intelligence Advisory Committee concludes that: A. No Sino-Soviet Bloc country intends to initiate hostilities against the continental US or its possessions in the immediate future. B. No Sino-Soviet Bloc country intends to initiate hostilities against US forces abroad, US allies or areas peripheral to the Orbit in the immediate future. C. A deliberate initiation of hostilities in the Middle East is improbable in the immediate future
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

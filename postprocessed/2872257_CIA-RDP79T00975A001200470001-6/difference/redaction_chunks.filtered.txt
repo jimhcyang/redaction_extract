@@ -1,0 +1,73 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.622222
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.841071
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOUTHEAST ASIA Rumors in Indonesia of widespread arrests to take place on 16 August
+Token count: 14
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.987407
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.959980
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #2, segment 1)
+Text: SOUTHEAST ASIA 3. Rumors in Indonesia of widespread arrests to take place on 16 August
+Token count: 15
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.651000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: Comment: One objective of the new government is the removal of strongly anti-Communist officers from the army high command. There have been no reports to indicate that this would be accomplished by widespread arrests. The circulation of such rumors, however, will bring added support to those favoring a coup d'etat. Regular armed forces units of considerable strength have moved into Djakarta, ostensibly for independence day celebrations
+Token count: 66
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.901750
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #4, segment 1)
+Text: that despite conflicting rumors the resident general and the sultan will reach a compromise, the exact nature of which may not be made public. An acceptable compromise must enable the French to claim that the sultan has accepted their demands and yet not alienate the sultan's following. The American embassy in Paris reports
+Token count: 53
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Glaoui
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Glaoui

@@ -1,0 +1,80 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.433333
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.932500
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. Eden shows little disposition to help Mendes-France
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 4. 2,000 Chinese technicians to work on restoration of Vietnamese railroads
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: SOUTH ASIA 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.995161
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 2. Eden shows little disposition to help Mendes-France
+Token count: 8
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.964857
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: Comment: Ever since last July when they began to prepare for an alternative to EDC, the British have regarded the primary problem in Europe as political rather than military, namely to sustain Adenauer and to integrate West Germany with the West
+Token count: 41
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.904130
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #6, segment 1)
+Text: 4. 2,000 Chinese technicians to work on restoration of Vietnamese railroads: Under the recently announced Sino-Viet Minh agreement on restoring communications in North Vietnam, 2,000 Chinese technical specialists will work on the restoration of railroads. Rebuilding of the Hanoi-Nam Quan railroad is characterized as only the "first step" in the restoration of the country's railroads "in their entirety, which in the northern region is more than 1,000 kilometers, and throughout the country is 2,500 kilometers." Comment: The number of technicians mentioned indicates the scale of China's involvement in the economic development of North Vietnam. China is also supplying technicians for the restoration of postal and telecommunications systems, highways and water conservancy, and to develop civil air and meteorological services. The Viet Minh's concern with the restoration of railroads throughout the entire country denotes its confident expectation of extending its control over South Vietnam
+Token count: 147
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.990217
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: SOUTH ASIA 6

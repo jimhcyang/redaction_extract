@@ -1,0 +1,181 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.631250
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 1 August 1951
+- original #2 segment 1: noncontent_keyword
+  Text: TOP SECRET
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.987500
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: SUMMARY
+- original #4 segment 1: noncontent_keyword
+  Text: USSR FAR EAST
+- original #5 segment 1: noncontent_keyword
+  Text: NEAR EAST
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.998649
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: GENERAL
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.997692
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: FAR EAST
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.974444
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #8, segment 1)
+Text: The above message is the second report during the past week that the French position in this matter has been relaxed. NEAR EAST
+Token count: 23
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.996104
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: WESTERN EUROPE
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: Report of Articles Submitted 1 - 15 August 1951 I. Summary 133 articles submitted 23 articles rejected 100 articles published Of those submitted 3 not recorded Of the 130 recorded: 1 was received before 1200 3 were received between 1201 and 1300 3 were received between 1301 and 1400 42 were received between 1401 and 1500 14 were received between 1501 and 1529 67 were received after 1530 II. Detailed report
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.634463
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #2 (original #11, segment 1)
+Text: Rejected Article
+Token count: 2
+Recut: none
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 2
+- original #13 segment 1: short_span_min_tokens
+  Text: S
+- original #14 segment 1: nonempty_redacted_alternate_conflict
+  Text: after 1530
+- original #15 segment 1: short_span_min_tokens
+  Text: S
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.610979
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #16, segment 1)
+Text: Rejected Article
+Token count: 2
+Recut: none
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=0.942380
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #4 (original #17, segment 1)
+Text: Issue Published Rejected Article # Submitted By Submitted By 7 Aug 1 1500/6 E 2 after 1530/6 E 3 1500/6 S 4 after 1530/6 W 5 after 1400/6 S 6 after 1530/6 W 8 Aug 1 after 1530/7 S 2 1500/7 E 3 1500/7 S 4 1445/7 W 5 after 1530/7 W 9 Aug 1 1430/8 S after 1530/8 E 2 1500/8 E 3 after 1530/8 E 4 1324/8 E 5 1523/8 S 6 after 1530/8 W 7 after 1530/8 W 8 after 1530/8 W 9 after 1530/8 W 10 1254/8 W
+Token count: 113
+Recut: none
+
+Excluded candidates:
+- original #18 segment 1: short_span_min_tokens
+  Text: H
+- original #19 segment 1: short_span_min_tokens
+  Text: E
+- original #20 segment 1: short_span_min_tokens
+  Text: W
+
+========================================================================
+[PAGE 15]
+kind=red_only red_source_page=14 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

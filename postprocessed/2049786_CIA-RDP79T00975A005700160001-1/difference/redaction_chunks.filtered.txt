@@ -1,0 +1,277 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.205952
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 55 13 May 1961
+Token count: 4
+Recut: none
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.932584
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #3, segment 3)
+Text: 2. Iran: Intelligence and security chief investigating loyalty of army. (Page ii
+Token count: 12
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 6. Brazil: Chinese Communist trade office to be established. (Page iii) 7. Cuba: Castro offers scholarships to Ecuadorean students. (Page iii
+Token count: 21
+Recut: none
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: 13 May 1961
+- original #3 segment 1: noncontent_keyword
+  Text: 1. Laos
+- original #3 segment 2: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.140179
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: 13 May 61 CENTRAL INTELLIGENCE BULLETIN Map
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 13 May 1961 DAILY BRIEF
+- original #6 segment 2: full_page_or_admin
+  Text: Laos: Souvanna Phouma has rejected, at least for the present, General Phoumi's invitation that he and Souphannouvong meet Phoumi for political talks in Phnom Penh. Souvanna stated that he preferred to await the outcome of further efforts by the truce delegations at the Namone site to arrange political and military talks. Phoumi's delegation to Namone on 12 May would be empowered to discuss political and military problems. The Vientiane delegation, however, was unable to reach Namone because of bad weather. *Airlift operations were scheduled through 13 May
+- original #6 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 1) (Map
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.945794
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #7, segment 1)
+Text: Iran: General Pakravan, Chief of the Iranian National Intelligence and Security Organization (SAVAK) is undertaking an investigation of the "political and military stability" of the Iranian Army. This follows reports that during the recent demonstrations several high-ranking officers expressed doubts their troops would fire on crowds if ordered. The Shah has not given General Pakravan any formal authority to investigate, but both he and Prime Minister Ali Amini are aware of the investigation. Pakravan also described the weakness of the National Police as appalling and said he had recommended to Police Chief General Nasiri that the riot squad be expanded and properly trained
+Token count: 103
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: re-exported
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.904615
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Algeria
+- original #10 segment 1: noncontent_keyword
+  Text: Backup, Page 5
+- original #10 segment 2: noncontent_keyword
+  Text: Communist China - Brazil: President Quadros' agreement to the establishment of a "non-official" Chinese Communist trade office in Brazil will give Peiping its first permanent representation on the continent. Peiping has had an embassy in Cuba since December. Communist China regards the establishment of a trade office as a step toward political recognition, and the leader of the Chinese trade mission now in Brazil has reiterated Peiping's willingness to establish diplomatic relations if Brazil breaks its ties with Taipei. Quadros, however, is approaching these matters with extreme caution. The Chinese Communists are holding out the promise of substantial trade between the two countries, and Brazil has agreed to send an economic delegation to Peiping in the near future. (Backup, Page 7) Cuba-Ecuador: The Ecuadorean Government, already the Latin American regime most favorably disposed toward Castro, is receiving further Cuban attention. at an embassy reception on 9 May, Fidel Castro "demonstrated exceptional
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.125275
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #5 (original #11, segment 1)
+Text: sympathy and deference toward Ecuador," said he wanted to invite President Velasco to visit Cuba, and announced that he will establish 200 scholarships there for Eucadoreans, including 50 for university students
+Token count: 31
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #11 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: Backup
+- original #12 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 9
+- original #12 segment 2: noncontent_keyword
+  Text: 13 May 61 DAILY BRIEF
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: Situation in Laos Five members of the Boun Oum government delegation left yesterday for Geneva, following the ICC report to the Geneva co-chairmen verifying that a de facto cease-fire exists in Laos. Two other members were to leave today, arriving in Geneva on Sunday. General Phoumi was said to be planning to depart on 13 May following the failure of efforts to meet with Souvanna Phouma in Phnom Penh, but his plans were still uncertain. Cambodian Premier Sihanouk has announced that he plans to leave Phnom Penh on 14 May to attend the conference. Delegations from South Vietnam and Thailand delayed their departures awaiting action from Vientiane. Some minor skirmishing had continued in scattered locations through the evening of 11 May. Enemy forces attacked Meo elements in the north and east of Pa Dong, and artillery fire was directed at a guerrilla command post in the town. On the same day, a government force evacuated a town about 18 miles northeast of Thakhek after it had been shelled for about six hours. The enemy reportedly now has control of the town. a bridge on Route 9 less than five miles from the border of South Vietnam was destroyed by Vietnamese Communist troops early on 10 May. The 120-man South Vietnamese army special force across the border in Laos reportedly is guarding the most important of 9 remaining bridges west of the border and has assumed effective control of the Laotian government remnants from the command which abandoned the Tchepone garrison on 1 May. although materiel is still being supplied to these Laotian forces, a political decision has been made in Saigon against the overt employment of regular Vietnamese army troops for offensive action in Laos. Airlift operations on 11 May involved 21 sorties. Although only two Soviet LI-2 flights into Laos
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 13 May 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: the nine Soviet IL-14s tracked in the Vinh area could have made drops in southern Laos. North Vietnam has formally asked that the Geneva co-chairmen take "urgent measures" to prevent further US aid for South Vietnam's struggle against Communist guerrillas. A government statement, issued in Hanoi on 12 May but signed by North Vietnam's foreign minister who is now in Geneva, charged that Vice President Johnson, now in Saigon, was discussing use of US troops in South Vietnam and that the situation constitutes a "most dangerous menace to peace in Indochina . . . at the moment when the situation in Laos is temporarily easing." This statement, coupled with previous statements linking Laotian and Vietnamese issues, seems to foreshadow a North Vietnamese effort to expand the present Geneva Conference to include discussion of Vietnamese reunification
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 13 May 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.977826
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #15, segment 1)
+Text: nothing definite was decided
+Token count: 4
+Recut: none
+
+Clean Chunk #7 (original #17, segment 1)
+Text: The cordial and moderate tone of Nikolayev's remarks was probably intended in part to balance the impact of an early March conversation with the Thai King in which the Soviet ambassador hinted at the possibility of Soviet retaliation if Bangkok continued its "interference" in Laotian affairs
+Token count: 46
+Recut: none
+
+Excluded candidates:
+- original #16 segment 1: short_span_min_tokens
+  Text: Sarit
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=0.961261
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #8 (original #18, segment 1)
+Text: French security officials are concerned over evidence that the settler extremist Organization of the Secret Army is still plotting violence. They point out that this organization emerged from the insurrection virtually intact, and probably in possession of many thousands of arms--some reports say 15,000--which have disappeared from government stocks. Security forces have not been able to prevent the circulation of incendiary tracts threatening dire measures, such as, "The time of plastic bombs has passed--it is now the hour of the machine gun
+Token count: 86
+Recut: none
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=15
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: Communist China to Open Trade Office in Brazil Trade between Communist China and Brazil has been limited to a few Chinese purchases of Brazilian sugar; it is unlikely that the opening of a trade office will lead to a spectacular leap in trade. Communist China in the past, however, has found the signing of trade agreements or the opening of trade offices a useful preliminary move in gaining recognition. This procedure was used in the UAR, Morocco, and Cuba. However, in 1958 Peiping abandoned plans to open an unofficial trade office in Japan after the Japanese Government rejected Peiping's demand for a clear endorsement of the right to fly the Chinese Communist flag. Last year the Chinese Communists closed a trade office in Lebanon--maintained for four years--because Beirut failed to sever relations with Taipei. The Chinese Communists have long indicated a particular interest in Brazil and apparently consider it the key to their efforts in South America. Brazilian members of Latin American delegations to China have reported that the Chinese Communists have given them far more attention than has been accorded other members. The Chinese plan further to court Brazilian interest by opening an exhibition in Brazil illustrating the achievements of the Peiping regime. The Quadros administration has been making unusually strong efforts since its inauguration last January to expand economic relations with both Communist and non-Communist countries. President Quadros has made equivocal statements as to his alignment with the West and has accepted an invitation to the Nasir-Tito conference of "non-aligned" countries which was announced in April. Quadros is not likely to accord early recognition to Peiping, however, since he apparently prefers to space out his announcements of dramatic changes in Brazilian foreign policy and has indicated that the re-establishment of relations with the USSR may precede the establishment of relations with Communist China. The Chinese trade group in Brazil--led by Nan Han-chen, head of Peiping's Committee for the Promotion of International
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 13 May 61 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=12 unred_source_page=16
+alignment_score=0.123541
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: Trade--is working to promote interest
+- original #21 segment 1: full_page_or_admin
+  Text: trade with China on the part of other Latin American countries. It earlier spent six weeks in Cuba and has accepted an invitation for a visit to Uruguay from an unofficial Uruguayan trade promotion organization. The Chilean foreign minister has apparently agreed to permit Nan to visit there. He has also applied for an Argentine visa
+- original #21 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 13 May 61 CENTRAL INTELLIGENCE BULLETIN Page 8
+
+========================================================================
+[PAGE 17]
+kind=unred_only red_source_page=None unred_source_page=17
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: Cuba Seeking Ecuadorean Support Cuba is actively striving to influence public opinion in the hemisphere in its behalf. A number of students from other Latin American countries are now in Cuba, apparently without the approval of their governments. A Cuban good-will mission to various Latin American countries is now in Mexico and will probably include Ecuador in its itinerary. the imminent arrival there of the mission and requested that appointments be made for the emissaries with President Lopez Mateos and Foreign Minister Tello. One of the two leaders of the mission is a member of the Popular Socialist (Communist) party of Cuba. The Ecuadorean ambassador in Havana made no commitments regarding Castro's offer of scholarships or a Velasco visit to Cuba. Velasco is tentatively scheduled to make an official visit to the United States sometime this fall. Within Ecuador, Velasco's acceptance of an invitation from Castro would probably provoke a sharp reaction from anti-Castro forces--which include not only conservative elements and the Catholic clergy, but also a faction of the President's own heterogeneous following. Some retired and active military officers, who are strongly anti-Castro, joined with civilians earlier this year to consider Velasco's ouster because of the leftist drift in his policies and his close ties with the principal pro-Castro leader in the country--former Minister of Government Manuel Araujo. Foreign Minister Chiriboga, a leader of the anti-Castro forces in the Ecuadorean cabinet, resigned on 10 May in opposition to the government's favorable policy toward Cuba
+- original #22 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 13 May 61 CENTRAL INTELLIGENCE BULLETIN Page 9
+
+========================================================================
+[PAGE 18]
+kind=unred_only red_source_page=None unred_source_page=18
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: full_page_or_admin
+  Text: and was replaced by Wilson Vela, who apparently is in complete conformity with President Velasco's views. Vela is also a friend of the President's, having held high positions while Velasco was in office from 1952 to 1956. On 9 May, Chiriboga strongly chastised Ambassador Falconi in Havana for hailing Castro as a "great leader." In his now public letter of resignation Chiriboga described the Castro regime as a "bloody Communist dictatorship" which had openly proclaimed its alignment with the Sino-Soviet bloc and is threatening "the foundations of the Organization of American States
+- original #23 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 13 May 61 CENTRAL INTELLIGENCE BULLETIN Page 10
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=13 unred_source_page=19
+alignment_score=0.975939
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 20]
+kind=match red_source_page=14 unred_source_page=20
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: noncontent_keyword
+  Text: 13 May 1961 Copy No. C 55 CENTRAL INTELLIGENCE BULLETIN

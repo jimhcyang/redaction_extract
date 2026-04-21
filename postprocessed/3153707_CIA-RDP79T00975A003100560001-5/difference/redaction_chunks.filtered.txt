@@ -1,0 +1,124 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.948077
+kept_candidate_count=1
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. KING SAUD INCREASING INTERNAL PRECAUTIONS
+Token count: 6
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+- original #5 segment 1: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.997710
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 05]
+kind=red_only red_source_page=4 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.122054
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 2. KING SAUD INCREASING INTERNAL PRECAUTIONS Comment on: King Saud has instituted widespread security precautions and initiated key personnel changes to strengthen his personal position. Movement of Syrian and Palestinian Arabs
+- original #8 segment 1: full_page_or_admin
+  Text: Saudi Arabia is now subject to extraordinary restriction. The security precautions are all the more necessary because of the entry of thousands of foreign Arabs into the kingdom during the month of the annual pilgrimage to Mecca, which has now begun. Syrian and Palestinian visa applicants are being carefully screened, Syrian pilgrims without visas are being turned back at the Saudi border, and no Saudi visas are being issued in Damascus to truck drivers wanting to drive to Saudi Arabia. A group of Palestinian commandos, who left Syria on the pilgrimage on 23 June, planned to assassinate King Saud. Saudi police are carefully screening the records of all Palestinian employees of the Saudi railroad. Special precautions have also been taken along the Trans-Arabian Pipeline (Tapline) which carries Saudi oil to the Mediterranean. On 19 June the governor of the northern frontier ordered a sunset-to-sunrise curfew at the three northern pumping stations, and instituted search of all automobiles at the gates of the compounds. Earlier the Saudi finance minister expressed concern that Syrians might sabotage Tapline because of deteriorating relations with Saud. Meanwhile, further indication that King Saud has had difficulties with his brother, Crown Prince Faisal, and desires to strengthen his personal position was carried in a Mecca
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: radio report on 25 June. According to the report, the king has replaced the crown prince's son, Prince Abdulla Faisal, as commander of the "white army" (tribal militia) with one of his own sons. Abdulla Faisal, who is also minister of interior, reportedly believes that he may soon lose that position as well to one of the king's sons. Abdulla Faisal's removal as interior minister, however, could provoke increased opposition to the king from supporters of the crown prince
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.995327
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Souphannouvong
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.997744
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Comment on

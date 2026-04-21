@@ -1,0 +1,88 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.625000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.930425
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: S UM MA R Y
+Token count: 5
+Recut: none
+
+Clean Chunk #2 (original #3, segment 1)
+Text: Mau Mau apparently receiving funds from British Communists
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: page 6
+- original #3 segment 3: noncontent_keyword
+  Text: WESTERN EUROPE
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.975407
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #4, segment 1)
+Text: Just prior to the announcement, reports from Cairo suggested that the council had no intention of granting real authority to any civil assembly it might establish
+Token count: 26
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Nagib
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: break-down
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.901460
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #7, segment 1)
+Text: 6. Mau Mau apparently receiving funds from British Communists: The Kenya government has discovered the British Communist Party has supplied funds to the Mau Mau. Comment: This is the first report of significant ties between the Mau Mau and the British Communist Party. Although previous reports had suggested the presence of a loosely organized group of card-carrying Communists in Kenya and the circulation of a mimeographed leaflet parroting the Communist line, local officials have maintained that they have been unable to establish any direct Mau Mau-Communist ties. WESTERN EUROPE 7
+Token count: 90
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

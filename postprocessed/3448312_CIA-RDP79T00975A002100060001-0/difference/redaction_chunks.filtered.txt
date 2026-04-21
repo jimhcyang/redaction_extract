@@ -1,0 +1,71 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.815816
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: TS
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 14
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 2000
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.835154
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #4, segment 2)
+Text: 2. Chinese Communist aircraft apparently conducting in-flight refueling
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.955056
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #5, segment 1)
+Text: 2. Chinese Communist aircraft apparently conducting in-flight refueling
+Token count: 8
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.934897
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #6, segment 1)
+Text: Comment: This is the first indication that in-flight refueling may be in actual use in any Communist bloc air force. Soviet interest has been shown by publications on the subject and Western intelligence has previously conceded Soviet capability for conducting such operations. (Concurred in by OSI
+Token count: 46
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.960000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

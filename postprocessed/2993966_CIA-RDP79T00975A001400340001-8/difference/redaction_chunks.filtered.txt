@@ -1,0 +1,108 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 2)
+Text: N GGGGGGGGGGGG ASS. If} DECLASSIFIED
+Token count: 5
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. 54» CURRENT INTELLIGENCE BULLETIN
+- original #1 segment 3: noncontent_keyword
+  Text: CLASS. CHANGED TO
+- original #1 segment 4: noncontent_keyword
+  Text: TS s c NEXT REVIEW DATE: _..._.1£Q.Q.9..__*._ . AUTH; |;m7Q-E19 ' DATE ax. reevwwrrz-3 13'. J ‘E _ — Off of Current Intelligence
+- original #1 segment 5: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.929412
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 2. Chilean copper may go to Communist China
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 5. Break reported between Nagib and Revolutionary Command Council (page 5). EASTERN EUROPE 6. East German community opposes Soviet requisition of dwellings (page 5)., . WESTERN EUROPE 7. Laniel reportedly exploring EDC's chances before considering changes
+Token count: 35
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: page 3
+- original #3 segment 2: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.947012
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #6, segment 1)
+Text: 2. Chilean copper may go to Communist China: Comment: This is apparently the first shipment of Chilean copper destined for Communist China since the UN resolution of May 1951. It is not known whether this copper will be transshipped to China through a Western European port. Within the past month President Ibanez has reiterated that Chile will continue to respect its international commitments in prohibiting copper sales to the Soviet Orbit
+Token count: 71
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: mili- tarism
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.965588
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: defen- sive
+- original #8 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Novem- ber
+- original #9 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Commu- nists
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: militaryassistance
+- original #11 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: dis- favor
+- original #12 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ultra- nationalistic
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.902083
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #13, segment 1)
+Text: 5. Break reported between Nagib and Revolutionary Command Council: General Nagib's relations with the Revolu- tionary Command Council have deteriorated to such an extent that he refuses to preside at cabinet and council meetings, The split reportedly results from Nagib's objection to the council's policy of using the Suez issue to blackmail the West. EASTERN EUROPE 6. East German community opposes Soviet requisition of dwellings: Comment: While the East Germans have frequently expressed discontent with measures of their government, instances of overt opposition to the occupation forces have been rare since the June riots
+Token count: 94
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.932464
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #14, segment 1)
+Text: WESTERN EUROPE 7. Laniel reportedly exploring EDC's chances before considering changes: Premier Laniel and Foreign Minister Bidault have stated they will not consider the need for changes in the EDC treaty until they have thor- oughly explored parliamentary sentiment during the current recess After this study they will decide whether the treaty has a better chance to pass parliament in its present form or with modifications. Comment: This report indicates that Laniel is more concerned with the view of parliament as a whole toward EDC ratification than with mollifying the ex-Gaullist supporters of his coalition
+Token count: 95
+Recut: none

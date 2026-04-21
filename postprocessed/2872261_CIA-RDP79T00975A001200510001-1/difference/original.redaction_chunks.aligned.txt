@@ -1,0 +1,46 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.985366
+
+Chunk #1
+Predicted text: soviet union 1
+Unredacted context: summary [UNRED_ONLY: soviet union 1] southeast asia 2
+Redacted context: [L@0:summary] [RED_GAP:<empty>] [R@1:southeast] asia 2 li
+
+Chunk #2
+Predicted text: 3
+Unredacted context: near east africa [UNRED_ONLY: 3] comment on the
+Redacted context: 3 near east [L@17:africa] [RED_GAP:<empty>] [R@18:comment] on the iranian
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996053
+
+Chunk #3
+Predicted text: soviet union 1
+Unredacted context: [UNRED_ONLY: soviet union 1] southeast asia 2
+Redacted context: [R@0] southeast asia 2 li
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.999383
+
+Chunk #4
+Predicted text: of
+Unredacted context: tehran and apparently [UNRED_ONLY: of] important parts of
+Redacted context: of tehran and [L@35:apparently] [RED_GAP:<empty>] [R@36:important] parts of the
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.

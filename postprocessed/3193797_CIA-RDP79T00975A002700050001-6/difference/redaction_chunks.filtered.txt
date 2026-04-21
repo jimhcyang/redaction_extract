@@ -1,0 +1,146 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.674375
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.813823
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 1. SUPPORT FOR NASR'S POSITION IN ARAB AND COMMUNIST WORLDS
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 3)
+Text: 2. UPRISING IN LIBYA THREATENED IF BRITAIN MOVES ON EGYPT FROM LIBYAN BASES (page 5). 3. JORDAN ASKS REDUCTION OF SAUDI FORCES NEAR FRONTIER (page 6). 4. THAI TRADE MISSION REPORTEDLY LEAVING FOR PEIPING
+Token count: 34
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 4: noncontent_keyword
+  Text: page 7
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: COMPLICATES
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+- original #5 segment 1: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 1. SUPPORT FOR NASR'S POSITION IN ARAB AND COMMUNIST WORLDS Comment on: Egyptian president Nasr's efforts to arouse nationalistic sentiment in other Arab countries in behalf of Egypt's dispute with the West are showing success. There is a growing movement in the Arab world to stage general strikes expressing determination to resist any effort to impose decisions of the London conference. Ultranationalist, pan-Arab social organizations in Egypt, Syria, Jordan, Lebanon and Bahrein have been preparing for such a demonstration. Attacks on Western installations and personnel, particularly in Jordan and Syria, are a possibility. Egyptian military positions in the delta, the Suez Canal zone, and along the coast continue to be strengthened. additional naval mines have been delivered to points along the canal and to the naval base at Alexandria. Meanwhile, Arab reaction to Nasr's refusal to attend the London conference is one of enthusiastic support. The Arab League's Political Committee currently in session in Cairo gave formal assurance that it fully supported Egypt's announcement and stated that "any aggression against an Arab state violates the sovereignty of all Arab states." In Damascus
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: In Amman the speech was hailed by the press as logical and "watertight." Moscow reacted promptly to the Nasr statement. In its Near Eastern broadcast it praised Nasr and defended the legality of his position. Referring to Nasr's proposal for an expanded conference, Moscow insisted that "no reasonable person . . . would hesitate to agree with this Egyptian proposal." The Yugoslav press has also come out in support of Nasr's position
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 14 Aug 56 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #8, segment 1)
+Text: 2. UPRISING IN LIBYA THREATENED IF BRITAIN MOVES ON EGYPT FROM LIBYAN BASES
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #8 segment 2: noncontent_keyword
+  Text: 14 Aug 56 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 3. JORDAN ASKS REDUCTION OF SAUDI FORCES NEAR FRONTIER Comment during the last two months Saudi forces in the vicinity of Jordan's border have been gradually strengthened with medium artillery, troops and equipment. The Saudis may wish to be in a position to occupy areas which they claim in southern Jordan if that country's unstable political situation invites intervention by Iraqi troops recently deployed near the Iraq-Jordan border
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 14 Aug 56 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=4 unred_source_page=8
+alignment_score=0.246607
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: THAI TRADE MISSION REPORTEDLY LEAVING FOR PEIPING Comment Although Thailand officially disclaims any intent to engage
+- original #11 segment 1: full_page_or_admin
+  Text: strategic trade with Communist China, it recently relaxed restrictions on nonstrategic items. Such trade would provide attractive revenues for key Thai officials, including the premier himself and members of his immediate group, who have interests in various trading companies or who stand to gain from the issuance of export permits. (Concurred in by ORR
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 14 Aug 56 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=5 unred_source_page=9
+alignment_score=0.938504
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: opposition
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attempted
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: accession
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: combine
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: candidate
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: American
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=6 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

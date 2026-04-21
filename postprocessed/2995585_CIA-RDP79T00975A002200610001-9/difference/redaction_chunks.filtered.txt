@@ -1,0 +1,191 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.681250
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.931683
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 3. MEETING BETWEEN BULGANIN AND THAI PREMIER (page 5). 4. INDONESIA SUGGESTS NEW MEETING OF COLOMBO POWERS TO DECIDE ON SECOND AFRO-ASIAN CONFERENCE
+Token count: 23
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 7. RIGHT WING OF BOLIVIAN GOVERNMENT PARTY REPORTEDLY TO ATTEMPT COUP
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 6
+- original #2 segment 2: noncontent_keyword
+  Text: page 9
+- original #3 segment 1: noncontent_keyword
+  Text: 11 Nov 55 Current Intelligence Bulletin Page 2
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.995714
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: 11 Nov 55 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.994643
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: 11 Nov 55 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.245827
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 3. MEETING BETWEEN BULGANIN AND THAI PREMIER Thai premier Phibun's forthcoming visit to Rangoon will coincide with that of Bulganin so that the two can have "a good talk." an important change
+- original #7 segment 1: full_page_or_admin
+  Text: the Thai government's attitude on world affairs after Phibun meets with Burmese premier Nu next month. Comment There have been a number of indications that Phibun desires to improve Thailand's relations with Asian neutrals as well as to soften his government's stiff anti-Communist policies. It is not likely, however, that there will be a major modification of Thailand's pro-Western orientation
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 11 Nov 55 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 4. INDONESIA SUGGESTS NEW MEETING OF COLOMBO POWERS TO DECIDE ON SECOND AFRO-ASIAN CONFERENCE Comment Although India and Pakistan are not now eager for another meeting of the Colombo powers or a second Afro-Asian conference, the prospects now are that both will be held
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 11 Nov 55 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.984978
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Viet-Minh
+- original #10 segment 1: noncontent_keyword
+  Text: 11 Nov 55 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.994495
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: 11 Nov 55 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: 7. RIGHT WING OF BOLIVIAN GOVERNMENT PARTY REPORTEDLY TO ATTEMPT COUP The right wing of the governing Nationalist Revolutionary Movement (MNR) in Bolivia, aided by the army and national police, plans to seize control of the government. Possible dates for the coup were given as 10 and 15 November. The rightists' aim is reported as an attempt to forestall a possible coup by MNR leftists who have lost ground in recent party elections. Comment Since President Paz Estenssoro has invariably been associated with the MNR's right wing, it is unlikely that the reported coup is aimed at removing him from power. It may possibly be planned with his connivance as a preventive move. Paz' popularity with the rank and file of all party factions is such that any attempt to force him from office would probably precipitate civil war
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 11 Nov 55 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.961033
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #14, segment 1)
+Text: Egyptians are reportedly taking Palestine refugees from Jordan for military training in Gaza with the aim of returning them for sabotage operations along the Jordan-Israel border. The commander of the Arab Legion believes his force has the border under good but not complete control. The
+Token count: 45
+Recut: none
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #15 segment 1: noncontent_keyword
+  Text: 11 Nov 55 Current Intelligence Bulletin Page 10
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.978568
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #4 (original #16, segment 1)
+Text: Press) 22 planes, Mysteres or Ouragans, have passed through Rome during October on their way to Israel. The French authorities have claimed that Mysteres have not yet been shipped
+Token count: 29
+Recut: none
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+- original #18 segment 1: short_span_min_tokens
+  Text: Press
+- original #18 segment 2: noncontent_keyword
+  Text: 11 Nov 55 Current Intelligence Bulletin Page 11
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: It is not clear how far the bloc would permit Egypt to get into the production of Soviet-type aircraft. Czechoslovakia and Poland are the only countries outside the USSR which presently manufacture MIG's. Neither is it clear whether Egypt is, at this time, seeking construction of an assembly plant, a major maintenance facility to service the aircraft already contracted for, or a complete airframe factory. In any case, Egypt would probably remain dependent on the bloc for jet engines
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 11 Nov 55 Current Intelligence Bulletin Page 12

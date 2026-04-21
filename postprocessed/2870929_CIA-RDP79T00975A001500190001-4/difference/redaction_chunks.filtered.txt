@@ -1,0 +1,147 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.938112
+kept_candidate_count=4
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 5. No progress seen on Iraqi adherence to Turkish-Pakistani pact
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 7. Israeli cabinet provisionally approves Sharett's moderate policy (page 6). 8. Comment on attempts of Egyptian RCC to show it has army support
+Token count: 23
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 10. Italian ambassador links anti-Communist crackdown to Trieste solution
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #3, segment 3)
+Text: LATE ITEM 11. Major attack on Hanoi-Haiphong communications threatens
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+- original #2 segment 2: noncontent_keyword
+  Text: page 7
+- original #3 segment 2: noncontent_keyword
+  Text: page 8
+- original #3 segment 4: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996241
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: to
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.997185
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.961876
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #6, segment 1)
+Text: The Viet Minh has already been reinforced by 3,000, many of whom, however, are suffering from malaria. The 13,000 additional enemy troops allegedly en route from the delta probably will not arrive in time to influence the current phase of the fighting
+Token count: 44
+Recut: none
+
+Clean Chunk #6 (original #7, segment 1)
+Text: 5. No progress seen on Iraqi adherence to Turkish-Pakistani pact
+Token count: 10
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: strong-point
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.942424
+kept_candidate_count=3
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #8, segment 1)
+Text: Comment: Because of strong domestic opposition to military links with the West, Iraq is moving cautiously on the pending arms aid agreement with the United States. The government is likely to be even more cautious on joining the Turkish-Pakistani pact
+Token count: 40
+Recut: none
+
+Clean Chunk #8 (original #9, segment 1)
+Text: Mallory observes that British officers of the Legion were gratified by the fact that its forces were on the road within minutes after receiving the SOS from Nahhalin
+Token count: 28
+Recut: none
+
+Clean Chunk #9 (original #10, segment 1)
+Text: 7. Israeli cabinet provisionally approves Sharett's moderate policy
+Token count: 8
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.882517
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #10 (original #11, segment 1)
+Text: Comment: This is the first indication of the line the Israeli government intends to follow for the present. Sharett's statement that he has gained only a "respite" for his present policy makes it clear that an aggressive approach will follow if he does not get substantial international support. 8. Comment on attempts of Egyptian RCC to show it has army support: Colonel Nasr's group is attempting to create the impression that it has the support of the armed forces. The extent of genuine army support for Colonel Nasr and the council is, accordingly, open to question. The council is therefore likely to avoid a situation which would directly test the army's loyalty
+Token count: 112
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.923544
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #11 (original #13, segment 1)
+Text: 10. Italian ambassador links anti-Communist crackdown to Trieste solution: Comment: Although Italy has frequently tried to use the EDC issue to win a favorable Trieste settlement, this is the first attempt to exploit the anti-Communist program similarly. On 31 March Premier Scelba instructed his cabinet to begin the crackdown on Communism which he had announced on 18 March. His instructions were somewhat ambiguous, however, and the effectiveness with which he will be able to carry out the program remains in question
+Token count: 81
+Recut: none
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: limited
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: LATE ITEM 11. Major attack on Hanoi-Haiphong communications threatens: Nine regular Viet Minh battalions are now deployed along the Hanoi-Haiphong lines of communications. These units intend to make a major effort against the lines. Comment: While traffic on the road and rail routes between Hanoi and Haiphong was interrupted repeatedly during recent weeks by guerrilla activity, the French were able to resume it quickly

@@ -1,0 +1,234 @@
+========================================================================
+[PAGE 01]
+kind=unred_only red_source_page=None unred_source_page=1
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=1 unred_source_page=3
+alignment_score=0.183392
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: I. SPECIAL ITEM Situation in Laos. II. THE COMMUNIST BLOC East German refugee flow to West Berlin heavy during holiday period. III. ASIA-AFRICA Iran--Shah has apparently decided to rig impending parliamentary elections to assure victory of pre-selected candidates. Ethiopian Emperor's failure to follow up success in crushing recent revolt raises doubts in Ethiopia over his ability to re-assert one-man rule. Japanese Socialists adopt new moderate approach in effort to rally popular opposition to some government policies. Nepalese Communists
+- original #2 segment 1: full_page_or_admin
+  Text: former ruling Nepali Congress party have begun separately to operate underground in opposition to King's takeover of government. IV. THE WEST Mexican foreign minister says Cuban situation is problem for Cuban people but they may need some outside help. LATE ITEM Beirut rioting may force Lebanese President Shihab to form military government
+
+========================================================================
+[PAGE 04]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.925581
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 1)
+Text: I. SPECIAL ITEM Laos: While sporadic skirmishing has been reported, there has been no appreciable change in the areas held by the opposing forces during the past two days. Even if agreement in principle is soon reached on reactivation of the ICC, the time required to get the commission in place and to agree on the terms under which it would operate would permit both sides to engage in considerable military activity in order to be in the best position should a truce be declared. The Boun Oum government, its investiture by the National Assembly now completed, is sending an emissary to Phnom Penh in an effort to persuade Souvanna Phouma to recognize the new government; an ambassadorship or some other post offered Souvanna
+Token count: 124
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: Page 1
+- original #4 segment 1: noncontent_keyword
+  Text: Page 3
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.861121
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #2 (original #5, segment 1)
+Text: Iran: After several weeks of hesitation, the Shah appears to have decided that the parliamentary elections which are expected to start sometime this month should again be rigged to assure the choice of pre-selected candidates. Commentary in the Iranian press on these elections, in contrast to the treatment of the August elections, has been very scanty, apparently because the regime hopes to reduce the impact of electoral chicanery on the public. Iranian security officials expect demonstrations but believe they can handle them easily. One high security official expressed the view that the "real and tragic damage" which will result from these elections will be the irreparable widening of the gap between the regime and the people
+Token count: 116
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #8, segment 1)
+Text: opposition to Japan's defense build-up. The more moderate Socialist approach in the present political context offers considerable danger to the government and to US-Japanese relations. (Page 7) Nepal: Leaders of both the Communist party and the former ruling Nepali Congress party have begun separately to operate underground in Nepal. They are also engaging in organizational activities in India in opposition to the takeover of the government by King Mahendra. The King's 5 January ban on political parties will strengthen their determination to oppose his direct-rule policies. Former Deputy Prime Minister Subarna Shumshere, who has been in Calcutta since the King's takeover in December, is already in contact with Indian government leaders and has reportedly received New Delhi's covert blessing for "limited resistance activities." Subarna has, however, ruled out collaboration with the Communists. IV. THE WEST Cuba: Latin American reaction to the US-Cuban diplomatic break thus far has been mixed and fragmentary. The most striking comment has come from Mexican Foreign Minister Tello. He told US Embassy officials that while the Cuban situation is a problem for the Cubans themselves, they will need "a little bit of outside help." He implied that the problem could be dealt with by the Organization of American States, under its Caracas Resolution of 1954 against international Communism. Mexico is a strong proponent of the concept of nonintervention, and this is the furthest any Mexican official has yet gone toward condoning external action to solve the Cuban problem. Tello also spoke of the great difficulty of influencing Cuba back into the American family of nations--a sharply contrasting attitude to the warm official reception given by Mexico to Cuban President Dorticos last June
+Token count: 277
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 2: noncontent_keyword
+  Text: Page 4
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: re-assert
+- original #7 segment 1: noncontent_keyword
+  Text: Page 6
+- original #8 segment 2: noncontent_keyword
+  Text: Page 9
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.850955
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #9, segment 1)
+Text: LATE ITEM Lebanon: Fears that Moslem rioting in Beirut on 4-5 January might lead to Christian-Moslem strife may force President Shihab to accede to pressures from some army elements for a military takeover of the government, according to Ambassador McClintook. Rivals of Prime Minister Salam, including former Prime Minister Yafi, apparently instigated the disorders hoping to bring down Salam's cabinet. Although Shihab has become increasingly disillusioned with Lebanese political leaders, whom he contemptuously terms "cheese-eaters", he has consistently resisted past suggestions that he form a military government
+Token count: 87
+Recut: none
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword, ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: 68-20 60. 26
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.243816
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin, short_span_min_tokens
+  Text: Situation
+- original #12 segment 1: full_page_or_admin
+  Text: Laos Scattered skirmishing between Pathet Lao/Kong Le forces and government troops has been reported in the past two days, but there appears to have been no appreciable change in the areas held by the opposing forces. The Pathet Lao and Kong Le appear to be consolidating their control in the Plaine des Jarres area and are exerting pressure on government paratroop elements dropped a few miles outside Xieng Khouang town on 1 January. The government post at Ban Ban to the northeast also appears to be under strong enemy pressure. Government elements in Xieng Khouang Province are widely scattered and will have to regroup and be reinforced before any attempt to retake the Plaine des Jarres can be undertaken. Elsewhere in the country, a government blocking position north of Luang Prabang came under mortar fire on 4 January, possibly presaging an early increase in Pathet Lao pressure on the royal capital. Communist radio claims of Pathet Lao successes in other parts of Laos are probably considerably inflated, although guerrilla activity is believed to be on the increase in southern and central Laos. Premier Boun Oum, his government now formally invested by the National Assembly, has informed Ambassador Brown in Vientiane that one of his cabinet ministers will leave shortly for Phnom Penh in an effort to persuade Souvanna Phouma to recognize the legality of his regime. An ambassadorship or some other government post may be offered Souvanna as an inducement to drop any pretension he may entertain that he still heads the legal government of Laos. Souvanna recently indicated to the press that he would resign the moment the Boun Oum government was constitutionally established; however, he is subject to strong Soviet influence in Phnom Penh and may not follow through on his promise. Even though he appears unlikely to proclaim a government-in-exile, he may choose simply to remain silent
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: thus keeping himself free to come in as a compromise premier in a negotiated settlement, which he may feel will be the final upshot of the crisis in Laos. The Boun Oum government continues to show a strong anti-French animus, stemming from the belief that the French were behind the Kong Le coup and openly favored leftist elements in the struggle between Savannakhet and the Souvanna government in Vientiane. The government has ordered all French civil servants and military personnel in southern Laos to congregate at the Seno military base near Savannakhet. All such persons in the First Military Region in northern Laos have been ordered to return to Vientiane. In his conversation with Ambassador Brown, Boun Oum reiterated his government's intention to take over Seno, the use of which was granted to the French under the 1954 Indochina Armistice Agreements. The Boun Oum government has indicated a willingness to consider reactivation of the ICC in Laos if all signatories to the 1954 Geneva Agreements desire this and if the Geneva co-chairmen--Great Britain and the USSR--submit the request for recall to Boun Oum's Ministry of Foreign Affairs. The USSR, Communist China, and North Vietnam--which signed the Geneva Agreements along with Britain, France, and Cambodia--continue to call for reactivation of the ICC but have insisted that all dealings be with ex-Premier Souvanna Phouma. Even if agreement in principle is soon reached on reactivation of the ICC, the time required to get the commission in place and to agree on the terms under which it would operate would permit both sides to engage in considerable military activity in order to be in the best position should a truce be declared. All ten Soviet IL-14s made flights into Laos on 4 January and were scheduled for ten more flights on 5 January
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.997191
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: tension
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.122338
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: Shah Appears Determined to Rig Parliamentary Elections The Shah has apparently received conflicting advice on the conduct of the elections: one school, exemplified by former Prime Minister Eqbal, maintains that they should be completely controlled; the other view, held by Bakhtiar and presumably by Sharif-Emami, is that a free choice should be permitted among carefully selected candidates. It now appears that the Eqbal approach has not only won out but that Sharif-Emami has himself been persuaded to support a policy he has previously deplored. The Shah, however, is likely to be under pressure, up to the day the voting begins, to reverse this policy
+- original #16 segment 1: full_page_or_admin
+  Text: contrast to its treatment of the abortive elections of August 1960, the Tehran press has nearly ignored the coming elections. This appears to be an attempt by the regime to reduce public interest and thus avoid a repetition of last year's widespread criticism. Bakhtiar and other security officials expect demonstrations if rigged elections are repeated, but none that cannot be
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #17, segment 1)
+Text: controlled. He believes that the "real and tragic damage" will be the irreparable widening of the gap between the regime and the people. The violent repression of demonstrations could precipitate formation of a unified nationalist opposition controlled by radical elements
+Token count: 40
+Recut: none
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=12 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 17]
+kind=unred_only red_source_page=None unred_source_page=16
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: Latin American Reaction to US-Cuban Break Latin American reaction to the US-Cuban diplomatic break thus far has been mixed and fragmentary. The most striking comment has come from Mexican Foreign Minister Tello, who told American Embassy officials that the exertion of any influence to bring Cuba back into the American family of nations would be most difficult since Cuba's recent actions demonstrate its complete alignment with the Sino-Soviet bloc. He said that while the Cuban situation is a problem for the Cubans themselves, they will need "a bit of outside help" in some form which would not "lower the prestige of any nation." He said that the Cuban problem could only be dealt with by the Organization of American States (OAS) through the provisions of the Caracas resolution of 1954 against international Communism, but he added that this would preclude any Mexican involvement in the voting. Mexico remains the only Latin American nation which has not endorsed the 1954 resolution. The US Embassy in Mexico City sees this statement as an indication that Mexico may "convey a benevolent nod for someone else to terminate the Cuban headache while Mexico goes on abstaining." Mexico has long been a stanch supporter of the doctrine of nonintervention, and the Tello statement is the furthest any Mexican official has yet gone in condoning external action to solve the Cuban problem. Some Mexican officials have publicly voiced their sympathy for the Cuban people and the aims of their revolution since June 1960, when Cuban President Osvaldo Dorticos was received warmly by Mexican officials as well as the general public during his tour of the country. This attitude has been due both to Mexico's finding an analogy between the Cuban and Mexican revolutions and to mounting leftist pressures on the Lopez Mateos government. A Brazilian Foreign Office official criticized the US for not consulting the other OAS governments beforehand, and
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=13 unred_source_page=17
+alignment_score=0.122081
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: expressed fears that the break will play into Castro's hands
+- original #20 segment 1: full_page_or_admin
+  Text: his efforts to drive a wedge between the United States and the rest of Latin America. Venezuelan Foreign Minister Falcon Briceno commented favorably on the US action and said that he considered it inevitable; Haitian Foreign Minister Baguidy expressed a similar sentiment. Venezuelan relations with Cuba are already strained, and Ambassador Sparks in Caracas feels that Venezuela's future course in regard to Cuba will be determined by the degree of satisfaction of the Betancourt government with the outcome of the 4 January OAS council meeting, which voted to impose limited economic sanctions against the Trujillo dictatorship in the Dominican Republic. Costa Rican and Panamanian officials have indicated that their governments now are considering the possibility of breaking diplomatic ties with Cuba. Uruguayan officials have indicated their government may use the Cuban precedent in demanding the reduction of the US diplomatic mission in Havana to the same level as the Cuban representation in Washington as a means of trimming the size of the Soviet diplomatic mission of some 80 individuals in Montevideo to the three Uruguayans in Moscow. Meanwhile, there is no evidence of a Cuban move against the US naval base at Guantanamo, but the Cuban ambassador to Mexico said on 3 January that his government would present a "petition" to the United Nations "to have the base eliminated
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=14 unred_source_page=18
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 20]
+kind=match red_source_page=15 unred_source_page=19
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 6 January 1961 Copy No. C 75

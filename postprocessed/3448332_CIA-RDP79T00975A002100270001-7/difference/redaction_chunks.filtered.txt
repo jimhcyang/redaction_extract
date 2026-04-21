@@ -1,0 +1,65 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.754444
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: FAR EAST 1. Shigemitsu says Japan not committed to storing nuclear weapons
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: WESTERN EUROPE 4
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.813387
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: FAR EAST 1. Shigemitsu says Japan not committed to storing nuclear weapons: Comment: The Japanese government's political vulnerability on nuclear matters was recently demonstrated when publicity on the American intention to deploy "Honest John" rockets with nuclear capabilities enabled the Socialists to block action on the National Defense Council bill. The council was to be responsible for long-range defense planning. Shigemitsu apparently is seeking to elicit a commitment that the United States will not store atomic weapons in Japan without the prior consent of the Japanese government. Earlier, Shigemitsu had publicly claimed that Japan had such a commitment. (Concurred in by OSI
+Token count: 102
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.971064
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: WESTERN EUROPE 4

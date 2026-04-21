@@ -1,10 +1,10 @@
 {
   "pair_key": "3189339_CIA-RDP79T00975A005100430001-7",
   "row_index_1based": 2850,
-  "unredacted_pdf": "docs\\unredacted_pdfs\\cib_03189339.pdf",
-  "redacted_pdf": "docs\\redacted_pdfs\\CIA-RDP79T00975A005100430001-7.pdf",
-  "redacted_pdf_copy": "transcriptions\\3189339_CIA-RDP79T00975A005100430001-7\\source_pdfs\\CIA-RDP79T00975A005100430001-7.pdf",
-  "unredacted_pdf_copy": "transcriptions\\3189339_CIA-RDP79T00975A005100430001-7\\source_pdfs\\cib_03189339.pdf",
+  "unredacted_pdf": "docs/unredacted_pdfs/cib_03189339.pdf",
+  "redacted_pdf": "docs/redacted_pdfs/CIA-RDP79T00975A005100430001-7.pdf",
+  "redacted_pdf_copy": "transcriptions/3189339_CIA-RDP79T00975A005100430001-7/source_pdfs/CIA-RDP79T00975A005100430001-7.pdf",
+  "unredacted_pdf_copy": "transcriptions/3189339_CIA-RDP79T00975A005100430001-7/source_pdfs/cib_03189339.pdf",
   "csv_row": [
     "Current/Central Intelligence Bulletin Collection",
     "3189339",
@@ -18,42 +18,8 @@
     "1960",
     ""
   ],
-  "model": "gpt-5.2",
-  "redacted_status": "completed",
-  "redacted_response": {
-    "model": "gpt-5.2",
-    "response_id": "resp_0e3c3225bf24146c0069de83d07b5c819eb0a9c4c18fa0a32e",
-    "uploaded_file_id": "file-MeTduHJ2vYpo6JZjScYZHR",
-    "usage": {
-      "input_tokens": 9657,
-      "input_tokens_details": {
-        "cached_tokens": 0
-      },
-      "output_tokens": 1287,
-      "output_tokens_details": {
-        "reasoning_tokens": 0
-      },
-      "total_tokens": 10944
-    },
-    "attempts": 1
-  },
-  "unredacted_status": "completed",
-  "unredacted_response": {
-    "model": "gpt-5.2",
-    "response_id": "resp_033fb9881526486d0069de83e113a881a39ec048faab58cb7e",
-    "uploaded_file_id": "file-Vo6EpxzEtxSLasbeRuQSss",
-    "usage": {
-      "input_tokens": 19437,
-      "input_tokens_details": {
-        "cached_tokens": 0
-      },
-      "output_tokens": 3775,
-      "output_tokens_details": {
-        "reasoning_tokens": 0
-      },
-      "total_tokens": 23212
-    },
-    "attempts": 1
-  },
+  "model": "gpt-5.4-mini",
+  "redacted_status": "skipped_existing",
+  "unredacted_status": "skipped_existing",
   "pair_status": "completed"
 }

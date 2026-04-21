@@ -1,0 +1,87 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.375510
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.624731
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: BRAZILIAN OFFICERS REPORTED PLANNING LAST MINUTE EFFORT TO STOP KUBITSCHEK INAUGURATION
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 3)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 4: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.922913
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: PKI
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: President
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: survival
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: withdrawal
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: considering
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: abstentions
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 2. BRAZILIAN OFFICERS REPORTED PLANNING LAST MINUTE EFFORT TO STOP KUBITSCHEK INAUGURATION Comment It is possible that these officers may make a desperate attempt, but the military forces backing the present government are believed capable of ensuring Kubitschek's inauguration as scheduled. The government has extended the state of siege to 24 February
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (22 January) Two patrol skirmishes between Egyptian and Israeli forces are reported to have occurred near the El-Auja zone on 22 January. (Press) Israeli press reaction to the UN Security Council condemnation of Israel for its attack on Syria has emphasized that the decision was dictated by the big powers' relations with the Arabs rather than by consideration of the merits of Syria's complaint. Tel Aviv expects further editorial concentration on the problem of Israel's "isolation" and what it should do if it does not receive additional arms from the West. the Saudi military mission has purchased nearly $3,500,000 worth of equipment. approval of the deal was subject to a favorable report from the mission and its Egyptian advisers on the types and serviceability of the purchases

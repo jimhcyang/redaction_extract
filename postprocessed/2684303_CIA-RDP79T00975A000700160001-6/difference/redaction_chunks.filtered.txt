@@ -1,0 +1,105 @@
+========================================================================
+[PAGE 01]
+kind=red_only red_source_page=1 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 30 May 1952 Copy No. 53 CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.966275
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 4. Viet Minh communications changes suggest major offensive (page 5). 5. French agree "in principle" to repatriation of Chinese internees
+Token count: 20
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.986872
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens
+  Text: A
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 4. Viet Minh communications changes suggest major offensive: Recent changes in communications of its general headquarters suggest that the Viet Minh has again established an advance headquarters. The new station is in contact with the military headquarters of the three territorial commands in northern Indochina and with all six of the Viet Minh divisions in Tonkin. In the past, similar communications changes have preceded major offensives. Comment: Contrary to earlier estimates from French sources in Indochina, this information indicates that the Viet Minh may soon conduct large-scale offensive operations, as suggested in a previously reported plan to seize the rice crop now being harvested in the Tonkin delta. 5. French agree "in principle" to repatriation of Chinese internees: A Chinese Nationalist officer, inspecting the circumstances of Nationalist troops interned in Indochina, has been informed by the French authorities in Saigon that the French Government agrees "in principle" to the repatriation of these internees. The French emphasize, however, that "present difficulties" in Indochina make it advisable to examine all possible plans for effecting such repatriation
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=0.994654
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=7
+alignment_score=0.994949
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens
+  Text: I
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 9. British propose settlement for Saar issue: As a means of settling the Saar dispute, British Foreign Secretary Eden proposes that: (1) the Saar be placed under the trusteeship of the Council of Europe with full political, cultural, and economic freedom, except that France would continue to have a 50-year lease, with option of renewal, on coal fields and railways, and would receive credit for iron and steel output under the Schuman Plan; (2) the Saar become the seat of the projected European authorities; (3) France and Germany agree to these arrangements without prejudice to the final determination of German frontiers in an eventual peace treaty; and (4) the Council of Europe supervise the election of a new Landtag, which would then pass on these proposals. Eden further suggests that, if all parties concerned agree to these steps, the Saarlanders themselves could within five years decide their future. Comment: The British position regarding the Saar has been that the United States and Britain should discreetly press for settlement before greater French-German animosity developed over this issue
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.645165
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

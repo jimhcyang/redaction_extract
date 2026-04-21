@@ -1,0 +1,102 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.834167
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: TOP SECRET SECURITY INFORMATION
+- original #2 segment 1: noncontent_keyword
+  Text: Copy No. 4
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.927143
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 1)
+Text: FAR EAST 2. Plan to remove Burmese Premier reported (page 3). EASTERN EUROPE 3. French Ambassador discounts mass arrests in Czechoslovakia
+Token count: 21
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: LATIN AMERICA 6. American supply of Chilean copper threatened
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: page 4
+- original #4 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.950000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: FAR EAST 2. Plan to remove Burmese Premier reported: The Burmese Commander in Chief, Ne Win, and leaders of the Burma Socialist Party are reliably reported to be planning a bloodless coup to remove Premier Thakin Nu from office. The action is to be announced on 9 January. Justification for the coup is said to be documentary evidence that the Premier is plotting with the hill tribes against Ne Win
+Token count: 70
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: Comment: This report, if correct, means that Ne Win has forsaken his neutral political position which, heretofore, has served to restrain the Socialists from taking precipitate action against Thakin Nu. The Socialist Party is the majority party in Parliament and has been reported by numerous sources to be maneuvering for several months to replace the non-party Premier. Socialist leaders are strongly inclined to the left and are critical of Thakin Nu's increasingly pro-Western and anti-Communist attitude. The plotters may hope to reduce the risk of an adverse public reaction to removal of the widely respected Premier by linking him with the hill peoples, for whom the Burmans hold ahistorical antipathy. EASTERN EUROPE 3. French Ambassador discounts mass arrests in Czechoslovakia: The French Ambassador in Prague reports that although there has been a number of arrests in connection with the Slansky affair, the numbers cited in the Western press are exaggerated. He points out that the government appears to be proceeding with a purge of individuals rather than with mass arrests. The Ambassador discounts recurrent rumors that the common Jewish origin of many of the arrested persons was responsible for their removal. Comment: The French Ambassador's opinion agrees with that of the US Embassy in Prague, which estimated that no more than 150 persons had been arrested following Slansky's fall
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.996364
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: unwittingly
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.901037
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #8, segment 1)
+Text: LATIN AMERICA 6. American supply of Chilean copper threatened: Ambassador in Washington has been instructed by President Gonzalez Videla to inform the United States that any effort to disturb the favorable sale by Chile of its quota of copper produced from American-controlled mines could lead Chile to dispose of its total production. Legislation already passed by the Chamber of Deputies and pending before the Senate would authorize the President to take such action. The Chilean Ambassador, as a result of the recent statement on copper by the US Defense Production Administrator, had previously informed his government that the moment was opportune for notifying the United States that any attempt to fix a copper price disadvantageous to Chile could lead the latter to withdraw from the International Materials Conference. Comment: The US-Chilean copper agreement provides that eighty percent of the large production of US-controlled mines may be purchased by the United States at 27.5 cents per pound, and that
+Token count: 159
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=6 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #9, segment 1)
+Text: Chile may freely dispose of the remaining production. The minimum price for "free disposal" copper is 54 cents per pound. Chile accepted the International Materials Conference recommendations on copper allocation only with respect to eighty percent of the large mine production
+Token count: 41
+Recut: none

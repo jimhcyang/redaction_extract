@@ -1,0 +1,241 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.563478
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.901093
+kept_candidate_count=3
+excluded_candidate_count=9
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 1. SYRIAN PRESIDENT WEIGHS RESIGNATION
+Token count: 5
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 3)
+Text: 2. SAUD SEEKS BAN ON ISRAELI SHIPPING IN GULF OF AQABA (page 4). 3. SUDANESE ACT TO BLOCK EGYPTIAN PLOTTING
+Token count: 20
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #6, segment 2)
+Text: 7. PEIPING'S LETTER-WRITING CAMPAIGN AIMED AT TAIWAN DEFECTIONS
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 4: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: ANTI-SOVIET
+- original #6 segment 1: noncontent_keyword
+  Text: page 9
+- original #6 segment 3: noncontent_keyword
+  Text: page 10
+- original #7 segment 1: noncontent_keyword
+  Text: page 11
+- original #8 segment 1: noncontent_keyword
+  Text: page 12
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 1. SYRIAN PRESIDENT WEIGHS RESIGNATION Comment President Quwatli has previously threatened to resign. Since his position has become increasingly untenable, he may now actually do so unless he receives strong backing from either Nasr or King Saud. It is likely that Nasr will do little more than urge Quwatli to make accommodations with the left. There are indications meanwhile that Quwatli has been in contact with Saud and that the king will support him and antileftist forces in Syria. Such support would forestall Quwatli's resignation, as well as induce Syrian moderates to force a showdown with the leftists. Rumors of a showdown are again appearing
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 14 June 57 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.243874
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: SAUD SEEKS BAN ON ISRAELI SHIPPING
+- original #11 segment 1: full_page_or_admin
+  Text: GULF OF AQABA Comment on: In audience with Ambassador Wadsworth before departing for Jordan, King Saud voiced strong opposition to the presence of Israeli shipping in the Gulf of Aqaba. Saud asserted that United States support of Israeli use of the Gulf of Aqaba weakened his position and defeated his effort to try to line up the Arabs behind the United States. He urged that the United States assist in forcing Israel to return to the status quo ante, when there was no passage through the gulf except with Egypt's permission, and when Israel had no warships there. Saud indicated that he would call a conference of Moslem states to consider the problem posed by the presence of Israeli vessels in the gulf, astride a historical route of pilgrims to Mecca. It would be necessary to convene such a conference soon since the annual pilgrimage season begins at the end of June. Saud also intimated that he would have to close Saudi Arabia to pilgrims because he could not take responsibility for their safety. He claimed that they would be in jeopardy, whether traveling via the Gulf of Aqaba or by other routes, until the gulf question was settled. To draw world attention to this issue, Saud and King Hussain issued on 12 June a warning against use of the gulf route by pilgrims "because of the instability of the area." This warning has had its principal effect in Syria, where several thousand pilgrims bound for Aqaba have been forced to halt their departure. The left-wing Syrian press has attacked Saud and Hussain for causing economic loss to the pilgrims and denounced the travel ban as a hostile act
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 14 June 57 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: 3. SUDANESE ACT TO BLOCK EGYPTIAN PLOTTING An Egyptian-backed attempt at a "military coup" in the Sudan has been uncovered by the Sudanese government, and has made one arrest, with a number of others expected to follow. The government is reportedly in control of the situation Comment Subversive activity aimed at extending Egyptian influence in the Sudan has been a consistent policy of the Nasr regime, and the weakness of the coalition government in Khartoum may have led some elements to attempt to recruit for a subversive effort. Major Salim, persona non grata in the Sudan because of his past involvement in affairs of a like nature, was recently reported to have been refused permission for an entry visa. Kibaida has also been reported involved in such conspiracies in the past
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 14 June 57 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.928153
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: destroyer
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: successive
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: accompanied
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: conduct
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: goodwill
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.958785
+kept_candidate_count=0
+excluded_candidate_count=8
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: noncontent_keyword
+  Text: Comment on
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: demonstrate
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: concessions
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: consider
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: inspection
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: recent
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: accepted
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: delegate
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.942930
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: facilitate
+- original #28 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: inspection
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.923708
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #29 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: encountered
+- original #30 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: deemphasize
+- original #31 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: awakening
+- original #32 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: championships
+- original #33 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: opponents
+- original #34 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: recently
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #35 segment 1: full_page_or_admin
+  Text: 7. PEIPING'S LETTER-WRITING CAMPAIGN AIMED AT TAIWAN DEFECTIONS Peiping is attempting to induce defections from Taiwan through a letter-writing campaign. Most of these letters are from relatives on the mainland and are of a personal nature. In at least two cases, university graduates were urged to return home where their "special skills" are needed. The letters are usually mailed from the mainland to Hong Kong and then forwarded to Taiwan. Comment A year ago it was reported that letters to individuals on Taiwan from friends and relatives on the mainland were arriving at a rate of 500 per month. In February 1957, members of the Chinese Communist Youth League were exhorted to step up a campaign to send letters to officials on Taiwan and induce "discussion and acceptance of peaceful liberation." Peiping uses a similar personal approach in radio broadcasts addressed to individual Nationalist officials. Few defections have resulted from such approaches, but the Nationalists have admitted that mainland-born Chinese on Taiwan are potentially vulnerable to these patriotic appeals
+- original #35 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 14 June 57 Current Intelligence Bulletin Page 10
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.897531
+kept_candidate_count=1
+excluded_candidate_count=6
+
+Clean Chunk #4 (original #41, segment 1)
+Text: Comment EOKA plans soon to resume an anti-British campaign or violence. However, both Athens and the Greek-Cypriot leadership appear to believe that such a course would damage their cause at the UN; they apparently also believe that the lack of progress toward a Cyprus solution since the UN resolution of last February enhances the prospects of a more favorable UN decision this fall
+Token count: 63
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #36 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Dervis
+- original #37 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: delaying
+- original #38 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: recently
+- original #39 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Greek-Cypriots
+- original #40 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Ambassador
+- original #41 segment 2: noncontent_keyword
+  Text: 14 June 57 Current Intelligence Bulletin Page 11
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #42 segment 1: full_page_or_admin
+  Text: ANNEX Watch Report 358, 12 June 1957 of the Intelligence Advisory Committee Conclusions on Indications of Hostilities On the basis of findings by its Watch Committee, the Intelligence Advisory Committee concludes that: A. No Sino-Soviet bloc country intends to initiate hostilities against the continental US or its possessions in the immediate future. B. No Sino-Soviet bloc country intends to initiate hostilities against US forces abroad, US allies or areas peripheral to the Orbit in the immediate future. C. Early deliberate initiation of hostilities by Israel or the Arab states is not probable. Although tensions continue between the Arab states and Israel and among certain Arab states themselves, these are not likely to lead to serious conflict in the immediate future
+- original #42 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 14 June 57 Current Intelligence Bulletin Page 12

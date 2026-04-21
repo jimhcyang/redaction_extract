@@ -1,0 +1,74 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.960000
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 3. Opponent of Mossadeq reportedly gaining strength
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: EASTERN EUROPE 5. Polish government pursuing rigorous economy policy
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996458
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.906996
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: NEAR EAST - AFRICA 3. Opponent of Mossadeq reportedly gaining strength: Comment: The shah still appears to be the determining factor in any plan to remove Mossadeq. If he lends his support and helps unite some of Mossadeq's opposition, there is the possibility that the prime minister could be ousted. There is no indication that the shah has changed his belief that Mossadeq in time would be discredited and fall by his own weight
+Token count: 73
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.929573
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #5, segment 1)
+Text: Polish government pursuing rigorous economy policy: Comment: These measures, designed to divert more manpower to industry and to reduce production costs, are the most far-reaching economy measures taken in Poland for several years. The resulting savings will permit greater capital investment by the government and improve prospects for the attainment of production goals. The discrimination against older and prewar employees suggests that the government may be using this opportunity to purge elements generally considered unreliable
+Token count: 75
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: EASTERN EUROPE
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.993750
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

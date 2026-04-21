@@ -1,0 +1,117 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.536364
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.953977
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 2)
+Text: FAR EAST 2. South Korea to press for assumption of command over Korean front
+Token count: 14
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 6. 7. Mendes-France reported sacrificing EDC to Soviet interests
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.950656
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #4, segment 1)
+Text: to contribute
+Token count: 2
+Recut: none
+
+Clean Chunk #4 (original #6, segment 1)
+Text: FAR EAST 2. South Korea to press for assumption of command over Korean front the South Korean army assume command over the Korean front, now that the United States and other allies are withdrawing their troops
+Token count: 36
+Recut: none
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: ssy
+- original #5 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Sino---Japanese
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.917262
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #5 (original #7, segment 1)
+Text: Comment: Of South Korea's 20 divisions, all under Eighth Army control, 12 now occupy the major portion of the front. Completion of the American withdrawal program by the end of the year will leave two United States divisions in Korea. The above proposal is an attempt to cut the control of the United States in Korea in proportion to its troop reduction and is probably aimed at eliminating Eighth Army Headquarters, which has had an inhibiting influence on some of Rhee's contemplated actions. It would place South Korean forces in an improved position from which to make threats of unilateral action and may presage an eventual attempt to withdraw Korean forces from the United Nations Command
+Token count: 116
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.983193
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: uermansmat
+- original #11 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 6
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: 7. Mendes-France reported sacrificing EDC to Soviet interests: French premier Mendes-France told Molotov and Chou En-lai at Geneva in July that France would not ratify the present EDC treaty even at the risk of splitting the Western bloc, and that he planned to propose amendments making the treaty acceptable to France and compatible with Soviet security interests. In return, France gained a favorable settlement in Indochina and was assured of a favored trade position in Indochina, China, and the rest of the Orbit. Prior to the Brussels meeting this month, Vyshinsky reportedly assured Mendes-France in Paris that the USSR was ready to take joint countermeasures with the French in Germany if German military forces were raised in the American and British zones. Comment: Rumors of such a deal at Geneva have been revived as a result of the Brussels deadlock
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.958247
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #13, segment 1)
+Text: While Mendes-France assured the French National Assembly in his report on the Geneva conference that the USSR had not sought a European settlement, he told Ambassador Dillon that Molotov had hinted at a deal. The premier has publicly committed himself to the acceptance of German rearmament; however, he has avoided a decision on timing
+Token count: 54
+Recut: none

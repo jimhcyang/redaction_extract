@@ -1,0 +1,64 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.652273
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.966000
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: NEAR EAST - AFRICA 5. Shah reportedly refuses to dissolve Majlis at Mossadeq's request
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens
+  Text: INFORMATION
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+- original #2 segment 3: noncontent_keyword, short_span_min_tokens
+  Text: 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.122805
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: NEAR EAST - AFRICA 5. Shah reportedly refuses to dissolve Majlis at Mossadeq's request: The Shah has reportedly refused to do so on the grounds that such action would be unconstitutional unless there were new elections. Mossadeq had allegedly taken the position that elections were impossible at present because of public unrest. Comment: On 20 April Mossadeq's supporters
+- original #4 segment 1: full_page_or_admin
+  Text: the Majlis announced that the parliamentary elections suspended last May were to be completed. Mossadeq could gain significant strength as a result of these elections. Under the new electoral law, approximately 90 additional deputies are authorized, and Mossadeq's supporters probably would be able to manipulate the elections in many districts. 6
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

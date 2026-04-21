@@ -1,0 +1,65 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.433640
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 3.5(c) 3.3(h)(2
+Token count: 7
+Recut: none
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.976483
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #3, segment 1)
+Text: Persian Gulf: There are indications that a consignment of arms from Saudi Arabia, destined for the rebels in Inner Oman, recently reached the Sultanate of Muscat and Oman by sea. Other similar consignments may follow shortly
+Token count: 36
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: in
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #5, segment 1)
+Text: IV. SIGNIFICANT INTELLIGENCE REPORTS AND ESTIMATES (Available during the preceding week) National Intelligence Estimate No. 75-58. Conditions and trends in French Tropical Africa. 17 June 1958
+Token count: 26
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 2: noncontent_keyword
+  Text: 4 July 58 DAILY BRIEF
+- original #5 segment 3: short_span_min_tokens
+  Text: iii

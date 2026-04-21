@@ -1,0 +1,129 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.123602
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 18 JANUARY 1960 I. THE COMMUNIST BLOC Chou En-lai again invites Burmese prime minister to Peiping, but
+- original #2 segment 1: full_page_or_admin
+  Text: effect turns down Burmese proposals for border settlement. II. ASIA-AFRICA Turks being pressed by Moscow for exchange of high-level visits. Laotian Government devising electoral procedures to assure conservative victory this spring; Hanoi cautions against any departure from neutral foreign Policy. III. THE WEST Dominican Republic--Trujillo trying to counter growing unrest
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.886782
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #3, segment 1)
+Text: I. THE COMMUNIST BLOC China - Burma: Premier Chou En-lai on renewed his invitation to Burmese Prime Minister Ne Win to visit Peiping for talks, which he said would be "very useful" in promoting an agreement on the Sino-Burmese border issue. Chou again side-stepped acknowledgment of Ne Win's precondition for such a visit--China's acceptance of Burma's June 1959 proposals--and called on Burma to "continue negotiations" on the "relatively small difference" remaining between the two sides. It now is probably clear to Ne Win that the Chinese will not give him a border settlement on his terms. (Page 1) II. ASIA-AFRICA Turkey-USSR: Turkish Prime Minister Menderes has informed Ambassador Warren of his concern over problems posed for his government by the atmosphere of East-West detente and recent exchanges of high-level visits. Soviet representatives in Turkey are actively urging similar visits between Turkey and the USSR. According to Menderes, Turkey does not oppose an East-West detente, but it faces the dilemma of determining how to keep in step with its Western allies without unnerving its Middle Eastern friends. On balance, however, it appears that Ankara will probably accede to Soviet pressure for increased official exchange visits
+Token count: 195
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.991000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: 18 Jan 60 DAILY BRIEF
+- original #4 segment 2: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.121999
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Peiping Repeats Invitation to Burmese Premier Chinese Communist Premier Chou En-lai on 12 January renewed his invitation of 22 December to Burmese Premier Ne Win to visit Peiping for a discussion of the Sino-Burmese border dispute. Ne Win on 3 January rejected the earlier invitation, stating that the work of preparing for the forthcoming elections
+- original #6 segment 1: full_page_or_admin
+  Text: Burma ruled out a trip at this time unless he could be assured beforehand that the Chinese would sign a settlement based on Burma's June proposals, its maximum offer. As in his earlier letter, Chou ignored Ne Win's condition that the Chinese must first accede to the Burmese proposals and suggested further "negotiations." Chou said he felt it would be "very useful" toward promoting a settlement if he were given the chance to explain the Chinese Government's position and to discuss "matters of principle" for eliminating the remaining differences. Although Chou tried to minimize the points of disagreement between the two sides--he said these were "relatively small"--his letter implies Burma's proposals are unacceptable. The Communists--in maintaining a posture of readiness to negotiate but avoiding agreement to Burmese conditions--are following the same tactics they are using in the border dispute with India. Peiping is unwilling to give a border settlement to the strongly anti-Communist Ne Win, particularly with the prospect of a more sympathetic Burmese Government after the 29 February election. These stalling tactics have probably made it clear to Ne Win that he will not get a settlement on his terms
+- original #6 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 18 Jan 60 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Turkey Faces Dilemma in Relations with USSR Ankara appears ready to take steps to keep pace with what it regards as a Western movement toward detente with the USSR, but is concerned that any deviation from its basically austere policy toward Moscow may cause apprehension among some of its Middle East neighbors, especially Iran. Prime Minister Menderes, in recently discussing with Ambassador Warren the question of Soviet pressure for an exchange of high-level visits, noted that contrary to the impression gained by some of its Western allies, Turkey is not fundamentally opposed to an East-West detente but merely wants to view the situation realistically. According to Menderes, Soviet representatives in Turkey are actively contacting various ministries, newspapers, and institutions and expounding the theme "we now are friends with the US, why can we not be friends with Turkey as well." Menderes told Warren that the Russians have been insisting on official exchange visits for years, and now want to follow the recent visit of the Turkish minister of health with other high-level visits as a manifestation of improved relations. Menderes' allegations of Soviet pressure concerning diplomatic contacts in which Soviet officials have endeavored to exploit the friendly theme of the Camp David talks. On occasion, Soviet representatives as well as the Soviet press have applied the "stick" principle as well as the "carrot." Moscow's current campaign to expand contacts with Turkish officials is part of its broader effort to exploit the current thaw in East-West relations. The Soviet leaders probably regard Turkey as a major obstacle to the attainment of their objectives in the Middle East. In line with Menderes' expressed views that East-West exchanges are the "order of the day," there probably will be an increase in exchange visits by Turkish and Soviet delegations during the ensuing months. No basic change in Turkey's pro-Western foreign policy is anticipated, however, although such visits may have a marked impact on Turkey's Middle East neighbors
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 18 Jan 60 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.993527
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens
+  Text: and
+- original #9 segment 1: noncontent_keyword
+  Text: 18 Jan 60 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.995730
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: 18 Jan 60 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

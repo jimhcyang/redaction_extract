@@ -1,0 +1,88 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.569519
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: 25 March 1952
+- original #2 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.959901
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 1)
+Text: SOVIET UNION 1. Price of Soviet oil products reduced by lowering turnover tax
+Token count: 13
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 3. Turkish official advises delay in Middle East Command meeting
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: page 3
+- original #4 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.910000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: SOVIET UNION 1. Price of Soviet oil products reduced by lowering turnover tax: Deputy Finance Minister Uryupin issued instructions in January permitting the Chief Directorate of Petroleum Sales to postpone the payment of up to 18 percent of the turnover tax due for each payment period. This exemption was to prevail until new tax rates were issued by the Finance Ministry. Comment: The turnover tax, a levy placed on sales of virtually all commodities, amounts to as much as 150 percent on some consumer goods. The major part of Soviet revenues is derived from this tax. The Soviet Union claimed that reductions in industrial wholesale prices, which were decreed on 1 January, were made possible by lowered production costs. Prices for petroleum products, however, were decreased largely because of lower turnover tax
+Token count: 132
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.918014
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #6, segment 1)
+Text: 3. Turkish official advises delay in Middle East Command meeting: The Turkish Assistant Secretary General for Foreign Affairs has cautioned against giving Egypt the impression that it is being left out of the Middle East Command at the moment when negotiations with Britain are in prospect. He told a member of the French Ambassador's staff in Ankara that while his government in principle approved of a meeting in London to discuss the Command, he thought it "not advisable to go forward too rapidly in this matter." There will be time to hold such a meeting, he said, when Anglo-Egyptian negotiations fail or drag on. Comment: Turkey's concern stems from its belief that an effective Middle East Command cannot be established until the Anglo-Egyptian problem has been solved, progress has been made toward an Arab-Israeli peace, and Turkey's command relationship in NATO has been clearly defined
+Token count: 145
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: unhampered
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

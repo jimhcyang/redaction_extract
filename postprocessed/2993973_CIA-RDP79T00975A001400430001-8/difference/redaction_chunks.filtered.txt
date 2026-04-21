@@ -1,0 +1,71 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.416667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.940845
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. Large food deliveries from Peiping scheduled for Moscow (page 3). FAR EAST 3. Peiping presses India to concede that previous agreements on Tibet are invalid
+Token count: 26
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.921863
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 2. Large food deliveries from Peiping scheduled for Moscow: The Peiping regime was arranging with Moscow in December 1953 for the shipment to the USSR of 35,000 tons of rice in January and for the early completion of 1953 contracts for the shipment of 57,000 tons of pork and 15,000 tons of citrus fruit. Comment: Communist China has been expanding food exports to the USSR to pay for large imports of Soviet military and industrial equipment. This increase in exports, despite poorer than average harvests last year, contributes to current food shortages in parts of China and may add to increasing anti-Soviet sentiment in China
+Token count: 108
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.408973
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #3, segment 1)
+Text: FAR EAST 3. Peiping presses India to concede that previous agreements on Tibet are invalid: Peiping's position in its current talks with India on Tibet is that previous Indian agreements with China were "unequal treaties" and that negotiations should start on the basis that they are invalid
+Token count: 47
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Iraqi-Syrian
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.927183
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: Comment: President Shishakli has publicly charged that his domestic problems are the result of foreign activity and President Nagib of Egypt has supported his accusations. Charges of British and possible Iraqi involvement are implicit in both statements. Despite these allegations, there is no reliable evidence that either the British or Iraqi government is directly involved. Various Iraqi officials have, however, in the past actively promoted Iraqi-Syrian union and may well be implicated in current maneuvers
+Token count: 75
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

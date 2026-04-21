@@ -1,0 +1,105 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.656250
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: ocr_equivalent_to_redacted_text
+  Text: C I - 9
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.877719
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #2, segment 2)
+Text: FAR EAST 2. Disease continues problem in North Korea
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Spain's
+- original #4 segment 1: noncontent_keyword
+  Text: LATIN AMERICA 5. Split in Venezuelan Government rumored
+- original #4 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.978687
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #7, segment 1)
+Text: FAR EAST 2. Disease continues problem in North Korea
+Token count: 9
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens
+  Text: Comment
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Ambassador's
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.963448
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #8, segment 1)
+Text: Comment: Typhus, typhoid and smallpox are reported to have reached near-epidemic proportions among Communist troops in Korea, and there are indications that severe measures have been taken to prevent the further spread of disease among troops and civilians
+Token count: 38
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Office's
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.912858
+kept_candidate_count=1
+excluded_candidate_count=6
+
+Clean Chunk #4 (original #16, segment 1)
+Text: Split in Venezuelan Government rumored: Strong rumors of a split in the top level of the Venezuelan Government have resulted from an alleged protest, if not an ultimatum, to the governing Junta by the reactionary Grupo Urilante, which includes leading army officers and high government officials headed by Junta Secretary Miguel Moreno. This group reportedly objects strongly to provisions of the draft electoral
+Token count: 63
+Recut: none
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Spain's
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: West's
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Spain's
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Spain's
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Government's
+- original #15 segment 1: noncontent_keyword
+  Text: LATIN AMERICA
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: law, to the prospects of early elections, and especially to the recent action of the Labor Ministry permitting the negotiation of a labor contract for petroleum workers by a committee including leaders of dissolved radical elements. Reports indicate that some compromise has been reached, but the situation will probably remain delicate. Meanwhile, a former president of Costa Rica has stated that a revolution in Venezuela is planned for some time this month. Comment: A split in the army, which the reported protest of the Grupo Urilante may well represent, would provide the essential condition for a revolutionary attempt by Accion Democratica. However, the current internal dissension, which appears to involve a continuation of the reported disagreement between Moreno and Provisional President Suarez Flamerich, can probably be settled through the intervention of Junta member and Defense Minister Perez Jimenez, who has the support of the Grupo Urilante and who was chiefly responsible for the appointment of Suarez as Provisional President

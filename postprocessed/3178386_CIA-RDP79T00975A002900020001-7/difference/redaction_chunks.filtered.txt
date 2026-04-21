@@ -1,0 +1,265 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.441304
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #1, segment 1)
+Text: This document contains classified information affecting the national security of the United States within the meaning of the espionage laws, US Code Title 18, Sections 793, 794, and 798. The law prohibits its transmission or the revelation of its contents in any manner to an un- authorized person, as well as its use in any manner prejudicial to the safety or interest of the United States or for the benefit of any foreign government to the detri- ment of the United States
+Token count: 82
+Recut: none
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.901389
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 1. SOVIET MIG-17 AIRCRAFT ARRIVE IN SYRIA
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #2, segment 3)
+Text: 2. NEHRU URGES EGYPT TO MODERATE TACTICS AND CO-OPERATE WITH US (page 4). 3. CONTINUING ARAB HARASSMENT OF MIDDLE EAST OIL FACILITIES (page 5). 4. ARRIVAL OF CZECH ARMS EXPERTS IN YEMEN (page 7). 5. NASR PROPOSES ARMS PURCHASE FOR ALGERIAN REBELS (page 9). 6. INTENTION TO ASSASSINATE IRAQI PRIME MINISTER REPORTED
+Token count: 52
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 4: noncontent_keyword
+  Text: page 10
+- original #3 segment 1: noncontent_keyword
+  Text: page 11
+- original #4 segment 1: noncontent_keyword
+  Text: page 12
+- original #5 segment 1: noncontent_keyword
+  Text: page 13
+- original #6 segment 1: noncontent_keyword
+  Text: page 14
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 1. SOVIET MIG-17 AIRCRAFT ARRIVE IN SYRIA Comment on: The first shipment of Soviet military equipment to Syria under the new arms agreement signed in November arrived in the port of Latakia on 13 December on the Soviet freighter Voroshilov. observation of the vessel indicates that at least ten crated aircraft were on board. The November contract provided for Soviet delivery of an un- specified number of MIG-17 aircraft to Syria twelve MIG-17's were expected to arrive in Syria on about 12 December
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 16 Dec 56 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 2. NEHRU URGES EGYPT TO MODERATE TACTICS AND CO-OPERATE WITH US Nehru called in the Egyptian ambassador in New Delhi and told him that Cairo should tone down its anti-West- ern propaganda and rely on patience, care- ful strategy, and co-operation with the United States to obtain a solution to the situation in Egypt and the Middle East. The Egyptian ambassador asked Nehru to urge President Eisenhower to "consolidate" an American policy divorced from the "colonial" policy of Britain and France. Nehru hinted that a settlement with Israel would largely defeat the purpose of "the colonial powers' inter- vention in the Middle East," and expressed his concern about the Syrian situation on the grounds that tranquillity in the area was necessary if the United States were to continue to support Egypt. According to the ambassador, Nehru agreed that the Baghdad pact was one of the main causes of trouble in the Middle East and that the present Iraqi government was ex- tremely shaky
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 16 Dec 56 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 3. CONTINUING ARAB HARASSMENT OF MIDDLE EAST OIL FACILITIES Comment on: There is increasing evidence that Nasr and other Arab leaders will continue to make trouble for Western oil interests in the belief that Western dependence on Arab oil must force the West to meet Arab terms. Egyptian foreign minister Fawzi recently stated that he had "little hope" Nasr's methods would be changed. the prevail- ing attitude in the Egyptian government had been expressed by an Egyptian officer in Washington who was convinced the West could do nothing in the Middle East without Arab co-operation and that Washington must go along with the Arabs. Following the recent sabotage in Kuwait
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 16 Dec 56 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=4 unred_source_page=7
+alignment_score=0.244221
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: efforts were being made to make the Kuwaitis believe the sabotage was actually a British plot to make an excuse for occupying Kuwait. According to US naval reports, the sabo- tage
+- original #11 segment 1: full_page_or_admin
+  Text: Kuwait has increased Saudi Arabian apprehension that the American-owned Trans-Arabian Pipeline may be the next target, and Saudi guards at pumping stations have been doubled. ARAMCO is reported to have taken precautions at the pumping stations, but is not confident that a determined sabo- tage effort can be stopped. Iraqi prime minister Nuri has told the British manager of the Iraq Petroleum Company that he con- siders IPC "out of date." Nuri said the company should oper- ate and market its products on the same basis as the con- sortium in Iran, although perhaps nationalization was the an- swer. Nuri is also reported to have suggested that the British interest in IPC's pipelines to the Mediterranean be turned over to the Americans and that the French interest in IPC be nation- alized. IPC ownership is shared equally among British, French, Dutch and American interests. Syrian minister of economy Kallas has declared, meanwhile, that his government would not permit repair of the sabotaged IPC pipelines to the Mediterra- nean until the last British, French and Israeli soldiers had left Egyptian territory
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 16 Dec 56 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: 4. ARRIVAL OF CZECH ARMS EXPERTS IN YEMEN Three Czech arms experts and an in- terpreter will arrive in Yemen by air via Saudi Arabia The ex- perts are reportedly bringing instructions concerning "the antitank guns," and are prepared "to discuss the best means of obtaining the remainder of the goods." Comment A cargo of bloc arms was delivered to Yemen by a Soviet ship on 12 October. the Czechs advised Yemen's representative in Cairo that additional shipments
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 16 Dec 56 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: had been postponed "until settlement of the Suez situation." The imam of Yemen has, meanwhile, requested air delivery of bazookas with "extreme speed." The arrival of Soviet-bloc arms in Yemen has been accompanied by greatly increased Yemeni-inspired dissident activity in the northwest area of Aden Protectorate. the situation has become more serious in view of increasing Yemeni contacts among tribes in the Aden hinterland. Increased introduction of arms from Yemen has been reported in both the western and eastern parts of Aden Protectorate
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 16 Dec 56 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: 5. NASR PROPOSES ARMS PURCHASE FOR ALGERIAN REBELS Egyptian president Nasr has proposed that arms for the Algerian rebels be purchased in Europe with Saudi Arabian funds, Comment Nasr con- tinues active support of the Algerian rebellion. When France seized five rebel leaders on 22 October, a Saudi Arabian subscription drive to aid the Algerians was sponsored by King Saud, who personally con- tributed about $250,000. By 28 October this fund allegedly was more than $1,400,000. Algerian nationalists have com- plained that earlier Saudi contributions routed through Egypt were appropriated by the Nasr regime
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 16 Dec 56 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: 6. INTENTION TO ASSASSINATE IRAQI PRIME MINISTER REPORTED three fedayeen had been sent to Baghdad "a week ago" to assassi- nate Prime Minister Nuri Said. claimed the assassination was planned by the Jordanian chief of staff, an aide to the King of Jordan, and the head of Syrian intelli- gence, Colonel Sarraj. Comment There have been no reports or indications of any attempts against the Iraqi prime minister. However, Arab hostility toward Nuri is high inside and outside of Iraq, and his apparent decision to stay in office despite strong internal and external pressures for him to step down may lead his enemies to think in terms of assassination
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 16 Dec 56 Current Intelligence Bulletin Page 10
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=5 unred_source_page=12
+alignment_score=0.948709
+kept_candidate_count=0
+excluded_candidate_count=12
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: noncontent_keyword
+  Text: Comment on
+- original #17 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: par- ticularly
+- original #18 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: in- tellectuals
+- original #19 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: increas- ing
+- original #20 segment 1: noncontent_keyword, ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- gime's
+- original #21 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- ports
+- original #22 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: in- formation
+- original #23 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Univer- sity
+- original #24 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ex- pelled
+- original #25 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: dissatis- faction
+- original #26 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: De- cember
+- original #27 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- marks
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=6 unred_source_page=13
+alignment_score=0.979019
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #28 segment 1: noncontent_keyword
+  Text: Comment on
+- original #29 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: easing
+- original #30 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: disor- ders
+- original #31 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: con- cerned
+- original #32 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ele- ments
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=7 unred_source_page=14
+alignment_score=0.967644
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #33 segment 1: noncontent_keyword
+  Text: Comment on
+- original #34 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- gime
+- original #35 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: out- bursts
+- original #36 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: disorganiza- tion
+- original #37 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- gime
+- original #38 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- cently
+- original #39 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: diverse
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=8 unred_source_page=15
+alignment_score=0.947789
+kept_candidate_count=0
+excluded_candidate_count=10
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #40 segment 1: noncontent_keyword
+  Text: Comment on
+- original #41 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: promis- ing
+- original #42 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: mili- tary
+- original #43 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: inter- minable
+- original #44 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: al- ready
+- original #45 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: hear- ings
+- original #46 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Kubit- schek
+- original #47 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: at- tack
+- original #48 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ambassa- dor
+- original #49 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: poten- tial

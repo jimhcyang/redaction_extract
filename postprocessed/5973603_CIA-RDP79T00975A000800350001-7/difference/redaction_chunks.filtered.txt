@@ -1,0 +1,108 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.850000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 5
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.953100
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 1)
+Text: 2. Report of TU-4 landing at Velkal incorrect
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 3. Eleven Soviet MIG-15 jet fighter regiments now based in Manchuria
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: page 3
+- original #4 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.936207
+kept_candidate_count=3
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #5, segment 1)
+Text: 2. Report of TU-4 landing at Velkal incorrect: The report carried in the
+Token count: 13
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #5, segment 3)
+Text: of 20 August, that a TU-4 medium bomber had landed at Velkal on the Chukotsk Peninsula, information has established that the aircraft was an LI-2 transport subordinate to the 10th Air Army. FAR EAST
+Token count: 34
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #6, segment 1)
+Text: Eleven Soviet MIG-15 jet fighter regiments now based in Manchuria: Eleven Soviet MIG-15 jet fighter regiments are now based at five southern Manchurian airfields
+Token count: 24
+Recut: none
+
+Excluded candidates:
+- original #5 segment 2: noncontent_keyword
+  Text: Current Intelligence Bulletin
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.976326
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #7, segment 1)
+Text: Comment: Until recently it was believed that there were only nine Soviet-manned MIG-15 regiments in southern Manchuria. If these eleven regiments have the normal complement of 37 aircraft, they represent more than 400 jet fighters
+Token count: 35
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: Murphy believes it would be dangerous to underestimate the effect of such a gesture in neutralizing the American position in Japan, where there is strong sentiment against involvement in the East-West struggle. A joint Soviet-Chinese peace proposal timed for the Japanese elections might endanger a realistic rearmament program. NEAR EAST - AFRICA 6. Egyptian Prime Minister outlines political program: Egyptian Prime Minister Ali Maher has informed Ambassador Caffery that his program includes, in the following order, solving the country's internal problems, negotiating a Middle East defense plan, and reaching an agreement with Israel. The Ambassador, commenting on the possibility of an accord with Israel, states that a previous Egyptian plan to negotiate with the Israelis several years ago was blocked when it was publicized in Tel Aviv. Comment: Although the military regime in Cairo is pressing for domestic reforms, there is little indication that it wishes to complicate its internal problems at the present time by raising emotional issues, particularly the question of Israel. WESTERN EUROPE 7. Adenauer decides on earliest possible election date: West German Chancellor Adenauer has decided to schedule the 1953 Bundestag election for June. This would be the earliest possible date, since by law the election must be held between 7 June and 7 September
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.592546
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.979762
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

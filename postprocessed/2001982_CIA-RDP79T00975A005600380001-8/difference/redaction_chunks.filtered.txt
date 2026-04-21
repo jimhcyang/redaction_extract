@@ -1,0 +1,309 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.905016
+kept_candidate_count=3
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Situation in Laos
+Token count: 4
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. Congo: Brussels reported still unresponsive to UN pressures
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #5, segment 1)
+Text: 9) 7. Iraq: Qasim taking harsher position on foreign-owned Iraq Petroleum Company
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: Page 1
+- original #1 segment 4: noncontent_keyword
+  Text: Page 4
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 5
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 6
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 8
+- original #5 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 10
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: NORTHERN LAOS GOVERNMENT Forces in KONG LE - PATHET LAO Control KONG LE - PATHET LAO AREAS ROAD TRAIL ROUTE NUMBER
+- original #6 segment 2: noncontent_keyword
+  Text: 13 Apr 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #6 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.244029
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 13 April 1961 DAILY BRIEF
+- original #7 segment 2: full_page_or_admin
+  Text: Laos: Present thinking by King Savang and General Phoumi is to defer reorganization of the government at least until a cease-fire is effected, possibly even awaiting the outcome of an international conference. They hold that national reconciliation depends on international agreement on a neutral status for Laos, hence any prior internal rearrangement would be meaningless. They do not consider it necessary for Laos to be formally represented at an international conference, although they feel that representatives from the various competing factions--Vientiane, Souvanna, and the Pathet Lao--should be present for consultation. Phoumi reportedly has ordered the two government battalions north of Muong Kassy to withdraw to Luang Prabang. Present locations of these forces are unknown, but some elements reportedly have already arrived--apparently via trails--at the government's defense perimeter north of the Phou Khoun road junction
+- original #7 segment 3: full_page_or_admin, noncontent_keyword, short_span_min_tokens
+  Text: Backup
+- original #8 segment 1: full_page_or_admin, noncontent_keyword, short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: 1
+- original #8 segment 2: full_page_or_admin, noncontent_keyword, short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: Map
+- original #8 segment 3: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: The Watch Committee at its meeting on 12 April reached the following conclusion concerning Laos: The apparent collapse of the government's Muong Kassy offensive will further depress FAL and Vientiane morale and will permit the Communists to resume attacks
+- original #9 segment 1: full_page_or_admin
+  Text: the Luang Prabang and Vang Vieng areas. In the Pak Sane sector, there are indications that the Communists are making preparations for further military pressure against government forces which had withdrawn from Tha Thom. There are increasing indications that Communist forces in central Laos have been strengthened in recent weeks and the pattern of military clashes suggests that the Communists are preparing to make a relatively
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Republic of the Congo Approximate area nominally controlled by: Kasavubu-Mobutu Gizenga Kalonji Tshombe United Nations Forces (Service Forces not included) Selected road Selected railroad Selected airfield
+- original #10 segment 2: noncontent_keyword
+  Text: 13 Apr 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #10 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: strong military effort in the direction of Thakhek. In view of the government's weakened military posture in this region, and its general lack of trained reserves, the Communists can probably make further extensive military gains. The bloc position that the contending elements in Laos should discuss the terms of a cease-fire is probably intended to stall the termination of active hostilities. If the position which the Asian Communists have advanced, that a cease-fire should be effected simultaneously with a conference, becomes the official bloc position, it will be further evidence of bloc interest in maximizing, without precipitating SEATO intervention, the Communist military and political position in Laos prior to any conference. Although we have seen no movements of North Vietnamese or Chinese Communist military forces or equipment which would indicate an immediate intention to intervene overtly in the Laotian conflict, it is probable that they are in a position to take such action rapidly and with little warning. Congo: Taieb Sabhani, the Tunisian diplomat who is serving as Hammarskjold's representative in Brussels, told American officials on 10 April that the Belgian Government had been almost completely unresponsive to pressure for the removal of Belgians in the Congo. Asserting that Belgium's goal was "not a stable Congo but a Belgium-oriented Congo," Sabhani said he believed the Belgian proposals for tripartite talks among the UN, the Congo, and Belgium were offered in bad faith, since the Congolese would be tools of their Belgian advisers and the UN would in effect be negotiating with two sets of Belgians. He further stated that he had found Foreign Minister Wigny "impossible" and expressed fear that the next Belgian Government would be badly oriented on the Congo question
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 4) (Map) 13 Apr 61 DAILY BRIEF
+- original #11 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=5 unred_source_page=8
+alignment_score=0.996853
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: Backup, Page 5
+- original #13 segment 1: noncontent_keyword
+  Text: Backup, Page 6
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=0.921875
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #14, segment 2)
+Text: Iraq--Oil: Prime Minister Qasim has deliberately deadlocked negotiations with the American, British-Dutch, and French-owned Iraq Petroleum Company (IPC), ending another round in the talks which have been carried on intermittently since the July 1958 coup which brought Qasim to power. Qasim has ordered the company to halt all oil exploration and confine its activities to producing oil in existing fields. The company already has agreed to substantial changes in its oil concession, including surrendering 90 percent of its concession area, and now apparently feels that further negotiations are impossible. Qasim is attempting to make IPC a scapegoat for the country's economic and political problems, and a vitriolic press campaign against IPC is now under way. The prime minister may carry out his often-repeated and politically popular threat to nationalize the French share of IPC as a gesture of solidarity with the Algerian rebels
+Token count: 144
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #14 segment 1: noncontent_keyword
+  Text: Backup, Page 9
+- original #14 segment 3: noncontent_keyword
+  Text: Backup, Page 10
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=10
+alignment_score=0.991870
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: Situation in Laos Phoumi told Ambassador Brown on 11 April that the Laotians themselves could handle the governmental problem if international agreement were reached on a guarantee of Laos' neutrality, and on supervision of a cease-fire and arms delivery. He said he was anxious to see Souvanna Phouma as early as possible to try to obtain maximum agreement with him prior to a tripartite meeting with Pathet Lao leader Souphannouvong. Phoumi acknowledged that arrangements are already being worked out with King Savang to ensure Souvanna's presence at Luang Prabang on 28-29 April for funeral ceremonies for the late King Sisavang Vong, who died in October 1959. Laotian leaders have indicated that Prince Souphannouvong would also be welcome. A Pathet Lao broadcast on 11 April stated that people throughout the country should be permitted to participate in the ceremony, but criticized the "rebel Phoumi - Boun Oum group" as unfit to arrange the rites. King Savang continues to respond negatively to the proposal that he take personal charge of the government. He has suggested that Souvanna might be suitable, provided he is "boxed in" by men like Phoumi and former Premier Phoui Sananikone, with the Pathet Lao excluded. Phoui, in a conversation with Ambassador Brown on 12 April, took the realistic view that the Pathet Lao would be very demanding and that Laos would need the help of Western nations. The Diem government in South Vietnam is concerned over the prospect that Souvanna may resume the premiership, which Saigon feels would result in the loss of Laos to the Communists from within. The Vietnamese authorities fear that this would endanger South Vietnam's security, since Communist infiltration via southern Laos--already a serious problem--would be facilitated. Thai officials are also becoming increasingly restive over the military and political trend in Laos. Bangkok has announced that defensive measures are being taken in the border area, and particular concern has been voiced over the possibility of a Communist attack on Thakhek. Premier Sarit told newsmen on
+- original #16 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 13 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: 11 April, "There is no cease-fire; the Laotian Government may go at any time." He saw little hope for a successful neutral coalition government for Laos, and said that "a coalition will lead to eventual takeover by the Communists." While he apparently did not elaborate on the Soviet Union's public position on the Laotian issue, Khrushchev in a 10 April discussion with Walter Lippmann gave the latter the impression that the Laotian problem would be satisfactorily settled. A further indication, however, of Moscow's determination to press for the most advantageous terms for negotiations is provided by the remarks of the Soviet charge in Paris. The Soviet spokesman, who had earlier remarked that the USSR could not accept a cease-fire as a prerequisite for a conference, stated flatly that the Soviet Union would definitely not agree to call for a cease-fire before the date of the international conference is set. The Soviet charge was unusually blunt and went on to say that the "Russians would unquestionably win in Laos, thanks to the stupid mistakes of Americans." During the recent discussions on Laos with the UK ambassador in Moscow, Soviet officials have attempted to secure a definite date for the opening of the conference. They have also reacted unfavorably to the British draft proposal which stipulated that the conference would convene as soon as the cease-fire in Laos has been reported fully effective by the ICC chairman. Soviet Deputy Foreign Minister Pushkin indicated that his first impression was that the Western powers were still making the conference conditional on a cease-fire. Soviet reaction on this issue strongly implies that, while the USSR may join the British in issuing a joint appeal for a cease-fire and propose that all contending factions in Laos begin truce negotiations, Moscow intends to press for a firm date for the conference at the same time the cease-fire appeal is made and may even insist that cease-fire talks and the conference begin simultaneously. Soviet airlift operations continue to be scheduled. Sixteen Soviet transports--six IL-14s and ten LI-2s--were detected in flights to Xieng Khouang on 11 April
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 13 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: A degree of urgency concerning the flight of the three Soviet IL-14s en route to North Vietnam from the USSR but delayed at Hankow in Communist China. the three IL-14s must depart Hankow and land at Hanoi on 12 April. This is the first reflected instance of such urgency in connection with the arrival of Soviet aircraft at Hanoi
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 13 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=8 unred_source_page=14
+alignment_score=0.244123
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin, short_span_min_tokens
+  Text: Situation
+- original #20 segment 1: full_page_or_admin
+  Text: the Congo Taieb Sabhani, Hammarskjold's representative in Brussels, said that Belgium was blind to the fact that unless it modified its policy, pressures inside and outside the Congo eventually would deprive Brussels of all its influence in the country. He asserted that the Belgian arguments with him were hypocritical and completely unconvincing. In response to Sabhani's pressure for the removal of Belgians in Congolese service, the negotiators in Brussels allegedly alternated between a narrow legalistic position and references to the mood of public opinion in Belgium. Their early April announcement that Belgium was prepared to cooperate with the UN allegedly was the result of a threat by Sabhani to break off negotiations completely. After talking with Lefevre and Spaak, who will probably head a new Belgian government within the next few days, Sabhani indicated he had enough hope to warrant staying on and continuing discussions with them. In New York, Hammarskjold is also putting pressure on Brussels to exercise closer control over its nationals in the Congo. the chief Belgian delegate relayed to Brussels a letter from the secretary general which enumerated the individual Belgians who were present at a recent meeting between Tshombé and UN officials. Stating that he had given this information to Sabhani, Hammarskjold stated, "I need not emphasize the strong effect such a report may have on the members of the United Nations
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 13 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=9 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=10 unred_source_page=16
+alignment_score=0.989853
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: their
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=11 unred_source_page=17
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=12 unred_source_page=18
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=13 unred_source_page=19
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 20]
+kind=unred_only red_source_page=None unred_source_page=20
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: Iraqi Oil Negotiations During previous negotiations with the IPC, Qasim had already gained nearly all his original and most of his subsequent demands. Competing interests of IPC's owners have made it difficult for the company negotiators to maintain a firm position in the face of persistent Iraqi pressure and probably encouraged progressively stiffer government demands. the regime has ordered "spontaneous" telegrams of support from army units "down to the battalion level." Qasim, in a recent press conference, accused the company of fomenting the antiregime riots which grew out of a strike against higher gasoline prices in late March. The army's killing of a number of demonstrators while quelling the riots caused Qasim's already waning prestige to fall sharply. IPC secured its concession in stages from 1925 to 1938. The concession now covers most of Iraq and embodies the basic 50-50 profit-sharing formula in general use in the international oil industry. The concession runs to the year 2,000 and beyond and its terms are somewhat more conservative than the important Middle East concessions granted or modified in recent years. Recognizing this, IPC has been willing to make a number of changes, including an offer to return 90 percent of its 172,000-square-mile concession to the government. However, Qasim's intermediate goal appears to be partial government ownership of IPC. His ultimate objective appears to be nationalization of the company. Iraq does not now have diplomatic relations with France, and Qasim has suggested that Iraq might justify nationalizing the 23.75 percent of IPC owned by French interests on the grounds that the French Government is a partial owner
+- original #22 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 13 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 10
+
+========================================================================
+[PAGE 21]
+kind=unred_only red_source_page=None unred_source_page=21
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: full_page_or_admin
+  Text: THE PRESIDENT The Vice President Executive Offices of the White House The Special Assistant for National Security Affairs The Scientific Adviser to the President The Director of the Budget The Director, Office of Civil and Defense Mobilization The Director, National Aeronautics and Space Administration Chairman, Board of Consultants on Foreign Intelligence Activities Department of State The Secretary of State The Under Secretary of State The Director, International Cooperation Administration The Deputy Under Secretary of State for Political Affairs The Deputy Under Secretary of State for Administration The Counselor and Chairman of the Policy Planning Council The Director of Intelligence and Research Treasury Department The Secretary of the Treasury Department of Defense The Secretary of Defense The Deputy Secretary of Defense The Secretary of the Army The Secretary of the Navy The Secretary of the Air Force The Assistant Secretary of Defense (International Security Affairs) The Assistant to Secretary of Defense (Special Operations) The Chairman, The Joint Chiefs of Staff Chief of Naval Operations, United States Navy Chief of Staff, United States Air Force Chief of Staff, United States Army Commandant, United States Marine Corps U.S. Rep., Military Committee and Standing Group, NATO Supreme Allied Commander, Europe Commander in Chief, Pacific The Director, The Joint Staff The Director for Intelligence, The Joint Staff The Assistant Chief of Staff for Intelligence, Department of Army The Director of Naval Intelligence, Department of Navy The Assistant Chief of Staff, Intelligence, Department of the Air Force Department of Justice The Attorney General The Federal Bureau of Investigation The Director Atomic Energy Commission The Chairman National Security Agency The Director United States Information Agency The Director National Indications Center The Director
+
+========================================================================
+[PAGE 22]
+kind=match red_source_page=14 unred_source_page=22
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 23]
+kind=red_only red_source_page=15 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 24]
+kind=red_only red_source_page=16 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

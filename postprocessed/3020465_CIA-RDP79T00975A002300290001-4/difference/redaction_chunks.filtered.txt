@@ -1,0 +1,73 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.805714
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.971064
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.934083
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #1, segment 1)
+Text: The company's optimism derives from the fact that in recent weeks the Afghan government has released to it and authorized the release of more. This covers commitments made by the company up to 1 December
+Token count: 35
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.970920
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #2, segment 1)
+Text: and that their presence there has been confirmed by aerial photography
+Token count: 11
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: the hold cargoes unloaded at Alexandria early this month from the Soviet freighters Alexander Nevsky and Admiral Ushakov included antitank guns, tracked self-propelled guns and military searchlights. These ships carried crated cargo on deck, possibly consisting of tanks and disassembled jet aircraft. Two Polish freighters are presently en route to Alexandria carrying unidentified crated cargoes from Satellite ports. There is reason to believe that the petroleum products carried to the Suez area in early December aboard the Soviet tankers Gregory Vakulentchuk and Sverdlovsk are intended for military use, and that the cargo of the Vakulentchuk may have included jet fuel
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

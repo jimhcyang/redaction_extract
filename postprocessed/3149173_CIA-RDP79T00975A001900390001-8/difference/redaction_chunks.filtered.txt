@@ -1,0 +1,88 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.850616
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 3. Coup against Diem government reported imminent
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 5. Struggle for control of Syria may enter military phase
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.956550
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: Comment: Despite Kishi's confidence that Shigemitsu will continue as foreign minister, there have been other reports which indicate considerable opposition to this within the present cabinet
+Token count: 26
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.907705
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #4, segment 1)
+Text: Comment: Phao held a low opinion of the Burmese government heretofore and to have aided various non-Communist dissidents in Burma, including the Chinese Nationalists. The action he has now taken, however, indicates that he has revised his attitude, and this should materially enhance Thai-Burmese relations
+Token count: 45
+Recut: none
+
+Clean Chunk #5 (original #5, segment 1)
+Text: 3. Coup against Diem government reported imminent: Diem's efforts to strengthen his government have created a great deal of resentment and tended to unify
+Token count: 24
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.909744
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #6, segment 1)
+Text: the disparate elements opposed to him. In the final analysis, however, a successful coup would depend on the degree of French support
+Token count: 22
+Recut: none
+
+Clean Chunk #7 (original #7, segment 1)
+Text: Struggle for control of Syria may enter military phase: Iraq has advised pro-Western president Atasi of Syria that it is ready to help "in any way possible" to counteract Egyptian, Saudi Arabian and French machinations in Syria
+Token count: 37
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.879674
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #8 (original #8, segment 1)
+Text: Comment: Syria's pro-Western conservatives, apparently convinced that the country is being undermined by foreign intrigue which would give control to the Communists, seem ready to call on military leaders to take over. Ankara and Baghdad, which view the developments in Syria as inimical to their plans for Middle East defense, appear ready to give even military support to the Syrian conservatives. Such support would probably be interpreted throughout the Middle East as an effort to effect an Iraqi-Syrian union
+Token count: 79
+Recut: none

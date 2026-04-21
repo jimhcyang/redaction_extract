@@ -1,0 +1,332 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.291667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.849350
+kept_candidate_count=5
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 1)
+Text: Khrushchev speech on world Communist policy. (Preliminary analysis
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: Situation in Laos
+Token count: 3
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #2, segment 3)
+Text: Map) Congo: Indications that Moroccan forces will withdraw from UN operation
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #3, segment 1)
+Text: UAR and exile groups
+Token count: 4
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #3, segment 3)
+Text: campaign against Jordanian monarchy
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: Backup, Page 1
+- original #2 segment 2: noncontent_keyword
+  Text: Backup, Page 7
+- original #2 segment 4: noncontent_keyword
+  Text: Backup, Page 9) (Map
+- original #3 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: map
+- original #3 segment 4: noncontent_keyword
+  Text: Backup, Page 11
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.914943
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #4, segment 1)
+Text: World Communist Policy: Khrushchev's speech of 6 January to a group of Soviet party functionaries, published in the Soviet party journal Kommunist on 17 January, is a vigorous reaffirmation of Soviet positions in the Sino-Soviet dispute on world Communist strategy, including the view that Communism can triumph in the world without general war, primarily by demonstrating its economic superiority to capitalism. In effect, Khrushchev serves notice to the world Communist movement that the recent Moscow conference of Communist leaders has not altered the views of the Soviet party. He avoided, however, the use of sharp language which could provoke the Chinese Communists into a revival of polemics. In terms of Soviet foreign policy, Khrushchev provides authoritative confirmation of previous indications that the USSR intends to continue its aggressive anticolonial line, while at the same time pressing a campaign for negotiations with the West at the summit
+Token count: 146
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 2: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 05]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=0.867856
+kept_candidate_count=4
+excluded_candidate_count=3
+
+Clean Chunk #7 (original #5, segment 1)
+Text: agriculture, notably those concerning the "new lands," the corn-for-fodder program, and the substitution of incentives in place of coercion and Communist enthusiasm as motivation for the Soviet farmer, have been very forcibly restated. (Page 5) ASIA-AFRICA *Laos: Kong Le - Pathet Lao forces on 20 January are reported to have taken Tha Thom, the government's last important post in Xieng Khouang Province. Garrison commanders had shown little disposition in recent days to make a strong stand and apparently intend to resort to guerrilla-type operations. The government troops recently forced out of Phou Khoun at the junction between the Vientiane - Luang Prabang road and Route 7 are being reinforced for an early effort to retake the key junction. Soviet transports continued airlift operations into Laos through 20 January and additional flights are scheduled. (Page 7) (Map) *Congo: There are indications that the Moroccan Government is moving to dissociate itself from the UN Congo operation. The 3,000-man Moroccan unit in the country reportedly has been ordered not to fight against the forces supporting Lumumba, and the Moroccan crown prince recently stated that he had undertaken to begin the withdrawal of his forces by 5 February. Hammarskjold has told US officials that, with Kasavubu having made public his request for the removal of Dayal, chief UN representative in the Congo, he cannot now appoint a new representative. Hammarskjold implied, however, that Dayal's contract would not be renewed when it lapses two months hence. The situation along the border between Kivu Province and Ruanda-Urundi reportedly is explosive, with Congolese authorities expecting an imminent Belgian attack. The UN apparently has plans to move the UAR battalion from Equateur to Kasai Province, but the battalion's commander has objected to an early move, even by a part of his unit
+Token count: 293
+Recut: kept_after_recut
+
+Clean Chunk #8 (original #7, segment 1)
+Text: obliga- UAR-Jordan: Prominent Jordanian exiles in
+Token count: 6
+Recut: none
+
+Clean Chunk #9 (original #9, segment 1)
+Text: UAR officials, including Nasir, have agreed during recent discussions in Cairo that inherent dissatisfaction within Jordan should be supported and exploited with
+Token count: 22
+Recut: none
+
+Clean Chunk #10 (original #10, segment 1)
+Text: aim of eventually overthrowing the Jordanian monarchy and "freeing" Jordan from Western control, according to a fairly reliable source. Abdullah Rimawi
+Token count: 21
+Recut: none
+
+Excluded candidates:
+- original #5 segment 2: noncontent_keyword
+  Text: Page 9) (Map
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 20-percent
+- original #8 segment 1: short_span_min_tokens
+  Text: UAR
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=0.942120
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #11 (original #11, segment 1)
+Text: former Jordanian minister of state for foreign affairs, and Ali Abu Nuwar, former chief of the Jordanian general staff, reportedly are to continue efforts to develop separate capabilities for revolutionary action in Jordan--Rimawi among civilian, especially Baathist party, elements and Nuwar among Jordanian army personnel. Meanwhile, Jordanian agents have resumed terrorist activities in Syria similar to those which followed the assassination of Jordanian Prime Minister Majalli last August
+Token count: 69
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #11 segment 2: noncontent_keyword
+  Text: Page 11
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: Khrushchev Speech on World Communist Policy (Preliminary Analysis) Most of Khrushchev's 6 January speech to a group of Communist party functionaries--the full text of which is now available in the current Kommunist--is devoted to a confident reaffirmation of Soviet positions in the Sino-Soviet dispute on world Communist strategy. Reporting on the November 1960 conference of 81 Communist parties, Khrushchev in effect notifies the rank and file of the world Communist movement--more clearly than did the often equivocal declaration produced by the conference--that Soviet global strategy is sufficiently "militant" and that Moscow has not been pushed by Peiping any further than it wishes to go. Khrushchev clearly intends this speech to stand as the definitive interpretation of Soviet policy following the conference, complementing the short and formal resolution on the conference passed by the central committee on 18 January. The Balance of Power. The Sino-Soviet dispute on strategy has centered on the assessment of the balance of power between the bloc and the West and the conclusions to be drawn therefrom. In reaffirming his rejection of Chinese positions, Khrushchev begins from the proposition that two facts must be recognized: that the bloc is becoming the "decisive factor" in world affairs, but also that the West still has "great strength." Under the circumstances the bloc cannot undertake the extremely militant revolutionary program which Peiping advocates, but it can continue to make steady and substantial gains. Questions of War. Khrushchev reiterates his contention that the bloc's strength deters the West from general war and that it increasingly deters the West from local wars, such as Western military action against an anti-Western regime like Castro's. He rejects the argument which the Chinese reportedly have made that general war with the West will be necessary for a Communist global triumph. In this connection, he reaffirms his belief that long-term economic competition with the West will be "decisive," that the USSR will move ahead of the United States
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: in per capita industrial production in or about 1970, and that "to win time in this contest (for both economic and military power) is now the main thing." In supporting his claims for progress Khrushchev redrew selected comparisons between the Soviet and US economies to support his prediction that Soviet industrial production, although only 30 percent of the US in 1955 and 60 percent in 1960, will exceed the US in 1965. The Soviet leader reaffirms Moscow's view--which Peiping disputes--that the consequences of general war could be disastrous for the bloc as well as the West. He also reaffirms that the USSR is ordinarily opposed to local wars owing to the danger of their expansion, a risk which Peiping minimizes. As for one category of local wars, however, i.e. "liberation" wars such as the current Algerian rebellion, Khrushchev states his view (in this case, in agreement with Peiping) that such wars are indeed inevitable so long as imperialism exists, and he affirms that the bloc will give aid to "liberation" forces. The speech reinforces earlier indications that Moscow will pursue a more aggressive program in all "colonial" areas among which Khrushchev specifies Algeria, the Congo, and Laos. However, the speech evades the question--on which the Chinese have charged Khrushchev with timidity--of whether bloc support to "liberation" forces will go so far as to risk military clashes with the West. Similarly, in distinguishing a fourth category of wars, "national uprisings" such as Castro's, and in stating his expectation of and favor for such uprisings, Khrushchev declares that such wars must not become wars between states but evades the question of what risks the bloc will take. Coexistence and Negotiations. Khrushchev reiterates his adherence to the concept of "peaceful coexistence"--that is competition and conflict with the West by all means short of deliberate engagement in war between states. The Chinese have argued that this militant interpretation of "coexistence" impedes the "struggle" with the West. On East-West relations Khrushchev reaffirms his belief in the existence of elements in the West who are interested in peace
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: and he asserts that it is necessary to "strive for negotiations and agreements" with the West and to develop personal contacts with Western statesmen--a line which Peiping has derided. He makes it clear that the German and Berlin questions remain the cardinal issues in negotiations with the West. His threat to conclude a separate treaty with East Germany carries forward his recent private effort to create a certain sense of urgency on this issue without precipitating a crisis. Other Tactics. Khrushchev defends at length his policy of wooing the nationalist leaders of underdeveloped countries, even at the cost of sacrificing the local Communist parties there. The Chinese have accused him of exaggerating the importance of the neutralists (e.g. Nehru, Nasir, Sukarno), and they have urged less Soviet aid and more of an effort to bring these leaders down. Khrushchev seems willing to move a little faster toward making pro-Soviet "national democracies" (e.g. Cuba) of the neutral nations, but still not as fast as Peiping wishes. As for the tactics of Communist parties in the West, Khrushchev reaffirms a gradualist program for these parties, envisaging lengthy preparation--through "democratic" movements--for eventual revolution. The Chinese have argued that "revolutionary situations" exist today in Western Europe and should be exploited. Discipline of the Movement. In the latter part of his speech, Khrushchev discusses the question of the discipline of the world Communist movement, which all along has been the underlying issue in the Sino-Soviet dispute. Khrushchev insists that the "unity" of the movement is of "foremost importance," and he reiterates that the Soviet party recognizes the "equality" of other parties and does not regard itself as the "center" of the movement. He follows this, however, by making clear that the Soviet party does indeed wish to be regarded as the principal party and as the spokesman for the bloc, and he in effect advises the other parties to get rid of those who sympathize more with Peiping than with Moscow. Several parties at the November conference had supported the Chinese on some issues, and many other parties were neutral or split. Khrushchev in conclusion addresses himself directly to the Chinese, whom elsewhere in the speech he condemns (without
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.122056
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: naming them) for persistent "dogmatism and sectarianism," i.e. rigidity and obstructionism. He reminds the Chinese that Sino-Soviet "unity" is necessary to "disappoint" and confound their common enemies. Here and elsewhere he indirectly admits that the Moscow conference did not resolve Sino-Soviet differences and may actually have made them worse. Moscow has continued to criticize the Chinese "leap-forward" and commune programs, has almost certainly continued to resist Chinese requests for nuclear weapons, and has evidently maintained its economic pressure on Peiping. Although following the conference the two parties were reportedly to discuss the return of Soviet technicians--all of whom were withdrawn last summer, with serious consequences for Peiping's program of economic development--as of early January none of the technicians had returned to China. Khrushchev's speech does not suggest, however, that there will be a break between the Soviet and Chinese parties. The prospect is for more frequent meetings of the two parties and other major Communist parties
+- original #16 segment 1: full_page_or_admin
+  Text: these meetings the Soviet party will probably continue to command a majority, but the Chinese will have enough support to keep Khrushchev on the defensive about his strategy. For example, Khrushchev will be under pressure from Peiping and others to take a hard line in any summit talks, and, if he fails to achieve substantial gains, he will be open to charges of having slowed down world Communist momentum for nothing
+- original #16 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.997185
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=0.243677
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin, short_span_min_tokens
+  Text: Situation
+- original #18 segment 1: full_page_or_admin
+  Text: Laos With the apparent capture on 20 January of Tha Thom--the government's last strongpoint in Xieng Khouang Province--the Kong Le - Pathet Lao forces have completed the disruption of Laotian Army General Phoumi's planned operation to retake the strategic Plaine des Jarres. Phoumi's plan had called for government troops to advance north from Tha Thom simultaneously with a drive east along Route 7 from the junction at Phou Khoun, which antigovernment forces seized on 17 January. Phoumi hopes to retake the junction soon, with the aid of reinforcements now arriving in the area, but the antigovernment forces retain the initiative. The dispersal of the government's forces in the Tha Thom area puts Kong Le and Pathet Lao in position for a choice of actions--to move south against Pak Sane outflanking Vientiane or to regroup for a drive in strength westward along Route 7 for a possible attack on Luang Prabang or on the government columns advancing north from Vang Vieng. The antigovernment forces are keeping the Laotian Army off balance by a buildup of other potential striking forces north of Luang Prabang and in southern Laos. Following the fall two weeks ago of a government blocking position 55 miles north of Luang Prabang, reports have been received that the attacking force of about 700 Pathet Lao are maneuvering for a possible assault on the royal capital. Meanwhile, a marked increase in antigovernment guerrilla activity in the south. Laotian Army headquarters announced on 19 January that Communist bloc transports are air-dropping supplies to Pathet Lao forces in Saravane Province near the South Vietnamese border, but this has not been confirmed. The serious morale problem among government troops in the face of the deteriorating military situation is reflected in the refusal by the Tha Thom garrison to make a determined stand as ordered. Under the circumstances, the government commander in the Tha Thom area is turning to harassing tactics, using principally some 1,500 Meo tribesmen who are adept at guerrilla warfare but are poorly armed and equipped. Soviet IL-14 transports continued to airlift supplies into Laos on 20 January and additional flights are scheduled. Since
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 16]
+kind=unred_only red_source_page=None unred_source_page=15
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: the airlift of military supplies to the Kong Le - Pathet Lao forces began on 13 December, Soviet transports have flown about 216 confirmed sorties into Laos. Most of these sorties have been to the Vang Vieng area and more recently to the Xieng Khouang area. Most of the eighteen Soviet LI-2s which arrived in North Vietnam from the USSR during the past several days are now at Haiphong. Soviet aircraft in North Vietnam now include 10 IL-14s (similar to the Convair), 18 LI-2s (similar to the C-47), and 5 MI-4 helicopters. A recent unconfirmed report indicates that the IL-14s are now armed. There were about 120 North Vietnamese--mostly artillerymen--with the Kong Le forces defending the area but that they had withdrawn prior to the attack on Vang Vieng by Phoumi's forces. Military equipment captured from the Kong Le - Pathet Lao forces at Vang Vieng included artillery and munitions with Soviet markings and medical supplies from Bulgaria. Although there is ample evidence that significant numbers of North Vietnamese personnel--mostly artillerymen, technicians, and probably combat advisers--and Communist bloc military equipment have been supplied to the Kong Le - Pathet Lao forces, there is still no evidence that regular units of the North Vietnamese Army are operating in Laos
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 8
+
+========================================================================
+[PAGE 17]
+kind=unred_only red_source_page=None unred_source_page=16
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=unred_only red_source_page=None unred_source_page=17
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: noncontent_keyword
+  Text: Republic of the Congo 21 JANUARY 1961 UNCLASSIFIED STATUTE MILES 31534
+
+========================================================================
+[PAGE 19]
+kind=unred_only red_source_page=None unred_source_page=18
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: Situation in the Congo There are indications that the Moroccan Government, whose 3,000 troops constitute the largest national component of the 20,000-man UN force in the Congo, is moving to dissociate itself from the UN operation. Moroccans reportedly have been ordered not to fight against the forces supporting Lumumba, and Crown Prince Moulay Hassan, chief of staff of the Moroccan Army, told the American charge in Rabat on 17 January that he had recently undertaken to begin the withdrawal of his forces by 5 February. Hammarskjold told American officials on 19 January that Morocco had officially asked for the repatriation of 2,000 of its troops and implied that he thought Ghana and the UAR might follow the Moroccan lead. Hammarskjold also stated that public pressure has made it impossible to replace Rajeshwar Dayal, his personal representative in the Congo. However, Dayal's contract expires in two months, and Hammarskjold implied there would be no attempt to renew it. He stated that it would be extremely difficult to find a replacement acceptable to all sides. The situation along the border between Kivu Province and the Belgian trust territory of Ruanda-Urundi reportedly is explosive. Congolese authorities have sealed off the border, stranding 800 Europeans. The Congolese apparently expect a Belgian military incursion to rescue the whites; on 18 January the head of the provincial government, who is loyal to Gizenga, told a border post to "take position for the eventual attack by paracommandos." Atrocities by Congolese troops seem to be increasing, despite efforts by some authorities to bring the army under control. the UN has plans well developed to transfer part of the UAR battalion from Equateur to Kasai Province
+- original #21 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 9
+
+========================================================================
+[PAGE 20]
+kind=unred_only red_source_page=None unred_source_page=19
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: a member of the high command in Leopoldville told the battalion commander that the entire unit might eventually be transferred. The commander objected to the proposal that part of the battalion be sent to Kasai in the near future, stating that this would create "administrative problems." protesting the transfer of Lumumba to Elisabethville and reiterating the need for speedy bloc and UAR aid to his regime. Gizenga charged that a force of 500 Belgians had already invaded Kivu and that Tshombe, Mobutu, and Kalonji were proposing a "military conference"--presumably a reference to the February round-table conference in Elisabethville--whose purpose would be to plan the overthrow of the Gizenga government
+- original #22 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 10
+
+========================================================================
+[PAGE 21]
+kind=unred_only red_source_page=None unred_source_page=20
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: full_page_or_admin
+  Text: UAR Encouraging Development of Revolutionary Capabilities in Jordan Abdullah Rimawi, former Jordanian minister of state for foreign affairs, and Ali Abu Nuwar, former chief of the Jordanian general staff, returned to Damascus from Cairo on 5 January after spending "about six weeks arranging further plans" for activities against Jordan, according to a fairly reliable source. Throughout their discussions with UAR officials, including Nasir, there was general agreement that dissatisfaction within Jordan should be exploited with the aim of eventually overthrowing the Jordanian monarchy and "freeing" the country from Western control. Rimawi and Nuwar, who fled to Syria after the abortive pro-Nasir coup in Jordan in 1957, reportedly are to continue efforts to develop separate capabilities for revolutionary action in Jordan--Rimawi among civilian elements and Nuwar among Jordanian Army personnel. Close contacts allegedly are being maintained between Rimawi, a former leader of the Baath (Socialist) party in Jordan, and Jordanian Baathist groups loyal to him. Reorganization of Rimawi's group in Jordan--which he claims is progressing satisfactorily--is being countered by activities in Jordan of the Baath party's pan-Arab leadership under Michel Aflaq in Beirut, which expelled Rimawi and generally opposes his aims and activities. Rimawi is said to believe, however, that the influence in Jordan of "the Aflaq group" is declining. no mention of the status of Nuwar's efforts among Jordanian military personnel. Rimawi reportedly complained that Abd al-Hamid Sarraj, the UAR Minister of Interior for the Syrian Region, has made things as difficult as possible for him and Nuwar. Rimawi said Sarraj had separate plans regarding Jordan and could not be trusted. Jordanian agents, meanwhile, have resumed the kind of terrorist activities in Syria--bombings and other sabotage--which
+- original #23 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 11
+
+========================================================================
+[PAGE 22]
+kind=unred_only red_source_page=None unred_source_page=21
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #12 (original #24, segment 1)
+Text: marked the period following the assassination of Jordanian Prime Minister Majalli last August. Lebanese authorities deported seven Jordanians on 17 January and later arrested 24 others, along with 14 Syrians, on suspicion of engaging in such activities from Lebanese territory
+Token count: 40
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #24 segment 2: noncontent_keyword
+  Text: 21 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 12
+
+========================================================================
+[PAGE 23]
+kind=match red_source_page=12 unred_source_page=22
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 24]
+kind=match red_source_page=13 unred_source_page=23
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: noncontent_keyword
+  Text: 21 January 1961 CENTRAL INTELLIGENCE BULLETIN

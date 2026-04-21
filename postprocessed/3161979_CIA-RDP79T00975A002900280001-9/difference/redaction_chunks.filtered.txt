@@ -1,0 +1,119 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.791856
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. EGYPTIANS CLAIM USSR HAS OFFERED HALF-BILLION-DOLLAR CREDIT
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 3. EGYPT PREPARING ARMS SHIPMENTS TO YEMEN (page 5). 4. SHEPILOV REPORTEDLY URGES EARLY ASIAN-AFRICAN CONFERENCE
+Token count: 16
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 9
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 1. EGYPTIANS CLAIM USSR HAS OFFERED HALF-BILLION-DOLLAR CREDIT Soviet ambassador Kiselev has offered Cairo a credit to the extent of 200,000,000 Egyptian pounds ($574,000,000) for Egypt's new five-year plan, Kiselev reportedly stated that the aid would be in the form of "Soviet-built factories," and asked Sabri for details of the five-year plan so that Soviet assistance could be fully integrated with it. Comment While it would be in Egypt's interest to exaggerate what may have been a general and unspecific Soviet proposal, Moscow is likely to increase its military aid to Egypt, which until now has been relatively small. Nasr's statements in an interview on 16 January lauding Soviet assistance at the time of Suez and deprecating the American refusal to release frozen Egyptian funds, his "Egyptianization" of Western firms, and increasingly sharp attacks on the US proposals for the Middle East by the Cairo-controlled press, suggest that Nasr believes he is backed by commitments from the Soviet Union for economic assistance. In the face of mounting internal dissatisfaction and economic problems, Nasr may well visualize Soviet economic assistance as the only means by which he can secure his position, rationalizing away the dangers such assistance would spell for his eventual position and for the future of Egypt. Nasr has indicated he has few fears at present regarding Soviet international policy, but believes that the problem of internal Communist subversion is serious
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.946510
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 3. EGYPT PREPARING ARMS SHIPMENTS TO YEMEN The Egyptian commander in chief, General Amer, has given instructions for the delivery of arms assistance to Yemen in the near future, The arms shipment will include rifles, machine guns, bazookas and mines, and the Egyptians have requested that "one or two" Yemeni officers be sent to be trained in the use of the mines and bazookas. Egypt has agreed to deliver the arms to Jidda from where Yemen would transport the material by ship or by air. Comment A statement that 20 aircraft flights would be needed to deliver the arms suggests that the quantity amounts to no more than 50 or 60 tons. According to the Egyptian press, several thousand volunteers to aid Yemen have been registered in Egypt. While Egyptian officers are training the Yemeni army under the Egyptian-Yemeni-Saudi military assistance pact of April 1956, no Egyptian volunteers are believed to have departed for Yemen
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.122281
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 4. SHEPILOV REPORTEDLY URGES EARLY ASIAN-AFRICAN CONFERENCE Soviet foreign minister Shepilov on 9 January reportedly expressed to Indonesian ambassador Maramis
+- original #10 segment 1: full_page_or_admin
+  Text: Moscow the "strong desire of the Soviet government" that Indonesia promote the calling of an Asian-African conference "at the earliest possible date!" the ambassador in his report expressed the opinion that Moscow wanted to use the conference to promote its Middle East program and to attack the Eisenhower proposals. Although Maramis strongly recommended against promoting such a conference and desk officials in the Indonesian Foreign Ministry backed the ambassador's views, Prime Minister Ali may act on the Soviet suggestion in order to divert attention from the present government crisis. The source added that the Soviet request was to be discussed this week by the Indonesian cabinet. Comment Such a proposal may have resulted from Soviet discussions with Chou En-lai when he was in Moscow from 7 to 11 January. Most nations of the Asian-African bloc might agree without much enthusiasm to attend such a conference at this time, but India and Pakistan would oppose it
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.965306
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.962011
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.932673
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

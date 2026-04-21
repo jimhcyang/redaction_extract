@@ -1,0 +1,87 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.905556
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.948551
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. Viet Minh reported weakening in South Vietnam
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 3. Former Iranian Chief of Staff attacks National Front for Tudeh collaboration
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.934042
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: A French official who
+Token count: 4
+Recut: none
+
+Clean Chunk #4 (original #4, segment 1)
+Text: 2. Viet Minh reported weakening in South Vietnam: Desertions of key personnel from Viet Minh security units in South Vietnam are increasing. Deserters are going into French service or into hiding. In the western sector of South Vietnam, the serious resistance to French operations is impossible because of the weariness and indifference of Viet Minh troops
+Token count: 56
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: Comment: Actually there has recently been an increase in Viet Minh guerrilla warfare in this sector. However, if this report is true, the French may soon be able to shift some forces north to the Tonkin delta. NEAR EAST - AFRICA 3. Former Iranian Chief of Staff attacks National Front for Tudeh collaboration: Iranian Chief of Staff Garzan stated that National Front leaders had "at last removed the mask from their faces" and allied themselves with the Tudeh. He warned that National Front propaganda attacks against the army and high authorities were creating a dangerous situation. Comment: This demonstrates the army's loyalty to the Shah and its opposition to the National Front at that time. Qavam, however, resigned the same day, and Garzan was removed as Chief of Staff two days later. Reports from the American Embassy since the reappointment of Mossadeq indicate that the National Front is making increased efforts to control the army, whose morale is said to be declining
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.993271
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Dolivet
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.995380
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

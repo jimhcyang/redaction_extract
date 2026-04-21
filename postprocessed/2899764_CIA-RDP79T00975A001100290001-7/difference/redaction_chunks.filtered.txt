@@ -1,0 +1,88 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.504167
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.968519
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOVIET UNION 1. New Baku refinery starts production of 100-octane aviation gasoline
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: FAR EAST 2
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.246266
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin, noncontent_keyword
+  Text: SOVIET UNION
+- original #3 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: New Baku refinery starts production of 100-octane aviation gasoline: Comment: This refinery, a high priority project, has been under construction for several years. It is the second such refinery
+- original #4 segment 1: full_page_or_admin
+  Text: Baku and the sixth in the Soviet Union capable of producing high octane gasoline. The others are located in the general Caspian area at Gurev, Grozny, Krasnovodsk and Orsk (see map, p. 4). No refineries capable of producing 100-octane gasoline are known to exist elsewhere in the Soviet Union or in Communist China. FAR EAST
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.995170
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.996705
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.992857
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.994720
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

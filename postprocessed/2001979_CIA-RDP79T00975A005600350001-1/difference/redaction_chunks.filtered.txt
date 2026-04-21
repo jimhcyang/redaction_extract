@@ -1,0 +1,282 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.468571
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 51
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.844524
+kept_candidate_count=3
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 1. Situation in Laos
+Token count: 4
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 3)
+Text: 2. USSR: Test vehicle, probably an ICBM, launched yesterday, apparently failed in flight. (Page 2) 3. Situation in the Congo. (Page 3) 4. Belgian cooperation on Congo likely to be determined by UN action on pending resolution
+Token count: 37
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 7) 6. USSR and Communist China sign 1961 trade protocol; Chinese delegation arrives in Moscow to "complete" economic, scientific, and technical agreement
+Token count: 22
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: Page 1
+- original #2 segment 4: noncontent_keyword
+  Text: Page 5
+- original #3 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 8
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 9
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: NORTHERN LAOS GOVERNMENT KONG LE - PATHET LAO Forces in Contact KONG LE - PATHET LAO AREAS ROAD TRAIL ROUTE NUMBER 0 50 100 STATUTE MILES
+- original #5 segment 2: noncontent_keyword
+  Text: 10 Apr 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #5 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 10 April 1961 DAILY BRIEF
+- original #6 segment 2: full_page_or_admin
+  Text: Laos: Soviet Deputy Foreign Minister Pushkin, in his recent discussion with UK Ambassador Roberts on Laos, said that the Western position on Laos now is much closer to that of the USSR and that it should not be too difficult to reach agreement. Moscow, Peiping, and Hanoi continue to imply strong objections to any proposal that a formal cease-fire must precede an international conference, but all have repeated a Pathet Lao statement that a cease-fire must take place "simultaneously" with the holding of a conference. In a summary of the statement, Moscow radio said that the cease-fire should coincide with the "convocation" of the conference. The government forces seeking to recapture Muong Kassy are reported under enemy pressure north of the town; one column to the south remains stalled on Route 13; another column moving northward by trail east of the highway is encountering light opposition
+- original #6 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Page 1) (Map
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: 10 Apr 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #7 segment 2: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=4 unred_source_page=7
+alignment_score=0.243874
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: USSR: A test vehicle, probably an ICBM, was launched from Tyura Tam at about 0915 GMT (0415 EST) on 9 April, and apparently failed
+- original #9 segment 1: full_page_or_admin, noncontent_keyword
+  Text: flight shortly thereafter. Delays totaling approximately seven hours were noted in the countdown. As in the case of last week's launching of a probable ICBM on 2 April, however, no facilities associated with previous space launchings participated in yesterday's shot. These facilities continue to reflect preparations for a forthcoming space program event. Yesterday's launching was the seventh test shot this year of probable ICBMs from Tyura Tam. Three of these were failures. The total of generally successful Soviet test ICBM shots to date is 32. Congo: Hammarskjold told Ambassador Stevenson on 7 April that he feels Tshombé's military operations in northern Katanga—which have already resulted in the capture of Manono and Kabalo—foreshadow intensified civil war in Katanga Province unless the UN can promptly establish its authority in the area. He added that if Tshombé's offensive does not stop soon, his forces will have to be "neutralized." Hammarskjold has requested that approximately 1,200 Indian troops be airlifted from Dar es Salaam to Kamina within the next few days; their arrival could provoke violent incidents by Tshombé's supporters in Elisabethville. Although military talks between Mobutu and Stanleyville General Lundula are apparently proceeding as scheduled, the political conference between Gizenga and representatives of the Leopoldville government, scheduled to begin on 9 April, has been postponed. The Leopoldville emissaries apparently feared for their safety, and now have suggested that the conference be held in neutral territory, possibly Addis Ababa. (Backup, Page 3) (Map) Belgium: Paul-Henri Spaak and his associates are confident a Social Christian-Socialist government will be formed with Spaak as foreign
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 Apr 61 DAILY BRIEF
+- original #9 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=5 unred_source_page=8
+alignment_score=0.921865
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #10, segment 1)
+Text: minister, and that Spaak is already thinking of an early visit to the UN in a move to improve relations over the Congo situation. Spaak is understood to be planning to absorb the Ministry of African Affairs into the Foreign Ministry, in the hope of eliminating a major source of pro-Katanga influence and an important channel of future undercover Belgian dealings with Tshombé. Belgian future policy with Tshombé depends largely on UN action on the pending Congo resolution. A tough Indian draft resolution is scheduled to come to a vote today. A severe censure would not be accepted by the Belgian public and would make Belgian cooperation with the UN less likely
+Token count: 112
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #11, segment 1)
+Text: USSR - Communist China: The Soviet Union and Communist China have announced the signing in Moscow on 7 April of their trade protocol for 1961, which calls for Soviet deliveries of heavy industrial machinery and equipment, petroleum products, and similar exports in return for Chinese supplies of raw
+Token count: 47
+Recut: none
+
+Excluded candidates:
+- original #10 segment 2: noncontent_keyword
+  Text: Backup, Page 5
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=0.911848
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #12, segment 1)
+Text: materials and light industrial goods. In addition to the trade protocol, Moscow agreed to "loan" Peiping 500,000 tons of sugar and to defer for five years repayment of the trade deficit accrued by China in 1960. This deficit came to about $237,000,000. The agreements reached so far are only a first step toward the establishment of a new framework for Sino-Soviet economic relations following the Moscow conference in November. In view of China's current economic difficulties, Peiping's negotiators are probably pressing for further Soviet assistance, which Foreign Minister Chen Yi recently termed "critical for all of us." A Chinese delegation has arrived in Moscow to "carry on and complete" the more difficult talks on an economic, scientific, and technical agreement
+Token count: 123
+Recut: none
+
+Excluded candidates:
+- original #13 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: Backup
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: Situation in Laos In addition to insisting that a cease-fire be simultaneous with the international conference, the Pathet Lao broadcast of 7 April went on to elaborate on two other "necessary conditions" for a cease-fire. The statement asserted that the "interested parties" within Laos should work out the actual ground rules for a cease-fire, and that the cease-fire must coincide with the ending of "aggression and intervention" by the US and its "satellites." In connection with the latter point, the Pathet Lao radio had stated on 6 April that a real cease-fire could be achieved only when the US had withdrawn its "military officers, aircraft, armaments, and the aggressive troops of Thailand and Chiang Kai-shek's remnants." Pushkin did not react adversely to the suggested date of 24 April for convening a conference, but he acknowledged that the funeral of the late King of Laos, scheduled for the same period, did present problems which could not be ignored. The Soviet spokesman also expressed the opinion that the conference would be rather long and detailed and would not necessarily require the continuous presence of foreign ministers. However, he said the ministers should attend the opening of the conference in order to demonstrate its importance. Political leaders in Vientiane are reportedly giving increased thought to ways of forming a single, reorganized government to represent Laos at an international conference. Reports have circulated that government officials are ready to ask King Savang to head a government composed of former prime ministers, partly as a means of countering foreign efforts to reinstate Souvanna Phouma as premier. Meanwhile, government spokesmen have continued to express alarm over possible further reinforcement of the Pathet Lao with North Vietnamese units in order to increase the enemy's advantage in forthcoming negotiations. An attacking enemy force estimated at two companies reportedly was repulsed on 8 April by elements of the government paratroop battalion advancing on Muong Kassy from the
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: north. Although paratroop positions are reported encountering enemy harassment on three sides, available information does not indicate that they are seriously threatened. Two companies have been requested as reinforcements by the government column stalled south of Muong Kassy. Enemy forces south of the Plaine des Jarres are reported to be widening a trail for a distance of about 20 miles southward toward Pak Sane from their base at Ban Ta Viang. A Pathet Lao company is moving toward the area northwest of Pak Sane with a mission to sever Route 13 linking that town with Vientiane. Pathet Lao forces are also reported to have extended their control in the Kam Keut - Lak Sao area to about six miles south of Lak Sao on the road leading to Nhommarat. There are indications that enemy supply dumps are being established in the vicinity of Lak Sao. The Soviet airlift into Laos continues. The Soviet IL-14 en route to Hanoi from the USSR was scheduled to leave Peiping on 9 April
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: Situation in the Congo Hammarskjold said that he is coming to the conclusion that Tshombé is "simply a criminal and outlaw," and that the element of force on Tshombé's side in diplomatic bargaining with the UN must be removed. Hammarskjold believes Tshombé's recent military moves in northern Katanga were made to undercut his rival, Jason Sendwe, and to increase his own prestige so that he could dominate a conference of Congolese leaders apparently to take place in late April in Katanga. The danger of spreading the civil war in Katanga arises from Sendwe's announcement in Leopoldville on 7 April proclaiming himself chief of the Luluaba state and calling on its people to resist Tshombé's invaders. Kabalo was reported calm on 9 April, with UN troops holding the railway station and airport. However, there have been clashes between UN Ethiopian troops and Tshombé's forces which have resulted in casualties on both sides, and further violence could occur at any time. Elsewhere in Katanga, Tshombé's government is removing restrictive measures against UN troops, but gradually so as not to lose face with the public. UN troops on 8 April had water and electricity in all installations, but food supplies were still low. The UN commander in southern Katanga stated on 8 April that continuation of the relatively relaxed attitude depends on events at Kabalo, reaction to the airlift of Indian troops to Kamina, and the ability of the Swedish and Irish UN forces to maintain order in Elisabethville. As a result of last week's transfer of the Irish battalion to Elisabethville, according to Hammarskjold, the Indian contingent in Kamina is sufficient only to hold the airfield. The secretary general thinks the arrival of additional well-disciplined Indian troops in Kamina, where they would be less than an hour away from Elisabethville, would greatly strengthen his hand in dealing with Tshombé. The UN commander in Elisabethville has warned, however, that the appearance of
+- original #16 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=7 unred_source_page=13
+alignment_score=0.245047
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: Indian troops
+- original #18 segment 1: full_page_or_admin
+  Text: that city would set off bloody encounters between UN forces and Katangan mobs supported by Tshombé's troops. said the black troops were worthless, since they had no discipline or sense of tactics and fired in all directions. The Belgian officers were not much better, as they had little knowledge of bush fighting and no control over the native troops. 32 white troops actually "took" Manono and then turned it over to the black soldiers, who massacred women and children left behind by the defenders. Alione Diakite, named Mali's ambassador to the Gizenga regime, presented his letters of credence on 5 April. He is the first diplomat accredited to Stanleyville to have arrived; others from bloc and African countries are in contact with Gizenga's Cairo office
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: Congo Policy of Probable New Belgian Government The general opinion in the Belgian press is that the appointment of Theo Lefevre, president of the Social Christian (Catholic) party, to negotiate with leaders of the other parties means that a Social Christian - Socialist coalition is almost certain. The Socialist Party Bureau and Socialist leaders have urged the speedy formation of such a coalition. The Catholic party, however, is handicapped by the opposition of its right-wing elements, which were shocked by the violence of the recent Socialist-instigated general strike and are insisting on a guarantee of law and order as the price of an alliance with the Socialists. The Liberal party appears willing to enter into another coalition with the Social Christians, but its sabotage of numerous socio-economic issues in the last government have made the party unacceptable to left-wing Catholic labor elements. Lefevre is faced with the possibility of a split in his party, no matter which partner he chooses. A tripartite coalition of all three parties does not appear a likely solution. Many government leaders fear that advocacy of a bolder Congo policy would jeopardize the prospects for domestic reforms in which the electorate is primarily interested. Any government, therefore, will have to make a difficult decision with regard to how far it is willing to compromise on the Congo. The Social Christians lost heavily in the 19 March elections to small extremist parties largely on this issue, and they are less inclined than Spaak and the Socialists to meet the UN demands for further disengagement in the Congo. Reforms in this direction will be fought by powerful industrial interests like the Union Miniere, the right-wing press, and possibly the royal family, whose influence in Congo affairs has always been extensive. Moreover, many Belgians in the Congo will continue to act in a manner that will complicate the efforts of any government to reach a satisfactory solution. Hammarskjold's personal representative has been having
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=15
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: difficulties with the Belgian authorities in his negotiations in Brussels on the removal of Belgian military personnel from the Congo, and he has recommended "strong pressure" on Belgium and its allies to facilitiate his mission. It is possible, however, that the Indian draft resolution on the Congo, which calls for the withdrawal within 21 days of all Belgians who hold major military or political posts, will be moderated somewhat. Tokyo on 7 April instructed its UN delegate to abstain from voting on the resolution because it is "too extreme and impractical
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=8 unred_source_page=16
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=9 unred_source_page=17
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=10 unred_source_page=18
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=11 unred_source_page=19
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 20]
+kind=match red_source_page=12 unred_source_page=20
+alignment_score=0.976056
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 21]
+kind=match red_source_page=13 unred_source_page=21
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 10 April 1961 Copy No. C 51

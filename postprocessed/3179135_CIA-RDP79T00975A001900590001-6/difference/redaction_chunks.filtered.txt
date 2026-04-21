@@ -1,0 +1,102 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.954762
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOUTHEAST ASIA 3. French reported pressing Bao Dai to return to Vietnam
+Token count: 12
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 9. Somoza predicts extended guerrilla war in Costa Rica (page 8). 10. New Chinese Communist attacks on coastal islands may be imminent
+Token count: 22
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.950617
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: SOUTHEAST ASIA 3. French reported pressing Bao Dai to return to Vietnam: Minister for Associated States Guy La Chambre has been pressing Bao Dai to return to Vietnam, chief of state may succumb to the pressure being exerted by the French through his aides and through General Hinh who are influencing him against the United States. Comment: As chief of state, Bao Dai is in a position to undercut Premier Diem at any time. Diem is opposed to his return
+Token count: 80
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.903210
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #5, segment 1)
+Text: 9. Somoza predicts extended guerrilla war in Costa Rica: Nicaraguan president Somoza on 24 January told the Organization of American States fact-finding commission now investigating the Costa Rican-Nicaraguan dispute that the Costa Rican rebels, which he says number up to 700, will now probably adopt guerrilla tactics, leading to long and costly warfare. Somoza said that the only way to stop the fighting would be for Costa Rica to conclude a truce with the rebels, guaranteeing them amnesty and a return of their properties. Ambassador Dreier, United States representative on the OAS commission, concludes that Somoza is obviously "closely and continually in touch with the rebel forces in Costa Rica" and "will continue to support the rebels surreptitiously if they continue hostilities." Dreier believes Costa Rican government forces will have a hard time coping with the rebels since there is a general belief that the war is over and volunteers are going home
+Token count: 153
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: into
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: It is likely that some fighting will continue, but not on the large scale Somoza predicts. 10. New Chinese Communist attacks on coastal islands may be imminent: There are several indications that further Chinese Communist attacks on Nationalist-occupied coastal islands may be imminent. Communist planes have been reconnoitering the Tachens for several days in a pattern similar to that noted prior to all previous air attacks on these islands. A Peiping radio station, believed to serve a major air force command, sent a "most urgent" message to Shanghai on 24 January. TU-2 light piston bombers of a naval air unit in the Shanghai area have been standing down since 22 January. Communist artillery positions have already been established on Ichiang, captured on 18 January, and the first rounds from these positions hit the main Tachens on 24 January. Moreover, seven searchlight positions have been established on Communist-held Toumen Island, 13 miles north of Upper Tachen. Roads to new artillery positions on the mainland coast just north of the Matsus are under repair, and new barracks have been reported in the area. With completion of these developments, the Communists will be able to launch simultaneous artillery and naval attacks on all three of the major Nationalist-held island groups--Tachen, Matsu and Quemoy

@@ -1,0 +1,138 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.652273
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.955195
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. USSR REPORTEDLY TO MAKE "SPECTACULAR" MOVES TOWARD GREECE (page 4). 3. KING SAUD DENIES CONCLUDING ARMS DEAL WITH SOVIET BLOC
+Token count: 21
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 2. USSR REPORTEDLY TO MAKE "SPECTACULAR" MOVES TOWARD GREECE the Greek government has "increasing evidence" the USSR is preparing to make "spectacular gestures" toward Greece. These moves will be timed to bolster the leftist vote in the February election. the Soviet ambassador intended to announce publicly "within a few days" that the USSR would support Greek irredentist claims and guarantee Greek borders in return for Greek neutrality. Comment Greece, as a member of both the Balkan pact and NATO, has for some time been regarded by Moscow as a promising field for encouraging neutralist influences. Among the moves the USSR might make is a new statement of full Soviet support for Greek ambitions regarding Cyprus--possibly including a suggestion that the Cyprus issue be brought up in the UN Security Council. The USSR might also offer to intercede with Bulgaria to settle its $40,000,000 reparations bill to Greece
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.122435
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: 3. KING SAUD DENIES CONCLUDING ARMS DEAL WITH SOVIET BLOC King Saud of Saudi Arabia has asserted that he has not concluded a deal for arms from the Soviet bloc. The king implied that reports to the contrary are inspired by the British, presumably
+- original #4 segment 1: full_page_or_admin
+  Text: the hope that doubts about Saud's intentions would lead the United States to refuse to sell him arms. Comment Although Saudi money is almost certainly available to Egypt and Syria for their arms negotiations with the Soviet bloc, Saud may prefer to stay on good terms with the United States at this time. Saudi thinking is reflected advising him to avoid a meeting with Soviet leaders while he is visiting India since such a meeting might be exploited by the British to "alienate us from the Americans." The Saudis have urgently sought American support since British-led forces occupied the Buraimi area on 26 October
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.994012
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: ensure
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.952809
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #6, segment 1)
+Text: Comment Terrorism can be expected to continue and may expand who agreed to continue North African resistance. The Arab League agreed to spend $287,000 for these activities
+Token count: 28
+Recut: none
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.993103
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Cafe
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.992083
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens
+  Text: Press
+- original #9 segment 1: short_span_min_tokens
+  Text: Press
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attaches
+- original #11 segment 1: short_span_min_tokens
+  Text: Press
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.924468
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #12, segment 1)
+Text: Czechoslovakia had agreed to construct a "jet aircraft factory" in Egypt. The British de Havilland firm built an aircraft assembly plant at Helwan in 1952, but the plant never produced any jet planes. Czechoslovakia might undertake partial re-equipment of this plant and assign technicians there to assist in the assembly and major maintenance of MIG aircraft. Czechoslovakia had offered a "factory" for making the casings of mortar shells and aircraft bombs
+Token count: 71
+Recut: none

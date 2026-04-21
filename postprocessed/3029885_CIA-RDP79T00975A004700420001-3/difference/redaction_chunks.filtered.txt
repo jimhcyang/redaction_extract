@@ -1,0 +1,134 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.757143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.123327
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 19 OCTOBER 1959 I. THE COMMUNIST BLOC Peiping trying to patch up relations with some Asian neighbors; invective against US continues. II. ASIA-AFRICA Ceylon exploring ways to reduce economic ties with Peiping. Iraqis see Baathists involved
+- original #2 segment 1: full_page_or_admin
+  Text: attempt on Qasim's life. Saudi Arabia--Dispute between Saud and Faysal over governmental powers continues. Japan--Right-wing faction decides to withdraw from Socialist party. III. THE WEST Guatemala--Demonstrations planned by opposing political groups for 20 October may lead to serious violence
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.982222
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #4, segment 2)
+Text: Iraq: Finance Minister Hadid has informed the British ambassador in Baghdad that the Baathists were involved in the attempt on Qasim's life, "perhaps with the connivance of Nasir
+Token count: 28
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: Page 1
+- original #4 segment 1: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.933654
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #5, segment 1)
+Text: of the Baathist newspaper, tends to support Hadid's remarks. Iraqi security measures remain strict. Authorities fear the Communists will demonstrate against their opponents when Qasim leaves the hospital in the next few days. UAR intelligence in Baghdad has advised antiregime elements not to carry out any "follow-up action" until a more opportune time. Saudi Arabia: The dispute between King Saud and Crown Prince Faysal over governmental powers continues. Saud, who is seeking to reassert his authority, says that he will act as prime minister during Faysal's planned absence for medical treatment in Europe. Faysal insists that one of the princes assume the post, and he delayed his departure. Some informed Saudis believe Faysal may resign as prime minister. However, since the royal princes probably backed Faysal, some temporary compromise was apparently reached
+Token count: 132
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: 19 Oct 59 DAILY BRIEF
+- original #6 segment 2: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.973913
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Page 3) 19 Oct 59 DAILY BRIEF
+- original #7 segment 2: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.998780
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Major Reduction of Sino-Ceylonese Economic Ties Possible Ceylonese Minister of Commerce and Trade R. G. Senanayake and Governor General Goonetilleke apparently advocate terminating Ceylon's rice-rubber barter agreement with Communist China provided Ceylon can secure financial support for its rubber-development program in lieu of the $15,000,000 Chinese grant which accompanies the five-year barter agreement. Senanayake has asked whether the United States would furnish $3,000,000 in aid to cover expenditures made in advance of receiving the first installment of Peiping's grant. Whether new Prime Minister Dahanayake and other cabinet and government members favor such action is uncertain, but economic factors rather than Dahanayake's professed anti-Communist views are likely to determine any government decision on the matter. During the past two years Colombo has grown dissatisfied with the conditions attached to Chinese Communist aid and with the terms of the rice-rubber contract. The economic benefits Ceylon once derived from the agreement, first negotiated in 1952 and renewed in 1957, have since been virtually nullified by rising rubber prices and abundant world rice supplies. During protracted negotiations with Peiping on the 1959 rice-rubber protocol, Colombo bargained hard for more favorable terms but was unwilling to relinquish the agreement, partially because of concurrent difficulties in concluding a satisfactory 1959 rice agreement with Burma. However, Colombo and Rangoon on 25 September signed a four-year trade pact effective in 1960 under which Ceylon will purchase at reduced prices 300,000 tons of rice annually--100,000 tons more than under its 1959 contract. It therefore is in a better position to cancel its contract with Communist China than at any previous time. Ceylon has been attempting to reduce the price of the 80,000 tons of Communist Chinese rice still to be shipped under the 1959 contract; the Ceylonese Government intends to cancel shipment of this amount if Peiping maintains the contract price. This does not necessarily indicate that the government has decided yet to terminate the entire agreement, however. A Ceylonese delegation would leave for Communist China on 22 October for a week of negotiations on the 1960 rice-rubber protocol provided the Chinese officials agreed
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.998510
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens
+  Text: by
+- original #11 segment 1: noncontent_keyword
+  Text: Page 3
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

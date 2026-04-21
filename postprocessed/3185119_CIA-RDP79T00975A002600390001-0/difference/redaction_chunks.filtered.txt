@@ -1,0 +1,115 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.540385
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 14 July 1956
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.952632
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 1. SYRIA REPORTEDLY OFFERED MIG-17's
+Token count: 5
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #5, segment 2)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: page 4
+- original #4 segment 1: noncontent_keyword
+  Text: page 5
+- original #5 segment 1: noncontent_keyword
+  Text: page 6
+- original #5 segment 3: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 1. SYRIA REPORTEDLY OFFERED MIG-17's Comment This is the first firm evidence that the Soviet bloc intends to sell MIG-17's to the Arab states. The price quoted is about $8,000 higher than that asked for MIG-15's, and appears to be reasonable for this type of aircraft. MIG-17's have been previously rumored as included in the Egyptian arms deal but none is known to have been delivered. Syria now has 20 MIG-15's on order. The MIG-17 is superior to the French Mystere IV-A, the best aircraft the Israelis have
+- original #6 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 14 July 56 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #7, segment 1)
+Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 13 July
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #7 segment 2: noncontent_keyword
+  Text: 14 July 56 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.140179
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: 14 July 56 Current Intelligence Bulletin
+- original #9 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 8

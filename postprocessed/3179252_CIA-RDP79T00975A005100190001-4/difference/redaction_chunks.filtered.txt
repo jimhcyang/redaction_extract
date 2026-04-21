@@ -1,0 +1,182 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.681429
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 255
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.244768
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin, noncontent_keyword
+  Text: 23 MAY 1960
+- original #3 segment 1: full_page_or_admin, noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: THE COMMUNIST BLOC Khrushchev's failure to make customary major speech at a "welcome-home" rally probably reflects decision to take further political soundings before making any new moves. Bloc now may be prepared to supply Cuba with at least token deliveries of arms. II. ASIA-AFRICA Djakarta demands Peiping stop anti-Indonesian broadcasts; Indonesian intercepts show Djakarta considering withdrawing its consul from Shanghai. (TOP SECRET DAUNT) Ceylon's United National party faces stiff fight with three-party united front
+- original #4 segment 1: full_page_or_admin
+  Text: elections scheduled for 20 July. Nasir apparently inviting showdown with present Baathist leaders by sponsoring formation of new international Baathist organization. Protest march by Turkish cadets may mark beginning of more serious new phase in Turkish internal situation. Mali officials reportedly discover network involving French officers for smuggling arms from Mali to opponents of Toure in Guinea. III. THE WEST Icelandic cabinet minister says Iceland will withdraw from NATO if British naval vessels again enter country's 12-mile limit
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.904600
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #5, segment 1)
+Text: Czechoslovakia-Cuba: The Soviet bloc now may be prepared to supply Cuba with at least token deliveries of arms. On 12 May the head of the Technical Directorate of the Czech Ministry of Foreign Trade which handles Czech exports of military equipment and which is involved in the bloc's arms deals with nonbloc countries was issued Cuban visas for himself and several other Czech trade officials. These Czechs may participate in the talks now being held in Havana between a Czech commercial delegation and the Cuban Government. (Page 1) II. ASIA-AFRICA Indonesia - Communist China: Indonesia's stiff protest note of 21 May to Communist China, demanding the cessation of anti-Indonesian broadcasts over Radio Peiping, follows on the heels of Djakarta's request that two Chinese Communist consuls be withdrawn from Sumatra and Borneo because of interference with the Chinese repatriation program. The Chinese leaders, who show no inclination to end their intervention in the repatriation program, will probably reject the protest and
+Token count: 159
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.900326
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #6, segment 1)
+Text: continue their propaganda attacks on Djakarta for its "persecution" of Overseas Chinese
+Token count: 12
+Recut: none
+
+Clean Chunk #3 (original #7, segment 2)
+Text: UAR: Nasir appears to have invited a showdown with the present leadership of the influential, pan-Arab Baathist party by openly sponsoring the formation of a new international Baathist organization. The Damascus press last week announced the formation of a new "provisional" Baathist organization headed by a Jordanian, Abdallah al-Rimawi, who was expelled from the older Baathist party last year. Nasir apparently feels confident that despite his suppression of the older Baathist party's activity in the UAR, he retains sufficient following among the party's membership to gain control of its nationalist activities elsewhere in the Arab world. (Page 3) Turkey: The situation in Turkey appears to have entered a more serious new phase with the protest march of military cadets in Ankara on 21 May. This demonstration, the first by a military unit since the initial outbreaks last month, was sparked by reports of police brutality against army officers. Other reports have emphasized a growing antagonism between the police and the army in both Ankara and Istanbul. It seems certain that the pressure on Premier Menderes will increase, even from within his own party
+Token count: 183
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Page 2
+- original #7 segment 3: noncontent_keyword
+  Text: Page 4) 23 May 60 DAILY BRIEF
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.914286
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #8, segment 1)
+Text: for the removal of certain officials and even for his own resignation. Menderes, however, appears confident that he continues to enjoy the support of the rural population, and he may misjudge the extent of opposition to his government in the cities and within the military. (Page 4) Mali-Guinea-France: Officials of the Mali Government reportedly have discovered a network organized by French military officers and African elements for smuggling arms from Mali to opponents of President Touré in Guinea. Mali officials are likely to regard such a discovery as confirmation of Touré's charges of a French-controlled plot against Guinea, and the sympathy of moderate Malians for France may be seriously weakened. In Guinea, pro-Soviet elements are reported exploiting the alleged plot in an effort to draw Guinea closer to the bloc
+Token count: 131
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #8 segment 2: noncontent_keyword
+  Text: Page 5
+- original #9 segment 1: noncontent_keyword
+  Text: Page 7) 23 May 60 DAILY BRIEF
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Soviet Bloc May Be Preparing to Provide Military Aid to Cuba the Soviet bloc may be prepared to supply Cuba with at least token deliveries of arms. On 11 May, soon after talks opened in Havana between a Czech commercial mission and the Cuban Government, the head of the Chief Technical Directorate of the Czech Ministry of Foreign Trade requested Cuban visas for himself and several other Czech trade officials. The Technical Directorate handles Czech exports of military equipment and is involved in the bloc's arms deals with nonbloc countries. On 12 May the Cuban Foreign Ministry issued the visas, and presumably the Czechs will be available to participate in the negotiations now under way in Havana for a trade and credit agreement. Castro's intense desire to obtain jet aircraft led to earlier Cuban attempts to procure military equipment from the bloc, but so far all such efforts have been unsuccessful. The visit of the Czech delegation at this time suggests the bloc now may be willing to provide military items not available from Western sources. Since Mikoyan's visit to Cuba last February, bloc activity in Cuba has increased sharply. Total bloc sugar purchases for 1960 have risen to 1,340,000 tons, Soviet oil and other raw materials have begun to arrive in Cuba, and new commercial agreements have been signed with Poland and East Germany. In addition to the trade and credit pacts with the USSR. ten Soviet technicians are en route to Cuba, probably to begin preliminary planning for projects under the $100,000,000 Soviet line of credit
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: Nasir Challenges Leadership of Baathists UAR President Nasir appears to have challenged the traditional leadership of the strong, pan-Arab Baathist party for control of the party's activities throughout the Arab world. A new top-level "provisional" group for reorganization of the party was announced in Damascus on 18 May--a move which almost certainly had Nasir's approval. The Damascus group, composed of pro-Nasir Baathists and headed by former party leader Abdallah al-Rimawi, a Jordanian who was expelled from the party last fall, reportedly was chosen by delegates from various Arab countries. Its objective apparently is to displace the old leadership in Beirut. the initiation of a press campaign against Michel Aflaq, Syrian head of the party and its top theoretician, who is in virtual exile in Beirut. After its founding in 1954, the Baathist (Arab Socialist Renaissance) party strongly backed Nasir's Arab nationalist policies. Its top leadership, however, became divided over the issue of continued cooperation with the UAR President when party activities in Egypt and Syria were banned following union of the two regions in 1958. The ban was the direct cause of the alienation between Nasir and former UAR Vice President Akram Hawrani, one of the party's founders whose activities now are closely watched by Syrian security men. Nasir apparently feels that, despite his suppression of the older Baathist party's activity in the UAR, he still retains sufficient international following among the party's membership to gain control of its nationalist activities elsewhere in the Arab world
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: Turkish Internal Situation The march of Turkish military cadets through the streets of Ankara on 21 May, apparently in support of the recent student demonstrations against the government's repressive policies, is a blow to Premier Menderes' regime. This development, the most serious so far in the current political unrest, is the first open indication of dissatisfaction among army elements and will encourage both students and other opposition groups. Recent reports have also indicated that lower and middle-grade army officers are taking an increasingly active role in civilian-directed street demonstrations. The 21 May demonstration followed reports that an army colonel, father of one of the cadets, had been beaten by police while watching a student demonstration against the government on 20 May. There have been other reports in recent days of minor brushes between the police and army which probably have resulted in the growth of considerable hostility. The participants in antigovernment demonstrations repeatedly have shown respect and even friendship toward army troops sent to disperse them but have indicated open hostility toward the police. A crowd of civilians who followed the cadets in their march also demonstrated later and called for the resignation of Minister of Interior Namik Gedik and Director General of the National Police Cemal Goktan. Premier Menderes previously has been reported contemplating the removal of both men, and the pressure within his own Democratic party (DP) for such a step will probably increase. The participation of elements of the armed forces in demonstrations may give anti-Menderes leaders within the DP the incentive to demand that the premier also step down. Menderes, however, is reported reassured of popular support by his recent trip through Turkey's Aegean provinces. It now appears likely that he will misjudge this basically rural support for nationwide endorsement of his policies and refuse to compromise with his opposition both within and outside his party. It is doubtful that his recent promises of "early" elections will be enough to prevent continued demonstrations against his government despite stringent preventive measures such as those taken in Ankara on 22 May; these banned the congregation of more than five persons without written license
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.365747
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: Arms-Smuggling Network Directed Against Guinea Regime Reported Exposed
+- original #14 segment 1: full_page_or_admin
+  Text: Mali African authorities in Mali--the federation of Senegal and Soudan which is scheduled to become sovereign within the French Community next month--reportedly have uncovered in Senegal an arms-smuggling network aimed at the overthrow of Guinea President Sekou Touré's authoritarian regime. French military, Senegalese, and dissident Guinean elements all are involved in the network which has been engaged in infiltrating by truck into northern Guinea arms from French Army depots in Senegal. The arms are said to have been distributed among anti-Toure Guineans who formerly served in the French Army and were repatriated after Guinea became independent in 1958. pro-Toure Guinean students in Dakar who are in close touch with Conakry were largely responsible for the exposure of the network. Since last month Touré has been preoccupied with the suppression of antiregime elements. Some of these elements appear merely to have favored the establishment of an overt opposition party, while others--reportedly including local Lebanese and nonofficial French residents--apparently hoped to launch a coup. Touré's public response to the situation has from the beginning been designed to distract attention from the discontent which has been growing in Guinea for some time by concentrating on allegations that France and "African traitors" had mounted a counterrevolutionary plot against his regime from neighboring Senegal and Ivory Coast. On 3 May, Radio Guinea announced that 25 persons had been arrested in connection with the seizure of a cache of arms and munitions in Guinea near the Senegalese border; subsequently, Senegalese authorities disclosed the discovery of other caches in two villages on the Senegalese side of the frontier. Leading members of the influential pro-Soviet clique in the regime's hierarchy are reported to be exploiting the alleged plot in an effort to induce Toure to establish closer ties with the bloc
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: The government-controlled news media, whose output may be influenced by bloc "advisers" in Guinea, already have embarked on a campaign which appears designed to arouse the masses against the West in general, including the United States. In Mali, meanwhile, officials are likely to regard the reported arms network as confirmation of Touré's charges against the French. As a result, Senegalese leaders, most of whom have heretofore favored close ties with France after Mali becomes independent, now may be more inclined to yield to influential Soudanese elements who already have a predilection for ties with the bloc
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=0.998576
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: noncontent_keyword
+  Text: III. THE WEST
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=10 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=11 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

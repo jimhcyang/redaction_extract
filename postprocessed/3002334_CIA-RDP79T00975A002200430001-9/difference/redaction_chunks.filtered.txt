@@ -1,0 +1,109 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.778125
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 190
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.970455
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 5. GREEK PRIME MINISTER MAY CALL ELECTIONS IN JANUARY OR FEBRUARY
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.992290
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #4, segment 1)
+Text: and defeat Prime Minister Nuri Said's pro-Western foreign policy
+Token count: 9
+Recut: none
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.994709
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Bai
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 5. GREEK PRIME MINISTER MAY CALL ELECTIONS IN JANUARY OR FEBRUARY Greek prime minister Karamanlis is so pleased by the evidence of popular support from all over Greece that he is strongly inclined to call a national election in January or early February. Karamanlis says he would have scheduled elections within the next two months if he had known popular support was so strong. If Karamanlis could achieve some success in foreign affairs, he might put off elections until March or April. In view of present difficulties in that field, however, he favors holding elections before he is subject to attack for foreign policy failures. Comment The available evidence supports Karamanlis' estimate of his present popularity. A threatened revolt by the Rally old guard against his appointment failed to materialize, and even Sophocles Venizelos, Liberal Democratic Union leader, has been making friendly gestures. Karamanlis apparently has no illusions that he can satisfy Greek popular demands concerning Cyprus in the near future, and he may fear further complication of relations with Turkey if Ankara fails to provide prompt and satisfactory compensation for Greek property destroyed and damaged in the Istanbul and Izmir riots last month
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.998800
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens
+  Text: Comment
+
+========================================================================
+[PAGE 10]
+kind=red_only red_source_page=9 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

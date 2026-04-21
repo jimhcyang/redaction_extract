@@ -1,0 +1,158 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.440000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.934722
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #4, segment 1)
+Text: Page ii) 3. Iran: Amini says he will demand greater authority from Shah or resign. (Page ii) 4. Congo: Further maneuvering on reconvening of parliament
+Token count: 25
+Recut: none
+
+Clean Chunk #2 (original #5, segment 1)
+Text: Page iii) 6. USSR - Communist China: Moscow apparently selling gold in Paris on Peiping's behalf
+Token count: 15
+Recut: none
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: 30 May 1961
+- original #3 segment 1: noncontent_keyword
+  Text: 1. Laos. (Page i
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: 30 May 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #6 segment 2: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 30 May 1961 DAILY BRIEF
+- original #7 segment 2: full_page_or_admin
+  Text: Laos. Separate political and military talks between the royal government, the Pathet Lao, and the Souvanna Phouma group began at Namone on 29 May, following agreement to establish a military subcommittee. At the apparent insistence of the Pathet Lao, the "duties and policies" of a coalition government will be taken up first in the political talks, beginning with the 31 May session. Discussion of this item of the agenda is likely to be time consuming and will offer the Pathet Lao full scope for raising extraneous issues and for using the talks as a propaganda vehicle. For the parallel military talks, a four-point agenda was adopted relating to maintenance of the cease-fire and collaboration with the ICC. The military situation remains generally quiet, although scattered guerrilla activity continues to be reported. The lull in the fighting in the Pa Dong area, apparently stemming from temporary depletion of the Communists' artillery ammunition stocks, persisted through 29 May. Souvanna and Souphannouvong are reported to have voiced no objection to the proposed ICC inspection of the Pa Dong front during a recent interview with ICC Chairman Sen in Xieng Khouang; however, they stated that they would have to "study" the matter before giving a formal reply, a tactic calculated to give their forces additional time in which to capture Pa Dong. Bloc airlift operations continue to be scheduled through 30 May
+- original #7 segment 3: full_page_or_admin, noncontent_keyword, short_span_min_tokens
+  Text: Map
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.140179
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: 30 May 61 CENTRAL INTELLIGENCE BULLETIN Map
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.898877
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #11, segment 1)
+Text: Iran: Prime Minister Amini has said that he will demand greater authority from the Shah or will resign, since he believes far-reaching reforms are impossible in Iran as long as the Shah retains ultimate authority for himself. Amini fears that the Shah intends to play former security chief General Bakhtiar against him in an effort to perpetuate the monarch's position. the prime minister and his brother, retired General Mahmud Amini, are working on a "cooperative venture" to strengthen the prime minister's position. Amini is reported anxious to reach an understanding with the National Front. the Front may be preparing for a strike in the oil fields. *Congo: The Leopoldville government apparently plans to reconvene parliament in early June as the next step following the 27 May adjournment of the Coquilhatville conference. President Kasavubu is expected to request UN guarantees for the safety of deputies being invited to Leopoldville from other areas. Gizenga continues to demand that parliament meet at Kamina
+Token count: 160
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Hong-il
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charg
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.911260
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #12, segment 1)
+Text: however, and he is still supported in this by bloc and the radical African states. Hammarskjold observed on 22 May that while the UN was prepared to implement security measures for a meeting of parliament in Leopoldville, it "could do so more easily at Kamina." There continue to be reports of internal dissension and economic stress within the Gizenga regime. foreign exchange equal to $1,400,000 had been deposited in a Stanleyville account in Guinea by Peiping and that $500,000 had been promised by the USSR
+Token count: 88
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #13, segment 1)
+Text: USSR-China: Communist China has sold gold in Paris, using the USSR as an agent. On 17 and 18 May the USSR credited about $11,000,000 and $3,000,000 respectively in sterling to China's account in Moscow, amounts which evidently represent the receipts from gold sales consummated in France on two preceding days. Other information suggests that all Soviet gold sales in Paris this year
+Token count: 66
+Recut: none
+
+Excluded candidates:
+- original #12 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: Map
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.955000
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #14, segment 1)
+Text: roughly $60,000,000--may have been Chinese gold. China has a substantial requirement for foreign exchange and is estimated to have had gold reserves on the order of $100,000,000 to $200,000,000 prior to these suspected sales
+Token count: 41
+Recut: none
+
+Clean Chunk #7 (original #15, segment 1)
+Text: and focus attention on Mayor Brandt, his opponent in the September national elections. Brandt reportedly believes that even a meeting of the SPD Bundestag members will reassert the right to meet in West Berlin and also will put Adenauer's Christian Democrats in the position of showing a lack of sympathy for Berlin
+Token count: 52
+Recut: none
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.976348
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,117 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.681250
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.884710
+kept_candidate_count=3
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOVIET UNION 1. New-type Soviet submarine possibly moving to Baltic
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 3. Saudi Arabian Deputy Defense Minister favors European over American arms
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 5. Greek UN delegation reportedly instructed to avoid discussion of Cyprus
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 2: noncontent_keyword
+  Text: page 6
+- original #3 segment 3: noncontent_keyword
+  Text: WESTERN EUROPE
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.875462
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #4, segment 1)
+Text: SOVIET UNION 1. New-type Soviet submarine possibly moving to Baltic: when water depth in the Marinsk canal system would be at least six and one half feet (see map, page 4). Data on the development of ice conditions in the Shcherbakov-Lake Onega sector was also requested. Comment: movement of the ocean-patrol submarine constructed in Gorki in 1950, which was being outfitted and tested in Baku as late as mid-1952. This submarine, the first of an improved class constructed in the USSR since the war, was originally scheduled to leave Baku in July 1951. Preparations were underway at that time to insure that the floating drydock for its transportation would draw no more than six feet in the Marinsk canal system north of Gorki. Inasmuch as the request for information on anticipated ice conditions did not include the White Sea Canal, the submarine may be destined for the Baltic
+Token count: 148
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #5, segment 1)
+Text: CANAL AND RIVER SYSTEMS OF WESTERN AND SOUTHERN U S S R
+Token count: 12
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.866685
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #6 (original #8, segment 1)
+Text: NEAR EAST - AFRICA 3. Saudi Arabian Deputy Defense Minister favors European over American arms: European arms, particularly Belgian and German, are "stronger and better" than those obtainable in the United States. purchasing arms from European firms would be more advantageous because of less government interference, lower prices, more satisfactory service, and freer choice of military instructors who would be better and more amenable to Saudi Arabian control. Comment: Saudi Arabia has been the most friendly of the Arab governments toward the United States. This unusually strong statement therefore assumes special significance
+Token count: 91
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: insistence
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: promote
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: considered
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Fayid
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Fayid
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.920922
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #7 (original #14, segment 1)
+Text: 5. Greek UN delegation reportedly instructed to avoid discussion of Cyprus: Comment: The possibility that Greece might ask for a UN discussion of the Cyprus problem has disturbed the Western powers because they feared it would be exploited by the Communists
+Token count: 41
+Recut: none
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Fayid
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: consideration
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: noncontent_keyword
+  Text: WESTERN EUROPE

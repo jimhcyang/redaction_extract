@@ -1,0 +1,93 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.517831
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. FINNS PROPOSE RECTIFICATION OF BORDER TO USSR (page 4). 3. WEST GERMAN SOCIALIST LEADER REPORTED APPROACHING USSR ON REUNIFICATION
+Token count: 20
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 6
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.953208
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.125840
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: FINNS PROPOSE RECTIFICATION OF BORDER TO USSR Comment The present economic value of the Saimaa Canal, which connects the Finnish inland lake system with the Gulf of Finland and the Baltic Sea, is
+Token count: 33
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: questionable, according to the Finnish committee of experts which recently studied the canal. However, the return of any part of Karelia, and the city of Vyborg in particular, which they lost to the USSR in 1944, has a strong emotional appeal to the Finns. President Kekkonen reportedly hopes to regain as much of Karelia as possible during his tenure. While it would require only a minor border adjustment to meet Finnish desires, the USSR will not make any territorial change lightly--which might inspire similar demands by other countries--but would time such a concession for the maximum political effect throughout Scandinavia
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 3. WEST GERMAN SOCIALIST LEADER REPORTED APPROACHING USSR ON REUNIFICATION the leader of the left-wing faction of the Social Democratic Party (SPD), Herbert Wehner, has been attempting in recent weeks to establish contact with the Kremlin in order to discuss the conditions under which the Soviet government would agree to the reunification of Germany. Wehner, during a visit to Stockholm in early May, asked Swedish foreign minister Unden to intercede with Unden's acquaintances in high Soviet circles. Later in the month, while in Yugoslavia, Wehner tried to persuade Tito to raise the German reunification question during his coming trip to Moscow. Wehner's activities have the full knowledge, if not approval, of SPD chairman Ollenhauer and other SPD leaders. Comment While there have been reports in the German press of informal talks between SPD functionaries and Soviet officials on German reunification, this is the first assertion that the party may approve such activities. The SPD has publicly condemned the Bonn government for failing to explore reunification possibilities with Moscow, and may now for political reasons want to demonstrate its greater interest and activity in this respect
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.951504
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache

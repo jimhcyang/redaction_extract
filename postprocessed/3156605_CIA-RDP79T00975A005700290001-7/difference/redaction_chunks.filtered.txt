@@ -1,0 +1,222 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.468750
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.859524
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 3)
+Text: 2. France-Algeria: Provisional Algerian Government's delegation at Evian reported optimistic. (Page 4) 3. Albania-USSR: Four defendants in show trial sentenced to death. (Page iii
+Token count: 24
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: iii) 5. USSR: Soviet ICBM test on 29 May successful. (Page iii
+Token count: 12
+Recut: none
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 1. Laos
+- original #1 segment 2: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.136429
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #3, segment 1)
+Text: NORTHERN LAOS
+Token count: 2
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: 29 May 61 CENTRAL INTELLIGENCE BULLETIN Map
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 29 May 1961 DAILY BRIEF
+- original #4 segment 2: full_page_or_admin
+  Text: Laos: A lull in enemy bombardment of Pa Dong, beginning on 27 May after intense firing on the preceding several days. A strafing mission on 26 May by three government T-6 planes against enemy artillery positions at the Pa Dong front was ineffective. General Phoumi states that he is aware of the pitfalls of the "unanimous vote" clause sought by the opposing parties at Namone for the proposed Joint military committee, and says he will instruct his delegation accordingly. Phoumi says that at the meeting on 29 May he will ask the immediate formation of a mixed inspection team to accompany the ICC to Pa Dong. On the political side, the government delegation will suggest that Phoumi head a proposed single delegation to be seated at Geneva, with the other members having full freedom of expression. Bloc airlift operations continue to be scheduled through 29 May
+- original #4 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 1
+- original #4 segment 4: full_page_or_admin, short_span_min_tokens
+  Text: Maps
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.867553
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: France-Algeria: The PAG delegation is increasingly optimistic but believes that this week will be crucial for the success of the talks. The PAG simply does not recognize the existence of a Saharan problem and that there is no flexibility for bargaining on this point. however, that on other issues, such as exploitation of the Sahara, policing a cease-fire, transfer of power, guarantees for the European minorities, and even arrangements for withdrawing the French Army, the PAG would not be rigid. In fact, the PAG was prepared to make extensive concessions on these points, but that it was at great pains to keep this attitude secret for fear it would prompt exaggerated French demands. In view of reported bitterness among French Army elements over casualties suffered since the French unilateral cease-fire, an early agreement on a cease-fire may be necessary if the negotiations are to continue. (Backup Page 4) Albania-USSR: On 27 May an Albanian court condemned to death four defendants, including the former deputy commander of the Albanian Navy, Vice Admiral Temi Sejko, who with nine others was accused of planning an armed uprising with the aid of the US Sixth Fleet, Greece, and Yugoslavia. The trial has been considered directed at the USSR, which reportedly staged an abortive coup against the Albanian regime last year. Although the defendants never were charged with aiding the coup attempt, the trial was the occasion for a severe denunciation of present Soviet international policies. As the two-week proceedings drew to a climax
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.931818
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: USSR: An ICBM test vehicle, with at least four telemetry systems on board, was launched from Tyura Tam to the Kamchatka impact area about 0145 GMT 29 May (2145 EDT 28 May). The test vehicle reached the Kamchatka Peninsula area. This is the eighth generally successful Soviet ICBM launching in 1961. Four additional ICBMs have failed in flight, and three other apparently unsuccessful launch operations have taken place at Tyura Tam so far this year
+Token count: 75
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.140179
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: 29 May 61 CENTRAL INTELLIGENCE BULLETIN Map
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: Laos In a step toward bringing the Vietnam issue before the Geneva conference, the head of North Vietnam's delegation, Foreign Minister Ung Van Khiem, stated in an interview carried by Hanoi radio on 28 May that the question of South Vietnam is related to a peaceful settlement in Laos. He added, "That is why we shall draw the conference's attention to these questions." Ung accused the US of new provocative activities in South Vietnam, which he claimed are seriously threatening peace in Southeast Asia and hindering the work of the conference. Closer ties between Communist China and the Souvanna regime are evidenced the expected arrival shortly of Chinese Communist road-construction personnel and tractor repairmen. These personnel may be used to construct a connecting road with China which Peiping agreed to provide Laos during Souvanna's visit in late April. In this connection, Chinese Communist Foreign Minister Chen Yi has insisted at Geneva that all foreign aid to Laos should be on a bilateral basis, and not handled through an international body as suggested by the US. a good-will visit by a Chinese delegation from Yunnan Province will take place from 1 to 10 June. a local official reception is being planned, and asks Souvanna's approval. This apparently is a return visit to one made in mid-May to Kunming by Colonel Khamouane, commander of pro-Souvanna troops in Phong Saly Province. 2,000 North Vietnamese troops entered Laos from North Vietnam via Route 7 between February and April. Convoys of between 40
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 29 May 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: and 50 trucks) North Vietnamese troops arrived by air at the Plaine des Jarres in February. enemy forces control roughly the eastern two thirds of Laos south of Xieng Khouang Province. the enemy's apparent aim is to consolidate this position with a view toward the eventual drawing of a demarcation line. large numbers of Communist troops presently in Khammouane and Savannakhet provinces are preparing to infiltrate into Laos' extreme south and into South Vietnam. the southern provinces of Attopeu, Saravane, and Champassak as relatively quiet at present, but estimated the pro-Pathet Lao sentiment of the population of these provinces at 90, 70, and 45 percent, respectively. Boun Pone revealed a defeatist attitude: the Lao Army could do nothing further without intervention by South Vietnamese, Thai, and US troops. Boun Pone's estimate of foreign Communist troops in Laos is undoubtedly exaggerated, but that the general is convinced in his own mind of their presence. all regular South Vietnamese forces in Laos withdrew to the Vietnamese border on 23 and 24 May. The only South Vietnamese troops still in Laos are special forces in mufti, plus a few liaison officers. However, South Vietnam is continuing its logistical support of three Lao companies at Houei Sane, a few miles inside Laos on Route 9. These Lao troops continue to conduct patrols toward the west in company with the South Vietnamese special forces. The area was generally quiet during the period 15 to 22 May. (Bloc airlift operations on 26 and 27 May may have included flights to the Dien Bien Phu, Nam Bac, and Phong Saly areas. Some flights may have been made to the Vinh and Dong Hoi
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 29 May 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #10, segment 1)
+Text: areas. Scheduled airlift activity for 28 May was at a relatively low level, according to preliminary field reports
+Token count: 18
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #10 segment 2: noncontent_keyword
+  Text: 29 May 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: Algerian Rebel Comments on Evian Negotiations The Provisional Algerian Government (PAG) is displeased with Tunisian President Bourguiba for exerting pressure on it to declare a cease-fire to match the French announcement of 20 May. such a move would do irreparable damage to their fighting units in Algeria. Once these forces began to return to their families, they would probably never take the field again in the same strength and with the same morale. the concessions the PAG is willing to make, once Algerian sovereignty over the Sahara has been acknowledged. the rebels would discuss the possibility of forming a transitional government and they would not reject out of hand French proposals that other Algerian tendencies participate in it. Europeans who choose to stay in Algeria will be allowed to become Algerian citizens, with all the rights of such citizenship. In regard to special privileges for French citizens, "We will not be rigid. We will give them a very special status in exchange for the status they will give our citizens working in France. This is reciprocity and would not impinge on our sovereignty." the PAG would not insist on any precipitate withdrawal of the French Army, although its status in an independent Algeria would have to be temporary and in preparation for an orderly departure. the Chinese Communist and North Vietnamese visits to the PAG villa in Geneva were merely courtesy calls which could hardly have been refused. Western observers should see in such contacts evidence that PAG was Communist influenced. The US consul general in Algiers reports that French commanders are interpreting the cease-fire in different ways, and that the Moslems show a pleased but "wait and see" attitude. The unilateral cease-fire has been confined to pilot sectors where the
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 29 May 61 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: number of offensive operations by both French and rebel forces were already limited. The consul general says an important test will come when the Moslems now living in French regroupment centers are returned to their isolated homes. The loyalty of Moslem troops serving with the French Army may also be tested in a period of generally limited offensive action
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 29 May 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=8 unred_source_page=14
+alignment_score=0.994449
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #13, segment 1)
+Text: and led by its illiterate president
+Token count: 6
+Recut: none
+
+Excluded candidates:
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: trace
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=9 unred_source_page=15
+alignment_score=0.991667
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: It
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=10 unred_source_page=16
+alignment_score=0.975939
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=11 unred_source_page=17
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,109 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.964706
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No
+- original #2 segment 1: noncontent_keyword
+  Text: TOP SECRET
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.981604
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #3, segment 1)
+Text: 3. Indonesia claims its trade policy will depend upon UN decision
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.961972
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 3. Indonesia claims its trade policy will depend upon UN decision: Comment: Although it is likely that Indonesia would nominally adhere to a UN-recommended embargo, primarily because it does not wish to prejudice its opportunity to obtain US assistance, it would not impose the stringent measures necessary to prevent its rubber from reaching China
+Token count: 54
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.999202
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens
+  Text: press
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.651150
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: matters
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: l-B
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: Communists. The Right, however, is expected to show "substantial gains," presumably at the expense of the Center. If all non-Communist parties formed electoral alliances, they could obtain the majorities necessary to eliminate Communist representation, but De Gaulle has ruled out this possibility by refusing to allow his party's candidates to affiliate with other parties. Since this decision will actually reduce the number of seats De Gaulle can expect to win, he is evidently more anxious to undermine the strength of the Center than to decrease Communist representation. Both the Gaullists and the Communists, by ignoring the Center in their respective campaigns, hope to attract those middle-of-the-road elements which could be expected to vote for one extreme in protest against the other. Comment: A gradual trend toward the Right in French politics has been observed since 1947, and De Gaulle's Rally of the French People can be expected to become a major party in the next Assembly at the expense principally of the centrist Popular Republicans. The Communist Party, whose strength has shown little or no decline in Assembly by-elections, is likely to benefit from the growing inflation. Electoral reform was intended to reduce Communist representation sharply, but its effect has been largely counterbalanced by De Gaulle's injunction against electoral alliances. LATIN AMERICA 10. Military junta ousts Bolivian President. President Urriolagoitia has left Bolivia following the military coup of 15 May, and a military junta has installed General Ballivian as President and Minister of Defense
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.789051
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=red_only red_source_page=9 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

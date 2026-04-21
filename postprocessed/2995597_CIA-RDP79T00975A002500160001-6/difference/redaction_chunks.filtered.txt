@@ -1,0 +1,169 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.652273
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.900000
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 3. RAIL LINE FROM CANTON TO SWATOW REPORTED UNDER CONSTRUCTION
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 5. LEADER OF LAOTIAN OPPOSITION SUSPECTED OF PLOTTING COUP (page 7). 6. VOROSHILOV DISCUSSES SOVIET RELATIONS WITH IRAN AND TURKEY
+Token count: 20
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 3: noncontent_keyword
+  Text: page 8
+- original #4 segment 1: noncontent_keyword
+  Text: page 9) 12 Apr 56 Current Intelligence Bulletin Page 2
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.992331
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: loose
+- original #6 segment 1: noncontent_keyword
+  Text: 12 Apr 56 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.994000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: 12 Apr 56 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 3. RAIL LINE FROM CANTON TO SWATOW REPORTED UNDER CONSTRUCTION the Chinese Communists have begun building the long-projected strategic rail link between Canton and Swatow. Comment This rail line would serve the Shuikou and Swatow airfield complex across from the southern tip of Taiwan. All other new fields opposite Taiwan are located near the new lines now being built to Amoy and Foochow. The completion of these railroads in the Fukien Strait area, probably within the next 12 months, will greatly increase the Chinese Communist capability to delivery military supplies to the three important invasion ports opposite Taiwan and the offshore islands--Foochow, Amoy and Swatow. (Prepared jointly with ORR) SOUTHEAST CHINA 11 APRIL 1955
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 12 Apr 56 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.969758
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+- original #12 segment 1: noncontent_keyword
+  Text: 12 Apr 56 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: 5. LEADER OF LAOTIAN OPPOSITION SUSPECTED OF PLOTTING COUP Laotian security forces have had under close surveillance a clandestine group formed in February by opposition member of parliament Bong Souvannouvong, who is said to be plotting to overthrow the government with Pathet Lao assistance. Arrangements reportedly have been made by this group for weapons to be delivered from Thailand in mid-April, when a coup will be attempted in which governments leaders will be arrested and Bong made premier; Some elements of the Bong group reportedly favor assassination of top government leaders. The government believes it has the situation well in hand but is deferring arrests. Comment During his attempt to form a government last month, ex-premier Katay alerted the army and police to thwart any efforts by Bong or Pathet Lao agents to stir up disorders designed to advance his chances of becoming premier. Bong is an effective demagogue who leads a small group of fanatics who favor exclusion of American influence in Laos and coalition with the Pathet Lao
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 12 Apr 56 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.130252
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #14, segment 1)
+Text: 6. VOROSHILOV DISCUSSES SOVIET RELATIONS WITH IRAN AND TURKEY
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #14 segment 2: noncontent_keyword
+  Text: 12 Apr 56 Current Intelligence Bulletin
+- original #15 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 8
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.966888
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #4 (original #17, segment 1)
+Text: American military attaches in Tel Aviv
+Token count: 6
+Recut: none
+
+Excluded candidates:
+- original #16 segment 1: short_span_min_tokens
+  Text: Press
+- original #18 segment 1: short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: requi
+- original #19 segment 1: noncontent_keyword
+  Text: 12 Apr 56 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.905911
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #20, segment 1)
+Text: Israel would not resume work at Banat Yacov in a precipitate fashion. Egyptian-owned MIG's are largely based in the Suez area and that El Arish is not used as a base of operations but as a refueling point. He said that the MIG's were on constant patrol over the border area and overflights were a daily occurrence. The American naval attache in Cairo reports
+Token count: 64
+Recut: none
+
+Excluded candidates:
+- original #21 segment 1: noncontent_keyword
+  Text: 12 Apr 56 Current Intelligence Bulletin Page 10

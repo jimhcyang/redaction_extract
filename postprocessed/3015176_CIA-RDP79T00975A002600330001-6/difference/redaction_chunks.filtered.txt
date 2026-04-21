@@ -1,0 +1,106 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.796442
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #3, segment 1)
+Text: 5). 4. CAMBODIA SEEN SEEKING SOVIET ECONOMIC AID
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 3)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 2: noncontent_keyword
+  Text: page 6
+- original #3 segment 4: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.961798
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=4
+alignment_score=0.962222
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=0.966644
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: for
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 4. CAMBODIA SEEN SEEKING SOVIET ECONOMIC AID Comment on: Cambodia is apparently seeking economic assistance from the USSR to complete the financing of its two-year economic plan, according to French ambassador Offroy in Bangkok. Sihanouk and Khim Tit are now in the USSR. They seem assured of a sympathetic reaction to any requests for aid in view of the present Sino-Soviet strategy to undermine Cambodia's relations with the West. Before embarking last spring on his policy of closer political and economic relations with the Soviet bloc, Sihanouk referred to "heavy responsibilities" in accepting Communist aid, but he felt the advantages outweighed the risks involved. Cambodia hopes to require no further foreign aid after completion in 1957 of its ambitious development plan designed to expand and diversify its agricultural, mineral and industrial production
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #6, segment 1)
+Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 6 July
+Token count: 9
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,77 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.536364
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.911533
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: LATIN AMERICA 8. Guatemalan exiles apparently uniting under foreign guidance for attack on Arbenz government
+Token count: 15
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.988194
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.980233
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.950460
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: LATIN AMERICA Guatemalan exiles apparently uniting under foreign guidance for attack on Arbenz government: Anti-Communist governments of the Caribbean area are demanding that Guatemalan exiles in El Salvador and Honduras come to an agreement among themselves before financial and military assistance will be granted
+Token count: 44
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: some arms have already been smuggled into northern Guatemala, but financial assistance is needed before more can be sent in. It is also planned to obtain three fighter planes from the United States by having a "friendly country," possibly El Salvador, request them through diplomatic channels for "training purposes." Comment: Conflicting ambitions among the Guatemalan exiles have heretofore hampered their plans to overthrow the Arbenz regime and were probably responsible for the failure of a revolt in March. Present plans appear to be still preliminary. certain Caribbean governments, long concerned over the Communist trend in Guatemala, are now willing to give direct support to the groups intent on overthrowing the Arbenz government

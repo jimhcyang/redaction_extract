@@ -1,0 +1,174 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.946951
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. JORDANIAN KING ASKS FOR IRAQI TROOPS
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 3. KING SAUD OUTLINES HIS POLICY TOWARD US (page 5). 4. RUSSIANS REPORTED IN KABUL ARRANGING OIL DRILLING
+Token count: 18
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: 1. JORDANIAN KING ASKS FOR IRAQI TROOPS Comment The American embassy in Amman on 10 January described the situation as steadily deteriorating and stated that "law and order extends only within range of the Legionnaire's rifle." Hussain probably would call in Iraqi troops only as a last resort. Their use in Jordan would be interpreted by the already aroused Jordanians, as well as by Egypt, Syria, and Saudi Arabia, as confirmation that Britain and Iraq were determined to force Jordan's adherence to the Baghdad pact. Violent conflicts between Iraqi units and Jordanian extremists would be almost certain, and attempts might be made to assassinate Hussain and Iraqi premier Nuri Said
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 3. KING SAUD OUTLINES HIS POLICY TOWARD US King Saud of Saudi Arabia has reiterated his intention to continue to co-operate with the United States providing the United States supports his requests for diplomatic and military assistance. Saud said he would defer presenting to the UN Security Council the Saudi complaint against British action in the Buraimi oasis pending results of Prime Minister Eden's talks in Washington. Saud also stated that Soviet representatives in Beirut have renewed offers of assistance to him, but that his attitude toward the USSR would remain negative unless the US "disappoints us." He said no negotiations will be undertaken with the Communist Chinese commercial delegation now in Jidda. The king asserted, however, that he was under strong pressure from those who think he is wrong in depending on the United States, and cited a request by religious counselors that he declare a holy war to "save Buraimi." Comment Saud's views as expressed in this note are consistent with the policy he has followed for some time in his relations with the United States
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: 4. RUSSIANS REPORTED IN KABUL ARRANGING OIL DRILLING AFGHANISTAN
+Token count: 9
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: Comment Preliminary exploration dating back to 1937 indicates that there are significant oil deposits in the Shibarghan area. There is an oil-producing field just across the Oxus River in the USSR, and refining facilities are readily accessible. Any oil produced in this area would almost certainly be exported to the USSR. Construction of the Ghazni dam by the Soviet Union was earlier reported to be included in the $100,000,000 credit. The Ghazni and Jalalabad dam projects, if undertaken, would mark the first appearance of Soviet activities in southern and eastern Afghanistan, an area hitherto reserved for development by Western interests. (Concurred in by ORR
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=10 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=11 unred_source_page=10
+alignment_score=0.994737
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: schedule
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=12 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=13 unred_source_page=12
+alignment_score=0.711446
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #8, segment 1)
+Text: 2. Chinese Communist naval activity was highlighted by continued movement of a larger than normal number of small patrol craft (YP) and coastal cargo vessels in the area opposite the Matsus. Unconfirmed sightings of LVT-type amphibious craft in this area continued to be reported. In the Quemoy area there has been a reported increase in the number of junk sightings and motorized junk traffic along with increased amphibious training and logistic support activity. It is believed that the high level of reported activity is due to improved weather conditions
+Token count: 89
+Recut: none
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: Admiral Radford to Taiwan were said to be for the purpose of discussing the "scope and timing of the eventual participation of US forces in the defense of the offshore islands." Despite the threatening tone of Peiping's propaganda, it is unlikely that the Chinese Communists will initiate a break in the Geneva talks in the immediate future. A break in the talks would appear to require more negotiating and propaganda preparation than is now in evidence
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: TAIWAN STRAIT SITUATION 12 JANUARY 1956 CHINESE COMMUNIST AIRFIELD
+- original #10 segment 2: full_page_or_admin, noncontent_keyword, short_span_min_tokens
+  Text: LEGEND
+- original #10 segment 3: full_page_or_admin
+  Text: DESIGNATIONS PRIMARY AIRFIELD CONSIDERED MOST IMPORTANT IN AREA WITH PREPARED RUNWAY GENERALLY 5000 FEET OR LONGER P PREPARED RUNWAY ACTIVE BASE (FOR MILITARY & CIVILIAN AIRCRAFT. SOME BASES USED BY PISTON TYPES MAY BE USABLE BY JETS) INACTIVE BASE (CAPABLE OF USE BY AIRCRAFT) CURRENT STATUS UNDETERMINED SECONDARY AIRFIELD AUXILIARY OR EMERGENCY BASES OR FIELDS OF LESSER IMPORTANCE. RUNWAYS GENERALLY LESS THAN 5000 FEET. OPERATIONAL SERVICEABLE UNKNOWN USABILITY MIG 15 MIG 17 IL-10 LA-9/11 IL-28 TU-2 ETC. UNDER CONSTRUCTION * DOES NOT CONSIDERED CAPABLE OF SUPPORTING SUSTAINED OPERATIONS AT PRESENT
+
+========================================================================
+[PAGE 16]
+kind=unred_only red_source_page=None unred_source_page=15
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,245 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.613125
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 90
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.958403
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #3, segment 1)
+Text: 4. France: Further JAEIC statement on fourth nuclear test. (Page iii
+Token count: 11
+Recut: none
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 6. Communist China: Evidence that Soviet technicians have not returned to China. (Page iv
+Token count: 14
+Recut: none
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: 1. Laos
+- original #2 segment 2: noncontent_keyword
+  Text: Page 1
+- original #2 segment 3: noncontent_keyword
+  Text: 2. Congo. (Page ii
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: 5 May 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #5 segment 2: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 5 May 1961 DAILY BRIEF
+- original #6 segment 2: full_page_or_admin
+  Text: Laos: Procedures for formally establishing the cease-fire in Laos have not yet been agreed upon. General Phoumi has countered Souvanna's proposal that political and military talks begin in Namone on 5 May with a suggestion that the talks be limited to military topics and that be held in neutral territory just above the Nam Lik. Pha Lane, about 40 miles east of Savannakhet, is now in enemy hands. Aside from this development, there has been little change on the major fronts, although there are continuing unconfirmed reports of Pathet Lao guerrilla operations in western Luang Prabang Province. Soviet airlift operations into Laos continue
+- original #6 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 1) (Map
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.140179
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: 5 May 61 CENTRAL INTELLIGENCE BULLETIN Map
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.931774
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #8, segment 1)
+Text: Congo: In Elisabethville, remarks by UN officials implying that the UN will not intervene on Tshombé's behalf may have shaken the initial disposition of Tshombé's lieutenants to cooperate with the UN. In Coquilhatville, the inconclusive character of resolutions so far passed without the presence of representatives of the Gizenga and Tshombé regimes may stimulate new efforts, particularly by the army, to "encourage" participation of Elisabethville and Stanleyville representatives in the conference. Ghanaian President Nkrumah is alarmed at casualties incurred by Ghanaian troops in a clash with Congo Army forces at Port Franqui, and unless Ghanaian troops were reinforced he would withdraw them from the Congo. Although military operations have lately been on a reduced scale there is a danger of new violence in northern Katanga where a Malayan force plans to disarm an unspecified number of hostile Katanga gendarmerie
+Token count: 141
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.904878
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #9, segment 1)
+Text: France: The Joint Atomic Energy Intelligence Committee (JAEIC) issued the following statement on 4 May: 1. The fourth French nuclear test, previously reported in the JAEIC statement of 25 April 1961, was detected by one acoustic station and by four electromagnetic stations of the Atomic Energy Detection System as having occurred at the Reganne Proving Ground at 0508Z on 25 April 1961, and had a yield of 1/4-2 KT. Radioactive debris from this test was intercepted on 28 April 1961 and a preliminary analysis of this debris indicated that the French test device utilized plutonium as the fissionable material. 2. A report has been received that the French were testing a prototype device of a weapon planned to be compatible with the Mirage IV bomber and expected to yield 15- to 17 kilotons. They further reported that the yield was about 1 KT and that the test was a failure. 3. The Mirage IV bomber can accommodate a weapon with a diameter of approximately 45 inches and a weight of 3,000-5,000 pounds. If the device tested were intended for this bomber and failed to give the expected yield, it would indicate that the French weapon development program is lagging and/or encountering severe design problems
+Token count: 208
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.952396
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #5 (original #10, segment 1)
+Text: Communist China - USSR: While Sino-Soviet trade talks were concluded with the signing of the annual trade protocol on 7 April, discussions begun in February involving Soviet long-term assistance and technical aid for China are still dragging on, and do not appear to be going smoothly. Technicians are not likely to return unless some position agreement is reached in these talks
+Token count: 60
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword, ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: 4.2
+- original #12 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: Backup
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.997248
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: Backup
+- original #14 segment 1: noncontent_keyword
+  Text: Backup, Page 7
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: Laos The political situation in Vientiane is becoming more unstable as a result of widespread disgruntlement within the governmental structure over the bleak military and political outlook. Ambassador Brown reports there is increasing dissatisfaction among the armed forces and the National Assembly with the Boun Oum - Phoumi leadership. There is talk in local political circles of a possible move by the deputies to bring about a change in the government when the assembly reconvenes on 11 May. Sihanouk's report that King Savang was planning a shake-up on that date stemmed from a misunderstanding of Savang's remark that the formation of a new government might be discussed when the assembly reconvenes. Sihanouk has notified the British and Soviet ambassadors in Phnom Penh of his intent to stay away from the Geneva conference. He is described as being in a highly emotional state, feeling that he was insulted during his visit to Luang Prabang and accused by King Savang in so many words of meddling in Laos' affairs. Sihanouk's agitation also reflects his serious concern over Cambodia's welfare as a result of Communist gains in Laos. the 14-nation conference on Laos be postponed a week or ten days. further time would allow both Sihanouk and King Savang to be persuaded of the value of the conference. more time was also needed to coordinate Western positions. In Bangkok, Thai Foreign Minister Thanat Khoman has expressed the view that the opening date of the conference will have to be postponed to enable the ICC sufficient time to do its work and report to the co-chairmen. North Vietnam announced on 4 May that its delegation to the 14-nation conference had been appointed and would be led by Foreign Minister Ung Van Khiem
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 5 May 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.243981
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: Communists are planning to send a sizable delegation. three TU-104's would fly from Moscow to Peiping on 5 May and that these aircraft would be used by the Chinese delegation to the conference
+- original #17 segment 1: full_page_or_admin
+  Text: Geneva. A fourth TU-104 is being held in reserve for the Chinese. While the Chinese probably will not fill these airplanes to capacity, each TU-104 is capable of carrying at least 75 passengers. President Diem and South Vietnamese military leaders, at a 3 May meeting in Saigon, are reported to have decided to form a task force of three infantry battalions and position them on the Vietnamese-Lao border at Route 9 for possible intervention in Laos. Some Vietnamese military elements in civilian clothing have previously entered Laos to help repel the Communist forces. since Communist incursions into southern Laos posed a grave threat to South Vietnam, the Diem government must take immediate countermeasures. These included the possible dispatch of Vietnamese troops into Laos along Route 9 as far west as Muong Phine. this was the recommendation of General Don, Vietnamese army commander of the Second Military Region just below the 17th parallel. General Phoumi is reported to have asked South Vietnam on 1 May for help in stabilizing the situation in the Tchepone area. As of 4 May, the former Laotian garrison at Tchepone was still holding a defensive perimeter two miles southeast of the town. At a minimum, Diem probably feels that the situation in Laos is sufficiently threatening to require troops on the frontier to guard against possible Communist incursions into Vietnamese territory
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 5 May 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=12 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=13 unred_source_page=16
+alignment_score=0.981394
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: short_span_min_tokens
+  Text: out
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=14 unred_source_page=17
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=15 unred_source_page=18
+alignment_score=0.986486
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Adamafio
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=16 unred_source_page=19
+alignment_score=0.975939
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 20]
+kind=match red_source_page=17 unred_source_page=20
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

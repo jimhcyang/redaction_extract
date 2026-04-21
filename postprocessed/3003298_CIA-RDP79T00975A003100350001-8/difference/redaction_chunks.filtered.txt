@@ -1,0 +1,170 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.479167
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #1, segment 1)
+Text: INTELLIGENCE BULLETIN
+Token count: 2
+Recut: none
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.864865
+kept_candidate_count=4
+excluded_candidate_count=5
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 1. ISRAELI SHIPPING AT EILAT INCREASES
+Token count: 6
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 3. FOREIGN COMMUNISTS REPORTEDLY SEEK TO RESTORE POLISH PARTY ORTHODOXY
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #4, segment 1)
+Text: OPERATION 5. SUKARNO REPORTEDLY ORDERS SEA-BORNE OPERATION AGAINST CELEBES
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #5, segment 2)
+Text: 7. KISHI REPORTS ON MEETING WITH NEHRU
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+- original #4 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: page 7
+- original #5 segment 1: noncontent_keyword
+  Text: page 8
+- original #5 segment 3: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 1. ISRAELI SHIPPING AT EILAT INCREASES Comment on: The Israeli-flag freighter Atlit was sighted entering the Red Sea on the night of 2-3 June. At its prevailing speed of eight knots, and if no further stops are made, the Atlit should arrive in the Gulf of Aqaba on the morning of 9 June. Meanwhile, the small Danish-flag freighter Ulla Danielsen arrived at the Aqaba port of Eilat on 1 June with a cargo of construction materials after transiting the Suez Canal. The ship allegedly was not under Israeli charter until reaching Eilat, but will now operate under a one-year charter between Eilat and Djibouti. The Liberian-flag tanker Memory, en route to Eilat with a cargo of oil from Iran, probably entered the Strait of Tiran on the morning of 4 June. With the increase in shipping activity, the Israeli navy is reported taking special precautions at Eilat against possible attacks by Arab underwater demolition specialists. Depth charges are set off periodically at night, and Israeli antifrogman teams are in action. Israeli naval forces at Eilat include two patrol escort vessels, three motor torpedo boats, and six landing craft
+- original #6 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 5 June 57 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=4
+alignment_score=0.948927
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Comment on
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: deficit
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: circumstances
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: replacement
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: 3. FOREIGN COMMUNISTS REPORTEDLY SEEK TO RESTORE POLISH PARTY ORTHODOXY Representatives of the East German, Czechoslovak, and French Communist parties met in East Berlin on 24 and 25 May to discuss ways to "bring the Polish Communist Party (PZPR) to reason," Two longtime German Communists allegedly are to go to Warsaw in mid-June to renew contacts with Deputy Premier Nowak and other former comrades in the Polish party who now belong to the Natolin faction. The Germans are to stress their former comradeship in the fight against Fascism and warn the Poles of the dangers involved in the current Titoist deviation of the PZPR. Following the return of the German emissaries from Warsaw, leaders of the East German, Czech and French parties will hold another meeting in Prague to discuss the progress made in curbing the Polish deviation. One of the Germans will then go to Moscow to report his impressions of the situation in Poland. Comment The use of old Communists in an attempt to establish close relations with Stalinist Polish party members would conform to the campaign by Moscow-oriented parties to bring the PZPR back into line. The East German Foreign Ministry's announcement on 3 June that a Polish party and government delegation will come to Berlin in mid-June suggests talks parallel to those held between the Poles and the Czechs, which concentrated on economic affairs and agreement on noncontroversial aspects of bloc solidarity. It is unlikely, however, that the Poles will effect a complete rapprochement with the orthodox parties on either the government or the party level
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 5 June 57 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=0.982616
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attachment
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: indicated
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: 5. SUKARNO REPORTEDLY ORDERS SEA-BORNE OPERATION AGAINST CELEBES President Sukarno reportedly has overridden Prime Minister Djuanda on the issue of deposing the East Indonesian territorial commander, Lt. Col. Sumual, and has ordered the army to mount a sea-borne operation against Celebes. Comment the central government did actually plan to remove Sumual, by force if necessary, on 7 May, and a "relieving battalion" from East Java was detailed to Makassar "to stand by on ship and to be sent into action if necessary." Elements in Celebes whose help the government had enlisted refused to co-operate since they feared the result would be civil war. The proposed operation was called off, and a cabinet minister has since told the American ambassador that the East Indonesian problem is so much more difficult than originally believed that in order to avoid "complete breakdown," the government must proceed "slowly and with discretion." The army chief of staff is currently in Makassar, and inaugurated a partial reorganization of area command on 1 June with Sumual in attendance. It remains possible, however, that Sukarno, angered by the delay in solving the command problem in East Indonesia, has again ordered an attack on Sumual
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 5 June 57 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=8
+alignment_score=0.956213
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: convenient
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: described
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: contribution
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: 7. KISHI REPORTS ON MEETING WITH NEHRU Comment on: During his recent visit to India, Japanese prime minister Kishi differed with Nehru on broad international questions. Kishi was cautious about the admission of Communist China to the United Nations and defended the stationing of US forces in Japan. Nehru, advocating immediate cessation of nuclear tests, found Kishi inclined to consider control measures first and the total prohibition of tests later. Kishi offered Japanese support for India's Five-Year Plan, and Kishi and Nehru agreed in principle to an exchange of Indian iron ore for Japanese machinery. Kishi indicated to the Indian commerce and finance ministers, however, that India should make additional concessions. Kishi discouraged a suggestion that Japan transfer its purchases of iron ore from Portuguese Goa to western India
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 5 June 57 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

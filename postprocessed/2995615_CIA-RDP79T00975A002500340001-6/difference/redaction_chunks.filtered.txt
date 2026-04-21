@@ -1,0 +1,221 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.694000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.888725
+kept_candidate_count=3
+excluded_candidate_count=10
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. LATIN AMERICAN UN DELEGATES TO PRESENT COMPLAINTS ON ECONOMIC AID FROM US
+Token count: 13
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 3. 4. BURMA PRESSING COMMUNIST CHINA FOR CASH IN EXCHANGE FOR RICE
+Token count: 12
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #5, segment 2)
+Text: 7. EGYPTIAN PRIME MINISTER COMMENTS ON RELATIONS WITH USSR
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: DEMOBILIZATION
+- original #3 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 3: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+- original #5 segment 1: noncontent_keyword
+  Text: page 8
+- original #5 segment 3: noncontent_keyword
+  Text: page 9
+- original #6 segment 1: noncontent_keyword
+  Text: page 10
+- original #7 segment 1: noncontent_keyword
+  Text: page 11
+- original #8 segment 1: noncontent_keyword
+  Text: page 12
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 1. LATIN AMERICAN UN DELEGATES TO PRESENT COMPLAINTS ON ECONOMIC AID FROM US The Latin American delegates to the United Nations plan to present their governments' complaints about United States economic aid According to prevailing opinion the Latin Americans should "for the moment" limit themselves to requesting: (1) an increase in United States purchases of Latin American goods and an agreement on quotas, (2) more credit and better terms from the Export- Import Bank, (3) the channeling of technical aid through the United Nations and regional organizations "in order to pre- vent indirect intervention by Point IV officials in the inter- nal affairs of our governments," and (4) long-term credits for educational projects. Comment While Latin American countries have indicated a stronger interest in inter- national economic assistance than in Point IV, they have not in the past seriously alleged "indirect intervention" in inter- nal affairs by Point IV officials. Latin American officials have frequently stated that the United States should increase both its purchases and its credits in Latin America. Such statements received fresh impetus from the Bulganin over- ture of last January concerning a possible increase in Soviet trade with Latin America
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 3 May 56 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.961809
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: conven- tional
+- original #11 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Conse- quently
+- original #12 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: with- out
+- original #13 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pol- icy
+- original #14 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: other- wise
+- original #15 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: inten- tions
+- original #16 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: agree- ment
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.138095
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+- original #17 segment 2: noncontent_keyword
+  Text: 3 May 56 Current Intelligence Bulletin
+- original #18 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 5
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: 4. BURMA PRESSING COMMUNIST CHINA FOR CASH IN EXCHANGE FOR RICE Comment the question of cash payments by the Chinese has been a subject of contention between Rangoon and Peiping for several months. The Burmese ambassador has appar- ently been using American opposition to the export of rubber to Communist China in an effort to get maximum concessions from the Chinese. Actually the Burmese have been informed they would not be considered ineligible for American assist- ance as the result of the export of a few thousand tons of rubber to Communist China. As Communist China's rubber procure- ment program in South Asia has been designed to encourage violations of the UN-sponsored embargo and the Battle Act, Peiping might be persuaded to make a better offer. The 25 percent in cash requested by the Burmese amounts to about $3,000,000
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 3 May 56 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.982730
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: al- though
+- original #21 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Communist- led
+- original #22 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: parlia- mentary
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.987044
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Souphannou- vong
+- original #24 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: premi- er
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: full_page_or_admin
+  Text: 7. EGYPTIAN PRIME MINISTER COMMENTS ON RELATIONS WITH USSR Comment It is likely that Nasr for prestige reasons has exaggerated the extent to which the Russians confided in him before issuing their 17 April statement. Whatever was told him seems to have been enough to get him to adopt a moderate line on the Soviet communiqué. Nasr's reported statement on not relying on the USSR suggests that he maintains a cautious attitude toward the Soviet bloc
+- original #25 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 3 May 56 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.969132
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: in- vitation
+- original #27 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: develop- ing
+- original #28 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- lations
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.928796
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #31, segment 1)
+Text: Greece has granted permission to the Egyptian government for overflight of Greek territory by about 20 Soviet-made IL-14 piston-engined transports. The planes are to have Egyptian markings and are to be flown by Egyptian crews. the first group of ten IL-14's would be ready for delivery as soon as Egyptian flight crews had received the necessary two-week training. Delivery of these ten can thus be expected at any time
+Token count: 69
+Recut: none
+
+Clean Chunk #5 (original #32, segment 1)
+Text: three Syrian officers will study for a week at the mobilization offices of the Egyptian army and that two other Syrian officers will undertake training at an Egyptian anti- aircraft artillery school
+Token count: 32
+Recut: none
+
+Excluded candidates:
+- original #29 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: cease- fire
+- original #30 segment 1: short_span_min_tokens
+  Text: Press
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.971433
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #33 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: dur- ing

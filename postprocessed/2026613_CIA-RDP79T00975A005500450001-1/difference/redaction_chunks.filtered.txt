@@ -1,0 +1,299 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.433333
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.844730
+kept_candidate_count=4
+excluded_candidate_count=10
+
+Clean Chunk #1 (original #2, segment 1)
+Text: Note: Items 1, 2, 7, 8, and 10 appeared in the
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: Backup material has been added in this issue. 1. USSR: New 2,000-nautical-mile IRBM has undergone extensive flight testing since last June
+Token count: 22
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 2) 3. Congo: Leopoldville army officers reported preparing anti-Ileo coup. (Page 5) 4. Laos: Souvanna Phouma's speech on arrival in Xieng Khouang blames US for preventing national harmony in Laos
+Token count: 30
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #7, segment 1)
+Text: 8) 8. Saudi Arabia: Rivalries within royal family weaken position of King Saud
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 23 February 1961
+- original #2 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Daily Brief
+- original #2 segment 3: nonempty_redacted_alternate_conflict
+  Text: for 22
+- original #3 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 1
+- original #4 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 6
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+- original #7 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 9
+- original #8 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 9
+- original #9 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 10
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.914489
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #5 (original #10, segment 2)
+Text: USSR: The Soviet series-"65" 2,000-n. m. intermediate-range ballistic missile (IRBM) has been undergoing intensive flight testing since last June. There have been 21 test operations to date--six of them in a recent three-week period--with only one known failure. The high priority apparently accorded to development of this new missile suggests that Soviet authorities have placed a premium on the development of a missile system which can be deployed in more secure areas within the USSR and can reach all the wartime targets on the Eurasian periphery
+Token count: 90
+Recut: kept_after_recut
+
+Clean Chunk #6 (original #11, segment 1)
+Text: Congo: Preparations for a possible military coup against the Ileo government in Leopoldville by senior army officers under the leadership of Lt. Col. Boboso. The officers are concerned over the loss of their privileged positions if their
+Token count: 37
+Recut: none
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: DAILY BRIEF
+- original #10 segment 3: noncontent_keyword
+  Text: Map) (Backup, Page 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin, noncontent_keyword
+  Text: troops are disarmed by the UN under the recent Security Council resolution. They do not believe that Ileo will resist the UN Command, although Ileo yesterday publicly denounced any UN disarmament of Congolese forces. The army, which retains its tribal loyalties, reportedly is also angered at the recent execution by the South Kasai government of seven Congolese, who came from several tribal groups which are also represented in the army. Tshombe appears to have modified his initial reaction to the UN Security Council resolution; on 22 February he announced his agreement with UN representatives to stop all troop movements in Katanga Province. In Orientale Province, the Stanleyville government told local authorities on 21 February that it alone can impose the death sentence. Officials henceforth are only to arrest foreigners and transfer them to Stanleyville under a "good military escort." If any locality fails to comply it will be subject to "very severe judgment." The order was inspired by reports reaching Stanleyville of "massacres of Europeans and Asiatics." In Accra the foreign ministers of Ghana, Guinea, Mali, Morocco, and the UAR have reaffirmed their support for Gizenga and called for the immediate withdrawal of all foreign diplomats from the Congo. (Backup, Page 5) Laos: Former premier Souvanna Phouma arrived by air in the Plaine des Jarres on 22 February, according to a TASS broadcast from Moscow, and was greeted by Pathet Lao chief Prince Souphannouvong and Captain Kong Le. His afternoon arrival, following departure from Phnom Penh the previous evening by Soviet aircraft, apparently confirms an earlier report that he would travel by way of Hanoi. According to Hanoi radio, Souvanna, "premier of the legal Laotian government," made a speech on his arrival in Laos blaming the United States for "hindering the realization of the policy of peace, neutrality, and national harmony in Laos" and congratulating "the government
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 Feb 61 DAILY BRIEF
+- original #12 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.971378
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #13, segment 1)
+Text: army, and Pathet Lao fighting units for having liberated Xieng Khouang and the Plaine des Jarres." Bloc airlift operations were continuing on 20 February, when at least two Soviet IL-14s flew into Laos from Hanoi. The Soviet AN-12 heavy transport which recently left Irkutsk arrived in Hanoi on 22 February. It reportedly was carrying
+Token count: 54
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.946813
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #8 (original #15, segment 2)
+Text: Saudi Arabia: Rivalries within the Saudi royal family continue, and several princely factions, including backers of Crown Prince Faysal, have combined against King Saud. The King has already been forced to order two of his liberal advisers out of the country as ambassadors. A showdown over the King's "progressive" cabinet and its "liberal reform" policies is likely. However, dissension will continue and will weaken the family's hold on the country. This development would give further encouragement to anti-monarchical elements, which include some army officers as well as disgruntled younger Saudi "intellectuals
+Token count: 91
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: had
+- original #15 segment 1: noncontent_keyword
+  Text: Backup, Page 8
+- original #15 segment 3: noncontent_keyword
+  Text: Backup, Page 9
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.960234
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #9 (original #16, segment 1)
+Text: MISSILE RANGE FACILITIES EMPLOYED IN FLIGHT TESTING OF SOVIET SERIES-"65" IRBM USSR Kapustin Yar missile test range 1050 n. m. impact area 2000 n. m. impact area Primorskiy Kray Chita
+Token count: 31
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #16 segment 2: noncontent_keyword
+  Text: 23 Feb 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #16 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.243864
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: Soviet IRBM Development Program The first two firings of the Soviet series-"65" missile were made to the
+- original #18 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: 050-n. m. impact area of the Kapustin Yar Missile Test Range
+- original #19 segment 1: full_page_or_admin
+  Text: June 1960, probably as part of the early propulsion tests. There have been four other "half-range" firings. There have been 14 successful test firings to an impact area in Central Siberia, first used on 3 August 1960, about 2,000 n. m. from the launch point at Kapustin Yar, with the latest firing on 15 February. At present it is not known whether a similar intensity of activity marks other aspects of the development of this weapons system--production of missiles and supporting equipment, site construction, and troop training--which also influence the achievement of operational readiness. the series-"65" missile probably uses non-storable liquid propellants. The operational version will probably have a guidance system combining radio command and inertial components giving it a circle of probable error of 1-2 n. m. It is estimated that this missile will become operational in late 1961 or early 1962. The USSR already has available, in the 1,100 n. m. surface-to-surface missile which is estimated to have become operational in late 1958 or 1959, medium-range ballistic missiles capable of reaching most of the probable wartime targets on the Eurasian periphery either from positions in satellite states or border areas of the USSR. An IRBM system provides an advantage illustrated in the case of operations against targets on Okinawa. Because of its range, the launch positions of the 2,000-n. m. missile could be as far inland as Chita, whereas a 1,100-n. m. missile would have to be deployed in southern Primorskiy Kray where it would be more vulnerable to attack
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: The Situation in the Congo Tshombe had initially reacted vigorously to the UN Security Council's 21 February resolution, charging that the resolution was a "declaration of war by the UN against Katanga and the whole former Belgian Congo." He announced the mobilization of the province's population to "defend lives and property menaced by the United Nations, which would be responsible for any bloodshed as a result of the resolution. Pressures on Tshombe from hard-line mining interests which counseled an immediate attack against UN forces were subsequently softened by his official Belgian advisers. Tshombe is reported to believe he was "fighting for his job and life" in the face of UN determination to punish him for the death of Lumumba. The Stanleyville administration is said to have consolidated its authority locally but not necessarily for Gizenga's benefit. The native elements there are reported to be under the provincial leader, Bernard Salumu, while Gizenga is said to be regarded as a "foreigner" from Leopoldville and his "central government" officials are inactive. Frictions inherent in this situation may well develop further as a result of Lumumba's death and the reported execution of 15 political and military opponents of Gizenga. Meanwhile, Gizenga appears to have been drawing on the cash reserves of the Stanleyville branch of the central bank to pay his troops--whose loyalty, at least in the Stanleyville area, apparently can be counted on only as long as they are paid. unless replenished, cash available for troop payment probably will not last through March. Gizenga and his subordinates probably could be persuaded to permit disarmament of these forces, especially if Gizenga's cohorts are offered responsible posts in the Ileo government. The best disciplined and least undependable of Gizenga's forces are reported to have been sent into Katanga and Kivu provinces and against Mobutu's reported "invasion" up the Congo River. Supporters of the Gizenga regime continue to attempt to send in aid and personnel through the Sudan. Soviet authorities
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=13 unred_source_page=15
+alignment_score=0.122005
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: Moscow have requested the Sudanese Embassy to grant transit visas for eleven Russians traveling to the Congo. The "Communist Congolese party" proclaimed by a local Baluba official on 15 February has received considerable publicity in the country. An anti-Communist Baluba leader in Leopoldville denied on 20 February that such a "youth movement" had been formed. cautioning against "disseminating your protests or declarations over any radio against anyone except through the UN." However, the Communist label apparently has considerable appeal to organizations of Lumumba's supporters; a local group in western Kivu Province affiliating itself with the new party. The Accra conferees wound up a three-day conference with a communique reaffirming recognition of Gizenga's regime as the legitimate government of the Congo and making several proposals aimed at "preventing civil war in the Congo." In addition to re-endorsing Ghana President Nkrumah's plan for reconstituting the UN force into an African command, the conference proposed that the UN should immediately halt all mobilization in any part of the Congo and expel all Belgian and other foreign military units not belonging to the UN force. It also recommended that foreign intervention be checked by halting the flow of arms, personnel, and money into the Congo except through agreed UN methods, and that all foreign companies, banks, and other commercial organizations be controlled and inspected. Finally, the communique recommended the establishment of a neutral commission to investigate the events leading to the death of Lumumba, the freeing of all political prisoners, and the reconvening of parliament
+- original #21 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=14 unred_source_page=16
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=15 unred_source_page=17
+alignment_score=0.995836
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #10 (original #22, segment 1)
+Text: purchased from Congolese soldiers
+Token count: 4
+Recut: none
+
+========================================================================
+[PAGE 18]
+kind=unred_only red_source_page=None unred_source_page=18
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: full_page_or_admin
+  Text: Showdown Between King Saud and Royal Princes Near After more than two years of intermittent maneuvering, King Saud succeeded in reasserting his authority over the Saudi Government on 21 December by assuming the post of prime minister and forming a "progressive" cabinet. To oust his brother Faysal, Saud obtained the support of Saudi Arabian "liberals" by naming four of them to cabinet posts and including several among his personal advisers. Viewing Saud's "liberal" cabinet as a threat to their interests, several factions among the princes have combined to return Faysal to power as prime minister. Motivations behind the opposition are varied--support of Faysal, mistrust of some cabinet ministers, resentment by some princes who had been ousted from the cabinet, and dissatisfaction over the distribution of the King's largess. A strongly worded petition signed by 45 princes is said to have been presented to Saud on 13 February demanding the restoration of Faysal to full authority. Since that time Riyadh has been the scene of "frenzied" activity. Apparently, Saud has attempted to conciliate as well as divide his opponents by dropping two controversial advisers and appointing them to ambassadorships. Jealousy between cabinet ministers and advisers, as well as cabinet dissension, has further weakened the King's position. He is likely to appoint one or two dissident but important princes as advisers in a further effort to split the opposition. Crown Prince Faysal, who following his ouster as prime minister had been on a hunting trip in the Hijaz, where his support is strongest, has returned to Jidda and is holding court. Ambassador Heath, who talked with Faysal on 18 February, found him in better health than usual. Faysal said emphatically that he had not given up in any way his "interest in life." Saud's "liberal" cabinet also appears to have alarmed religious leaders of the powerful Wahhabi sect--Islamic reactionaries who adhere to strict interpretation of the Koran and have
+- original #23 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 9
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=16 unred_source_page=19
+alignment_score=0.125000
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #11 (original #24, segment 1)
+Text: long been a bulwark of the Saudi state
+Token count: 8
+Recut: none
+
+Clean Chunk #12 (original #25, segment 1)
+Text: early February one Wahhabi emissary sounded out Jordan's King Husayn regarding his attitude toward acceptance of the Saudi throne should the Saudi dynasty be overthrown
+Token count: 25
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #25 segment 2: noncontent_keyword
+  Text: 23 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 10
+
+========================================================================
+[PAGE 20]
+kind=match red_source_page=17 unred_source_page=20
+alignment_score=0.979412
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 21]
+kind=match red_source_page=18 unred_source_page=21
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

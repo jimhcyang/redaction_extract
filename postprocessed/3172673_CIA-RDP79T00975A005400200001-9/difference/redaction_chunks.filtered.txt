@@ -1,0 +1,215 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.530000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 23 NOVEMBER 1960 I. THE COMMUNIST BLOC II. ASIA-AFRICA Situation in Laos. The Congo--Lumumba adherents reportedly losing ground in Stanleyville. Gabon--President Mba survives plot against his pro-West regime. III. THE WEST Cuban foreign exchange reserves reportedly exhausted, with no normal replenishment in sight before January. Switzerland reportedly planning to counter Chinese Communist harassment of Swiss nationals by imposing restrictions on Chinese activities in Switzerland
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=2 unred_source_page=4
+alignment_score=0.244299
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 23 November 1960 DAILY BRIEF
+- original #3 segment 2: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC II. ASIA-AFRICA Laos: Souvanna Phouma is pressing for talks
+- original #4 segment 1: full_page_or_admin
+  Text: Luang Prabang with General Phoumi and Pathet Lao leader Prince Souphannouvong looking to the formation of a coalition government. The prospects are remote that Phoumi would agree to such negotiations. The widely reported movement of Vientiane troops toward Luang Prabang may be in part designed by Souvanna to pressure Phoumi into such talks. Soviet Ambassador Abramov, accredited to both Laos and Cambodia but resident in Phnom Penh, arrived in Vientiane on 22 November on a hurriedly arranged trip, possibly to offer Souvanna specific assistance as a follow-up to the general aid offer accepted by the premier on 28 October. (Page 1) Republic of the Congo: Opposition by Congolese Army units in Orientale Province to the pro-Lumumba regime in Stanleyville has forced Lumumba's chief lieutenant, Antoine Gizenga, to seek UN protection, however, that Rikhye was receiving conflicting reports from Stanleyville "every four hours." The emergence of anti-Lumumba opposition in Orientale Province, along with Mobutu's violent expulsion from Leopoldville of the pro-Lumumba Ghanaian representative, would appear to be a major setback for Lumumba and his supporters, who were considering shifting their base from Leopoldville to Stanleyville
+- original #4 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=3 unred_source_page=5
+alignment_score=0.947123
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #7, segment 1)
+Text: The National Bank's account with one of the principal Canadian banks in Cuba is overdrawn, and
+Token count: 16
+Recut: none
+
+Clean Chunk #2 (original #9, segment 1)
+Text: Switzerland - Communist China: Switzerland is reported to be increasingly concerned by Peiping's harassments of its nationals and threats to their property in China, and to be planning to encourage all private Swiss
+Token count: 32
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens
+  Text: Anguil
+- original #6 segment 1: noncontent_keyword
+  Text: Page 5
+- original #8 segment 1: short_span_min_tokens
+  Text: the
+- original #9 segment 2: noncontent_keyword
+  Text: 23 Nov 60 DAILY BRIEF
+- original #9 segment 3: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.927282
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #10, segment 1)
+Text: nationals resident in China to liquidate their remaining holdings there and to return. Bern also contemplates taking other actions short of a diplomatic break, such as closing or reducing in size the Chinese Communist trade mission in Switzerland, and limiting travel through Switzerland by Chinese trade and cultural delegations en route to Africa and Latin America. These restrictions would inconvenience the Chinese but, since Peiping apparently places considerable value on maintaining outwardly friendly relations with Bern, it may make some conciliatory gesture
+Token count: 82
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #10 segment 2: noncontent_keyword
+  Text: Page 6
+- original #11 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Lao-supported Souvanna
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: The Situation in Laos Souvanna Phouma sent a letter to King Savang on 22 November to enlist the King's support for his proposed meeting with General Phoumi and Pathet Lao leader Prince Souphannouvong looking to the formation of a coalition government. Souvanna claimed during his recent trip to Sam Neua, he had secured Souphannouvong's agreement to participation in a coalition cabinet with representatives of the Phoumi group, excluding Phoumi himself. It is doubtful the King will offer Souvanna much encouragement in his latest venture, and in any event there seems little chance that Phoumi would agree at this stage to talks on coalition with the Pathet Lao. the contemplated attack on Luang Prabang by joint Pathet Lao - government force will be deferred pending receipt of Phoumi's reaction to the proposal for negotiations. It had been previously reported that the Vientiane elements slated to participate in the attack, including some of Captain Kong Le's paratroopers, departed by truck from Vientiane on 20 November. They were allegedly to rendezvous with Pathet Lao elements at Muong Kassy, about 55 miles south of Luang Prabang on the road from Vientiane. A later report indicates the Vientiane force may have stopped only a short distance from Vientiane. initiation of a previously planned offensive, the nature of which is not spelled out. "Mobile Group 1" may be Captain Siho's commando battalion of about 800 men which reportedly joined other Phoumi elements recently in the Pak Ca Dinh area, about 20 miles east of Pak Sane. The emphasis on infiltration tactics suggests the operation does not envisage a frontal assault on Vientiane forces disposed between Pak Sane and Pak Ca Dinh, but rather an attempt to bypass them. General Boun Leut, Phoumi's top military leader, recently divulged plans aimed at cutting off the Vientiane forces in the Pak Sane - Pak Ca Dinh area. Soviet Ambassador Abramov, who is accredited to both Laos and Cambodia but resides in Phnom Penh
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=0.122668
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin, short_span_min_tokens
+  Text: arrived
+- original #14 segment 1: full_page_or_admin
+  Text: Vientiane on 22 November, possibly armed with an offer of specific assistance as a follow-up to the general aid offer accepted by Souvanna "in principle" on 28 October. Abramov postponed a trip to Moscow, in connection with the forthcoming arrival of Cambodian Chief of State Sihanouk, in order to make his hurried visit to Vientiane. Soviet propaganda reflects Moscow's increasing concern over Souvanna's position and has repeatedly charged the US with attempting to strangle Laos economically. A few hours before Abramov's arrival, Souvanna told the press that he would discuss with Abramov economic and "perhaps" military aid, pointing out that it could be flown in from Hanoi, in Communist North Vietnam
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 Nov 60 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: The Situation in the Congo Tension continues high in Leopoldville after the 21 November clash between UN troops and Congolese Army units attempting to expel the pro-Lumumba Ghanaian representative, Nathaniel Welbeck. Sporadic firing continued through much of the night, even after the UN announced at 2000 hours that it had agreed to expel Welbeck. Although casualties are not believed to have exceeded 14, Congolese troops were reportedly "screaming for revenge" following word that one of their dead was a popular commander, Lt. Col. Kokolo. Forces favoring Lumumba were dealt a second setback with the emergence of army opposition to their strong-arm regime in Orientale Province. Since the arrival there in mid-October of Antoine Gizenga, Lumumba's principal lieutenant, pro-Lumumba elements had been developing the province as a politico-military springboard for the "reconquest" of the Congo. Although army units there were known to be irritated by Gizenga's wholesale arrests, Lumumba's supporters in Leopoldville considered Gizenga sufficiently in control to warrant plans to set up in Stanleyville a Congolese government to rival that of Mobutu's. the situation in Stanleyville was unclear and that UN representative Rikhye was receiving conflicting reports "every four hours." Gizenga had been forced to take refuge in a UN building in Stanleyville. In the UN yesterday, the General Assembly voted to seat the Congolese delegation headed by Kasavubu, after first defeating another attempt led by Ghana and supported by the Soviet bloc to postpone consideration of the seating of the Kasavubu group. Guinea had announced beforehand that it would not
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #16, segment 1)
+Text: serve on the UN Conciliation Commission if the Kasavubu delegation were recognized, and after the vote Mali announced that it also was withdrawing from that commission. Prospects are that there will be further defections from the commission--which has again delayed its departure--before it leaves for the Congo
+Token count: 49
+Recut: none
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=7 unred_source_page=12
+alignment_score=0.961259
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Anguil
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Aubam
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Anguil
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Anguil
+- original #21 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Lambarén
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: Swiss Relations With Communist China Worsen Switzerland, which has long tried to maintain correct relations with all nations of the Sino-Soviet bloc, is becoming increasingly concerned by Peiping's harassments of Swiss nationals and threats to their property in China, and is planning to retaliate with actions short of breaking diplomatic relations. Bern's long-range strategy will be to withdraw all private Swiss nationals resident in China, try to sell at any price the few remaining Swiss-owned industrial installations there, and reduce its diplomatic representation--possibly by closing the Swiss Consulate in Shanghai. While the Swiss are not greatly concerned about their assets in China, valued at several million dollars, they are disturbed by the Chinese practice of taxing Swiss nationals in China on their total income instead of on that part earned in China. Some Swiss residing in China have been presented with bills for over a million Swiss francs in back taxes. The Chinese refuse existing Swiss assets in China as payment for these bills, and instead demand foreign exchange from abroad. The Foreign Ministry official said that in effect the Swiss are held as hostages. Bern contemplates that after the Swiss nationals have left China it will close or reduce in size the Chinese Communist trade mission in Switzerland and limit travel through Switzerland by Chinese trade and cultural delegations en route to Africa and Latin America by reducing the number of Swiss visas issued in Peiping. These restrictions would inconvenience the Chinese, who maintain a large trade mission in Bern. Although the use of Switzerland as an intermediary for trade with the West in strategic goods has fallen off in recent years, Bern and London are the focal points for Chinese economic activity throughout Western Europe. Although Peiping treats Swiss nationals in China no better than other Westerners, it seems to attach considerable value to friendly relations with Bern, and may make
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=8 unred_source_page=14
+alignment_score=0.125000
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #23, segment 1)
+Text: some conciliatory gesture to prevent their deterioration
+Token count: 7
+Recut: none
+
+Clean Chunk #6 (original #24, segment 1)
+Text: an unusual appearance at Swiss National Day celebrations in Peiping last summer, Premier Chou En-lai spoke in high terms of his country's relations with Switzerland, holding them up as a model of peaceful coexistence
+Token count: 34
+Recut: none
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=9 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=10 unred_source_page=16
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

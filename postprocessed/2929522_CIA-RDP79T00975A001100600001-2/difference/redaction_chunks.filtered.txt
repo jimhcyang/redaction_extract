@@ -1,0 +1,92 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.945770
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: FAR EAST 2. South Korean official states UN has no authority to negotiate truce
+Token count: 14
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 4. Chinese Nationalists reportedly prepared to attack Burmese forces
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+- original #4 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.988202
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: FAR EAST 2. South Korean official states UN has no authority to negotiate truce
+Token count: 14
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.950301
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: Comment: Since the proposed armistice agreement is essentially between the opposing military forces, South Korea apparently would be legally bound by it so long as its forces remain under the UN Command. Rhee's present public position, however, is that Korea would not be bound by any cease-fire agreement allowing Chinese forces to remain in Korea
+Token count: 55
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.884921
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #7, segment 1)
+Text: 4. Chinese Nationalists reportedly prepared to attack Burmese forces: Chinese Nationalists in northeast Burma have reinforced their troops near the city of Kengtung and plan to capture it, if the Bangkok negotiations for evacuation break down or if the Burmese army continues to advance on Mong Hsat. The Nationalists are also reported to have surrounded a Burmese unit west of Kengtung which they threaten to annihilate if the Burmese make any further moves against them. Comment: A Chinese Nationalist attack on Kentung would probably end all possibility of evacuation, and the United States would bear the burden of the blame in Burmese eyes. The work of the evacuation committee has been stalled by the failure of the Nationalists to accept its proposals for a settlement. The committee is now in recess since the Chinese and Burmese representatives have returned to their respective capitals for consultation
+Token count: 145
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.995652
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: meet

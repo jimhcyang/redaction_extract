@@ -1,0 +1,79 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.501748
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 16 November 1952
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.963333
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 3. North Korean brigade reports civilian unrest due to UN bombing (page 4). 4. Jet bomber build-up in Manchuria continues
+Token count: 20
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.995049
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: fellow- traveler
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.885088
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #5, segment 1)
+Text: FAR EAST 3. North Korean brigade reports civilian unrest due to UN bombing: enemy planes were cutting the supply lines and creating confusion among the people. These UN attacks are "especially undermining the ideology of the population near the front lines" and causing disorder. Comment: This is the first admission that heavy UN aerial attacks are undermining civilian morale. North Korean propaganda has in the last few months singled out UN aerial attacks as a primary target. 4. Jet bomber build-up in Manchuria continues: Twelve Soviet twin-jet bombers were scheduled to fly from Chita in the Soviet Union to Tsitsihar in Manchuria on 15 November. Three of the aircraft, which
+Token count: 110
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: rearmament demands
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.966176
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #6, segment 1)
+Text: were assigned call signs noted in previous IL-28 ferrying operations this month, have already landed at Tsitsihar. Comment: The completion of this flight will raise to 45 the number of IL-28 aircraft which have been flown to Manchuria from the Soviet Union since 26 October
+Token count: 45
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens
+  Text: of
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

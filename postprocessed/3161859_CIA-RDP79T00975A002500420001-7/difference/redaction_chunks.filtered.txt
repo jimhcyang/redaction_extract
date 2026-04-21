@@ -1,0 +1,104 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.536364
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.911765
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. PORTUGUESE PREMIIER SEES NO NEED FOR HASTE IN RENEWING AZORES AGREEMENT (page 3). 2. TOP POLISH COMMUNISTS REPORTEDLY INVITED TO PARIS
+Token count: 22
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.245165
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: PORTUGUESE PREMIER SEES NO NEED FOR HASTE
+- original #6 segment 1: full_page_or_admin
+  Text: RENEWING AZORES AGREEMENT Comment Ambassador Bonbright in Lisbon re- ported late in April that when the Portuguese defense minister pressed Salazar for a prompt decision on the Azores agreement, the latter reportedly said that the threat of war in Europe was receding. For- eign Minister Cunha has been dragging his feet on the issue, hoping to find in a development such as the Soviet visit to Britain or the UN disarmament talks something that might justify their reluctance to reach an early agreement. The Portuguese position is that the present Azores bases agreement, due to expire at the end of 1956, should be extended only for a minimum period of time and in any event for not more than five years
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 2. TOP POLISH COMMUNISTS REPORTEDLY INVITED TO PARIS Comment The Quai d'Orsay officials, aware that Polish premier Josef Cyrankiewicz is a former Socialist, are sensitive to the effect of such an in- vitation on Western opinion. They complain frequently of Pineau's failure to consult them on Orbit relations. The government is still intent on lessening East-West tension, however, and will continue to explore all means to that end
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.998276
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens
+  Text: Press
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=red_only red_source_page=9 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

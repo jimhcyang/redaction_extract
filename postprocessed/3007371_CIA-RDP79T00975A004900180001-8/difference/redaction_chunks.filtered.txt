@@ -1,0 +1,191 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.328333
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 23 January 1960 Copy No. C 67
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 23 JANUARY 1960 I. THE COMMUNIST BLOC UAR general going to Moscow to discuss future procurement. II. ASIA-AFRICA Libya asks for new round of negotiations on US air base and aid. Indonesian dissidents continue as disruptive force. III. THE WEST Latest French plans for nuclear testing. De Gaulle believed ready to press for Algerian settlement despite army opposition. Cypriot negotiators seen ready to accept indefinite postponement of independence rather than agree to present British demands. Dominican Republic--Widespread arrests believed to have forestalled anti-regime plotting. Venezuela--Demonstrations may take place on today's anniversary of Perez Jimenez' overthrow
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.927402
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 1)
+Text: I. THE COMMUNIST BLOC USSR- UAR: Nasir, maintaining his almost total reliance on the USSR for military equipment, is sending Maj. Gen. Ismail, who is responsible for military procurement from the bloc, to Moscow next week to discuss future policy for obtaining supplies. Since 1955 the bloc has provided Egypt and Syria with approximately $700,000,000 in military aid
+Token count: 60
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: Indonesia: The Indonesian dissidents plan to proclaim a "United Republic of Indonesia" on 26 January calling for regional autonomy. Such a proclamation, which the rebels have proposed before, would be calculated to attract opponents of Sukarno's centralized "guided democracy," but would be unlikely to draw additional support. Rebel forces, however, with armed strength of approximately 11,000, continue to conduct guerrilla warfare in Sumatra and Celebes with serious consequences for the economy
+Token count: 72
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: Page 1
+- original #4 segment 2: noncontent_keyword
+  Text: Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.984786
+kept_candidate_count=3
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #5, segment 1)
+Text: General Buchalet, chief of the military applications division of the French Atomic Energy Commission, stated that
+Token count: 16
+Recut: none
+
+Clean Chunk #4 (original #6, segment 1)
+Text: Buchalet gave the impression that
+Token count: 5
+Recut: none
+
+Clean Chunk #5 (original #8, segment 1)
+Text: He said
+Token count: 2
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens
+  Text: Buchalet
+- original #9 segment 1: noncontent_keyword
+  Text: Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.991682
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Page 6
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.243902
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Bloc Military Aid to the UAR Major General Hafiz Ismail, the UAR official responsible for the procurement of bloc arms, is to visit Moscow
+- original #12 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: week to discuss with representatives of the Soviet organization handling arms sales the question of "future policy for the supplying of equipment." Cairo, continuing its almost complete reliance on Moscow for arms aid, now apparently is seeking a general commitment which would assure the UAR of maintenance parts and replacements over an extended period of time. Moscow, for its part, wants to retain its position as the UAR's chief source of military assistance, and probably feels that some such agreement would serve to limit Nasir's maneuverability for improving his relations with the West and to discourage further anti-Communist moves by the UAR leader. The Soviet Union and the UAR have been negotiating a major arms deal since mid-1958, but no formal agreement is known to have been signed. Talks concerning the supply of additional bloc military equipment to the UAR apparently are also under way
+- original #13 segment 1: full_page_or_admin
+  Text: Prague and Warsaw. Three UAR negotiating teams were to arrive in Prague on 11 January to discuss contracts for armaments, tank spare parts, and equipment for military workshops. The Czech-UAR military aid talks in Cairo late last year apparently resulted in a general agreement, under which the UAR negotiators now in Prague presumably will contract for military equipment. A UAR arms purchasing mission was sent to Warsaw in late 1959 to contract for spare parts for the MIG-17 jet fighters previously supplied by the bloc. The Poles had agreed in principle to supply armored steel--presumably to be used in the manufacture of armaments
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 Jan 60 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: Since 1955 the bloc has provided Egypt and Syria with about $700,000,000 in military aid. In addition, the bloc has extended to the UAR more than $500,000,000 in economic credits--excluding the Soviet Union's new commitment to finance the second stage of the Aswan Dam
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 Jan 60 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Indonesian Dissidents Plan to Proclaim New Government Indonesian dissidents in Sumatra and North Celebes who have been in rebellion since February 1958 plan to proclaim a "United Republic of Indonesia" on 26 January. The rebel movement, which in recent months has repeatedly planned but put off such a proclamation, heretofore has been nominally operating under the provisional Government of the Revolutionary Republic of Indonesia, split into two administrative groups to direct the widely separated areas of Sumatra and North Celebes. The constitution proposed for the republic would provide considerable autonomy for member states. The republic's territory would include Sumatra, Celebes, and the Moluccas. Revival of the rebel plan to proclaim a new government does not indicate increased dissident political or military strength, and is largely a paper exercise. With its call for regional autonomy, the proposed proclamation is intended to take advantage of widespread criticism of President Sukarno's highly centralized "guided democracy," but is not likely to draw additional support. The rebels, nevertheless, continue to maintain an overall armed force of approximately 11,000 and to conduct guerrilla warfare on a scale which ties down a considerable number of government troops and seriously undermines the country's economy. "our program for I960 is total guerrilla warfare
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 Jan 60 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=10
+alignment_score=0.930729
+kept_candidate_count=3
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #16, segment 1)
+Text: De Gaulle stressed to Socialist leader Guy Mollet on 19 January that self-determination for Algeria is
+Token count: 16
+Recut: none
+
+Clean Chunk #7 (original #17, segment 1)
+Text: only course possible. Mollet received the impression that De Gaulle wants to set a date for a referendum in Algeria, superseding his 16 September stipulation of "within four years after pacification" which has been widely misinterpreted. Mollet thought De Gaulle "out of touch with the problem and with the thinking of the country," but De Gaulle is probably counting on his scheduled TV broadcast of 29 January to rally public support. The communiqué's
+Token count: 74
+Recut: none
+
+Clean Chunk #8 (original #18, segment 1)
+Text: De Gaulle is also reported on 19 January to have told Algerian rightist deputy Marc Lauriol that the "false tension" in Algeria is "entirely the creation of the military." De Gaulle reportedly added: "I know how the military operates. They mounted the Dreyfus affair and they are mounting an Algerian crisis in order to serve their own purposes
+Token count: 58
+Recut: none
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.996780
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

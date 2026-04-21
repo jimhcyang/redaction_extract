@@ -1,0 +1,86 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.681429
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 68
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122485
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 30 MAY 1960 I. THE COMMUNIST BLOC Khrushchev's 28 May speech continues effort to reconcile his arguments for a policy of detente with his performance
+- original #3 segment 1: full_page_or_admin
+  Text: Paris. North Korea steps up number of planes scrambled against possible intruders into air space. II. ASIA-AFRICA Gursel promises elections in Turkey as soon as possible but believes he will need from one to three months beforehand to restore situation to normal. Ethiopia, in expectation of additional US military aid, reportedly plans not to accept Soviet arms offer at this time. Cameroun's foreign minister claims terrorist leader Moumie plans to overthrow government after country's security agreement with France ends next month. III. THE WEST Debre stresses De Gaulle's desire for close Western Big Three cooperation on nuclear weapons and Africa. Cuban regime emphasizes cultural ties with Communist China; may soon proceed with establishment of diplomatic relations
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.958163
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #5, segment 1)
+Text: North Korea: During the past month there has been a marked increase in reporting on the North Korean and Chinese Communist air-defense networks of actual or potential air violations of the Demilitarized Zone in Korea. North Korea has stepped up the number of aircraft scrambled against possible intruders. No clashes have occurred, and the North Koreans may be using these incidents primarily for training purposes in ground-control intercept. This activity, however, increases the possibility of air encounters in the border area
+Token count: 81
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: A
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.962308
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: 30 May 60 DAILY BRIEF
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Cameroun
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Cameroun
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Cameroun
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Camerounians
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: co-operation
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

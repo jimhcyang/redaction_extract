@@ -1,0 +1,89 @@
+========================================================================
+[PAGE 01]
+kind=red_only red_source_page=1 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: TOP SECRET SECURITY INFORMATION 12 July 1952 Copy No. 53 CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.961792
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 4. Turkey expresses regret over Nehru's statements on UN and NATO (page 5). 5. Strong opposition voiced to transfer of Israeli Foreign Ministry to Jerusalem
+Token count: 25
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.691695
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=4
+alignment_score=0.935020
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: this thesis shows a certain evolution in Foreign Office thinking on the Taipei treaty. Comment: An assertion that peace has been established with all of China carries the implication that it is not only unnecessary but legally impossible to conclude a peace treaty with Communist China. This would also permit the establishment of de facto relations with Peiping without the formality of a peace treaty. Such an interpretation would represent a departure from the previous government position that the Taipei treaty had no effect on Japan's future relations with Peiping. The American Embassy believes, for its part, that no actual change has occurred in the government's policy
+Token count: 107
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: NEAR EAST - AFRICA 4. Turkey expresses regret over Nehru's statements on UN and NATO: The Turkish Ambassador in New Delhi was instructed on 23 June to inform the Indian Government "in a suitable and friendly manner" of Turkish "regret and amazement" at Nehru's recent statements that the UN and NATO were losing sight of the high ideals for which they were organized. Nehru had also said that these organizations were in danger of becoming tools of the major powers. The Indian Government replied to his representation on 27 June by stating that several nations had reacted similarly, and that New Delhi had already issued explanatory statements. Comment: This independent representation to India is an indication of the firm Turkish policy of defending the Western position. It also suggests Turkish willingness to make its influence felt beyond the Near East. 5. Strong opposition voiced to transfer of Israeli Foreign Ministry to Jerusalem: The French Government, when informed that Israel intends soon to transfer its Foreign Ministry from Tel Aviv to Jerusalem, pointed out that France considers the moment "particularly inopportune" since the opposition of certain Arab states towards Israel now appears to be decreasing and such a step would "provoke a very intense reaction
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.646119
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: Comment: The United States, Great Britain, France and Turkey have agreed to urge the Israeli Government not to move its Foreign Ministry to Jerusalem until after the United Nations has reconsidered the status of that city. The Turkish Foreign Minister, in fact, believes that the four powers should firmly indicate to Israel that they will not move their missions to Jerusalem under present circumstances
+Token count: 64
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.931490
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: Comment: This is the first reliable report in some time of the receipt of tanks by Alert Police units, although an issue of Soviet weapons to three units in May has been confirmed. It is believed that for the past year the Alert Police has had 90 tanks for training purposes. senior Alert Police officers were negotiating for the purchase of military equipment and heavy armament of Soviet make and that the raising of a national army was to be entrusted to a special mission from the general staff of the Soviet forces in Germany
+Token count: 95
+Recut: none

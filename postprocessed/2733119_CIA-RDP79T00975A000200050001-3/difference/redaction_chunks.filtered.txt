@@ -1,0 +1,77 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.764706
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. QI -9
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.954717
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: WESTERN EUROPE 6. German Social Democrat leader urges stronger government stand against anti-remilitarization "plebiscite
+Token count: 14
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: FAR EAST
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.944446
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #6, segment 1)
+Text: WESTERN EUROPE 6. German Social Democrat leader urges stronger government stand against anti-remilitarization "plebiscite": Herbert Wehner, Social Democratic Party (SPD) chairman of the Bundestag All-German Affairs Committee, in an April 20 meeting, severely criticized the Adenauer government's failure to take prompt and effective measures to suppress the new anti-remilitarization "plebiscite" sponsored by the East German Communists. He described the West German counter-propaganda moves as "half-measures." Wehner urged that the government issue a clear statement at once declaring the plebescite illegal, and request the Laender Interior Ministries to take
+Token count: 88
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: the
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: bookstalls
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #7, segment 1)
+Text: police measures to suppress it. Comment: Leaders of the Social Democratic Party are becoming alarmed at Communist success in influencing SPD members to support the plebiscite. They are now disturbed at the unexpected effect, favorable to the Communists, of SPD opposition to Adenauer's remilitarization program
+Token count: 45
+Recut: none

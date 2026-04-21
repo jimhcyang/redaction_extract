@@ -1,0 +1,227 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.702500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.917623
+kept_candidate_count=2
+excluded_candidate_count=9
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. SAUDI ARABIA TO INSTALL COAST DEFENSE GUNS ON GULF OF AQABA (page 4). 3. CAIRO ORDERS CO-OPERATION WITH UN IN GAZA
+Token count: 22
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 5. SOVIET STATEMENT ON ISRAELI AND FRENCH "PROVOCATIONS" (page 7). 6. JAPANESE SEEK REVISIONS OF MILITARY TIES WITH THE UNITED STATES
+Token count: 21
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #2 segment 3: noncontent_keyword
+  Text: page 8
+- original #3 segment 1: noncontent_keyword
+  Text: page 10
+- original #4 segment 1: noncontent_keyword
+  Text: page 11
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: Noforn
+- original #5 segment 2: short_span_min_tokens
+  Text: Except
+- original #5 segment 3: noncontent_keyword
+  Text: page 13). 29 Mar 57 Current Intelligence Bulletin Page 2
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.994027
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens
+  Text: Reference
+- original #7 segment 1: noncontent_keyword
+  Text: 29 Mar 57 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 2. SAUDI ARABIA TO INSTALL COAST DEFENSE GUNS ON GULF OF AQABA Eight coast defense guns together with ammunition were reported in northwest Saudi Arabia on 19 March en route to Haqal, a Saudi port about 25 miles south of Aqaba and headquarters for Saudi forces in the northern gulf area. Comment Although Saudi Arabia has refused to recognize the rights of Israeli shipping in the gulf, it has thus far lacked the means to offer effective opposition. Saudi forces along the gulf have been supported by a few 25-pounder artillery pieces (88-mm.)--including at least two at Shaikh Hamid at the entrance to the gulf. The only navigable channels through the strait, however, are near the Egyptian shore and beyond the effective range of these weapons. Some of the new guns will probably be emplaced to cover the entrance to the gulf, and others north of Haqal to fire on the approaches to the Israeli port of Eilat. The source of these coastal guns, and their caliber, is unknown. Saudi Arabia has been negotiating for coastal artillery with Spain, Syria and Egypt
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 29 Mar 57 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.123456
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 3. CAIRO ORDERS CO-OPERATION WITH UN
+- original #10 segment 1: full_page_or_admin
+  Text: GAZA Reference: The joint Arab command in Cairo ordered Major General Latif, Egyptian governor of Gaza, on 25 March to "work to settle the situation in accordance with the Egyptian government's policy by providing all suitable facilities for the international forces and their headquarters, in the present circumstances." While Cairo previously professed an intent to co-operate with the UNEF
+- original #10 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 29 Mar 57 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.971573
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #12, segment 1)
+Text: The Colonial Office said Makarios was released because the British are "heartily sick of carrying him like an albatross around their necks," but it believes he is not likely to co-operate on anything less than early enosis
+Token count: 37
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Comment on
+- original #13 segment 1: noncontent_keyword
+  Text: 29 Mar 57 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: 5. SOVIET STATEMENT ON ISRAELI AND FRENCH "PROVOCATIONS" Reference: The TASS statement of 28 March that the Soviet government "resolutely condemns" alleged Israeli and French preparations for a "new aggression against Egypt" may have been inspired by a Saudi request. The TASS statement is another Soviet attempt through propaganda to cater to Arab prejudices; it makes no specific threats of Soviet action, but merely points to the "heavy consequences for the cause of peace" of any Israeli action. The USSR is apparently anxious to avoid an outbreak of fighting since it probably believes that the present impasse is more conducive to achievement of its objectives in the area. Soviet ambassador to Israel Abramov, who was recalled to Moscow last November, is reported en route to Israel via Paris. The USSR will probably seek to convince the Arabs that Abramov's return will aid in a renewal of Soviet pressures on Israel
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 29 Mar 57 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.244404
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: 6. JAPANESE SEEK REVISIONS OF MILITARY TIES WITH THE UNITED STATES The Japanese Foreign Ministry is now drafting proposals for revisions of present US-Japanese military agreements which would call for specific limitations on
+- original #16 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: the number of American bases
+- original #17 segment 1: full_page_or_admin
+  Text: Japan, (2) the Japanese financial contribution to their maintenance, and (3) the time period for United States control Prime Minister Kishi also wants an agreement on joint use of the bases by Japanese military forces. A high government official says that Kishi, for political reasons, must obtain tangible concessions during his prospective visit to the United States. In addition to concessions on bases, Kishi may seek relaxation of strategic trade controls, control over some aspect of the administration of Okinawa, or permission for natives of the Bonin Islands to return from Japan. Comment Kishi feels he must demonstrate his "independence" of the United States in order to counter the opposition Socialists' charges that he is too pro-American. At the same time, he would like to demonstrate to his own conservative party and to the public that he commands the respect and has the backing of America
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 29 Mar 57 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 10]
+kind=red_only red_source_page=8 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.990066
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: noncontent_keyword
+  Text: Comment on
+- original #19 segment 1: noncontent_keyword
+  Text: 29 Mar 57 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.991964
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: short_span_min_tokens
+  Text: Reference
+- original #21 segment 1: noncontent_keyword
+  Text: 29 Mar 57 Current Intelligence Bulletin Page 10
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.986732
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+- original #23 segment 1: noncontent_keyword
+  Text: 29 Mar 57 Current Intelligence Bulletin Page 11
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: full_page_or_admin
+  Text: CORRECTION TO ITEM 2
+- original #24 segment 2: full_page_or_admin, noncontent_keyword
+  Text: PAGE 4
+- original #24 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: OF
+- original #24 segment 4: full_page_or_admin, noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN
+- original #24 segment 5: full_page_or_admin
+  Text: DATED 28 MARCH 1957 The first sentence should read: "The Shah of Iran told a competent American observer on 23 March that he had initialed an oil agreement with the Italian government-owned oil company--Ente Nazionale Idrocarburi (ENI)--on terms more favorable to Iran than other oil agreements
+- original #24 segment 6: full_page_or_admin, noncontent_keyword
+  Text: 29 Mar 57 Current Intelligence Bulletin Page 12
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=0.993143
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: noncontent_keyword
+  Text: 29 Mar 57 Current Intelligence Bulletin Page 13

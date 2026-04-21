@@ -1,0 +1,121 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.961069
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 3. TU-4's active at eight Soviet Arctic bases (page 4). 4. USSR believed using airborne intercept radar (page 4). FAR EAST 5. Japan seen moving to normalize relations with the Soviet Union
+Token count: 32
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996828
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.913191
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 3. TU-4's active at eight Soviet Arctic bases: Since early April 1954 TU-4 medium bomber type aircraft have utilized eight bases and possibly six others located between the Bering Strait and Murmansk in the Soviet Arctic (see map, p. 5). At least six aircraft have been identified in this activity. Comment: The recent flights suggest that the program of airfield construction and improvement under way since 1949 has progressed to the point that potential Soviet strategic bomber bases in the Arctic are now capable of maintaining limited TU-4 operations on a year-round basis. The TU-4 flights in the Arctic this spring are believed to have been conducted in support of meteorological research. Since June, these flights may also have been concerned with ice reconnaissance along the Northern Sea Route. 4. USSR believed using airborne intercept radar
+Token count: 136
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: SOVIET NORTH Base utilized by TU-4's Base possibly utilized by TU-4's JUNE 1954
+Token count: 13
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.122075
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: Comment: Soviet postwar advances
+- original #5 segment 1: full_page_or_admin
+  Text: the field of electronics indicate that airborne intercept radar could have been available since about 1951. The Soviet Union's sensitivity to aircraft operating near its borders may have induced it to deploy all-weather fighters which had previously been withheld for security reasons. However, such aircraft have not been identified in operational Soviet units. FAR EAST 5. Japan seen moving to normalize relations with the Soviet Union: Japanese economic circles claim Japan's relations with the Soviet Union are entering a new phase in which Tokyo is moving to normalize relations. He notes that the continuing efforts of several Japanese ministries for a rapprochement are justified above all by economic reasons and particularly by the large orders for ships and ship repairs the USSR reportedly will offer. The Japanese think American policy toward Asia is too narrow in its emphasis on re-armament and fails to consider psychological factors, and the Japanese intend to "try their luck" within the limits Washington has recognized as valid for Western European dealings with the USSR. Comment: The Japanese government is supporting private negotiations with the USSR for a three-year trade arrangement valued at $26,000,000 each way. Japan is to export eight cargo ships, eight fishing vessels, and eight tugboats, and provide ship repairs and reconstruction. The Soviet Union will provide in return lumber, petroleum, coal, manganese, chrome, raw cotton and platinum
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=6 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.966455
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #6, segment 1)
+Text: The continuing serious decline in Japan's economy has strengthened Japanese sentiment for trade with the Communist Orbit--now only about one percent of the Japanese total--as a panacea for present economic ills
+Token count: 33
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.987742
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Burmese
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.996718
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=0.993704
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

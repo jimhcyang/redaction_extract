@@ -1,0 +1,185 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.932653
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. PROVISIONS OF $100,000,000 SOVIET CREDIT TO AFGHANISTAN REPORTED
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #2 segment 3: noncontent_keyword
+  Text: page 7
+- original #3 segment 1: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 1. PROVISIONS OF $100,000,000 SOVIET CREDIT TO AFGHANISTAN REPORTED Among the projects to be undertaken under the announced $100,000,000 Soviet credit to Afghanistan, which will run for 10 years, are construction of airfields at Kabul, Herat, Mazar-i-Sharif and Baghlan, improvement of the Oxus River port facilities, construction of a dam in the Ghazni area and road construction including the Salang pass area
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: some funds may be made available for purchases in the West. Comment The joint Soviet-Afghan economic communique issued on 18 December referred only in general terms to development of agriculture, irrigation, construction of hydroelectric stations and construction of the Kabul airport. The USSR is already participating in the Oxus port development and Soviet technicians reportedly will arrive in Kabul in January to begin construction of the Kabul airport. A road through the Salang pass area would considerably shorten the route to the Soviet border. If Moscow constructs the Ghazni dam, this will be the first Communist-financed project south of Kabul, a part of the country where Afghan projects have been carried on with Western aid. (Prepared by ORR
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.865070
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #3 (original #7, segment 1)
+Text: candidates." Sergeyev and his staff have been meeting with leftist politicians and have been carrying on a propaganda campaign among the tobacco workers in the area. Foreign Minister Theotokis claims that the USSR is providing financial assistance for leftists' pre-electoral campaign. Theotokis will try to get cabinet approval for a warning to Sergeyev that if he does not stop these activities, he will be declared persona non grata
+Token count: 68
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: flagrant
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: bitterness
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: encourage
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: February
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.962564
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: opinion
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: British
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 28 December) The Israeli army is known to have been drawing up plans for an action to break the Egyptian blockade of entry to the Gulf of Aqaba. It appears unlikely that Israel would mount such an operation in the immediate future, not only because of logistic problems, but because Tel Aviv now seems to be making a considerable effort to convince Western opinion of its peaceful intentions. has informed the American army attaché in Tel Aviv that there have been recent drastic cutbacks in heavy construction projects throughout the country, and that Israeli construction engineers in reserve status are reluctant to engage in planning because they believe they may be recalled to active duty soon. The assistant army attaché has observed that a high Israeli officer concerned with supply is preoccupied with problems of movement and storage in the Negev area of southern Israel. This officer said divisional
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #14, segment 1)
+Text: maneuvers are to be held in the Negev in January or February. The attaché concludes from these indications that substantial military action may take place
+Token count: 25
+Recut: none
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.931070
+kept_candidate_count=2
+excluded_candidate_count=7
+
+Clean Chunk #5 (original #18, segment 1)
+Text: The Nationalist Defense Ministry has warned the navy to be "on the alert
+Token count: 13
+Recut: none
+
+Clean Chunk #6 (original #20, segment 1)
+Text: Their fear of torpedo boat attacks on naval ships has led the Nationalists to prepare plans for air or commando attacks on torpedo boat bases
+Token count: 25
+Recut: none
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: artillery
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communist
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: movement
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: insist
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: increase
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communist
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: indication
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.948492
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: preparations
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: full_page_or_admin
+  Text: TAIWAN STRAIT SITUATION 29 DECEMBER 1955 CHINESE COMMUNIST AIRFIELD
+- original #25 segment 2: full_page_or_admin, noncontent_keyword, short_span_min_tokens
+  Text: LEGEND
+- original #25 segment 3: full_page_or_admin
+  Text: DESIGNATIONS ACTIVE BASE FOR MILITARY & CIVILIAN AIRCRAFT. SOME BASES USED BY PISTON TYPES MAY BE USABLE BY JETS INACTIVE BASES CAPABLE OF USE BY AIRCRAFT CURRENT STATUS UNDETERMINED PRIMARY AIRFIELD CONSIDERED MOST IMPORTANT AREA WITH PREPARED RUNWAY GENERALLY 5000 FEET OR LONGER SECONDARY AIRFIELD AUXILIARY OR EMERGENCY BASES OR FIELDS OF LESSER IMPORTANCE. RUNWAYS GENERALLY LESS THAN 5000 FEET. OPERATIONAL SERVICEABLE UNKNOWN TYPE MIG-15 TU-2 MIG-17 IL-10 TU-4 IL-12 IL-28 ETC. USABILITY UNKNOWN UNDER CONSTRUCTION FIELDS NOT CONSIDERED CAPABLE OF SUPPORTING SUSTAINED OPERATIONS AT PRESENT. INCLUDES FIELD FORCES & SECURITY TROOPS NATIONALIST AIRFIELD RAILROAD PROPOSED RAILROAD PRIMARY ROADS SECONDARY ROADS

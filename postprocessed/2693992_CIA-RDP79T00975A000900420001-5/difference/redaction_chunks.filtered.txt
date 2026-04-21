@@ -1,0 +1,73 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.950000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: TOP SECRET SECURITY INFORMATION
+- original #2 segment 1: noncontent_keyword
+  Text: TOP SECRET SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.975000
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #3, segment 1)
+Text: 3. Egypt reportedly to include Wafdists in cabinet reshuffle
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.929622
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #5, segment 1)
+Text: NEAR EAST - AFRICA 3. Egypt reportedly to include Wafdists in cabinet reshuffle: Comment: Salaheddin, who was responsible for abrogation of the British treaty in 1951, is an extreme nationalist and somewhat anti-Western. He is now a member of the reorganized Wafd Party. The two other prospective cabinet ministers, highly respected for their work in social affairs and education, were never active in the party. Their membership in the cabinet would strengthen it in areas to which the government has recently been giving increased attention
+Token count: 84
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- pulsing
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.977273
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens
+  Text: in

@@ -1,0 +1,344 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.681250
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.244306
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 7 JANUARY 1960 I. THE COMMUNIST BLOC Khrushchev may use Supreme Soviet session beginning 14 January for major statement on disarmament and conventional armed forces. Yugoslav politburo member's visit to Moscow is first visit to USSR by high Yugoslav official since 1957; talks may improve relations, although no basic ideological differences are likely to be solved. New Soviet ambassador to Guinea is Middle East specialist and former ambassador to Cairo. Chinese Communists try conciliatory approach
+- original #2 segment 1: full_page_or_admin
+  Text: Djakarta; may hope to "patch things up" with Indonesia before Khrushchev's visit there next month. II. ASIA - AFRICA Question of relations with Peiping expected to become major issue in Japanese politics. Afghan foreign minister to visit Pakistan next week despite previously reported decision to cancel trip. Laos--Proposed cabinet includes CDNI members and old-guard politicians; army may object to inclusion of only one general. Iranian and Iraqi foreign ministers may meet on Shatt al Arab dispute; danger of military involvement now appears remote. Libyan officials beginning to press Western oil companies for larger revenues. III. THE WEST British propose early conference on Cyprus base question in effort to clear way for Cypriot independence on 19 February as scheduled. Cuba attempting to arrange conference of neutralist, underdeveloped countries for Havana in mid-1960
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.982099
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #3, segment 1)
+Text: The British ambassador also feels that a formal announcement of troop cuts is possible, but doubts that any troop withdrawals from Hungary or East Germany are likely
+Token count: 27
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.986109
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: governmental
+- original #5 segment 1: noncontent_keyword
+  Text: Page 3
+- original #6 segment 1: noncontent_keyword
+  Text: Page 5
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Indonesian
+- original #8 segment 1: noncontent_keyword
+  Text: Page 9) 7 Jan 60 DAILY BRIEF
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.963705
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #9, segment 1)
+Text: Japan: Sino-Japanese relations probably will become a major issue in Japanese politics as Prime Minister Kishi's rivals intensify their efforts to replace him in the top government post. Several aspirants for the premiership have recently emphasized the question of relations with Peiping in calls for Kishi's resignation after the US-Japanese Security Treaty is ratified
+Token count: 54
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #9 segment 2: noncontent_keyword
+  Text: Page 6
+- original #10 segment 1: noncontent_keyword
+  Text: 7 Jan 60 DAILY BRIEF
+- original #10 segment 2: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.990218
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Page 8
+- original #12 segment 1: noncontent_keyword
+  Text: 7 Jan 60 DAILY BRIEF
+- original #12 segment 2: short_span_min_tokens
+  Text: iv
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.986207
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: noncontent_keyword
+  Text: Page 9) 7 Jan 60 DAILY BRIEF
+- original #13 segment 2: short_span_min_tokens
+  Text: v
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.939115
+kept_candidate_count=1
+excluded_candidate_count=10
+
+Clean Chunk #3 (original #17, segment 1)
+Text: Both the Iranian and British ambas- sadors feel that a formal announcement of a reduction in the So- viet armed forces is one of the more probable forms for such a gesture, although the British ambassador doubts that there will be any reduction in Hungary or East Germany
+Token count: 48
+Recut: none
+
+Excluded candidates:
+- original #14 segment 1: ocr_equivalent_to_redacted_text
+  Text: begin- ning on
+- original #15 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- marks
+- original #16 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: consid- ered
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: labyrinths
+- original #19 segment 1: short_span_min_tokens
+  Text: he
+- original #20 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: con- ventional
+- original #21 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Au- gust
+- original #22 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pro- posal
+- original #23 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: appar- ently
+- original #24 segment 1: noncontent_keyword
+  Text: 7 Jan 60 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.988350
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: noncontent_keyword
+  Text: 7 Jan 60 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.973960
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: dis- cuss
+- original #27 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: govern- ment
+- original #28 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: direc- tion
+- original #29 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Mos- cow
+- original #30 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: prob- lems
+- original #31 segment 1: noncontent_keyword
+  Text: 7 Jan 60 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.957263
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #32 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: de- fection
+- original #33 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ideolog- ical
+- original #34 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: significant- ly
+- original #35 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: high- level
+- original #36 segment 1: noncontent_keyword
+  Text: 7 Jan 60 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.952019
+kept_candidate_count=0
+excluded_candidate_count=11
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #37 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Con- akry
+- original #38 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Afri- ca
+- original #39 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: dip- lomatic
+- original #40 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: perma- nent
+- original #41 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: terri- tories
+- original #42 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Ni- geria
+- original #43 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: coun- tries
+- original #44 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Af- ricans
+- original #45 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Novem- ber
+- original #46 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: under- developed
+- original #47 segment 1: noncontent_keyword
+  Text: 7 Jan 60 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #48 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Japanese Leaders Will Continue Efforts for Improved Relations With Communist China Certain leaders of Japan's ruling Liberal-Democratic party will continue their efforts to promote the normaliza- tion of relations with Communist China through forthcoming visits to Peiping. The director of the Japanese Foreign Min- istry's Asian Affairs Bureau has told the Indonesian charge in Tokyo that trips by former Prime Minister Tanzan Ishibashi and party leader Kenzo Matsumura were intended to open the way for resolving the impasse with Peiping, but that the goal was unlikely to be achieved as long as Prime Minister Kishi was in power. The Japanese official also emphasized that Japanese pol- icy toward the Communist mainland was contingent on the at- titude of the United States toward the Peiping regime. He said that Japan would "continue to follow the policy of the United States" and that no possibility of a change in the US attitude was foreseen prior to the next presidential election. Kishi's political rivals are becoming increasingly restive over the length of his tenure as prime minister, which normal- ly would not end until early in 1961. Influential politician Ichiro Kono, in a call for Kishi's resignation on 4 January, asserted that Japan should face up to the problem of relations with Com- munist China and attacked Kishi's position that politics and trade can be handled separately. A day later, Minister of In- ternational Trade and Industry Hayato Ikeda, another poten- tial candidate for Kishi's mantle, stated Japan must make positive efforts to break the impasse in relations with Peiping. Kishi's supporters quickly attempted to play down the problem by issuing a statement that there was little Japan could do uni- laterally to settle the Communist China problem
+- original #48 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 7 Jan 60 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=14 unred_source_page=15
+alignment_score=0.942229
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #49 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Paki- stani
+- original #50 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: dis- pute
+- original #51 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: government- controlled
+- original #52 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: legit- imacy
+- original #53 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Afghan- istan
+- original #54 segment 1: noncontent_keyword
+  Text: 7 Jan 60 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=15 unred_source_page=16
+alignment_score=0.960244
+kept_candidate_count=0
+excluded_candidate_count=10
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #55 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: connec- tion
+- original #56 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pres- sures
+- original #57 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: rival- ing
+- original #58 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Med- iterranean
+- original #59 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: construc- tion
+- original #60 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: con- struction
+- original #61 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: demand- ing
+- original #62 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: exist- ing
+- original #63 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: con- cessions
+- original #64 segment 1: noncontent_keyword
+  Text: 7 Jan 60 CENTRAL INTELLIGENCE BULLETIN Page 8
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=16 unred_source_page=17
+alignment_score=0.962635
+kept_candidate_count=0
+excluded_candidate_count=9
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #65 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: as- sume
+- original #66 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: diplo- matic
+- original #67 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: mid- 1960
+- original #68 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: rep- resentatives
+- original #69 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: spe- cial-interest
+- original #70 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: commu- nism
+- original #71 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: responsibili- ties
+- original #72 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Bra- zil
+- original #73 segment 1: noncontent_keyword
+  Text: 7 Jan 60 CENTRAL INTELLIGENCE BULLETIN Page 9
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=17 unred_source_page=18
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=18 unred_source_page=19
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,93 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.929348
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. France seeks Soviet agrément on new ambassador
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: SOVIET UNION 4. Large Soviet chemical plant starts production
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword
+  Text: FAR EAST
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.877065
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 2. France seeks Soviet agrément on new ambassador: whether the USSR would accept Louis Joxe as the new Ambassador to Moscow. Joxe is now Director General of Cultural Relations in the Ministry of Foreign Affairs. the request would be considered, then expressed the view that it was important to facilitate the "search for compromise solutions" rather than be discouraged over the present world situation. Despite "the war of travel restrictions" he promised to support request for permission to travel in Central Asia
+Token count: 83
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.942169
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #4, segment 1)
+Text: Comment: Joxe, a career diplomat, was a member of the first French Mission to the Soviet Union in 1924. He is one of General de Gaulle's few personal friends, and, although he served as secretary on the general's National Committee for Liberation in 1943 and 1944, his present political affiliation is unknown
+Token count: 52
+Recut: none
+
+Clean Chunk #5 (original #6, segment 1)
+Text: Large Soviet chemical plant starts production: the Kirovakan Electrochemical Combine in Soviet Armenia advised the Chief Directorate for the Sale of Chemical Products in Moscow that ammonium nitrate shipments were made on 26 March to the Ministries of State Farms and Agriculture
+Token count: 42
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: SOVIET UNION
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: Comment: This is the first evidence of production in the new synthetic ammonia plant, which has an annual estimated capacity of 57,000 metric tons or eight percent of the total Soviet production in 1951. This basic chemical is used in large quantities by the metallurgical, fertilizer, and explosives industries. The plant may also produce heavy water, a by-product in production of hydrogen for ammonia, since the necessary auxiliary equipment was installed over two years ago. FAR EAST
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.996429
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.993033
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

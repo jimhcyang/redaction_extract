@@ -1,0 +1,203 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.536364
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.929032
+kept_candidate_count=3
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. GREECE SEEKS TO ENLIST ARAB STATES IN ANTI- BRITISH CAMPAIGN (page 4). 3. NEW LEBANESE GOVERNMENT EXPECTED SOON
+Token count: 19
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 6. FRANCE TO EXPAND CONTACTS WITH COMMUNIST CHINA
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 2)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #3 segment 3: noncontent_keyword
+  Text: page 8
+- original #4 segment 1: noncontent_keyword
+  Text: page 10
+- original #4 segment 3: noncontent_keyword
+  Text: page 11
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.975140
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: confirmation
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: disregarded
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: beginning
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: review
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 2. GREECE SEEKS TO ENLIST ARAB STATES IN ANTI- BRITISH CAMPAIGN Greek prime minister Karamanlis has ordered Minister without Portfolio Kassimatis to start on an official tour of the Middle East within a week. Kassimatis reportedly will discuss future relations with the Arab states on the basis of a "proposal as already received from them." cultivation of relations with the Arab countries was proposed at a meeting of the Greek cabinet as an additional means of "supporting the fight against Britain." Comment Athens apparently believes London can be forced by such pressure to reconsider its position regarding Cyprus. Greece traditionally has had close ties with Egypt and Jordan, which both have large Greek communities and Orthodox patriarchates. Egypt has already begun relaying Greek broadcasts to Cyprus, at least temporarily defeating British efforts to jam Radio Athens
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.244664
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 3. NEW LEBANESE GOVERNMENT EXPECTED SOON Lebanon's President Chamoun has "given the green light" for parliamentary attacks to begin on the government of Prime Minister Rashid Karame, The government is expected to fall soon. The president reportedly intends to ask ex-prime minister Abdullah Yafi to form the
+- original #11 segment 1: full_page_or_admin, short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: cabinet
+- original #12 segment 1: full_page_or_admin
+  Text: order to keep Egypt and Saudi Arabia from becoming "too excited." Chamoun has assured Solh he will be summoned to form the new government. The American embassy regards Solh as the only Moslem leader in Lebanon who could withstand the increasing Egyptian-Syrian-Saudi pressures. It considers Yafi, a regular recipient of Saudi money, weak and vacillating, and unlikely to give Lebanon the kind of resolute leadership it needs in the difficult months ahead. Comment Lebanon, though preferring to maintain its traditional neutrality, may be forced toward the Egyptian-Syrian-Saudi bloc. The director of Lebanon's security service stated on 6 March that Egypt and Saudi Arabia were conducting a campaign to take over the country through a puppet government
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.934581
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #4 (original #14, segment 1)
+Text: Libyan prime minister Ben Halim's principal concern at present is to obtain secret assurances of continued British and American support. British prime minister Eden has inquired whether the United States could give the assurance the Libyans seek
+Token count: 37
+Recut: none
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: British
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reported
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: assured
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.970305
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #17, segment 1)
+Text: The Czech ambassador in Cairo, during a visit to the Sudan in January, told Prime Minister Azhari that the USSR was willing to loan the Sudan enough money to construct the Roseires and Atbara dams or other desirable projects
+Token count: 39
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: 6. FRANCE TO EXPAND CONTACTS WITH COMMUNIST CHINA France has decided to set up a commercial agency in Peiping, and Communist China may establish one in Paris, Foreign Minister Pineau informed Secretary of State Dulles on 7 March in Karachi. Pineau affirmed that France would not recognize Communist China "under present circumstances." Peiping has agreed "to receive an engineering mission which is to study on a long-term basis French participation in the construction of industrial complexes." Comment Such missions would be the first of their type to be sent to Communist China by a non-Communist industrial country. The only permanent non-Communist trade mission now in Peiping is that of Egypt. The French trade group came back with orders for "$2,000,000 worth of iron and steel products which the government plans to license as an exception to the CHINCOM embargo. The mission also had "definite requests--for cement works, refineries, sugar refineries, etc." The French Foreign Ministry has subsequently disclosed that a contract is in prospect for a cement plant and that about 10 percent of the equipment for the plant is machinery, valued at $100,000, of types which are on Western control lists. (Prepared jointly with ORR
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.952002
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: cooperated
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: authority
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: politburo
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: anti-Semitism
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: continued
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: economic
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.979539
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: second
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: settlement
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.122281
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 13 March) Jordan has accused Israeli forces of killing one woman and injuring three members of the Jordan national guard
+- original #28 segment 1: full_page_or_admin
+  Text: the 13 March clash at the border village of Barta. Israel claimed Jordan troops had fired the day before killing a policeman and injuring two others. Israel also charged that Jordanians fired on vehicle traffic near Magal, 25 miles northeast of Tel Aviv. Firing was also reported between Egyptian and Israeli patrols near the Gaza strip. (Press) An Israeli army maneuver in the Negev area reportedly was to start on 12 March. some troop movements, probably in connection with this maneuver. Israeli men and women of the class of 1938 have been ordered to report for registration and examination between 14 and 21 March. Other persons previously found eligible who have not yet entered military service have been ordered to report during the same period for active duty. Eleven tanks, probably mediums, and numerous vehicles on flatcars crossed the Suez Canal to the Sinai Peninsula on 5 March
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #29 segment 1: full_page_or_admin
+  Text: Egyptian-Soviet bloc arms negotiations are continuing in Prague. the Egyptian arms purchasing mission notified Cairo that antitank mines, oil for motor torpedo boats and towing vehicles for antiaircraft and antitank guns would be delivered by 20 March. Cairo furnished the Egyptian mission in Prague with a list of prices, presumably those which Egypt is willing to pay, for various types of artillery ammunition. The prices include delivery to the Egyptian port of Alexandria. mission in Prague informed Cairo that the tank experts would leave on 13 March by KLM. It added that the air force tactical training program would be discussed in Cairo, and also requested proposals for training in the use of heavy antiaircraft guns. The Soviet freighter Kronshtadt, which had passed Istanbul coming out of the Black Sea on 6 March, arrived at Alexandria on 9 March and began unloading in the port's security area. Its deck cargo reportedly consisted of 16 heavy tanks. This makes 17 arms cargoes which have been transported by Soviet freighters from Black Sea ports to Egypt since deliveries began in late October

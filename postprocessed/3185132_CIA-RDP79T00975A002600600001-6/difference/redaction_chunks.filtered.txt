@@ -1,0 +1,130 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.704787
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. RHEE CONSIDERING DECLARATION OF MARTIAL LAW IN KOREA
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #5, segment 1)
+Text: 6). * * * * THE ARAB-ISRAELI SITUATION
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #4 segment 1: short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: CONTROVERSY
+- original #5 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 1. RHEE CONSIDERING DECLARATION OF MARTIAL LAW IN KOREA President Rhee was considering declaring martial law in Korea but might wait until additional outbreaks of violence occurred. Rhee is firmly convinced that all the recent disturbances have been Communist-inspired. the Public Security Bureau has encouraged this belief by supplying Rhee with fabricated data designed to mislead him. Rhee reportedly now believes that the demonstration in Seoul on 27 July by national assemblymen against police interference in the forthcoming local elections was an attempt to overthrow the government. Comment The recent disturbances have subsided and the assembly is in recess until after the presidential inauguration on 15 August. Some disorders may take place, however, following the local elections on 8 August. Rhee is relying more and more on police measures, and he would probably declare martial law if further outbreaks occur. The increasing influence of the police and Home Ministry at the expense of moderate elements is reflected by their success in guiding Rhee's actions by fabricated information
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.856939
+kept_candidate_count=0
+excluded_candidate_count=9
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: commander
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: President-elect
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: facilities
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: insignificant
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: declared
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: inaugurated
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: improved
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: peaceful
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: elections
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.940562
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: position
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.943756
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: position
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: elements
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: administer
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 7 August) The Israeli radio announced on 5 August that construction of a dam above Lake Huleh to divert water from the headwaters of the Jordan River would begin within a few days and probably be completed within two months. This construction would be entirely within Israeli territory and outside the demilitarized zone. The Jordanian radio has reported indications that the Israelis were going ahead with diversion of the Jordan River, and stated that Jordanian and Syrian government and military leaders were in contact to "study the situation and take necessary precautions." (Press) Egypt is continuing efforts to organize "fedayeen" About 35 men, including village chiefs, are reported to be available for possible operations within Israel from Haifa to the Lebanese frontier. These activities would appear to rely on the participation of Arabs living in Israel. in return for arms, ammunition and financial assistance, the groups will carry out "any job we may request" and supply information

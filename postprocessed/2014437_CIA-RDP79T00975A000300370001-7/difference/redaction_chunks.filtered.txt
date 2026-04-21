@@ -1,0 +1,115 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.648065
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. E
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.888092
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #3, segment 1)
+Text: USSR 4. Quantity production of pulse jet engines in USSR reported (page 5). FAR EAST 6. Viet Minh leaders criticize emphasis on nationalist at expense of Soviet aims (page 6). SOUTH ASIA 7. Pakistan apparently waging an anti-Indian diplomatic campaign in Asia
+Token count: 42
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: LATIN AMERICA 10. Peron to make foreign intelligence activities an issue in Argentine elections
+Token count: 14
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: U.S
+- original #3 segment 2: noncontent_keyword
+  Text: page 7
+- original #4 segment 2: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.999211
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens
+  Text: USSR
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 4. Quantity production of pulse jet engines in USSR reported: Early in 1950 as many as 104 pulse jet engines were shipped daily out of Plant 393, Krasnogorsk, to an unknown destination. The dimensions, weight and general configuration of the pulse jets conform closely to the Argus pulse jet engine used on the German V-1 type guided missile. Comment: This is the first reasonable indication of possible V-1 type missile production in the USSR in quantities sufficient for operational use. Soviet interest in the V-1 type guided missile; one credible source has reported that the V-1 manufacturing machinery, which was moved from Germany to Plant 456, Khimki, USSR, was duplicated and the whole V-1 Department with its entire machinery was transferred "to an unknown destination" in the middle of 1948. It is possible that the unknown destination of this machinery was Plant 393, Krasnogorsk
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: FAR EAST 6. Viet Minh leaders criticize emphasis on nationalist at expense of Soviet aims: A radio message from the Viet Minh Information Office advises lower echelons that the campaign for signatures of the World Peace Council appeal for a Big Five conference is lagging. The message charges negligence on the part of the party's steering committees and front organizations, and castigates officials who attach no importance to collecting signatures and prefer to devote their attention to the military effort against the French. Comment: The difficulties that the Communist leadership of the Viet Minh have encountered in attempting to substitute Moscow's world program for nationalism point up the fact that the dominant motivation of Viet Minh adherents, including many nominal members of the Lao Dong (Communist) Party, continues to be resistance to French "domination" rather than adherence to Communist ideals. The above message is a sequel to one on 6 June which criticized Viet Minh civil officials for "losing sight of the fact that our resistance is integrated in the world movement for peace
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.885443
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #8, segment 1)
+Text: SOUTH ASIA 7. Pakistan apparently waging an anti-Indian diplomatic campaign in Asia: The Pakistani High Commissioner for Australasia is trying to persuade New Zealand to offer its mediation of the dispute between India and Pakistan. The New Zealand Government reportedly might be willing to do so if it received a similar request from India. Meanwhile, a well-known Pakistani religious leader visiting in Iraq has publicly suggested that mediation of the Kashmir problem by the Arab League or by one of the Arab States would be acceptable to Pakistan. Comment: Judging from the above the Government of Pakistan appears to have embarked upon a campaign to enlist the support of other nations against India. Pakistan has already indicated its sympathy for Australian, Indonesian, Burmese and Iranian offers of mediation or expressions of concern over the Kashmir dispute, while India has remained cold to these approaches. If Pakistan should succeed in stimulating further mediation offers from Asiatic and Commonwealth countries, it could obtain a distinct propaganda advantage by publicizing its own willingness to accept them in contrast to India's refusal to do so
+Token count: 181
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.997479
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: WESTERN EUROPE
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: LATIN AMERICA 10. Peron to make foreign intelligence activities an issue in Argentine election: Peron is reportedly planning action against foreign intelligence services, with the object of making espionage an important issue in the final stage of his campaign for re-election in November. He will reportedly declare two members of the British Embassy personae non gratae and attempt to connect officers of the US Embassy with espionage and intervention in the internal affairs of Argentina. Comment: Peron believes that his charges of US interference in Argentine internal affairs assured his election in 1946. Argentina's continuing anti-US press campaign along these lines has proven somewhat disappointing to the Perons, since the US has largely ignored it. Peron therefore may think it necessary to produce a few "imperialist spies" to lend dramatic substance to his story

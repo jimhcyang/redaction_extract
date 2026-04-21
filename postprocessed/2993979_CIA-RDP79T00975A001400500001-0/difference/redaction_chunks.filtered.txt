@@ -1,0 +1,60 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 2)
+Text: of Central Intelligence
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. 82! CURRENT INTELLIGENCE BULLETIN
+- original #1 segment 3: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.991899
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #3, segment 1)
+Text: attaches in the category of newsmen. Lair
+Token count: 7
+Recut: none
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.931230
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: He believes that after 12 months an annual rate of 15,000,000 tons of crude oil and 5,000,000 tons of refined products can be reached. After 24 months the annual rate could be 20,000,000 tons of crude and 20,000,000 tons of refined products. Comment: Rieber's estimate of 40,000,000 tons per year after two years contrasts with the 33,000,000 tons achieved by peak AIOC production in 1950. It is not likely that markets could be found for such a large amount within two years without cutbacks by other Near Eastern producers. Iranian anticipation of oil sales of this magnitude is likely to cause adverse reaction in Tehran to any plan which envisages a more gradual return of Iranian oil to world markets. 6. Comment on appointment of new Libyan prime minister: The appointment of Muhammad Saqizli, chief of King Idriss' royal council, as prime minister of Libya is likely to increase the difficulties for the United States in negotiating a Libyan base agreement. There is no indication that Saqizli will give forceful direction to the weak federal structure, suffering from rivalry between the two major provinces, Cyrenaica and Tripolitania. Retiring prime minister Muntasser, a leading Tripolitanian and the ablest figure in Libyan politics, long at odds with the king, is now the potential leader of a strong opposition. His replacement by a prominent Cyrenaican apparently represents an increase in the power of the king and can be expected to encourage separatist sentiment and dissension in the more politically conscious and important province of Tripolitania. American military interests are largely confined to this province and, accordingly, added Cyrenaican influence in the federal government will not facilitate base negotiations
+Token count: 287
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

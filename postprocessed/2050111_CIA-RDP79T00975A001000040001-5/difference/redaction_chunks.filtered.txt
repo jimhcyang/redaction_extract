@@ -1,0 +1,83 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: TOP SECRET 6 January 1953 CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.940659
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: FAR EAST 3. Northward move of Chinese Communist troops reported (page 4). SOUTHEAST ASIA 4. Burmese leaders consider abandoning strict neutrality
+Token count: 21
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 5. Soviet official exerting pressure against Iranian nationalization of Caspian fisheries
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: FAR EAST 3. Northward move of Chinese Communist troops reported: Some 20,000 troops stationed in the Hupeh Military District left Hankow for the north on 20 November, a Chinese Communist motor regiment left the city for the northeast on 25 November. No Chinese Communist army has been noted departing from Korea during this period. SOUTHEAST ASIA 4. Burmese leaders consider abandoning strict neutrality: The Burmese cabinet now believes its policy of neutrality may be futile. Home Defense Minister Ba Swe and Minister of Industry Kyaw Nyein share his concern over the threat of communism and agree to the necessity of requesting American aid in the event of a Chinese Communist invasion
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.573492
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: Comment: This report is the strongest indication to date of a fundamental change in the thinking of top Burmese policy makers. The three officials dominate the Burmese Government, and all have heretofore been strong advocates of strict neutrality
+Token count: 38
+Recut: none
+
+Clean Chunk #4 (original #6, segment 1)
+Text: 5. Soviet official exerting pressure against Iranian nationalization of Caspian fisheries: The Soviet managing-director of the Soviet-Iranian Fisheries in October directed that Iranian employees overheard discussing the proposed nationalization of the industry be discharged. Two Iranian engineers are being paid by the management to make speeches against nationalization among fishery workers. Comment: This is the first report indicating that Moscow is making indirect efforts to prevent nationalization. A report in December indicated that another Soviet tactic to guard against Iranian nationalization of the fisheries might be to negotiate a new short-term agreement
+Token count: 92
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.972727
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #7, segment 1)
+Text: Comment: The Lebanese President may issue a last-minute statement to forestall complete withdrawal of Point IV aid. Nevertheless, the fact that pro-West Lebanese have shown such complete misunderstanding of an antagonism toward the program underscores the difficulties it faces in the area
+Token count: 42
+Recut: none

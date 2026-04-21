@@ -1,0 +1,85 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.975092
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA 6. Nasr's successor reported chosen
+- original #1 segment 2: noncontent_keyword
+  Text: page 6
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: stale-mate
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.948101
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #3, segment 1)
+Text: NEAR EAST - AFRICA 6. Nasr's successor reported chosen: Major General Hakim Amir, 34-year-old commander in chief of the Egyptian armed forces and minister of war, has been designated to succeed Prime Minister Nasr as leader of the military regime in the event of Nasr's death. Wing Commander Gamal Salim, present vice premier, is reported to be next in line of succession after Amir. Comment: The selection of Hakim Amir, a loyal supporter of Nasr, as heir apparent of the regime in place
+Token count: 82
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.949153
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: of Gamal Salim, who has acted as second in command on the basis of seniority, indicates that Nasr is attempting to increase his personal control over the council. Neither Amir nor Salim would be a strong leader and either would experience great difficulty in maintaining his position. Nasr has dominated Egyptian affairs during the months of complex negotiations with Britain, and his death would almost certainly lead to an internal struggle for power and the possible disintegration of the regime
+Token count: 80
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.989362
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: stale-mate
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: candidates

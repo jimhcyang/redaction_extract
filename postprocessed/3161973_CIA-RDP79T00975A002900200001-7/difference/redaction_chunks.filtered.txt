@@ -1,0 +1,213 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.836890
+kept_candidate_count=2
+excluded_candidate_count=9
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. SHEPILOV COMMENTS ON "IMPENDING AMERICAN POLICY" IN MIDDLE EAST
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. NASR REPORTED CONSIDERING "DE FACTO" PEACE WITH ISRAEL (page 4). 3. ISRAEL TO COUNTER EGYPTIAN COMPENSATION DEMAND WITH OWN CLAIMS (page 5). 4. ARAB AID FOR JORDAN UNCERTAIN
+Token count: 29
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 6
+- original #2 segment 1: noncontent_keyword
+  Text: page 7
+- original #3 segment 1: noncontent_keyword
+  Text: 7. JAPANESE PREMIER MAY CALL EARLY GENERAL ELECTION
+- original #3 segment 2: noncontent_keyword
+  Text: page 9
+- original #4 segment 1: noncontent_keyword
+  Text: page 10
+- original #5 segment 1: noncontent_keyword
+  Text: page 11
+- original #6 segment 1: noncontent_keyword
+  Text: page 12
+- original #7 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 13
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 1. SHEPILOV COMMENTS ON "IMPENDING AMERICAN AMERICAN POLICY" IN MIDDLE EAST Soviet foreign minister Shepilov said he considers the "impending new American policy" a greater danger to the Arabs than the attack on Egypt as it is "subtle, deceiving and backed by money and a more powerful force," He said the USSR would certainly react but only after the Arab governments, particularly Egypt, express their own views. Shepilov added that Moscow saw no objection to Arab countries accepting economic aid "free from political strings" although he doubted the "intentions of the donor." Comment The USSR appears concerned that new American moves might be favorably received by Middle Eastern states. Shepilov may well have introduced the idea that the USSR would provide further aid to Egypt and the Middle East to encourage the idea, already expressed in Soviet propaganda, that with Soviet aid the Arabs are capable of maintaining their independence
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 2. NASR REPORTED CONSIDERING "DE FACTO" PEACE WITH ISRAEL President Nasr of Egypt is seriously considering a plan for a "de facto" peace with Israel, The plan envisages a buffer zone around Israel manned by an international force. Nasr reportedly feels this would effectively halt border incidents and contribute to a period of quiet, after which a "real peace" might be discussed. The land for the buffer zone, according to the plan, would be taken from both Israel and the Arab states. The international force would not be the existing United Nations Emergency Force, since this, in Nasr's view, was created merely to ensure the withdrawal of foreign troops from Egyptian soil. Comment Nasr probably is trying to demonstrate Egyptian reasonableness in order to persuade the United States to give him greater diplomatic support and economic assistance. In previous statements, he has clearly distinguished between a "de facto" peace and a "settlement" of the Palestine issue. He views the latter as "out of the question" at this time. Israel, which is now primarily interested in firm security guarantees from the individual Western powers, particularly the United States, would almost certainly reject Nasr's suggestion
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.245096
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: ISRAEL TO COUNTER EGYPTIAN COMPENSATION DEMAND WITH OWN CLAIMS Israel will submit to the United Nations before 6 January a statement of the damages caused Israel by Egypt during the past eight years, The statement will assert that damage from Egyptian infiltrators and terrorists alone amounts to about $250,000,000, and the total claim will greatly exceed any estimate which Egypt might make of the damages inflicted by the Sinai campaign. Comment The Egyptian foreign minister has been instructed by Cairo to press Egypt's claims for compensation, a move also urged by Moscow, and Britain and France as well as Israel are developing counterclaims. According to some reports, the British intend to cite the equipment seized by Egypt from British bases
+- original #11 segment 1: full_page_or_admin
+  Text: the Suez as one of the items on their side
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: 4. ARAB AID FOR JORDAN UNCERTAIN The date for the visit of the Jordanian government delegation to Cairo for the purpose of negotiating Arab financial aid to replace the $33,000,000 annual British subsidy has not yet been fixed, Cairo radio has announced, meanwhile, that a meeting of the chiefs of state of Egypt, Syria, Saudi Arabia and Jordan will be held in Riyadh on about 28 January--suggesting that further haggling over the terms of aid may be in prospect. Jordan's King Hussain is reported to have little hope of obtaining Arab aid. Some reports suggest that if Jordan's allies do not make a firm commitment, the king will attempt to use the failure as an excuse to replace the ultranationalist Nabulsi government. In view of the drift of political events in Jordan, the ultranationalist majority in the new legislature, and the uncertain ability of the king to command full support from the Jordanian army, it is questionable whether such a maneuver by the king could succeed
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.940911
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: villages
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: accompanied
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.899903
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: noncontent_keyword
+  Text: Comment on
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: willingness
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: association
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: neutrality
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Afghanistan
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: 7. JAPANESE PREMIER MAY CALL EARLY GENERAL ELECTION Japanese prime minister Ishibashi, Liberal-Democratic Party secretary general Takeo Miki and Chief Cabinet Secretary Hirohide Ishida have decided to call for a general election by dissolving the lower house of the Diet on 21 January, Comment The possibility of early elections has been rumored in Tokyo. The factional strife which hampered Ishibashi in the formation of his cabinet threatens to weaken his authority and this might persuade him to dissolve the Diet and seek a popular mandate. Control of the party machinery and campaign funds in an election would presumably enable Ishibashi to increase the number of his party supporters in the Diet and consolidate his position as leader. He may also feel that the conservative cause generally would be favored by the booming economy, the recent ending of the state of war with the USSR, and Japan's entry into the UN
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.932991
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: commander
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: workers
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.912462
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: short_span_min_tokens
+  Text: has
+- original #24 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 1958-1962
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: central
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: measure
+- original #27 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: factor
+- original #28 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: industrialization
+- original #29 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: concern
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #30 segment 1: full_page_or_admin
+  Text: 10. BURMA TO REDUCE RICE EXPORTS TO SINO- SOVIET BLOC The Burmese government is reliably reported to have reached agreement with the USSR and other Communist countries with which Burma conducts barter trade for a substantial reduction of rice exports to these countries during the current calendar year. According to reports reaching the American embassy in Rangoon, rice exports to the Sino-Soviet bloc in 1957 may total as little as 250,000 tons. The bulk of the reductions would apply to the USSR and the European Satellites, as Burma is said to be well satisfied with its trade relations with Communist China. Under its reported new policy with respect to barter trade, Burma will ship only enough rice to countries with which it has barter agreements to pay for goods they can sell Burma in competition with other countries. Comment Such a rice export schedule would constitute a substantial disengagement on the part of Burma from its uneconomic and unpopular barter trade with the bloc. Exports to the bloc during the Burmese fiscal year ending 30 September approximated 500,000 tons. Rangoon's change in policy has been engendered by greatly improved prospects for cash sales of rice
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #31 segment 1: full_page_or_admin
+  Text: ANNEX Watch Report 335, 4 January 1956 of the Intelligence Advisory Committee Conclusions on Indications of Hostilities On the basis of findings by its Watch Committee the Intelligence Advisory Committee concludes that: A. No Sino-Soviet Bloc country intends to initiate hostilities against the continental US or its possessions in the immediate future. B. No Sino-Soviet Bloc country intends to initiate hostilities against US forces abroad, US allies or areas peripheral to the Orbit in the immediate future. C. A deliberate initiation of hostilities in the Middle East is improbable in the immediate future

@@ -1,0 +1,270 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.673077
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.931250
+kept_candidate_count=3
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 4. USSR: Generally successful ICBM test operation follows possible failure. (Page iii) 5. USSR: Indications of preparations for space vehicle launching. (Page iv
+Token count: 23
+Recut: none
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 8. Angola: Portuguese district official reports on worsening military situation. (Page v
+Token count: 12
+Recut: none
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 10. El Salvador: Dissident group of army officers reportedly plans coup in near future. (Page vi
+Token count: 16
+Recut: none
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 2. Laos. (Page ii
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.991005
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.140179
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: 3 June 61 CENTRAL INTELLIGENCE BULLETIN Map
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: Laos: No progress was made in the political and military talks at Namone on 2 June. At the political talks, the session was given over mainly to an exchange of accusations, with the Pathet Lao dredging up the government's arrests of Souphanouvong and other Pathet Lao leaders in 1959. The Communist forces continued small-scale probing actions in the Pa Dong area during the night of 1-2 June, although there was no artillery fire. Small-scale attacks and ambushes continued to be reported at scattered points in the country. A government convoy proceeding on Route 13 north of Vientiane engaged in two short-fire fights with enemy guerrilla elements. Bloc airlift operations continue to be scheduled through 3 June
+- original #6 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 3 June 61 DAILY BRIEF
+- original #6 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.969398
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #7, segment 1)
+Text: USSR: An ICBM test vehicle may have failed shortly after launch from Tyura Tam at 0512 GMT (0112 EDT) 2 June. and final assessment must await analysis of the telemetry intercept tapes. Approximately ten hours later at 1530 GMT (1130 EDT) an ICBM test vehicle was launched from Tyura Tam. If the telemetry on the earlier launch attempt later proves invalid
+Token count: 61
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.963028
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #8, segment 1)
+Text: the second launch may have involved the same test vehicle. Preliminary evidence indicates this vehicle reached the nor- USSR: There are indications of preparations for a space vehicle launching at Tyura Tam. These include a recent practice countdown characteristic of space operations, flight by certain aircraft associated with previous space events, and activity by Soviet direction-finding facilities. The nature and timing of the operation under preparation cannot yet be determined
+Token count: 70
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: 3 June 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #9 segment 2: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.933022
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #6 (original #11, segment 2)
+Text: Angola: the Angolan governor general relayed to Lisbon an official report on the worsening military situation in one of the important districts of northern Angola. The district official reported, "Without military forces to ensure the safety of the Europeans and the workers, it is useless to think about a coffee harvest. Please realize that I am in a powerless position where I must watch the collapse of a district of the government without being able to prevent it." four thousand nationalists recently scored a significant victory by capturing the major Portuguese military air base in the Angolan Congo district and killing all of its 950 Portuguese defenders. According to the same report, the nationalists now plan to capture several other towns in northern Angola and hope to be able to cut the
+Token count: 132
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Deutsch
+- original #11 segment 1: noncontent_keyword
+  Text: Backup, Page 2
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.445652
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.930825
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #7 (original #12, segment 1)
+Text: rail line between the port of Lobito and the mineral-rich Katangan-Rhodesian area
+Token count: 12
+Recut: kept_after_recut
+
+Clean Chunk #8 (original #14, segment 1)
+Text: El Salvador: A dissident group of senior army officers is continuing to plot the ouster of the ruling civil-military directorate, and now plans a move within a few days. Hitherto the group's chances had been generally rated as poor because it consists mainly of men in exile who had been prominent in the Communist-infiltrated regime overthrown last January. The plot is now, however, reported gaining support among influential junior officers in the country
+Token count: 73
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #12 segment 2: noncontent_keyword
+  Text: Backup, Page 3) (Map
+- original #13 segment 1: noncontent_keyword
+  Text: Backup, Page 4
+- original #14 segment 2: noncontent_keyword
+  Text: Backup, Page 5
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.993375
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #9 (original #15, segment 1)
+Text: Estrella is one of the active duty generals who was involved in the plot
+Token count: 14
+Recut: none
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=14 unred_source_page=15
+alignment_score=0.999643
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: short_span_min_tokens
+  Text: an
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=15 unred_source_page=16
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: Situation in Angola The Angolan nationalists control much of the rural area of northwestern Angola and have cut many transportation routes by destroying bridges. They have not yet taken over any of the larger towns--many of which are garrisoned by Portuguese troops. Successful implementation of reported nationalist plans for the capture of Damba and San Salvador could deal a blow to Portuguese morale and set back arrangements for Portuguese military counteraction. the Angolan People's Union (UPA) has established a military training camp in Angola near the Congo border. The UPA, however, does not have tight control over the nationalist bands, and members frequently participate in terrorist attacks for only a short time before dropping out of sight or fleeing to the Congo. The UPA headquarters in Leopoldville reportedly has in Brazzaville 50,000 rounds of rifle ammunition and a supply of powder for the muzzle-loaders which are still in use in the area. However, Congolese army troops patrolling the Angola border interfere with the delivery of arms into Angola, and customs checks between Brazzaville and Leopoldville prevent the UPA from smuggling powder into Leopoldville. The UPA may soon step up its efforts to infiltrate southern Angola--which is currently quiet--in order to force a dispersion of Portuguese troops now concentrating in the north, and to win the support of the Bailundo tribal group. The Bailundos are being used for plantation labor in the north and have frequently fired on the nationalists. Reportedly they have been persuaded by the Portuguese that the nationalists plan to exterminate them and seize their lands. If the UPA, which apparently is preparing propaganda tracts, can gain Bailundo support, the Portuguese might be faced with such a widespread nationalist revolt that they would be hard pressed to hold even the major towns in Angola
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 3 June 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=16 unred_source_page=17
+alignment_score=0.997176
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=unred_only red_source_page=None unred_source_page=18
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: Salvadoran Senior Officer Plot Reportedly Gaining Strength A group of junior officers has been insisting that the government which came to power in January undertake social and economic reforms to undercut Communist demands. The plotters believe they are gaining strength among junior officers who are jealous of the roles other junior officers are playing in the present government. The plotters claim the allegiance of at least half the provincial army garrisons, some air force officers, and some important officers in Fort Zapote, which dominates the city of San Salvador. A representative of the cabal is planning to seek support from Col. Jorge Rovira, the chief of the air force. Col. Rovira purportedly is a personal friend of former Defense Minister Col. Castillo Navarrete, who reportedly was elected leader of the coup and head of the interim regime which the dissidents plan to set up after assuming control. Col. Castillo Navarrete also is a lifelong friend of Col. Anibal Portillo, a member of the ruling directorate. The plotters, if successful, reportedly plan to call for congressional elections within a week and have congress choose a provisional president to govern for two years. The plotters claim the wealthy landholders will be excluded from any part in the coup and that former President Osorio will back the coup but will divorce himself from future political activity. There is considerable doubt that the plotters have the capability to carry out their plans. Although anti-Communists and avowed proponents of reform, these men proved irresolute against Communist infiltration of the provisional government overthrown in January, and most of them probably would again be susceptible to influence from wealthy landowners who are resisting the present government's reform program. Any interruption of this program would be exploited by Communists and Castro sympathizers. A leftist university federation, where Communist and Cuban influence has been strong, is planning a "parade of silence
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 3 June 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=17 unred_source_page=19
+alignment_score=0.124015
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: and a demonstration at the US Embassy for 3 June
+- original #20 segment 1: full_page_or_admin
+  Text: memory" of students who fell in riots against the conservative Lemus government last year and in the January coup which brought the present government to power. There is no evidence that this group is working with the military plotters
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 3 June 61 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 20]
+kind=match red_source_page=18 unred_source_page=20
+alignment_score=0.972934
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: short_span_min_tokens
+  Text: The
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Adviser
+
+========================================================================
+[PAGE 21]
+kind=match red_source_page=19 unred_source_page=21
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

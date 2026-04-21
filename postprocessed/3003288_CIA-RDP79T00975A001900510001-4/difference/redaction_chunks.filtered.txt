@@ -1,0 +1,100 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.702500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.934270
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Elements of Soviet Northern Fleet may move outside home waters
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: SOUTHEAST ASIA 4. Additional plotting against Vietnamese premier reported (page 5). NEAR EAST - AFRICA 5. Egypt may seek Indian support for area defense arrangement
+Token count: 24
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.956395
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 1. Elements of Soviet Northern Fleet may move outside home waters: elements of the Northern Fleet will proceed to the Black Sea in February for combined maneuvers. Possibly in preparation for a movement, Northern Fleet elements recently staged maneuvers similar to those which preceded the sortie of last August
+Token count: 49
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: central
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.900552
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: SOUTHEAST ASIA 4. Additional plotting against Vietnamese premier reported: Diem's supporters may be initiating some of the current rumors of antigovernment plots in order to discredit the premier's enemies. The report that Huu is in direct contact with Mendes-France appears extremely dubious. Tran Van Huu's antigovernment intriguing and his willingness to head a government which would come to terms with the Viet Minh are well established. He has apparently been abetted by certain French elements, and high French officials have spoken of him as a likely candidate for the premiership. These same officials, however, have more recently expressed the view that it was now too late to get rid of Diem. Without full French support, Huu's prospects are very slight
+Token count: 120
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.938889
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #6, segment 1)
+Text: NEAR EAST - AFRICA 5. Egypt may seek Indian support for area defense arrangement: Comment: Nasr, frustrated by his apparent failure to prevent Iraq from concluding an agreement outside the Arab League, is likely now to attempt with Indian encouragement to create a neutralist bloc of Arabs in an effort to retain Egypt's position of leadership
+Token count: 55
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.991837
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Rene
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Barange
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,131 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.827269
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #3, segment 2)
+Text: 4. BURMESE LEADER DISCUSSES RELATIONS WITH SINO-SOVIET BLOC
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #5, segment 1)
+Text: 8). THE ARAB-ISRAELI SITUATION
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 3: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+- original #5 segment 2: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.951801
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attaches
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Indacochea
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attaches
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.964021
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.966117
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #9, segment 1)
+Text: in Hungary
+Token count: 2
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 4. BURMESE LEADER DISCUSSES RELATIONS WITH SINO-SOVIET BLOC Comment Kyaw Nyein may have overstated his lack of enthusiasm for economic aid from the bloc in order to improve the prospects for an American loan. There have been other indications, however, of a desire on the part of the new government under Premier Ba Swe to reverse the trend toward closer ties with Moscow and Peiping. This is the first report revealing Peiping's offer of arms and training to the army. Burma's strongly anti-Communist military leadership would be likely to oppose such aid. Chou En-lai's equivocation on the Sino-Burmese boundary issue and his refusal to extradite the Kachin renegade Naw Seng have heightened Burmese concern over the subversive threat posed by Peiping
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.971186
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.952778
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=0.122349
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 15 July) Israeli sources report that an Israeli civilian was killed near Lydda airport on the night of 13 July. Israel charges the attack was made by four Arab infiltrators. (Press) The Israeli cabinet decided at its special session on 11 July to take no reprisal for recent incidents involving Jordan, but authorized Prime Minister Ben-Gurion to take necessary action without further cabinet approval
+- original #12 segment 1: full_page_or_admin
+  Text: the event of a future serious incident attributable to Jordan. the possibility of Israeli retaliatory action must not be discounted. there has been some movement of the Israeli army toward strategic locations and some call up of civilian transport. Jordan is increasing the number of its "fedayeen." The recruits are to be under overall Jordanian army control but direct civilian supervision. the Druze tribes in Syria were providing substantial numbers of recruits. He added that a "fedayeen" leader in Lebanon will be provided with Jordanian "fedayeen" personnel for incursions into Israel
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

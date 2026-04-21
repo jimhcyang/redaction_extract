@@ -1,0 +1,127 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.702500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.952851
+kept_candidate_count=3
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 5. Thai leaders reluctant to participate in Southeast Asia defense
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 9. Turkish Ambassador sees Middle East Defense Organization as vital
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 11. Netherlands may recognize Farouk's title to Sudan
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Mossadeq
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 2: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.999299
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens
+  Text: both
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.901276
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: 5. Thai leaders reluctant to participate in Southeast Asia defense: Despite their gratification that France, Britain and the United States are giving serious consideration to the security of Southeast Asia, they were concerned that these efforts might "at some stage" provoke the Chinese Communists. They said that Thailand would be willing to cooperate only at "a low and inconspicuous level." Thai leaders hope for prompt United Nations action in the event of Communist aggression, but are trying not to commit themselves irrevocably to the West. Comment: The views expressed by Phibun and his Foreign Minister represent a considerable modification of the policy of a year ago. At that time Thailand was a leading advocate of a Pacific pact, to include the United States, for collective security in Southeast Asia
+Token count: 129
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.932623
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #8, segment 1)
+Text: 9. Turkish Ambassador sees Middle East Defense Organization as vital: A Soviet invasion of the Arab States through Iran would permit Turkey to be surrounded before the Atlantic Pact could be put into action. Hence the formation of MEDO is "a matter of life or death for Turkey." Comment: The Turkish Chief of Staff previously expressed anxiety over the danger of Soviet encirclement. The Turks realize their dependence on United States assistance and have continuously urged complete American participation in Middle East defense
+Token count: 83
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Mossadeq
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.950559
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #9, segment 1)
+Text: 11. Netherlands may recognize Farouk's title to Sudan: The Secretary General of the Dutch Foreign Office will recommend to the next Cabinet that it recognize Farouk as "King of Egypt and the Sudan." The Dutch official is quoted as having stated, with some irritation, that since Britain opposes European federation, it must expect other countries to act "quite independently
+Token count: 59
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.546667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=0.943750
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #10, segment 1)
+Text: Comment: This is the first report of mass deportations from a Czech city. During the past year evacuations are known to have been ordered from restricted border zones in western and southern Bohemia. In addition to the economic and political reasons given by the Embassy, it is probable that Bratislava, located at the southeastern end of the Czech border fortification line, is considered a strategic center. Two weeks ago, border guards ended free movement of Czechs between Bratislava and the Petrzalka area of Czechoslovakia across the Danube
+Token count: 87
+Recut: none

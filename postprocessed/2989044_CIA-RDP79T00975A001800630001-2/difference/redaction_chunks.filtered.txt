@@ -1,0 +1,101 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.427551
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.955357
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 2. Japan Communist Party's new policy causing concern in Tokyo
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: GENERAL
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: LATIN AMERICA 8. Antigovernment plotting in Guatemala may involve army
+- original #3 segment 2: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: GENERAL FAR EAST 2. Japan Communist Party's new policy causing concern in Tokyo: Japanese officials feel that the Japan Communist Party's new policy of appearing to minimize underground activities
+Token count: 29
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.901986
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #5, segment 1)
+Text: and of supporting all sympathetic forces will help to camouflage much of the party's activities behind the legitimate efforts of labor unions and political groups. This will create a much more difficult control problem for the Japanese government. The Communist strategy calls for specific agreements with the Socialists "and the like" under which each party to the agreement will retain autonomy and the right of criticism. the Japan Communist Party, confident that its covert apparatus and discipline are perfected, is ordering most of its high-level leaders who went underground in 1950 to take an openly active part in the coming election. Comment: the Japan Communist Party is already establishing liaison with Japan's largest labor federation, and is intensifying its efforts to infiltrate the Left Socialist Party. Recognizing their own impotence at the polls, the Communists have apparently decided their objective of weakening Japan's ties with the United States can best be accomplished by influencing the Left Socialist Party and other neutralist groups. The tactics of the Japan Communist Party correspond with those currently being employed by the international Communist movement
+Token count: 180
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens
+  Text: of
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.995798
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attach
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.996310
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Zarroug
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: LATIN AMERICA 8. Antigovernment plotting in Guatemala may involve army: Comment: Unrest is growing in Guatemala, both in the army and among the civilian groups backing Castillo. There are numerous rumors of an imminent attempt against the government, but no evidence that a coup is near. There is no other information on a plan to kill Monzon. He has been in quiet retirement since leaving the government in September, and is believed still loyal to Castillo. His death, however, might quickly be blamed on Castillo and could lead to a violent reaction in the army, where he still has a considerable following

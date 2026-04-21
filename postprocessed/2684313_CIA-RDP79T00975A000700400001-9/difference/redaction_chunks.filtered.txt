@@ -1,0 +1,87 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.833333
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: June 1952
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.960345
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 4. British firm offers copper ingots to Czechoslovakia
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 6. French sharply protest Czech and Polish radio incitements to riot
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.995392
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: pressed
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.977371
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: 4. British firm offers copper ingots to Czechoslovakia: A British trading firm in London has offered shipment, via Antwerp, of 500 tons of high-grade copper ingots to the State Non-ferrous Metals Import Corporation in Prague
+Token count: 35
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.650686
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: Comment: Western policy on copper ingot shipments to the Soviet Orbit shifted early this year from quantitative control to complete embargo. Czechoslovakia produces no copper ore, and its imports from within the Soviet Orbit, where copper is in short supply, are not large enough to satisfy rising military and industrial requirements
+Token count: 51
+Recut: none
+
+Clean Chunk #5 (original #7, segment 1)
+Text: 6. French sharply protest Czech and Polish radio incitements to riot: The French Foreign Office to protest recent Czech and Polish radio appeals to riot and rebellion as "inadmissible interference" in the internal affairs of France. The broadcasts in question were addressed to the French population and to the Polish colony in France during and after the 28 May demonstrations
+Token count: 60
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.957273
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #8, segment 1)
+Text: The Foreign Office emphasized that these violations of international courtesy clearly exceeded those "habitually committed" by the Polish and Czech radios. Comment: This protest against Satellite radio attacks is the strongest made by the French Government for some time and enlarges the scope of its anti-Communist drive
+Token count: 47
+Recut: none

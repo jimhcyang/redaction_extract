@@ -1,0 +1,93 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.642724
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: lune
+- original #2 segment 1: noncontent_keyword
+  Text: Copy No. 8-,E
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.934375
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #3, segment 1)
+Text: SOVIET UNION 2. Comment on Soviet plans to expand consumer goods production
+Token count: 12
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 3. French views on settlement of Indochina war reported
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #5, segment 1)
+Text: 6. Imminent retirement of Portuguese premier Salazar reported
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: page 3
+- original #4 segment 2: noncontent_keyword
+  Text: page 4
+- original #5 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.969863
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: SOVIET UNION 2. Comment on Soviet plans to expand consumer goods production: Pravda's announcement on 11 June that the Soviet Union had adopted "special measures" to exceed the original 1953 plan for production of consumer goods was preceded by specific orders implementing this policy
+Token count: 44
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: Such increases, which can be accomplished without significant cutbacks in production of armaments and major industrial commodities, should provide an incentive for labor to raise its productivity. SOUTHEAST ASIA 3. French views on settlement of Indochina war reported: Comment: France has long hoped for some general Far Eastern settlement to solve the Indochina problem. The French have also hoped to defeat the Viet Minh by inducing the Chinese Communists to cut off aid to Indochina, and to this end may press the United States to accept Communist China as a UN member. The Peiping regime can be expected to maintain a common front with the Viet Minh in any negotiations with the French. It would almost certainly not cut off aid to the Viet Minh in exchange for French support for its admittance to the United Nations
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.758424
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #8, segment 1)
+Text: 6. Imminent retirement of Portuguese premier Salazar reported: The most likely candidate for prime minister is said to be Luis Esteves Fernandes, present Portuguese ambassador to Washington. Comment: Reliable reports have indicated previously that Salazar is seriously concerned with the problem of his successor. Esteves Fernandes is not usually mentioned as a possible candidate. Salazar's voluntary retirement would probably not affect Portugal's internal stability or relations with NATO and the United States. The interim role of Santos Costa would seem unlikely except in the event of serious intra-governmental disagreement on the choice of Salazar's successor
+Token count: 95
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=6 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

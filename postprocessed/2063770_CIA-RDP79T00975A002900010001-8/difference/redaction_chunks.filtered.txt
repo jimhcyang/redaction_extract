@@ -1,0 +1,119 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.694000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.763876
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. USSR WARNS EGYPT TO STAND FIRM ON SUEZ SOLUTION
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 4. THE HUNGARIAN SITUATION (page 6). 5. LAOTIAN PREMIER WILLING TO RISK LOSS OF WESTERN AID
+Token count: 16
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #2 segment 3: noncontent_keyword
+  Text: page 7
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 8
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.969231
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 2. USSR WARNS EGYPT TO STAND FIRM ON SUEZ SOLUTION Soviet deputy foreign minister Zorin is urging Egypt to be firm in the face of "new Western tactics" which he expects to be initiated after the NATO meetings in Paris, probably through the "broker- the withdrawal of foreign troops should come first and that Egypt should then seek a Suez solution which would be no more favorable to the "aggressors than what was agreed on before the aggression, if not even less." Comment This restatement of Soviet support for Nasr may be counteracted to some extent by pressure from the neutralist nations. Tito said privately on 5 December that "Nasr should now be brought around to a better sense of his international duties and obligations" and that he planned to send him a "strong letter." He added that he was in touch with Nehru on the subject. Nehru will also probably be willing to urge Cairo to take a conciliatory attitude
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=0.936211
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #6, segment 1)
+Text: Ishibashi reportedly bears some resentment toward the United States for his four-year "purge" during the American occupation
+Token count: 17
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Kishi
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=0.122157
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin, noncontent_keyword
+  Text: 4. THE HUNGARIAN SITUATION The general strike
+- original #8 segment 1: full_page_or_admin
+  Text: Hungary apparently has ended in many areas, but tension continues and could lead to a renewal of the strike or to widespread fighting. Soviet military units and Hungarian police reportedly began moving into a number of Budapest industrial enterprises on 13 December in order to ensure plant safety and prevent worker demonstrations. At certain factories, workers' councils were dissolved. On the same date, the regime banned all mass gatherings in Budapest except those approved in advance by the police. Although workers in transportation and most factories have apparently reported to their places of work, little production has been resumed. The regime, citing the possibility of future mass unemployment, has inaugurated a strong campaign to persuade coal miners to return to work. The workers' resistance has not diminished although the regime has arrested many of their leaders. The workers' demands to the regime are now emphasizing the cessation of the arrests and the release of labor leaders, rather than general political issues. Fighting has taken place in a number of points throughout the country in the past few days. Although there have been numerous press reports of large concentrations of guerrillas in Miskolc, Pecs and the Lake Balaton region
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 5. LAOTIAN PREMIER WILLING TO RISK LOSS OF WESTERN AID Comment on: Laotian premier Souvanna Phouma's reported statement that he is willing to risk loss of Western support in order to bring several Pathet Lao officials into his cabinet may have been prompted by expectations that any reduction in aid would be offset by the Communist bloc. He has probably been encouraged in this belief by Pathet Lao negotiators who maintained pressure on him during November to adopt a policy of neutrality similar to that of Cambodia. The Pathets stressed that Cambodia is in the enviable position of receiving aid from both the Communist bloc and the West. Souvanna moved close to such a position on 2 November when he signed an agreement with the Pathet Lao including a provision that Laos would accept from any country aid "given without strings!" His finance minister reportedly has stated that Laos would have to depend on foreign aid from "all friendly countries, including China!" Souvanna is reliably reported to have told members of his own party on 12 December that in formulating policy Laos should remember that its friendship with the United States might only be temporary, whereas it will have a common border with Communist China and the Viet Minh forever
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.976224
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

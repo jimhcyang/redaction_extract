@@ -1,0 +1,75 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.982178
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: WESTERN EUROPE 7. French government presses for Soviet oil imports
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.972581
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.974627
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.972404
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.879337
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: WESTERN EUROPE 7. French government presses for Soviet oil imports: The French government's oil administration asked the French Oil Refinery Association to place orders for 550,000 tons of Soviet crude oil during the year ending 1 July 1955. The oil administration said it was dissatisfied with the price of Middle East crude and would insist on the introduction of other crudes into the French market. The 1953 trade agreement with the USSR provided for the import of 400,000 tons of Soviet petroleum and petroleum products
+Token count: 87
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.933113
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: Premier Mendes-France is eager for increased trade with the Orbit as one way of relieving France's international payments position, particularly in view of the anticipated drop in dollar aid for Indochina. The search for cheaper raw materials to lower French production costs will probably be intensified as part of the premier's drive to make French prices more competitive in world markets
+Token count: 61
+Recut: none

@@ -1,0 +1,92 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.703454
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. 49
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.969355
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: Iranians push for conclusion of Polish trade agreement
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: Attempt against Guatemalan Government possible
+Token count: 5
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: LATIN AMERICA
+- original #4 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.970717
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #6, segment 1)
+Text: Iranians push for conclusion of Polish trade agreement: The Iranians are pressing for speedy conclusion of the Iranian-Polish trade negotiations currently being carried on there. Iran is also anxious to sell oil to Poland despite the Polish Minister's lack of authorization to discuss anything except the trade agreement
+Token count: 48
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens
+  Text: Comment
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.931818
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #7, segment 1)
+Text: Prime Minister Mossadeq is planning to use the opening of trade negotiations with Poland and prospective oil negotiations with Czechoslovakia "to strengthen the position of the government and to refute the accusation that the government is following an anti-national and pro-American policy." "According to our friends," the Polish Minister reported, "the situation should be exploited and the agreement signed." Comment: Rumors of Polish negotiations for Iranian oil have been circulating for several months. Considerable interest and coordination exists within the Soviet Orbit on the Iranian situation. There is no indication, however, that the Soviet bloc actually will purchase Iranian oil or that it intends to help the Mossadeq government to survive. Mossadeq is interested in securing an economic agreement to bolster his own position and to indicate that his government is following a neutral policy
+Token count: 135
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: LATIN AMERICA 8. Attempt against Guatemalan Government possible: The possibility of a revolt there during the last week of January. It is the general belief in Guatemala that Lieutenant Colonel Castillo Armas is now in Mexico or El Salvador after a trip to the United States, where he is said to have been successful in obtaining help for the overthrow of the Arbenz administration. Castillo Armas is reported to have the support of one-third of the Guatemalan Army and to be receiving help from within the country. Comment: Castillo Armas led the abortive attempt on the Guatemalan Government in November 1950. He has been traveling in Central America since his escape from jail in Guatemala last June. Last month Castillo Armas was reported to have spoken optimistically of his plans for overthrowing the Guatemalan Government and occupying the presidency. He stated that his movement had more than enough money, that people were organized within Guatemala, and that the movement lacked only a few more arms and last-minute organization. Presumably, one of the movement's objectives would be to remove Communists and Communist-sympathizers from positions of influence in Guatemala

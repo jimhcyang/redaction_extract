@@ -1,0 +1,242 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.723462
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens
+  Text: Ed-7
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.950000
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 1. USSR prepares to launch space vehicle
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 3. Laotian Government wants UN and SEATO committees to investigate Communist involvement in Laos
+Token count: 14
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: Backup, Page 1) (Map
+- original #3 segment 2: noncontent_keyword
+  Text: Backup, Page 5) (Map
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.938562
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #4, segment 1)
+Text: USSR: We reported on 19 January that the USSR was completing preparations for launching a space vehicle from Tyura Tam; present evidence indicates that these now are virtually finished and, barring technical difficulties, a launch and probable recovery attempt could now occur at any time. Four Soviet ships which have supported missile tests in the past are "on station" in the Central Pacific, and three other Soviet vessels now are in or approaching positions off Africa where they also could monitor or help direct an orbiting vehicle
+Token count: 87
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 2: noncontent_keyword
+  Text: Page 1) (Map
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #6 segment 1: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.881654
+kept_candidate_count=3
+excluded_candidate_count=5
+
+Clean Chunk #4 (original #7, segment 1)
+Text: Laos: The Boun Oum government decided on 20 January to ask the United Nations and SEATO to send ad hoc committees to Laos to investigate its charges of Soviet and North Vietnamese involvement in the current fighting, according to the secretary of state for foreign affairs. The Laotian Government apparently hopes that the presence of such foreign observers would stop or at least minimize external support of local antigovernment elements as occurred during the hostilities in 1959 after a four-nation United Nations committee arrived in Laos. Laotian Army headquarters claims that Tha Thom, in southern Xieng Khouang Province, has been retaken by government forces, but confirmation is lacking. Meanwhile, new and important engagements between government and Kong Le - Pathet Lao forces appear imminent in the area of Vang Vieng. Soviet IL-14s and North Vietnamese transports continued airlift operations into Laos through 22 Jan, and additional flights are scheduled for 23 January. The Soviet LI-2s which recently arrived in Hanoi have not yet participated in the airlift into Laos
+Token count: 168
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #10, segment 1)
+Text: According to an earlier report from the Congo
+Token count: 8
+Recut: none
+
+Clean Chunk #6 (original #12, segment 1)
+Text: Another report
+Token count: 2
+Recut: none
+
+Excluded candidates:
+- original #7 segment 2: noncontent_keyword
+  Text: SECRET SABRE) (Page 5) (Map
+- original #8 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Tshombé's
+- original #9 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Tshombé's
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Tshomb
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: conflic
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.856909
+kept_candidate_count=0
+excluded_candidate_count=9
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: short_span_min_tokens
+  Text: areas
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: repeated
+- original #16 segment 1: short_span_min_tokens
+  Text: armed
+- original #17 segment 1: short_span_min_tokens
+  Text: the
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: controls
+- original #19 segment 1: short_span_min_tokens
+  Text: of
+- original #20 segment 1: short_span_min_tokens
+  Text: an
+- original #21 segment 1: short_span_min_tokens
+  Text: largely
+- original #22 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: Map
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.951429
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: full_page_or_admin
+  Text: Soviet Preparations for Space Vehicle Launching We reported on 19 January that the USSR was completing preparations for launching a space vehicle from Tyura Tam; present evidence indicates that these now are virtually finished. Four missile-range instrumentation ships, which have previously operated in connection with Soviet missile tests in the Pacific, have for the past five days maintained positions similar to those assumed for the space-related activities in September and October 1960. This disposition suggests that the USSR will again undertake to achieve the objectives of the unsuccessful attempts of 10 and 14 October. Three other Soviet vessels, which were stationed in the South Atlantic and appear to have been associated with the October tests, may also be involved again. Since 16 January the Dolinsk has been standing by near Fernando Poo Island off the Cameroons. On 18 January the Krasnodar was on a southerly course south of the Canary Islands. The Voroshilov may be in or headed for the Red Sea. These ships as well as those in the Pacific may be in or approaching positions where they could monitor or help direct an orbiting space vehicle. The forthcoming operation will probably involve an attempt to launch and recover an earth satellite vehicle. The Soviet high-frequency direction-finding organization KRUG has been conducting intensive exercises of the type noted in past capsule-recovery operations. In view of the Soviet record with Sputnik recoveries in 1960--one success and two failures--it is not believed that this operation would involve a human passenger
+- original #23 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.990033
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=0.984985
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #28 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #29 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #30 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #31 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=11 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #32 segment 1: full_page_or_admin
+  Text: The Situation in Laos The Boun Oum cabinet voted on 20 January to send separate requests to the United Nations and SEATO to send ad hoc committees to Laos to investigate its charges of Soviet and North Vietnamese involvement in the current hostilities, according to the secretary of state for foreign affairs, Sop-saisana. Laos' representative at the United Nations reportedly received instructions on 21 January to put the request to Hammarskjold, but the approach to SEATO apparently is still in draft form. The government's announcement on 21 January that three regiments of North Vietnam's regular army had crossed into Laos' southern provinces may be intended to reinforce these requests. Available evidence does not support the claimed intrusion. Faced with a deteriorating military situation, the Boun Oum government apparently hopes that the presence of such foreign observers would stop or at least minimize external support of local antigovernment elements. A similar unilateral appeal to the United Nations in 1959 during a period of less serious fighting resulted in the dispatch to Laos of a four-nation committee. Although the committee came up with no firm evidence of direct involvement of North Vietnamese units, its presence had an immediate quieting effect. Vientiane may also hope by these moves to forestall other international action--such as reactivation of the International Control Commission or another meeting of those nations attending the 1954 Geneva Conference--which it fears would only play into Communist hands. Laotian Army headquarters claims that government troops have retaken Tha Thom, in southern Xieng-Khouang Province, which had been reported lost to Kong Le - Pathet Lao forces on 20 January. Reports from this front are sketchy and confused, but a strong enemy effort apparently continues in this area, which is a potential jumping-off place for a government attack on the Plaine des Jarres. Meanwhile, important engagements between government and Kong Le - Pathet Lao forces appear imminent in the area of the
+- original #32 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=12 unred_source_page=14
+alignment_score=0.121944
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #33 segment 1: full_page_or_admin
+  Text: Phou Khoun road junction of Routes 7 and 13, and at Muong Kassy about 18 miles to the south of the junction. The enemy force, numbering about 600 men, which seized the junction from government units last week has split into two elements: one to defend the junction and reinforce enemy forces at Muong Kassy facing government columns advancing from Vang Vieng; and the other to move north on Route 13, some twelve miles toward Luang Prabang, where a government force equivalent to two augmented infantry battalions is readying for an attack on the junction. Additional enemy troops coming from the Plaine des Jarres will probably be committed to these two efforts to thwart the government's plan to clear the Vientiane - Luang Prabang road preparatory to a drive east along Route 7 toward the Plaine des Jarres. Soviet IL-14s and North Vietnamese transports continued airlift operations into Laos through 22 January and are scheduled for flights on 23 January. Since the arrival of the 18 Soviet LI-2s last week, there has been no indication that the 10 IL-14s which have been the backbone of bloc airlift operations since early December are to be retired, although this continues to be a possibility. None of the recently arrived LI-2s have been noted
+- original #34 segment 1: full_page_or_admin
+  Text: missions to Laos, but several flights between Hanoi and Haiphong have been detected. Two MI-4 helicopters, possibly two of the five which recently arrived in North Vietnam from the USSR, were scheduled to fly from Hanoi to Sam Neua on 21 January. This is the first time any of the Soviet MI-4s have been scheduled for flights into Laos. There are indications that the helicopters may have completed the flight as scheduled
+- original #34 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 23 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=13 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=14 unred_source_page=16
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

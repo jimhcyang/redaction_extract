@@ -1,0 +1,312 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.652273
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.905914
+kept_candidate_count=3
+excluded_candidate_count=12
+
+Clean Chunk #1 (original #1, segment 3)
+Text: 2. THE SITUATION IN HUNGARY
+Token count: 5
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 4. EAST GERMAN REGIME INCREASINGLY APPREHENSIVE
+Token count: 6
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 2)
+Text: 8. JAPANESE TO RAISE EUROPEAN SATELLITE ISSUE AT ASIAN SOCIALIST CONFERENCE
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 1. THE NEAR EAST CRISIS
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 6
+- original #2 segment 1: noncontent_keyword
+  Text: page 9
+- original #2 segment 3: noncontent_keyword
+  Text: page 11
+- original #3 segment 1: noncontent_keyword
+  Text: page 12
+- original #4 segment 1: noncontent_keyword
+  Text: page 14
+- original #4 segment 3: noncontent_keyword
+  Text: page 15
+- original #5 segment 1: noncontent_keyword
+  Text: page 16
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: COMMUNIST
+- original #7 segment 1: noncontent_keyword
+  Text: page 17
+- original #8 segment 1: noncontent_keyword
+  Text: page 18
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 1. THE NEAR EAST CRISIS (information as of 0200 EST) As of 0200, British military authorities were maintaining a news blackout on the progress of the operations against Egypt forecast by Prime Minister Eden. An official statement issued in London said no information would be released before 0400 EST. Press reports, however, indicated that a landing operation was taking place. The main objectives are presumably those stated by Eden--the Suez Canal centers of Port Said, Ismailia and Suez. The political objectives of the move, as reportedly stated to the French parliamentary foreign affairs committee on 30 October, are to overthrow Egyptian president Nasr and to install British and French troops in the canal zone for an indefinite period
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 31 Oct 56 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.122844
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: an estimated armored group began leaving the Giza encampment outside the city early on the morning of 30 October. a T-34 tank regiment was observed moving north
+- original #11 segment 1: full_page_or_admin
+  Text: the canal zone, presumably toward the Firdan bridge across the canal, on the night of the 29th. Israeli statements have also asserted that a movement of Egyptian forces across the canal into Sinai was taking place. Israel has officially stated that its forces are 18 miles from the Suez Canal, although it claims that the Israeli objective is not the canal, but the occupation of territory from which fedayeen operated
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 31 Oct 56 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: ISRAELI MOVES ON 29-30 OCT. 1956 SELECTED ROADS POSITION WHICH ANGLO-FRENCH FORCES INTEND TO OCCUPY
+- original #12 segment 2: noncontent_keyword
+  Text: 31 Oct 56 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: 2. THE SITUATION IN HUNGARY (information as of 0200 EST) Reports from reliable eyewitnesses in Budapest indicate that as of 1400 (Budapest time) on 30 October Soviet forces were withdrawing from the city, but apparently only to the outskirts. At noon Soviet tanks withdrew from the Kilian barracks, which were still occupied by armed nationalist insurgents. Later in the day, at 1820 hours, the Hungarian defense minister announced that agreement had been reached with the command of the Soviet forces in Budapest that all Soviet troops in the city would complete their withdrawal by dawn of 31 October. The job of maintaining order, according to the announcement, would be taken over simultaneously by certain units of the Hungarian army, the police, and the national guard. On the other hand, the American army attaché in Budapest, referring to Shepilov's statement of 29 October that "no Soviet units have arrived in Hungary in the last 24 hours, in fact last 64 hours," observed that a Soviet column was seen arriving in Budapest at 1100 hours on 30 October, with obvious signs of a long trip. Numerous reports of reinforcements by large Soviet forces over the Czech-Hungarian border are not borne out by Coincidental with these developments came the announcement of the formation of the Revolutionary Military Council of the Hungarian Army. This council stated it approved all the demands that had been made on the government by the workers’ councils, that it had decided to disarm immediately those secret police formations which still remained armed, and that it had dismissed a number of high officers including General Toth, armed forces chief of staff, and Generals Hazai, Hidvegi
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 31 Oct 56 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: and Szabo. Later announcements indicated that the council would be responsible for maintaining order in Budapest and throughout the country. The announcement that the Soviet troops would be withdrawn from Budapest contrasts with the earlier Soviet statement that the insurgents in the city must lay down their arms prior to any Soviet evacuation of the city. Although Premier Nagy's attitude has been vacillating in regard to this question, he clearly implied on 30 October that the insurgent forces in control of the provinces should retain their arms. He added that he expected these forces to become part of the regime's newly organized national guard. There are still no clear indications from any source whether and how soon Soviet troops may be withdrawn from Hungary. In a speech the afternoon of 30 October, however, Nagy repeated an earlier statement that he was negotiating this question with the USSR. Moscow's announcement on 30 October that it is "ready to enter into relevant negotiations . . . on the question of Soviet troops in Hungary" suggests that agreement may be reached soon concerning this matter. The announcement by Nagy last night that "the Revolutionary Military Council shall operate until the new government to be formed through general and secret elections takes office" meets the other major demand of the insurgents. Along with the announcements concerning the withdrawal of Soviet troops from Budapest, it suggests that the Nagy regime is moving toward complete capitulation to the rebels. Earlier in the day Nagy revealed that the one-party system in Hungary had been abolished and that a coalition government consisting of representatives from the Communist Party and from the other parties existing in 1945 (presumably the Smallholders, National Peasant, Citizens’ Democratic, Radical and Social Democratic) would be formed
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 31 Oct 56 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: An appeal was issued simultaneously for the reorganization of these parties. Later Budapest announcements stated that the Social Democratic, National Peasant, and Smallholders parties had re-formed in Budapest. If the Social Democrats should join the government it would be a clear indication that the Nagy regime has given in completely to rebel demands. So far, Nagy has been unable to gain Social Democratic participation in his government because of unwillingness to satisfy their demands. Unity of purpose among the rebel forces--who have no central authority and who remain only in tenuous contact with one another--appears to be confined largely to the question of Hungarian independence and the need for an immediate Soviet troop withdrawal from the entire country. Since actual fighting in the countryside apparently has ceased, and since the present moves of the Nagy regime may have caused some confusion among the rebel groups, political maneuvering is probably already under way between various insurgent factions, particularly between Communist and non-Communist elements. The Communist insurgents apparently retain their confidence in Nagy--insisting, however, that he must implement his promises before they will actively support him--, but non-Communist rebels probably remain suspicious of both Nagy and his intentions
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 31 Oct 56 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.938455
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: committee
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communist
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: progressive
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Zawadski
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: foundation
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: October
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: publication
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.974300
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Zawadski
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: subjected
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: full_page_or_admin
+  Text: 4. EAST GERMAN REGIME INCREASINGLY APPREHENSIVE The East German regime is becoming increasingly nervous over the dissatisfaction with internal conditions and the mounting tension among the population caused by the upheavals in Poland and Hungary. Military, police, and security forces have been alerted. The orders issued to them, together with public statements by government and party officials, show that the regime is determined to crush the first signs of hostile activity. crowds have been gathering in several areas and are discussing Polish and Hungarian developments. Many people are asking why East German governmental policies are not undergoing a liberalization similar to that in Poland and Hungary. Student discussion groups in several localities have posed embarrassing questions to party agitators sent to give them the correct line. Local and university officials have been warned to keep a watchful eye on student activities. Party first secretary Walter Ulbricht and Premier Otto Grotewohl, appearing on a radio and television "round-table discussion" on 27 October, gave the first detailed presentation of the regime's views on the recent developments. They emphasized the "differences" between conditions in East Germany and in Poland and Hungary, implying that workers in East Germany really have no grounds for discontent. Grotewohl categorically rejected any "liberalization" in East Germany on the grounds that it would mean a return to capitalism. Obviously referring to widespread demands for Ulbricht's ouster, Grotewohl said, "We are not going to change the government because it is the fashionable thing to do." Realizing that concessions on a few issues would inevitably lead to demands for further concessions, the regime appears determined to hold the line
+- original #25 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 31 Oct 56 Current Intelligence Bulletin Page 11
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.969731
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: liberalization
+- original #27 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: emphasizes
+- original #28 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Potsdam
+- original #29 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: stationing
+- original #30 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: asserts
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=0.968331
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #31 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: bloodshed
+- original #32 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: socialist
+- original #33 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: itself
+- original #34 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: imposition
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=14 unred_source_page=15
+alignment_score=0.937814
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #35 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: increasingly
+- original #36 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communist
+- original #37 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: abhorring
+- original #38 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: blaming
+- original #39 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: develop
+- original #40 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communist-dominated
+
+========================================================================
+[PAGE 16]
+kind=unred_only red_source_page=None unred_source_page=16
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #41 segment 1: full_page_or_admin
+  Text: 8. JAPANESE TO RAISE EUROPEAN SATELLITE ISSUE AT ASIAN SOCIALIST CONFERENCE Japanese delegates to the Asian Socialist Conference to be held in Bombay from 1 to 10 November have decided to raise the issue of the Soviet Satellites and to call for self-determination of all peoples oppressed by colonialism. The draft of the formal resolution will be determined after the attitude of other delegates to the conference is known. The Asian Socialist Conference is composed of Socialist parties representing Burma, India, Indonesia, Japan, Israel, Pakistan and Lebanon. South Vietnam and Nepal have observer status. The present chairman is Burmese premier Ba Swe, but he will probably be replaced by either an Indian or Indonesian at the forthcoming meeting. The Japanese proposal is likely to strike a responsive chord at the conference since the organization took an unequivocal anti-Communist stand when it was formed in 1953. The Praja Socialist Party of India already has declared that the use of Soviet forces in Hungary and the threat to use them in Poland was "most reprehensible." Although the Japanese proposal is critical of Soviet policy toward the Satellites, the Japan Socialist Party does not appear to favor restricting relations with the Communist bloc. The party reportedly intends to submit a report on trade with the bloc at the conference which will stress the urgent need for such trade for the well-being of all Asian nations, particularly Japan
+- original #41 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 31 Oct 56 Current Intelligence Bulletin Page 15
+
+========================================================================
+[PAGE 17]
+kind=unred_only red_source_page=None unred_source_page=17
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #42 segment 1: full_page_or_admin
+  Text: 9. GOVERNMENT PRESSES ITS ADVANTAGE IN SINGAPORE Rioting in Singapore has ceased and the curfew and other emergency restrictions are being lifted. The government is in complete command of the situation and the police and army are on the alert to meet any new outbreak. Documents captured during raids on pro-Communist labor union headquarters conducted during the riots contain evidence of a Communist conspiracy to overthrow the Singapore government. Political and union leaders who have been arrested will be held at least until the screening of these documents has been completed. In addition, legal technicalities are being exploited to continue the detention of Lim Chin Siong, a member of the Legislative Assembly and probably the colony's leading Communist. The government is pressing its advantage, despite protests from some highly influential Chinese. The Council of Ministers has rejected a so-called compromise proposal by Tan Lark-sye, a Peiping-oriented businessman who speaks for some elements of the Chinese community which have opposed the government's action. Chief Minister Lim has delivered a strong radio address blaming the pro-Communists for the disturbances and appealing to all Chinese to support his "indigenous" government
+- original #42 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 31 Oct 56 Current Intelligence Bulletin Page 16
+
+========================================================================
+[PAGE 18]
+kind=unred_only red_source_page=None unred_source_page=18
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #43 segment 1: full_page_or_admin
+  Text: 10. SECRETARY GENERAL OF NORTH VIETNAM'S COMMUNIST PARTY OUSTED Truong Chinh, secretary general of the Lao Dong Party (Communist) and its predecessors since 1941, and heretofore regarded as probably second man in the Viet Minh hierarchy, has resigned after criticizing himself for the "mistakes committed in land reform." Peasant discontent over the land reform program, heightened by famine conditions resulting from poor crops since 1954, culminated recently in open violence, according to Radio Hanoi. Chinh has been replaced by Ho Chi Minh, who retains his post as party chairman. Although Chinh has been made the scapegoat for land reform failures, he remains a member of the politburo and the secretariat and is apparently not marked for discard. Ho Chi Minh's assumption of the post of secretary general suggests an effort to use his great popularity to gain wider peasant support for the land reform program. To conciliate the peasants, the change may also lead to a slowing down and modification of the program
+- original #43 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 31 Oct 56 Current Intelligence Bulletin Page 17
+
+========================================================================
+[PAGE 19]
+kind=unred_only red_source_page=None unred_source_page=19
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #44 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 0200, 31 October) The Iraqi chief of staff has stated that Iraq will not move its troops from their present positions until it is absolutely essential; and that they will not take part in any operation where they would be under either Egyptian or Jordanian command. Iraq is willing, however, to fulfill its obligations toward Jordan if its forces are given a proper sector and a logical system of co-ordination. According to the American army attaché in Baghdad, the chief of staff appeared to be not unhappy over the possibility that Egypt might be trounced. As of 30 October, the American attachés in Tel Aviv estimated that Israeli mobilization was 90-95 percent complete. They reported a substantial dislocation of normal services and distribution facilities, especially in the cities. A complete countrywide blackout had been ordered to begin that night. Twenty Mystere jet fighters with what appeared to be French markings have been observed parked at Lod airfield in Israel. Eighteen French jet pilots arrived at Lod via transport aircraft on 30 October. (For another article bearing on the Arab-Israeli situation, see item 1, p. 3
+- original #44 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 31 Oct 56 Current Intelligence Bulletin Page 18

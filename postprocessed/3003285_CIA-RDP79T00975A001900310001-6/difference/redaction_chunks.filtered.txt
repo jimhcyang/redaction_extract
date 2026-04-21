@@ -1,0 +1,88 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.922857
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. Security conditions in North Sumatra continue to deteriorate
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: WESTERN EUROPE 4. Adenauer seen retaining coalition dissidents in government (page 5). LATE ITEM 5. Chou En-lai protests alleged violations of Geneva agreements
+Token count: 23
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.951705
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: SOUTHEAST ASIA 2. Security conditions in North Sumatra continue to deteriorate: The Indonesian government does not have sufficient armed strength in North Sumatra to engage in more than holding operations against the Atjehnese rebels, and security conditions have steadily deteriorated during the past three months. Rebel bands are well equipped, their morale is high, and the sentiment of the population throughout the area is against the government. Officials remain in their areas only as long as troops are present and withdraw when the troops leave
+Token count: 85
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.891386
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #4, segment 1)
+Text: Some contact and co-operation have been noted between the rebels and Communists, particularly members of Communist-controlled labor and veterans' organizations. Communist infiltration is at present insignificant, but is likely to increase as the Communists accelerate their labor activity on estates in the area. Comment: The Atjeh rebellion commenced in September 1953. Since then there has been chronic insecurity in the area, with the government holding the towns and cities and the rebels largely controlling the countryside, some increase in rebel activity during late 1954. there has been co-operation between the Atjehnese, a devout Moslem group, and the Communists. The Atjehnese heretofore have been strongly anti-Communist
+Token count: 105
+Recut: none
+
+Clean Chunk #5 (original #5, segment 1)
+Text: The Shah ordered Minister of Court Ala on 21 February to see that "political sharpshooting" at Zahedi was halted. This has stopped whispering campaigns against the prime minister and greatly strengthened his position
+Token count: 33
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: longstanding
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: WESTERN EUROPE 4. Adenauer seen retaining coalition dissidents in government: Chancellor Adenauer will probably not take "retaliatory action" against the coalition Free Democrats for voting against the Saar accord on 26 February. Adenauer will still need the Free Democrats' support to secure Bundesrat approval of the Paris accords and Bundestag approval of subsequent rearmament legislation. Most political observers in Bonn believe that the Free Democrats will not be ejected from the coalition. American officials note, however, that the chancellor has not yet made a decision on the matter. Comment: Adenauer could probably get rearmament under way without Free Democratic support, but he would have great difficulty in obtaining passage of certain constitutional amendments which may be required next year. Without the Free Democrats, his coalition would also become increasingly dependent on the nationalist-tinged Refugee and German Parties. Free Democratic chairman Thomas Dehler apparently believes his party would benefit by going into the opposition. Many Free Democrats are becoming dissatisfied with his leadership, however, and a move may develop to unseat him at the party's national convention later this month. LATE ITEM 5. Chou En-lai protests alleged violations of Geneva agreements
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.123280
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: Comment: members of the International Control Commission
+- original #9 segment 1: full_page_or_admin
+  Text: Vietnam anticipate a formal protest by the Viet Minh along similar lines and believe the Indian chairman would insist on a full airing of the charges. Chinese Communist propaganda has been emphasizing the points. Peiping's aims appear to be to intimidate Southeast Asian governments into reducing their co-operation with the United States, and to exploit differences in interpretation of the Geneva agreements between the United States and its allies and the Asian "neutrals

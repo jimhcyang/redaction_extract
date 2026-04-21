@@ -1,0 +1,169 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.889130
+kept_candidate_count=3
+excluded_candidate_count=8
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. ISRAELIS TO WITHDRAW FROM SINAI BY 22 JANUARY
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. PROBABLE EXTENSION OF SOVIET GUIDED-MISSILE RANGE (page 4). 3. NEW SOVIET CENTRAL COMMITTEE MEETING REPORTED SCHEDULED
+Token count: 17
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 2)
+Text: 7. JAPAN PROPOSES FORMAL NEGOTIATIONS WITH SOUTH KOREA (Secret
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: Top Secret
+- original #1 segment 5: short_span_min_tokens
+  Text: Eider
+- original #1 segment 6: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+- original #4 segment 3: noncontent_keyword
+  Text: Noforn) (page 9
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 1. ISRAELIS TO WITHDRAW FROM SINAI BY 22 JANUARY Israeli forces are to be "entirely out of Sinai" except for Sharm al Shaikh by 22 January. Eban said Israel will not withdraw from Sharm al Shaikh until there are "adequate assurances which protect genuine international interests." Eban said the stationing of UN forces at Sharm al Shaikh pending a final settlement would make an Israeli withdrawal possible. Eban deferred any discussion of the future of the Gaza strip. Comment Eban's statements presumably result from the 13 January meeting of the Israeli cabinet. Israel is making a determined effort to obtain freedom of transit in the Gulf of Aqaba and has indicated it favors the maintenance of an Israeli police force in the Gaza strip under UN supervision. Egypt has maintained that no discussions toward a settlement can be held prior to the restoration of the status quo ante. Nasr has suggested that a "serious problem" might arise if Israel has not withdrawn before the Suez Canal is cleared. units of the motorized frontier corps are being deployed back into Sinai
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.244926
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: PROBABLE EXTENSION OF SOVIET GUIDED-MISSILE RANGE Comment on: A lengthening of the Kapustin Yar missile test range eastward to a distance of 900 to 1,000 nautical miles has been indicated. The present most distant impact area is approximately 600 to 700 nautical miles east of the launching site. Aircraft flights between the Kapustin Yar area and the Akmolinsk/Karaganda region
+- original #7 segment 1: full_page_or_admin
+  Text: mid-1956 may have been connected with the establishment of this station. Although the station has not been involved in any actual missile-firing operations, it compares in both permanence and importance with the major administrative bases in the three known impact areas. On 13 January, following a 31-day period of operational inactivity, the range resumed operations with a short-range (150 nautical miles) firing. However, this period of inactivity could still reflect preparations for the integration of a new impact area into range operations
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 3. NEW SOVIET CENTRAL COMMITTEE MEETING REPORTED SCHEDULED Another meeting of the Soviet party central committee will be held before the 5 February Supreme Soviet meeting. The meeting will deal with ideological problems and with housing and other economic matters left unsettled in the decree of the December meeting. Ambassador Bohlen points out that any personnel shifts which the party presidium has in mind could be approved at such a meeting. He notes, however, that there has been no reflection in Moscow of the Warsaw rumor that Khrushchev won a "slim majority" over Malenkov in a vote at the December plenum. He doubts that such a vote could have taken place without becoming Moscow gossip. Comment The December plenum apparently did not come to grips with the problem of growing ideological disorientation among intellectuals and student groups, and a stern warning on the issue from a party plenum is a good possibility. A new meeting of the central committee could decide on specific goals for housing and make a final review of the 1957 budget, which is to be approved at the Supreme Soviet meeting. The December meeting of the central committee apparently postponed decision on earlier plans for an immediate increase of priority for housing, which had already been approved by the State Economic Commission for Current Planning. The removal of M. Z. Saburov, who headed the planning commission at that time, may have been caused in part by disagreement over housing priorities
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.937907
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: YEMEN-ADEN
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: urgently
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: according
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: mission
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: appear
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: operations
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.943609
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: members
+- original #16 segment 1: nonempty_redacted_alternate_conflict
+  Text: parties. President Sukarno, presumably anticipating
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: formation
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: participation
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: revolutionary
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.949692
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: noncontent_keyword
+  Text: Comment on
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Yugoslav
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: certain
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: impending
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: probably
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: regime
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: ideological
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: full_page_or_admin
+  Text: 7. JAPAN PROPOSES FORMAL NEGOTIATIONS WITH SOUTH KOREA Japanese foreign minister Kishi proposed to South Korean minister Kim in Tokyo on 10 January that formal negotiations be opened for an over-all settlement and the establishment of normal relations between their two countries, said Tokyo was prepared to withdraw or disavow the "offensive" remarks of a former Japanese negotiator, to drop claims to former Japanese property in Korea, and to agree to a mutual release of detainees with the promise that no additional Koreans would be interned by Japan pending a final settlement. He said "difficulties" would arise if an understanding were not reached before the Japanese Diet reconvened on 20 January. Kim said he had recommended to President Rhee that he accept the offer as the best obtainable and because it satisfies the major conditions which the Koreans have set for a settlement. He fears, however, that Rhee will vitiate the offer by insisting that Japan recognize the Rhee line. Comment A settlement with South Korea is a primary objective of Japan's new Ishibashi government, and release of more than 800 Japanese fishermen has top priority. Japanese officials feel the fishermen are being held as hostages to force Japanese acceptance of Korean terms and have stated that Japan will be compelled to alter drastically its conciliatory attitude unless progress toward a settlement is made soon

@@ -1,0 +1,88 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.701058
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. MOSCOW AGAIN URGES IRAN NOT TO JOIN BAGHDAD PACT
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 4. INTERNAL CHRISTIAN DEMOCRATIC DISPUTES REPORTEDLY THREATEN SEGNI GOVERNMENT
+Token count: 9
+Recut: none
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 6
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.978275
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 2. MOSCOW AGAIN URGES IRAN NOT TO JOIN BAGHDAD PACT Comment Soviet ambassador Lavrentiev's demarche to the Shah on 8 September and were timed to counter the effect of the Turkish president's recent visit to Iran. Iranian foreign minister Entezam told Ambassador Chapin on 26 September that the Shah was not particularly concerned at this veiled threat. The Soviet Union is able to bring severe economic pressure on Iran as required in order to influence the Shah on this question, but Moscow would probably prefer to avoid any act which could endanger the Soviet program to encourage "neutralism" among the other Middle Eastern states
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.952392
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: nationalist
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 4. INTERNAL CHRISTIAN DEMOCRATIC DISPUTES REPORTEDLY THREATEN SEGNI GOVERNMENT The intraparty maneuvers of Italian Christian Democratic secretary Amintore Fanfani against Premier Segni may bring about the fall of his government. Fanfani is allegedly using various domestic issues, such as the establishment of a constitutional court, land tenure pacts, and the reform of state-owned industries, to create difficulties for Segni. Segni reportedly threatened to resign over these intrigues at the 15 September meeting of his party's national council. Meanwhile, President Gronchi is reported to look forward to the possible fall of Segni, since this would open the way to the premiership for Budget Minister Vanoni. Comment Intrigue by Gronchi contributed to the downfall of the Scelba government last June. Gronchi favors a single-party Christian Democratic government with parliamentary support from the Nenni Socialists on domestic issues and Fanfani would probably go along. The candidacy of Vanoni seems to find favor with both Gronchi and Fanfani
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,102 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.582292
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.961161
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: SOVIET UNION 2
+Token count: 3
+Recut: none
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 4. Large shipments of Chinese aid to Viet Minh reportedly continuing (page 4). 5. French losing support of Thai tribesmen in western Tonkin
+Token count: 23
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 9
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996831
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: SOVIET UNION 2
+Token count: 3
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 3. SOUTHEAST ASIA 4. Large shipments of Chinese aid to Viet Minh reportedly continuing: Traffic along two important supply routes from China to Viet Minh marshaling areas in northern Tonkin has been heavy during the past two or three weeks, Heavy traffic between northern Tonkin and Hoa Binh, an important Viet Minh supply depot just west of the Tonkin delta
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.929508
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #7, segment 1)
+Text: 5. French losing support of Thai tribesmen in western Tonkin: Some guerrillas of the Thai tribes in western Tonkin, who have long been "useful allies of the French, are now going over the Viet Minh with their materiel and supplies, Comment: Consolidation of the Thai territory by the Viet Minh would put an end to the reconnaissance and harassing activity carried out by the French in conjunction with the Thai tribesmen, and would facilitate the flow of Chinese Communist supplies to the Viet Minh from Yunnan
+Token count: 86
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.995556
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: forebearance
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.999085
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 9
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

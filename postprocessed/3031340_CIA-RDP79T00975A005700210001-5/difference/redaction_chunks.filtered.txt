@@ -1,0 +1,254 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.521875
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.927419
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 3)
+Text: 2. South Korea: Military Revolutionary Committee consolidates position. (Page ii
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 5. Neutralist Conference: Nasir reportedly irked by Soviet opposition to conference. (Page v
+Token count: 13
+Recut: none
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 19 May 1961
+- original #2 segment 1: noncontent_keyword
+  Text: 1. Laos
+- original #2 segment 2: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.126116
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: NORTHERN LAOS GOVERNMENT forces
+- original #5 segment 1: noncontent_keyword
+  Text: contact KONG LE - PATHET LAO KONG LE - PATHET LAO AREAS ROAD TRAIL ROUTE NUMBER 0 50 100 STATUTE MILES
+- original #5 segment 2: noncontent_keyword
+  Text: 19 May 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #5 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 19 May 1961 DAILY BRIEF
+- original #6 segment 2: full_page_or_admin
+  Text: Laos: Several members of the government delegation to the Namone tripartite talks state that the Vientiane side agreed on 17 May to restrict future meeting discussions on the formation of a coalition government. This concession reportedly was made in order to obtain Pathet Lao agreement in principle to the formation of a tripartite military commission to work with the ICC in regulating the cease-fire. Phoumi, however, maintains that he expects no agreement on a coalition government to be reached since the Pathet Lao will probably make excessive demands for posts in such a government. Leaders of five progovernment political parties, including former Premiers Phoui Sannanikone and Tiao Somsanith, have departed for Geneva to join the Laotian government delegation. The delegation remains, however, under instructions to boycott the conference. The Meo partisan garrison at Pa Dong continues to receive enemy artillery fire; elsewhere, additional minor enemy actions have been reported. Soviet airlift operations into Laos were scheduled through 19 May
+- original #6 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 1) (Map
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: South Korea: President Yun Po-sun's call to the nation on 18 May to support the objectives of the revolution gives a final stamp of legality to the Military Revolutionary Committee (MRC). The insurgent leaders have ordered all civil servants back to work; the government ministries are to resume operation under the executive control of their respective administrative vice-ministers, with a military officer in charge of personnel and finances in each ministry. The MRC is attempting to enforce measures to avoid a dislocation of the economy. The American Embassy notes, however, that the committee appears to have few persons experienced in economic and banking matters. The failure of the committee to announce its promised revolutionary cabinet when it dissolved the National Assembly suggests that it has encountered difficulties finding persons who are both professionally qualified and politically acceptable. American officials in Seoul see some danger that the insurgents may turn to extreme right-wing elements associated with the Rhee regime to fill the gap, particularly in the economic ministries. Several former Rhee officials are believed to be maneuvering to take advantage of the situation. The revolutionary government has begun rounding up leftists and suspected pro-Communists. The staff of the leftist newspaper Minjok Ilbo has been arrested. Police security branches have been alerted to track down "leftist ringleaders" and seize all documents "even though you do not have a warrant." The Seoul Metropolitan Police are reported to have been ordered to arrest all persons on a "Communist Watch List" comprising about 70,000 persons including families, friends, and associates of the suspects. First Army Commander Lieutenant General Yi Han-im has been replaced by Lieutenant General Pak Im-chang. "Well-informed revolutionary sources" indicated Yi, who was subsequently arrested, failed to support the coup quickly enough or strongly enough
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 May 61 DAILY BRIEF
+- original #7 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: Several other generals and colonels whose loyalty to the coup is suspect have also been placed under arrest. described the coup as "a complete fabrication of the United States" but there were no new propaganda commentaries yesterday from either North Korea or Communist China. Soviet commentary on the coup implicates the United States in the revolt and notes that despite statements of support for the former Chang government, the US "has not even moved one finger" to support Chang
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 May 61 DAILY BRIEF
+- original #8 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=5 unred_source_page=8
+alignment_score=0.868421
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: normally
+- original #10 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Kalongi Tshombe
+- original #11 segment 1: noncontent_keyword
+  Text: 0 400
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=0.997507
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=10
+alignment_score=0.629202
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #12, segment 1)
+Text: Neutralist Conference: the UAR has suggested that joint invitations from Nehru, Nasir, Tito, and Sukarno be issued to the Cairo meeting, scheduled for early June, which is to prepare for a "neutralist summit" conference. Ambassadors or special envoys from about 20 Afro-Asian and Latin American countries and Yugoslavia are expected to attend. Although no significant comment from the USSR or the Communist bloc has been noted, a usually reliable Nasir has been angered by reports that the Soviet ambassador is "talking against" the conference
+Token count: 84
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #12 segment 2: noncontent_keyword
+  Text: Backup, Page 7
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: Laos Communist China is making a special effort to flatter Prince Sihanouk and dispose him toward the Communist side at the Geneva Conference. On 18 May, Peiping published a 14 May letter from Chou En-lai to Sihanouk praising the prince's decision to join the conference and promising that the Chinese delegation would work in "close cooperation" with the Cambodian delegation. In his opening speech at the conference, Foreign Minister Chen Yi went out of his way to laud Sihanouk. Earlier in May, Chou En-lai sent another letter pleading for Sihanouk's participation in the conference at a time when the prince was refusing to attend. In Geneva, the spokesman for the Chinese Communist delegation at a press conference expressed support for Gromyko's proposals and continued the castigation of US policy in Southeast Asia. Quinim Pholsena, leader of the delegation representing Souvanna Phouma at Geneva, Souvanna's policy was one of genuine neutrality, an aim shared by all who followed him. Quinim said that there was no point in escaping from the American camp merely to go into the Soviet camp. He added, however, that Laos could never be neutral without the support of both the West and the Communist bloc. Quinim stated that formation of a new government, which he considers vital to the resolution of the Laotian crisis, depended entirely on the attitude of the Vientiane government. If Phoumi were to stick to his present position as the "US strongman," it was difficult to see how a national government could be formed. In regard to a future Laotian army, Quinim observed that, provided a satisfactory settlement is reached, a force of 10,000 would be the maximum needed by a neutral Laos. between 9 and 16 May about one-half of the Third Battalion of the South Vietnamese army, previously stationed near Route 9 on the Vietnamese border, moved to a Laotian army command post about four miles inside
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 May 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=8 unred_source_page=12
+alignment_score=0.122610
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: Laos, and there began forest patrols. These troops were without insignia or papers. The Vietnamese special force previously operating at this command post has moved ten miles farther west into Laos for patrol duty on a north-south axis. Souvanna Phouma
+- original #15 segment 1: full_page_or_admin
+  Text: an apparent reference to these troops, accused them on 18 May of planning to attack his "government" troops and the Pathet Lao in the Tchepone area. Airlift operations on 17 May involved 22 sorties by Soviet transports and one by a North Vietnamese transport. Of this number, six Soviet IL-14s and two Soviet LI-2s were reflected flying into Laos. In addition, North Vietnamese air-defense facilities tracked five IL-14s and six LI-2s returning to Hanoi, possibly from Dong Hoi
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 May 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=10 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=11 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=12 unred_source_page=16
+alignment_score=0.998421
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: short_span_min_tokens
+  Text: a
+
+========================================================================
+[PAGE 17]
+kind=unred_only red_source_page=None unred_source_page=17
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: Neutralist Conference Soviet leaders probably feel that such a conference, managed by Nasir and Tito, would lessen the influence of the Afro-Asian solidarity movement in which both the USSR and Communist China actively participate and tend to undercut Moscow's efforts to identify itself with the uncommitted countries and to pose as the champion of neutralism. Moscow has shown increasing concern over the growing influence of the UAR in Africa, and almost certainly views with disfavor Tito's prominent role, particularly on the heels of the Yugoslav leader's African tour in March. Peiping probably considers the conference a setback to its plans for a Bandung-type Afro-Asian conference. Soviet Ambassador Yerofeyev in Cairo reportedly objected to the neutralist conference on the ground that it would weaken the "spirit of Bandung" and be used as a forum for imperialist propaganda. He complained that the conference planners had ignored Communist China's importance in Asia and added that the only purpose of the meeting is the personal aggrandizement of Nasir and Tito. Nasir, reportedly already offended by Khrushchev's recent criticism of the UAR, has ordered his minister of state to "remonstrate" with Yerofeyev. Touré-Nasir talks in Cairo had found the Guinean and UAR presidents agreeing that "Communism is not the answer to Africa's problems nor, probably, to those of any other new emerging nations." Nasir and Touré, while anxious to receive material aid from the bloc, have consistently maintained that they reject Communism
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 May 61 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 18]
+kind=unred_only red_source_page=None unred_source_page=18
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: THE PRESIDENT The Vice President Executive Offices of the White House The Special Counsel to the President The Special Assistant for National Security Affairs The Scientific Adviser to the President The Director of the Budget The Director, Office of Civil and Defense Mobilization The Director, National Aeronautics and Space Administration Chairman, Board of Consultants on Foreign Intelligence Activities Department of State The Secretary of State The Under Secretary of State The Director, International Cooperation Administration The Deputy Under Secretary of State for Political Affairs The Deputy Under Secretary of State for Administration The Counselor and Chairman of the Policy Planning Council The Director of Intelligence and Research Treasury Department The Secretary of the Treasury Department of Defense The Secretary of Defense The Deputy Secretary of Defense The Secretary of the Army The Secretary of the Navy The Secretary of the Air Force The Assistant Secretary of Defense (International Security Affairs) The Assistant to Secretary of Defense (Special Operations) The Chairman, The Joint Chiefs of Staff Chief of Naval Operations, United States Navy Chief of Staff, United States Air Force Chief of Staff, United States Army Commandant, United States Marine Corps U.S. Rep., Military Committee and Standing Group, NATO Supreme Allied Commander, Europe Commander in Chief, Pacific The Director, The Joint Staff The Director for Intelligence, The Joint Staff The Assistant Chief of Staff for Intelligence, Department of Army The Director of Naval Intelligence, Department of Navy The Assistant Chief of Staff, Intelligence, Department of the Air Force Department of Justice The Attorney General The Federal Bureau of Investigation The Director Atomic Energy Commission The Chairman National Security Agency The Director United States Information Agency The Director National Indications Center The Director
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=13 unred_source_page=19
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 20]
+kind=red_only red_source_page=14 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 21]
+kind=red_only red_source_page=15 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

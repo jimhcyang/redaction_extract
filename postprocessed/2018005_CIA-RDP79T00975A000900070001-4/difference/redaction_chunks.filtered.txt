@@ -1,0 +1,81 @@
+========================================================================
+[PAGE 01]
+kind=red_only red_source_page=1 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 18 October 1952 CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.918023
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: FAR EAST 1. China receives heavy power plant equipment from the USSR (page 3). NEAR EAST - AFRICA 2. General Nagib states opposition to Moslem Brotherhood (page 3). 3. Socialists reportedly plan armed revolt in Syria (page 4). 4. Communist strength and activity in Iraq increasing
+Token count: 45
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: FAR EAST 1. China receives heavy power plant equipment from the USSR: Comment: There has been little evidence of imports of heavy power plant equipment from the USSR. The shipments mentioned suggest that a significant increase in China's power-generating capacity is taking place, probably in Manchuria. The latter area's power supply was reduced one fourth by the UN bombing of the Suiho power plant in June. NEAR EAST -- AFRICA 2. General Nagib states opposition to Moslem Brotherhood: General Nagib has expressed his opposition to the Moslem Brotherhood, which he labelled "fanatic." Nagib also would place Egypt on the side of the West because it was impossible to be neutral in the present world situation. Comment: This is the first clear-cut statement of opposition to the anti-Western Moslem Brotherhood attributed directly to Nagib, whose relationship to the Brotherhood is a highly controversial issue. The views expressed are generally consistent with Nagib's current conduct of foreign affairs
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 3. Socialists reportedly plan armed revolt in Syria: Akram Hawrani, leader of the Arab Socialist Party of Syria, is planning with other parties an armed revolt against Colonel Shishakli's military regime, which the Socialists believe is weak and ready to fall. The revolt is to begin with a student strike and demonstration on 1 November, to be followed shortly by armed resistance. Comment: There is no other evidence of any Hawrani-sponsored coup. Although Shishakli can probably still deal effectively with any disorders that may develop, he is aware of increasing opposition and appears anxious to return the cloak of constitutional government to Syria. Shishakli's emissaries had made repeated attempts at a reconciliation with the politically powerful Hawrani. Hawrani refused to collaborate unless Shishakli withdrew completely from political activity and permitted him a free hand to implement his reform program. 4. Communist strength and activity in Iraq increasing: Factions within the party are now coordinated, and are concentrating their efforts on recruiting students. The present strength of the Iraqi Communist Party is estimated at 12,000
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.617094
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #5, segment 1)
+Text: Comment: The Communist Party has been outlawed in Iraq since 1938. However, in 1947 a well-organized covert party was discovered and suppressed. The activities described in this report closely follow the pattern of operations of other Soviet missions
+Token count: 38
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: American officials in Vienna believe that in going to Bonn Gruber expects to "steal the thunder" of extreme rightists whose pan-German line is endangering the position of the conservative People's Party in western Austria. Comment: This French move presumably reflects the chronic concern in Paris over closer Austro-German relations. Gruber's tendency toward independence in conducting Austria's foreign relations may be contributing to this concern. 7. De Gasperi expected to make strong pronouncement on Trieste issue: The American Embassy in Rome reports that Premier de Gasperi is "taking a serious risk" in continuing to absorb public criticism on the Trieste issue. He will probably feel impelled to make a strong statement along nationalistic lines at the conclusion of the current parliamentary debate on the Foreign Ministry's appropriation bill

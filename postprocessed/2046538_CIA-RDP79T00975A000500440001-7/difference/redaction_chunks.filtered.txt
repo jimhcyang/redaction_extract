@@ -1,0 +1,81 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECUR INFORMATION 3 February 1952 Copy No. 43 CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.979545
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: Burmese UN delegate suspects American support of the Chinese Nationalists
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.992032
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Panikkar
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Panikkar
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.708654
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #5, segment 1)
+Text: 3. Burmese UN delegate suspects American support of the Chinese Nationalists: The chief Burmese delegate to the United Nations, in a message to his Foreign Office, mentions that he suspects the United States is involved in the Chinese Nationalist activities in Burma. He urges that pending his return to Rangoon a committee begin compiling the report to be presented to the United Nations. Comment: This is the first evidence that the Burmese delegate, U Myint Thejin, who has previously attempted to dissuade his government from introducing the case before the United Nations, suspects American involvement
+Token count: 95
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.962862
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #6, segment 1)
+Text: Comment: Burma recently asked the United States to persuade the Chinese Nationalist Government to order Li Mi's troops in Burma to surrender in preparation for evacuation to Formosa. Burma's cooperation in such a plan was strongly implied. Fear of Communist China's reaction may have caused a change of attitude
+Token count: 49
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: terroristic
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.991935
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: peaceably

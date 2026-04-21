@@ -1,0 +1,63 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.962500
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: FAR EAST 3. Chinese Communists press negotiations for Ceylon rubber
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.999522
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens
+  Text: an
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.923675
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 3. Chinese Communists press negotiations for Ceylon rubber: The Bank of Ceylon has received an inquiry from the Chinese Communists regarding the possibility of opening a 100 million rupee credit to cover shipments of rubber to China. The bank expressed its willingness to open a credit in this amount if full dollar or sterling coverage were provided. Comment: This amount is sufficient to purchase about 20,000 tons of rubber, or the equivalent of Ceylon's output for two months. Following the loss of Malaya as a source of supply when the British embargoed rubber shipments to China, the Communists looked to Indonesia and Ceylon as alternate sources. Indonesia recently indicated that it would ban shipments of rubber to China in compliance with the UN embargo resolution. Ceylon, however, not being a member of the UN, still permits the export of rubber to all destinations
+Token count: 144
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

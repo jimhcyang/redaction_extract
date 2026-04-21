@@ -1,0 +1,421 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.829762
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens
+  Text: CI-9
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.962500
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: GENERAL FAR EAST 3. De Lattre believes Viet Minh has been seriously weakened
+Token count: 13
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 6. Swiss urge Iranians to come to terms with British
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: GENERAL FAR EAST
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.244581
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 3. De Lattre believes Viet Minh has been seriously weakened: General de Lattre, stating that Viet Minh losses
+- original #6 segment 1: full_page_or_admin
+  Text: the Tonkin fighting of late May have proved to be much higher than originally believed, estimates that the Viet Minh needs one year to recuperate. reports state that three of the Viet Minh's five elite divisions have been ordered to reorganize at one-eighth less than normal strength. He believes that the Viet Minh cannot organize an attack of any consequence within the next six months, and is faced with the alternatives of a "cease-fire," a request for large-scale troop support from the Chinese Communists, or exclusively guerrilla warfare. Comment: The rainy season (from June to August) would be marked by a decrease in Viet Minh activity, with a resumption of heavy attacks in September. The above estimate is far more optimistic than any which has yet been received. The reference to a cease-fire as an alternative open to the Viet Minh suggests that current rumors of an impending French-Viet Minh truce may have some foundation
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.996169
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens
+  Text: military
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: NEAR EAST/AFRICA
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.992032
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Caffrey
+- original #10 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.993561
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.994586
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.994444
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.600727
+kept_candidate_count=7
+excluded_candidate_count=12
+
+Clean Chunk #3 (original #12, segment 1)
+Text: By Rejected Submitted By 1
+Token count: 5
+Recut: none
+
+Clean Chunk #4 (original #19, segment 1)
+Text: 1 5 1100/16 2 6 1520/16 3 7
+Token count: 10
+Recut: none
+
+Clean Chunk #5 (original #21, segment 1)
+Text: 9 1420/16 3 10 1520/16 3 11 1430/16 3 12 1455/16 3
+Token count: 16
+Recut: none
+
+Clean Chunk #6 (original #22, segment 1)
+Text: 3 1455/17 3 2
+Token count: 5
+Recut: none
+
+Clean Chunk #7 (original #23, segment 1)
+Text: 2 1440/17 1 3
+Token count: 5
+Recut: none
+
+Clean Chunk #8 (original #24, segment 1)
+Text: 2 1440/17 1 4
+Token count: 5
+Recut: none
+
+Clean Chunk #9 (original #25, segment 1)
+Text: 2 1530/17 2 5
+Token count: 5
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens
+  Text: Published
+- original #13 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+- original #14 segment 1: noncontent_keyword
+  Text: 2 2 1410
+- original #15 segment 1: noncontent_keyword, short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: 2
+- original #16 segment 1: noncontent_keyword
+  Text: 3 3
+- original #17 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: 2 1435
+- original #18 segment 1: noncontent_keyword
+  Text: 2 4
+- original #20 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: 2 8
+- original #26 segment 1: noncontent_keyword
+  Text: 2 6
+- original #27 segment 1: noncontent_keyword
+  Text: 2 7
+- original #28 segment 1: noncontent_keyword
+  Text: 3 8
+- original #29 segment 1: noncontent_keyword
+  Text: 3 9
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.456688
+kept_candidate_count=13
+excluded_candidate_count=21
+
+Clean Chunk #10 (original #30, segment 1)
+Text: 1 1510/19 2 2
+Token count: 5
+Recut: none
+
+Clean Chunk #11 (original #31, segment 1)
+Text: 2 1520/19 2 3
+Token count: 5
+Recut: none
+
+Clean Chunk #12 (original #32, segment 1)
+Text: 2 1445/19 3 4
+Token count: 5
+Recut: none
+
+Clean Chunk #13 (original #35, segment 1)
+Text: 2 1515/20 3 2
+Token count: 5
+Recut: none
+
+Clean Chunk #14 (original #40, segment 1)
+Text: 2 6 1215/20 3 7
+Token count: 6
+Recut: none
+
+Clean Chunk #15 (original #42, segment 1)
+Text: 1 9 after 1530/20
+Token count: 5
+Recut: none
+
+Clean Chunk #16 (original #43, segment 1)
+Text: 10 1515/20 3
+Token count: 4
+Recut: none
+
+Clean Chunk #17 (original #46, segment 1)
+Text: 2 1340/21 3
+Token count: 4
+Recut: none
+
+Clean Chunk #18 (original #54, segment 1)
+Text: 3 11 after 1530
+Token count: 4
+Recut: none
+
+Clean Chunk #19 (original #56, segment 1)
+Text: 2 1420/23 3 2
+Token count: 5
+Recut: none
+
+Clean Chunk #20 (original #59, segment 1)
+Text: 2 1520/23 3 4
+Token count: 5
+Recut: none
+
+Clean Chunk #21 (original #60, segment 1)
+Text: 1 5 1335/23 3 6
+Token count: 6
+Recut: none
+
+Clean Chunk #22 (original #63, segment 1)
+Text: 1500/24 2 4 1520/24 2 5 1445/24 2 6 1445/24 2 7 1500/24 3 8 1500/24 3 9 1500/24 3
+Token count: 27
+Recut: none
+
+Excluded candidates:
+- original #33 segment 1: noncontent_keyword
+  Text: 1 5
+- original #34 segment 1: noncontent_keyword
+  Text: 1 6
+- original #36 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+- original #37 segment 1: noncontent_keyword
+  Text: 2 3
+- original #38 segment 1: noncontent_keyword
+  Text: 3 4
+- original #39 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: 2 5
+- original #41 segment 1: noncontent_keyword, short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: 8
+- original #44 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+- original #45 segment 1: noncontent_keyword
+  Text: 1 2
+- original #47 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: 2 4
+- original #48 segment 1: noncontent_keyword
+  Text: 2 5 1435
+- original #49 segment 1: noncontent_keyword
+  Text: 2 6
+- original #50 segment 1: noncontent_keyword, ocr_equivalent_to_redacted_text
+  Text: 3 7 1340
+- original #51 segment 1: noncontent_keyword
+  Text: 1 8
+- original #52 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: 9 1350/21
+- original #53 segment 1: noncontent_keyword, short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: 10
+- original #55 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+- original #57 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+- original #58 segment 1: noncontent_keyword, short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: 1515
+- original #61 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+- original #62 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 2
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.441771
+kept_candidate_count=11
+excluded_candidate_count=20
+
+Clean Chunk #23 (original #65, segment 1)
+Text: 1516/25 2 4 1335/25 2 5 1340/25
+Token count: 10
+Recut: none
+
+Clean Chunk #24 (original #66, segment 1)
+Text: 6 1512/25 3
+Token count: 4
+Recut: none
+
+Clean Chunk #25 (original #67, segment 1)
+Text: 3 1525/26 3 2
+Token count: 5
+Recut: none
+
+Clean Chunk #26 (original #73, segment 1)
+Text: 2 6 1510/26 2 7
+Token count: 6
+Recut: none
+
+Clean Chunk #27 (original #74, segment 1)
+Text: 8 1500/26 1 9 1500/26 1 10 1400/26 3 11 1400/26 3 12 1400/26 3
+Token count: 20
+Recut: none
+
+Clean Chunk #28 (original #78, segment 1)
+Text: 2 4 1345/27 2 5
+Token count: 6
+Recut: none
+
+Clean Chunk #29 (original #80, segment 1)
+Text: 7 1445/27 3 8 1445/27 3
+Token count: 8
+Recut: none
+
+Clean Chunk #30 (original #81, segment 1)
+Text: 3 1407/28 3 2
+Token count: 5
+Recut: none
+
+Clean Chunk #31 (original #82, segment 1)
+Text: 2 1115/28 2 3
+Token count: 5
+Recut: none
+
+Clean Chunk #32 (original #87, segment 1)
+Text: 7 1415/28 1 8 1407/28 3
+Token count: 8
+Recut: none
+
+Clean Chunk #33 (original #92, segment 1)
+Text: 3 4 1115/30 2
+Token count: 5
+Recut: none
+
+Excluded candidates:
+- original #64 segment 1: noncontent_keyword
+  Text: 2 2
+- original #68 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+- original #69 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: 3 3
+- original #70 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+- original #71 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: 4 1350
+- original #72 segment 1: noncontent_keyword
+  Text: 2 5
+- original #75 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+- original #76 segment 1: noncontent_keyword
+  Text: 2 2 1300
+- original #77 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 31
+- original #79 segment 1: noncontent_keyword
+  Text: 6 1500/27
+- original #83 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 2
+- original #84 segment 1: noncontent_keyword
+  Text: 2 4
+- original #85 segment 1: noncontent_keyword, short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: 5
+- original #86 segment 1: noncontent_keyword
+  Text: 6 1400/28
+- original #88 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+- original #89 segment 1: noncontent_keyword
+  Text: 3 2
+- original #90 segment 1: noncontent_keyword
+  Text: 2 3
+- original #91 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 2
+- original #93 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: 3 5 1504
+- original #94 segment 1: noncontent_keyword
+  Text: 1500/30
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=0.996512
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #95 segment 1: short_span_min_tokens
+  Text: W

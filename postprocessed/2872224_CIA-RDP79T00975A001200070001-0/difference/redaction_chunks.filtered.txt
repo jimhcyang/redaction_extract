@@ -1,0 +1,87 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.842105
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #1, segment 1)
+Text: US OFFICIALS ONLY
+Token count: 3
+Recut: none
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.956923
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 4. Captured prisoners report Communist plan to invade Tachen Islands
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.970597
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: wing
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 2
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.953469
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #6, segment 1)
+Text: Captured prisoners report Communist plan to invade Tachen Islands: Prisoners captured by Nationalist troops in recent island battles off the East China coast reported that Chinese Communist forces plan to occupy all of the Nationalist-held islands in the area. These plans include the seizure of Talushan, Chikushan, and Pishan prior to a six-regiment attack on the Tachens. The prisoners indicated that the Tachen operation would take place within three months of the initial action against Talushan
+Token count: 76
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.950238
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #7, segment 1)
+Text: Comment: The intensity of the recent Chinese Communist off-shore island campaign tends to support the statements of these prisoners. At least three combat-trained armies from Korea have been transferred to the East China coast since January
+Token count: 36
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA 6
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.995813
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.992342
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

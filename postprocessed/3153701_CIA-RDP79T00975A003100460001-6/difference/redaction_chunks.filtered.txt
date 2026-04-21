@@ -1,0 +1,83 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.800000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.906757
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. INCREASED ARAB NAVAL ACTIVITY IN RED SEA AREA
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5). 18 June 57 Current Intelligence Bulletin Page 2
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.994163
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: Comment on
+- original #4 segment 1: noncontent_keyword
+  Text: 18 June 57 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 2. INCREASED ARAB NAVAL ACTIVITY IN RED SEA AREA Three of Egypt's four destroyers, the Nasr, Qaher and Fateh, were scheduled to transit south through the Suez Canal The United States naval attaché in Cairo has reported that the ships were to carry Egyptian naval cadets on a visit to unspeci- fied ports. the ships may make "good-will" visits to the Sudanese port of Port Sudan and to the Saudi port of Jidda. These vessels are superior in gun power to the two Israeli patrol escorts stationed at Eilat. The Nasr is one of two modern Soviet-built ships acquired in 1956. Egypt is not believed to have succeeded in obtaining ammunition for the main batteries of the Qaher and Fateh, which were purchased from Britain last year
+- original #5 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 18 June 57 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.992082
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Misa
+- original #7 segment 1: noncontent_keyword
+  Text: 18 June 57 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=6 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

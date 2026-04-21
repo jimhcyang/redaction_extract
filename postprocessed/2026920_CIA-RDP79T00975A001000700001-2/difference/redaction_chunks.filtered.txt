@@ -1,0 +1,133 @@
+========================================================================
+[PAGE 01]
+kind=unred_only red_source_page=None unred_source_page=1
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: SUMMARY SOVIET UNION 1. USSR redeploys jet fighters in Far East
+- original #2 segment 2: full_page_or_admin, noncontent_keyword
+  Text: page 3
+- original #2 segment 3: full_page_or_admin
+  Text: FAR EAST 2. Movement of Chinese armies from Korea confirmed (page 3). 3. Taipei agrees in principle to withdrawal of forces from Burma (page 5). SOUTHEAST ASIA 4. Polish ship in Rangoon loading rubber and steel for Communist China (page 5). NEAR EAST - AFRICA 5. Mossadeq reportedly takes steps to remove Majlis opposition leader (page 6). 6. Ibn Saud grants Farouk $500,000 annually (page 7). 7. Israel asks United States for $70,000,000 grant (page 7). WESTERN EUROPE 8. Key German politician reportedly favors Bundesrat approval of EDC
+- original #2 segment 4: full_page_or_admin, noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: SOVIET UNION 1. USSR redeploys jet fighters in Far East: at least 217 MIG-15's were scheduled to make one-way flights from bases in the southern Maritime Province to more northerly bases, including Sakhalin, (see map, p. 4). Approximately 100 of these were scheduled for Komsomolsk. Other flights, originating at 9th Air Army and 5th Fleet bases, terminated at 10th Air Army and 7th Fleet bases in the northern Maritime area and on Sakhalin. Comment: About 90 of the MIG-15's scheduled for Komsomolsk were based at four southern Maritime airfields where new-type MIG's have recently been operating. This suggests that these aircraft may have been removed to the major MIG-15 factory known to be located at Komsomolsk for reconditioning or modification after being replaced by later model jets. Some of these planes, in addition to 20 others slated for Khabarovsk, may also be destined to bolster the limited jet fighter strength in the Khabarovsk-Komsomolsk areas. Dispatch of 90 MIG-15's from 5th Fleet bases to 7th Fleet airfields would strengthen Soviet naval air units along the upper Maritime coast and on southern Sakhalin. FAR EAST 2. Movement of Chinese armies from Korea confirmed: three Chinese Communist armies, including the 20th and 42nd, were transferred from northeast China to areas in East and South China where they had been based prior to the Korean war. Two additional
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=1 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=3 unred_source_page=5
+alignment_score=0.947235
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #4, segment 1)
+Text: arms which were still in Korea in February were to be transferred to China proper to strengthen the coastal defense. Comment: This report tends to confirm previous analysis that the large-scale troop movement from South and
+Token count: 36
+Recut: none
+
+Clean Chunk #2 (original #5, segment 1)
+Text: China to Korea during the past several months represents a rotation rather than a reinforcement of Chinese Communist forces in Korea
+Token count: 21
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.990103
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government's
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.900656
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #8, segment 1)
+Text: 6. Ibn Saud grants Farouk $500,000 annually: King Ibn Saud sent $500,000 to former King Farouk some months ago and has allotted him a similar amount annually. He has also directed that Farouk be urged to continue to "have confidence" in him. Comment: In allotting this aid, Ibn Saud runs a serious risk of damaging the good relations he has promoted with the Nagib government in Cairo
+Token count: 69
+Recut: none
+
+Clean Chunk #4 (original #10, segment 1)
+Text: WESTERN EUROPE 8. Key German politician reportedly favors Bundesrat approval of EDC: Reinhold Maier, head of the key Baden-Wuerttemberg delegation in the West German Bundesrat, reportedly told a meeting of his Free Democratic Party that approval of the Bonn and Paris treaties in the
+Token count: 44
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: approximately
+
+========================================================================
+[PAGE 10]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: upper house would not fail for lack of Baden-Wuerttemberg's five votes. Chancellor Adenauer allegedly asked Maier to postpone Bundesrat action in order to have a bargaining point in his forthcoming Washington talks. Comment: Maier, whose attitude on ratification has not been clear, is in a position to tip the scales either way in the Bundesrat. Favorable Bundesrat action on the treaties, which received final lower house approval on 19 March, now appears likely by late April

@@ -1,0 +1,77 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.980000
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. observers doubt free Vietnam's future
+Token count: 6
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.909447
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #2, segment 1)
+Text: SOUTHEAST ASIA 1. observers doubt free Vietnam's future: members of the International Control Commission in Saigon have told an American embassy officer that all the Vietnamese they have met are anti-Diem. They believe the Viet Minh will inevitably take over free Vietnam since the free Vietnamese, in contrast to the Viet Minh, can count only on the "ineffective, American-sustained Diem government" or a combination of the sects sponsored by Bao Dai. The Viet Minh government and army represent the only real unity and strength in Vietnam. Comment: The prolonged political crisis in the south has prevented the Diem government from starting an effective program that could appeal to the generally disillusioned public. At the same time, non-Communist members of the International Commission have invariably been impressed by the Viet Minh's effectiveness
+Token count: 131
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.996094
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Nehruitis
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.991713
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #6, segment 1)
+Text: CIA/FBIS 16 Oct 54
+Token count: 5
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: that
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Israeli-Jordanian
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.994792
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens
+  Text: of

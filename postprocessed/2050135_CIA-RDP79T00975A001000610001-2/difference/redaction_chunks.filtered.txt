@@ -1,0 +1,82 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 15 March 1953 Copy No. 60 CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.966667
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 3. North Korean Air Force increases jet strength
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 5. Shah reportedly still wishes to leave Iran
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.950000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 3. North Korean Air Force increases jet strength: Comment: During the past six months both the NKAF and the Chinese Communist Air Force have taken a more active role in the defensive air war which is now largely confined to the area between the Yalu and Chongchon Rivers. There are no firm indications that this defensive role will be expanded further south, or that it will change into an offensive mission
+Token count: 71
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.734992
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: 5. Shah reportedly still wishes to leave Iran: The Shah is remaining in Tehran out of a sense of duty to his people. The ruler stated he does not know how much longer he can carry on under present conditions. Comment: Ambassador Henderson has not talked with the Shah since the recent Tehran riots, but has reported unconfirmed information that the Shah might still try to leave the country at the first opportunity
+Token count: 73
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.958360
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #6, segment 1)
+Text: The Turkish Government has already made overtures to Iraq to support the foundation of a defense organization without Egypt, arguing that Egypt as a North African power might not be essential to Middle East security
+Token count: 35
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Gottwald

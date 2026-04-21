@@ -1,0 +1,91 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.783553
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: 4
+- original #3 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.918382
+kept_candidate_count=3
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #4, segment 1)
+Text: USSR 1
+Token count: 2
+Recut: none
+
+Clean Chunk #2 (original #5, segment 1)
+Text: 2. Japan - Nationalist China treaty considered not applicable to mainland (page 3). 3. Swiss hesitate to protect French interests in Shanghai
+Token count: 21
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #6, segment 1)
+Text: 5. Iranian Army concerned over possibility of British subversive activities
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 2: noncontent_keyword
+  Text: page 4
+- original #6 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: USSR 1. FAR EAST 2. Japan - Nationalist China treaty considered not applicable to mainland: Acting Japanese Foreign Minister Okazaki stated that the proposed Japan-China peace treaty would not apply to the Chinese mainland. In Okazaki's opinion, the phrase in Yoshida's 24 December letter to Ambassador Dulles regarding territories which might pass ultimately to Nationalist control referred only to the islands still being contested by the Nationalists and Communists
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.897426
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #8, segment 1)
+Text: Comment: Yoshida's letter stated that the treaty shall "be applicable to all territories which are now, or which may hereafter be, under the control of the National Government of the Republic of China." Okazaki's remarks are consistent with Japan's attempt, during the current negotiations, to avoid any phraseology or commitment which would imply current or future Nationalist sovereignty over the mainland. 3. Swiss hesitate to protect French interests in Shanghai: The Swiss Minister to China is reluctant to grant France's request that his Consul General in Shanghai protect French interests there, The Swiss Minister indicated that any action on behalf of French interests by Swiss representatives in Shanghai might arouse the animosity of the local Chinese authorities toward French nationals, but agreed to instruct the Consul General to use his good offices "personally and discreetly" to assist French interests. Comment: France does not recognize the Peiping regime and is withdrawing its consular officials from Shanghai. The Swiss, in keeping with their traditions of diplomacy, may agree to look after French interests in China, provided the French request covers all of China and not just Shanghai
+Token count: 185
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens
+  Text: for
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.933333
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #10, segment 1)
+Text: 5. Iranian Army concerned over possibility of British subversive activities: The Iranian General Staff in Tehran on 29 February warned subordinate units along the Iraqi border to be on guard against Iraqis, posing as religious leaders, whom the British are sending into Iran "to stir up discontent among the Iranian people with subversive propaganda." Comment: Since the beginning of the oil dispute, Iranian military traffic has frequently mentioned suspicions of British subversive activity. While there is no evidence that the British are trying to arouse discontent, Iranian reports do indicate that Iran is worried over the possibility of British action aimed at overthrowing the government in order to obtain a favorable settlement of the oil dispute
+Token count: 116
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

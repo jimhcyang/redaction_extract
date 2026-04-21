@@ -1,0 +1,181 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.942411
+kept_candidate_count=3
+excluded_candidate_count=8
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. NASIR INSISTS ON EGYPTIAN ADMINISTRATION OF GAZA STRIP
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 4. EGYPTIANS TRY TO PREVENT EXECUTIONS AND COUP IN SYRIA
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 2)
+Text: 6. THAI ARMY CHIEF REPORTEDLY DEMANDS PHAO OUSTER
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 3: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 3: noncontent_keyword
+  Text: page 8
+- original #5 segment 1: noncontent_keyword
+  Text: page 11
+- original #6 segment 1: noncontent_keyword
+  Text: page 13
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 1. NASR INSISTS ON EGYPTIAN ADMINISTRATION OF GAZA STRIP Comment on: Nasr told Egyptian foreign minister Fawzi "For your information we will not accept, now or in the future, any non-Egyptian administration of the Gaza strip!" This position, which Nasr apparently intends to maintain, is in direct conflict with Israel's stand that Egypt can never be allowed to return to the Gaza strip. Fawzi suggests also that Egypt intends to insist that the waters of the Gulf of Aqaba are not international but belong entirely to the Arab states which border the gulf--a position which is supported strongly by Syria and Saudi Arabia. In both Gaza and Sharm al-Shaikh, the next Egyptian objective following the Israeli withdrawal will probably be the evacuation of the UN Emergency Force or limitation of its functions to patrolling the 1949 Egyptian-Israeli armistice lines
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 6 Mar 57 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 4. EGYPTIANS TRY TO PREVENT EXECUTIONS AND COUP IN SYRIA Egypt is bringing strong pressure to bear on the Syrian government against carrying out the death sentences imposed in the recent treason trials of rightist leaders. leftist army officers led by Colonel Sarraj, the to stage a coup if the death sentences are not carried out by the present civilian leaders. The coup was originally scheduled for 0300 on 3 March, but was delayed for unknown reasons, among them possibly Egyptian pressure. The plotters intend to abolish the civilian government and parliament and establish a revolutionary council composed of six army officers and six civilian members of the Arab Socialist Resurrection Party. Comment While Nasr has previously indicated he opposes the executions, he has also warned Sarraj against attempting any coup. Sarraj and the leftists who were instrumental in carrying out the trials wish to capitalize on the executions in order to strengthen their position. The government, however, would like to find a way to commute the sentences. Nasr would look with disfavor on any coup in Syria because he fears that a revolutionary council would be less amenable to Egyptian guidance than the present ruling clique. Egyptian pressure may forestall the executions and a coup
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 6 Mar 57 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.934030
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #4 (original #9, segment 1)
+Text: a reliable source in Djakarta. Following his return from Surabaya on 4 March, Sukarno was ready to limit Communist representation to the proposed national council and agreed to the NU leader's insistent demand that the council be strictly advisory. Both the Masjumi and the NU are inclined to accept this compromise and let Sukarno save face, since they feel he and former vice president Hatta are the only men able to unite Indonesia again. The army chief of staff, meanwhile, has taken a letter from Sukarno to Hatta reportedly inviting him to discuss restoration of the "duumvirate
+Token count: 97
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #9 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: NOFORN
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Sumatran
+- original #11 segment 1: short_span_min_tokens
+  Text: all
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: 6. THAI ARMY CHIEF REPORTEDLY DEMANDS PHAO OUSTER General Sarit, the Thai army chief, has confronted Premier Phibun with a demand that Police Director General Phao and three of Phao's cabinet supporters be dismissed from all responsible positions in the government. Sarit maintained that the people obviously did not like the Phao faction and that many of the police had contacted Sarit to transfer their support. Sarit is reported to have threatened Phibun that if he did not acquiesce to army demands, he would be replaced as premier by Deputy Premier Worakan Bancha. Sarit is under great pressure from the army to effect Phao's removal, by force if necessary. Comment Sarit may have emerged from the postelection turmoil in Bangkok as the dominant figure in the Thai government. In such case, Phibun would appear to be in no position, at the present time, to resist should Sarit continue to press for the removal of Phao and his supporters. It is unlikely that Phibun will resign. In the past he has successfully balanced the Phao and Sarit factions to maintain his own position, and in the present situation he may continue the same maneuver
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 6 Mar 57 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=0.995386
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=11 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=12 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=13 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=14 unred_source_page=14
+alignment_score=0.998673
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: short_span_min_tokens
+  Text: Reference

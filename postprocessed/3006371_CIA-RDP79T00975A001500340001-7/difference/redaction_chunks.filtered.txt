@@ -1,0 +1,122 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.674375
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. 76
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.954717
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 2. USSR may be planning peace treaty for East Germany (page 3). SOVIET UNION 3. IL-28's and MIG-15's depart Wrangel Island
+Token count: 21
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 5. Penicillin "urgently needed" in Southwest China
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.984206
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #5, segment 1)
+Text: 2. USSR may be planning peace treaty for East Germany: the Soviet Union was about to conclude a peace treaty or the equivalent of
+Token count: 24
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: purposely
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: such a treaty with the East German regime. In addition, the East-West German zonal border would very shortly become a state border. Comment: The Soviet grant of "sovereignty" to East Germany has resulted in a spate of rumors that a peace treaty would follow. Such action would not be unlikely at some time in the future, but there appears to be no compelling reason for this now. SOVIET UNION 3. IL-28's and MIG-15's depart Wrangel Island: two IL-28 jet light bombers and four MIG-15 jet fighters departed Wrangel Island on 18 April. Comment: This is the first indication of the use of an airfield on Wrangel Island by jet aircraft. Recent airlift operations and indications of construction activity on Wrangel Island have suggested expanded development of facilities there, possibly including airfield construction or improvement
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.927397
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #7, segment 1)
+Text: 5. Penicillin "urgently needed" in Southwest China: Large quantities of penicillin and surgical instruments are "urgently needed" at Kunming in Southwest China. Comment: The urgency and large size of this shipment to Kunming, a main supply base in Communist China for western Tonkin, suggest that some of this penicillin is for the treatment of wounded at Dien Bien Phu. This quantity of penicillin, if its strength and weight are typical of packages for which specifications are available, would provide more than 500,000 doses of 300,000 units. This would appear to be far more than adequate to treat all enemy casualties at Dien Bien Phu
+Token count: 106
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.724848
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #5 (original #10, segment 1)
+Text: Air strip ISABELLE
+Token count: 3
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens
+  Text: EPERVIER
+- original #9 segment 1: nonempty_redacted_alternate_conflict
+  Text: ELIANE-12 DIEN BIEN PHU
+- original #11 segment 1: noncontent_keyword
+  Text: 0 0.5 1 Kilometers
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.995902
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: introduced
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

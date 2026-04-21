@@ -1,0 +1,86 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.858333
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.926947
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: NEAR EAST - AFRICA 3. Egypt attempts to purchase ammunition from Argentina (page 4). 4. King reportedly considers dissolving Greek Parliament
+Token count: 20
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 7. German Protestant leaders discuss Soviet note
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996028
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: NEAR EAST - AFRICA 3. Egypt attempts to purchase ammunition from Argentina: Argentine Government to obtain a "firm tender" for armor-piercing, incendiary, and ordinary ball ammunition. The government will authorize Argentine firms to offer Egypt the type of ammunition desired. Comment: Since Egypt has been unable to obtain arms from the United States and Britain as a result of the Anglo-Egyptian dispute, it has been attempting to obtain them from other countries. Egypt now has agreements to purchase certain arms from Spain, Switzerland and Czechoslovakia. 4. King reportedly considers dissolving Greek Parliament: The King may dissolve parliament next week and declare new elections, in the opinion of Deputy Karapiperis of the Greek Rally. The Deputy visited Papagos on 8 April and found the latter pleased with a recent audience he had with the King. Papagos thinks that the King will not take an unfriendly position toward him, as in the last elections. Comment: In early March the King reportedly considered dissolving parliament in view of the illness of Prime Minister Plastiras. The outgoing government has the right to designate the system to be used in the following election. It is doubtful, therefore, that parliament would be dissolved before the current controversy over the electoral system is settled
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.974466
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: While it seems certain that the majority system, which would favor the Greek Rally, will be employed, the Palace and the Liberals are said to be attempting a gerrymander in order to reduce Papagos' strength in southern Greece
+Token count: 38
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.916033
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: 7. German Protestant leaders discuss Soviet note: Christian Democratic Union (CDU) leaders and Dr. Gustav Heinemann, President of the Synod of the all-German Protestant Church, and Pastor Koch of the West Berlin Evangelical Church, concluded in agreement to rally all possible forces for a peace treaty. During the discussion, Heinemann emphasized that although the Oder-Neisse line is painful to many Germans, it is a problem subordinate to the maintenance of peace. His attempt to discuss the Weimar election law was rejected by the East Germans, and his request for an amnesty of prisoners in East Germany met with evasion
+Token count: 99
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: Comment: The East German CDU has been used extensively to recruit support among West Germans for the East German position on unification. Strong efforts have been made to use such "neutralists" as Heinemann and Pastor Niemoeller to gather support. The tenor of this meeting suggests that Koch and Heinemann will continue to support the East German ideas on unification

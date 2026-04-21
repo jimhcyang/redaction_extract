@@ -1,0 +1,266 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.696429
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin, short_span_min_tokens
+  Text: The
+- original #1 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Daily Brief
+- original #1 segment 3: full_page_or_admin
+  Text: of the
+- original #1 segment 4: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+- original #1 segment 5: full_page_or_admin
+  Text: is produced by the Director of Central Intelligence in consultation with representatives of departments and agencies of the United States Intelligence Board. Back-up material is produced by CIA with as much consultation with other departments and agencies as is practicable. When, because of the time factor, consultation with the department or agency of primary concern is not practicable, the brief will be produced by CIA and marked with an asterisk. Intelligence in this publication is based on all sources, including Interpretations of intelligence information in this publication rep- resent immediate and preliminary views which are subject to modi- fication in the light of further information and more complete analysis. Certain intelligence items in this publication may be designated specifically for no further dissemination. Other intelligence items may be disseminated further, but only on a need-to-know basis. WARNING This document contains classified information affecting the national security of the United States within the meaning of the espionage laws, US Code Title 18, Sections 793, 794, and 798. The law prohibits its transmission or the revelation of its contents in any manner to an unauthorized person, as well as its use in any manner prejudicial to the safety or interest of the United States or for the benefit of any foreign government to the detriment of the United States
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.248030
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 20 AUGUST 1960 I. THE COMMUNIST BLOC USSR may attempt to recover new earth satellite
+- original #3 segment 1: full_page_or_admin
+  Text: next few days. II. ASIA-AFRICA Congo-- Lumumba says he is prepared to "renounce" services of UN troops. III. THE WEST Adenauer concerned over De Gaulle's plans for European confederation and revamping of NATO. LATE ITEMS Situation in Laos. Rift in Mali Federation
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.899648
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #4, segment 1)
+Text: I. THE COMMUNIST BLOC USSR: Sputnik V was launched from Tyura Tam about 0445 EDT 19 August 1960. According to the TASS announcement, the space ship weights approximately 10,000 pounds and carries experimental animals including two dogs. Also according to TASS, the satellite is in near circular orbit at an altitude of about 200 miles. Sputnik V's orbit is nearly identical with that of Sputnik IV, launched on 15 May. A comparison of announced and derived characteristics of Sputnik V with those of Sputnik IV indicates a similar configuration. The only differences thus far noted are the inclusion of animals and of radio television apparatus for reporting their behavior. It is considered likely that an attempt will be made to recover the payload intact within the next few days, although no specific announcement re
+Token count: 135
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: de- mand
+- original #6 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: govern- ment
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.928211
+kept_candidate_count=2
+excluded_candidate_count=8
+
+Clean Chunk #2 (original #11, segment 2)
+Text: NOTE: In the brief on Iran in the
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #11, segment 4)
+Text: for 19 August, the first sentence should read: General Timur Bakhtiar, chief of the Iranian National and Security Organization (SAVAK), believes Iran is headed for revolu- tion as a result of the election policies followed by the Shah and Prime Minister Eqbal, and that the Shah will lose courage and flee when he realizes the situation has gone out of control
+Token count: 61
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: neces- sary
+- original #8 segment 1: noncontent_keyword
+  Text: Page 1
+- original #9 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Ade- nauer
+- original #10 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Ade- nauer
+- original #11 segment 1: noncontent_keyword
+  Text: Page 3
+- original #11 segment 3: noncontent_keyword
+  Text: Central Intelligence Bulletin
+- original #11 segment 5: noncontent_keyword
+  Text: 20 Aug 60 DAILY BRIEF
+- original #11 segment 6: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.892250
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #4 (original #12, segment 1)
+Text: Laos: King Savang is reported hopeful that a negotiated settlement can be worked out between Souvanna Phouma and General Phoumi as a way toward a bloodless solution which would preserve his neutrality in the situation. Souvanna's first attempt to enter into negotiations with Phoumi has ended in failure, however. Troop movements in preparation for Phoumi's scheme to encircle Vientiane are continuing; it will take ten days for Phoumi's planned force of 5,000 to reach the capital. Meanwhile, Captain Kong Le, leader of the Vientiane rebels, if the new Souvanna government did not conform to his ideals, he would have to remove it
+Token count: 103
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #12 segment 2: noncontent_keyword
+  Text: Page 5
+- original #13 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: blood- shed
+- original #14 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: alloca- tion
+- original #15 segment 1: noncontent_keyword
+  Text: Page 7) 20 Aug 60 DAILY BRIEF
+- original #15 segment 2: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.981041
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Congo- lese
+- original #17 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: gen- eral
+- original #18 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: stimu- lated
+- original #19 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ad- vantage
+- original #20 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: in- dependence
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.974867
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ex- change
+- original #22 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: is- sue
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.957233
+kept_candidate_count=0
+excluded_candidate_count=11
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Au- gust
+- original #24 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: confedera- tion
+- original #25 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: im- practicality
+- original #26 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Min- ister
+- original #27 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- mains
+- original #28 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: substan- tially
+- original #29 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Com- mon
+- original #30 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: at- tributable
+- original #31 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: suprana- tional
+- original #32 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: al- ternative
+- original #33 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: anti- British
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.982378
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #34 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Common- wealth
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #35 segment 1: full_page_or_admin
+  Text: Situation in Laos King Savang, while opposed to the Souvanna Phouma govern- ment, is reported anxious to appear neutral in order to avoid jeopardizing his crown and hopeful for a bloodless solution through negotiations between Souvanna and General Phoumi, leader of the countercoup forces. The King is understood to expect that Captain Kong Le and his supporters will be punished, once order is re- stored. Souvanna's first effort to enter into negotiations has ended in failure. Phoumi placed Souvanna's three emissaries under house arrest after an inconclusive meeting on 18 August. The emissaries are said to have had no authority or terms for a settlement, bringing only a request that Phoumi return to Vientiane. Troop movements in furtherance of Phoumi's plan to encircle Vientiane are continuing. A second battalion has been brought up from Pakse to Savannakhet to join the one which arrived earlier in the week. Another battalion is reported moving toward the Savannakhet area, while in northern Laos the movement of more troops toward Vientiane is said to have begun. Phoumi claims he will move his forces to Vientiane by road if no air transport be- comes available. the overland movement of the general's troops to Vientiane will take about ten days. Captain Kong Le the purposes of his coup were to stop Lao from fighting Lao and to install a government which would do something other than remain in Vientiane and get rich through corruption while there was fighting in the countryside. He added that for the present he was "just observing," but that if the new government did not live up to his ideals he would have to remove it. Kong Le was clear-headed and alert and had the qualities of an ex- cellent soldier, but that he was incredibly naive politically
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=0.123810
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #36 segment 1: full_page_or_admin
+  Text: Hanoi seems to want to avoid giving any impression that overt North Vietnamese intervention is likely under present circumstances. A recent Hanoi broadcast emphasized the internal nature of the "struggle" and pointedly stated that a countercoup would be opposed "exclusively" by Laotians. On 18 August, North Vietnam expressed its "satisfaction" with the Souvanna government and called for "friendly re- lations
+- original #37 segment 1: full_page_or_admin
+  Text: all fields
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=11 unred_source_page=13
+alignment_score=0.984668
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #38 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ap- pears
+- original #39 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: allo- cation
+- original #40 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Leo- pold
+- original #41 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: leader- ship
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=12 unred_source_page=14
+alignment_score=0.982902
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #42 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ap- proved
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=13 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=14 unred_source_page=16
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,132 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.953488
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOVIET UNION 2. Soviet ground-attack air regiments in East Germany converting to jets (page 3). 3. Tentative indication of Soviet aerial refueling activity
+Token count: 23
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 4. Japanese government blames Diet violence on American occupation policies
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: EASTERN EUROPE 9
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.992471
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: SOVIET UNION 2. Soviet ground-attack air regiments in East Germany converting to jets
+Token count: 13
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: During 1953, MIG-equipped Soviet fighter units in Europe and the Far East engaged in considerable ground-attack practice. Re-equipment of ground-attack units with MIG's suggests that the Soviet air force will no longer produce a specialized aircraft type for the ground-attack mission. Such a development, which may reflect Soviet evaluation of American use of jet fighter-bombers in Korea, would simplify Soviet tactical air procurement and maintenance. 3. Tentative indication of Soviet aerial refueling activity: Comment: This analysis, if verified, would provide the first indication that aerial refueling techniques are being used by the Soviet air force. Use of these techniques by a naval fighter unit outside the USSR would suggest that aerial refueling operations have been conducted inside the Soviet Union for some time. Conduct of such operations by the Long Range Air Force would significantly increase Soviet capabilities for intercontinental warfare. FAR EAST 4. Japanese government blames Diet violence on American occupation policies
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: Comment: Conservative elements in Japan have frequently blamed the United States for weakening the central police system, thus encouraging the activities of left-wing elements. This attempt to blame the United States and overlook the government's own shortcomings in coping with leftist violence is a further indication of a growing Japanese sensitivity over relations with the United States that was first sharply revealed by the atomic radiation incident. 5. Chinese Communists building road toward Burma: A 156-mile highway from Nanchien--near Mitu on the Burma Road in Yunnan Province--southwest to Mienning has been opened to truck traffic, according to a New China News Agency broadcast from Kunming on 1 June (see map, p. 6). The road is identified as part of the 304-mile Nanchien-Nanta highway, construction of which was started in April 1953. Comment: This highway, which was not known to be under construction, fills a large gap in Communist China's highway system in its southwest border region. It is the only motor road between the Burma Road and the recently completed military road to Cheli near the Sino-Burmese-Indochina border junction. This developing network of roads in southwest Yunnan Province will increase the mobility of the units of the 13th and 14th Armies that are stationed along China's southwest border. SOUTHEAST ASIA 6. Tonkin governor Tri reported to have resigned: Governor Nguyen Huu Tri submitted his resignation to Premier Buu Loc on 14 June. The reasons for his action are said to have been
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=6 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.982775
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #7, segment 1)
+Text: Tri may have been planning to resign when he quietly sent his family to France around the first of June
+Token count: 20
+Recut: none
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.992339
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: EASTERN EUROPE 9
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.996731
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=0.992827
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: a

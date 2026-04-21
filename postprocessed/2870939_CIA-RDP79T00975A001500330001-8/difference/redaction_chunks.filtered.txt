@@ -1,0 +1,99 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.938343
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 7. French report Chinese Communist aid to Viet Minh at unprecedented level (page 6). 8. Viet Minh may use Soviet rocket launcher at Dien Bien Phu
+Token count: 26
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: protege
+- original #2 segment 2: noncontent_keyword
+  Text: page 7
+- original #2 segment 3: noncontent_keyword
+  Text: NEAR EAST - AFRICA 9. 10
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996154
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: protege
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.994333
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.936817
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: French report Chinese Communist aid to Viet Minh at unprecedented level: Information termed "sure" by French intelligence indicates that Chinese Communist aid to the Viet Minh is at an unprecedentedly high level. A minimum of about 2,850 tons of supplies is arriving monthly over routes in eastern Tonkin, while a new western route is carrying a minimum of about 600 tons and may soon handle 900 tons monthly. The Viet Minh now has roughly 1,200 trucks. The Chinese furnished 130 toward the end of March, and planned to supply 135 in April and 60 in May. The French state that the Viet Minh has always used an undetermined number of Chinese drivers for their trucks, but are not certain whether these drivers have been used only near the frontier
+Token count: 131
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.122899
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 8. Viet Minh may use Soviet rocket launcher at Dien Bien Phu: Viet Minh forces at Dien Bien Phu are awaiting new weapons from Communist China. The weapons are referred to by a cover name but they may be Russian M-13 rocket launchers. Comment: The M-13 (132mm) rocket launcher, if employed at Dien Bien Phu, would probably be used
+- original #6 segment 1: full_page_or_admin
+  Text: area fire in an attempt to demoralize the defenders and soften up French positions prior to an assault. The launcher's accuracy, however, is poor, and the enemy's reported transport difficulties would militate against extensive use of these weapons. NEAR EAST - AFRICA 9
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 10
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

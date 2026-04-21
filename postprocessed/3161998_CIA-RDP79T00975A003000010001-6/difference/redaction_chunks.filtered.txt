@@ -1,0 +1,189 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.745921
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #3, segment 1)
+Text: 7). 5. ARAB REPORTS OF ISRAELI TROOP CONCENTRATIONS REMAIN UNCONFIRMED (page 8). 6. THAI TRADE DELEGATION RECENTLY IN PEIPING (page 9). 7. FRENCH ECONOMIC MISSION TO COMMUNIST CHINA POSSIBLE IN MARCH (page 10). 8. SAUDI ARABIA PROCURES MATERIAL FOR ALGERIAN REBELS
+Token count: 41
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 3)
+Text: 9. KEY BOLIVIAN LEADER FORESEES POSSIBLE STRIKES AND RIOTS
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 2: noncontent_keyword
+  Text: 2. SOVIET OFFICIALS COMMENT ON GERMAN PROBLEM
+- original #1 segment 3: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 2: noncontent_keyword
+  Text: page 11
+- original #3 segment 4: noncontent_keyword
+  Text: page 12
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.927481
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #6, segment 1)
+Text: Adenauer's coalition deputies believe the Socialist opposition will not profit greatly from the announcement
+Token count: 14
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reported
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: development
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.243929
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 2. SOVIET OFFICIALS COMMENT ON GERMAN PROBLEM On 15 February Alexandr Alexandrov, first secretary of the Soviet embassy
+- original #8 segment 1: full_page_or_admin
+  Text: Bonn, asked a German acquaintance what the West German reaction would be to a suggestion that the Bonn and Pankow governments announce their provisional status and possibly their readiness to withdraw from the Warsaw pact and NATO. Such an announcement, Alexandrov said, could be followed by a request from the United States and the USSR that the two German governments consult on preparing a constitution for a reunited Germany. Alexandrov said, "We should finally get rid of the idea that statements by Pankow reflect genuine political aims or convictions." He added that the Pankow regime could not survive if Bonn convinced Moscow that the West will not use a reunited Germany for military deployment against the USSR. He said the concept that the USSR wished to make use of Germany was obsolete since the East and West are now equal in atomic guided missiles. Both Alexandrov and S. M. Kudryavtsev, counselor of the Soviet embassy, expressed the view that Foreign Minister Gromyko would make new moves, "especially as to Germany!" Comment The hint that the East German regime would present no obstacle if Bonn and Moscow reach agreement is unusual, even in informal Soviet approaches. With reunification a major issue in the campaign for the September Bundestag elections, Soviet spokesmen can be expected to promote the idea that reunification is possible in an attempt to discredit Adenauer by forcing him to reject Soviet proposals, and making it appear that his government is preventing reunification. A suggestion that the two Germanies get together would not depart from previous Soviet and East German
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #9, segment 1)
+Text: proposals. Moscow probably expects, however, that Adenauer could not accept such a formula because of his often repeated refusal to countenance any negotiations with East Germany that could be construed as recognition of equality
+Token count: 34
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.907978
+kept_candidate_count=0
+excluded_candidate_count=9
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Comment on
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Germany
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Coal-Steel
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: signature
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: ratification
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Inclusion
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: last-minute
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: obstacle
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Assembly
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.934250
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: countries
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Pinkerton
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: 5. ARAB REPORTS OF ISRAELI TROOP CONCENTRATIONS REMAIN UNCONFIRMED Comment on: information "confirming the presence of large Israeli concentrations in the northern and central sectors" opposite Syria and Jordan, and that Israel was carrying out a partial mobilization. Despite this and similar earlier reports, Israeli concentrations were not substantiated on both sides of the Syrian-Israeli border up to noon on 17 February. Israeli call-ups and troop movements on the night of 18-19 February, but such activity is not confirmed. Both the Syrians and the Jordanians have exhibited considerable nervousness over Israeli intentions. Israeli strength has remained since December at about 80,000, consisting of 55,000 army troops and 25,000 in the paramilitary Nahal units which man the border settlements. Of the army personnel, only 25,000 are believed in combat units, with 7,500 each in the Northern and Central Commands and 10,000 in the Southern Command
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: 6. THAI TRADE DELEGATION RECENTLY IN PEIPING The Burmese embassy in Peiping issued transit visas to four members of an "unofficial" Thai trade delegation which had been in Peiping for over a month and which had been awaiting Chou En-lai's return. The delegation claimed it was there with the knowledge and consent of the Thai government, and that it was seeking to arrange the exchange of Thai rice for Chinese Communist consumer goods and light industrial machinery. While no contracts had yet been signed, the Thais indicated optimism that agreement could be reached prior to their departure for Bangkok via Kunming and Rangoon on 18 February. The delegation was anxious to prevent the US from learning of its Peiping visit. It expressed the belief that Sino-Thai relations are gradually becoming normalized through such unofficial contacts, although outright recognition must await Peiping's entrance into the UN. Comment Bangkok has been discreetly moving toward normal relations with Communist China. In response to growing domestic pressures, the Thai government lifted its embargo on nonstrategic trade with China last June. While the Phibun regime continues officially to discourage trade with the bloc, it has tacitly condoned--and on occasion probably covertly sponsored--unofficial contacts with Peiping
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: full_page_or_admin
+  Text: 7. FRENCH ECONOMIC MISSION TO COMMUNIST CHINA POSSIBLE IN MARCH Paris is planning to send a 20-man economic mission headed by Senator Henri Rochereau to Communist China for a one-month visit as soon as the Chinese Communists grant visas. Rochereau has verbal assurances that the visas will be granted, and the French hope to arrive ahead of a West German business mission which reportedly plans to leave soon. The French are not optimistic about obtaining large orders, but are hopeful of getting Peiping to accept a permanent French trade mission without diplomatic recognition by France. Comment Rochereau, who led the economic mission to Communist China in early 1956, has been trying to arrange a second trip since last fall. He has been reported as primarily interested in discussing political questions with the Chinese on behalf of French foreign minister Pineau. Peiping would probably welcome the visit in the hope that it would encourage groups in other free world countries, notably Japan, to bring added pressure against strategic controls. However, Peiping is still not likely to permit establishment of a permanent French mission in China unless the Chinese are granted reciprocal rights in France
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=8 unred_source_page=12
+alignment_score=0.122532
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: full_page_or_admin
+  Text: 8. SAUDI ARABIA PROCURES MATERIAL FOR ALGERIAN REBELS the Saudis have contracted for an unknown number of jeeps of Belgian origin for delivery to the Algerian rebels. The purchase contract apparently was signed on 14 July 1956 when an initial payment was made, with a delivery deadline of 6 June 1957. Comment This is the first report of the use of Saudi Arabian procurement facilities on behalf of the Algerians. Such services are normally performed by the Egyptians, while Saudi Arabia and other Arab states supply necessary funds. It is also the first indication that motorized equipment may be going to the Algerian rebels. French authorities
+- original #25 segment 1: full_page_or_admin
+  Text: Algeria are concerned over the greater number of arms reaching Algeria. Press sources claim that French forces are capturing only 30 percent of the arms involved in this traffic
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: full_page_or_admin
+  Text: 9. KEY BOLIVIAN LEADER FORESEES POSSIBLE STRIKES AND RIOTS Comment on: Juan Lechin, key Bolivian labor and political leader, feared serious trouble--possibly in March but not later than May--unless adjustments were made in the US-sponsored economic stabilization program, promulgated on 15 December 1956 and apparently successful thus far. Lechin said that if labor benefits are not improved, miners and other wage earners, spurred on by Communist agitators, would probably engage in strikes and riots which could result in the overthrow of the government and assumption of power by the Communists. Bolivian Communists and pro-Communists appear to be influential in local mine unions and have played a leading role in some strikes and in labor criticism of the stabilization program. They do not appear, however, to be capable of taking over the government. Other predictions of trouble in March by Bolivian officials have suggested that the leftist civilian militia would play an important role in opposition to the army. Lechin said, however, that the militia was no threat to anyone because it lacked ammunition and most of its arms were in the hands of rural workers who are least hit by rising costs

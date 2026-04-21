@@ -1,0 +1,132 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.825000
+kept_candidate_count=1
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 3. SHISHAKLI REPORTEDLY DEPARTS FROM MIDDLE EAST (page 5). 4. RIOTS REPORTED IMMINENT IN CZECHOSLOVAKIA
+Token count: 15
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+- original #5 segment 1: noncontent_keyword
+  Text: page 9
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 10
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.974242
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.970531
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #8, segment 1)
+Text: 3. SHISHAKLI REPORTEDLY DEPARTS FROM MIDDLE EAST
+Token count: 7
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.122150
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 4. RIOTS REPORTED IMMINENT
+- original #10 segment 1: full_page_or_admin
+  Text: CZECHOSLOVAKIA a tense situation in Czechoslovakia is "capable of developing into serious, Poznan-type riots." Public dissatisfaction is described as increasing, with Prague University becoming a center of antigovernment ferment. The government allegedly is intensifying public security measures, but serious conflicts reportedly exist within party headquarters, and in the present state of affairs "responsible authorities are unable to make important decisions for fear of possible repercussions." President Zapotocky's status is said to be increasingly insecure because of his connections with the Stalin era and because he is not now in Khrushchev's favor. Comment This report appears to exaggerate current dangers to the Czech government. There is little doubt, however, that the party high command is seriously concerned with the possibility of labor demonstrations and further student unrest. Since last month, when the regime admitted that considerable ferment existed within the party and among university students and announced that a counteroffensive had been mounted against all threats to party unity, the Czechoslovak scene has been characterized by outward calm. The regime presumably has taken precautions against open displays of dissidence and will probably attempt to present an appearance of complete unity at the top party level, at least until the possibility of serious unrest diminishes
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.941281
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.965829
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.956628
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.833810
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens
+  Text: Press

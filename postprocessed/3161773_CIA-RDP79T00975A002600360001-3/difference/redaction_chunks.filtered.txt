@@ -1,0 +1,103 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.652273
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.953333
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. EAST GERMAN PARTY BOSS ULBRICHT RUMORED PURGED
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.998636
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: Comment
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 2. EAST GERMAN PARTY BOSS ULBRICHT RUMORED PURGED rumors are circulating that First Secretary Ulbricht and Justice Minister Benjamin have been removed from their posts and arrested. Comment Even though Ulbricht is widely hated in the party, there appears to be little possibility that internal opposition alone could bring about his downfall, since he is in firm control of the regime, including the secret police and armed forces. Benjamin was recently under fire for her connection with past trials and sentences in East Germany which are now being repudiated
+- original #5 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 11 July 56 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.967112
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: promote
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: students
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: increasingly
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.948533
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: announced
+- original #10 segment 1: short_span_min_tokens
+  Text: Press
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reported
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: submarines
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reportedly
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

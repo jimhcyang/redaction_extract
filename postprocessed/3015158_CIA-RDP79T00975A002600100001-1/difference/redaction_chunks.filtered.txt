@@ -1,0 +1,157 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.831373
+kept_candidate_count=2
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #3, segment 2)
+Text: 5. AUSTRIAN RECOGNITION OF COMMUNIST CHINA REPORTED IMMINENT
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 2)
+Text: 7. BURMESE REBUFFED BY CHINESE COMMUNISTS ON BORDER ISSUE
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 3: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+- original #4 segment 3: noncontent_keyword
+  Text: page 9
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 11
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.835404
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #6, segment 1)
+Text: A year ago, when arms negotiations between Egypt and the West were faltering, Shepilov negotiated the Czech arms deal in Cairo. (Concurred in by ORR
+Token count: 25
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.973228
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.949254
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.970306
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 5. AUSTRIAN RECOGNITION OF COMMUNIST CHINA REPORTED IMMINENT The Austrian Foreign Ministry reportedly told in early June that Austrian recognition of Communist China is imminent. The Austrian ambassadors in Washington and London are said to have been instructed to submit to Vienna their recommendations on timing and their estimates of probable American and British reactions. Comment Foreign Minister Figl told last December that Austria could not afford to "get out in front" and there would be no question of Austrian recognition of the Peiping government until such time as China's status had been regulated by the United Nations. Since that time, however, the question has evidently been under further consideration in the Foreign Ministry, where there has been pressure for recognition from trade circles as well as from the Austrian ambassador in Moscow. press reports of the recent relaxation of controls on deliveries to China by British colonies evoked an immediate reaction from the Austrian Ministry of Trade and that Austrian interest in China trade is "particularly acute" now in view of the expected departure on 22 June of an Austrian trade delegation to China
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.912141
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #9, segment 1)
+Text: The national police, which may also be investigated by the assembly
+Token count: 11
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: re-election
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 7. BURMESE REBUFFED BY CHINESE COMMUNISTS ON BORDER ISSUE Comment Chou's refusal to accept the present boundary line and his rebuff of Burmese premier U Nu's request in February for a boundary commission are the clearest indications thus far that Peiping plans to hold its boundary claims in reserve as a lever to influence Burmese policy. Chinese Communist maps show a large portion of the Kachin State as well as the Wa States to be Chinese territory. For the
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.123810
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: past year Rangoon has sought a settlement of the boundary, apparently
+- original #12 segment 1: full_page_or_admin
+  Text: the hope of capitalizing on the Chinese Communist campaign to convince the Burmese of China's peaceful intentions. The disappointment expressed by Rangoon points up the development of Burmese disillusionment with Chinese Communist professions of "peace and coexistence." U Nu has complained of Chinese Communist and Soviet intervention in Burmese political affairs
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.954609
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Eilat
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

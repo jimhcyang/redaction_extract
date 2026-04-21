@@ -1,10 +1,10 @@
 {
   "pair_key": "3448329_CIA-RDP79T00975A002100230001-1",
   "row_index_1based": 1326,
-  "unredacted_pdf": "docs\\unredacted_pdfs\\cib_03448329.pdf",
-  "redacted_pdf": "docs\\redacted_pdfs\\CIA-RDP79T00975A002100230001-1.pdf",
-  "redacted_pdf_copy": "transcriptions\\3448329_CIA-RDP79T00975A002100230001-1\\source_pdfs\\CIA-RDP79T00975A002100230001-1.pdf",
-  "unredacted_pdf_copy": "transcriptions\\3448329_CIA-RDP79T00975A002100230001-1\\source_pdfs\\cib_03448329.pdf",
+  "unredacted_pdf": "docs/unredacted_pdfs/cib_03448329.pdf",
+  "redacted_pdf": "docs/redacted_pdfs/CIA-RDP79T00975A002100230001-1.pdf",
+  "redacted_pdf_copy": "transcriptions/3448329_CIA-RDP79T00975A002100230001-1/source_pdfs/CIA-RDP79T00975A002100230001-1.pdf",
+  "unredacted_pdf_copy": "transcriptions/3448329_CIA-RDP79T00975A002100230001-1/source_pdfs/cib_03448329.pdf",
   "csv_row": [
     "Current/Central Intelligence Bulletin Collection",
     "3448329",
@@ -18,42 +18,8 @@
     "1955",
     ""
   ],
-  "model": "gpt-5.2",
-  "redacted_status": "completed",
-  "redacted_response": {
-    "model": "gpt-5.2",
-    "response_id": "resp_06bd2636997292670069dda23e461481979ffbd906bbeeab37",
-    "uploaded_file_id": "file-FSbAynpjpyeh1GY79KvwTb",
-    "usage": {
-      "input_tokens": 6858,
-      "input_tokens_details": {
-        "cached_tokens": 0
-      },
-      "output_tokens": 1398,
-      "output_tokens_details": {
-        "reasoning_tokens": 0
-      },
-      "total_tokens": 8256
-    },
-    "attempts": 1
-  },
-  "unredacted_status": "completed",
-  "unredacted_response": {
-    "model": "gpt-5.2",
-    "response_id": "resp_06fe18f86e0505580069dda2514c388196a69083727f4b5fa0",
-    "uploaded_file_id": "file-Aefb3tzXe2wLsVByKVfZfk",
-    "usage": {
-      "input_tokens": 10782,
-      "input_tokens_details": {
-        "cached_tokens": 0
-      },
-      "output_tokens": 1727,
-      "output_tokens_details": {
-        "reasoning_tokens": 0
-      },
-      "total_tokens": 12509
-    },
-    "attempts": 1
-  },
+  "model": "gpt-5.4-mini",
+  "redacted_status": "skipped_existing",
+  "unredacted_status": "skipped_existing",
   "pair_status": "completed"
 }

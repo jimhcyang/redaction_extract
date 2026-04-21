@@ -1,0 +1,254 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.600000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.095626
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 20 MAY 1958 I. THE COMMUNIST BLOC Reports of some opposition to Khrushchev received. II. ASIA-AFRICA Lebanon - UAR support for opposition continues. Jordan cut off from fuel sources
+- original #2 segment 1: full_page_or_admin
+  Text: Lebanon, drawing on military stocks; UAR message notes shortage of 100-octane gasoline in Syria. Indonesia - Djakarta steps up attack near Gorontalo; says Peiping has offered "thousands of volunteers." Ceylon to request up to $50,000,000 in foreign aid from Western sources. Algerian movement now considered "irreversible." Tunisia - Loyalty of French troops in Tunisia wavering. III. THE WEST France - De Gaulle's statements strengthen extremist elements in French military. Britain will offer protection to its fishing trawlers if Iceland extends territorial limits to 12 miles. Venezuela - Extensive government changes under way, with chances of de facto military take-over increased
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.941478
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens
+  Text: believes
+- original #4 segment 1: noncontent_keyword
+  Text: Page 1
+- original #5 segment 1: noncontent_keyword, ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ASIA -AFRICA
+- original #6 segment 1: short_span_min_tokens
+  Text: diffi
+- original #6 segment 2: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.919715
+kept_candidate_count=5
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #7, segment 1)
+Text: American involvement may lead in turn to Soviet intervention. Nevertheless, continued UAR action can be expected
+Token count: 16
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #8, segment 1)
+Text: aircraft flying from Egypt to Syria carry enough fuel for the round trip in view of the situation in Lebanon and the fact that the air force in Syria has small reserves of 100-octane gasoline
+Token count: 35
+Recut: none
+
+Clean Chunk #3 (original #9, segment 1)
+Text: one American and one Menadonese were captured when a B-26, which the government claimed to
+Token count: 15
+Recut: none
+
+Clean Chunk #4 (original #10, segment 1)
+Text: shot down on 18 May, ditched
+Token count: 6
+Recut: none
+
+Clean Chunk #5 (original #11, segment 1)
+Text: the sea north of Ambon. (See
+Token count: 6
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #7 segment 2: noncontent_keyword
+  Text: Page 2) (Map
+- original #11 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: map
+- original #11 segment 3: nonempty_redacted_alternate_conflict
+  Text: on facing page
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.995021
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: Page 4
+- original #13 segment 1: noncontent_keyword
+  Text: Page 5
+- original #14 segment 1: noncontent_keyword
+  Text: Page 6
+- original #15 segment 1: noncontent_keyword
+  Text: Page 7
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.986111
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #6 (original #17, segment 1)
+Text: from the defense minister and the chief of the general staff
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #16 segment 1: noncontent_keyword
+  Text: Page 8
+- original #17 segment 2: noncontent_keyword
+  Text: Page 9
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.966288
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #7 (original #19, segment 1)
+Text: United Arab Republic authorities are becoming increasingly concerned over the possibility of American intervention, and Syrian troops have taken up positions along the Lebanese border. They presumably are for defensive purposes, although they could serve to harass Lebanese security forces pursuing infiltrators. Meanwhile, in Cairo, apparently after prodding by the Soviet ambassador, Nasir has professed fear
+Token count: 56
+Recut: none
+
+Excluded candidates:
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Balabakk
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.428659
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #8 (original #20, segment 1)
+Text: that American involvement in Lebanon will result in Soviet intervention. In light of UAR involvement in the Lebanese situation, Nasir's "concern" may be a stratagem aimed at discouraging further American support for Lebanon
+Token count: 33
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #20 segment 2: noncontent_keyword
+  Text: 20 May 58 CENTRAL INTELLIGENCE BULLETIN
+- original #21 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=0.997085
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: patriots
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=14 unred_source_page=15
+alignment_score=0.986589
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #9 (original #24, segment 1)
+Text: an "expedition" to mop up Algerian rebel units in western Tunisia might occur should the Algerians launch an attack from Tunisia
+Token count: 21
+Recut: none
+
+Excluded candidates:
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: personnel
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=15 unred_source_page=16
+alignment_score=0.988581
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #10 (original #25, segment 1)
+Text: and army detachments in Paris will move to install De Gaulle on 20 May. There is no confirmation of this report, but
+Token count: 22
+Recut: none
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=16 unred_source_page=17
+alignment_score=0.996154
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: constituting
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=17 unred_source_page=18
+alignment_score=0.945261
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #11 (original #27, segment 1)
+Text: Defense Minister Castro and Chief of the General Staff Perez Morales, who are not members of the junta, are said to have threatened to take over the government unless junta president Admiral Larrazabal outlaws the Communist party by midnight on 21 May and also curbs the non-Communist Democratic Action party. Larrazabal, however, whose career advanced most rapidly when the Democratic Action party was in power from 1945 to 1948, apparently opposes the outlawing of any political party
+Token count: 77
+Recut: none

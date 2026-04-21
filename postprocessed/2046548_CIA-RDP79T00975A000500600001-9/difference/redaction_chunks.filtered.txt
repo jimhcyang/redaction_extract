@@ -1,0 +1,78 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.763889
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.948361
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: France plans to recall Chataigneau from Moscow
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: WESTERN EUROPE 5. French anti-Communist poster campaign draws Soviet fire
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.942442
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 2. France plans to recall Chataigneau from Moscow: French Ambassador Chataigneau is soon to be relieved of his Moscow duties and reassigned to a Foreign Ministry position in Paris. In a personal message to the ambassador, who has been in Moscow nearly four years, Foreign Minister Schuman explained that his policy is to make allowance for the difficult living conditions in Communist countries and to increase the number of French diplomats with a direct knowledge of such areas. Comment: Chataigneau is a 61-year old career diplomat whose training and experience has been directly related to Moslem and Slav areas
+Token count: 99
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.978203
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: Turkey
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.948105
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: French anti-Communist poster campaign draws Soviet fire: The Soviet Ambassador in Paris "protested vehemently" on 8 February to the French Foreign Office against certain posters of Jean-Paul David, a National Assembly deputy who is conducting a campaign of ridicule against Communist propaganda in France. The Ambassador asked in particular that this "French Goebbels" be penalized under existing laws for a poster caricaturing Stalin
+Token count: 63
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #6, segment 1)
+Text: The poster campaign is a serious challenge to the Communists because it is the first grass roots counteroffensive in France and is carefully disassociated from government and business groups
+Token count: 29
+Recut: none

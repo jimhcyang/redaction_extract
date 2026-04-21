@@ -1,0 +1,190 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.787500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.909659
+kept_candidate_count=3
+excluded_candidate_count=8
+
+Clean Chunk #1 (original #3, segment 2)
+Text: 4. FRENCH DEFENSE MINISTRY BACKS MILITARY CO-OPERATION WITH ISRAEL (page 6). 5. SITUATION IN SYRIA
+Token count: 15
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 2)
+Text: 7. PHILIPPINE POLITICAL ACTIVITY
+Token count: 4
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #5, segment 2)
+Text: 9. CHIANG KAI-SHEK ADVISES AGAINST EARLY ATTACK ON CHINA MAINLAND
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 3: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+- original #4 segment 3: noncontent_keyword
+  Text: page 9
+- original #5 segment 1: noncontent_keyword
+  Text: page 10
+- original #5 segment 3: noncontent_keyword
+  Text: page 11). 19 Mar 57 Current Intelligence Bulletin Page 2
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.978923
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #10 segment 1: noncontent_keyword
+  Text: 19 Mar 57 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.985635
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Comment on
+- original #12 segment 1: ocr_equivalent_to_redacted_text
+  Text: support, were ineffective
+- original #13 segment 1: noncontent_keyword
+  Text: 19 Mar 57 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.991018
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: noncontent_keyword
+  Text: Comment on
+- original #15 segment 1: noncontent_keyword
+  Text: 19 Mar 57 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.122899
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: 4. FRENCH DEFENSE MINISTRY BACKS MILITARY CO-OPERATION WITH ISRAEL Comment on: French defense minister Bourges-Maunoury and his entourage are encouraging Israeli extremists against Prime Minister Ben-Gurion
+- original #17 segment 1: full_page_or_admin
+  Text: order to push Israel into military action at the first opportunity. They are said to view the present situation as an opportunity to settle the French North African problem. Among the backers of plans for French-Israeli military action is Jacques Soustelle, ex-Gaullist and former governor of Algeria. Soustelle is now reported heading a bloc of 100 deputies who are pressing for an immediate military alliance with Israel
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 Mar 57 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: 5. SITUATION IN SYRIA Comment on: Shifts of loyalty in the Syrian armored brigades have resulted in postponement of a showdown between the leaders of leftist and rightist-controlled formations. Such a showdown has been predicted for the near future. Baathist (leftist) officers have seized control of a tank battalion and other units. The chief of staff and the cabinet have been warned by the Baath not to transfer leftist army officers from politically strategic positions in the army. The cabinet has held several emergency sessions in the past few days on this question but has reached no decision. Prime Minister Asali has taken a neutral position, while Minister of Defense Azm and two other ministers have refused to approve the transfers. The chief of staff has told the president that he will resign unless the orders are carried out
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 Mar 57 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.992647
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: noncontent_keyword
+  Text: Comment on
+- original #20 segment 1: noncontent_keyword
+  Text: 19 Mar 57 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: 7. PHILIPPINE POLITICAL ACTIVITY Comment on: The death of Philippine president Magsaysay on 17 March has opened the way for rapid development of political instability in connection with the race for the presidency in the November elections. Opposition Liberal Party leaders, who had hoped eventually to endorse Magsaysay's re-election, are now reportedly at a loss as to where to turn. A party member told the embassy officer the Liberals might nominate their own candidate, probably the ambassador to the United States, Carlos Romulo. Former Liberal senator Paredes, now affiliated with the administration, informed an American observer that he had been approached by Liberal leaders with an offer of the nomination on the evening following Magsaysay's plane crash. On 18 March, Senator Recto, a severe critic of the United States and Magsaysay's major opponent within the Nacionalista Party, reaffirmed to an American embassy officer his intention to seek the presidency. Armed forces officials are worried about the ability of current political organizations to remain intact and fear that the election scramble will benefit neutral and leftist elements. They are determined to maintain order and to assure a smooth take-over by the new president, Carlos Garcia
+- original #21 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 Mar 57 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.989583
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: noncontent_keyword
+  Text: Comment on
+- original #23 segment 1: noncontent_keyword
+  Text: 19 Mar 57 Current Intelligence Bulletin Page 10
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: full_page_or_admin
+  Text: 9. CHIANG KAI-SHEK ADVISES AGAINST EARLY ATTACK ON CHINA MAINLAND Chiang decried the lack of political preparations for a return to the mainland. He indicated that political reform was a prerequisite and that he could not sacrifice his men while "corrupt politics, bad manners, and poor methods" exist within the Nationalist government. Comment These remarks contrast with recent public statements by Chiang and other Nationalist leaders which have hinted at an early return to the mainland while Nationalist military capabilities are at their peak. Most observers agree that these were probably intended primarily for morale purposes. A step-up in harassment and raiding activity is, however, likely
+- original #24 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 Mar 57 Current Intelligence Bulletin Page 11

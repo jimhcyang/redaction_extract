@@ -1,0 +1,181 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.652273
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.598062
+kept_candidate_count=3
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. EGYPT'S REFUSAL TO ATTEND THE LONDON CONFERENCE
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. RESIGNATION OF FOREIGN PILOTS MAY IMPAIR FUNCTIONING OF SUEZ CANAL (page 5). 3. INDONESIAN PRIME MINISTER PROPOSES COLOMBO POWERS STATEMENT ON SUEZ (page 6). 4. GREECE REJECTS INVITATION TO LONDON CONFERENCE ON SUEZ CANAL (page 7). 5. SAUDI ARABIA OFFERS FINANCIAL SUPPORT TO EGYPTIAN DIPLOMATIC INSTALLATIONS
+Token count: 47
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 10). * * * * THE ARAB-ISRAELI SITUATION
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 8
+- original #2 segment 1: noncontent_keyword
+  Text: page 9
+- original #3 segment 1: short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: IMMINENT
+- original #4 segment 2: noncontent_keyword
+  Text: page 11
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 1. EGYPT'S REFUSAL TO ATTEND THE LONDON CONFERENCE Comment on: President Nasr's alternative proposal for a conference on the Suez indicates that although he has refused to attend the London conference, he is still interested in achieving a negotiated settlement. Nasr indicated in his public statements that he was willing to negotiate an international guarantee on freedom of transit of the Suez, but that he considered the ownership and operation of the canal to be strictly an Egyptian right. Nasr's refusal to attend the conference in London assumes special significance in view of a direct Soviet suggestion on that that Egypt attend. Nasr's apparent determination not to identify himself too closely with the Soviet position may have been induced in part by the USSR's apparent unwillingness to give Egypt commitments in terms of direct military support against the West. At London, Soviet foreign minister Shepilov can be expected to promote Egypt's cause forcefully. Moscow
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: already has challenged the competence of the conference as now constituted and probably believes it can, with the help of India, Ceylon, Indonesia and possibly others, prevent early or decisive action. Shepilov will support Nasr's suggestion that the UN participate in any final guarantee of transit through the canal. Nasr, in referring in his discourse to the preservation of international peace, picked up one of the themes the USSR already has strongly emphasized, and which it will continue to contrast with the "warlike actions" of Britain and France
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 2. RESIGNATION OF FOREIGN PILOTS MAY IMPAIR FUNCTIONING OF SUEZ CANAL The canal company has information that Egypt is negotiating with Yugoslavia for additional pilots, but it considers six months the minimum period necessary for a generally expert person to become an efficient canal pilot. the only effective way for Egypt to sabotage the canal would be to sink a ship loaded with cement across the channel--an obstruction which could be removed in less than a month. Comment A large number of the company's employees will probably accept its offer of a generous financial settlement in return for signing a declaration of loyalty to the company and expressing a desire for repatriation by 15 August. The departure of a large percentage of foreign employees would considerably impair the effective operation of the canal
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 3. INDONESIAN PRIME MINISTER PROPOSES COLOMBO POWERS STATEMENT ON SUEZ Indonesian prime minister Ali Sastroamidjojo has proposed a statement on the Suez situation to be issued jointly by the Colombo powers--Indonesia, India, Pakistan, Ceylon and Burma--prior to the London conference. Referring to the principles subscribed to at the Asian-African Bandung conference, the proposed statement reiterates a belief that "all international disputes should be solved by peaceful means and that threats or the use of force against the territorial integrity or political independence of any country should be refrained from." The draft views the Suez developments with "grave concern," and says the prime ministers of the Colombo powers have confidence in the ability of all parties concerned to achieve a satisfactory settlement. Comment Ali's statement appears to be in line with instructions from President Sukarno to abstain from any action on the Suez Canal matter that would alienate the United States but, if possible, to support members of the Asian-African group. The statement probably is also designed to emphasize Indonesia's prominence, particularly vis-a-vis India, among the Asian-African nations. Indonesia has given strong official support to Egypt on its right to nationalize the canal. At the conference, it is expected to assume an anticolonial position which will be supported and encouraged by the USSR and by the Colombo powers, although they may not join Indonesia in a statement such as Ali proposes
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 4. GREECE REJECTS INVITATION TO LONDON CONFERENCE ON SUEZ CANAL Greek prime minister Karamanlis' decision not to send a delegate to the London conference came as a complete surprise Karamanlis' decision apparently springs from his feeling that Greece must balance its primary maritime interests and general Western orientation with the anti-British sentiments aroused by the Cyprus dispute and consideration for the sizable Greek minority in Egypt. Greece has affirmed its support of Egypt's position in the controversy. By taking this stand, Athens presumably hopes to assure the support of the Arab states when the Cyprus issue comes before the United Nations General Assembly in November. Karamanlis apparently decided, however, that it would be better not to attend the conference than to alienate the major Western maritime powers by openly supporting a position counter to their interests
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=4 unred_source_page=9
+alignment_score=0.247205
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: SAUDI ARABIA OFFERS FINANCIAL SUPPORT TO EGYPTIAN DIPLOMATIC INSTALLATIONS Comment Saudi Arabia, which has high financial stakes
+- original #11 segment 1: full_page_or_admin
+  Text: continuing the flow of oil through the Suez Canal and the Trans-Arabian Pipeline, was originally slow in expressing private and public support for Nasr's nationalization of the canal. The financial difficulties of the missions in London and Paris presumably arise from the freezing of Egyptian assets in Britain and France
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=5 unred_source_page=10
+alignment_score=0.928436
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: agreement
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: leaders
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: conferees
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=6 unred_source_page=11
+alignment_score=0.911130
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: fighting
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: pressure
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: popular
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communists
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: completely
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=7 unred_source_page=12
+alignment_score=0.122485
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 12 August) no sign of Israeli preparation for overt military action
+- original #22 segment 1: full_page_or_admin
+  Text: the immediate future. no maneuvers are known to be in progress, nor is there evidence of abnormal Israeli troop movements in the Banat Yacov area. Cairo radio's Hebrew language broadcasts have been officially regarded in Israel as taking a softer tone toward Israel as a direct result of its abstention from open adherence to the Western position in the Suez controversy. The nationalization of the Suez remains the principal preoccupation in foreign affairs with both the Israeli government and the press. The embassy in Tel Aviv reports that while no clear line has emerged, there is increasing evidence that the government's silence is based on a firm decision to "wait and see," until the Eastern and Western positions in the dispute are clarified
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: full_page_or_admin
+  Text: Syrian troops are on a more extensive alert than previously noted. There is no real evidence of any build-up for hostilities, but with the bulk of Syria's forces already deployed on the Israeli front, the special precautions being implemented exceed those normally taken during past alerts. Meanwhile, demonstrations and a general protest strike over the Suez dispute are being planned for 16 August. Syrian prime minister Asali has reiterated Syria's opposition to diversion of the Jordan waters in the demilitarized zone at Banat Yacov. He added that if the military situation in the demilitarized zone were changed by the irrigation work farther north above Lake Hula, then diversion in that area would be similarly resisted. However, Asali's comment that he would need a study by the Syrian army to determine the effect of diversion north of Lake Hula suggests that Syria has not yet decided on how to react to this new Israeli project

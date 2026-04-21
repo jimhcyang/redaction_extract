@@ -1,0 +1,90 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.610417
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.971552
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Increased Soviet night interception noted over Korea
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 9. Adenauer may regain control of the West German Senate
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.912214
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 1. Increased Soviet night interception noted over Korea: three new Soviet fighter units first noted in Manchuria on 21 April began night combat operations against UN aircraft over Korea in mid-May. Each of these units has about 25 fighters, probably jets, and they may be operating from Anshan, 50 miles south of Mukden. Only one jet fighter regiment previously was engaged in regular night operations over Korea. Comment: The Far East Air Force also reports an increase since early May in enemy night interception of UN bombers. the enemy has assigned about 100 jets and 25 conventional fighters to this operation, their lack of airborne radar has hitherto prevented effective interception
+Token count: 111
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.999348
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.919107
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: 9. Adenauer may regain control of the West German Senate: Free Democratic Party leaders now predict that the West German state of Baden-Wuerttemberg will have a pro-Adenauer government within eight weeks, and have directed the Free Democratic deputies to withdraw their support from the present state government. They have taken this action because the Federal Senators from that state will not support the federal coalition's program. If a special state convention on 7 June does not concur in this directive, a national party convention on 5 July may expel some of the objecting members. American officials in Bonn comment that the party's national leaders will probably be successful in securing a new state government favorable to Adenauer. Comment: Certain financial provisions of the Contractual Agreement and its implementing legislation may not be ratified unless there is a pro-Adenauer government in Baden-Wuerttemberg, giving the Bonn government a majority in the Federal Senate
+Token count: 151
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

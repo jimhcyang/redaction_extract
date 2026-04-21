@@ -1,0 +1,123 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.663603
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: C1 1
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.970000
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 6. Conditions in Afghanistan deteriorating
+Token count: 5
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: LATIN AMERICA 9. Junta may take over Bolivian Government
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+- original #3 segment 2: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996336
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.698504
+kept_candidate_count=3
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: Persons coming from Communist China report that
+Token count: 7
+Recut: none
+
+Clean Chunk #4 (original #5, segment 1)
+Text: these sources state that
+Token count: 4
+Recut: none
+
+Clean Chunk #5 (original #6, segment 1)
+Text: from recent interviews with many refugees from Communist China, and by information from other sources
+Token count: 15
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.942787
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #7, segment 1)
+Text: Comment: The AIOC has long exercised considerable influence in Iran while it carried out Us own policies, which have at times been somewhat high-handed. In the present crisis the company appears to think that time is on its side and that financial pressure will eventually force the Iranian Government to accept the company's terms. The company has, however, on the whole been liberal in its policies toward Iranian workers and has treated them fairly when judged by labor conditions as they exist in Iran. It is obvious that any concession at this time short of acceptance of the principle of nationalization will not solve the present crisis
+Token count: 107
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1993
+
+========================================================================
+[PAGE 06]
+kind=red_only red_source_page=6 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=0.938769
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #9, segment 1)
+Text: 6. Conditions in Afghanistan deteriorating: Comment: Anti-Pakistan propaganda advocating the formation of an independent tribal state of Pushtoonistan on the western boundary of Pakistan has been used in the past to inflame Afghan opinion and to take the people's minds off the country's internal problems. If conditions actually are deteriorating within the country, there is little likelihood that Afghanistan will agree to drop its propaganda campaign preparatory to holding talks with Pakistan, as suggested by the US on 6 November 1950 in an attempt to settle the outstanding differences between the two countries. Preliminary talks held at Jalalabad in eastern Afghanistan in mid-April have already broken down because of disagreement on this issue. It appears unlikely, therefore, that more formal conversations will take place in the near future. EASTERN EUROPE 7. Anti-Soviet riot follows killings in Poland: have informed the US Embassy in Warsaw of a riot in Stettin on 9 April following the killing on the street
+Token count: 158
+Recut: none
+
+Clean Chunk #8 (original #10, segment 1)
+Text: elements of the population were to be deported from the Polish-USSR border and transported to the Stettin area; the presence of such disaffected elements undoubtedly contributes to difficulties in this area
+Token count: 31
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=7
+alignment_score=0.879439
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #9 (original #11, segment 1)
+Text: LATIN AMERICA 9. Junta may take over Bolivian Government: A group of Bolivian army officers has reportedly formed a junta which plans to take over the government by 23 April. Defense Secretary Ponce Lozada and Defense Sub-Secretary Ballivian are reported to be members of the junta, which is said to include five officers and five civilians. Comment: Should it appear that the Nationalist Revolutionary Movement would poll more votes in the 6 May presidential elections than the government-sponsored candidate or that it would attempt a revolt prior to the elections, a military junta headed by Ballivian may well take over the government. The junta's purpose would be to restore order and call for and supervise another election. At the present time it seems unlikely that either the Nationalist Revolutionary Movement or the government party will receive the required absolute majority of votes. It would then be necessary for the winner to be selected by the Congress, in which case the government party, with its allied political groups, should be able to win
+Token count: 172
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

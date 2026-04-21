@@ -1,0 +1,127 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.927027
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #3, segment 2)
+Text: 4. JAPANESE CONSERVATIVES ORGANIZE TO OUST PRIME MINISTER (page 6). 5. PATHET LAO POSITION OUTLINED AS SETTLEMENT TALKS OPEN IN LAOS
+Token count: 21
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 2)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 3: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 9
+- original #4 segment 3: noncontent_keyword
+  Text: page 10
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.995935
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 4. JAPANESE CONSERVATIVES ORGANIZE TO OUST PRIME MINISTER Opponents of Japanese prime minister Hatoyama within the ruling Liberal-Democratic Party on 25 September created a "Situation Discussion Council" aimed at preventing Hatoyama's trip to Moscow and forcing his retirement. The council reportedly has the support of 224 of 423 Liberal-Democratic Diet members and confronts Hatoyama with the possibility of an open break in the government party. Anti-Hatoyama elements are consolidating their position in the internal competition for power which has prevented the formulation of a firm official position on the negotiations with the Soviet Union. The new group, fearful that Hatoyama might sacrifice Japanese territorial claims at Moscow, is seeking public support by calling for the immediate return of Shikotan and the Habomai Islands and continued discussion with the USSR of the status of the Southern Kurils after relations are restored. The Yoshida-Ikeda faction of the party is unlikely to carry out its threat to bolt the party simply on the issue of Hatoyama's trip to Moscow. Therefore, a party split appears improbable unless the prime minister agrees to a settlement unreasonably adverse to Japan. There is general agreement among Japanese political and business leaders that their ailing and inept prime minister should retire, but continued failure to agree on his successor remains the major obstacle to his replacement
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.122244
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 5. PATHET LAO POSITION OUTLINED AS SETTLEMENT TALKS OPEN
+- original #8 segment 1: full_page_or_admin
+  Text: LAOS The political commission seeking to arrange a final settlement between the royal Laotian government and the Pathet-Lao opened discussions on 25 September. The Pathets asked for assurances that Laos would adopt an "Indian or Cambodian type of neutrality." They also demanded the right to operate as a legal political party throughout Laos, amnesty for all held as political criminals by the government, and representation in the cabinet. Comment The Pathets' action suggests that they are dissatisfied with Prime Minister Souvanna Phouma's declaration of a "Swiss type of neutrality" for Laos. The Pathets intend in the current negotiations on details to press for other concessions that go beyond the substance of the 5 and 10 August agreements on principles, specifically that the royalists must have relations with Peiping and Hanoi. They also intend to demand that five to seven of the 21 new parliamentary seats to be contested in supplementary elections be guaranteed to the Pathet Lao. This demand is probably designed to provide justification for the Pathets' demands for inclusion in the cabinet
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 26 September) "Rather large Israeli troop movements" from the Central Command toward the south were reported by the American army attache on the afternoon of 25 September. Israeli reserve military police were called up on the same day. In the event of a major mobilization, military police would be among the first to be called because of their function in carrying out mobilization procedures. These movements do not appear to have been in preparation for the attack in the Jerusalem area, although they may have been connected with a reported diversionary attack in the Hebron area. Apparently reflecting uneasiness over increased tension on Jordan's border with Israel, Syria has moved two battalions of regular infantry to Dera near the Jordan border on the main road from Damascus to Amman. These regular units are reported to have replaced a force of Palestinian Arabs in this area, which is on the southern invasion route into Syria. Israeli government circles consider the Canadian decision to sell them 24 F-86 jet fighters an indication that the Israeli policy of reprisal raids, although censured by UN organs, has not caused deterioration in relations between Israel and the Western powers. Israeli advocates of preventive war against Egypt--who exist not only in the Herut Party but also, according to Ben-Gurion, among the best officers in the army--will not give up their plans. Several Israeli observers, who had been worried lately by the anti-Israeli tone of the Soviet press and radio, are afraid that the Canadian shipments will bring about a "further deterioration in the relations between Israel and the USSR susceptible of compromising not only Jewish emigration from the eastern bloc, but also the execution of the recent oil agreement

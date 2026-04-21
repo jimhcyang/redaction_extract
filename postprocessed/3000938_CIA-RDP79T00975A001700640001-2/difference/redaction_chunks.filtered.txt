@@ -1,0 +1,112 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.676190
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.969231
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 5. Iraqi Communists reported plotting overthrow of Nuri Said
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 7. USSR seeking to encourage independent French policy on Germany
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996183
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: anti-aircraft
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.998454
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.992105
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #6, segment 1)
+Text: NEAR EAST - AFRICA 5. Iraqi Communists reported plotting overthrow of Nuri Said
+Token count: 12
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.932836
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #7, segment 1)
+Text: public opinion is to be prepared for a "political strike," which will be followed by attacks on police and government centers and on British and American embassies and information centers. agents were sent to party cells in the provinces on 2 September with instructions to this effect. Comment: This plotting is overambitious and is probably intended partly to boost party morale. The party may also hope--in desperation--to ride the crest of any non-Communist reaction to Nuri Said's current ironhanded repression of political opposition. The veteran Nuri holds the advantage in any test of strength, but the fact that he faces the possibility of such tests acts as a serious brake on any pro-Western actions he might contemplate
+Token count: 119
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens
+  Text: an
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.930844
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #9, segment 1)
+Text: 7. USSR seeking to encourage independent French policy on Germany: Comment: Despite its evident receptiveness to the idea of new East-West talks on Germany, the French government has dismissed several recent Soviet overtures as offering nothing essentially new. However, an 8 September press report that Premier Mendes France was considering a plan for a European arms pool to which even Orbit countries might adhere may indicate willingness to enter disarmament discussions
+Token count: 71
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,121 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.702500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.832256
+kept_candidate_count=2
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #3, segment 2)
+Text: 4. USSR REPORTEDLY OFFERS TO SUPPLY JET TRANSPORTS TO INDIA
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 2)
+Text: 6. ECUADORAN-CZECH ARMS NEGOTIATIONS
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 3: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 3: noncontent_keyword
+  Text: page 8
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 9
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.970940
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.959524
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.961735
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Nogradi
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 4. USSR REPORTEDLY OFFERS TO SUPPLY JET TRANSPORTS TO INDIA The USSR has made an offer to Prime Minister Nehru of TU-104 jet transports for the government-owned Air India International. This type of aircraft, three of which flew to London during the Bulganin-Khrushchev visit, only recently went into production. Until commercial aviation has had more experience with jet transports, India is unlikely to accept either this offer or another reported Soviet offer to India Air Corporation, also government-owned, of an unspecified jet transport for its internal airways. India, however, is considering British and Soviet offers of jet light bombers. (Concurred in by ORR
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.972358
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 6. ECUADORAN-CZECH ARMS NEGOTIATIONS Because of Ecuador's foreign exchange shortage, Czechoslovakia is reported willing to allow credit. Old armaments held by Ecuador would be acceptable as part payment while rice, coffee, cocoa, and possibly a small amount of crude oil would make up the balance. Comment Arms negotiations between Ecuador and Czechoslovakia have been under way for about a year and a half. Ecuador has been engaged in an arms race with Peru and has turned to the Soviet bloc countries for arms because of its inability to secure arms from free world sources on the terms it desires. (Concurred in by ORR
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.123133
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 15 May) Israel charged that two Israeli workers were wounded by gunfire from a Syrian position
+- original #10 segment 1: full_page_or_admin
+  Text: upper Galilee. (Press) There has been no previous indication that the Arab states are thinking in terms of such a conference, which would presumably be outside the United Nations. A conference in which the Arab states would sit down with Israel to discuss the Palestine problem would be unprecedented, and the assortment of countries supposedly to be invited appears to be an unlikely combination

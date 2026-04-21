@@ -1,0 +1,78 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.955195
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 4. Iran receives new offers for its oil
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: LATIN AMERICA 6. Neighboring countries allegedly plan military action against Guatemala
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.969372
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 4. Iran receives new offers for its oil: Comment: Iran continues to receive numerous inquiries and offers to buy oil. If the Anglo-Iranian Oil Company fails to get a final decision in its favor from Italian courts with respect
+Token count: 39
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.936667
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #5, segment 1)
+Text: LATIN AMERICA 6. Neighboring countries allegedly plan military action against Guatemala: El Salvador, Honduras and Nicaragua are considering military operations to support any eventual anti-Communist uprising in Guatemala should it appear to be succeeding, Salvadoran Defense Minister Bolanos, who initiated the plan, is said to have been promised planes by Honduras and soldiers by Nicaragua. The three countries are allegedly willing to act, but want "the moral support of the United States
+Token count: 72
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: ocr_equivalent_to_redacted_text
+  Text: to be accorded
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: The leader of the Salvadoran government party reportedly has stated that "the political problem of Guatemala is in the hands of the Salvadoran Army." Comment: There is no evidence of an imminent anti-Communist uprising in Guatemala. This report is consistent with the efforts of El Salvador in the past six months to lead the other Central American governments in a determined anti-Communist campaign. The Salvadoran Government is genuinely alarmed at the growth of Communist influence in Guatemala and fears the spread of subversive activity throughout Central America from that country. Nicaragua, and to a lesser extent Honduras, is similarly concerned. The Salvadoran Army has been reported considering possible action against Guatemala since last spring

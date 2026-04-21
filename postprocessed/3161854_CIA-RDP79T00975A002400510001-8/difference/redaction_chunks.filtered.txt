@@ -1,0 +1,185 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.501748
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 22 March 1956
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.959091
+kept_candidate_count=1
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #5, segment 2)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: page 4
+- original #4 segment 1: noncontent_keyword
+  Text: page 5
+- original #5 segment 1: noncontent_keyword
+  Text: page 6
+- original #5 segment 3: noncontent_keyword
+  Text: page 7
+- original #6 segment 1: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.996371
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #7, segment 1)
+Text: The offer reportedly
+Token count: 3
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 21 March) Saudi defense minister in Cairo requested that his ministry dispatch immediately detailed table of equipment data on an infantry brigade, with information on support elements, including artillery and armored car units, anticipated delivery during March of an undetermined number of aircraft and antiaircraft guns from Egypt. the Saudis may also want equipment for a complete infantry brigade group. On 17 March "many black cylindrical objects resembling mines" were observed on a pier in Alexandria adjacent to the Soviet freighter General Cherniakowsky. Egyptian capability to engage in mine warfare is suggested by recent observation in Alexandria of three motor torpedo boats equipped as patrol minelayers. A large number of Israeli reserve field-grade officers, principally those with engineer and construction experience, have been recalled for 40 days' active duty. The Israelis are simultaneously requisitioning considerable heavy construction equipment, including low-bed trailers, power shovels and bulldozers. This activity may relate to initiation of construction on the power project of the Banat Yacov scheme, or to the new program for construction of border defenses. The government of Israel has issued orders for a substantial increase in blood bank supplies by 1 June. Enforcement of the 13 March law of the Israeli parliament, permitting denial of exit permits to Israeli citizens in the military reserve forces, may diminish the recent heavy increase in visa applications which has swamped consular offices in Tel Aviv and Haifa
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.924650
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #9, segment 1)
+Text: 2. considerable recent Chinese Communist military construction including artillery positions on Lutzu, a small island about 10 miles northwest of the Wuchiu Islands held by about 500 Chinese Nationalist guerrillas. Some of this construction is of an exclusively defensive character and the activity is not regarded as necessarily indicating Communist intentions to attack the Wuchius. It indicates, however, that the Communists intend to employ artillery on Lutzu from where medium artillery could shell the Wuchius. 3. The Chinese Communists are apparently beginning work on a branch of the Fukien railway to Foochow, a probable survey line stretching for about 10 miles along the north bank of the Min River about 30 miles west of Foochow
+Token count: 115
+Recut: none
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=0.534279
+kept_candidate_count=4
+excluded_candidate_count=7
+
+Clean Chunk #4 (original #14, segment 1)
+Text: BASES CAPABLE OF USE BY AIRCRAFT SERVICEABLE
+Token count: 7
+Recut: none
+
+Clean Chunk #5 (original #18, segment 1)
+Text: OF LESSER IMPORTANCE. RUNWAYS
+Token count: 4
+Recut: none
+
+Clean Chunk #6 (original #19, segment 1)
+Text: 17 IL 28 TU 2 YAK 11 LA 9/11 IL 10 MIG 19 TU-10
+Token count: 15
+Recut: none
+
+Clean Chunk #7 (original #21, segment 1)
+Text: ZH UNDER CONSTRUCTION
+Token count: 3
+Recut: none
+
+Excluded candidates:
+- original #12 segment 1: nonempty_redacted_alternate_conflict
+  Text: USE USABLE
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: PISTON
+- original #15 segment 1: short_span_min_tokens
+  Text: UNKNOWN
+- original #16 segment 1: nonempty_redacted_alternate_conflict
+  Text: MOST RUNWAYS
+- original #17 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: BASE OF
+- original #20 segment 1: short_span_min_tokens
+  Text: IL-2
+- original #22 segment 1: noncontent_keyword
+  Text: NATIONALIST AIRFIELD RAILROAD PROPOSED RAILROAD PRIMARY ROADS SECONDARY ROADS STATUTE MILES 0 50 100 150
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=11 unred_source_page=11
+alignment_score=0.511944
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #8 (original #29, segment 1)
+Text: Fuching Changle Haitan Putien Chiangyin Hsienyu Lutzu Meichou Wuching
+Token count: 9
+Recut: none
+
+Clean Chunk #9 (original #30, segment 1)
+Text: 10 20 25 30 40
+Token count: 5
+Recut: none
+
+Excluded candidates:
+- original #23 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: SECRET
+- original #24 segment 1: short_span_min_tokens
+  Text: Lienchiang
+- original #25 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Yuchi Foochow
+- original #26 segment 1: nonempty_redacted_alternate_conflict
+  Text: Paichuan Is
+- original #27 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Chinchiang Mach iang Weitou Peninsula
+- original #28 segment 1: short_span_min_tokens
+  Text: Quemoy

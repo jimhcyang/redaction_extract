@@ -1,0 +1,84 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.945070
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOVIET UNION 1. New light cruiser added to Soviet Northern Fleet
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: SOUTH ASIA 4. Comment on reported increase in Soviet-Afghan trade activity
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.902672
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: SOVIET UNION 1. New light cruiser added to Soviet Northern Fleet: a new light cruiser of the Sverdlov class has been delivered to the Soviet navy by the Molotovsk shipyard and that the new vessel is undergoing shakedown operations in the Archangel area. Comment: The addition of this cruiser and two others transferred from the Baltic in May brings cruiser strength in the Archangel area to seven; in 1950, when the buildup of the Northern Fleet began, there were none. The growth of cruiser strength in the only Soviet European fleet with access to the Atlantic has been accompanied by the addition of at least 20 new long-range submarines and at least 26 destroyers in the same period of time. The first cruisers of the Sverdlov class were laid down in 1949 at Leningrad. A total of 14 have been built thus far--ten at Leningrad, two at Molotovsk and two at Nikolaev. At least two more probably are under construction at Leningrad, one at Molotovsk and two at Nikolaev
+Token count: 170
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.993891
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Penn
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: SECRET
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: SOUTH ASIA 4. Comment on reported increase in Soviet-Afghan trade activity: The Soviet Union, in what appears to be an attempt to increase the tempo of economic penetration of Afghanistan, is reported to have greatly increased motor and aviation gasoline shipments. The USSR also has offered to fill all Afghan requirements for diesel oil, purchase one third of the cotton crop, and buy the entire annual supply of karakul skins. Soviet offers to provide the Afghans with 25 million meters of cotton cloth within the next two months. Such large imports from the USSR would probably result in a comparable reduction of Afghan imports from India. In an apparent effort to make its proposals for a transit agreement more attractive to Afghanistan, the Soviet Union is reported to have offered to transport Afghan cotton from the Oxus River on the Soviet-Afghan border to Batumi on the Black Sea for the same price as Afghanistan now pays to transport cotton from Peshawar to Karachi. There appear to be no transport or economic problems which would place a significant obstacle in the way of completely reorienting Afghan foreign trade both to and through the USSR. In view of the present attitude of the Afghan government in resisting Pakistani pressure, estimates that the Afghans would consider additional costs a minor factor. It is doubtful that a major reorientation of Afghan trade, as opposed to emergency shipments, would be considered before another round of mediation negotiation is attempted and fails. The Afghan government, however, will probably use Soviet economic offers to bring new pressure to bear on Pakistan. (Prepared by ORR
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

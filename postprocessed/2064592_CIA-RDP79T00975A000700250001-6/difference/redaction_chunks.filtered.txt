@@ -1,0 +1,97 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: TOP SECRET SECURITY INFORMATION 11 June 1952 Copy No. 53 CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY TOP SECRET SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.966883
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: UN walkout at Panmunjom causes Communist concern
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: China's petroleum purchases at record high
+Token count: 6
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.987500
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: prisoner-of-war
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: prisoners-of-war
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Israel
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.968924
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #7, segment 1)
+Text: UN walkout at Panmunjom causes Communist concern: Headquarters of the Chinese Communist "Volunteer" Forces in Korea on 7 June alerted at least two tactical units to "guard against an enemy attack" and to prepare for combat. The basis of the enemy alert was stated to be the UN's "bad" attitude at Panmunjom
+Token count: 52
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.915351
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #8, segment 1)
+Text: Comment: Apparently the Communist command construed the UN's walkout as an ultimatum. Kim Il-sung's and Peng Teh-huai's 9 June open letter to General Clark shows how serious the Communists consider the three-day recess. This form of communication is reserved for important proposals, and in the letter General Clark was urged to "order your delegates to return to Panmunjom" if the UN still desired an armistice in Korea
+Token count: 67
+Recut: none
+
+Clean Chunk #5 (original #9, segment 1)
+Text: China's petroleum purchases at record high: shows continuing heavy shipments of petroleum products from the USSR to Communist China, with an apparent high reached in April. About 100,000 tons were to be shipped in April under letters of credit totalling 20 million rubles, approximately 5,000,000 dollars
+Token count: 49
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.953963
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #6 (original #10, segment 1)
+Text: Comment: China's imports from the USSR in April were nearly double the average monthly shipments in 1951. The continuing scarcity of petroleum products in China's civilian economy suggests that the bulk of increased imports are for military use
+Token count: 38
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Charge
+- original #12 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7

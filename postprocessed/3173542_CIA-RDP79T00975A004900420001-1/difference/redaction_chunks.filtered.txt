@@ -1,0 +1,168 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.757143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122857
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 20 FEBRUARY 1960 I. THE COMMUNIST BLOC Communist China directs new criticism at Indonesia; dispute embarrassing for Khrushchev, who snubs Chinese ambassador. II. ASIA-AFRICA Indonesia--Sukarno reported willing to make concessions to Communist party
+- original #2 segment 1: full_page_or_admin
+  Text: return for major economic and military assistance from Khrushchev. Laos--Pro-Communist NLHZ appeals to cochairmen of Geneva Truce Conference to ensure free elections in April. UAR sends additional reinforcements into Sinai area. Algerian rebels expected to name new delegation to discuss cease-fire. Afghan-Pakistani relations growing worse. III. THE WEST Cuba--Che Guevara may be replaced as head of National Bank. Demonstration for Trujillo scheduled for 21 February could provoke violence
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.881713
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 1)
+Text: I. THE COMMUNIST BLOC Communist China - Indonesia - USSR: The continuing Sino Indonesian dispute is clearly embarrassing Khrushchev, who is attempting to underscore Soviet friendship for Indonesia and avoid any display of support for the Chinese. At an official reception in Djakarta on 19 February, he and Gromyko snubbed the Chinese ambassador; a similar instance occurred at a recent state dinner when the Russians ignored their Chinese colleagues. On 17 February, Peiping had directed new criticism at Djakarta in complaining that Indonesian authorities prevented 1,000 Chinese repatriates from boarding ships waiting to take them to the mainland
+Token count: 97
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: Indonesia: President Sukarno is willing to make political concessions to the Indonesian Communist party in return for major economic and military assistance from Khrushchev. They believe Sukarno is prepared to place Communists in the cabinet and to restrict further the power of army chief Nasution. There will be trouble if current efforts by First Minister Djuanda and army leaders fail to dissuade Sukarno from his plan
+Token count: 66
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: Page 1
+- original #4 segment 2: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.903626
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #5, segment 1)
+Text: UAR-Israel-Iraq: Cairo sent additional reinforcements, estimated to be at least 12,000 men and including one armored division, into the Sinai Peninsula on 17-18 February. In addition, army and air force units in the Egyptian region have been placed on ready alert. These actions would appear to be primarily in response to unsubstantiated UAR reports of an imminent Israeli attack on Syria. They take place, however, at a time when there are reports of another attempt to overthrow Qasim. It is possible that the Iraqi army group reportedly planning the attempt is counting on UAR clandestine support and even open intervention if necessary. The Israelis have repeatedly made it clear that they would regard the overthrow of Qasim, especially if accompanied by UAR intervention, as a serious threat to their security
+Token count: 131
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 2: noncontent_keyword
+  Text: Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.959422
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #7, segment 1)
+Text: Fidel Castro has become jealous of Guevara and in order to get him out of Cuba will send him to Moscow as ambassador when diplomatic relations are resumed
+Token count: 28
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Pakistani
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Peiping Dispute With Indonesia Embarrassing Khrushchev The continuing Sino-Indonesian dispute over repatriation is embarrassing Khrushchev, who is attempting to underscore Soviet friendship for Indonesia and avoid any action that could be interpreted as support for the Chinese. At an official reception in Djakarta on 19 February, he and Gromyko deliberately snubbed the Chinese ambassador. A similar instance in which Russians ignored their Chinese colleagues occurred at a recent state dinner. Coolness between Chinese and other bloc diplomats in Djakarta has also been reported recently. Chinese Communist propaganda is directing new criticism against Djakarta, complaining on 17 February that Indonesian authorities prevented 1,000 Chinese repatriates from boarding ships waiting to take them to the mainland. After being sent back from the port to Djakarta, the group--apparently directed by the Chinese Communist-controlled Overseas Chinese Association--assembled in front of the Indonesian Foreign Ministry and presented a protest petition. Peiping probably intends the criticism as a reminder that it will continue to insist on good treatment for Chinese waiting to board repatriation ships. Indonesia's actions reflect its pique over Peiping's tactics in arranging for the repatriation of Overseas Chinese. "The fact that they sent ships without previously consulting us regarding a convenient time has confronted us with a fait accompli which may create difficulties
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Sukarno Seeks Further Soviet Assistance President Sukarno is willing to make political concessions to the Indonesian Communist party and further restrict the power of army chief Nasution in return for major economic and military assistance from Khrushchev. Sukarno reportedly seeks a package deal which would include financing of his "ample food and clothing" program on which the prestige of his government is staked; assistance in carrying out the government's five-year development plan; and reconstruction of the naval base at Ambon in East Indonesia. The financing of the five-year plan is Sukarno's major objective. First Minister Djuanda and army leaders will try to dissuade Sukarno from presenting his plan to Khrushchev. Should Sukarno persist, however, "there will be trouble," but refuses to specify what counteraction might be under consideration. "If legal means fail we may have to use illegal ones." Although the reports of Sukarno's proposed "deal" may have been exaggerated in an effort to elicit US response, Sukarno had previously been reported anxious for domestic political reasons to include Communists in the cabinet when he reshuffles it sometime after Khrushchev's visit. Army leaders have stated they will resist Sukarno on this score. In addition to any new economic aid Khrushchev may propose to Sukarno, the Soviet leader probably will encourage more rapid implementation of Moscow's existing aid program to Indonesia. Progress on the projects under the Soviet $100,000,000 aid credit of 1958 has thus far been slow; only about $27,000,000
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: has actually been drawn. Khrushchev may also explore prospects for extending additional military aid. All three of Indonesia's armed services have indicated interest in additional bloc arms and equipment during the past year. Khrushchev may be willing to renegotiate the 1958 arms agreements Indonesia concluded with Poland and Czechoslovakia, which probably were sponsored by Moscow. Under those agreements, totaling $175,000,000, Indonesia did not receive the discounts normally extended to arms purchasers by the bloc. Soviet assistance in establishing some form of naval installation at Ambon in East Indonesia has been reported for about a year. Russian personnel have been at the site since last July. Although there is no confirmation that the naval base at Ambon is under reconstruction, a US naval base construction survey team has been told to limit its studies to sites in Western Indonesia. Indonesia plans to develop increased military strength in the East Indonesian area as a tactic in pressing its claim to Netherlands New Guinea, an issue on which it has consistently received Soviet support
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: Arab-Israeli Situation Units of the UAR Second (Egyptian) Army which recently moved into the Sinai Peninsula increase the total forces there to 30,000 to 35,000 men, including the Fourth Armored Division which moved from the Cairo area on 18 February. Their exact deployment in the Sinai is as yet unknown. Army and air force units in the Egyptian region have been placed on ready alert. No unusual naval activity has been noted. The UAR's actions continue to appear defensive, reflecting concern over Israeli intentions following the recent clashes in the Syrian-Israeli demilitarized zone. There is no evidence, however, of Israeli preparations for large-scale military action. The UAR's preparations could also be related to new reports of a plot to overthrow the Qasim regime in Iraq. An Iraqi military group reportedly planning such a move is said to be relying on UAR assistance, possibly including armed intervention. The UAR is aware that Israel would consider the overthrow of Qasim--accompanied by UAR intervention--a serious threat to its security. The UAR may also be concerned over Jordanian plotting with Iraqi exiles against Qasim's regime and the chain reaction Jordanian intervention in Iraq could produce in the Middle East
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=6 unred_source_page=11
+alignment_score=0.125087
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #12, segment 1)
+Text: Husayn is known to be
+Token count: 5
+Recut: none
+
+Clean Chunk #6 (original #13, segment 1)
+Text: contact with Iraqi exiles and is making plans in concert with Iranian intelligence for a possible move against Qasim. However, these plans do not appear to have advanced to the point where action is imminent
+Token count: 35
+Recut: none
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=7 unred_source_page=12
+alignment_score=0.961582
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=8 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=9 unred_source_page=14
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

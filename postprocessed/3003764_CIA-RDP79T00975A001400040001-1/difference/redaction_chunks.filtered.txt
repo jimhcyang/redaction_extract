@@ -1,0 +1,101 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.942797
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. Soviet position on Korean political conference reaffirmed
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: SOVIET UNION 5. Yugoslavia and USSR negotiate air transport agreement
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 8. Cairo tightens Red Sea blockade of Israel (page 7). 9. Egypt advances date for visit of economic mission to Moscow
+Token count: 21
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.927116
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #4, segment 1)
+Text: 2. Soviet position on Korean political conference reaffirmed: Comment: This is the most recent indication from an official Soviet spokesman that Moscow's attitude toward the political conference remains unchanged. The Soviet leaders will probably reject any UN recommendation designed to bind the USSR to agreements reached by the political conference. In the proposed four-power Berlin conference, the Soviet Union may attempt to use the stalemate in the Korean talks as a basis for demanding a five-power conference including Communist China
+Token count: 80
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.997038
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.906944
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #6, segment 1)
+Text: Yugoslavia and USSR negotiate air transport agreement: The USSR will authorize the Yugoslav airline JAT to make a weekly flight from Belgrade to Vienna in return for Yugoslav authorization for the Soviet airline Aeroflot to make weekly flights between Moscow, Belgrade and Tirana. Comment: This agreement appears to be another step in the normalization of relations between Yugoslavia and the Orbit. Flights by Aeroflot between Budapest, Belgrade and Tirana were discontinued in mid-April 1953, probably because of excessive Yugoslav demands for information on cargo, passengers, and documents aboard the aircraft at the required inspection stop at Belgrade. The Yugoslavs probably have moderated their demands in this regard in order to obtain permission to fly to Vienna. In July, Soviet authorities in Austria authorized three Western lines to fly regular schedules into Vienna
+Token count: 132
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: SOVIET UNION
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.996320
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 8. Cairo tightens Red Sea blockade of Israel: Comment: This is the first evidence that Egypt is implementing its decision of 23 November to tighten the blockade against Israel. This action is being taken in the face of an American protest against the Egyptian attack on 3 December against a US ship carrying grain to Jordan. Egypt's hardening attitude on this issue probably stems from increased frustration over the developments in the Suez dispute. 9. Egypt advances date for visit of economic mission to Moscow: Comment: The decision to send the economic mission to Moscow now, instead of next May as previously announced, suggests that Egypt is serious in its threats to pursue its policy of neutralism
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.994257
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

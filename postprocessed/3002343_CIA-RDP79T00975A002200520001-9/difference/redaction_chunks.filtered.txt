@@ -1,0 +1,114 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.898980
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 3. PARIS REPORTEDLY WILLING TO PROCEED WITH ARMS SHIPMENTS TO SYRIA (page 6). 4. WEST GERMAN CABINET REPORTEDLY DESIGNATES ADENAUER'S SUCCESSOR
+Token count: 21
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 5. BURMA EXPANDING ECONOMIC RELATIONS WITH SOVIET BLOC
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 7
+- original #1 segment 4: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.976577
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #3, segment 1)
+Text: Egypt has two platoons in the El Auja demilitarized zone, backed by one Egyptian division in reserve
+Token count: 17
+Recut: none
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #4, segment 1)
+Text: Egypt has moved an armored group and several national guard brigades into Sinai. Egyptian strength in the Gaza strip is approximately two divisions. Cairo believes Israel may try to occupy the strip to protect the oil discovery made "one kilometer" from the Gaza area. 1 NOVEMBER 1955
+Token count: 47
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.975581
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #5, segment 1)
+Text: Moscow has informed Tel Aviv that it is prepared to deliver arms to all the Middle East powers, including Israel, in return for a commitment from them not to tolerate foreign bases on their territory
+Token count: 35
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 3. PARIS REPORTEDLY WILLING TO PROCEED WITH ARMS SHIPMENTS TO SYRIA The French government is willing to proceed without conditions with the proposed arms contract with Syria. The original proposal for a French-Syrian arms contract had been canceled by Paris on 5 September because Damascus refused to accept as a condition the cessation of radio attacks on French North African policy. Comment Prompt aid from France might still prevent Syria from turning to the Orbit. French Foreign Ministry officials recently complained to American officials that they were under pressure of arms manufacturers to reactivate the canceled contract for the delivery of arms to Syria. France is concerned over maintaining its traditional influence in Syria, where it fears Iraqi domination. However, negotiations for extensive French equipment are apparently also under way with Israel
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.124370
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 4. WEST GERMAN CABINET REPORTEDLY DESIGNATES ADENAUER'S SUCCESSOR The West German cabinet on 28 October tentatively designated Finance Minister Fritz Schaeffer as successor to Adenauer, should the chancellor die
+- original #8 segment 1: full_page_or_admin
+  Text: office. Schaeffer is to consult soon with Christian Democratic leaders and the opposition Social Democrats on the problems that would arise
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 5. BURMA EXPANDING ECONOMIC RELATIONS WITH SOVIET BLOC A Burmese purchasing mission in Moscow stated trade agreements with Poland were about to be concluded and that the mission should try to visit Warsaw. Burma's willingness to accept a Hungarian industrial mission, as proposed by the Hungarian premier to a Burmese purchasing mission in Budapest. Comment Rumania is sending an economic mission to Burma in November. The Rumanian ambassador had indicated Rumania would give sympathetic consideration to any Burmese request for petroleum and mining experts. Premier Nu, presently in the USSR, made several requests for Soviet economic and technical assistance. These developments give the Sino-Soviet bloc an excellent opportunity to expand the toehold in the Burmese market that was established a year ago when Communist China agreed to import a substantial quantity of Burmese rice. Since the emergence of a buyers' market for rice last year, Burmese economic policy has been strongly influenced by the fact that the Orbit was the only new market in which to dispose of Rangoon's large surplus. (Concurred in by ORR

@@ -1,0 +1,112 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.955405
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. Chinese Communist agency preparing against possible transshipment controls (page 3). 3. Burma to avoid service on controversial UN committees (page 4). SOVIET UNION 4. Soviet Union extends distribution of new MIG
+Token count: 32
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 6. Another Chinese army may have entered Korea
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.941530
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 2. Chinese Communist agency preparing against possible transshipment controls: A considerable part of China's strategic imports from Western Europe moves through the free ports to Gdynia and is shipped in Soviet Orbit vessels from there to China
+Token count: 37
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 3. Burma to avoid service on controversial UN committees: Burma has instructed its UN delegation not to serve again on the Collective Measures Committee or on any committee which might replace it. The delegation is also not to participate in any committee investigating bacteriological warfare charges, but is to support its formation. Comment: The Collective Measures Committee, established in 1950 to study means of meeting aggression, has consistently encountered Soviet opposition. The appointment of a committee of "neutral" states to investigate the Soviet bacteriological warfare charges is strongly supported by the West. SOVIET UNION 4. Soviet Union extends distribution of new MIG: on 13 February, 12 aircraft, either MIG-17's or 19's, were scheduled for local area flights in the Sevastopol area. Subordination of the aircraft could not be determined. Comment: The identification of MIG-19's in the Black Sea Air Force would represent the first known allocation of this aircraft to the Soviet naval air arm. The MIG-19, which is probably in quantity production, has already been operating in widely separated parts of the USSR, including the Far East
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.931587
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #7, segment 1)
+Text: 6. Another Chinese army may have entered Korea: a new Chinese unit, presumably an army, joined the 9th Army Group and is located in west central Korea. Comment: This increases to seven the number of new armies believed to have entered Korea since September, three of which have been identified in contact on the Korean front. During this same period, there have been indications that four armies have left Korea
+Token count: 70
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: their
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: their
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.996473
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.967808
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #8, segment 1)
+Text: Foreign Minister Stephanopoulos quoted his Yugoslav colleague Popovic, as critical of "great power" opposition to such a commitment, which he said showed they "do not fully understand the importance of this part of the world or the necessity of organizing its defense on a concrete and firm basis
+Token count: 48
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.806300
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #9, segment 1)
+Text: national elections
+Token count: 2
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.975481
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

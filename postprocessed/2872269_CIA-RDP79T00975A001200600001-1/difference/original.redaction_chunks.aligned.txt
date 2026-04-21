@@ -1,0 +1,56 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.536364
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.840909
+
+Chunk #1
+Predicted text: far east southeast asia
+Unredacted context: summary [UNRED_ONLY: far east southeast asia] 3 comment on
+Redacted context: [L@0:summary] [RED_GAP:<empty>] [R@1:3] comment on possible
+
+Chunk #2
+Predicted text: near east africa
+Unredacted context: vietnam page 4 [UNRED_ONLY: near east africa] western europe 5
+Redacted context: south vietnam page [L@15:4] [RED_GAP:<empty>] [R@16:western] europe 5 comment
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+
+Chunk #3
+Predicted text: far east southeast asia
+Unredacted context: [UNRED_ONLY: far east southeast asia]
+Redacted context: (no redacted anchors available)
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.954038
+
+Chunk #4
+Predicted text: near east africa
+Unredacted context: french military effort [UNRED_ONLY: near east africa]
+Redacted context: [L@117] the french military effort 30 aug 53
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.958537
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=6 unred_source_page=None
+No candidate difference chunks on this aligned page.

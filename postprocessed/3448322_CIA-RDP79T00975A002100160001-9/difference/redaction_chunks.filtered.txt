@@ -1,0 +1,84 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.645833
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.872571
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #1, segment 1)
+Text: Further terrorist
+Token count: 2
+Recut: none
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.958477
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #2, segment 1)
+Text: Further terrorist
+Token count: 2
+Recut: none
+
+Clean Chunk #3 (original #3, segment 1)
+Text: The Moroccans believe that only terrorism and sabotage have forced the French to promise a new, liberal policy. Consequently, unrelenting terrorist
+Token count: 21
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.821850
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #5, segment 1)
+Text: CAZES AIRPORT MELLAH (JEWISH AREA) OLD MEDINA FRENCH ADMIN. CATHEDRAL TOWN HALL PLACE DE FRANCE MIDTOWN EUROPEAN AREA SULTAN'S PALACE NEW MEDINA MAIN STATION BIDONVILLE BIDONVILLE MEDIOUNA AIRPORT USE PORT
+Token count: 30
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: JULY 1955
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.922060
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #6, segment 1)
+Text: Comment: the ratification of the Paris accords would probably make it "necessary" for Hungarian leaders "to request the Soviet government to permit troops to remain" even after an Austrian treaty is concluded
+Token count: 32
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.965306
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.973252
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

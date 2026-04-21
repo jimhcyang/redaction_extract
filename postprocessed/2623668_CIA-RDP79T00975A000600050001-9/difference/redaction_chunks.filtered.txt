@@ -1,0 +1,87 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.950000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: TOP SECRET SECURITY INFORMATION
+- original #2 segment 1: noncontent_keyword
+  Text: TOP SECRET SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.938125
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #3, segment 1)
+Text: FAR EAST 1. North Koreans order precautions against alleged bacteriological warfare
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 3)
+Text: 2. Chou En-lai discusses Burma problem with Indian Ambassador
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 6. Switzerland stops arms shipments to Egypt
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 4: noncontent_keyword
+  Text: page 3
+- original #4 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: FAR EAST 1. North Koreans order precautions against alleged bacteriological warfare: A North Korean battalion commander was ordered on 27 February to take special precautions to avoid contamination of his unit's food and water because "the enemy dropped bacteria" in central Korea. Covering wells and disinfecting United Nations leaflets were additional recommendations. Comment: There is no evidence that a serious health problem exists in North Korea. Following recent charges made by both the North Korean and the Chinese Communist Foreign Ministers that the United Nations were using bacteriological warfare in the Korean war, the entire Soviet Orbit has been giving great emphasis to this subject. The American Embassy in Moscow observes that Soviet press and radio coverage links the BW issue with the Panmunjom truce talks. 2. Chou En-lai discusses Burma problem with Indian Ambassador: In a conversation with the Indian Ambassador Panikkar on 17 February, Premier Chou En-lai remarked that while the problem posed by the Chinese Nationalists in Burma was not currently serious, these forces, if supported by the United States, could utilize the mountainous Yunnan terrain to create an "important front" against China. The Premier wondered whether Burma, due to American pressure, would cease its efforts to eliminate Li Mi's troops
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.951423
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: The Burmese Ambassador, in reporting this conversation to Rangoon, added that he had informed the Chinese Communist Foreign Ministry of Burma's willingness to discuss the Nationalist question at any time. Comment: The Burmese armed forces are not capable of seriously limiting the activities of Li Mi's forces, and the Chinese Communists must certainly be aware of this fact. Burma's ambassador is an extreme left-wing Socialist and has publicly accused the United States of aiding Li Mi. His diplomatic messages from Peiping have reflected sympathy for the views of Chinese Communist officials
+Token count: 91
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.919231
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #7, segment 1)
+Text: 6. Switzerland stops arms shipments to Egypt: Switzerland is refusing to grant export licenses for war materiel ordered by Egypt, according to the Egyptian Minister in Bern. He attributes the government's attitude to pressure exerted by the United States, Britain, and France to prevent war materiel from reaching Egypt before it joins the Middle East defense organization. He believes that Switzerland is submitting to this pressure because military, economic and political considerations make it dependent upon these countries. The Egyptian Minister notes that when export licenses for war materiel were refused last November, he was able to persuade the Swiss to lift the ban temporarily
+Token count: 105
+Recut: none

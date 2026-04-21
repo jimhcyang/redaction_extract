@@ -1,0 +1,88 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.652273
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.933333
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: GENERAL 1. New Sino-Soviet trade procedures indicate further Orbit integration
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 5. Czechs fail to carry out re-export plan in Argentina
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Mossadeq
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.926875
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: GENERAL 1. New Sino-Soviet trade procedures indicate further Orbit integration: international letters of credit are not to be used after 1 May to arrange payments in trade transactions between the USSR and Communist China. In place of the letter of credit procedure, the proposed system simply calls for billing of customers. The bill is to be forwarded by registered air mail from the seller's bank to the customer's bank. Penalties are provided for overdue payments. Comment: This system is already used for trade within the USSR and for Soviet trade with the East European Satellites. Its extension to China would mark an advance in Moscow's program to achieve the economic integration of that country within the Orbit
+Token count: 117
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.984190
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Mossadeq
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Mossadeq
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Britishers
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Mossadeq
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: EASTERN EUROPE 5. Czechs fail to carry out re-export plan in Argentina: plans to re-export to the United States through Argentina be dropped if they could not be carried out on the terms originally proposed by the Ministry. contacts were extremely annoyed over the constant Czech delays and the reduction of the volume of trade originally estimated by the Czechs. Comment: This is the first evidence of serious difficulties for the Czech plan to re-enter the United States market by exporting goods through third countries. Apparently only negligible quantities of Czech goods have reached the United States, some shipped in packets valued at less than one hundred dollars to eliminate the need for consular invoices. 6. Czech President Gottwald not expected to recover: A leading Czech doctor has informed a Western diplomat that President Klement Gottwald contracted a severe case of pneumonia after he returned from East Germany in March and that his recovery is improbable. His health has been seriously weakened by sulfa treatments and a chronic liver condition. The source stated that drugs were used to enable Gottwald to attend the Prague Liberation Day ceremonies on 9 May
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=6 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

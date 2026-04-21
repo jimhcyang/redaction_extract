@@ -1,0 +1,130 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.866580
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 1)
+Text: Chinese Communist premier Chou En-lai recently told a visiting group of local Japanese officials that China would welcome a Japanese government delegation to Peiping to discuss restoring diplomatic relations. Chou also suggested that talks on repatriation of Japanese nationals be moved from Geneva to Peiping or Tokyo
+Token count: 47
+Recut: none
+
+Clean Chunk #2 (original #5, segment 1)
+Text: and convince the large number of visiting Japanese of their peaceful intentions. The cumulative effect of the Japanese visits is likely to reduce Japanese sentiment supporting rearmament and the continuance of American bases in Japan, as well as to generate further pressure on the government for a rapprochement with the Sino-Soviet bloc
+Token count: 52
+Recut: none
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Sino-Japanese
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: protection
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: international
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: continued
+- original #7 segment 1: short_span_min_tokens
+  Text: future
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.975948
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: consultation
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: relations
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.901519
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #11, segment 1)
+Text: The latest analysis of photographs shows that between May and August the Communists increased the number of occupied artillery positions on the Peiling Peninsula, opposite the three main islands of the Matsu group, from 16 to 32. An earlier report that the Communists shelled Peikantang in the Matsus on 26 April has been discounted as erroneous. 2. Two additional Chinese Communist airfield construction sites in the area were discovered during the period. This brings to nine the total number of airfields in the Formosa Straits area to be worked on this year, only three of which are considered serviceable. One of the newly observed sites is near Huian, about 50 miles northeast of Amoy, and the other is near Huiyang, midway between Canton and Swatow. The locations of these two sites and the one recently detected near Liencheng, 175 miles west of Foochow, suggest an effort to establish additional airfields to provide for greater operational flexibility in the area immediately opposite Formosa. No firm estimate of the completion date for the Huian and Huiyang fields is as yet available
+Token count: 179
+Recut: none
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: fired
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.957875
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: divisions
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: railway
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: subjects
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: hostility
+
+========================================================================
+[PAGE 09]
+kind=red_only red_source_page=8 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: 19 OCTOBER 1955 FORMOSA STRAITS SITUATION COMMUNIST AIRFIELD
+- original #16 segment 2: full_page_or_admin, noncontent_keyword, short_span_min_tokens
+  Text: LEGEND
+- original #16 segment 3: full_page_or_admin
+  Text: USABILITY DESIGNATIONS PRIMARY: CONSIDERED MOST IMPORTANT IN AREA, WITH PREPARED RUNWAY GENERALLY 5000 FEET OR LONGER SECONDARY: AUXILIARY OR EMERGENCY BASES, OR FIELDS OF LESSER IMPORTANCE RUNWAYS GENERALLY LESS THAN 5000 FEET OPERATIONAL: ACTIVE BASE FOR MILITARY & CIVILIAN AIRCRAFT SERVICEABLE: INACTIVE BASE CAPABLE OF USE BY AIRCRAFT AT PRESENT. UNKNOWN: CURRENT STATUS: UNDETERMINED UNDER CONSTRUCTION MIG-15, MIG-17, TU-4, IL-28 TU-2, IL-10, LA-9/11, LI-2, ETC FIELDS NOT CONSIDERED CAPABLE OF SUPPORTING SUSTAINED OPERATIONS AT PRESENT

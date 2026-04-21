@@ -1,0 +1,86 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.610417
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.956500
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: GENERAL 1. French favor a new attempt to end Korean war
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: NEAR EAST 6. Iranians consider destruction of oil installations in case British land troops
+Token count: 14
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.933108
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: GENERAL 1. French favor a new attempt to end Korean war: Comment: The French have been extremely anxious to limit hostilities in Korea, particularly because of their fear of Chinese intervention in Indochina. The suggestion in this report, however, may have been prompted by the French desire to associate themselves with the UK and the US in a move which the UK had already made independently
+Token count: 66
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.996350
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: materiel
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.430725
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: NEAR EAST 6. Iranians consider destruction of oil installations in case British land troops: Comment: The Iranian Army in recent weeks has made plans to defend the Abadan area against a possible British troop landing. However, it has not been known that these plans included provisions for possible demolition of oil refineries. While demolition may never occur, the fact that Iranian Army commanders have considered destroying Iran's greatest and practically irreplaceable industrial installation indicates that the nationalization sentiment and anti-British feelings have reached a high not previously recognized
+Token count: 88
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.938235
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #6, segment 1)
+Text: request not to yield to the Soviet requirement since it violates earlier agreements. Approximately 1,800 permit-requests (of a back-log of 8,000) which fulfill the stipulated conditions have been forwarded to the Soviet authorities, who have already approved 1,100 of them. Comment: The unexpected accession of Berlin city officials to Soviet pressure may have resulted from disappointment at the failure of Allied authorities to agree rapidly on effective counter-measures. This German action will increase the difficulties of the Allies in initiating counter-moves
+Token count: 84
+Recut: none

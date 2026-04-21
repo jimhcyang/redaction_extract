@@ -1,0 +1,105 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.887363
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: NEAR EAST - AFRICA Iranian officials fear Soviet reaction to Iran's participation in regional defense (page 5). France sees Syrian independence indispensable to Israel
+Token count: 23
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.953016
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #3, segment 1)
+Text: All six bases, with the possible exception of the one at Foochow, are judged unserviceable for air operations. Runways at the Foochow field, which perhaps could be used, are not long enough for jets
+Token count: 34
+Recut: none
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communists
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: operations
+
+========================================================================
+[PAGE 04]
+kind=red_only red_source_page=4 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: Diem is more worried about the Binh Xuyen than about the other sects. The premier asked General Ely to request the return of two armed corvettes which the French provided the Binh Xuyen and also asked that Ely supply the Vietnamese army with tanks. The Vietnamese general staff believes the Binh Xuyen is currently capable of isolating and controlling Saigon. Comment: Diem's current tactics against the sects stress political maneuvers--for the most part the lavish distribution of bribes--rather than force. By such means, he hopes to weaken the sects as a whole to the extent that a military solution would be feasible. Such subordinate commanders as he has been able to buy off, however, are likely to stay "bought" only so long as funds are forthcoming. In the meantime, the Binh Xuyen, whose armed forces are the most effective, have not been weakened. Their lucrative holdings appear to be such as to put them beyond any price Diem could raise. NEAR EAST - AFRICA 3. Iranian officials fear Soviet reaction to Iran's participation in regional defense: Iranian government leaders are showing great concern over Soviet reactions to indications that Iran is giving favorable consideration to joining the Turkish-Iraqi pact, according to the American embassy in Tehran. Because of this concern, knowledge of the Shah's proposal for military staff talks among Iran, Iraq, Turkey, Pakistan, the United States, and Britain as a step toward joining the pact is being limited to as few Iranian officials as possible
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: Recent articles in the Soviet press state that Iranian participation in a Western regional defense arrangement is "inadmissible" and, according to the American embassy in Moscow, a tone of "generalized threat" to Iran is developing. 4. France sees Syrian independence indispensable to Israel: Comment: Although the French have officially indicated to the United States that the maintenance of Syrian independence is secondary to establishment of an effective
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.943711
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #7, segment 1)
+Text: Middle East defense, Paris opposes Syrian adherence to any Middle East grouping which might diminish French influence in this former mandate. Tel Aviv will view with favor this indication that Paris now may take the lead in promoting new Western assurances for Israeli interests
+Token count: 44
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: National
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: responsible
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: determination

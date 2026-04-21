@@ -1,0 +1,118 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.652273
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.842628
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 2: noncontent_keyword
+  Text: 2. SOVIET BLOC ARMS DELIVERIES TO EGYPT Secret Eider Noforn) (page 4). 3. EGYPTIAN OFFICIAL COMMENTS ON LONDON CONFERENCE
+- original #1 segment 3: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: AFGHANISTAN
+- original #3 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.998592
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 05]
+kind=red_only red_source_page=4 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.122582
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 2. SOVIET BLOC ARMS DELIVERIES TO EGYPT The Cairo press states that two Soviet ships with cargoes of Czech arms arrived
+- original #7 segment 1: full_page_or_admin
+  Text: Alexandria on 17 August. Alexandria port authorities were told to expect a doubling of the number of ships arriving with arms cargoes for an indefinite period. Comment does not support any change to date in the pattern of bloc arms deliveries to Egypt, which have averaged one or two ships per week. However, some time ago Czechoslovakia contracted to supply at least 40 jet fighters and other military items to Egypt by the end of the year, in addition to the 80 MIG's already delivered, and it would be possible for the bloc to increase the rate of delivery of aircraft and other military goods on short notice
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 3. EGYPTIAN OFFICIAL COMMENTS ON LONDON CONFERENCE Comment Recent vague and evasive statements by Soviet officials on the extent of Soviet support for Egypt have probably caused concern over Soviet intentions at London. When Egyptian ambassador Hussein pressed Soviet ambassador Zarubin on 10 August on whether the USSR planned to issue a "strong diplomatic statement... such as might compel the Western countries to reconsider and perhaps retreat from the idea of war," Zarubin replied that he did not know
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.980161
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens
+  Text: Press
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache

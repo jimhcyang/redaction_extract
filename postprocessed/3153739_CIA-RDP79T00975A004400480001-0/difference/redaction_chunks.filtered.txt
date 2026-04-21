@@ -1,0 +1,262 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122929
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 8 MAY 1959 I. THE COMMUNIST BLOC II. ASIA-AFRICA Iraq - Communists renew demands for overt political role; more bloc technicians arriving. Shah of Iran convinced USSR is determined to overthrow him. King Husayn and new Jordanian prime minister forecast no policy changes. Indonesia planning first direct approach to USSR about buying arms. Sino-Soviet bloc influence
+- original #2 segment 1: full_page_or_admin
+  Text: Cambodia abetted by leftist Information Ministry. Ceylon - Bandaranaike faces another potential crisis as bulk of cabinet threatens to resign. III. THE WEST One of Adenauer's top advisers sees reduced threat of war over Berlin. Austria - Parliamentary elections on 10 May; no major shifts expected
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.861842
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #4, segment 1)
+Text: Bloc aid: Increasing numbers of Communist bloc technicians are arriving in Iraq. In addition to those provided for under the economic and military aid agreements concluded with the USSR, Baghdad is negotiating with other bloc countries for experts to work in a variety of fields including health, education, and municipal development. (Page 2) Iran: The Shah is now convinced that the Soviet Union is determined to overthrow him and that a vigorous counterattack is essential to frustrate these efforts. While he described the current Soviet propaganda campaign as ineffectual, he admitted that it is potentially dangerous. He sees no present threat from the Qashqai tribes who are unarmed and lack effective leadership, but considers the Kurds still a factor owing to the possibility of their obtaining arms from Iraq. He again protested the inadequacy of Iranian arms and air defenses
+Token count: 140
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Iraq-Communists
+- original #4 segment 2: noncontent_keyword
+  Text: Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.907687
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #2 (original #6, segment 2)
+Text: Indonesia-USSR: An Indonesian military mission may go to the USSR shortly to visit Soviet military installations and discuss the possibility of military purchases. In 1958 Indonesia contracted for military items worth at least $170,000,000 from the Sino-Soviet bloc. This mission would represent the first direct military contact with Moscow. The Indonesian Government may now feel that, in order to maintain its neutral position, recent military mission visits to the West, including the US, should be balanced by one to the USSR
+Token count: 83
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #7, segment 2)
+Text: Ceylon: Prime Minister Bandaranaike faces another possible political crisis. Ten moderate ministers have threatened to resign from the 15-man cabinet unless Agriculture Minister Gunawardena is expelled, because they oppose his leftist tendencies. Bandaranaike may have to make some political concessions to the moderates, but neither he nor the moderate group is likely to risk a cabinet crisis because neither wants to force new national elections at this time
+Token count: 68
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Charge
+- original #6 segment 1: noncontent_keyword
+  Text: Page 5
+- original #6 segment 3: noncontent_keyword
+  Text: Page 6
+- original #7 segment 1: noncontent_keyword
+  Text: Page 8
+- original #7 segment 3: noncontent_keyword
+  Text: Page 9) 8 May 59 DAILY BRIEF
+- original #7 segment 4: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.931189
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: 8 May 59 DAILY BRIEF
+- original #8 segment 2: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.991534
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: appointment
+- original #10 segment 1: noncontent_keyword
+  Text: 8 May 59 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: Bloc Technical Assistance to Iraq There are now believed to be about 200 to 300 Soviet bloc military and economic specialists in Iraq, and Baghdad--which has relatively few trained native technicians--is negotiating with the Soviet Union and other bloc countries for additional experts in a variety of fields. To facilitate the dispatching of bloc personnel to Iraq, Baghdad has authorized the Iraqi Embassy in Moscow to omit obtaining specific approval "when granting visas to the citizens of the Soviet Union and the other Socialist nations." Soviet technicians now arriving in Iraq to implement the projects called for under the economic aid agreement include industrial, agricultural, and petroleum experts. In addition, the USSR is providing personnel for scientific and educational exchange programs under its cultural agreement with Iraq. Moscow has agreed to supply Iraq with an atomic furnace for the production of radioactive isotopes, presumably as a gift, and will soon provide technicians for this and allied projects. Finally, Baghdad is considering inviting Soviet physicians to practice in Iraqi hospitals and lecture at its medical schools. The European satellites are also planning to participate in the bloc technical assistance program in Iraq, mainly through cultural and scientific agreements. Apart from agreements known to have been concluded, Poland, Hungary, and East Germany have expressed their readiness to participate in Iraqi municipal development projects. Some of the projects under consideration are the improvement of water, lighting, and sewerage systems. The bloc technical assistance program also provides for the training of Iraqi personnel in bloc countries in an equally wide variety of fields
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 Apr 59 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: Shah Believes Iran Faces Critical Summer The Shah of Iran, two days before his departure for Europe, stated that while Iran is in a secure position at present, he is convinced that the USSR is working systematically toward the overthrow of his regime by subversion and other means. He emphasized that greater attention must be paid to the detection and frustration of Soviet efforts against Iran. His plan to be absent from Iran until about 4 June while visiting Britain, Denmark, and Holland, however, offers increased opportunity for plotters. The Shah regards the intensive Soviet radio propaganda campaign against Iran since 10 February, which attacks him personally, as "potentially dangerous," although he asserts that at present it is "not very effective." He is satisfied with Iran's counterpropaganda and considers it bolder than that of any other country. Possibly with the recent unauthorized Soviet overflights of Iranian territory in mind, the Shah again pointed out that Iran lacks sufficient antiaircraft weapons, radar, and airfields. Iran is exploring the possibility of bringing the question of overflights before the UN, but may have difficulty in documenting such charges. The chief delegate to the UN has been instructed to consult with the secretary general on the tactics for a complaint against both the overflights and the propaganda. The Shah admitted that there are weaknesses in Iranian security in northwestern Iran, and is sending Major General Teimur Bakhtiar, chief of the intelligence organization, to eliminate subversion among the Kurds during the "coming critical summer." He sees no present threat, however, from the Qashqai tribes in southern Iran, because of their expressions of loyalty during a recent visit to their area and because of the impression created on them by demonstrations of the effectiveness of army weapons. He believes that the influence of the four exiled
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 May 59 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=10
+alignment_score=0.122830
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: Qashqai chiefs is weak among the tribesmen and that this weakness will grow as the lands of these chiefs are distributed. The exiled tribal chiefs, however, who supported Premier Mossadeq before his overthrow
+- original #14 segment 1: full_page_or_admin
+  Text: 1953, may have some capacity for creating trouble by cooperating with the nationalists. Nasr Khan, predominant among the exiled chiefs, claims that he recently received offers of Soviet arms to pursue his tribal property claims. While the estimated 300,000 Qashqais still hate the Shah and his family, they probably are no threat in themselves, but could cause unrest if they ally with other tribes
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 May 59 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.979570
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Charge
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: protege
+- original #18 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: the hand
+- original #19 segment 1: noncontent_keyword
+  Text: 8 May 59 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: Indonesia Plans to Send Military Mission to Moscow The Indonesian Government expects to send a military mission to the Soviet Union shortly to visit military establishments and discuss the possible purchase of arms. The Soviet Union welcoming the mission at any time. Prior to the mission's departure, the Ministry of Defense will submit to the Soviet Embassy a list of the arms and equipment Indonesia is interested in purchasing. This is Indonesia's first open approach to the Soviet Government for arms and equipment under the military purchase program which has been in progress for a year and a half. In early 1957, Indonesia bought 4,000 jeeps from the Soviet Union. The coordinated all-service purchase program, however, which began in January 1958, has resulted thus far in contracts for military items from Czechoslovakia, Poland, and Communist China amounting to at least $170,000,000. Although Indonesia has heretofore carefully avoided direct arms dealings with Moscow, it has an agreement with the Soviet Union for economic assistance amounting to more than $100,000,000. In order to maintain its neutral position, the Indonesian Government may now feel that recent military missions to the West, including the United States, should be balanced by one to the USSR. Prime Minister Djuanda told American officials he had established a ceiling on military purchases and had sent out positive instructions that no further commitments be made. He is undoubtedly concerned not only over meeting future payments from Indonesia's meager financial resources but also over the emphasis on the arms program at the expense of civilian problems. The armed services, however, may request a withdrawal or postponement of the prime minister's directive. In any event, Moscow has seen fit recently to agree to supply arms to the UAR at one third their cost and, therefore, in order to encourage further Indonesian reliance on the bloc for military aid
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 May 59 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=0.123512
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: might offer the purchasing mission extremely attractive credit terms for arms. Although Indonesia's foreign reserves have slowly increased during recent months from the 1957-1958 low and are expected to continue their rise, the country's internal financial situation continues to deteriorate. It is highlighted by annually increasing budgetary deficits, rising inflation, and the contributing factors of low production, poor distribution, and a rapidly growing population
+- original #21 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 May 59 CENTRAL INTELLIGENCE BULLETIN
+- original #22 segment 1: full_page_or_admin, noncontent_keyword, short_span_min_tokens
+  Text: 7
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=10 unred_source_page=14
+alignment_score=0.982936
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #24, segment 1)
+Text: from venality in
+Token count: 3
+Recut: none
+
+Excluded candidates:
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Peiping
+- original #25 segment 1: noncontent_keyword
+  Text: 8 May 59 CENTRAL INTELLIGENCE BULLETIN Page 8
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=15
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: full_page_or_admin
+  Text: Ceylon's Prime Minister in Difficult Political Situation The strong stand which the moderate members of Ceylon's coalition cabinet are taking in their long-standing dispute with far-leftist Agriculture Minister Philip Gunawardena is placing Prime Minister Bandaranaike in an increasingly difficult position. At a conference with the prime minister on 6 May, some ten ministers threatened to resign from the cabinet unless Gunawardena is expelled. The group appears to be attempting more vigorously than before to eliminate leftist influence from the government. Neither Bandaranaike nor the moderate group is expected to press the issue to a final showdown at this time, however, as neither side seems likely to risk forcing the new national elections which would probably become necessary following mass resignations from the cabinet or the withdrawal of Gunawardena and his supporters from the government coalition. While the moderate group considers it has some 36 supporters in the 56-member government coalition, it cannot safely predict their reelection nor count on sufficient cooperation from the formerly ruling United National party or from Tamil representatives to form a majority in the 101-member Parliament. Should Gunawardena resign, the position of his few followers would be even more precarious, as his prospects for a workable alignment with other leftist opposition elements are remote. The most probable outcome of the controversy is a compromise which would temporarily silence the threats of the moderate cabinet members. Bandaranaike probably will have to make some political concessions to this group, which will further erode his influence with the public and the government
+- original #26 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 May 59 CENTRAL INTELLIGENCE BULLETIN Page 9
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=11 unred_source_page=16
+alignment_score=0.992758
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: noncontent_keyword
+  Text: 8 May 59 CENTRAL INTELLIGENCE BULLETIN Page 10
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=12 unred_source_page=17
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=13 unred_source_page=18
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 19]
+kind=red_only red_source_page=14 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,65 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.797619
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.970896
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Viet Minh expected to formalize charges of Geneva agreement violations
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.901681
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 1. Viet Minh expected to formalize charges of Geneva agreement violations: Viet Minh is likely to press charges of violations of the Geneva agreements involving the United States. expects General Giap to submit a formal complaint that both the Manila pact and the operations of the American Military Assistance and Advisory Group violate the Geneva accords. the truce commission would have to consider these charges if submitted in a formal manner, rather than in the form of a propaganda blast such as Giap unleashed last December. Copies of his December charges were addressed to Molotov and Eden. Comment: dissuade the Indian chairman of the truce commission from considering the charges made by Giap in December. If the charges are submitted formally now, the chairman is likely to insist on an exhaustive study of them, particularly since the commission in some of its recent actions and reports has indicated a mildly critical attitude toward the Viet Minh
+Token count: 156
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.995775
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: now aware
+- original #4 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

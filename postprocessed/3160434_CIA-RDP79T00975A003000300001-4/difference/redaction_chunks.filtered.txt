@@ -1,0 +1,100 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.702500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.703125
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 3. THE SITUATION IN JORDAN (page 5). 4. AFGHAN PRIME MINISTER TO VISIT NEAR EAST AND EUROPE
+Token count: 17
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 1. HAMMARSKJOLD-NASR TALKS
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 1. HAMMARSKJOLD-NASR TALKS Comment on: Egyptian president Nasr apparently has agreed with UN Secretary General Hammarskjold that Egypt will not press for the evacuation of the UNEF from the entrance to the Gulf of Aqaba and will not seek to station troops there itself for the time being, Nasr feels that if necessary the Straits of Tiran can be closed by mines, and he meanwhile plans to let the Saudis bear the burden of argument on this issue. These reports also indicate that Hammar- skjold and Nasr were considering an agreement covering UNEF police powers in the Gaza strip. The reports are contradictory however, on the question of the future status of the UNEF if Israel refuses, as it has done so far, to permit UN units to be stationed on its soil. Nasr is willing to let the UNEF stay regardless; the report claims that "every- thing" hinges on this issue. The latter seems more likely in the light of the attitude Nasr has previously adopted. No significant new progress is reported from the talks on the Suez Canal. India's roving diplomat Krishna Menon, who visited Cairo last week, is reported to have compli- cated Hammarskjold's task by hardening Nasr against the West- ern "imperialist" proposals for payment of tolls to an interna- tional agency
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.966148
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.244279
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, noncontent_keyword
+  Text: 3. THE SITUATION
+- original #7 segment 1: full_page_or_admin
+  Text: JORDAN Comment on: Capitalizing on conservative fears of growing leftist power in Jordan, the opportunistic army chief of staff, Gen- eral Nuwar, is reported to have ap- proached conservative ex-prime minister Samir Rifai, who is favored by the king, for support in a plan to suspend the constitution, dismiss the cabinet and legislature, and in- stall direct rule by the throne with army support. Nuwar claimed that once order had been restored, new elections would be held and representative government reinstituted. Nuwar has long favored establishment of a military regime which would place the army in virtual control of the country. Rifai is reported to have recently indicated willingness to co-operate with him to curb grow- ing leftist power. Conservatives in Jordan have been con- sidering drastic measures to counter leftist gains, and both the population and the government are becoming aware of Jordan's growing economic crisis. With termination of the Anglo-Jordanian treaty, Jordanian nationalists are promoting as the next objective a "federal union" of Jordan with Egypt, Syria and Saudi Arabia. Jordan has joined with Egypt and Syria in a student military training program, which would train leftist paramilitary action groups. Nabulsi has also publicly re- affirmed his government's determination to recognize the Chinese Communist government
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 4. AFGHAN PRIME MINISTER TO VISIT NEAR EAST AND EUROPE Comment on: Afghan prime minister Daud is plan- ning to visit Egypt, Turkey, Austria, and Poland in the latter half of April. The Iraqi government has also invited him to visit Baghdad after his trip to Turkey. The prime minister's probable itinerary suggests that he intends to make a seri- ous study of the possible benefits to be derived from the American proposals for the Middle East and of the advisability of maintaining close ties with the USSR. A Moscow news broadcast of 25 March stated that Foreign Minister Naim will visit the USSR in June. His visit may be designed to reassure the USSR that Afghanistan wishes to continue its close relations for the time being
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.941022
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens
+  Text: Reference

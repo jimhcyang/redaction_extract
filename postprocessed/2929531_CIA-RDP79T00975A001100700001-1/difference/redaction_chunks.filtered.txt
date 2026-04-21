@@ -1,0 +1,90 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.536364
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.967453
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOUTHEAST ASIA 4. Chiang reportedly to remove "minimum" number of Nationalist troops from Burma
+Token count: 14
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 9. new NATO base facilities
+Token count: 5
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+- original #2 segment 2: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996640
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.994253
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: overzealousness
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.904314
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: SOUTHEAST ASIA 4. Chiang reportedly to remove "minimum" number of Nationalist troops from Burma: Chiang Kai-shek several days ago instructed the Nationalist premier and General Li Mi to go ahead with negotiations to evacuate some of Li's forces from Burma but to keep the number of evacuees to an "absolute minimum." Chiang's order in effect overruled the premier's decision to follow the advice of the Nationalist delegate to the United Nations, who had warned of the grave consequences of noncooperation. Comment: It has been uncertain whether Taipei's recent hints at cooperation in the evacuation effort have represented a genuine intent. Chiang's reported decision is consistent with frequent statements by Nationalist spokesmen that Taipei cannot be blamed for failing to effect the withdrawal of more than one or two thousand of Li's 12,000 followers
+Token count: 134
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.995526
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.995641
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 9. new NATO base facilities: Comment: Negotiations for the early deployment of US forces to these bases began last October. Despite some objections, the Italian government agreed in principle to NATO use of the bases after the early June national elections. In view of the present unsettled political conditions in Italy, however, major policy decision on NATO bases now appears unlikely before fall

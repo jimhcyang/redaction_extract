@@ -1,0 +1,192 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.376667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.944286
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 3. USSR: Several new missiles displayed for first time in practice fly-bys. (Page iii
+Token count: 14
+Recut: none
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 5. North Vietnam: Food shortages confirmed. (Page iv
+Token count: 8
+Recut: none
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 1. Laos
+- original #1 segment 2: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.126116
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: NORTHERN LAOS GOVERNMENT Forces KONG LE — PATHET LAO KONG LE — PATHET LAO AREAS GOVERNMENT (MEO) BASE AREAS ROAD TRAIL ROUTE NUMBER 0 50 100
+- original #4 segment 2: noncontent_keyword
+  Text: 9 June 61 CENTRAL INTELLIGENCE BULLETIN Map
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 9 June 1961 DAILY BRIEF
+- original #5 segment 2: full_page_or_admin
+  Text: Laos: With General Phoumi and most other government leaders out of the country, rumors of possible coup attempts are again current in Vientiane. Government security officials are said to be concerned over the reported formation of a group headed by a police colonel, with some support among army elements, whose aim is the overthrow of the government in favor of Souvanna Phouma. Although the ability of this particular group to effect a coup is not known, there is no question but that some sentiment exists in Vientiane for a change of government that would somehow bring an early end to the military and political conflict in Laos. No new significant military activity has been reported in the Pa Dong area. Government forces under Lt. Col. Vang Pao plan to establish a series of positions on high ground to the west of Pa Dong from which Vang Pao may attempt guerrilla activities against enemy forces in the area. Bloc airlift activities continued to be scheduled through 9 June
+- original #5 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 1) (Map
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.914716
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #6, segment 1)
+Text: USSR: Recent practice flights by relatively large numbers of military aircraft over Moscow have been noteworthy for the first public display of air-to-surface missiles on bombers and air-to-air missiles on new high-performance fighters. Aviation Day has been observed quietly during the past few years in the USSR, usually in June or July, and there has been no significant air demonstration over Moscow since 1956. Some of the practice flights have included the Bear turboprop heavy bomber, with an air-to-surface missile (ASM) which may be the 350-n.m. Cherub; the Badger jet medium bomber with ASM which may be either the 55-n.m. Cracker or the 100-n.m. Truckle; and the Fishbed high-performance fighter, with air-to-air missile (AAM). On 6 June 10 Bears and 10 Badgers, all carrying ASM, and 51 of the new high-performance fighters were noted. The practice flights over Moscow have been carried out daily since 30 May, and are probably in preparation for a major air demonstration on Soviet Aviation Day
+Token count: 164
+Recut: none
+
+Clean Chunk #4 (original #7, segment 1)
+Text: to a bloc diplomat in Geneva
+Token count: 6
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.916659
+kept_candidate_count=3
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #8, segment 1)
+Text: North Vietnam: North Vietnam's food shortage is serious and that the regime is concerned about possible unrest. The British consul general reported the food situation
+Token count: 25
+Recut: none
+
+Clean Chunk #6 (original #9, segment 1)
+Text: mid-May was becoming progressively worse and that he had heard open grumbling. in April people in
+Token count: 16
+Recut: none
+
+Clean Chunk #7 (original #10, segment 1)
+Text: number of localities were "starving" and warned all subordinate officials in the region not to "allow any kind of regrettable situation to break out
+Token count: 24
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #10 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Backup, Page 3
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: The Situation in Laos A reliable American observer with Vang Pao's troops estimates that from five to seven days will be required to reorganize and resupply these units following their withdrawal on 7 June from Pa Dong. The Meos were described as being somewhat disorganized but not panicky; some were observed carrying crew-served weapons up to 81-mm. mortars during the withdrawal. Four 75-mm. howitzers and four 4.2-inch mortars were left in position at Pa Dong. The observer believes that Vang Pao's estimate of casualties--10 killed and 30 wounded--is conservative. The royal government in early June arrested five Buddhist monks who claimed they were going to Xieng Khouang to study. One had been promised a study tour in Moscow, one a tour in Communist China, and another a tour in North Vietnam. Other recent reports indicate the establishment in Xieng Khouang of a religious study institute and extensive Pathet Lao proselytization among the monks. The Pathet Lao have long recognized the pivotal role of the religious orders, coining the slogan, "Who rules the pagodas, rules Laos." Pagodas are the functional center of Lao villages, and the village abbot is often a more effective and respected figure than the headmen or remote royal government officials. Pathet Lao leader Phoumi Vongvichit, during his tenure as minister of religion in the short-lived coalition government following the 1957 unification accords, was instrumental in spreading Pathet Lao influence in key monasteries. In a 7 June conversation with Ambassador Harriman which centered on the situation in Pa Dong, Soviet delegate Pushkin disclaimed any Soviet responsibility for the Pathet Lao attack on the Meo units. He reiterated Souvanna Phouma's assertion that FAL forces were dropped into this Pathet Lao area after the cease-fire was established and thus provoked Communist retaliation. While he stressed that the USSR adheres to the statement on Laos in the Vienna communique, Pushkin maintained that the question of the cease-fire was a two-sided matter, and that if a cease-fire were to be effective, Phoumi's forces
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 June 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: would have to end unauthorized flights over the territory held by the Pathet Lao and Kong Le. The Soviet delegate, while assuring Ambassador Harriman that "agreement will be reached" with Britain on instructions to the ICC, argued that the ICC should not be given powers "that do not flow from the task which faces us." This position reflects the USSR's determination to focus conference deliberations on the Soviet proposals of 17 May in order to offset Western demands that an effective control machinery must be an essential part of a Laotian political settlement. In his speech before the conference on 5 June, Pushkin charged that the Western position on instructions to the ICC was really designed to "predetermine" the powers of the commission before "all aspects of the Laotian problem had been discussed." Airlift operations on 7 June involved a total of 16 sorties, of which probably 15 were into Laos. Although this is a considerable increase over those of the previous four days, it is still somewhat less than the level of operations carried out prior to 3 June. The AN-10 that arrived at Canton for the second time on 6 June returned to Peiping on 7 June and will probably continue on to Irkutsk. The four Soviet LI-2s that arrived at Canton on 6 June, presumably to meet the AN-10, returned to Hanoi on 7 June. The IL-14 that arrived at Hanoi from Moscow on 5 June left on 7 June, apparently returning to the USSR. There are indications that a relatively large group of people are leaving North Vietnam aboard Soviet transports. The AN-12 that left from Haiphong on 3 June carried 23 passengers; the IL-18 that left there on 5 June carried 51 passengers. The AN-10 returned to Peiping from Canton on 7 June with 41 passengers, however, the passengers apparently disembarked at Peiping. Some Soviet and/or Chinese Communist technicians and advisers may be returning home from Laos and North Vietnam
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 June 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.122722
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: North Vietnam's Food Shortage The North Vietnamese Government admitted the seriousness of the situation
+- original #14 segment 1: full_page_or_admin
+  Text: a communique of the Council of Ministers published in Hanoi on 14 May. Lamenting the state of North Vietnamese agriculture and admitting that insufficient attention had been given to the food problem, the communique sought to enlist popular cooperation by promising the peasants they could retain or sell privately grain produced in excess of government quotas. seed rice has been diverted for food consumption. Hanoi's reaction to the food problem reflects concern over performance of its recently organized cooperatives. the cooperative system had been a failure because the people had simply stopped working
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 June 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.985050
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #8 (original #15, segment 1)
+Text: Cuban charge in Panama had specific instructions to avoid any provocation that might cause a diplomatic break because Panama was an important transit point for travel of Cuban personnel. The
+Token count: 30
+Recut: none
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=0.976949
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: noncontent_keyword
+  Text: 9 June 1961 Copy No. F/D CENTRAL INTELLIGENCE BULLETIN

@@ -1,0 +1,232 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.797424
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Congo: Belgium takes steps to withdraw military personnel from Katanga. (Page 1) 2. Soviet missile test of 3 March
+Token count: 20
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 3) 5. Poland will supply tool plant and foundry to Cuba. (Page 5) 6. South Korean Government under pressure from public and legislature on status-of-forces agreement
+Token count: 26
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: Map
+- original #1 segment 3: short_span_min_tokens
+  Text: Page
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+- original #3 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 6
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #5, segment 1)
+Text: SOVIET MISSILE TEST OF 3 MARCH 1961
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 2: noncontent_keyword
+  Text: 4 Mar 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #5 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.366341
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 4 March 1961 DAILY BRIEF
+- original #6 segment 2: full_page_or_admin
+  Text: Congo: Belgian Foreign Minister Wigny has directed the immediate recall of all Belgian military personnel who arrived
+- original #7 segment 1: full_page_or_admin, noncontent_keyword
+  Text: Katanga after 1 July 1960. the government has no information on the identity of Belgian mercenaries under private contract with the Tshombe government. The US consul in Elisabethville warns that wholesale and indiscriminate withdrawal of the Belgian military cadre--about 230 officers and men--would result in the disintegration of the Katanga army into lawless units. the Soviet ambassador had twice seen the Sudanese foreign minister but still had not obtained transit visas for Soviet diplomats to go to Stanleyville. The request for the visas was submitted in mid-February. Luluabourg was quiet on 2 March, with UN forces and Congolese troops cooperating to maintain order. (Backup, Page 1) USSR: A test vehicle was launched from Tyura Tam at about 1400 GMT (0900 EST) on 3 March. Preliminary analysis indicates the vehicle impacted in the Khabarovsk area--about 1,100 n.m. southwest of the normal ICBM impact area on the Kamchatka peninsula--after a flight of some 2,700 n.m. Although determination of the specific nature of the vehicle must await further information, the over-all character of the operation suggests an ICBM test in which the missile suffered a failure in guidance
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.829551
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.852894
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin, noncontent_keyword
+  Text: these purchases on its foreign currency resources. Although there has been speculation that the USSR has advanced a hard currency loan to China to cover the emergency grain imports, there is no reliable evidence that such financial backing has been arranged. However, Sino-Soviet economic talks, which have been under way in Peiping since early February, may result in an accommodation designed to ease the Chinese balance of payments with the USSR by rescheduling Peiping's debt repayments. Poland-Cuba: A contract under which Poland will provide Cuba with a tool plant valued at $1,959,000 was signed on 11 February. The agreement called for a 30-percent down payment, with the balance payable in 12 semi-annual installments, probably at 5-percent interest. A similar contract was signed on 14 February for a steel foundry, worth $1,486,922, calling for 16 semi-annual payments. Although Poland claims these agreements are normal commercial transactions, the terms offered could be construed as economic aid by US standards. The fact that these agreements were made despite repeated US warnings that they could jeopardize Warsaw's chances of receiving financial aid from the US suggests that Warsaw is under some pressure to contribute to the Communist bloc's economic aid effort in Cuba. (Backup, Page 5) South Korea: Pressure stimulated by press and student groups for a status-of-forces agreement is creating an issue in South Korea's relations with the United States. The lower house of the national legislature on 2 March unanimously called for the "earliest" conclusion of an administrative agreement, and Prime Minister Chang Myon has been obliged to assure the public that the government is acting to resolve the issue. South Koreans consider that the lack of an agreement derogates their sovereignty, particularly because Japan has a status-of-forces pact. In addition, public sensitivities have been sharpened by the belief that recent economic measures
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.964706
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #9, segment 1)
+Text: a revised foreign exchange rate, certain features of the new aid agreement, and increased utility rates--were adopted at the behest of the United States
+Token count: 25
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #9 segment 2: noncontent_keyword
+  Text: Backup, Page 6
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: Situation in the Congo The US consul in Elisabethville believes that as many as 250 Belgian mercenaries are integrated into Katanga army units with the full support of the Katanga government, and would be difficult to deport. Any deportation order would have to be enforced by the UN Command, with adequate strength to quell possible armed resistance. The military cadre officers are members of the Belgian Army, and could be ordered by the Belgian Government to leave Katanga. However, reluctance to leave 10,000 Belgians in Katanga at the mercy of an undisciplined native army will probably cause the Belgian Government to proceed slowly. There are probably 40 important official Belgian civilian advisers distributed among the Katanga government ministries, as opposed to Belgian adventurers. The American consul feels that loss of the official advisers would paralyze the Katanga government. The US Embassy in Leopoldville reports that the Leopoldville provincial and central governments include 400 or 500 Belgians and that their withdrawal would drastically reduce operations. Paris would almost certainly refuse, as it has since UN operations in the Congo began last year, to pay its share of the costs. France continues to disapprove of UN operations in the Congo. France had wished to reach a common US-UK-French position on the Congo, but the United States had not cooperated. During the week ending 26 February, commentaries broadcast by Peiping on the Congo exceeded the number devoted to any international event in the past five years. Communist China, which in contrast to the USSR has opposed the UN's role in the Congo from the start, on 3 March endorsed Khrushchev's proposal to replace the UN operation in the Congo by a commission of African states. Obviously referring to Afro-Asian sponsorship of the 21 February Security Council resolution to strengthen the UN's hand, Peiping warned against "unrealistic illusions" about
+- original #10 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 4 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.246228
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: the UN as long as it is "under the manipulation of the United States." Possibly as the result of a power struggle, Gizenga has confined Anicet Kashamura, who until last week ran Kivu Province. Although press reports from Stanleyville assert that Kashamura is still a member of the Stanleyville government, he was under house arrest on
+- original #12 segment 1: full_page_or_admin
+  Text: March, at which time he contacted the UAR representative with a view to sending his children to Cairo. The UAR representative "dismissed him courteously
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 4 Mar 61 CENTRAL INTELLIGENCE BULLETIN
+- original #13 segment 1: full_page_or_admin, noncontent_keyword, short_span_min_tokens
+  Text: 2
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.988076
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: instep
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: ministers
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=0.994410
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: L'Express
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: Poland Signs Aid Contracts With Cuba Polish diplomats were reminded by US officials in January and February that under the Mutual Security Appropriations Act of 1961 the US will refuse to grant assistance to any country that provides economic or military aid to the Castro regime. At the same time the US asked for information which would confirm or deny reports that Poland plans to grant economic aid to Cuba. Polish officials have made clear that they do not feel obligated to explain their trade with Cuba to the US, and have intimated that some regime leaders objected to the American questioning. Nevertheless, a deputy minister of foreign trade allowed US Embassy personnel in Warsaw to scrutinize commodity lists that purported to "explain" Poland's trade with Cuba. These lists, however, contained no information on the extent or terms of trade, and did not in fact constitute a reply to the American inquiry. Both in Warsaw and Washington, Polish diplomats and trade representatives have attempted to confuse the issue by stressing that the extent of Polish trade with Cuba will be very small--some estimates ranging as low as $1,000,000 annually. However, despite a record 1960 sugar beet crop, Poland has already contracted for the purchase of $4,000,000 worth of Cuban sugar, and extensive negotiations are going on in other fields. An agreement was reached in December 1960 that Polish-Cuban trade for 1961 would total $44,000,000
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 4 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=0.243948
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: South Koreans Demand Status-of-Forces Agreement The resolution passed by the lower house of the South Korean Assembly on
+- original #20 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: March called for a status-of-forces agreement
+- original #21 segment 1: full_page_or_admin
+  Text: which the legal status of United States armed forces stationed in Korea will be provided for, as promised in the joint communique issued by both governments on 8 August 1953." The Rhee government repeatedly emphasized its desire for such an agreement, and on this issue politically conscious Koreans support their government now as they did then. A nationwide signature campaign is under way, and leaflets being distributed in the cities by various organizations urge conclusion of an agreement. Several demonstrations have recently emphasized the status-of-forces issue, and editorial comment has been extensive. The chief opposition party advocates early conclusion of an agreement, and Chang Myon has indicated his ruling party will adopt a similar position. Chang maintains that since there has been no fighting for nearly eight years, the public will not swallow the argument that the "state of war" justifies special treatment of South Korea. Political dissatisfaction this year has been aggravated by economic conditions and the early depletion in the southern provinces of winter food stocks. Consumer prices have risen sharply since the first of the year. Grain shortages in urban areas, the result of hoarding by speculators, and projected increases in transportation and power rates are expected to compound the inflationary rise and increase public restiveness. Government spokesmen have attempted to discredit public agitation by linking it to Communist-motivated "impure elements." Although there is no firm evidence to support the government's charges, such unrest provides an opportunity for
+- original #21 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 4 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=15
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: noncontent_keyword
+  Text: Communist subversive activity. The National Police have been alerted to seek out subversive agitators and be prepared to put down possible large-scale antigovernment demonstrations
+- original #22 segment 2: noncontent_keyword
+  Text: 4 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=12 unred_source_page=16
+alignment_score=0.976056
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=13 unred_source_page=17
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

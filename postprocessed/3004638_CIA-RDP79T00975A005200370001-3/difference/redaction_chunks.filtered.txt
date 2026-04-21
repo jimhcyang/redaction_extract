@@ -1,0 +1,205 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.249375
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: TOP SECRET
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 12 AUGUST 1960 I. THE COMMUNIST BLOC Moscow apparently meeting some success in efforts to re-establish close political cooperation with UAR. II. ASIA AFRICA Announcement of Ghana- USSR economic agreement appears imminent. Arrival of three Saudi Arabian military officers in Taif may relate to conspiracy against monarchy. Representative of British aircraft firm in Cairo to discuss sale of jet trainers to UAR. Japan--Government fails to take firm action against sit-down strikers blocking use of US military facility. South Korea--Agreement on Yun Po-son as President to be followed by power struggle for post of prime minister. LATE ITEMS Comment on situation in Congo. Comment on situation in Laos. III. THE WEST Iceland agrees to UK proposal to seek agreement on fishing-limits dispute
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=2 unred_source_page=4
+alignment_score=0.244112
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 12 August 1960 DAILY BRIEF
+- original #3 segment 2: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC USSR-UAR: Soviet efforts to re-establish close political cooperation with the UAR, which lapsed during the exchange of recriminations
+- original #4 segment 1: full_page_or_admin
+  Text: early 1959 over Nasir's anti-Communist campaign, have intensified in recent months and now appear to be meeting with some success. Recent signs of cooperation include a striking parallelism in Soviet and UAR propaganda on a number of issues, close contact between high Soviet officials and UAR Ambassador Kuni over the Congo crisis, and Soviet promises to support the UAR for a seat on the UN Security Council. This rapprochement has been facilitated by Nasir's increasing irritation with the US over issues connected with the Arab Israeli dispute and by Soviet willingness to supply additional military equipment to the UAR which would offset Israeli acquisitions. (Page 1) II. ASIA-AFRICA Ghana-USSR: Announcement of a trade, economic, and technical cooperation agreement between Ghana and the USSR is apparently imminent. Ghana's ambassador in Moscow requested "immediate action" on the terms concerning the agreement. Earlier reports indicated that the USSR recently offered Ghana a long-term credit--possibly amounting to $280,000,000--providing for the construction of a wide variety of projects, including a steel mill, a car assembly plant, a sewerage system for Accra, an atomic reactor, and a series of hotels. A special Ghanaian delegation, composed of key representatives of the Nkrumah regime, arrived in Moscow on 2 August
+- original #4 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=3 unred_source_page=5
+alignment_score=0.939058
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #5, segment 1)
+Text: Saudi Arabia: Three Saudi general staff officers arrived without orders in Taif on 10 August. Their arrival, coinciding with the scheduled visit there of King Saud, may be connected with plans by Saudi Army elements to overthrow the monarchy. Taif, a major military base, is the center of the conspiracy
+Token count: 50
+Recut: none
+
+Clean Chunk #2 (original #8, segment 1)
+Text: the leader of the party's right wing, for this post could lead to a party split and political instability. Both men are anti-Communist and friendly toward the US, but neither has given indications of strong leadership
+Token count: 36
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Page 3
+- original #7 segment 1: noncontent_keyword
+  Text: Page 4
+- original #8 segment 2: noncontent_keyword
+  Text: Page 5
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.827020
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens
+  Text: with
+- original #10 segment 1: noncontent_keyword
+  Text: Page 6
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.996933
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: complement
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.974851
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Ouane
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.243871
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: USSR-UAR Relations Improve Soviet efforts to re-establish close political cooperation with the UAR have intensified
+- original #15 segment 1: full_page_or_admin
+  Text: recent months and now appear to be meeting with some success. Cairo has publicly sided with Moscow's positions on such issues as disarmament and the Cuban and Congo crises. Nasir has recently praised Soviet economic aid policies and has criticized the United States on the alleged grounds that it has refused to respond to UAR overtures for assistance. High Soviet officials--including party presidium members--have presented their views on the Congo situation on at least three occasions and have urged Cairo to take the lead in initiating joint action by African and Asian countries to frustrate "collective imperialism." Such Soviet-UAR consultations were standard practice prior to the exchange of recriminations in early 1959 over Nasir's anti-Communist campaign. The USSR--and presumably other bloc members of the United Nations--would support the UAR's candidacy for the "Arab" seat on the UN Security Council now held by Tunisia and due to become vacant next January. Malik also gave full approval to Cairo's action in breaking off relations with Iran over the latter's recognition of Israel, asserting that the UAR's strong stand would have an adverse effect on the position of the "Shah and the ruling class"--long a target of Soviet propaganda attacks. Moscow has encouraged the rapprochement by giving public approval to the UAR's foreign policy line in recent weeks. Soviet radio propaganda to Arab listeners has emphasized Moscow's and Cairo's common interest in opposing Israeli activities and Western influence. Khalid Bakdash, exiled head of the Syrian Communist party, attacked UAR policies in Syria in a speech at the Rumanian party congress in June, but the bloc press and radio--in contrast to past practice--did not publicize the speech
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: This phase of closer Soviet-UAR cooperation has been facilitated by Nasir's growing irritation with the US over issues connected with the Arab-Israeli dispute, including his apprehensions that a new administration may revise US policies in favor of Israel. Nasir has also expected to secure additional military equipment--especially newer jet aircraft--from the USSR in order to offset acquisitions by Tel Aviv. The Soviet Union, under agreements concluded earlier this year, is currently preparing to make new deliveries of arms and to provide the UAR with equipment for producing and repairing armaments, and will build a shipyard at Alexandria
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.975273
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=0.973545
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: moves
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=0.970462
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: anti-Chang
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=12 unred_source_page=15
+alignment_score=0.967704
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Conservative-Social
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=13 unred_source_page=16
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=14 unred_source_page=17
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

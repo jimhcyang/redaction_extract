@@ -1,0 +1,93 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.676190
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.971863
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Chinese Nationalist General may be returning to Burma
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: LATIN AMERICA
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.963938
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #4, segment 1)
+Text: Chinese Nationalist General may be returning to Burma: General Li Mi, commander of Chinese Nationalist forces in Burma, has ended his visit to Formosa and "just left
+Token count: 27
+Recut: none
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Charge's
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.964347
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #5, segment 1)
+Text: WESTERN EUROPE 8. New French Government faces difficulty in financing present commitments: Former Premiers Pleven, Bidault, and Reynaud have told Ambassador Bruce in Paris that they believe the budgetary problem arising from present commitments in Indochina and Europe is insoluble and that any French government at this time will therefore be "comparatively short-lived." Pleven believes that he can best promote the European Defense Force and the idea of European federation by serving in the Assembly without obligations to the coalition government. He expects Parliament to give general approval of the European defense plan before the Lisbon NATO meeting next month, but warns that formal ratification will be more difficult to obtain
+Token count: 111
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=7
+alignment_score=0.996203
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: LATIN AMERICA
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,84 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.905556
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.995161
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: NEAR EAST
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.994253
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Gromyko's
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.992667
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword, ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: 2,500
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: the
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.789673
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: NEAR EAST
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.915385
+kept_candidate_count=4
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #6, segment 1)
+Text: that the USSR will ship 155,000 metric tons of bread grain to Czechoslovakia before the end of May and 600,000 tons more before the next harvest
+Token count: 28
+Recut: none
+
+Clean Chunk #2 (original #7, segment 1)
+Text: Although the
+Token count: 2
+Recut: none
+
+Clean Chunk #3 (original #8, segment 1)
+Text: some of the rioters may have been associated with a fascist-inclined politico-military faction (the Guevara group) which has been planning the overthrow of the government for some time
+Token count: 28
+Recut: none
+
+Clean Chunk #4 (original #9, segment 1)
+Text: Comment: There is evidence that the alliance between the two most powerful revolutionary factions in Ecuador (the followers of Guevara and those of the Liberal-Radical leader Mancheno) has been strengthened in the past few months, but it is doubtful that this alliance has sufficient strength to overthrow the government at this time
+Token count: 52
+Recut: none

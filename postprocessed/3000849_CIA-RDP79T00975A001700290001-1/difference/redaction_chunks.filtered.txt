@@ -1,0 +1,55 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.990625
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 35
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.813939
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: NEAR EAST - AFRICA 3. Turkey shows increasing concern over Cyprus issue
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.971064
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.874103
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: NEAR EAST - AFRICA 3. Turkey shows increasing concern over Cyprus issue: Comment: Aside from its interest in the Turkish minority on Cyprus, Turkey appears to be increasingly concerned over the deteriorating effect on Western unity of a UN debate on the Cyprus issue. Menderes is apparently disturbed because initial responses to a circular Turkish diplomatic approach aimed at preventing the Cyprus issue from being placed on the UN agenda, though sympathetic, have been largely noncommittal. The Yugoslavs have not yet committed themselves on the issue of Cyprus, but they apparently are sympathetic to the Turkish position
+Token count: 96
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.959524
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

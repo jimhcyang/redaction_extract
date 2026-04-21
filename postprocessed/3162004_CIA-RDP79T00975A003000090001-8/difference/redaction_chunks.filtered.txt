@@ -1,0 +1,171 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.660000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.895652
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. INDONESIAN MOSLEMS ALERT NON-JAVANESE AREAS FOR ACTION IN EARLY MARCH (page 4). 3. SOVIET MISSION TO REORGANIZE SYRIAN ARMY (page 5). 4. EGYPTIAN ASSISTANCE TO OMANI EXILES MAY PRESAGE NEW DRIVE AGAINST BRITISH IN PERSIAN GULF
+Token count: 37
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 6. BRITAIN DISTURBED OVER INDEPENDENT EUROPEAN NUCLEAR WEAPONS PROGRAM
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 6
+- original #2 segment 1: noncontent_keyword
+  Text: page 8
+- original #2 segment 3: noncontent_keyword
+  Text: page 9
+- original #3 segment 1: noncontent_keyword
+  Text: page 10
+- original #4 segment 1: noncontent_keyword
+  Text: 2 Mar 57 Current Intelligence Bulletin Page 2
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.995620
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: 2 Mar 57 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 2. INDONESIAN MOSLEMS ALERT NON-JAVANESE AREAS FOR ACTION IN EARLY MARCH Top Indonesian Moslem leaders have informed Moslems in the Atjeh area of North Sumatra and in Celebes, as well as government army leaders in Central Sumatra, that Communist participation in the government under Sukarno's new concept will not be tolerated. These groups were told that they should be "prepared for action" between 1 and 10 March if Sukarno insists on including Communists in the government. Comment The Moslem leaders referred to in this report may be connected with the Darul Islam, a fanatical Moslem organization centered in Java which seeks to establish a theocratic state by force throughout Indonesia and maintains liaison with Moslem dissident groups in Atjeh and Celebes. It would be natural for them to contact Colonels Hussein and Simbolon who are anti-Communist and are already actively opposing the government
+- original #6 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 2 Mar 57 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 3. SOVIET MISSION TO REORGANIZE SYRIAN ARMY Comment on: The Syrian arms negotiator in Moscow informed Damascus on 20 February that "the committee of experts to organize the army will leave soon for Damascus," This group, composed of "six high-ranking Soviet officers expert in organizing and training," was requested by Damascus on 4 February. The USSR has also agreed to furnish 160 military technicians to train Syrians in the assembly, maintenance and use of military equipment which the Soviet Union is providing under the arms agreement of November 1956. More than half of these technicians are believed to have arrived in Syria. Syria appears to be attempting to standardize its equipment on Soviet models, and the quantities of Soviet arms entering Syria do not appear to exceed re-equipment needs. The varied types of old Western equipment thus replaced, including medium tanks and artillery, are being transferred to the Jordanian army and to the Saudis. Syria is reported, meanwhile, to have reduced its army strength from about 65,000 to about 57,000 and released more than half of the reserve officers called up during the emergency last fall. On 25 February two and possibly three Soviet-type jet fighters were observed at Hama airfield indicating that some of the crated MIG-17's delivered from the USSR in December are now assembled. The Syrians are not qualified to operate these aircraft and have been forced to borrow six Egyptian pilots
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 2 Mar 57 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 4. EGYPTIAN ASSISTANCE TO OMANI EXILES MAY PRESAGE NEW DRIVE AGAINST BRITISH IN PERSIAN GULF Ali Sabri, Nasr's chief of cabinet, has authorized Saleh ibn Isa, an Amir of Oman to send groups of refugee Omani tribesmen to Egypt from Saudi Arabia, The Omanis were to assemble in Cairo under the care of an Egyptian intelligence officer. the Amir maintain constant contact with the Saudi government after the return of King Saud to Saudi Arabia, and assured the Amir that the question of Oman was being discussed at the conference of the Arab chiefs of state
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 2 Mar 57 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: Comment Egyptian assistance to the Omani tribesmen may include arms and fedayeen-type training. Cairo radio charged recently that Britain's ally, the Sultan of Muscat, had illegally annexed the territory of Oman. Since this charge is not new, its coincidence with the above evidence of Egyptian interest suggests that Cairo has decided to step up agitation and subversion against the Sultan. The Sultan's forces, led and supported by the British, in late 1955 asserted control over Buraimi Oasis and the Imamate of Inner Oman--a region in southeast Arabia whose ruler did not recognize the Sultan's authority and had become a protege of Saudi Arabia. Egyptian support of dissidents in Muscat and Oman would not only increase unrest in the Persian Gulf area, but encourage the Saudis to greater anti-British efforts as well. By such maneuvers, Nasr probably hopes to limit any inclination Saud may have to draw closer to the West
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 2 Mar 57 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.960393
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #11, segment 1)
+Text: Kremlin also promised that Soviet propagandists will stop attacking Polish leaders at closed meetings in the USSR. These assurances, followed a Polish protest against the anti-Gomulka campaign in the Soviet, Czechoslovak, Bulgarian and East German press. The
+Token count: 37
+Recut: none
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Comment on
+- original #12 segment 1: noncontent_keyword
+  Text: 2 Mar 57 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: 6. BRITAIN DISTURBED OVER INDEPENDENT EUROPEAN NUCLEAR WEAPONS PROGRAM Comment on: Recent statements from several high British officials show concern over the possible emergence of an independent French-German nuclear weapons program. The most recent indication of this concern is a statement made on 27 February by a member of the Atomic Energy Authority that the British government regrets that the EURATOM treaty allows members to develop their own nuclear weapons programs. Present moves for closer collaboration between Paris and Bonn in research, development, and production of new weapons--particularly missiles--might allow West Germany eventually to get around treaty limitations on its own nuclear program, the official said. Apart from general concern about other nations developing nuclear weapons capability, British misgivings seem to stem from two causes. There are widespread doubts both inside and outside the government of the future political reliability of France and Germany. Secondly, any nuclear weapons production on the continent would end Britain's own present unique position among Western European nations and impede its campaign to extend its influence among them. In an effort to deal with the problem of French-German collaboration, Britain in mid-February set up with France a "steering group" on weapons production, and has been urging a more active role in this regard for the Western European Union's Standing Armaments Committee
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 2 Mar 57 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: 7. U NU REAPPOINTED BURMESE PRIME MINISTER Comment on: The Burmese Chamber of Deputies on 28 February unanimously reappointed U Nu as Burmese prime minister. Nu had turned over his office to Socialist Ba Swe last June, citing a desire to devote his full attention to the reorganization and "purification" of the Anti-Fascist People's Freedom League, the government coalition. For the past three months, however, Nu has been maneuvering intensively, against the opposition of the strong Socialist Party faction of the League, to regain the prime ministership. While Nu's return probably foreshadows no basic foreign policy changes, he is apt to be more easily manipulated by Communist leaders such as Chou En-lai than the more calculating Ba Swe. Recent reports have indicated that in domestic policy, Nu may be amenable to a new effort to reach a settlement with the insurgent Communists. The outgoing prime minister will still be a powerful figure. He is to become one of four deputy prime ministers and retain the portfolio for defense
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 2 Mar 57 Current Intelligence Bulletin Page 10
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.580608
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: noncontent_keyword
+  Text: Comment on
+- original #16 segment 1: noncontent_keyword
+  Text: 2 Mar 57 Current Intelligence Bulletin Page 11

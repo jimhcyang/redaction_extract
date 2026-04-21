@@ -1,0 +1,94 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.960526
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: Japanese leaders show increasing good will toward Orbit
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: Chinese apparently plan to increase flow of aid into northwest Tonkin
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: FAR EAST
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.392732
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: FAR EAST 1. Japanese leaders show increasing good will toward Orbit: Comment: The Japanese Foreign Ministry on 8 April announced that individual Soviet traders will now be permitted to enter Japan. According to the press, the ministry has also decided to allow representatives of the fishing industry to visit the USSR to negotiate on fishing operations in the North Pacific. Because of the decline in the Japanese economy, the desire for trade is believed to be the primary motive for improving relations with the Orbit
+Token count: 85
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.926891
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #5, segment 1)
+Text: Magsaysay has said that he intends to force an early showdown with the senator, and he is confident of victory. If he fails to reassert his leadership, the United States can expect the "sharpest kind of bargaining" on the base and trade agreements, including threats of outright abrogation. Comment: Magsaysay depended heavily on Recto for support in his election campaign last fall and repeatedly deferred to him in the early weeks of his administration. Although the president was reliably reported in mid-February to be aware of the danger to his policies presented by Recto's bid for leadership of the Nacionalista Party, he has not yet demonstrated the political skill required to counter the senator's efforts
+Token count: 115
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.940323
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #7, segment 1)
+Text: 4. Chinese apparently plan to increase flow of aid into northwest Tonkin: the Chinese Communists have requested the Viet Minh to strengthen immediately the bridge over a tributary of the Red River near Lao Kay. At present the bridge has a 5-ton capacity, and the Chinese want it strengthened to handle up to 25-ton loads. Comment: the great bulk of Chinese supplies has been arriving via Pinh-hsiang, 200 air miles east of Lao Kay
+Token count: 74
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.998361
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens
+  Text: that
+- original #9 segment 1: short_span_min_tokens
+  Text: to
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

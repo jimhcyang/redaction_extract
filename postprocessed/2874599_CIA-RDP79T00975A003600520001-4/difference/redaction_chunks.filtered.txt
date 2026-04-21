@@ -1,0 +1,227 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.738462
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122429
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 30 APRIL 1958 I. THE COMMUNIST BLOC Soviet bloc trying to smooth over differences with Yugoslavia, but recurring outbursts are most likely. Chou En-lai raises issue of Burmese insurgency with Rangoon. II. ASIA-AFRICA Lebanese ambassador
+- original #2 segment 1: full_page_or_admin
+  Text: Washington instructed to work "night and day" for more American aid. General Shihab still considering running for president. Indonesia - Some dissident leaders in Sumatra may escape to North Celebes. Dissident air attacks cause fresh alert in central government navy. Tunisia - Bourguiba wants continuation of good offices mission; will probably demand French military evacuation of Bizerte. India orders military patrols to investigate reported Chinese Communist incursions into Kashmir. III. THE WEST Pleven banking on Socialist support and vague statement on Algeria in investiture effort on 5 or 6 May. His chances are rated poor. Argentina - Frondizi will be inaugurated on 1 May; will then seek American private capital. He alleges Soviet Government has offered help
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.934689
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #3, segment 1)
+Text: Communist China - Burma: Chinese Communist Premier Chou En-lai has on several occasions raised the issue of Rangoon's handling of Communist insurgency in Burma. The Burmese ambassador recently reported that Chou took particular exception to Rangoon's effort to force the insurgents "to capitulate," implying that Peiping favored an agreement negotiated on a basis of equality. It is unlikely that these expressions of Chinese Communist views will influence Rangoon to alter its determination to force the unconditional surrender of the insurgents. Meanwhile, conversations on the Sino-Burmese border question continue unproductive
+Token count: 88
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: Page 1) (Map
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.931554
+kept_candidate_count=3
+excluded_candidate_count=5
+
+Clean Chunk #2 (original #5, segment 1)
+Text: the internal political situation in Lebanon is critical and that "American understanding" of the need for aid would help "immensely
+Token count: 20
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #6, segment 1)
+Text: join the dissident regime in North Celebes. Dissident air attacks have forced the Indonesian navy chief of staff to issue fresh instructions to naval vessels to be increasingly alert and to fire at suspicious aircraft
+Token count: 35
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #7, segment 1)
+Text: India - Communist China: New Delhi has ordered two military reconnaissance patrols to investigate reported Chinese Communist encroachments into Kashmir. This action
+Token count: 21
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword, ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ASIA- AFRICA
+- original #5 segment 2: noncontent_keyword
+  Text: Page 2
+- original #6 segment 2: noncontent_keyword
+  Text: Page 3) (Map
+- original #7 segment 2: noncontent_keyword
+  Text: 30 Apr 58 DAILY BRIEF
+- original #7 segment 3: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.940698
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #5 (original #8, segment 1)
+Text: is probably being taken in preparation for projected Sino-Indian border talks and for Nehru's trip to Tibet next fall. The patrols have been ordered to capture if possible any Chinese Communist patrols encountered. India is especially interested in a new Chinese Communist-built road from Sinkiang to Tibet, which, India insists, cuts across the northeastern corner of Kashmir
+Token count: 57
+Recut: kept_after_recut
+
+Clean Chunk #6 (original #10, segment 1)
+Text: A high-ranking Soviet delegation, led by First Deputy Foreign Minister Kuznetsov, will attend the inauguration
+Token count: 15
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #8 segment 2: noncontent_keyword
+  Text: Page 4) (Map
+- original #9 segment 1: noncontent_keyword
+  Text: Page 5
+- original #10 segment 2: noncontent_keyword
+  Text: Page 6) 30 Apr 58 DAILY BRIEF
+- original #10 segment 3: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #11, segment 1)
+Text: SINO-BURMESE BORDER AREA
+Token count: 3
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.122064
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Chou En-lai Seeks Softer Terms for Burmese Communist Insurgents Chou En-lai urged Burma to modify its insistence that the Communist insurgents "capitulate." Chou said he was speaking unofficially "as a friend." His remarks, however, indicate Peiping's determination to influence the negotiations between Rangoon and the Communist insurgents despite its formal position that the Burmese Communist insurgents are an internal Burmese affair and that Communist China has no connections with or control over them. Chou touched upon the issue of KMT troops remaining
+- original #13 segment 1: full_page_or_admin
+  Text: Burma as a further irritant to Sino-Burmese relations, but he quickly declared that this too was an internal Burmese matter. Fairly reliable reports, nevertheless, indicate the Burmese Communists have been crossing the border into Yunnan Province and returning after a period of training. There has also been a steadily increasing infiltration into Burma of Chinese, many of them agents carrying forged documents. The Burmese Government insists on unconditional surrender of arms before it enters into formal discussions with the insurgents. At the same time, however, it is waiving prosecution of insurgents who surrender and is promising legal status to the Communist party when certain conditions are met. Together with the long delay in reaching a border settlement, Chinese incursions and approaches on the insurgents' behalf are adding to Rangoon's suspicions of Peiping's professions of good will and may stimulate the Burmese to intensify their drive for a military victory
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.976355
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #8 (original #14, segment 1)
+Text: Foreign Minister Malik emphasized the critical internal situation and the necessity for "American understanding" of Lebanon's need for help. He said the granting of aid would "help immensely in improving the situation
+Token count: 32
+Recut: none
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.886052
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #9 (original #15, segment 1)
+Text: Dissident aircraft based at Menado on 28 April again attacked Djailolo on Halmahera Island, the Palu Bay area in Celebes, and Ambon Island. The aircraft which attacked Djailolo then flew north to Morotai Island. dissident troops under Lt. Col. Sumual which landed on the morning of 28 April appeared to be in complete control of the island, including the airfield. The air attacks on Ambon and Palu, in each case carried out by a single B-26, apparently were not as successful as the initial strikes on these targets. In Central Celebes the central government combat team under the command of Lt. Col. Rukmito has occupied Parigi, on the east coast. Elements of this force apparently intend to push on toward Poso, where a sizable pocket of dissident troops is believed to be located. The leader of the Moslem insurgents in Atjeh, the northernmost part of Sumatra, will shortly declare his support for the revolutionary government. The severe reverses suffered by the Central Sumatran regime, however, may cause him to reconsider or at least to limit any commitment
+Token count: 177
+Recut: none
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=0.122218
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: India to Send Reconnaissance Patrols Into Disputed Sino-Indian Border Area India reportedly plans to send two military reconnaissance teams
+- original #17 segment 1: full_page_or_admin
+  Text: early June into a disputed area between Kashmir and Communist China to investigate reported Chinese troop incursions. India is particularly interested in obtaining information about a Sinkiang-Tibet road opened by the Chinese last October which passes through the area. The Chinese Communists consider this road an important communications link between Sinkiang and western Tibet. India has been attempting to secure Chinese agreement to open negotiations on disputed border areas for several years, and Peiping recently agreed--apparently with some reluctance--to send a delegation to New Delhi to begin negotiations on the undemarcated Bhoti region where China, India, and Nepal meet. Nehru is planning a trip to Tibet about September, where he may meet Chou En-lai and discuss this area. In resisting pressure for a quick settlement, the Chinese would probably propose that both sides keep their troops out of the area. Peiping probably will also invoke Tibetan interest in this region, which has been traditionally under Tibetan influence and is now sparsely inhabited by tribes of Tibetan racial stock
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=12 unred_source_page=15
+alignment_score=0.924242
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #10 (original #18, segment 1)
+Text: problems. He recently stated the Soviet Government had made specific offers to help Argentina, but acknowledged that this had not produced tangible results. Frondizi's decision on any Soviet bloc trade and credit offers will probably be made exclusively on economic grounds after possible alternatives have been considered. The fact that the mission sent to the Soviet bloc early in 1958 by Provisional President Aramburu negotiated purchases worth only some $27,000,000 may have little influence on Frondizi's attitude, since Aramburu had little interest in promoting such trade and since the bloc had little to gain from an outgoing administration
+Token count: 100
+Recut: none
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=13 unred_source_page=16
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=14 unred_source_page=17
+alignment_score=0.934689
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #11 (original #19, segment 1)
+Text: Communist China - Burma: Chinese Communist Premier Chou En-lai has on several occasions raised the issue of Rangoon's handling of Communist insurgency in Burma. The Burmese ambassador recently reported that Chou took particular exception to Rangoon's effort to force the insurgents "to capitulate," implying that Peiping favored an agreement negotiated on a basis of equality. It is unlikely that these expressions of Chinese Communist views will influence Rangoon to alter its determination to force the unconditional surrender of the insurgents. Meanwhile, conversations on the Sino-Burmese border question continue unproductive
+Token count: 88
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #19 segment 2: noncontent_keyword
+  Text: Page 1) (Map

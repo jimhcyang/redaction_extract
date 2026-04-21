@@ -1,0 +1,79 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.731579
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.975926
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: SOVIET UNION 1. Soviet medium bombers fly into Poland
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.927841
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #3, segment 2)
+Text: SOVIET UNION 1. Soviet medium bombers fly into Poland: on 28 October at least 14 multi-engine aircraft, probably TU-4 medium bombers, flew from the Second Long Range Air Army bases at Poltava and Zhitomir in the Ukraine to an as yet undetermined airfield in Poland, where they apparently landed. Comment: This flight of TU-4's, the largest yet noted over any European Satellite, may be connected with intensified air training activity which has been noted in the European USSR since mid-October. Together with a recent round-trip flight of nine TU-4's from Zhitomir to eastern Poland, this flight may indicate that Soviet medium bomber training activities, which have been confined to the Soviet Union and in rare instances the adjoining waters, are being extended to eastern Europe
+Token count: 125
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.998375
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #5 segment 1: short_span_min_tokens
+  Text: a
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

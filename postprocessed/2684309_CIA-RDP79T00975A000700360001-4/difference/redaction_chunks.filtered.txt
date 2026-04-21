@@ -1,0 +1,78 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 24 June 1952 CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY TOP SECRET - SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.940441
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 3. Saudi Arabia opposes any interference in Jordan's internal affairs
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: WESTERN EUROPE 5. Austria seeks Latin American support on state treaty issue
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 3: noncontent_keyword, short_span_min_tokens
+  Text: 2
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.817149
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Mossadeq
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.903097
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #6, segment 1)
+Text: There is the general feeling that an interim settlement might be acceptable to any new Iranian regime and provide the best means of resuming production while working toward a permanent settlement. No new specific interim proposals are being considered. 3. Saudi Arabia opposes any interference in Jordan's internal affairs: The Saudi Arabian Government has it approves Syria's policy of supporting the present Jordan Government. Saudi Arabia deplores the "unscrupulousness" of the Iraqi Regent's activities in regard to Jordan and will not tolerate interference in the country's internal affairs by him or anyone else. Comment: The Iraqi Regent, who visited in Amman recently, has taken advantage of King Talal's illness to promote union with Jordan. Saudi Arabia, Syria, and Egypt are opposed to any such union. Israel is also known to regard a union of Jordan or Syria with Iraq as a threat to its security
+Token count: 145
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 4
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.909574
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #8, segment 1)
+Text: WESTERN EUROPE 5. Austria seeks Latin American support on state treaty issue: Austrian Foreign Minister Gruber intended to visit Brazil in mid-July to request Latin American support in the United Nations if an Austrian state treaty is discussed there. Comment: Although the Western occupation powers have not looked favorably on the idea, Austria at various times has proposed presenting its case for a state treaty before the United Nations. The USSR has not yet replied to the 9 May Western note proposing an abbreviated treaty
+Token count: 85
+Recut: none

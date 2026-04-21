@@ -1,0 +1,87 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.554762
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.856037
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 2)
+Text: SOUTHEAST ASIA 2. Missing Thai politician said to be active with Communists in Laos
+Token count: 14
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.950303
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #2, segment 1)
+Text: SOUTHEAST ASIA 2. Missing Thai politician said to be active with Communists in Laos: Tiang Sirikhan, the popular Thai politician who disappeared in late
+Token count: 24
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.913745
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 1952, is still alive and is heading a "Free Thai movement" based in Laos. Comment: It has been widely believed that the Thai police liquidated Tiang. If he is still alive, he would be a logical Communist choice to promote a dissident movement in northeastern Thailand, where his name is still greatly revered and dislike of the central government is endemic
+Token count: 61
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: subjected
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.973541
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.900053
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #6, segment 1)
+Text: On the evening of 18 January Communist ships and artillery were shelling Pishan, which is garrisoned by 1,500 guerrillas, and other vessels were observed near Yushan, which is manned by about 850 guerrillas. Pishan is about 35 miles southwest of the main Tachens, and Yushan, 35 miles northeast
+Token count: 49
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Ichiang
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #7, segment 1)
+Text: Ichiang Island captured by ChiComs on 18 January 1955 TACHEN ISLANDS Chinese Nationalist garrison 12,750 Communist ships and artillery shell Pishan Chinese Nationalist garrison 1,500 Guerrillas JANUARY 19 1955 Nationalist held 0 5 10 miles PRESENTATIONS DIVISION
+Token count: 39
+Recut: none

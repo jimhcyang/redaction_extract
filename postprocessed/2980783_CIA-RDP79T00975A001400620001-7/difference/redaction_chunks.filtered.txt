@@ -1,0 +1,145 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. 84 CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.951953
+kept_candidate_count=3
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #3, segment 2)
+Text: 4. Chinese war materiel being flown toward Indochina
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: EASTERN EUROPE 10. Czechoslovakia to imitate Western consumer goods
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #5, segment 1)
+Text: LATIN AMERICA 13. Argentina may request special economic meeting to follow Caracas conference
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: SOVIET UNION
+- original #3 segment 1: noncontent_keyword
+  Text: page 4
+- original #4 segment 2: noncontent_keyword
+  Text: page 8
+- original #5 segment 2: noncontent_keyword
+  Text: page 9
+- original #5 segment 3: noncontent_keyword
+  Text: 2 Mar 54
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.997000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: SOVIET UNION
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.967249
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #7, segment 1)
+Text: 4. Chinese war materiel being flown toward Indochina: Comment: Supply flights to Kunming, noted several times in recent months, would seem to reflect a high priority assigned by Peiping to satisfying Viet Minh needs quickly and effectively. Kunming is a principal supply center on the main route into western Indochina
+Token count: 50
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: Comment: There have been persistent reports of Viet Minh pilots training in China but no firm evidence that China has assigned planes to a Viet Minh air force. The French have been obliged for several years to carry out their military planning and operations under the threat of air and troop intervention from China. NEAR EAST - AFRICA 8. Confusion in Syria may bring leftist leader to the fore: Neither of Syria's old-line political parties dominates the cabinet coalition. To gain power
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.794000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Muheiddin
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: EASTERN EUROPE 10. Czechoslovakia to imitate Western consumer goods: Comment: This evidence of a Satellite policy of copying Western products is indicative of the broad effort being exerted in the current consumer goods program. Imitation of Western techniques and products would improve the quality and variety of production in an industry which has been almost completely neglected for six years
+
+========================================================================
+[PAGE 09]
+kind=red_only red_source_page=8 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.967978
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #12, segment 1)
+Text: LATIN AMERICA 13. Argentina may request special economic meeting to follow Caracas conference: Comment: This maneuver seems to imply strong doubts, which apparently are shared by other countries, that the Caracas conference will satisfy Latin America's economic grievances
+Token count: 38
+Recut: none
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: a request for such a special conference could be based on the unfulfilled resolution passed at the 1948 Inter-American Conference calling for an economic meeting in Buenos Aires later the same year. Argentina would probably like to line up support for such a conference because of growing resentment of what it regards as American "dumping" and trade barriers affecting such key Argentine exports as wheat, linseed oil and wool. Recent statements on these practices by Uruguay and other countries suggest that a proposal for an economic conference would probably find overwhelming support at Caracas

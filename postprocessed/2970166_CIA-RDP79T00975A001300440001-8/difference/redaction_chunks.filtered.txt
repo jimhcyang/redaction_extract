@@ -1,0 +1,74 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.757143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.843152
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: GENERAL 1. Rome presses for prompt UN rejection of Soviet proposal on Trieste (page 3). 2. Yugoslav diplomat hints at compromise on Trieste
+Token count: 23
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: NEAR EAST - AFRICA 5. Iran to reopen negotiations with USSR on border and financial problems
+Token count: 15
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: GENERAL 1. Rome presses for prompt UN rejection of Soviet proposal on Trieste: Rome is most anxious to have the 2 November meeting of the UN Security Council reject rather than merely postpone discussion of the Soviet proposal for the appointment of a governor of the Trieste Free Territory. 2. Yugoslav diplomat hints at compromise on Trieste: Comment: Tito proposed that the city of Trieste be under Italian sovereignty and the rest of the Free Territory under Yugoslav sovereignty for a period of 10 to 15 years. The Yugoslav regime now appears to be retreating toward an earlier position which called for a definitive division preferably along the present zonal boundary
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.986008
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.862297
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #5, segment 1)
+Text: Iran to reopen negotiations with USSR on border and financial problems: Comment: Iran has been attempting to settle boundary disputes with the USSR and to obtain payment of the $21,000,000 in gold and credits owed it since the end of World War II. The latest negotiations, started by Mossadeq, were suspended as a result of the change of government in August. A favorable settlement of those issues would strengthen the Zahedi government, but there is no indication that agreement can be reached without prolonged bargaining. Even a resumption of negotiations, however, following the signing of the 3 September Soviet-Iranian supplemental trade agreement, would at least partially restore Soviet prestige in Iran lost as a result of Mossadeq's ouster and the Tudeh's failure at that time to make a better showing
+Token count: 132
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.976552
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

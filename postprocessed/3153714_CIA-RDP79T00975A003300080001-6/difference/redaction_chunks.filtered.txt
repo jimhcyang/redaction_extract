@@ -1,0 +1,161 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.693750
+kept_candidate_count=3
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. USSR BRIEFS SYRIA ON AMERICAN AND TURKISH MILITARY MOVES
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. NASIR-SAUD DIFFERENCES REPORTED (page 4). 3. SUMATRAN COMMANDERS CONSIDERING EMERGENCY GOVERNMENT
+Token count: 12
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #2, segment 2)
+Text: 5. USSR TO INCREASE OPERATIONAL AND TECHNICAL ASSISTANCE TO EGYPTIAN NAVY
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #2 segment 3: noncontent_keyword
+  Text: page 7
+- original #3 segment 1: noncontent_keyword
+  Text: page 8
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: GOVERNMENT
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 10
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 1. USSR BRIEFS SYRIA ON AMERICAN AND TURKISH MILITARY MOVES Comment on: The USSR has avoided any suggestion of further diplomatic or military moves to support Syria. Soviet propaganda is bitterly attacking the West, particularly the United States, for exerting pressure on Syria. On 10 September, Izvestia charged "it is obvious that preparations are being made by the United States to attack Syria
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.246190
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: NASIR-SAUD DIFFERENCES REPORTED Comment Egyptian subversive activities
+- original #8 segment 1: full_page_or_admin
+  Text: Saudi Arabia resulted in friction between the two states last April. Since that time Nasir has publicly maintained a conciliatory attitude in dealings with Saud. Accordingly, an open break between the two is unlikely despite the report of new difficulties. Saud has expressed a belief that the recent Syrian developments were more attributable to Egyptian than to Soviet influence. His visit with Lebanese and other Near Eastern officials may have been an effort to obtain first-hand knowledge of the Syrian situation
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 3. SUMATRAN COMMANDERS CONSIDERING EMERGENCY GOVERNMENT Four military commanders in Sumatra plan to proclaim an emergency government if they are dissatisfied with the outcome of the national round-table conference now in progress in Djakarta. The commanders had originally considered taking the step after learning of Communist election victories in Java, but reportedly decided to postpone action until after the conference. Comment Some Djakarta leaders have expressed fear that the national conference will only widen the split between the non-Javanese provinces and the central government and prompt President Sukarno to take some drastic action. In his recent tour of East Indonesia, Sukarno strongly denounced the regional leaders and insisted on the maintenance of a highly centralized government. It is not clear whether the planned emergency government would be totally independent or would continue some nominal tie with Djakarta. The officers mentioned in the report command all of Sumatra except the area around Medan. The projected plan to declare an emergency government might also be connected with a reported plan by disaffected commanders to seize the Medan area sometime in September
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.955969
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens
+  Text: Reference
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: 5. USSR TO INCREASE OPERATIONAL AND TECHNICAL ASSISTANCE TO EGYPTIAN NAVY experts for the repair of submarines and for training their crews would arrive in Egypt the latter part of this month. a Russian mission to discuss establishment of two submarine bases would be in Egypt "the beginning of December and the beginning of April," instead of this month as originally scheduled. Comment Egypt now may intend to establish two submarine bases, one on the Mediterranean and another on the Red Sea. Despite the training received by Egyptian officers and men in Poland, Egypt apparently is incapable of effectively operating and maintaining its three recently acquired submarines. The need for assistance provides the USSR with an opportunity for placing additional technical personnel with the Egyptian military establishment
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.891118
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens
+  Text: Reference
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.950582
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: southwestern
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.950162
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: noncontent_keyword
+  Text: Comment on
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: resigned
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: overthrow
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

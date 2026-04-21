@@ -1,0 +1,88 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.504167
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.927885
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 3. INDIA REQUESTS $700,000,000 LOAN FROM UNITED KINGDOM (page 6). 4. ATTEMPTED ASSASSINATION OF SYRIAN COMMUNIST LEADER
+Token count: 19
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #2 segment 3: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.997018
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: 3. INDIA REQUESTS $700,000,000 LOAN FROM UNITED KINGDOM Comment The size of the requested loan indicates the seriousness of the developing financial crisis in India. In the past the Indians have taken the position that while they would discuss offers of aid, they would not solicit such assistance. Indian foreign exchange reserves, which were scheduled to decline by $420,000,000 during the Second Five-Year Plan (1956-61), have fallen by $571,000,000 in the first 15 months of the plan, and would have declined even more if India had not borrowed $200,000,000 from the International Monetary Fund. To pay for the large amounts of industrial equipment already contracted for in foreign countries, India will be forced to reduce drastically the foreign exchange backing for its currency, which might cause a financial panic in India. Since neither the UK nor Canada is likely to supply the funds now being requested, India probably will approach the United States for large-scale assistance in the near future
+- original #3 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 27 June 57 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.124259
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 4. ATTEMPTED ASSASSINATION OF SYRIAN COMMUNIST LEADER Comment This is the second attempt on the life of a leftist leader
+- original #5 segment 1: full_page_or_admin
+  Text: Syria to be reported in the past two weeks. Col. Mustafa Hamdun, an extreme left-wing supporter of Col. Sarraj, was attacked on 10 June
+- original #5 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 27 June 57 Current Intelligence Bulletin Page 7

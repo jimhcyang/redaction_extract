@@ -1,0 +1,127 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.797619
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.966327
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 3. SOVIET OFFER OF OIL EQUIPMENT FOR ARGENTINA REPORTED
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.990892
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: anti- Rakosi
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=4
+alignment_score=0.972940
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: circum- stances
+- original #4 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pres- sure
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Jordanian
+- original #6 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: prob- ably
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: prod- ucts
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 3. SOVIET OFFER OF OIL EQUIPMENT FOR ARGENTINA REPORTED The chief of the Soviet commercial mission in Buenos Aires visited the administrator of the Argentine State Oilfields monopoly (YPF) to offer Soviet oil drilling and other petroleum equip- ment needed by YPF. The Soviet representative also offered steel sheets adequate to cover 80 percent of the material needed for the construction of YPF's planned pipeline system. The terms would include credit of 15 to 20 years and 2.5 percent annual interest. The YPF administrator is reported to have been impressed and to have asked for a written offer as soon as possible. Comment The reported Soviet offer appears to be in response to the Argentine announce- ment on 7 March that YPF would publish "on both sides of the iron curtain" a call for bids for the financing of $250,000,000 worth of pipeline, gas line, and miscellaneous petroleum equipment. Bids were to be submitted by 15 May and provide for payments to begin in 1959 and be spread over a 15-year period. Pipeline construction is being given priority in Argentina government planning to reduce im- ports of petroleum, which costs Argentina some $200,000,000 annually. Argentine exports to the USSR amounted to about $36,000,000 in 1954. (Concurred in by ORR
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=0.971074
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Min- ister
+- original #10 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ter- ritory
+- original #11 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: meet- ing
+- original #12 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ap- parently
+- original #13 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: polit- ical
+- original #14 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: out- side
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=7
+alignment_score=0.944228
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #2 (original #20, segment 1)
+Text: Press) On 26 April, Cairo informed its arms mission in Prague that the "air force needs airfield con- struction experts to advise on and supervise the construc- tion of new bases." Deliveries of Soviet bloc jet fighter and light bomber aircraft have over-taxed Egypt's present airfield facilities
+Token count: 47
+Recut: none
+
+Excluded candidates:
+- original #15 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Egyptian- Israeli
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: kidnaped
+- original #17 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: settle- ment
+- original #18 segment 1: short_span_min_tokens
+  Text: Press
+- original #19 segment 1: short_span_min_tokens
+  Text: to
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

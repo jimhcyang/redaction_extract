@@ -1,0 +1,94 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.380208
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.850263
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: GENERAL 1. Swedish ambassador seeks clarification of repatriation commission stand
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: NEAR EAST - AFRICA 4. Egypt reportedly sending 5,000 troops to Israeli border (page 5). 5. Nasr may assume Egyptian premiership because of Nagib's illness
+Token count: 25
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 6
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.901851
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: GENERAL 1. Swedish ambassador seeks clarification of repatriation commission stand: The ambassador quoted a New York Times editorial calling for direct protests to the governments of the commission members. He expressed anxiety to counteract "such obvious misunderstandings and misrepresentations." Comment: This is the first indication that Swedish officials are concerned over possible unfavorable repercussions of their country's role in the Korean armistice
+Token count: 62
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.985408
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: NEAR EAST - AFRICA 5. Egypt reportedly sending 5,000 troops to Israeli border: Approximately 5,000 Egyptian troops left Alexandria, the major part to reinforce the Gaza garrison near the Israeli border. The remainder are en route to the Gulf of Aqaba to garrison two islands guarding the southeastern approach to Israel. These movements reportedly have been made because of Israeli defense forces' occupation of Al Auja in the Israeli-Egyptian demilitarized zone
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.762669
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #7, segment 1)
+Text: Comment: With this addition there would be approximately 10,000 Egyptian troops near the Israeli frontier, 3,000 less than were there last May when most of the division was withdrawn to Cairo because of the breakdown in Anglo-Egyptian talks. The Egyptian authorities, preoccupied with the Anglo-Egyptian talks, want a minimum of controversy over the Al Auja incident. Egypt may be forced by Arab pressure to adopt a belligerent attitude, but is unlikely to precipitate direct military action. 6. Nasr may assume Egyptian premiership because of Nagib's illness: On 4 October Egypt's Revolutionary Command Council decided that Vice Premier Nasr would be made vice president and possibly premier if President Nagib's heart attack makes it impossible for him to discharge his present duties. Nasr's resignation as minister of interior on the same day was presumably made in anticipation of his greater responsibilities. Comment: The possible assumption of the premiership by Nasr, long the dominant figure in the military regime, has been rumored since the proclamation of the republic in July. Without Nagib's restraining influence, Nasr, who has been Egypt's chief representative in the current talks, may be more difficult in the negotiations with Britain
+Token count: 194
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.977632
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.976389
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

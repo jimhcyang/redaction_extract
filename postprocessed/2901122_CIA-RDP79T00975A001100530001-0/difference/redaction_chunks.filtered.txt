@@ -1,0 +1,89 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: CURR IEINT INTELLIGENCE BULLETIN TO
+Token count: 5
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: TS S
+- original #1 segment 3: short_span_min_tokens
+  Text: DATE
+- original #1 segment 4: noncontent_keyword
+  Text: Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY Copy No
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.971154
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #3, segment 1)
+Text: LATIN AMERICA 6. Cuban opposition leaders reportedly alerted for early revolt
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 3: noncontent_keyword, short_span_min_tokens
+  Text: 2
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.999309
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.995233
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Nagib
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 4
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.973333
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #7, segment 1)
+Text: LATIN AMERICA 6. Cuban opposition leaders reportedly alerted for early revolt: Opposition leaders in Cuba received orders from their headquarters in Mexico City alerting them for a possible armed revolt against the Batista regime before the end of June. - 5
+Token count: 40
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #8, segment 1)
+Text: Comment: Final preparations for revolutionary operations had been started. An armed revolt may be imminent. Although an attempted revolt would probably lead to considerable bloodshed, Batista is aware of the constant plotting against him and is believed to be able to control the situation. - 6
+Token count: 45
+Recut: none

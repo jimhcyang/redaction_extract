@@ -1,0 +1,200 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.702500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.931696
+kept_candidate_count=3
+excluded_candidate_count=9
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. PEIPING MAY JOIN WARSAW PACT AND GET MODERN ARMS FROM USSR (page 3). 2. SOVIET-EGYPTIAN ECONOMIC AGREEMENT
+Token count: 18
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 5. JORDAN'S KING HUSSAYN ASKS IRAQI AND SAUDI MILITARY COMMITMENT
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 2)
+Text: 7. INSURGENT SITUATION IN BURMA
+Token count: 5
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 3: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+- original #4 segment 3: noncontent_keyword
+  Text: page 9
+- original #5 segment 1: noncontent_keyword
+  Text: page 10
+- original #6 segment 1: noncontent_keyword
+  Text: page 11
+- original #7 segment 1: noncontent_keyword
+  Text: page 12
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 1. PEIPING MAY JOIN WARSAW PACT AND GET MODERN ARMS FROM USSR Chinese participation in the Warsaw pact might be part of the bloc's answer to current Western moves to strengthen NATO. A "strengthened" Warsaw pact was one of the objectives enumerated by Communist leaders on 22 November. Peiping's membership might presage the stationing of specialized Soviet units in China while Chinese units are acquiring proficiency in modern weapons
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 2. SOVIET-EGYPTIAN ECONOMIC AGREEMENT Comment on: The initiative for the recently announced Egyptian-Soviet economic agreement came from Cairo. President Nasir, following a study of Egypt's five-year development plan, felt it would be a "fiasco" without outside assistance, and instructed Minister of Defense General Amir to approach the USSR, which had not previously extended significant economic aid. Nasir expressed concern over Western reaction to the agreement. He considers it an arrangement which will allow him credit for obtaining capital goods as needed in fulfilling the five-year plan and "hopes" the West will "go along" so that he can obtain half of these requirements from the USSR and half from the West. Nasir did not make clear whether the USSR agreed to this. Nasir regards the agreement as more comparable to the Soviet credit for India than to the Soviet-Syrian economic development agreement. Unlike the Syrian agreement with the USSR, the loan avoids suggesting that the USSR assume responsibility for the economic development of Egypt. The announced agreement specifies that machinery, factories, and industrial equipment worth over $175,000,000 will be provided under a 12- to 15-year, 2.5-percent loan. Nasir is studying a Soviet offer of jet military aircraft and a Soviet-proposed gift of a civil aircraft, presumably a jet, for use by the Egyptian national airline
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.998701
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.983147
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #4 (original #13, segment 1)
+Text: She said, "We pray for Hussayn even though we may not like him
+Token count: 13
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens
+  Text: Reference
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: blackmail
+- original #14 segment 1: short_span_min_tokens
+  Text: new
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: 5. JORDAN'S KING HUSSAYN ASKS IRAQI AND SAUDI MILITARY COMMITMENT Comment on: Jordan's King Hussayn is disturbed over the possibility of trouble on the Israeli border. On 22 November asked that Iraq be prepared to come to his aid quickly with military forces if Hussayn should call for help. The request appears to be precautionary, and there is as yet no indication that the entry of Iraqi troops is imminent. Hussayn's concern has been heightened by the possibility that if serious trouble developed on the Israeli border, Syria and Egypt might offer to send in troops, an offer the King feels he would be unable to refuse. Once Syrian and Egyptian troops were inside Jordan they would never go home. Hussayn has also indicated that he intends to advise the Saudi ambassador of his fears and ask that the Saudis, too, be prepared to respond quickly to any call for assistance. Hussayn's requests may also have been prompted by his fear of increased subversion inspired by Egypt and Syria. Jordanian security units have been alerted to the possibility of an Egyptian-inspired uprising in West Jordan some time after 23 November. Hussayn's request to Iraq is probably in response to recent urging by former Iraqi Prime Minister Nuri Said that Jordan ask for a brigade of Iraqi troops, which would, in Nuri's view, have a "stabilizing and encouraging effect" on the Jordanian population. Only one battalion is now stationed at pumping station H-3, about 50 miles from the Jordanian border. Saudi Arabia already has about 3,000 troops in central Jordan west of Amman, and a smaller force in the Maan-Aqaba area in southern Jordan
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.998387
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: 7. INSURGENT SITUATION IN BURMA Comment on: The recent surrender of 105 Communists and 135 Karen insurgents, and press reports that more groups are to follow, may represent an important breakthrough in the Burmese government's nine-year struggle to establish law and order throughout the country. No indication that the Communist and Karen high commands are ready to accept the government's terms of unconditional surrender, these defectors--coupled with the generosity with which the government is treating those who lay down their arms--will have a serious effect on insurgent morale and will encourage additional mass desertions. In this connection, the spokesman for the surrendering Communists has publicly stated that the Burma Communist party was in error in insisting on a negotiated settlement, as opposed to outright surrender, and even questioned the correctness of the party's original decision to go into armed rebellion in 1948. The Communist leadership and some Karens are campaigning for an "honorable" negotiated settlement, and Thakin Kodaw Hmaing, Burma's fellow-traveling "grand old man of letters," has received the government's permission to meet unofficially with the insurgents in an effort to learn their latest peace terms. Such a meeting could be a prelude to direct peace talks between the government and the insurgents. The government, encouraged by the surrenders, probably will be in no mood to soften its terms
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.995665
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #19, segment 1)
+Text: by Seoul's stubbornness
+Token count: 3
+Recut: none
+
+Excluded candidates:
+- original #18 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.998113
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.998404
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=0.998225
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: noncontent_keyword
+  Text: Comment on

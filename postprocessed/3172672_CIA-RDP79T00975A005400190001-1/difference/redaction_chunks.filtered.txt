@@ -1,0 +1,159 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.650000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122830
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 22 NOVEMBER 1960 I. THE COMMUNIST BLOC Peiping press reiterates hard line on issues involved
+- original #2 segment 1: full_page_or_admin
+  Text: Sino-Soviet dispute as Moscow meetings continue. II. ASIA-AFRICA Ethiopia--Dissatisfied officers of 6,000-man Imperial Bodyguard threaten revolt over pay and discriminatory treatment. Sudan--UAR President Nasir received enthusiastically during Khartoum visit; Sudanese political groups expected to petition for return of civil government following Nasir's departure. Japan--Election victory of Ikeda's Liberal Democrats not viewed as popular mandate for pro-American policies; Democratic Socialist losses dim hopes for a moderate opposition party. Antigovernment feeling in Algeria may lead to major demonstrations in Algiers, possibly even an early coup attempt. Situation in Laos
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.984746
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #4, segment 1)
+Text: and at a meeting on 17 November officers threatened to revolt against the Emperor because of grievances over low pay
+Token count: 20
+Recut: none
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: Page 1
+- original #5 segment 1: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.927290
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #6, segment 1)
+Text: Sudan: UAR President Nasir, in the Sudan on a ten-day visit which will end on 25 November, has been greeted with considerable popular enthusiasm. Khartoum university students attempted anti-Nasir demonstrations but were restricted to the university grounds and whipped by the police. Action by larger opposition groups to take advantage of the visit to demonstrate against the regime apparently has been inhibited by extraordinary security precautions and a show of force in the 17 November anniversary parade. However, a coalition of a number of leaders of the major political parties intends, after Nasir's departure, to present the Abboud military government with a formal demand for the reconstitution of civilian government and "the return of the army to the barracks
+Token count: 119
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Page 3) 22 Nov 60 DAILY BRIEF
+- original #7 segment 2: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.784313
+kept_candidate_count=2
+excluded_candidate_count=7
+
+Clean Chunk #3 (original #9, segment 1)
+Text: report of major demonstrations, and possibly even a coup attempt, to occur in Algiers, perhaps as early as 22 November. The principal settler organization, the Front for French Algeria, will precipitate a vast demonstration and that the army will remain neutral. The government, which appears to be well informed concerning rightist plotting, rushed important security police reinforcements to Algeria last week. Reports of De Gaulle's recent soundings of army attitudes in Algeria indicate strong opposition to his use
+Token count: 78
+Recut: none
+
+Clean Chunk #4 (original #11, segment 1)
+Text: his 4 November speech; the reports also suggest that, although the army would not initiate a move against De Gaulle, an "activist" minority might swing the remainder into support of the settlers in the event that violence got beyond the control of the security police
+Token count: 45
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: France-Algeria: Reflecting the growing antigovernment feeling in Algeria is
+- original #10 segment 1: nonempty_redacted_alternate_conflict
+  Text: term "Algerian Republic
+- original #11 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 4
+- original #11 segment 3: short_span_min_tokens
+  Text: Laos
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Klassy
+- original #13 segment 1: noncontent_keyword
+  Text: 22 Nov 60 DAILY BRIEF
+- original #13 segment 2: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.993902
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: militant
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: by
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.939483
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #16, segment 1)
+Text: The widespread discontent in the elite Ethiopian Imperial Bodyguard was shown at an officers' meeting on 17 November when there was a threat to revolt against Emperor Haile Selassie, The officers reportedly are dissatisfied with the higher pay granted to cadets graduating from the Harar Military Academy than to officers of equivalent rank presently on duty. Although the officers abandoned their immediate plan of action on the urging of a high-ranking officer, they claim they will take over the government if no action is taken on their case. They allege that they are supported by some 800 former officers, as well as by police officers who are only waiting to follow any action by the Imperial Bodyguard
+Token count: 117
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: Major Antigovernment Demonstrations in Algiers Possible Soon Major antigovernment demonstrations--possibly even a coup attempt--may be made in Algiers as early as 22 November. The Front for French Algeria (FAF), the European settler organization which claims a million members, will precipitate a vast demonstration and the army will remain neutral. Settler discontent has been smoldering since De Gaulle's reference to an "Algerian Republic" on 4 November and since the 16 November announcement of an early referendum on separate Algerian institutions. Although the FAF held aloof from the Armistice Day rioting in Algiers and would probably prefer to have a coup attempt begin in metropolitan France, it recently stated it would use illegal means if necessary to oppose the forthcoming referendum. Previous reports have suggested that some extremists believe that major violence or attacks on government installations by well-armed settlers could push matters to a point where the army would feel obliged to side with them. The government, which appears to be well informed concerning rightist plotting, rushed important security police reinforcements to Algeria last week. Reports of the recent soundings of army attitudes in Algeria by Minister of the Armed Forces Messmer and Chief of National Defense General Ely indicate strong opposition to De Gaulle's use of the term "Algerian Republic" in his 4 November speech. Although the reports suggested the army would not initiate any move against De Gaulle, they raised the possibility that an "activist" minority might swing the remainder into support of the settlers in the event that violence got beyond the control of the security police
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

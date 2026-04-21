@@ -1,0 +1,271 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.468571
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 2
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.904233
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #3, segment 3)
+Text: 2. Congo: Katangan regime, minus Tshombé, indicates greater willingness to cooperate with UN. (Page ii
+Token count: 15
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #5, segment 1)
+Text: Iran: Former intelligence and security chief still has plans to oust Shah. (Page ii
+Token count: 14
+Recut: none
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: 3 May 1961
+- original #3 segment 1: noncontent_keyword
+  Text: 1. Laos
+- original #3 segment 2: noncontent_keyword
+  Text: Page 1
+- original #4 segment 1: short_span_min_tokens
+  Text: ii
+- original #6 segment 1: short_span_min_tokens
+  Text: iii
+- original #7 segment 1: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: 3 May 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #8 segment 2: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.244208
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 3 May 1961 DAILY BRIEF
+- original #9 segment 2: full_page_or_admin
+  Text: Laos: The Pathet Lao high command broadcast an order on 3 May calling on all its combat units to cease all military activities as of 0800 local time (2100 EDT
+- original #10 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: May). According to the order, the cease-fire was to take effect
+- original #11 segment 1: full_page_or_admin
+  Text: spite of the postponement of negotiations among the parties concerned. The Pathet Lao had previously insisted that agreement on the conditions for a cease-fire be reached before a truce could be brought about. While a localized truce had been in effect in the Nam Lik River area, the Kong Le and Pathet Lao forces had continued moves to acquire more territory elsewhere. Tchepone, near the Vietnam border east of Savannakhet, was reported to have been captured on the evening of 1 May. Fifty miles west-northwest of Luang Prabang, the government garrison at Muong Houn was reported encircled by Pathet Lao forces, while to the north, enemy elements continued to advance on Nam Tha. Laotian officials deny that King Savang has changed his attitude on the need for an international conference on Laos, and it now appears that Sihanouk's remarks to this effect may have resulted from a misunderstanding. Bloc airlift operations continue at a relatively low level. There was only one flight into Laos on 1 May
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 1) (Map
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: 3 May 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #12 segment 2: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.918539
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #13, segment 1)
+Text: Congo: The 2 May announcement by the Katanga government that it is willing to discuss with the UN a disarming of the Katanga army and the withdrawal of its foreign advisers reflects the anti-Belgian disposition of certain of Tshombé's lieutenants. The withdrawal of foreign advisers would move Katanga closer to both the UN and the Leopoldville government, and improve prospects for Congo unity. It is not clear whether Tshombé's release is a precondition for such discussions. An American embassy officer who has returned from Stanleyville has characterized the Gizenga regime as more stable than in the past. He added, however, that the economy continues to decline despite increased trade through Uganda
+Token count: 113
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #14, segment 2)
+Text: Iran: Lt. General Timur Bakhtiar, recently removed as chief of the Iranian National Intelligence and Security Organization (SAVAK), is continuing his "contingency" planning for a
+Token count: 25
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #13 segment 2: noncontent_keyword
+  Text: Backup, Page 3) (Map
+- original #14 segment 1: noncontent_keyword
+  Text: Backup, Page 4
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.940584
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #5 (original #15, segment 1)
+Text: move to oust the Shah. He is vacillating on the timing but has implied that an opportunity will arise when the Shah goes to Europe in mid-May. Bakhtiar professes to believe it is hopeless to expect the Shah to adopt and implement a more progressive program; he claims the Shah has no genuine feeling of responsibility toward the country. Bakhtiar feels that recent changes in military officials have improved his position and his capability for planning. The main sources of his support, however, are not clear. Last week the Shah requested Bakhtiar to resign from the army. This suggests the Shah may be aware of Bakhtiar's plans. As of 2 May, however, Bakhtiar had not resigned
+Token count: 116
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #15 segment 2: noncontent_keyword
+  Text: Backup, Page 6
+- original #16 segment 1: noncontent_keyword
+  Text: Backup, Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.992969
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: noncontent_keyword
+  Text: Backup, Page 8
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: Situation in Laos Nehru told the press on 2 May that he expected a cease-fire within a few days and suggested that it might help if the ICC went to Laos. The commission is awaiting instructions in Delhi from the UK and the USSR, as Geneva Conference co-chairmen, after filing its initial report on 1 May. New Delhi's policy at the forthcoming Geneva Conference would be aimed chiefly at keeping Laos unified and non-Communist, objectives which he noted were shared by India and the Western powers. Sen conceded, however, that a major difference lay in the interpretation of "Communist" as applied to the Pathet Lao - Kong Le forces. Indian officials are concerned that a cease-fire line will be used as a basis for determining the relative strengths of the two sides in a provisional government, thus giving the "northern side"--controlling two thirds of the country--disproportionate weight in domestic politics during the extended period of propaganda debate at Geneva. While the Polish member of the ICC has been agreeable in preliminary discussions, according to the Indian chairman, he has made it clear in statements to the press that the ICC should not go to Laos to arrange and bring about a cease-fire. The ICC report of 28 April to the Geneva co-chairmen stipulated that the ICC should await the proclamation of an agreed date for announcing the cease-fire in Laos before proceeding to the country. The ICC also stated in its report that it would establish cooperative relations with any such "joint committees" as may be set up for effective implementation of the cease-fire. The fall of Tchepone would be regarded as a particularly serious development by South Vietnamese leaders who have watched the southward advance of Communist forces in Laos with anxiety. President Diem has long been concerned over the Communist guerrillas in southern Laos, but he has not felt South Vietnam's security directly threatened as long as these elements remained dispersed and poorly armed. According to an unconfirmed report, however, Diem was planning
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 3 May 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.244940
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: to call a special cabinet meeting on
+- original #20 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: May to ask for emergency powers and to decide on the degree of military assistance to southern Laos. General Phoumi continues to make contingency plans for the evacuation of Vientiane. He has notified Thai officials that it may become necessary to move the government and some of the civilian population across the Mekong to Thailand. Phoumi would prefer to relocate
+- original #21 segment 1: full_page_or_admin
+  Text: Savannakhet, but he is not certain of being able to hold that town. In his present mood, Phoumi may call for SEATO intervention at any time, possibly without prior consultation with the US. He has made a unilateral appeal to Thailand to furnish a regimental combat team for the defense of Vientiane, and he may also be considering asking South Vietnam to help defend the southern provinces
+- original #21 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 3 May 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: The Situation in the Congo Gizenga's reference to his "collaboration" with General Lundula suggests that he has reached some form of accommodation with his army chief. Lundula has been associated with a conciliatory outlook toward the Leopoldville government and with willingness to make compromises in the interest of Congo unity. Some of his subordinates are believed to have acknowledged Mobutu as head of the entire Congo Army, while urging that certain of Gizenga's demands--such as a recall of parliament--be met by Kasavubu. Lundula told a visiting officer of the American Embassy in Leopoldville that any true rapprochement between Stanleyville and Leopoldville depends on the achieving of Congo unity through a reconvening of parliament. Lundula's remarks, together with the Congo Army's detention of Tshombé at Coquilhatville, suggest that opposition to a loose Congo confederation is a unifying factor between the two main army factions. Reports that UN representative Dayal may not return to the Congo may stem from vigorous protests registered by Mobutu and Kasavubu concerning his anticipated return. No agreement between the Leopoldville government and the UN--including that regarding Matadi--would be honored if Dayal returned. Kasavubu in late April reportedly planned to decline all responsibility for the "consequences" of Dayal's return
+- original #22 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 3 May 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=10 unred_source_page=14
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=11 unred_source_page=15
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: full_page_or_admin
+  Text: General Bakhtiar Continues Planning for Possible Coup in Iran In the past two years, General Bakhtiar appears to have moved from a theoretical consideration of the measures he would have to take if the Shah were overthrown to an active belief that the Shah must be removed or reduced to a figure-head. Bakhtiar played an influential role in returning the Shah to power in 1953. As military governor of Tehran and later as chief of the National Intelligence and Security Organization (SAVAK), he was a supporter of the Shah. Now, however, he professes to believe that the Shah is prepared to abandon the country whenever serious difficulties arise. In any move against the Shah, military support would be essential. Bakhtiar feels certain that he can rely on some commanders in the Tehran area and in the provinces, regardless of his own military status. The appointment of weaker personalities to replace some of the high-ranking officers recently removed has, in Bakhtiar's opinion, improved his chances for success. He apparently also can count on support of some nationalist elements as well as influential bazaar merchants. Bakhtiar's reluctance to move probably arises from several factors, including a residual loyalty to the monarchy, if not to the Shah personally, and a fear of risking a career and a fortune built up to a great extent by support of the Shah. However, some of those who are presently backing Bakhtiar could try to force him to take action--perhaps while the Shah is in Europe in the latter part of May--by fomenting anti-government street demonstrations which would require strong action to control
+- original #23 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 3 May 61 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=12 unred_source_page=16
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=13 unred_source_page=17
+alignment_score=0.997612
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=14 unred_source_page=18
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=15 unred_source_page=19
+alignment_score=0.973089
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 20]
+kind=match red_source_page=16 unred_source_page=20
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: noncontent_keyword
+  Text: 3 May 1961 Copy No. C CENTRAL INTELLIGENCE BULLETIN

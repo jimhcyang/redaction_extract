@@ -1,0 +1,74 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 30 January 1954 CURRENT INTELLIGENCE BULLETIN CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.942000
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 2)
+Text: SOVIET UNION 2. USSR prepares to open new oil field in the Stalingrad region
+Token count: 14
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: LATIN AMERICA 5. Chilean ambassador urges prompt submission of copper bill
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: page 3
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.947436
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: SOVIET UNION 2. USSR prepares to open new oil field in the Stalingrad region: Earlier in 1953, planning for the Stalingrad refinery had been delayed, apparently in order to adapt it as required by the type of crude oil anticipated from that region. Comment: The organization of the work near Stalingrad as an oil trust rather than as a prospecting trust provides the first evidence that there is already some production. Since 1946, extensive geological surveys have been conducted in this region
+Token count: 82
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.972249
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #5, segment 1)
+Text: which the Soviet press has asserted would become "a second Baku." The diversion of crews from new drillings in Azerbaijan, where the Baku fields are located, indicates that Soviet planners expect this area to justify an expanded effort
+Token count: 38
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: C-47's
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.898261
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #7, segment 1)
+Text: LATIN AMERICA 5. Chilean ambassador urges prompt submission of copper bill: The Chilean ambassador recommended to his government that it submit its draft copper bill to the legislature without further negotiations with the United States. Such action, he said, would confirm the government's decision to promote legislation "free from any possible pressure" and would clarify the position of the United States government. Comment: The ambassador apparently believes that the United States will begin to purchase Chile's copper stocks as soon as a new copper bill has been presented to the Chilean congress, although he has been informed repeatedly that this is unlikely. The new copper bill defining the status of the American companies is believed to be unsatisfactory to them. Earlier this week President Ibanez reportedly reacted "violently" to what he considered intervention in domestic Chilean legislation by the American companies and the American ambassador, and went on record as favoring provisions disadvantageous to the companies
+Token count: 156
+Recut: none

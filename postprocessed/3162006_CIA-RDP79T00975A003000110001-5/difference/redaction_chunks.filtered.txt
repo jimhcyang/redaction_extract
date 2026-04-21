@@ -1,0 +1,104 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.682539
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. SAUDIS FEAR COMPETITION FROM ISRAELI PIPELINE
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 4. BRITAIN WILL GIVE IRAQ FIVE HUNTER MARK VI JET FIGHTERS
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 3: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 1. SAUDIS FEAR COMPETITION FROM ISRAELI PIPELINE Comment on: An important consideration behind King Saud's recent firm opposition to free transit through the Gulf of Aqaba is fear that oil passing through the pipeline planned by Israel from Eilat to the Mediterranean would have a competitive advantage over Saudi oil carried through the Suez Canal. The Saudi finance minister is said to fear that such a pipeline might deliver oil to the Mediterranean at a price below that of oil carried through the canal. Since Saudi Arabia could not allow its oil to use an Israeli pipeline, competitive oil producers such as Kuwait and Iran would be placed at an advantage. Such competition from Israel could force Egypt to reduce canal tolls. Should an Israeli pipeline become established, moreover, the Saudis fear it would become a political weapon which Israel could use to assure international support of Israel
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.974721
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.959341
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Agudat
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 4. BRITAIN WILL GIVE IRAQ FIVE HUNTER MARK VI JET FIGHTERS Britain will give Iraq five Hunter Mark VI jet fighters, together with spare parts worth approximately $2,000,000. Iraq wants Britain to assume responsibility for the improvements at Habbaniyah airfield required for these planes, which are expected to be ready for delivery about April. The British are seeking an arrangement for bringing additional technical personnel into Iraq for maintenance and instruction for a two-year period. Comment The gift of these planes, which follows nearly a year of unsuccessful negotiations for sale of Hunters to Iraq, closely follows Britain's agreement to guarantee a $56,000,000 Iraq Petroleum Company loan to Baghdad and is evidently a further move in Britain's effort to mend its ties with Iraq. These planes will be the first up-to-date high-performance jet aircraft to be added to Iraq's 28-jet air force made up of Venoms and Vampires. There is already a British training mission in Iraq
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.970659
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: on
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

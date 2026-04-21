@@ -1,0 +1,175 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.681250
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.895789
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. NASR REPORTED TO HAVE ORDERED A SLOWDOWN ON CANAL CLEARANCE
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. NEW SAUDI ARABIAN POLICY ON OIL CONCESSIONS UNDER CONSIDERATION (page 4). 3. SAUDI ARABIA AND PAKISTAN EXPAND RELATIONS
+Token count: 19
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #2, segment 1)
+Text: 5. WAFDIST-MILITARY COUP AGAINST NASR REPORTED PLANNED (page 7). 6. NEW JET LIGHT BOMBERS POSSIBLY BEING INTRODUCED INTO SOVIET UNITS (page 8). 7. LONG-TERM CAMPAIGN OF TERROR SEEN IN HUNGARY
+Token count: 30
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 5
+- original #2 segment 2: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: 1. NASR REPORTED TO HAVE ORDERED A SLOWDOWN ON CANAL CLEARANCE The Egyptian canal authorities were ordered by President Nasr on 22 January to slow down clearance of the canal. The slow-down reportedly is to be accomplished by administrative and technical delays. Comment There have as yet been no reports of any Egyptian attempt to carry out this order. Nasr reportedly stated on 19 January he would halt clearance operations if Israel refused to withdraw from Gaza and the Gulf of Aqaba. Prime Minister Ben-Gurion reiterated on 23 January that Israel would not withdraw without guarantees. estimated in mid-January that the canal would be open to medium-draft ships of about 10,000 tons in late February or early March. A channel permitting ships of 35-foot draft was expected to be cleared in April
+- original #3 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 26 Jan 57 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.244818
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: NEW SAUDI ARABIAN POLICY ON OIL CONCESSIONS UNDER CONSIDERATION The Saudi Arabian government is considering adopting a new policy on development of its oil resources. additional concession areas would be opened up and that non-American interests would be involved. Saudi Arabia had made a "huge mistake" originally to deal solely with the "big syndicates," because it had now "lost control of its crude output and was caught
+- original #5 segment 1: full_page_or_admin
+  Text: an inflexible operation!" The only lands which Saudi Arabia could offer for new concessions at present were too far inland and appeared to have too little potential yield to be operated without great expense. Saudi Arabia desired its own fleet of oil tankers, which could be built at the lowest cost in Japan. Tariqi believed that since Japan is a potentially important customer for oil, it might be interested in an agreement on petroleum development. Comment
+- original #5 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 26 Jan 57 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 3. SAUDI ARABIA AND PAKISTAN EXPAND RELATIONS Comment on: The desire of both Saudi Arabia and Pakistan to expand their relations is reflected in King Saud's decision to send a Saudi Arabian economic mission to Pakistan. The purpose of the mission is to increase trade relations and investigate the availability of Pakistani technicians and teachers to come to Saudi Arabia. Pakistani engineers are already engaged in minerals exploration in Saudi Arabia, and that Jidda has been attempting to obtain Pakistani pilots and mechanics for the Saudi air force. Pakistani prime minister Suhrawardy desires to win Saud away from close association with Egypt and Syria and eventually to get his approval of the Baghdad pact. Pakistani president Mirza visited Jidda in November 1956 and soothed Saud's annoyance over Pakistani press criticism of Saudi Arabia's warm welcome for Indian prime minister Nehru. Mirza also offered to supply Pakistani military advisers to Saud. The king may believe that the presence of Pakistani technicians and teachers in Saudi Arabia would help balance Egyptian influence
+- original #6 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 26 Jan 57 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.950336
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: January
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Council
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: supporting
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: hostile
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: before
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: 5. WAFDIST-MILITARY COUP AGAINST NASR REPORTED PLANNED Wafdist party politicians and Egyptian army officers are planning a coup against the Nasr government. The coup is to be activated on signal from military leaders between 27 January and 15 February; the new government would sever relations with the Soviet bloc, appeal to the United States for help, and apply for Egyptian admission to NATO and the Baghdad pact. The plotters are alleged to have a military organization capable of seizing control of Cairo, Alexandria and Asuyt. Plans are being made to buy off police, and railroad workers are scheduled to sabotage rail lines. The Wafd organizations in the provinces are to seize local governments. Comment Reports of opposition elements plotting against the Nasr regime have sharply increased over the past month. These elements are not believed presently capable of effecting a successful coup against Nasr. Their capabilities have been further curtailed in the past two months by the purge of the army, and arrests and surveillance of potential civilian political leaders. The Wafd was the dominant political party in Egypt under the pre-Nasr monarchy and was well organized down to the village level. Nasr banned all political parties, however, and the Wafd has been sharply repressed. The Wafd might, however, still furnish political direction in any attempted coup
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 26 Jan 57 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: 6. NEW JET LIGHT BOMBERS POSSIBLY BEING INTRODUCED INTO SOVIET UNITS On 14 January a flight of two unidentified high-performance aircraft was noted over the Caucasus and Baku air defense districts. Characteristics of this flight suggest that these were jet light bombers being delivered to tactical air army units. The same characteristics were noted once before in the flight on 28 December 1956 of two high-performance aircraft to Stanislav, an IL-28 base in the Ukraine. Both these flights demonstrated sustained speeds of 450 to 465 knots which are in excess of those normally associated with BEAGLE (IL-28) jet light bombers. The planes may be BLOWLAMPS, four of which are among numerous BEAGLES at Islam-Terek airfield on the Kerch Peninsula on 25 November 1956. The above flights and the earlier observation tend to confirm that new jet light bombers are being delivered to tactical air army units in the western USSR. The BLOWLAMP is a new swept-wing, twin jet light bomber of exceptionally clean design which was first observed when a single prototype appeared in the eighth rehearsal for the Moscow air show on 14 June 1956. It was described by the USSR as being capable of supersonic flight. the aircraft is not capable of supersonic speed in level flight
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 26 Jan 57 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=6 unred_source_page=10
+alignment_score=0.122409
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: 7. LONG-TERM CAMPAIGN OF TERROR SEEN
+- original #16 segment 1: full_page_or_admin
+  Text: HUNGARY Hungarian premier Kadar is merely a figurehead fronting for the director of the current wave of terror, security chief Ferenc Muennich. The campaign of terror will be long term, despite some popular belief to the contrary, and may eventually lead to general public apathy and a psychological letdown that will last for years. There is considerable talk in Budapest of a general strike on 15 March--a national holiday. The strike could lead to armed rebellion. a rise in the flow of Hungarian refugees into Austria and Yugoslavia is expected when the weather improves, and notes that border security forces are poor in quality and that travel toward the frontier is still possible. Comment Premier Kadar may exercise little control over other top regime figures--such as Muennich--who may be receiving orders directly from Soviet officials
+- original #16 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 26 Jan 57 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=7 unred_source_page=11
+alignment_score=0.936471
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: organizational
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: schedule
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: campaigning
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: organizations
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: intended
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: therefore
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: increasingly

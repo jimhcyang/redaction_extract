@@ -1,0 +1,76 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.549351
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: TOP SECRET SECURITY INFORMATION
+- original #1 segment 2: noncontent_keyword
+  Text: 17 May 1952
+- original #2 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.945000
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #4, segment 1)
+Text: Three more Russian fighter units located on Korea-Manchuria border
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #5, segment 1)
+Text: 2. Yugoslavia proposes military talks to Greece
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: FAR EAST
+- original #4 segment 2: noncontent_keyword
+  Text: page 3
+- original #5 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: FAR EAST 1. Three more Russian fighter units located on Korea-Manchuria border: Three additional Russian fighter units, probably regiments, became active on the ground. Comment: The Chinese moved one or two jet divisions to Antung in the past month. With these new Soviet units the number of jets in the Yalu River area is estimated at 500. Since 13 April UN pilots have on several occasions observed 450-500 jets on fields in this area. EASTERN EUROPE 2. Yugoslavia proposes military talks to Greece: The Yugoslav Deputy Foreign Minister has informed the Greek Minister in Belgrade of his government's willingness to begin military talks with Greece. He stated that the Yugoslav General Staff soon would present an agenda and proposed arrangements for the talks to the Greek Military Attache in Belgrade, and that Yugoslavia wished to conduct the discussions with the Greeks alone. The Under Secretary of the Greek Foreign Office has stated that his government will authorize its military attache in Belgrade to proceed with the talks, and will not inform the Turks "until the situation crystallizes
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.957927
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #7, segment 1)
+Text: Comment: This is the first definite Yugoslav approach to Greece on military talks, and apparently is in reply to a recent request by the Greek Chief of Staff for immediate staff talks. The Yugoslavs wish to avoid any kind of formal military agreement that would tie them to NATO, and probably will limit the talks to coordination of Greek-Yugoslav plans for defense of adjacent areas of the two countries
+Token count: 69
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.995025
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: an

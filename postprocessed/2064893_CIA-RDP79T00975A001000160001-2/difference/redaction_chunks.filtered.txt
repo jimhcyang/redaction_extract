@@ -1,0 +1,77 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.820625
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Copy No
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.923171
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: GENERAL 1. Russian newspapermen emphasize need for Eisenhower-Stalin meeting
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 3)
+Text: 2. Western tires transshipped to China via Lebanon (page 3). SOVIET UNION 3. Soviet civilian guard functions transferred to MGB (page 4). 4. GCI equipment possibly employed in Chukotsk
+Token count: 29
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 4: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: GENERAL 1. Russian newspapermen emphasize need for Eisenhower-Stalin meeting: reporters emphasized the necessity of an Eisenhower-Stalin meeting. They pointed out the need for secrecy in the preparations, intimating that the British and French should be excluded. Comment: Soviet UN delegate Zorin, referring to the Reston letter to Stalin as "obviously inspired" and as mentioning a "new approach" to peace in Korea, recently stated that the Soviet Government would be interested in learning what the United States had in mind. Other Communist officials have hinted indirectly at the importance of Stalin's indication that he would welcome a meeting with Eisenhower. 2. Western tires transshipped to China via Lebanon: A shipment of 784 sets of Western truck tires from a Lebanese firm was included in the cargo of two Polish-flag ships en route to China in December, Comment: Lebanon is being used as a transshipment center for goods destined for Communist China
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: SOVIET UNION 3. Soviet civilian guard functions transferred to MGB: reorganization of the civilian guard system of various ministries throughout the USSR. It is believed that this responsibility has now been transferred to the Chief Directorate of Militia. The guards presumably will be given other work within their respective ministries, released to the Ministry of Labor reserves, or transferred to the Militia. Comment: Transfer of this function to the Militia would be a further step in the trend toward centralization of all internal police powers in the Ministry of State Security. Heretofore the responsibility of guarding the various industrial installations in the USSR has been the duty of the ministry concerned with the particular enterprise. 4. GCI equipment possibly employed in Chukotsk: Comment: Soviet air defense capabilities in the Chukotsk would be greatly improved by the efficient employment of GCI equipment. Other recently noted evidence of strengthened air defenses in this area includes the deployment of jet fighters to Provideniya and the improvement of air defense communications
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.988281
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: Another Chinese Communist Army completed a move from the mainland to Hainan Island last fall
+Token count: 15
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,187 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.890500
+kept_candidate_count=4
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. SOVIET NUCLEAR EXPLOSION
+Token count: 4
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 3. INDONESIAN DISSIDENTS CONSIDERING IMMEDIATE DECLARATION OF INDEPENDENT GOVERNMENT
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #2, segment 1)
+Text: 5. IRAN THREATENING TO WITHDRAW FROM THE BAGHDAD PACT (page 7). 6. SHAH OF IRAN MAY SOON REPLACE PRIME MINISTER EQBAL
+Token count: 21
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #3, segment 1)
+Text: 8. SOVIET OFFER OF SPECIALIZED POLICE TRAINING TO AFGHANISTAN (page 10). 9. YEMEN CONSIDERING $35,000,000 SOVIET ECONOMIC CREDIT (page 11). 10. BLANKENHORN NAMED TO KEY BONN FOREIGN POLICY POST
+Token count: 31
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 5
+- original #2 segment 2: noncontent_keyword
+  Text: page 8
+- original #3 segment 2: noncontent_keyword
+  Text: page 12
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 1. SOVIET NUCLEAR EXPLOSION The Atomic Energy Detection System has reported that another Soviet nuclear explosion occurred between 3 and 5 Jan- uary 1958 at the Semipalatinsk proving ground. Limited evidence suggests that the device was in the very low yield range. Comment The last Soviet test was held at Semi- palatinsk on 28 December 1957 and yielded between 3 and 30 kilotons. The closure of the Semipalatinsk Airfield on 4 January suggests the test may have been conducted on that date
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 2
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 3. INDONESIAN DISSIDENTS CONSIDERING IMMEDIATE DECLARATION OF INDEPENDENT GOVERNMENT Comment on: Dissident military commanders meet- ing in Padang, Sumatra, are consider- ing the establishment of a "free govern- ment of Indonesia" in the immediate future unless the Djakarta government makes drastic con- cessions. The Djuanda cabinet recognizes the serious secessionist threat and is discussing how to meet it. Although Colonel Simbolon, former Sumatran commander and now chief of the dissidents' com- bined Sumatra command, has urged caution and at least an intermediate step of declaring de facto regional autonomy, other leaders are impatient at further delay. Final decisions may be reached on 9 January. Lt. Col. Barlian, commander in South Sumatra, favors an ultimatum to the present Djakarta gov- ernment demanding that it resign and form a cabinet accept- able to the outer islands. The most impatient among those at Padang are Lt. Col. Hussein, commander in Central Sumatra, and Lt. Col. Sumual from Celebes. Colonel Simbolon has stated that those at- tending the Padang meetings do not understand the economic and diplomatic difficulties of the move they are considering. Simbolon's primary concern is probably the fact that the non- Javanese provinces are still receiving their customary budget- ary support from Djakarta, and that drastic and immediate changes in financial and commercial patterns would be neces- sary to replace these funds
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 5. IRAN THREATENING TO WITHDRAW FROM THE BAGHDAD PACT Comment on: The Shah has again expressed dissatis- faction with Iranian military strength, blaming the limited US aid program. He contends that without additional American aid, Iran will find it difficult to remain within the Baghdad Pact, because rejection by the US of the Baghdad Pact Mil- itary Committee's recommended level of forces would allow Soviet troops to advance deep into Iran despite nuclear retal- iation on targets in the USSR. While the Shah's threat is part of a con- tinuing program to increase his prestige and domestic con- trol through additional US military aid, it reflects a genuine concern over Iran's exposed position vis-a-vis the USSR. The importance attached by the United States to the Baghdad Pact Council meeting in Ankara beginning on 27 January may reassure the Shah
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 6. SHAH OF IRAN MAY SOON REPLACE PRIME MINISTER EQBAL Comment on: The Shah of Iran is seriously consider- ing removing Prime Minister Eqbal after the Baghdad Pact Council meeting from 27 to 31 January, Both Abdollah Entezam, director of the National Iranian Oil Company, and Senator Mahmud Jam, prime minister from 1935 through 1939, are being consid- ered for the premiership. Court Minister Ala recently de- clined the Shah's offer of the position because of his age. The Shah has been dissatisfied with Eqbal primarily because he failed to assume leadership of a pro- government political party and refused to accept responsi- bility for some of the Shah's domestic programs. Any change in premiers will not mean, however, that the Shah will dimin- ish his personal direction of the government. Eqbal, who be- came prime minister last April, threatened to resign if the Shah did not give him more freedom of action. He has remained in office, however, apparently in the hope that he might persuade the Shah to take a less active role
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.997222
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 8. SOVIET OFFER OF SPECIALIZED POLICE TRAINING TO AFGHANISTAN Comment on: The USSR may be seeking to counter an American program for specialized train- ing of Afghan police by offering compar- able training in the USSR. Afghan Prime Minister Daud has approved a Soviet proposal that he send ten police officials, probably from the counterintelligence department, to the USSR for training at Soviet expense. Daud may have ac- cepted in the hope of obtaining maximum benefit for Afghan- istan from the techniques of both the United States and the USSR. The American Embassy in Kabul has noted that the 15 policemen who have returned from training in the United States have been treated by the Afghan Government with reserve. Daud may believe that comparable caution in handling police officers trained in the USSR will provide adequate pro- tection against Soviet subversion
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: 9. YEMEN CONSIDERING $35,000,000 SOVIET ECONOMIC CREDIT Comment on: Yemen is reported to have been offered a Soviet credit of approximately $35,000,000 for economic development projects over a five-year period. Specific aid projects in- clude development of a modern port at Ras al-Kathib and construction of seven airfields and fuel storage facilities. Yemeni expect the agree- ment to be signed shortly--possibly during the scheduled presentation of credentials this month by the Soviet ambassador. preliminary work on the port has been un- der way since April 1957 and that additional Soviet harbor special- ists arrived in Yemen in December. Construction of a modern port and fuel storage facilities would help eliminate Yemen's de- pendence on the British-controlled port of Aden. Reconstruction of Yemen's airfields is essential to permit efficient use of Yemen's 35 to 40 Soviet bloc piston aircraft and to improve poor internal communications. Yemen is also trying to obtain petroleum prod- ucts from the Soviet Union instead of from Aden and Saudi Arabia. The Soviet credit offer is apparently in addi- tion to aid projects undertaken by various satellite countries, and to Soviet military aid totaling $8.5-10,000,000. A substantial por- tion of the arms has been provided as a gift, with the balance cov- ered by easy repayment terms
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: 10. BLANKENHORN NAMED TO KEY BONN FOREIGN POLICY POST Comment on: Herbert Blankenhorn, named on 7 Janu- ary to the second-ranking post in the West German Foreign Ministry, seems likely to press for a more "elastic" foreign policy, including less dependence on the United States. The 53-year-old Blankenhorn has been close to Chancellor Ade- nauer in various key foreign policy jobs since 1949, most recently as Bonn's representative to the North Atlantic Coun- cil. Blankenhorn, who joined the German for- eign service in 1929 and the Nazi party in 1938, has been described as "not entirely trustworthy." he heads a faction in the Foreign Ministry which has strongly opposed Foreign Minister Brentano's foreign policy as too rigid. this faction tried last year to convince Adenauer that a basic reorientation was needed. Blankenhorn faction considers NATO a convenient de- vice for achieving "our comeback into world politics," and also sees the need to "build our bridges to the East" and reduce de- pendence on the West, while at the same time "maintaining a position in which the West will be forced to stand behind us in the case of a military threat." Blankenhorn replaces Walter Hallstein, who will head the Common Market. Heinz Krekeler, named to EURATOM, will be replaced as ambassador in Washington, and other major shifts may occur, including the replacement of the ambassadors in Moscow and Tokyo
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: SUMMARY 12 December 1957 - 8 January 1958 THE TAIWAN STRAIT Report of the IAC Current Intelligence Group for the Taiwan Strait Problem 1. There were no significant military developments in the area during the period. 2. Nationalist Chief of Staff Wang Shu-ming on 13 December informed Admiral Doyle, commander of the US Taiwan Defense Command, that British shipping will no longer be shelled while entering and leaving the Communist port of Amoy. Wang indi- cated that the previous policy of attempting to prevent entry had gained the Nationalist Government nothing and caused it to lose prestige. This change of policy, although Wang did not say so, probably was made last August when firing at British shipping abruptly ceased
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=15
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: TAIWAN STRAIT SITUATION AIRFIELDS WITH DELINEATED RUNWAYS SYMBOL 7000 feet or over 6000 feet to 6999 feet 5000 feet to 5999 feet 4000 feet to 4999 feet Seaplane station RUNWAY SURFACE (P) — Permanent (T) — Temporary (N) — Natural (UC) — Under Construction (UNK) — Unknown STATUS OF AIR FACILITIES OPERATIONAL — Air facilities printed in red are known or evaluated to be consistently used by military or civilian aircraft. SERVICEABLE — Air facilities printed in green are known or evaluated to be capable of use by aircraft. OTHER — Air facilities printed in black are those under construction, unserviceable, or on which the availability of information is such that the current status cannot be determined. * Delineated runways are explained as a defined or marked area on an airfield prepared or selected for landing and take-off of aircraft. 8 JANUARY 1958 71213

@@ -1,0 +1,191 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.882667
+kept_candidate_count=3
+excluded_candidate_count=8
+
+Clean Chunk #1 (original #3, segment 2)
+Text: 3. MAJOR NEW SOVIET ARMS DELIVERIES TO SYRIA UNDER WAY (page 5). 4. SPANISH ARMY REQUESTS US EXPRESSION OF SUPPORT FOR IFNI OPERATIONS
+Token count: 23
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 2)
+Text: 6. SAUDIS DISCUSS MORE ACTIVE DEFENSE OF GULF OF AQABA AREA (page
+Token count: 12
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #5, segment 1)
+Text: 7. JAPAN SENDING ECONOMIC INVESTIGATION TEAM TO EGYPT
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: MOSCOW’S
+- original #2 segment 1: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 3: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+- original #5 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: page 9
+- original #5 segment 3: noncontent_keyword, ocr_equivalent_to_redacted_text
+  Text: 8. CEYLON’S
+- original #6 segment 1: noncontent_keyword
+  Text: page 11
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.982049
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: MOSCOW’S
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.987608
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: transfering
+- original #12 segment 1: short_span_min_tokens
+  Text: over
+- original #13 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Indonesia’s
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.122959
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: 3. MAJOR NEW SOVIET ARMS DELIVERIES TO SYRIA UNDER WAY Comment on: "Russian ships carrying military equipment" were preparing to leave the Black Sea for Latakia suggests that shipment of the arms purchased by Syria under the $25,000,000 arms agreement concluded
+- original #15 segment 1: full_page_or_admin
+  Text: August of this year is under way. Although the cargoes are not identified, they probably include the squadron of all-weather MIG-17 jet fighters and an unknown number of IL-28 jet light bombers which the USSR agreed in September to deliver before the end of this year
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Dec 57 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: 4. SPANISH ARMY REQUESTS US EXPRESSION OF SUPPORT FOR IFNI OPERATIONS Comment on: The Spanish army is pressing for an official expression of US support in the Ifni hostilities with Moroccan irregulars, according to American military advisers in Madrid who were invited on 17 December to visit Ifni, presumably to give advice on tactics and equipment utilization. Spanish officers suggested that the United States acknowledge officially that Spain had been attacked in Ifni, and expressed the hope that the United States would also provide additional equipment for use in the area. The officers said Spain has sent almost all its available troops to Ifni, except those supplied with American equipment. They added that if the situation in Ifni becomes serious, they will be obliged to use American equipment obtained under the Military Assistance Program. The Spanish government has so far refrained from permitting the army to use its US-supplied equipment in the Ifni hostilities, presumably out of consideration for American efforts to maintain friendly relations with Morocco
+- original #16 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Dec 57 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.997761
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: 6. SAUDIS DISCUSS MORE ACTIVE DEFENSE OF GULF OF AQABA AREA Comment on: Saudi frustration over growing Israeli use of the Gulf of Aqaba transportation route has apparently provoked consideration of a more active defense of Saudi air space against Israeli overflights. The most recent irritant was the Israeli civil air line's announcement of a special flight to South Africa via the Gulf of Aqaba. Israeli air and sea reconnaissance of Saudi military posts along the gulf has also at times violated Saudi territory. Saudi sensitivity to Israel's increasing use of the gulf will be intensified by a heavier movement of oil tankers commencing about 23 December, as a consequence of the recent completion of new petroleum storage facilities and additional pipeline capacity at Eilat. Despite pleas from some local commanders for action, the Saudis in the gulf area are believed still under standing orders not to fire unless fired on. King Saud, however, feels under continuing pressure to take an uncompromising stand against Israel's right to use the gulf route and has repeatedly indicated his desire to have the United States make some decisive move on the question. The Russians have encouraged Nasir to exploit the issue by pressing Saud to make a choice between the "Arab cause" and friendship for the United States
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Dec 57 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=10
+alignment_score=0.122244
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: 7. JAPAN SENDING ECONOMIC INVESTIGATION TEAM TO EGYPT Comment on: Japan has accepted an Egyptian invitation to study possible Japanese participation
+- original #20 segment 1: full_page_or_admin
+  Text: the Aswan high dam project and other industrialization programs. A seven-man mission headed by Tatsunosuke Takasaki, former head of the Economic Planning Board, is expected to leave Tokyo about 3 January. Foreign Minister Fujiyama has instructed his embassy in Washington to obtain a copy of the World Bank report on the Aswan dam for the mission. An Egyptian mission to Japan which recently returned to Cairo apparently was favorably impressed by Japanese dams. The Japanese also expect to study the possibilities of power generation, iron manufacture, and the development of oil and chemical industries. Japanese interest in economic cooperation with Egypt, however, appears to be limited to technical aid and the supply of heavy industrial equipment. Tokyo officials have indicated that Japan cannot extend financial aid, and the roving Japanese ambassador in the Middle East has concluded that trade with Egypt cannot be expanded beyond current levels because Egypt has few exports to offer
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Dec 57 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.992611
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: CEYLON’S
+- original #22 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.998707
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 13]
+kind=red_only red_source_page=10 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

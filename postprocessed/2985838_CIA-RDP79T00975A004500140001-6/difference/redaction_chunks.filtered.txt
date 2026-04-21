@@ -1,0 +1,157 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.515000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: TOP SECRET
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.123133
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 27 MAY 1959 I. THE COMMUNIST BLOC F. R. Kozlov, one of top Soviet leaders, to open Soviet exhibit
+- original #3 segment 1: full_page_or_admin
+  Text: New York in June. USSR may return ambassador to Iran in order to improve relations. Communist China and India unable to agree on long-term trade pact. II. ASIA-AFRICA South African police expect imminent African uprisings. Laos--Pathet battalion may again elude army forces. III. THE WEST West Germany--Power struggle expected at 28 May Socialist party convention. IV. Conclusions of the special USIB Committee on the Berlin Situation
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.970399
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #5, segment 1)
+Text: The principal difficulty is reported to be Chinese refusal to allow India continued special privileges in trade with Tibet
+Token count: 19
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.921761
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #7, segment 1)
+Text: The foreign minister on 25 May requested US financial and material support for a military operation to bring the Pathet unit under control. The US Army attache thinks that the Laotian Army has not yet developed a sound clean-up plan. Escape of the unit or dispersal into small guerrilla bands is thus a strong possibility. III. THE WEST West Germany: The unity of the Social Democratic party (SPD) may be severely strained at the 28 May party meeting by a power struggle between the SPD leadership and left-wing leader Herbert Wehner. Several SPD officials, including Berlin's Mayor Brandt, are maneuvering to undermine Wehner's influence by designating Carlo Schmid as the party's candidate for chancellor in 1961. Anti-Wehner forces have privately revived the unsubstantiated charge that he still maintains his Communist ties, and some SPD officials fear that Wehner might threaten to split the party if he feels his position is being seriously challenged
+Token count: 153
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Page 3
+- original #7 segment 2: noncontent_keyword
+  Text: Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.945581
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #11, segment 1)
+Text: Kozlov impresses most observers as a forceful and extremely capable administrator and a man of ideas, which he expresses clearly and with great vigor. He is known to have been outside the bloc on two occasions--to the Finnish Communist party congress in 1957 and the Brussels Fair in 1958. He apparently does not speak English
+Token count: 56
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: protege
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: governmental
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: proteges
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.809669
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #12, segment 1)
+Text: Negotiations for a new three-year trade pact, in progress since the old agreement expired last December, are reportedly deadlocked because the Chinese refuse to reaffirm special privileges which the Indians claim in trading with Tibet. A special agreement regulating Indian-Tibetan trade was signed by Peiping and New Delhi in 1954 and is effective until 1962. This agreement granted India a special position in trade with Tibet, which has traditionally used India as an outlet for its wool and other products and has received foodstuffs and consumer goods in return. The present impasse suggests that China may have decided, as an essential part of its program for the area's political integration, to restrict this relationship in order to increase Tibet's dependence on the Chinese economy. Total Chinese trade with India amounted to about $17,000,000 in 1958, somewhat less than in 1957. This figure includes Indian trade with Tibet, the volume of which has varied widely from year to year because of the changing nature of Chinese controls. The recent revolt and the resulting exchange of recriminations with India have served to sharpen Peiping's efforts to curtail outside influences in Tibet. Communist China may step up its harassment of Indian traders dealing with Tibet, but its other economic activities with India are not likely to be affected. The extension of the old agreement assures the continuation of present trade relations, and China can be expected to continue its efforts to capture an increasing share of the Indian market
+Token count: 248
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.955730
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #13, segment 1)
+Text: Imminent in South Africa
+Token count: 4
+Recut: none
+
+Clean Chunk #6 (original #14, segment 1)
+Text: The uprising allegedly would be similar to the recent Nyasaland revolt and Mau Mau terrorism in Kenya. Police have a lengthy list of suspects but are unable to identify anyone as a likely instigator, despite an extensive canvass
+Token count: 38
+Recut: none
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: III. THE WEST West German Social Democrats Face Party Crisis The struggle for power within the Social Democratic party (SPD) shaping up for the 28 May meeting of the party leaders will severely test party unity. Several top SPD leaders, including Berlin Mayor Brandt, presidential candidate Schmid, foreign policy expert Erler, and economic expert Deist, are maneuvering to undermine deputy party chairman and left-wing leader Herbert Wehner, who, they feel, dominates party chief Ollenhauer and has generally operated in a ruthless manner. They hope to do this by designating Schmid as the party's chancellor candidate in 1961 and placing anti-Wehner personnel in key positions to run the 1961 campaign. At the same meeting an effort may be made to separate the offices of party chairman and Bundestag faction leader, permitting Ollenhauer to remain as chairman until 1960 and placing Erler in the Bundestag post. Wehner can be expected to oppose strongly any efforts to limit his influence. Anti-Wehner officials in the SPD expect that at a minimum he will demand a commitment from the party to succeed Ollenhauer as chairman in 1960 in return for agreeing to Schmid's candidacy for the chancellorship. Berlin Senator Klein, a close associate of Brandt, is reported to believe that Wehner will not hesitate to force a showdown if any attempt is made to repudiate him or his policies. Klein claims that Wehner has hinted he would split the SPD and join a radical left-wing party being established by former SPD members expelled for dealings with East German Communists. Deputy chairman von Knoeringen feels there is no way out for the SPD but to expel Wehner, a move which could split the party. As a part of the campaign against Wehner, Schmid has privately revived the charge that Wehner is still a Communist, although there has never been any evidence to counter Wehner's claim that he broke with the party during the war. 27 May 59
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 4
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: noncontent_keyword
+  Text: TOP SECRET 27 May 1959 CENTRAL INTELLIGENCE BULLETIN TOP SECRET

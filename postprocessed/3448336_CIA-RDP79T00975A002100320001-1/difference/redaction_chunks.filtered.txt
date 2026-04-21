@@ -1,0 +1,71 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.411538
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.968421
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Chinese Communist military mission reported assigned to North Vietnam
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.889440
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 1. Chinese Communist military mission reported assigned to North Vietnam: A 70-man Chinese Communist military mission will soon be installed in Haiphong, The mission is reported to include army, navy and air force personnel who will assist in training Viet Minh personnel. Comment: Large numbers of Chinese, as well as Russian, technicians and advisers are already known to be attached to the Viet Minh army. The Viet Minh is not known to have an air force, however, and its navy has been limited to a few river and harbor patrol craft. The inclusion of naval and air force personnel in the Chinese mission would indicate that an effort to build up these arms will soon be under way. Viet Minh propaganda has recently asserted the need to increase military capabilities in order to "reconquer our independence and national unity." A Chinese mission would be justified by the Communists as a purely defensive measure--to conform with the Geneva agreement--and as a countermeasure to the American training mission in South Vietnam
+Token count: 171
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.996000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Afghan-Pakistani
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

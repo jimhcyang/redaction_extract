@@ -1,0 +1,160 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.530000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.245857
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 12 OCTOBER 1959 I. THE COMMUNIST BLOC Khrushchev concedes this year's grain crop will be below last year's. II. ASIA-AFRICA Iraq--Rigorous security measures continue; propaganda media charge UAR and West were allied with plotters who attempted assassination. Hammarskjold expects to establish continuing UN presence
+- original #3 segment 1: full_page_or_admin
+  Text: Laos under his authority early next month. Ceylon--Governor General assures US that prime minister is pro-Western. South Korea--Split averted in opposition party. Cameroun extremists intensify plans for terrorism. III. THE WEST Brazilian meat shortage adds new irritant to relations with US. British West Indies constitutional conference ends in impasse over Jamaican representation
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.951638
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #5, segment 1)
+Text: ASIA- AFRICA Iraq: The situation remains quiet, with most of the government's rigorous security measures still in effect. US Ambassador Jernegan, who saw Prime Minister Qasim briefly on 10 October, found him in good spirits and apparently progressing satisfactorily. Radio Baghdad and most newspapers in the capital are blaming the assassination attempt on plotters allied with Western and UAR "imperialists
+Token count: 60
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: Page 1
+- original #5 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.909227
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #6, segment 1)
+Text: Governor General stated that if the Dahanayake government failed to survive in Parliament, he would take over the government himself in order to avoid early elections. The
+Token count: 27
+Recut: none
+
+Clean Chunk #3 (original #8, segment 1)
+Text: Cameroun: Terrorists directed by the Communist-influenced extremist wing of the outlawed nationalist movement, the Union of the Cameroons Population, are reported planning new violence throughout Cameroun culminating in an attempted coup. The campaign will begin with attacks on the British Consulate in Douala--Cameroun's principal port--on 15 October, and on the American Consulate General in the capital city of Yaounde on 19 October. Incidents have occurred in both cities since late June, when terrorist operations were intensified in a last-ditch effort to induce the UN to order new elections before the scheduled independence of the French-administered trust territory on 1 January. III. THE WEST Brazil: Brazil's relations with the US are cooling under the pressure of financial difficulties, popular unrest over economic conditions, and exploitation of this situation by demagogic politicians eyeing the 1960 presidential elections. The latest irritant results from attempts by opponents of US investment to blame the present serious meat shortage on the foreign packers and to urge nationalization of their plants. Three US packers and one British firm control some 40 percent of plant capacity. (Page 4) British West Indies: The recent constitutional conference of the West Indies Federation has reached an impasse because of Jamaica's unwillingness to compromise its demand for increased representation. Absence of progress toward wider federal powers and early independence may cause Trinidad's anti-American premier, Eric Williams, to use dramatic means to stir up West Indian nationalist sentiment--such as a renewal of his campaign against the US naval base at Chaguaramas
+Token count: 251
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Page 3
+- original #8 segment 2: noncontent_keyword
+  Text: Page 5
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.996026
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: Page 4
+- original #10 segment 1: noncontent_keyword
+  Text: Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: II. ASIA--AFRICA The Iraqi Situation The situation in Iraq remains quiet, with most of the government's rigorous security measures still in effect. Military Governor Abdi has shortened the curfew hours, the state of alert of some army units outside Baghdad has been reduced. US Ambassador Jernegan, who saw Prime Minister Qasim briefly on Saturday, found him in good spirits and apparently progressing satisfactorily. The government is planning nationwide celebrations for the day--early this week--when Qasim is expected to leave the hospital. Radio Baghdad and most newspapers in the capital are blaming the assassination attempt on plotters allied with Western and UAR "imperialism." The president of the vehemently pro-Communist People's Court, Colonel Mahdawi, is reported to have cut short his visit to Communist China and to be hurrying back to Baghdad in case his services are needed for a new set of trials
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.970940
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #12, segment 1)
+Text: If Dahanayake failed to survive in Parliament, he would take over the government himself--probably by making maximum use of his constitutional powers--in order to avoid elections in the near future
+Token count: 32
+Recut: none
+
+Clean Chunk #5 (original #13, segment 1)
+Text: Communist party, which has taken the stand that the government is now completely controlled by "reactionaries," is instructing its branch organizations to spread such rumors so as to undermine public confidence in the new leadership. The
+Token count: 36
+Recut: none
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.986698
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

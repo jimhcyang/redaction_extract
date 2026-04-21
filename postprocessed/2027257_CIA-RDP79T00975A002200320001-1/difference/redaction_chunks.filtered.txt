@@ -1,0 +1,91 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.904255
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. FRANCE MAY TRANSFER INDOCHINA FORCES TO NORTH AFRICA (page 4). 3. IRAN REJECTS SOVIET DIPLOMATIC PROTEST
+Token count: 17
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 5. BRAZILIAN ELECTION RETURNS INTENSIFY THREAT OF MILITARY COUP
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+- original #2 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.122991
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: 2. FRANCE MAY TRANSFER INDOCHINA FORCES TO NORTH AFRICA French army chief of staff Guillaume has asked Premier Faure to take all steps necessary for the immediate transfer of the entire French Expeditionary Corps from Vietnam to North Africa, To date, Faure has refused to permit talks on France's military relationship with Vietnam until Vietnam surrenders two French officers it took into custody Comment The domestic unpopularity of the recent call-up of reservists may lead the French government to use the Expeditionary Corps, which numbers about 50,000, to cope with the situation
+- original #4 segment 1: full_page_or_admin
+  Text: North Africa
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 3. IRAN REJECTS SOVIET DIPLOMATIC PROTEST The Foreign Ministry termed as false and unreasonable the Soviet allegation that Iran's adherence to the treaty would threaten world peace. It also affirmed that self-defense is a "sacred right" and "should not be the subject of complaint on the part of any government." Comment Iran's response, in the face of repeated Soviet protests and veiled threats, reveals the determination to retain freedom of action and suggests that Iran intends to adhere to the Turkish-Iraqi treaty. Turkish officials who visited Iran in September apparently convinced Iranian officials that the USSR would not react strongly because it would not want to drop its general conciliatory policy on the eve of the Big Four conference
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 5. BRAZILIAN ELECTION RETURNS INTENSIFY THREAT OF MILITARY COUP With about half the returns in from Brazil's 3 October presidential election, Juscelino Kubitschek has overtaken Adhemar de Barros, while Gen. Juarez Tavora continues to run a strong third. Kubitschek's Communist-linked running mate, Joao Goulart, has captured the lead from Milton Campos in the vice presidential race. The danger of a military coup has increased since armed forces leaders are reported determined to prevent Kubitschek and Goulart from taking office if elected. The military may be forced to decide on its course of action soon since it has reportedly discovered that Kubitschek, if elected, plans to visit the United States before his inauguration and he might very well leave as soon as the election results are clear. Such a visit, the military fears, would be generally interpreted in Brazil as proof of American confidence in Kubitschek and would make a coup more difficult

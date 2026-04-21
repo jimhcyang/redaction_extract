@@ -1,0 +1,219 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.906842
+kept_candidate_count=4
+excluded_candidate_count=8
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. YEMEN-ADEN BORDER HOSTILITIES
+Token count: 4
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 4)
+Text: 3. KREMLIN TO ISSUE STATEMENT ON US PLANS FOR MIDDLE EAST (page 6). 4. EGYPT TO INSIST THAT CANAL TOLLS BE PAID EGYPTIAN AUTHORITY
+Token count: 24
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 2)
+Text: 7. SOVIET AIRCRAFT ASSOCIATED WITH NUCLEAR TESTS ACTIVE NEAR GUIDED MISSILE RANGE
+Token count: 12
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #4, segment 2)
+Text: THE TAIWAN STRAIT
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 4
+- original #1 segment 5: noncontent_keyword
+  Text: page 7
+- original #2 segment 1: noncontent_keyword
+  Text: page 8
+- original #3 segment 1: noncontent_keyword
+  Text: page 9
+- original #3 segment 3: noncontent_keyword
+  Text: page 10
+- original #4 segment 1: noncontent_keyword
+  Text: page 11
+- original #4 segment 3: noncontent_keyword
+  Text: page 12
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.998305
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 2. YEMEN-ADEN BORDER HOSTILITIES Comment on: The Cairo press report on 9 January that Yemen had "declared a state of war against Britain" appears to be part of a growing propaganda effort, in which Yemen is receiving active Egyptian and Soviet support, to discredit the British and the West in the Middle East. ADEN COLONY AND PROTECTORATE RECENT BORDER INCIDENTS 9 JANUARY 1957
+- original #6 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 Jan 57 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: The Yemeni government radio, meanwhile, has demanded restoration by Britain of Aden Protectorate and Aden Colony to the kingdom of Yemen. Attacks by Yemeni tribesmen and dissidents on villages and outposts in the protectorate have increased markedly since late November. The outbreaks follow the arrival in Yemen during October of an initial shipment of Soviet-bloc arms. Protectorate tribesmen have retaliated against Yemeni villages, and British-led native troops and detachments of British forces have on several occasions chased the attackers back into Yemen under "hot pursuit." British jet fighters have been in action against the intruders, and on 31 December encountered light antiaircraft fire for the first time
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 Jan 57 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.244428
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: KREMLIN TO ISSUE STATEMENT ON US PLANS FOR MIDDLE EAST Comment on: the Soviet government intends to issue a "special statement" condemning the new American policy
+- original #9 segment 1: full_page_or_admin
+  Text: the Middle East "in about three days." the Russians are "greatly perturbed" by the plan which they "consider as a Marshall Plan in its objective of aligning many countries against them." their campaign against the plan is "gathering momentum." The issuance of the proposed statement probably would coincide with Chou En-lai's departure from Moscow on 11 January. Chou might join the USSR in an official attack on proposed American moves in the area in order to strengthen the effect of the statement. the East German and Budapest communiques already had "condemned the new American policy" and his encouragement to the Arabs to "stand together against" the new American policy are a continuation of Moscow's attempts to display bloc solidarity and to get Arab support for any countermove it decides to make. the Soviet ambassador in Cairo would explain to Nasr the Soviet analysis of the military, diplomatic and economic aspects of the new American policy
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 Jan 57 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=6 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 4. EGYPT TO INSIST THAT CANAL TOLLS BE PAID EGYPTIAN AUTHORITY after the Suez Canal clearance operation Egypt "will not hesitate. . . to stop the passage of any ship which does not pay the tolls, as happened with the British and French ships which were not paying these tolls to the Egyptian administration." Comment Egypt, encouraged by Moscow, will almost certainly adopt a much firmer attitude in regard to possible flouting of the Egyptian canal authority than it did before the Anglo-French intervention. With reference to reports that Egypt would refuse passage to British and French ships until Israel has withdrawn behind the 1949 armistice lines, the American embassy in Cairo believes that the details of the Egyptian position on future canal operations have not yet been settled
+- original #10 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 Jan 57 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.997945
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.998246
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: 7. SOVIET AIRCRAFT ASSOCIATED WITH NUCLEAR TESTS ACTIVE NEAR GUIDED MISSILE RANGE Since 25 November 1956, an aircraft associated with the Soviet nuclear weapons test program has been active on at least two occasions at Kapustin Yar airfield, which serves the missile rangehead, and at Arzamas airfield near the nuclear weapons laboratories at Sarov/Shatki. At least two other nuclear test-associated aircraft have been scheduled from Semipalatinsk into airfields near the rangehead during the same period. Comment The pattern of current flight activity indicates that an experimental project involving both the Soviet nuclear weapons and guided missile development programs is under way. This is the first evidence of an association between these programs since 2 February 1956, when a missile firing occurred which may have involved a nuclear test
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 Jan 57 Current Intelligence Bulletin Page 10
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=0.993914
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: noncontent_keyword
+  Text: Comment on
+- original #15 segment 1: noncontent_keyword, ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: 2.5
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: SUMMARY 12 December 1956 - 9 January 1957) THE TAIWAN STRAIT Report of the IAC Current Intelligence Group for the Taiwan Strait Problem 1. There were no significant combat operations in the area during the period. 2. During December a number of jet light bombers were transferred from Manchuria to the Hangchow-Nanking area. This movement probably represents the return of the Chinese Communist 20th Air Division, or elements thereof, to East China, following its re-equipment with IL-28's. Transfer of the entire division would double jet light bomber strength in this area, placing some 120 of these aircraft within easy combat radius of the offshore islands and Taiwan
+- original #16 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 Jan 57 Current Intelligence Bulletin Page 12
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #17, segment 1)
+Text: TAIWAN STRAIT SITUATION 9 JANUARY 1957 CHINESE COMMUNIST AIRFIELD
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #6 (original #17, segment 3)
+Text: DESIGNATIONS PRIMARY AIRFIELD SECONDARY AIRFIELD AUXILIARY OR EMERGENCY BASE OPERATIONAL SERVICEABLE UNKNOWN USABILITY FIELDS NOT CONSIDERED CAPABLE OF SUPPORTING SUSTAINED OPERATIONS AT PRESENT 0 50 NAUTICAL MILES *NATIONALIST AIRFIELD Railroad Primary roads Under construction or projected Secondary roads
+Token count: 38
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #17 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: LEGEND

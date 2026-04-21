@@ -1,0 +1,136 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.947403
+kept_candidate_count=2
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 3. ARABS CONTINUE ENCOURAGEMENT OF YEMEN
+Token count: 6
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #5, segment 2)
+Text: 7. NICARAGUAN MILITARY REPORTEDLY PLANS COUP SOON
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+- original #5 segment 1: noncontent_keyword
+  Text: page 8
+- original #5 segment 3: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.958462
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #6, segment 1)
+Text: Comment This information supports other reports that the rebels intend to promote widespread violence throughout Algeria when the General Assembly's political committee takes up the Algerian item, probably this week. Any success the rebels achieve is likely to prolong and exacerbate the UN discussions and reduce prospects of terminating them without a French "walkout
+Token count: 54
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.993323
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Comment on
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 3. ARABS CONTINUE ENCOURAGEMENT OF YEMEN Comment on: In response to an appeal from the imam of Yemen, Egyptian army officers and "their assistants" are being flown to Yemen to train troops, ac- Syria has promised to dispatch immediately officers and arms. King Hussain of Jordan has told the Yemeni minister to Egypt that "all of our facilities are at your disposal!" Saudi Arabia has also sent military forces to help fight the British in Aden. Various recent reports on volunteers for Yemen carry figures as high as 7,000. It is unlikely that large numbers have gone to Yemen in view of transportation problems, but a small number of Arab technicians and training officers have arrived
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 27 Jan 57 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.998387
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 10]
+kind=red_only red_source_page=9 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: 7. NICARAGUAN MILITARY REPORTEDLY PLANS COUP SOON The Nicaraguan national guard is expected to take over the government by 3 February, the date set for national elections. "the guard at all levels is sick of the greedy, unjust rule of the Somozas" and is willing to risk a coup. Serious disagreements have been reported between President Luis Somoza and his brother, Colonel Anastasio Somoza, chief of the national guard, who is now viewed as the "real boss" of the government. Comment The national guard, the ultimate locus of political power in Nicaragua, lost its traditional source of unity and loyalty last September with the assassination of General Somoza, long-time dictator and father of the Somoza brothers. This is the first detailed report since then, however, of serious dissatisfaction within the guard and its readiness to assume direct control of the government. Colonel Somoza has probably made many enemies in the guard by his arrogance and greed. If he is becoming the dominant figure in the government, guard officers will probably be strongly motivated to oust him and possibly his brother
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 27 Jan 57 Current Intelligence Bulletin Page 9

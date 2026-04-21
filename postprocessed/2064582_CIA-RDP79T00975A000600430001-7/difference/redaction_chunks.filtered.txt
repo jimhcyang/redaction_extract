@@ -1,0 +1,107 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.984694
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: Sino-Soviet agreement on military equipment disclosed
+Token count: 6
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: GENERAL
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 2
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.868600
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: GENERAL 1. Sino-Soviet agreement on military equipment disclosed: the Soviet Union agreed to supply weapons valued at 1.4 billion rubles (350 million dollars at the official rate of exchange) to Communist China between July 1951 and May of this year. The weapons include 500 artillery pieces, 290 medium tanks and armored vehicles, 780 fighter planes, 54 bombers, and anti-aircraft equipment. China agreed to pay 1.15 billion rubles in raw materials, gold and foreign exchange during 1952. The remaining 250 million rubles are to be a Soviet credit to China covering the value of the planes supplied. The planes are to be returned to the USSR after the Korean conflict, with China paying for destroyed aircraft. Comment: The report is quite plausible and fairly consistent with general information on the increased amount of Soviet military equipment available to China over the past nine months. The alleged reimbursement terms -- 1.15 billion rubles or almost 300 million dollars during 1952 -- would put a heavy but not impossible burden on China. Its gold and foreign exchange resources are depleted, but revenues from current exports can be allocated for the purchase of military equipment. Total Chinese Communist revenues from exports in 1951 have been estimated at some 700 million dollars, the bulk coming from deliveries to the USSR and Orbit countries
+Token count: 219
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.961604
+kept_candidate_count=3
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #5, segment 1)
+Text: at least two armies may be moving up to the line, that some
+Token count: 13
+Recut: none
+
+Clean Chunk #4 (original #7, segment 1)
+Text: according to a reliable source
+Token count: 5
+Recut: none
+
+Clean Chunk #5 (original #8, segment 1)
+Text: Recent reports state that the Viet Minh forces north of the delta, comprising more than two battle-worn divisions are regrouping
+Token count: 20
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens
+  Text: for
+
+========================================================================
+[PAGE 05]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=0.906703
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #9, segment 1)
+Text: 4. Rival Communist factions in Burma agree to collaborate: The chiefs of the two insurgent Communist parties in Burma have now composed their long-standing differences. An agreement reached in December calls for cessation of armed conflict, collaboration in fighting the government and efforts to merge into a single Communist party. Comment: Personal rivalries rather than ideological incompatibility have in the past precluded collaboration or union of the two Communist groups. Reports have been received that Communist China has specified a settlement of the factional dispute as a prerequisite for substantial material aid. SOUTH ASIA 5. Indian Government agrees to continue negotiations on Kashmir: The Government of India has informed UN representative Graham that it is willing to continue negotiations on the Kashmir issue. It states that is has no objection to participation in the negotiations by Admiral Nimitz, plebiscite administrator designate, provided his impartiality in arranging for a subsequent plebiscite is not prejudiced. Comment: India's agreement to Graham's suggestion practically assures that negotiations will be continued. It does not necessarily increase the likelihood that they will be successful
+Token count: 178
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

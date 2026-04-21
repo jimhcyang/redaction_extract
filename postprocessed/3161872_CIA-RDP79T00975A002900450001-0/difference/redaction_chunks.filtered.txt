@@ -1,0 +1,120 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.800157
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. KING HUSSAIN'S POSITION CRITICAL
+Token count: 5
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. KING SAUD ORDERS NEW ARMS AID TO YEMEN FOR HARASSING BRITISH IN ADEN
+Token count: 14
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 8
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 1. KING HUSSAIN'S POSITION CRITICAL Comment on: King Hussain's recent anti-Communist actions have involved him in a critical battle with leftist elements which could result in his loss of the throne. Reports that the government, at Hussain's insistence, has banned Communist publications indicate that the king is still trying to follow through on his 2 February letter which pointed out the danger of Communism and implicitly aligned him with the West. Nuwar was supporting the Nabulsi cabinet in its refusal to follow the king's wishes in regard to appointment of key officials. Nuwar knew the army would not support him in any other course. The pro-Egyptian "free officers" were "very confident" and "prepared for any eventuality;" that the major political parties--especially the left-wing Socialists and the Communists--had decided to stand together to resist the king, and that more than two thirds of the members of the lower house of parliament support the cabinet. This Egyptian picture of nearly unanimous opposition to the king is probably overdrawn, but it is clear that the leftists and extreme nationalists are, with Egyptian assistance, rallying their supporters. The king seems unlikely to prevail against them unless he evinces more determination than he has shown in the past and receives substantial outside assistance
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.244388
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 2. KING SAUD ORDERS NEW ARMS AID TO YEMEN FOR HARASSING BRITISH
+- original #7 segment 1: full_page_or_admin
+  Text: ADEN Comment on: King Saud instructed his brother, Crown Prince Faisal, on 1 February to send "not less than a thousand" rifles "quickly" to Yemen "by the well-known way," A few days earlier the Imam of Yemen had asked Saud for 1,000 rifles and ammunition--saying he was unable to fulfill all the requests for arms from inhabitants of Aden Protectorate who wished to resist British oppression. The Imam claimed that Egypt had not sent the necessary arms and that the USSR had offered to barter a very large arms supply which Yemen had refused. The Imam closed by asking what Saud would think if Yemen were to buy arms from Czechoslovakia, "since as your majesty realizes, necessity knows no law!" The Imam's message suggests that Saud may be unaware of the extent of Yemen's arms deals with the Soviet bloc. In addition to a large shipment of Soviet arms to Yemen during October prior to the closing of the Suez Canal, some emergency shipments of Soviet light arms are being flown to Yemen via Saudi Arabia, apparently without the king's knowledge
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.957403
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #8, segment 1)
+Text: is reported to have
+Token count: 4
+Recut: none
+
+Clean Chunk #4 (original #9, segment 1)
+Text: Local Economy
+Token count: 2
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.947692
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.952673
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #10, segment 1)
+Text: reportedly at half the price of Canberras
+Token count: 7
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.957065
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Comment on
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Nahdlatul

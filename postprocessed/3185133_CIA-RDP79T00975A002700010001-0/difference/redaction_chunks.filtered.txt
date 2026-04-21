@@ -1,0 +1,136 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.903774
+kept_candidate_count=3
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. EGYPT REPORTEDLY WILL REFUSE INVITATION TO LONDON CONFERENCE
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 4. ADENAUER'S PARTY SPLIT ON SENDING PARLIAMENTARY DELEGATION TO MOSCOW
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 4)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 3: noncontent_keyword
+  Text: page 7
+- original #3 segment 5: noncontent_keyword
+  Text: page 8
+- original #4 segment 1: noncontent_keyword
+  Text: page 10
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.244404
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: EGYPT REPORTEDLY WILL REFUSE INVITATION TO LONDON CONFERENCE Egypt's plans for further diplomatic action to counter Western moves include an appeal to the UN Security Council on the ground that Western threats constitute a threat to peace. It will also attempt to place the question of internationalization of all international waterways before the UN General Assembly. Meanwhile, Egypt is urging countries not invited to the conference to raise objections
+- original #6 segment 1: full_page_or_admin
+  Text: regard to military action, 100,000 reservists reportedly have been called up. Egyptian engineers have studied means of blocking the canal and believe they can do it so effectively it will take from one to three years to reopen. An Egyptian officer has been sent to Syria to organize fedayeen attacks on oil pipelines, and Jordanian fedayeen have been instructed to be ready to blow up oil installations in Kuwait, Dhahran and Bahrein. On 7 August Nasr allegedly outlined final plans for underground resistance, each of his lieutenants being given responsibility for organizing action in a specific geographic area. Comment The American embassy in Cairo reported on 7 August that inspired editorials were giving increasing prominence to the idea of placing the dispute
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: in UN hands. Other portions of these reports--the diplomatic action to be taken in regard to countries not invited to the conference, It seems doubtful that the reported plans for underground resistance, except for a resumption of guerrilla warfare in the canal zone, would be taken very seriously by the Egyptians themselves. The Egyptians also have probably exaggerated their ability to block the canal for a very prolonged period of time
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.998565
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #8, segment 1)
+Text: and that
+Token count: 2
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.122658
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 4. ADENAUER'S PARTY SPLIT ON SENDING PARLIAMENTARY DELEGATION TO MOSCOW There is disagreement within Chancellor Adenauer's Christian Democratic Party (CDU) on the advisability of accepting the Soviet invitation to send a Bundestag delegation to Moscow. While Chancellor Adenauer has apparently tried to settle the matter
+- original #10 segment 1: full_page_or_admin
+  Text: advance by publishing an article against acceptance, other influential members of his party in the Bundestag favor going. Comment The Bundestag is scheduled to act on the invitation in September after its summer recess. In view of the increasing concern within the CDU that the party is vulnerable to opposition attacks on its firm pro-Western policy, Adenauer may find it hard to maintain his position in the face of considerable resistance from his own Bundestag group
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 8 August) Israel is approaching all governments invited to the 16 August conference on the Suez to present Israel's demand that any final arrangement on the canal allow transit of its ships, according to the American embassy in Tel Aviv. The embassy stated that the Israeli government will suffer domestic censure if increased rights for Israeli passage in the canal do not emerge from the present situation. The American air attaché in the Netherlands reports that an Israeli-Dutch agreement for purchase by Israel of 10 surplus Meteor jet aircraft was reached on 13 July. He said that two would be overhauled in June, four in July and four in August, and that they were to be ferried to Israel by Israeli pilots. He stated that apparently none have been delivered to Israel to date
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

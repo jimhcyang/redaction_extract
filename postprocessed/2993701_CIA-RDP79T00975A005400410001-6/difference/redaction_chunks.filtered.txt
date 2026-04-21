@@ -1,0 +1,245 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.696429
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.123571
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 17 DECEMBER 1960 I. THE COMMUNIST BLOC USSR tests another supersonic aerodynamic vehicle. Vietnamese Communists to announce on 20 December united front throughout South Vietnam. II. ASIA-AFRICA Somali Republic to recognize Communist China. Shah says he plans parliamentary elections; will choose candidates himself. Situation
+- original #2 segment 1: full_page_or_admin
+  Text: the Congo. Ethiopia--Coup attempt has collapsed. III. THE WEST Italy--Political tension rising. Ecuador to establish relations with USSR. LATE ITEM Situation in Laos
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.856383
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #3, segment 1)
+Text: USSR: On 16 December the USSR launched what is believed to be a large supersonic aerodynamic vehicle called Hotcross in the intelligence community. The last test of such a vehicle took place on 23 March. The latest vehicle was launched from Vladimirovka and was apparently programed to fly to the Kamchatka impact area of the Tyura Tam Missile Test Range. In the three previous transcontinental tests the Hotcross vehicles were also scheduled to fly to Kamchatka; two are known to have crashed en route; the third possibly completed its flight. According to preliminary analysis the vehicle traveled 2,800 nautical miles and may have reached its apparent destination near Klyuchi, a distance of about 4,000 nautical miles. The vehicle flew at an altitude of approximately 65,000 feet and at speeds of 1,600 to 1,800 knots, conforming to performance characteristics of Hotcross observed to date. The role of the Hotcross vehicle is not known, but it is estimated that such a vehicle could be employed for weapon delivery, reconnaissance, or for investigation of problem areas related to high-speed flight. North Vietnam - South Vietnam: The Vietnamese Communists have designated 20 December as the date for publicizing the establishment of a united front throughout South Vietnam. This move will be a dramatic advance in Hanoi's two-pronged campaign to topple the Diem regime, combining stepped-up guerrilla activity with political agitation among elements opposed to President Diem. The Communists in the South, acting on orders from North Vietnam, appear to be trying to exploit the widespread non-Communist dissatisfaction with the government evidenced by the abortive coup of 11 November
+Token count: 268
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.923130
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #2 (original #4, segment 1)
+Text: President Diem. The Communists in the South, acting on orders from North Vietnam, appear to be trying to exploit the widespread non-Communist dissatisfaction with the government evidenced by the abortive coup of 11 November
+Token count: 34
+Recut: none
+
+Clean Chunk #3 (original #8, segment 2)
+Text: Congo: The pro-Lumumba regime at Stanleyville has not yet taken any action against Europeans there; it is mainly concerned with preparations to meet a possible attack by the Congo Army. In adjoining Equateur province, "from 1,000 to 1,300 men have been called to military service in Stanleyville," presumably in addition to pro-Lumumba militia who have controlled the city. In Leopoldville, Congo Army commanders and key staff officers down to the battalion level have been called together by Mobutu
+Token count: 80
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword, ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ASIA--AFRICA
+- original #6 segment 1: noncontent_keyword
+  Text: Page 2
+- original #7 segment 1: short_span_min_tokens
+  Text: knowledge
+- original #8 segment 1: noncontent_keyword
+  Text: Page 2
+- original #8 segment 3: noncontent_keyword
+  Text: 17 Dec 60 DAILY BRIEF
+- original #8 segment 4: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.895329
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #4 (original #9, segment 1)
+Text: possibly to discuss military action against the dissidents. Recent overtures by Ghanaian President Nkrumah concerning an African army to restore Lumumba to power in the Congo appear to have stimulated little enthusiasm among neutralist Afro-Asian states. Although some form of military consultative arrangement may be agreed upon among Ghana, Guinea, Sudan, and the UAR, the government press in Cairo has emphasized that the UAR has "its own plans" for combating "foreign aggression" in Africa
+Token count: 74
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #9 segment 2: noncontent_keyword
+  Text: Page 3
+- original #10 segment 1: noncontent_keyword
+  Text: 17 Dec 60 DAILY BRIEF
+- original #10 segment 2: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.972918
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #5 (original #11, segment 1)
+Text: Liberals to such collaboration could build up pressures leading to the fall of Fanfani's government
+Token count: 15
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #11 segment 2: noncontent_keyword
+  Text: Page 5
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Ecuadorean
+- original #13 segment 1: short_span_min_tokens
+  Text: of
+- original #14 segment 1: noncontent_keyword
+  Text: 17 Dec 60 DAILY BRIEF
+- original #14 segment 2: short_span_min_tokens
+  Text: iv
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.925049
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #15, segment 1)
+Text: Laos: The bloc continues its threatening propaganda line charging US and Thai "interference" in Laos. The bloc airlift also continued unabated through 16 December; a total of 37 Sino-Soviet transports are now involved in this operation. In Vientiane, some Phoumi forces apparently have occupied the airfield, while other elements are continuing their attempts to clear the town of remaining pockets of resistance
+Token count: 62
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #15 segment 2: noncontent_keyword
+  Text: Page 6) 17 Dec 60 DAILY BRIEF
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: North Vietnam - South Vietnam The Vietnamese Communists have designated 20 December as the date for publicizing the establishment of a united front throughout South Vietnam. widespread circulation of a printed proclamation to be followed by demonstrations, meetings, and dissemination of propaganda leaflets and banners. These activities are directed toward "mobilizing thoroughly" all segments of the South Vietnamese population, including government and army personnel. Although the Communists are confident that their control in some areas is sufficiently secure to permit open establishment of local front committees, the directive cautions that "the situation is still fraught with many difficulties." Aware that the Diem government is likely to take reprisals against any persons who can be identified with the movement, it warns against identifying the front with "the name of the party" and appears to postpone the selection of members of the front's central committee. Although apparently caught by surprise when a coup attempt was made against Diem on 11 November, the Communists now appear to be moving rapidly to exploit the widespread non-Communist dissatisfaction evidenced at that time. Hanoi has embarked on a two-pronged campaign to topple the Diem regime, combining stepped-up guerrilla activities with political agitation among non-Communist opposition groups in South Vietnam. In September Le Duan, Ho Chi Minh's top lieutenant in party affairs, called for a broadly based united front south of the 17th parallel and indicated that Hanoi believed dissatisfaction in the South was sufficiently widespread to permit enlarging the "reunification struggle" beyond the stage of purely guerrilla warfare
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.244048
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: The Situation
+- original #18 segment 1: full_page_or_admin
+  Text: the Congo The pro-Lumumba regime at Stanleyville has not yet taken any action against Europeans there; it is mainly concerned with preparations to meet a possible attack by the Congo Army. Although Ethiopian troops of the UN Command have been concentrated in Stanleyville, concern for Europeans outside the provincial capital has prompted the UN to maintain units in the towns of Bunia, Buta, and Paulis. in Equateur Province, "from 1,000 to 1,300 men have been called to military service in Stanleyville," presumably in addition to the pro-Lumumba militia who have controlled the city since late September. Although the dissidents have sought to extend their influence outside Orientale Province, their present disposition appears defensive. Recent overtures by Ghanaian President Nkrumah concerning an African army to restore Lumumba to power in the Congo appear to have stimulated little enthusiasm among neutralist African states. The government press in Cairo has emphasized that the UAR has "its own plans" for combating "foreign aggression" in Africa, but some form of military consultative arrangement may be agreed upon among Ghana, Guinea, Sudan, and the UAR. Cairo may confine its aid to the dissidents to financial assistance and military equipment, notwithstanding Gizenga's recent appeal for troops. There are indications, however, that Gizenga's claim to represent the legal Congo government may bear fruit in terms with Lumumba in prison, Gizenga can be assumed to be acting premier. The USSR appears to be awaiting the outcome of developments affecting the Stanleyville group and the attitude of
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: African and Asian countries toward Gizenga's "government." Radio Moscow reported that Gizenga had assumed responsibility and moved the seat of government to Stanleyville, but the USSR has not yet explicitly recognized his regime. Moscow is continuing its efforts to rally opposition by Afro-Asian countries to the UN Congo operation and to Mobutu. In Leopoldville, Congo Army commanders and key staff officers down to the battalion level gathered on 14 December at Mobutu's call, apparently for a major council of war. The meeting was characterized as one "to establish goals and means," presumably with respect to Stanleyville. Mobutu's deputy chief of staff indicated that units stationed in Orientale Province had not been invited, partly because their loyalty was suspect and partly because of the transportation problem involved
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=12 unred_source_page=14
+alignment_score=0.988538
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Tension Rising
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: or
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=15
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: Situation in Laos The bloc continues its threatening propaganda line charging US and Thai "interference" in Laos. A Moscow Home Service broadcast of 15 December attacked "American imperialists" as bearing full responsibility for the Laotian crisis. The broadcast warned that US interference in Laos was "provoking a wide military conflict" and promised a "clean sweep of the transatlantic interventionists." Communist China's People's Daily stated on 16 December that the Laotian people "are not alone," and North Korea issued an official statement on 15 December charging the US with "a flagrant violation" of the Geneva agreements on Indochina and with creating a "grave threat to the peace of the world." North Vietnam continues to describe the Laotian situation in terms of "a direct threat to the DRV." The bloc justifies its actions in Laos by insisting that Souvanna Phouma still heads the legal government. In a move possibly intended to sound out the Burmese position on this subject, called on a Burmese official on 15 December to state Hanoi's view on Souvanna and to inform the Burmese that North Vietnam wanted a political solution in Laos. The North Vietnamese diplomat stated that Souvanna was the only individual qualified to form a coalition government. The North Vietnamese recently withdrew transportation from the ICC inspection teams at Haiphong and Vinh in North Vietnam. The US Embassy in Saigon suggests this move may be intended to hamper observation of military movements. In view of the supply lift to North Vietnam, the Canadian ICC delegation for Vietnam has requested urgent ICC consideration of apparent violation of the Geneva agreements. A special meeting will take up this question on 20 December. The bloc airlift in support of the Pathet Lao continued unabated through 16 December. Apart from the five Soviet IL-14s
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=13 unred_source_page=16
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: full_page_or_admin
+  Text: which were reflected in flight to Vientiane on 7 December, two AN-2s, one LI-2, and one MI-4 helicopter--all probably North Vietnamese--were scheduled to fly on 15 December, probably to the Sam Neua area. Several additional Chinese Communist transports subordinate to the 3rd Independent Regiment and two of naval subordination have joined the 17 transports of the 13th Air Division in airlift operations to Nanning. There are now a total of 37 Sino-Soviet transports involved in airlift operations. Some of the 3rd Independent Regiment transports have been noted in flight from Peiping to Hanoi. Also, three Chinese Communist civil transports flew to Hanoi from Canton, Kunming, and Hankow respectively on 16 December. the planes were carrying "freight." Some of the cargo is probably POL which Moscow asked Peiping on 14 December to send to Hanoi for purposes of refueling the IL-14s engaged in the airlift. Moscow informed Peiping that the fuel shipment was necessary because "our fuel is delayed en route," and stated it would compensate Peiping. Personnel evacuated from Vientiane report that Kong Le's artillery and mortar fire has been very accurate and that the destruction of US installations appeared deliberate. The accuracy of the Kong Le - Pathet Lao artillery and mortar fire tends to substantiate earlier reports of the arrival of North Vietnamese gunners in Laos. Phoumi's Radio Savannakhet has claimed the capture of "some" North Vietnamese soldiers. In Vientiane, one of Phoumi's commanders claims that commando elements under Major Siho have occupied the airfield to the northwest of the town. Other Phoumi elements are continuing their efforts to clear the town itself of remaining pockets of resistance. The whereabouts of Captain Kong Le and the bulk of his retreating force is unknown; they may link up with Pathet Lao elements in outlying districts of Vientiane Province, where together the two forces would pose a continuing threat to Vientiane
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=14 unred_source_page=17
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=15 unred_source_page=18
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: noncontent_keyword
+  Text: TOP SECRET

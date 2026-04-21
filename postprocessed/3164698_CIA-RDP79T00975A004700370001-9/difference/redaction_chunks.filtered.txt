@@ -1,0 +1,131 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.757143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.124107
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 13 OCTOBER 1959 I. THE COMMUNIST BLOC II. ASIA-AFRICA Indonesia--Parliament to air issue of parliamentary versus executive powers. III. THE WEST Important French military officials agitating against liberal solution for Algeria. Financial problems
+- original #2 segment 1: full_page_or_admin
+  Text: Belgium and Congo threaten Belgium's ruling coalition. Cyprus--Makarios and Grivas issue ambiguous communique at end of talks; differences probably persist
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.933478
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #4, segment 1)
+Text: France-Algeria: Important French military officials, including General Zeller, until recently French army chief of staff, and General Raoul Salan, ex-commander of forces in Algeria, are reliably reported to be agitating in army circles against a liberal solution for Algeria. French intelligence authorities say that the government is not alarmed in view of De Gaulle's resounding popular and bureaucratic support. Nevertheless elements of the army in France and Algeria can be expected to try to frustrate any solution other than integration
+Token count: 80
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #5, segment 1)
+Text: position. Moreover, there are increasing indications of native hostility to the territorial elections scheduled for December
+Token count: 16
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: Page 1
+- original #4 segment 2: noncontent_keyword
+  Text: Page 2
+- original #5 segment 2: noncontent_keyword
+  Text: Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.838927
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #7 segment 1: noncontent_keyword
+  Text: Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: III. THE WEST Important French Army Leaders Agitate Against Liberal Solution in Algeria General André Zeller, until recently French Army chief of staff, is agitating in army circles against a liberal solution in Algeria. Others working with Zeller are said to include General Raoul Salan, formerly commander in chief in Algeria and now inspector general for national defense, and a prominent division commander in Algeria, General Jacques Faure. The French Government is not yet seriously alarmed in view of the "resounding" support for De Gaulle. This is the first specific report of adverse military reaction to De Gaulle's 16 September proposals concerning Algeria. Most such reaction has been from elements identified with the army but not on active duty, such as octogenarian General Maxime Weygand. Increasing official sensitivity to possible military opposition is suggested by the government's belated reprimand last week to the army reserve officers' organization for its 28 September resolution favoring integration as the only solution. The wide popular approval of De Gaulle's proposals in France would probably give pause to any overt military opposition. An
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.977558
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.907618
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #10, segment 1)
+Text: Makarios apparently made no significant concession to Grivas. At the conclusion of the talks, Grivas publicly pledged to work for the implementation of the agreements and expressed his "unreserved support" for Makarios. Makarios assured the general that he will continue to oppose any British attempts to expand the size of military bases on Cyprus and any Turkish efforts to establish a republic with equality of power between a Greek Cypriot president and Turkish Cypriot vice president--positions which Makarios has consistently advocated
+Token count: 82
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.986698
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

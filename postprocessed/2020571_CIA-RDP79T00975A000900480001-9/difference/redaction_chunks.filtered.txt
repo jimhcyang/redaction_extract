@@ -1,0 +1,74 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.840625
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.961628
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Rumania reportedly to receive large shipment of Belgian steel
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. Poland considers arranging bunkering facilities in India
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: GENERAL 1. Rumania reportedly to receive large shipment of Belgian steel: Rumania is to receive over 9,000 tons of finished steel from Belgium. Shipment will reportedly take place this week. Customs officials are not to see the receipt certificates until after the material has been loaded aboard ship. Comment: This is the largest known sale of Belgian steel to the Orbit this year. Belgium demanded advance payment because of Rumania's adverse trade balance. Rumania reportedly began sending wheat to the Netherlands for Belgian francs in order to obtain the necessary exchange for this purchase. 2. Poland considers arranging bunkering facilities in India: The Polish Government in early October was considering to import bunker fuel into India for Polish vessels, Comment: The Polish Ocean Lines, which carries a large portion of the Orbit's goods to China, needs bunkering facilities along the route from Poland to the Far East. Such facilities have been available at Djibouti but may be withdrawn shortly. The Polish Government will find it difficult to obtain bunker fuel in India since Western companies, which control the handling of petroleum supplies, have agreed to refuse to bunker Orbit vessels trading with Communist China. Indian petroleum companies so far have been unable to secure tankers to bring in oil
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.995798
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Candido
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.954683
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: Comment: The last letter in these negotiations was Adenauer's message of 16 October, in which he proposed a French-German commission to study adaptation of the French-Saar conventions to the anticipated European status of the Saar. Schuman has delayed his answer pending disposition of the Saar election problem. The British Foreign Office feels that pressure should now be put on the French to accept early technical discussions of their coal and steel needs during a transitional period, and Foreign Secretary Eden has told French Ambassador Massigli that, despite the Saar election results, time is not on the side of the French
+Token count: 100
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.600939
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

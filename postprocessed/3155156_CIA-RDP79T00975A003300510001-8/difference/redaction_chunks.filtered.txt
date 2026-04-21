@@ -1,0 +1,148 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.898537
+kept_candidate_count=1
+excluded_candidate_count=8
+
+Clean Chunk #1 (original #5, segment 2)
+Text: 5. ISRAEL TO COMPLETE DRAINAGE OF LAKE HULA ON 31 OCTOBER
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: CAMPAIGN
+- original #5 segment 1: noncontent_keyword
+  Text: page 6
+- original #5 segment 3: noncontent_keyword
+  Text: page 7
+- original #6 segment 1: noncontent_keyword
+  Text: page 9
+- original #7 segment 1: noncontent_keyword
+  Text: page 10
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.997887
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.966904
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #10, segment 1)
+Text: On 30 October, the Yugoslav ambassador in Moscow told a foreign journalist that neither he nor his military attaché, who had accompanied Zhukov on his recent trip, was aware of any development which could justify action against the marshal. He said he felt certain Zhukov had had no idea what was awaiting him when he returned to Moscow on 26 October
+Token count: 61
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens
+  Text: Reference
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.959152
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #11, segment 1)
+Text: The army's upper echelons, which have become aware of strong efforts by Rhee's Liberal party to ensure army support for the party in the 1958 elections, are now participating in political intrigue. Rhee's plan to remove all his four-star generals from active duty has become generally known and has resulted in intensified infighting among ambitious general officers aspiring to top commands
+Token count: 61
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.998785
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: 5. ISRAEL TO COMPLETE DRAINAGE OF LAKE HULA ON 31 OCTOBER Comment on: Israel's final move to drain Lake Hula, scheduled for the morning of 31 October, probably will not provoke any significant reaction from Syria. The Syrians in the past have protested strongly that the project involves violations of the Israeli-Syrian armistice agreement but are now preoccupied with their relations with Turkey. In September, instructions were issued to Syrian forces on the Israeli front to "observe" the Israeli workers "but not oppose them." The Israeli government, in an effort to avoid arousing the Syrians, has not permitted advance release of information about the operation although it has invited press representatives to the ceremony. The Israelis apparently do not expect any reaction since they have taken no unusual precautionary measures. The Hula drainage project, begun in 1950, is aimed at reclaiming 15,000 acres of potentially
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: rich farm land from Lake Hula and adjacent marshes, to prevent seasonal flooding of another 17,000 acres, and to eliminate malaria. A series of canals have been constructed which will channel the Jordan and its tributaries through the dry lake bed. Syria has argued that by reclaiming the area Israel would derive a military advantage and that the work was proceeding on Arab-owned lands
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.998160
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.986856
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #17, segment 1)
+Text: Government sources have reportedly blamed this sentiment on propaganda from the Brazilian petroleum monopoly, Petrobras
+Token count: 15
+Recut: none
+
+Excluded candidates:
+- original #16 segment 1: noncontent_keyword
+  Text: Comment on

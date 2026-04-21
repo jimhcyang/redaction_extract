@@ -1,0 +1,141 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.740491
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. FRENCH WARN AGAINST ESTABLISHING FOREIGN EMBASSIES IN MOROCCO (page 4). 3. SOUTH KOREAN POLICE MAY MAKE MASS ARRESTS PRIOR TO PRESIDENTIAL ELECTIONS (page 5). 4. JAPANESE AMBASSADOR STRESSES TIMING IN ESTABL- LISHING TRADE MISSION IN PEIPING
+Token count: 37
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 8). * * * * THE ARAB-ISRAELI SITUATION
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 6
+- original #2 segment 1: noncontent_keyword
+  Text: page 7
+- original #3 segment 2: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.967066
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: embarassing
+
+========================================================================
+[PAGE 05]
+kind=red_only red_source_page=4 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.247335
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: FRENCH WARN AGAINST ESTABLISHING FOREIGN EMBASSIES
+- original #6 segment 1: full_page_or_admin
+  Text: MOROCCO Comment France insists on maintaining the diplomatic status quo in Morocco un- til existing treaties have been formally abrogated by the French National Assembly. Spain, which has been carrying on direct diplomatic negotiations with the Moroccan government and has consistently tried to improve its position in Morocco at French expense, seems ready to exchange ambassadors despite French objections
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 3. SOUTH KOREAN POLICE MAY MAKE MASS ARRESTS PRIOR TO PRESIDENTIAL ELECTIONS if Liberal Party success in the vice-presi- dential race appears in doubt, the police plan to arrest certain opposition leaders. Comment opposition Democratic Party will not merge with the leftist Progressive Party to defeat Rhee, but will concentrate upon defeating President Rhee's running mate, Yi Ki-pung, for the vice presidency. Observers in Seoul note that tension is rising, and that the populace anticipates the employment of violent measures to ensure the election of Yi Ki-pung
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 4. JAPANESE AMBASSADOR STRESSES TIMING IN ESTABLISHING TRADE MISSION IN PEIPING Japanese ambassador Tani in Wash- ington advised his government to wait and see "how the situa- tion develops" in regard to the pro- posed establishment by France of a permanent trade mission in Commu- nist China, before notifying the United States that Japan plans to do likewise. He suggested that the Hatoyama govern- ment should first tell Washington it is trying to resist popular pressure but may not be successful; and then, later, that "domestic conditions make it inevitable that we establish this agency". Foreign Minister Shigemitsu replied that it would be tremendously difficult to restrain popular desire for a similar mission for any length of time, if the French were successful. He concurred in Tani's rec- ommendation, however, since it involved only a question of timing. Comment Tokyo has moved cautiously on the ques- tion of relations with Communist China in an effort to make each step appear to be the result of domes- tic pressure. (Concurred in by ORR
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.957233
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.954845
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 8 May) Secretary General Hammarskjold told American representatives to the United Nations on 7 May that he feels he has achieved a two to six months' respite from hostilities in the Middle East. Hammarskjold appears to be basically pessimistic; he does not care to return to the area and is opposed to a Security Council meeting on the Middle East. The secretary general advised a policy of "wait and see" and urged that the Western powers, and later the USSR, "in unilateral co-ordinated steps" exert diplomatic pressure on the countries concerned to resolve the remaining problems. These problems, which he said should be resolved in order, are the military concentrations in the El Auja-Sinai area, the Egyptian blockade of the Suez Canal, the "water problem," and the refugee problem. Further incidents between Israel and the Arabs occurred late on 7 May. Israel charged that newly planted mines damaged two Israeli vehicles near the Gaza strip, and that Jordanians fired into the Israeli sector of Jeru- salem. Egypt reported that an Israeli "armored force" crossed into Egyptian territory near Khan Yunis and held down an Egyp- tian patrol with automatic fire for a half hour. (Press) France has agreed to send 12 more Mystere IV jet fighters to Israel and intends also to approve an Israeli request for 12 Mystere II's. Between 5 and 8 May, at least 11 transport aircraft flew from the Soviet Union via Plovdiv, Bulgaria, over Greek territory to Cairo. These apparently were some of the IL-14 twin piston-engined transports which Egypt is receiving under its arms deals with the Soviet bloc. The Greek government has given overflight permission to the government of Egypt for about 20 of these aircraft, which are to carry Egyptian markings and to be flown by Egyptian crews
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #12, segment 1)
+Text: Press reports from Egypt had suggested that a military pact similar to that signed with Syria and Saudi Arabia had been signed
+Token count: 22
+Recut: none

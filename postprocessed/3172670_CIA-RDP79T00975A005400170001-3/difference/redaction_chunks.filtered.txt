@@ -1,0 +1,209 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.346154
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122929
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 19 NOVEMBER 1960 I. THE COMMUNIST BLOC Continued petroleum shortages
+- original #2 segment 1: full_page_or_admin
+  Text: Communist China are affecting transport requirements. II. ASIA-AFRICA Laos--Souvanna Phouma meets major Pathet Lao demands in agreement to form coalition government and accept aid from Communist China and North Vietnam. III. THE WEST El Salvador's ruling junta expels military plotters from country; action may bring premature countercoup attempt by armed forces. Bolivian President declares state of siege. British Government showing growing reluctance to take countermeasures against East Germany. France--Opposition to rapid implementation of De Gaulle's Algerian policy expected to converge with opposition to nuclear strike force measure
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.909294
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 1)
+Text: I. THE COMMUNIST BLOC Communist China - POL: Petroleum shortages in Communist China, first noted in September, are continuing and are affecting fulfillment of transport requirements. Fukien Province is to receive only half as much petroleum during the final quarter of this year as during the third because of the "rather critical" petroleum supply situation throughout the country. a shortage of foreign exchange as the reason for diminishing petroleum supplies. the institution of emergency measures, including the modification of all available vehicles to burn coal or charcoal instead of gasoline. Similar modifications have been reported from other areas of China. In addition, civil air activity, cut back sharply during September and October, continued at about half normal levels during the first half of November
+Token count: 123
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: Page 1
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.969956
+kept_candidate_count=1
+excluded_candidate_count=9
+
+Clean Chunk #2 (original #7, segment 1)
+Text: The secretary general of the Salvadoran Communist party is reported to have asked for early assistance from the Costa Rican party in organizing a Communist coup
+Token count: 26
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #6 segment 1: noncontent_keyword
+  Text: Page 2
+- original #7 segment 2: noncontent_keyword
+  Text: Page 3
+- original #8 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: anti Paz
+- original #9 segment 1: noncontent_keyword
+  Text: Page 4
+- original #10 segment 1: short_span_min_tokens
+  Text: its
+- original #11 segment 1: noncontent_keyword
+  Text: Page 5
+- original #12 segment 1: noncontent_keyword
+  Text: 19 Nov 60 DAILY BRIEF
+- original #12 segment 2: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.969737
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Debre
+- original #14 segment 1: noncontent_keyword
+  Text: Page 6) 19 Nov 60 DAILY BRIEF
+- original #14 segment 2: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: Petroleum Shortages in China Termed Critical shortages of petroleum products in Communist China, first noted in September, are beginning to affect motor transport. Fukien Province is to receive only half as much petroleum during the fourth quarter as during the third. The cutback was blamed on the "rather critical" petroleum supply situation throughout the country. The province estimated that it was getting less than a third of the amount needed, and provincial planning authorities are trying to stretch this limited amount as far as possible. the sources of petroleum are becoming fewer and blame the shortage on "insufficient foreign exchange." They call for the institution of emergency measures to ensure that priority users get what is available and to avoid the use of vehicles whenever possible. In addition, the province has begun to modify its vehicles so that they can run on coal or charcoal instead of petroleum products. Similar modifications have been reported from other areas of China. Civil air activity, cut back sharply during September and October, continued at about half normal levels during the first ten days of November. It is still not known whether the volume of imports from the Soviet Union, which supplies half of China's petroleum requirements, has been curtailed. movement of petroleum away from the Sino-Soviet border rail transfer point was at only a fraction of normal in late September, suggesting either difficulties in rail transport or a curtailment in imports. Other information indicates that China is stepping up its seaborne imports. At least nine tankers have been scheduled to move Rumanian products before the year's end, and China, for the first time, is arranging to import free-world petroleum
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 Nov 60 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.985521
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #3 (original #16, segment 1)
+Text: The Situation in Laos
+Token count: 4
+Recut: none
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Souphannouvong
+- original #20 segment 1: noncontent_keyword
+  Text: 19 Nov 60 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.942353
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #21, segment 1)
+Text: The three military members of the junta reportedly were holding officers' meetings at several regimental headquarters on 15 November in an attempt to rally military support. The junta members said the provisional regime included some leftists but no Communists and tried to persuade the officers that the junta is not taking orders from Osorio
+Token count: 54
+Recut: none
+
+Clean Chunk #5 (original #22, segment 1)
+Text: The secretary general of the Salvadoran Communist party is reported recently to have asked the Costa Rican party, which is considered to be a more effective Communist group, for early assistance in organizing a Communist coup
+Token count: 36
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #22 segment 2: noncontent_keyword
+  Text: 19 Nov 60 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.979904
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #23, segment 1)
+Text: Paz was planning a fake leftist-led coup attempt within two weeks to justify a declaration of a state of siege
+Token count: 20
+Recut: none
+
+Excluded candidates:
+- original #24 segment 1: noncontent_keyword
+  Text: 19 Nov 60 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.991878
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: harassments
+- original #26 segment 1: noncontent_keyword
+  Text: 19 Nov 60 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: noncontent_keyword
+  Text: 19 November 1960 Copy No. Ed-6 CENTRAL INTELLIGENCE BULLETIN

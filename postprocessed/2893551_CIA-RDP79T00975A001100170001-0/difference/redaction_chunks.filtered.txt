@@ -1,0 +1,98 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.840625
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.948549
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. Soviet ministerial reorganization causing confusion
+Token count: 6
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: EASTERN EUROPE 7. Czechoslovakia invites members of Soviet bloc to national steel conference
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.986277
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 2. Soviet ministerial reorganization causing confusion
+Token count: 6
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.487414
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #4, segment 1)
+Text: Comment: The confusion among lower-level administrators, is a logical result of the major governmental changes which have taken place since Stalin's death. there may be further ministerial reorganizations in the Soviet Government requiring constitutional amendments beyond those ratified by the Supreme Soviet on 15 March. The existing state of confusion within the Soviet Government may thus be prolonged for a considerable period. Such a state of flux might preclude the Kremlin's embarking on an adventurous foreign policy and would provide strong motivation for a continuation of the current "peace offensive
+Token count: 90
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.913849
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #5, segment 1)
+Text: following the 19 April Lower House elections. The expected plurality of the Yoshida Liberal Party in the Lower House will give him the largest vote on the first ballot for prime minister, but not a majority. He appears almost certain to win against either a Progressive-Hatoyama or a Socialist candidate on the conclusive second ballot, which is limited to the two candidates receiving the most votes on the first. Under these conditions the next government would lack the support of a Diet majority and would probably be unstable and of short tenure. Comment: Yoshida believes that if he can win 200 seats, he can gain sufficient additional conservative support for a Diet majority, but a single-party government seems unlikely. The Yoshida forces have shown unexpected vigor in the campaign
+Token count: 129
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.929857
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #8, segment 1)
+Text: EASTERN EUROPE 7. Czechoslovakia invites members of Soviet bloc to national steel conference: The Czech Ministry of Foreign Affairs forwarded invitations on 1 April to the Soviet Union and its European Satellites to send delegates to a national conference of steel producers called by the new Czech Minister of the Metallurgical Industry and Ore Mines. The meeting, scheduled for 16-18 April, was convoked to discuss new methods of steel production in order to increase Czech output in the last year of the present Five Year Plan
+Token count: 86
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: disunited
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: Comment: The iron and steel industry, which is the key to the Czech Five Year Plan, has been singled out each year for its failure to fulfill production quotas. President Zapotocky has repeatedly criticized the lagging iron and steel production, and within four days of his election on 21 March replaced the Minister of the Metallurgical Industry and Ore Mines with a former deputy chairman of the State Planning Office. The rapidity with which the new Minister acted in calling this conference indicates the seriousness with which Czech steel production failures are viewed

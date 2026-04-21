@@ -1,0 +1,104 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.587607
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 23 October 1952
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.933766
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #2, segment 1)
+Text: SOVIET UNION 2. Soviet Black Sea Fleet apparently receives new cruiser
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 6. East Germans reportedly activate First Army Group headquarters
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: EASTERN EUROPE 5. "Rebellion" reported in northeast Rumania
+- original #3 segment 2: noncontent_keyword
+  Text: page 5
+- original #4 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: SOVIET UNION 2. Soviet Black Sea Fleet apparently receives new cruiser. What is believed to be a newly constructed cruiser was identified for the first time in Black Sea Fleet. The ship's callsign is part of a block allocated to battleships and cruisers
+Token count: 43
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: Comment: No vessel larger than a cruiser is known to be under construction for the Soviet Navy. Two Sverdlov-class cruisers have been under construction at the Black Sea port of Nikolaev since 1949. Completion of one of these ships would bring the total of Soviet cruisers in the Black Sea to eight, six of them modern. NEAR EAST - AFRICA UN will order Arab emigrants in Jordan to return to Israel. The UN Mixed Armistice Commission will order 850 Bedouins who left Israeli territory for Jordan in September to return to Israel. The Arabs are expected to resist repatriation because of fear that they will be forced to settle on unproductive land. The American Consul General in Jerusalem predicts that Israel intends to make it so uncomfortable for its remaining Arabs that eventually they will all try to emigrate. Comment: Officially, Israel practices no discrimination, but for security reasons it has placed some restraints on its 170,000 Arabs. This attitude is also motivated by a desire to make sufficient land available for Jewish immigrants. 4. Turkey changes attitude on Arab participation in MEDO: The British Foreign Office reported on 20 October that Turkish Prime Minister Menderes agreed during the recent
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.534252
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #8, segment 1)
+Text: EASTERN EUROPE 5. "Rebellion" reported in northeast Rumania. Rumanian security police and militia were investigating "the beginning of a rebellion" in the Dorohoi area in northeast Rumania and had already arrested 90 persons. Comment: considerable peasant unrest and some overt acts against local authorities, although nothing on the scale of a "rebellion." The militia has also been recruiting additional men for rural posts
+Token count: 63
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Nagib's
+
+========================================================================
+[PAGE 06]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: Peasant dissatisfaction has been heightened this year by a resumption of the collectivization drive and by crop failures. The Rumanian Government found it necessary to reduce taxes and crop delivery quotas imposed on peasants in communities "stricken by natural calamities." WESTERN EUROPE 6. East Germans reportedly activate First Army Group headquarters: The East German Government has activated the First Army Group headquarters at Pasewalk, north of Berlin, under the command of Brigadier General Hermann Rentzsch. The headquarters allegedly commands three infantry divisions with supporting arms, with a total strength of 30,000 to 35,000 men, and it may also control an additional 18,000 to 20,000 men in a major unit on Ruegen Island. The formation of such a headquarters for administrative purposes is possible, but the state of training and armament of the Alert Police makes it unlikely that full divisions exist as yet or that a new headquarters would have any tactical responsibilities
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

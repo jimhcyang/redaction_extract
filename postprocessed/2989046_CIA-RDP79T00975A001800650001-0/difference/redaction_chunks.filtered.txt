@@ -1,0 +1,171 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.865789
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.921538
+kept_candidate_count=3
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #2, segment 1)
+Text: FAR EAST 5. North Korean units may replace Chinese on front line (page 6). 6. Chinese Nationalist commander on Tachens "resigned to defeat" (page 6). 7. Chinese Communists reported resurfacing airfields in Fukien Province
+Token count: 34
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 9. Soviet ambassador reported supporting Togliatti against party rivals
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 10. Costa Rican rebels appear to be slowing down
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 3. Comment on British attitude toward Afro-Asian conference
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 7
+- original #3 segment 2: noncontent_keyword
+  Text: page 9
+- original #4 segment 2: noncontent_keyword
+  Text: page 10
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996491
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 113
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.987487
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: over-all
+- original #7 segment 1: noncontent_keyword
+  Text: 3. Comment on British attitude toward Afro-Asian conference
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.960294
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #8, segment 1)
+Text: These views on the Afro-Asian conference are in accord with the British campaign to rebuild good will on the Asian and African continents. Efforts along these lines, which will be aimed primarily at Nehru, will be continued at the Commonwealth conference later this month, as well as on Eden's extensive tour, after the Manila pact conference in Bangkok in February, of certain Southeast Asian and other capitals where British influence is strong
+Token count: 72
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: FAR EAST 5. North Korean units may replace Chinese on front line: North Korean units may be preparing to relieve the three Chinese Communist armies which remain along the demilitarized zone in Korea. Replacement of front-line Chinese troops with Koreans would be consistent with the current North Korean political offensive which insists that peaceful unification can be achieved by negotiations among Koreans themselves. The North Korean army could assume responsibility for the entire front by considerably weakening its reserve and coastal security positions. 6. Chinese Nationalist commander on Tachens "resigned to defeat": Nationalist naval commander in the area had refused to obey several orders, with the result that casualties and losses of materiel, including urgently needed ammunition, were greatly increased. Comment: General Liu, who is well regarded by American military advisers, has usually accepted reverses in good spirit
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.244097
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: disgust with rear area inefficiency and anger over repeated insubordination from Nationalist navy commanders--could be quickly communicated to his entire command. Meanwhile, American military observers on Formosa have a report that a concentration of Communist landing craft and other vessels was sighted on 12 January near Communist-held islands north of the Tachens (see map, p. 8). The lift-capacity of these vessels is estimated at about 23,000 troops, whereas Nationalist forces
+- original #11 segment 1: full_page_or_admin
+  Text: the Tachens number about 10,000 regulars and 2,700 guerrillas. A successful Chinese Communist invasion of the Tachens is possible at any time. 7. Chinese Communists reported resurfacing airfields in Fukien Province: as many as six airfields may be under repair in the coastal areas directly opposite Formosa (see map, p. 8). Kaochi airfield on Amoy Island is being resurfaced and the field at Machiang, 12 miles northeast of Amoy, appears to be under repair. Shell craters in the runway of the field at Swatow, just south of the Kwangtung-Fukien border, are being filled and there is some evidence that work on three other fields in Fukien--at Chienou, Changting and Foochow--may be about to begin. Comment: This is the first report of recent improvements at any of the Fukien fields. Runways of these fields, except the one at Swatow, are already long enough for jet fighters and jet light bombers, but improved surfaces are necessary before jets can be based at these sites for prolonged operations
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: SOUTH CHINA COAST (incl. FORMOSA) LOCATION OF CHINESE COMMUNIST AIRFIELDS Available Airfield (conventional) Available Airfield (jet) Airfield Construction or Improvements PRESENTATIONS DIVISION 14 JANUARY 1955 50114-2
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.993216
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #13, segment 1)
+Text: 9. Soviet ambassador reported supporting Togliatti against party rivals
+Token count: 9
+Recut: none
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: Comment: Togliatti has for some time been reported under attack by militants, including Longo, for his conciliatory tactics. However, Longo allegedly delivered a speech at the CPI conference supporting the present line of the party. It has been rumored that party vice secretary Secchia, who has been reported absent from the Senate and party activities, would be dropped from the party after the conference. According to the latest press dispatches from Rome, however, Togliatti is retaining Secchia for the time being. The Communist parties of Western Europe have in general been using conciliatory tactics as part of the united front strategy of combating West German rearmament. The reported instructions suggest that for the present the strategy will not be changed, but that following ratification the possibility of a change is being held open. LATIN AMERICA 10. Costa Rican rebels appear to be slowing down: A Costa Rican government patrol penetrated to within 20 miles of the Nicaraguan frontier on 13 January but was unable to contact the rebel force which had invaded the extreme northwest section of Costa Rica late on 12 January. The invading force, part of which came by land and part by sea, is estimated to number 550 men and reportedly has heavy machine guns and mortars
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=11
+alignment_score=0.877866
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #15, segment 1)
+Text: The government is reported to have approximately 1,000 men of its Civil Guard in this sector, based at Liberia about 40 miles from the border. Costa Rica believe that rebel planes have been operating from Nicaragua, although the F-47's observed over Costa Rica on 12 January may be based in Guatemala or Honduras. Comment: The rebels appear to have lost the initiative upon which they probably depended for quick victory. They seem to have attempted to emulate the successful revolution last summer in Guatemala, where wide domestic unrest permitted a relatively few men to achieve victory. In Costa Rica, however, the rebels' psychological weapons are weakened by government jamming of their clandestine radio and by their inability to use air bases in Nicaragua without danger of detection by the Organization of American States committee now in Costa Rica. Furthermore, the Costa Rican armed forces are loyal and the people have been angered by the "invasion" of their country. The recapture by government forces of the airstrip at Villa Quesada appears to have been a serious blow to rebel plans. There is, however, an airport in the small area under rebel control near the Nicaraguan border, on which rebel planes are now reported to be based
+Token count: 206
+Recut: none
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=12
+alignment_score=0.931290
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #16, segment 1)
+Text: certain National Guard officials distrusted Guizado because of his previous association with ex-president Arnulfo Arias and would place Ricardo Arias, whom they considered their friend, in the presidency should they deem it necessary to oust the president. Ricardo Arias, a member of one of Panama's wealthiest and most influential families, has been considered friendly toward the United States. He has not distinguished himself in politics, but is reportedly a capable administrator
+Token count: 71
+Recut: none

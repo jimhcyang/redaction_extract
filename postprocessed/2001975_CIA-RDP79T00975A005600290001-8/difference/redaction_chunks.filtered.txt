@@ -1,0 +1,354 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.938528
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Situation in Laos
+Token count: 4
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 11) 3. USSR: Test vehicle, probably ICBM, launched on 2 April
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: Page 1
+- original #2 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 11
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 11
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.253202
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: 3 Apr 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #5 segment 1: nonempty_redacted_alternate_conflict
+  Text: NORTHERN LAOS GOVERNMENT KONG LE - PATHET LAO Forces
+- original #6 segment 1: noncontent_keyword
+  Text: contact KONG LE - PATHET LAO AREAS ROAD TRAIL ROUTE NUMBER STATUTE MILES
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 3 April 1961 DAILY BRIEF
+- original #7 segment 2: full_page_or_admin
+  Text: Laos: The Soviet reply on 1 April to the British proposals on Laos was designed to give the impression of making concessions to Western views, but it evaded the question of a de facto cease-fire, which the US and Britain have termed a prerequisite for the reactivation of the ICC and an international conference. Aside from accepting the British proposal for a joint appeal by the Geneva co-chairmen for a cease-fire, the Soviet note did not advance the USSR's position in any essential respect beyond that stated in its aide memoire of 18 February to the UK proposing the immediate convening of the ICC and an international conference. The Soviet proposal that the "interested parties of Laos" should open cease-fire talks provides further evidence that the bloc will seek to avoid any commitments on a formal cessation of hostilities prior to a conference. This evasive position on the timing and mechanisms of a cease fire seems intended to leave the way open for further military pressures by the Kong Le - Pathet Lao forces aimed at reinforcing the bloc's bargaining position. The warning issued by Chinese Communist Foreign Minister Chen Yi in Djakarta on 2 April that Peiping is prepared to respond to any intervention by SEATO forces in Laos by introducing Chinese troops, if requested by Souvanna Phouma, apparently was timed to generate further pressure on non-Communist governments to accept the bloc's terms for negotiations as conveyed in the Soviet note. Government forces, apparently under no effective control, are continuing their withdrawal southward from Tha Thom. These troops, with others in the area, have been ordered to set up defensive positions in the vicinity of Borikhane, about 12 miles north of Pak Sane. These are also tentative indications of Kong Le - Pathet Lao plans for increased activity in the Luang Prabang areas
+- original #7 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 1) (Map
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.272291
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: 3 Apr 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #8 segment 2: short_span_min_tokens
+  Text: Page
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: road
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.892015
+kept_candidate_count=1
+excluded_candidate_count=10
+
+Clean Chunk #3 (original #18, segment 1)
+Text: USSR: A test vehicle, probably an ICBM, was launched at 1406 GMT (0906 EST) on 2 April from the Tyura Tam Missile Test Range to the usual impact area on Kamchatka. No facilities associated with previous space launchings participated in this shot. However, the continued deployment of the Sibir ships as they were for the Sputnik X launching (25 March) and the activity of Soviet aircraft suggest a significant space program event is forthcoming in the near future. The total of generally successful test
+Token count: 84
+Recut: none
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Leopoldville
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Orientale
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: representatives
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: leadership
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: deliberate
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: formation
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: official
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: themselves
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Foreign
+- original #20 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 11
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.960236
+kept_candidate_count=1
+excluded_candidate_count=6
+
+Clean Chunk #4 (original #26, segment 1)
+Text: Salazar listened attentively and courteously but was noncommittal
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Sino-Indonesian
+- original #22 segment 1: noncontent_keyword
+  Text: Backup, Page 8
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: further
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: assistant
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: representatives
+- original #26 segment 2: noncontent_keyword
+  Text: Backup, Page 10
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: full_page_or_admin
+  Text: Laos The primary objective of the Soviet note probably was to provide minimum satisfaction to US and British views sufficient to get negotiations under way and to forestall any increase in Western military assistance to Vientiane without undertaking any commitments which would reduce the bloc's bargaining strength and freedom of maneuver. Moscow's agreement to a joint appeal by the Geneva co-chairmen for a cease-fire does not concede any basic points on the crucial issue of the timing of a cease-fire. This unyielding stand suggests that the bloc leaders are confident they can gain eventual Western agreement to negotiations under conditions favorable for advancing bloc objectives in Laos without sacrificing any of the advantages which derive from the military initiative and successes of the Kong Le - Pathet Lao forces. In line with the bloc's official pronouncements and propaganda over the past two months, the Soviet note placed primary emphasis on Britain's agreement to a 14-nation conference. Moscow claimed credit for having pressed this approach since last December and sought to reap further advantage by proposing that the conference be convened early in April in Phnom Penh. Although Moscow professed to agree with Britain's call for the "earliest termination of hostilities," the Soviet reply was deliberately evasive in dealing with the mechanism proposed by the UK for arranging a cease-fire. The note ignored the fundamental US-UK position that reactivation of the ICC and an international conference are conditional on the achievement of a de facto cease-fire. It implicitly rejected the Western position that a conference cannot be held until the effectiveness of a cease-fire is verified by both the Geneva co-chairmen and the ICC. Moscow's reply failed to spell out the authority and functions of the proposed ICC meeting in New Delhi. It said only that the commission should call a meeting as soon as possible and present its report to the co-chairmen. Moscow
+- original #27 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 3 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #28 segment 1: full_page_or_admin
+  Text: stipulated only that the renewal of ICC activity should in no way impede the convocation of a conference. This formula suggests that the bloc would seek to restrict the ICC to a fruitless debate, at least during the period before an international conference. This attitude would be consistent with the bloc's long-standing position that the changes in the Laotian situation since the 1954 Geneva conference make necessary the drafting of "fresh instructions" for the ICC and that only an international conference would have the authority to work out such directives. Moscow's concept of the role the ICC should perform prior to a conference was set forth in the commission meeting in New Delhi would discuss how to resume its activities, consider what further powers it would require to take effective action, and report to the co-chairmen. Moscow's position that cease-fire talks should be left to the "interested parties of Laos" provides further evidence that the USSR is unwilling to agree to any approach which would indicate Soviet responsibility for or control of the Kong Le - Pathet Lao forces. The Soviet note reaffirmed the USSR's recognition of Souvanna Phouma as the only "legal government" of Laos, but it agreed with the British proposal for negotiations "among the different political tendencies in Laos on measures for strengthening national unity of the country." Moscow also agreed that if the opposing factions fail to reach agreement before a conference opens, the conference itself should render help to the Laotians in reaching an agreement. The stated objective of such consultations is the formation of a "neutral government of national unity"--a further indication that the bloc will insist on substantial Pathet Lao representation in a broadened government. Chen Yi's statement in Djakarta, in addition to warning of possible Chinese intervention in Laos, sought to sharpen the sense of urgency over the crisis by pointing out that "China was compelled to participate in the Korean war after US forces went to our border." While in Burma last week en route to
+- original #28 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 3 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #29 segment 1: full_page_or_admin
+  Text: Indonesia, Chen carefully evaded a question on SEATO intervention which would have afforded a similar opportunity for making a specific threat of Chinese counteraction. Peiping is also seeking to exploit the presence of Chinese Nationalist irregulars in the Laos area to arouse concern over the possibility of Chinese intervention. Chen Yi used his Djakarta press conference to cite the alleged threat posed by these troops, and Peiping has increased its propaganda attention to this issue over the past few days. It has warned that the alleged move by the irregulars to join Laotian Government forces near Vientiane is an "extremely serious development" and has claimed for the first time that the irregulars have conducted raids into China from Laos. An article in Peiping's People's Daily on 1 April, issued before the Soviet reply to the British proposals but undoubtedly with foreknowledge of its contents, took a much harsher line toward the US, but its substantive comments were not inconsistent with the Soviet note. The article avoided direct reference to a cease-fire or reactivation of the ICC but repeated Peiping's standard position that an enlarged Geneva conference is the only way to reach a settlement. In his recent talks with British officials in London, Souvanna Phouma stated that as soon as a cease-fire is called for, he would request his followers to support it. He expected conformity from the Pathet Lao, as well as Kong Le forces--which he regards as still separate. Souvanna professed concern that a gap between a cease-fire and the re-establishment of the ICC, and an even longer delay before the convening of an international conference, might enable General Phoumi to improve his position. Outlining his idea of an interim Laotian government, Souvanna stated that it would be drawn from his "supporters with Kong Le," plus former members of his cabinet now serving with Premier Boun Oum and two or three members from both the left
+- original #29 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 3 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #30 segment 1: full_page_or_admin
+  Text: and the right. British officials felt Souvanna seemed to appreciate the desirability of limiting leftists to lesser posts. They found him overconfident on the outcome of early elections in Laos and attempted to convince him that elections should be delayed at least a year to consolidate his own position. The British told the American Embassy that they were impressed by Souvanna's attitude and that, despite the risks in dealing with him, they believe he is the only Laotian offering any promise of bringing about a political settlement and of leading a neutral Laos. Souvanna, now in Paris, plans to leave there on 12 April and to visit Belgrade, Warsaw, Moscow, and Peiping before returning to Phnom Penh. In Laos, King Savang and Phoumi returned to Luang Prabang from Vientiane on 2 April without waiting for details of the Soviet reply. Before leaving, Phoumi told Ambassador Brown that a cabinet meeting on 1 April had authorized him to appeal for SEATO intervention if the Soviet reply to the British note proved unfavorable. Although Phoumi assured Ambassador Brown he would not act without prior consultation, similar assurances of consultation by Laotian officials were ignored when Laos appealed for UN assistance in September 1959. On 31 March, the day Kong Le - Pathet Lao forces captured Tha Thom, ordered them to push the attack on the town, troops there were demoralized by heavy Pathet Lao harassment, that one battalion had already withdrawn, and that the remaining troops were weak. The withdrawal of government troops was "mass hysteria" resulting from heavy firing from overlooking heights. Since the fall of Tha Thom, there have been indications that Meo guerrillas to the north--now in a more isolated position
+- original #30 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 3 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #31 segment 1: full_page_or_admin
+  Text: have come under increasing enemy pressure. The Meos' effective harassment of Pathet Lao troops in recent weeks has made them a prime target. the time was ripe for concentrated psychological tactics, as the Laotian Army appears considerably demoralized. Operational headquarters were instructed to send persons into the villages and spread reports of impending attacks by Kong Le - Pathet Lao troops. These reports, headquarters contended, will be passed to Laotian Army intelligence units in the villages, resulting in disruption of government activity and possibly abandonment of the area. This technique has been used with considerable success in the past, and the current instructions for an intensified effort provide further indication of the enemy's intent to expand its territorial hold prior to any negotiated settlement. Laotian government officials in Luang Prabang are increasingly concerned over the prospect of an attack there. Kong Le - Pathet Lao troops as of late March were attempting to flank government forces north of the Phou Khoun junction and move toward the royal capital; additional troops were said to be heading toward Luang Prabang from the Nam Bac area. Although these reports are unconfirmed, the disquieting effect on Luang Prabang army headquarters, the present situation is critical. The enemy is spread everywhere. Several recent Soviet transport flights to Nam Bac and the scheduling on 2 April of seven IL-14s to the Phong Saly area are further possible indications of a developing threat to Luang Prabang. The flights to Phong Saly would be the first substantial airlift mission to this area. Vientiane is claiming that several battalions of North Vietnamese troops are involved in the Kam Keut - Lak Sao area
+- original #31 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 3 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=8 unred_source_page=14
+alignment_score=0.123024
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #32 segment 1: full_page_or_admin
+  Text: There is, however, no firm information on the scope of enemy activities
+- original #33 segment 1: full_page_or_admin
+  Text: central Laos. Hanoi has dismissed as an "impudent lie" Vientiane's charge that North Vietnamese troops took part in the fighting at Tha Thom. It claims that Vientiane made the accusation to cover up intervention in Laos by the US and its allies. A Soviet IL-18 and one AN-12 arrived at Haiphong on 31 March. The IL-18 has returned to the USSR. A second AN-12 was scheduled to arrive at Haiphong on 2 April
+- original #33 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 3 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=9 unred_source_page=15
+alignment_score=0.967014
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #34 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: successful
+- original #35 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Katanga
+- original #36 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reportedly
+- original #37 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: support
+- original #38 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: considers
+- original #39 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: believes
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=10 unred_source_page=16
+alignment_score=0.953654
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #40 segment 1: short_span_min_tokens
+  Text: Sino-Indonesian
+- original #41 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Overseas
+- original #42 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communist
+- original #43 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Indonesia
+- original #44 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: President
+- original #45 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Chinese-Indonesian
+- original #46 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Djakarta
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=11 unred_source_page=17
+alignment_score=0.927685
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #47 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: deliberations
+- original #48 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: diplomatic
+- original #49 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: remove
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=12 unred_source_page=18
+alignment_score=0.946415
+kept_candidate_count=1
+excluded_candidate_count=7
+
+Clean Chunk #5 (original #57, segment 1)
+Text: Ferraz reportedly broached the idea that the premier had better step aside if he could not quickly
+Token count: 17
+Recut: none
+
+Excluded candidates:
+- original #50 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Reshuffle
+- original #51 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: campaign
+- original #52 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: revolt
+- original #53 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: asserting
+- original #54 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: policy
+- original #55 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: completely
+- original #56 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: ultimatum
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=13 unred_source_page=19
+alignment_score=0.908542
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #58, segment 1)
+Text: find solutions to Portugal's pressing African problems. The chief of staff is said to have lost his nerve and withdrew the suggestion when Salazar said he was willing to resign
+Token count: 30
+Recut: none
+
+Excluded candidates:
+- original #59 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: because
+
+========================================================================
+[PAGE 20]
+kind=match red_source_page=14 unred_source_page=20
+alignment_score=0.976056
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 21]
+kind=match red_source_page=15 unred_source_page=21
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #60 segment 1: noncontent_keyword
+  Text: 3 April 1961 Copy No. 79 CENTRAL INTELLIGENCE BULLETIN

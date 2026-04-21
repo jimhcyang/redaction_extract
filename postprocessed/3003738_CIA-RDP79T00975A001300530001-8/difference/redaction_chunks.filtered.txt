@@ -1,0 +1,97 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.900000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.951346
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #3, segment 1)
+Text: 4. Soviet submarine building program expanded
+Token count: 6
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+- original #3 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 3: noncontent_keyword
+  Text: SOUTHEAST ASIA 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.984465
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 1
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.995161
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #7, segment 1)
+Text: Soviet submarine building program expanded
+Token count: 5
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin, noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #8 segment 2: full_page_or_admin
+  Text: Comment: The expansion of production indicates that the USSR has adopted the Gorki model as the principal offensive weapon in building up a modern submarine fleet. This program ends the relative inactivity in construction of new long-range submarines since the war and will add significantly to Soviet offensive capabilities. Since late 1949, 14 to 20 submarines have been built at Gorki. These four yards together could by 1956 produce an estimated minimum of 16 to 20 per year. SOUTHEAST ASIA 5
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.993690
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.990594
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION

@@ -1,0 +1,131 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.673077
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.945652
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. SYRIAN ASSISTANT CHIEF OF STAFF FEARS IMMINENT ATTACK
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. KING SAUD TO VISIT DAMASCUS
+Token count: 6
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.245512
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: SYRIAN ASSISTANT CHIEF OF STAFF FEARS IMMINENT ATTACK Syrian Assistant Chief of Staff Nafuri "fears an immediate attack from abroad." Nafuri based his fear on reported Turkish and Israeli troop concentrations, an increase of RAF strength on Cyprus, and the movements of the United States Sixth Fleet
+- original #6 segment 1: full_page_or_admin
+  Text: the eastern Mediterranean. He said he believes the United States is inciting the Israelis to attack Syria. Comment These fears are characteristic of Syrian thinking at this time. Syria seems anxious to avoid any appearance of provocation to its neighbors, and has neither mobilized nor declared a state of emergency in spite of Nafuri's professed fears
+- original #6 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 Sept 57 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 2. KING SAUD TO VISIT DAMASCUS King Saud reportedly will pay a one-day visit to Damascus after a short stay of possibly four or five days in Switzerland beginning 19 September. From Damascus he will fly directly to Riyadh. Saud is also reported to be planning a 12 October state visit to Lebanon, where he may confer with a number of Arab chiefs of state. Comment Saud has been urged by some of his advisers to visit Damascus in an attempt to mediate between Syria and the United States. Saud has indicated, however, that he deeply distrusts the present ruling clique in Syria, and his visit might be intended as a gesture of support for persons like President Quwatli, who Saud may feel still exercises a moderating influence
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 Sept 57 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.997521
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.955385
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #10, segment 1)
+Text: An unspecified plan mentioned in a recent Cairo newspaper article is the one devised by President Nasir last July. At that time Nasir reportedly said that in September he would request the International Monetary Fund to collect Egypt's $30,000,000 debt to the fund from the approximately $42,000,000 held in the United States
+Token count: 56
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.992029
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #12, segment 1)
+Text: to attend regardless of
+Token count: 4
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

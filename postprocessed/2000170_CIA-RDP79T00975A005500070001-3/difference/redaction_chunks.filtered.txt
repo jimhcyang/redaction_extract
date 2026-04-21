@@ -1,0 +1,147 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.480556
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 9 JANUARY 1961 I. THE COMMUNIST BLOC II. ASIA-AFRICA Situation in Laos Situation in the Congo. Jordan seeking financial aid from Iraq. III. THE WEST Belgian strikes gradually receding. LATE ITEM Referendum voters approve De Gaulle's Algerian policy
+Token count: 38
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=2 unred_source_page=4
+alignment_score=0.243981
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 9 January 1961 DAILY BRIEF
+- original #2 segment 2: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC II. ASIA-AFRICA Laos: The fall of Nam Bac to the Pathet Lao increases the threat to Luang Prabang, although the royal capital does not appear to be
+- original #3 segment 1: full_page_or_admin
+  Text: any immediate danger. Government troops meanwhile have secured the junction between the Vientiane - Luang Prabang road and the road running eastward toward the Plaine des Jarres. Little fighting has been reported in Xieng Khouang Province as government troops continue their withdrawal to a reassembly point south of Xieng Khouang town. In contrast to press reports alleging that the USSR had stopped its airlift to the Kong Le - Pathet Lao forces with the investiture of the Boun Oum government on 5 January, North Vietnamese communications reflected the flights of 16 of 20 scheduled aircraft for 6 and 7 January and the scheduling of six IL-14 flights from Hanoi to Vang Vieng and five to Sam Neua for 8 January. Bloc propaganda coverage of the Laotian situation continues to claim widespread victories for the Pathet Lao, while Moscow obscures the question of the Soviet airlift by asserting that the United States is unable to convince its allies that the USSR is transporting military personnel into Laos. (Page 1) (Map) Congo: The Gizenga dissidents appear to have assumed control of the governmental apparatus in Kivu Province, and continue to reinforce their military forces in the area. Arms and money which formed part of the cargo of an IL-14 from the UAR were delivered to Gizenga at Stanleyville on 6 January. There are indications that northern Katanga--largely controlled by anti-Tshombe
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=3 unred_source_page=5
+alignment_score=0.919933
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #4, segment 1)
+Text: Baluba tribesmen--may be receptive to overtures by the dissidents. In a conversation with a UN military commander, Baluba leaders recently reiterated their opposition to Tshombe, called for the return of Baluba leader Jason Sendwe from "exile" in Leopoldville, and demanded assurances that their tribal areas would remain part of a united Congo rather than of Tshombe's "independent" state. In an apparent effort to capitalize on anticolonial themes which were expressed at the recently concluded Casablanca conference of radical African states, Soviet Deputy Foreign Minister Zorin on 7 January called for a meeting of the UN Security Council as soon as possible to discuss "new acts of aggression" by Belgium against the Congo
+Token count: 113
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: Page 3
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.997877
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Page 4
+- original #7 segment 1: short_span_min_tokens
+  Text: to
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: CHINA BURMA NORTH VIETNAM LAOS THAILAND SOUTH VIETNAM CAMBODIA 9 JANUARY 1961 Selected roads STATUTE MILES 100 UNCLASSIFIED 31439
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: Situation Laos The loss of Nam Bac village to the Pathet Lao increases the threat to Luang Prabang, although the royal capital does not appear to be in any immediate danger. Control of Nam Bac will enable the Pathet Lao to proceed down the Hou River toward Luang Prabang, 55 miles south. Laotian defense officials anticipate, however, that the Pathet Lao will first move on Muong Sai, 30 miles to the west of Nam Bac, which would pose a threat to the Pathet Lao rear in any attack on Luang Prabang by way of the Hou River. The government plans to send general Ouane to Muong Sai to set up defenses there. Five government companies meanwhile have secured the junction between the Luang Prabang - Vientiane road and the road running eastward to the Plaine des Jarres. The government force apparently met no resistance; however, there are indications it is already coming under Pathet Lao harassment. In Xieng Khouang Province, little fighting has been reported in the past two days. Government troops are withdrawing southward from the Nong Het - Plaine des Jarres road. Col. Kham Kong has been assigned to command a task force whose mission is to retake the Plaine des Jarres. His headquarters will be at Pak Sane, but he plans to establish a command post at Tha Thom. Preparations for a drive against the Plaine des Jarres will take considerable time as it will be necessary to regroup the scattered government forces available for such a mission and resupply them by air. In contrast to press reports alleging that the USSR had stopped its airlift to the Kong Le - Pathet Lao forces with the investiture of the Boun Oum government on 5 January, North Vietnamese communications reflected the flights of 16 of 20 scheduled aircraft for 6 and 7 January and the scheduling of six IL-14 flights from Hanoi to Vang Vieng and five to Sam Neua for 8 January. North Vietnamese LI-2s were also scheduled for flights on the same day to Vang Vieng and Sam Neua. On 5 January Izvestia, in Moscow's first reference to the Soviet airlift, charged that US allegations the USSR was carrying
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=5 unred_source_page=9
+alignment_score=0.122218
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: military personnel from North Vietnam to Pathet Lao forces was "imperialist propaganda" and that the US was unable to convince SEATO allies of the validity of this accusation
+- original #11 segment 1: full_page_or_admin
+  Text: Phnom Penh, Souvanna Phouma does not appear disposed to accept King Savang's offer of an early audience in Luang Prabang. Although he has as yet not given a final answer, Souvanna's initial reaction was that he would not return to Laos until a coalition government was possible. He has long believed that the only solution to Laos' problems is a reconciliation between the Pathet Lao, centrist, and rightist forces. Souvanna is reported to have told one of his fellow exiles in Phnom Penh that he would not tender his formal resignation as premier, since the installation of the Boun Oum government automatically removed him from that office. Although this position is technically correct, Souvanna's failure to resign formally facilitates the bloc's maintenance of the fiction that his government remains the "lawful government of Laos," as does a statement attributed to him by the press that the Boun Oum regime was imposed by force
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 9 Jan 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=6 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=7 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=8 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 9 January 1961 Copy No. C 75

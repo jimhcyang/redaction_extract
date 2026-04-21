@@ -1,0 +1,85 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.778125
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 30
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.964607
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #3, segment 1)
+Text: Chinese Communists avoid American forces near Tachen Islands
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: FAR EAST
+- original #3 segment 2: noncontent_keyword
+  Text: page 4
+- original #4 segment 1: noncontent_keyword
+  Text: Comment on death of Alcide de Gasperi
+- original #4 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.925735
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #6, segment 1)
+Text: Chinese Communists avoid American forces near Tachen Islands: Patrolling Chinese Communist planes avoided contact with American aircraft flying cover for the naval force which visited the Tachen Islands on the morning of 19 August. Comment: This caution is in contrast to the aggressive attitude of Communist fighters in late July when American aircraft were conducting a search for survivors off Hainan Island following the shooting down of a British airliner on 23 July. Peiping has charged in recent weeks that the United States has been considering extension of the Seventh Fleet's responsibility to the defense of "certain offshore islands
+Token count: 99
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: FAR EAST
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 7. Comment on death of Alcide de Gasperi: The death of ex-premier De Gasperi will probably have little immediate effect on the policies of the Italian government, but it may later result in new efforts to dissolve the present coalition. Although De Gasperi had turned over the post of secretary general of the Christian Democratic Party to Amintore Fanfani in June, he remained the major influence for harmony between Fanfani's left-wing group and the party's center. De Gasperi was also largely responsible for the maintenance of the alliance--criticized on occasions by Fanfani--between the Christian Democrats and the three minor center parties. Fanfani is believed to favor a single-party government. Rightist elements in the Christian Democratic Party are known to desire a coalition with the Monarchists, while some elements in the party are known to favor an arrangement with the Communist-allied Nenni Socialists

@@ -1,0 +1,93 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.811526
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOVIET UNION 1. Orbit economic council reduces price of timber sold to the West (page 3). FAR EAST 2. Large influx of Chinese Communist troops into North Korea reported (page 3). SOUTHEAST ASIA 3. Viet Minh military communications increasing
+Token count: 39
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 4. Soviet embassy reportedly urges Kashani to reorganize Iranian National Front (page 4). 5. Turkish radar tracks overflights of unidentified aircraft from Bulgaria
+Token count: 23
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.245183
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin, noncontent_keyword
+  Text: SOVIET UNION
+- original #4 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: Orbit economic council reduces price of timber sold to the West: Comment: Previous reluctance by Orbit countries to lower the prices of their raw material exports
+- original #5 segment 1: full_page_or_admin
+  Text: face of declining world commodity prices has hampered their policy of promoting trade with the West. The reduction in price of one important export commodity, together with recent reports of Soviet grain and petroleum offers at reduced prices, foreshadows a greater degree of success in the Orbit's effort to fulfill increased requirements of consumer and industrial goods by an expansion of East-West trade. FAR EAST 2. Large influx of Chinese Communist troops into North Korea reported: approximately 60,000 Chinese troops entered Korea in a four-day period during September through the Manpojin port of entry on the Yalu River
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: Comment: Three Chinese Communist armies, approximately 115,000 men, have returned to China from Korea, probably just before the armistice was signed. These 60,000 troops may be part of their replacements, although technically this movement is in violation of the armistice agreement. The agreement states that only 35,000 troops can be rotated into Korea by either side on a man-for-man basis in any one calendar month. SOUTHEAST ASIA 3. Viet Minh military communications increasing: Comment: If the Viet Minh directs its primary operations against the Tonkin delta this fall, it is possible that the campaign will build up gradually from the present level of fighting without a sudden commitment to battle of large Viet Minh forces. NEAR EAST - AFRICA 4. Soviet embassy reportedly urges Kashani to reorganize Iranian National Front
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.770357
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #7, segment 1)
+Text: Comment: A reorganization of the National Front under the persuasive Kashani would appeal primarily to the ultranationalists, and could develop into a serious threat to Prime Minister Zahedi. The National Front would probably spearhead opposition to an oil settlement with Britain as well as attack many domestic policies. Kashani has never announced support of Zahedi, and he reportedly retired from political life following the new regime's assumption of power. The mullah would probably take aid from any source, although previous reports that he had accepted money from both Britain and the Soviet Union have not been confirmed. 5. Turkish radar tracks overflights of unidentified aircraft from Bulgaria: Two unidentified aircraft on 28 September and four unidentified aircraft on 2 October crossed the Bulgarian border and penetrated nearly 20 miles into Turkey. Four Turkish fighters are standing by to intercept future intruders. Comment: This report is the first available evidence of unauthorized planes flying over Turkey from Bulgaria
+Token count: 157
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.978838
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.987170
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.967619
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

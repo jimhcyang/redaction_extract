@@ -1,0 +1,85 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.610417
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.973285
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. Communist Chinese motor vehicle factory may be in production
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.982278
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 2. Communist Chinese motor vehicle factory may be in production
+Token count: 10
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: Comment: the Chinese Communists, assisted by technical advisers from the USSR, have established their first automobile factory. Reportedly located in Tientsin, this factory is said to be capable of producing jeeps, trucks, and tractors. 3. France agrees to repatriate Chinese Nationalist internees: The French Government has agreed in principle to the repatriation of the Chinese Nationalist troops interned in Indochina. The Foreign Ministry has informed the Chinese Minister in Paris that the first step would be to repatriate "sick or invalid" internees, after a check by the International Red Cross on their health and on their choice of repatriation to Formosa or the Chinese mainland. It was emphasized to the Chinese Minister that, if the repatriation process were publicized by the Taipei government, the whole plan would be dropped. Comment: France has been reluctant to repatriate to Formosa the estimated 30,000 interned Nationalist troops because of fear of provoking the Chinese Communists. The French Government, however, has been anxious to reduce the financial burden of maintaining the internees, and may be attempting to induce the Chinese to reverse their recent decision to vote in favor of raising the Tunisian issue before the United Nations. 4. French officials question potential of Vietnamese army: The American Consul in Hanoi comments that several French officials, including a ranking military officer, recently expressed doubts of the potential of the Vietnamese National Army. Among the reasons given were the shortage of officers, resentment at French control of the army, and absence of a nationalistic spirit among Vietnamese recruits
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.600570
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: a
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.990128
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.994097
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

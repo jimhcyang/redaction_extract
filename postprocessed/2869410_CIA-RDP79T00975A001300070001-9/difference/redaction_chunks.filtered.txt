@@ -1,0 +1,76 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.950000
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOVIET UNION 1. IL-28 bombers apparently leaving East Germany again
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 2. Taipei's plan to avoid evacuation of Chinese Nationalists from Burma reported
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: EASTERN EUROPE 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: SOVIET UNION 1. IL-28 bombers apparently leaving East Germany again: Comment: All IL-28 bomber and reconnaissance units were withdrawn from East Germany for unknown reasons in late June and early July. It now appears that the return of some of these aircraft was temporary and may have been an exercise in tactical redeployment from rear area bases. It may also reflect a decision to retain the IL-28's in the western USSR with former bases in East Germany serving as forward tactical airfields. SOUTHEAST ASIA 2. Taipei's plan to avoid evacuation of Chinese Nationalists from Burma reported
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.958962
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: Comment: Formosa has at no time taken the evacuation effort seriously. In view of this, little credence can be given to the assertion of the Chinese Nationalist foreign minister on 17 September that his government wanted to cooperate with Thailand and the United States in carrying out the evacuation plan even if Burma refused to sign the agreement
+Token count: 58
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.997805
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: EASTERN EUROPE 6
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

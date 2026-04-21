@@ -1,0 +1,124 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.915730
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. UN SECRETARY GENERAL COMPLAINS TO NASR OF DELAYS IN SUEZ CLEARANCE (page 4). 3. SYRIAN REPORTS OF ISRAELI MILITARY ACTIVITIES PROB- ABLY OVERDRAWN (page 5). 4. BRITAIN DELAYING NEGOTIATIONS ON JORDAN TREATY TERMINATION (page 6). 5. AFGHANISTAN MAY HALT AGITATION ON PUSHTOONISTAN ISSUE
+Token count: 44
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 7
+- original #2 segment 1: noncontent_keyword
+  Text: page 10
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: 2. UN SECRETARY GENERAL COMPLAINS TO NASR OF DELAYS IN SUEZ CLEARANCE UN secretary general Hammarskjold complained to Nasr on 30 January that reports from UN clearance chief General Wheeler showed a "continuing unsatisfactory position" and that Egyptian authorities were delaying clearance operations "to a point which will not only affect the deadline for completion of stage one (limited transit) but also prejudice the target date for stage two" (unlimited transit). Hammarskjold told Nasr that Wheeler reported that the delays were "political." Comment Nasr reportedly ordered a slowdown of clearance operations on 22 January and has also threatened to halt canal clearance operations if Israel continues to refuse to withdraw its forces from Gaza and the Gulf of Aqaba
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 3. SYRIAN REPORTS OF ISRAELI MILITARY ACTIVITIES PROBABLY OVERDRAWN Syrian military intelligence has received reports from "a number of sources" that Israel is concentrating its forces in the northern and central areas of Israel. Comment Israel is not known to be mobilizing its forces and is unlikely deliberately to provoke a major military action at this time. In view of the critical political situation in Jordan, Israel is probably maintaining a state of alert. Israel may also be anticipating a resumption of Egyptian-sponsored fedayeen activity as a result of its refusal to withdraw from Gaza and the Gulf of Aqaba. On the Syrian border, Israel has been completing its takeover of the demilitarized zone between the two countries, an action which it quietly began during the hostilities in Sinai
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 4. BRITAIN DELAYING NEGOTIATIONS ON JORDAN TREATY TERMINATION Comment on: The British are evidently trying to delay the negotiations on termination of the Anglo-Jordanian treaty on the ground that Jordan has appropriated a large quantity of British military stores. The Foreign Office is not inclined to agree to Jordan's proposal for "a 1 March joint statement announcing termination of the treaty because British officers in Jordan have now reported stores worth more than $8,000,000 missing from British facilities at Yerqua. Jordan's removal of this materiel, including artillery, vehicles, automatic weapons, small arms, and ammunition, was revealed Britain's efforts to delay termination of the treaty may spring from fear that termination would signal the beginning of a series of developments leading to the collapse of the regime in Jordan, with corresponding unsettling effects on the Middle East situation generally
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 5. AFGHANISTAN MAY HALT AGITATION ON PUSHTOONISTAN ISSUE Afghan prime minister Daud told Pakistani charge Khattak in Kabul on 5 February he was now convinced that the Pushtu leader Abdul Ghaffer Khan desires to remain a Pakistani and that the Pushtu tribes wish to remain a part of Pakistan. If Ghaffer Khan or his son were to accept an appointment from Pakistan, Daud said he would point out to those who have supported him on Pushtoonistan that such a campaign no longer had any meaning. Ambassador Mills agrees with Khattak that Daud now wants close and friendly relations with Pakistan as a counterweight to the USSR, and is seeking a face-saving formula that will enable him to drop the Pushtoonistan issue. Comment There have been several recent indications that Kabul may be undertaking a shift in its foreign policy as the result of its renewed apprehension of the USSR following the Soviet intervention in Hungary. Afghan leaders have expressed approval of the US government's proposals for the Middle East. Afghanistan will support Pakistan in the UN on the Kashmir question, despite the support it has received from India on Pushtoonistan in the past
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.992154
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Comment on
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: slowdowns
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.998171
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

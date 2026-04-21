@@ -1,0 +1,110 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.797619
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.913012
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #2, segment 1)
+Text: Egyptian request for French military aid indicated
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: GENERAL
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: THE FORMOSA STRAITS
+- original #3 segment 2: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.998661
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: GENERAL
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.995200
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #5, segment 1)
+Text: 5. Egyptian request for French military aid indicated
+Token count: 8
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.941052
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #6, segment 1)
+Text: Comment: This is the first indication that Egypt is expecting "military supplies" from France. France professes to favor the "northern tier" approach to Middle East defense, but actively opposed the conclusion of the Turkish-Iraqi treaty, an agreement also opposed by Egypt. Military aid to Egypt could have the double effect of lessening anti-French propaganda in North Africa and of indirectly shoring up Arab opposition to the Turkish-Iraqi pact
+Token count: 68
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.984375
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens
+  Text: during
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.243902
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: THE FORMOSA STRAITS Report of the IAC Current Intelligence Group for the Formosa Straits Problem This report is based on information received
+- original #9 segment 1: full_page_or_admin
+  Text: Washington up to 1100 hours 23 March 1955. 1. The only Chinese Communist military activity reported during the period consisted of scattered artillery firing against Quemoy Island. 2. Analysis of photographs of Nanchang New airfield taken on 17 March confirms that YAK-11 or YAK-18 (single piston-engine trainers) aircraft are being assembled there. Fabricated parts storage areas, assembly and fitting-out hangars, three large shops, and two assembly lines were reported. A few facilities for assembly of Soviet-designed light aircraft have been known to exist in Communist China, relying almost exclusively on Soviet-built major components. The Chinese Communists are not considered capable of designing and building modern combat aircraft. 3. MIG-17's have reportedly again been observed in the Shanghai area. Due to the great similarity in conformation between the MIG-15 and MIG-17, any identification based on observation alone must be treated with some reserve. However, 21 MIG-17's were positively identified at Chiahsing airfield, 50 NM southwest of Shanghai, late in January. Addition of significant numbers of MIG-17's to the Chinese Communist Air Force would enhance its air defense capability. The MIG-17 is currently considered capable of a maximum speed of 570 knots at 35,000 feet. Its service ceiling is estimated at 58,800 feet, and combat radius at 190 NM (460 NM with external fuel). 4. Chinese Communist pilots may be flying Soviet IL-28 jet bombers in the Port Arthur area. At least some of the Soviet aircraft now located there may be left behind for the Chinese Communists when Soviet Forces withdraw from the area, as they are scheduled to do by 31 May
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: SOUTH CHINA COAST (incl. FORMOSA) 23 March 1955 Nationalist-held Islands Available Airfield (jet) Available Airfield (conventional) Airfield Site Statute Miles Kilometers Rail (selected) Road (selected

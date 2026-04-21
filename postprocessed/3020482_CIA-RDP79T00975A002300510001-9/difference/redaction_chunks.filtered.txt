@@ -1,0 +1,119 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.504167
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.811128
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. SOURCES OF POUJADE'S BACKING
+Token count: 5
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.974436
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 2. SOURCES OF POUJADE'S BACKING The Poujade antitax movement, which gained 52 seats in the French assembly in the election on 2 January, is directed and supported by rightist military and ex-Vichy elements in France and in North Africa. Poujade has financial support from a known World War II collaborator with the Nazis. Poujade has also received financial aid from the French settlers in North Africa. The settlers' link to Poujade will greatly increase the new government's difficulty in finding a solution to the Algerian problem and might result in violence in both Metropolitan France and North Africa. Comment Some of the movement's leaders have made strong anti-American statements because of France's loss of influence and control in North Africa. French settlers are bitterly opposed to Mendes-France. The press reported violent Poujadist action against a Radical Socialist Congress in Algeria on 11 January. A newly elected Mendes-France supporter from Paris had to seek police protection. Semi-fascists, ultranationalists, and colonial extremists were held in check in the Gaullist Rally, but their influence may have freer rein in the Poujadist movement
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.970940
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.818729
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #6, segment 1)
+Text: George Papandreou, anti-Communist chief of the Liberal Party, had "virtually decided" by 12 January to co-operate with EDA as the only alternative to political extinction. The Liberal leader reportedly believes center parties no longer have vote-getting appeal and that no one of them will be able to poll the 15 percent of the total vote required to win a parliamentary seat. The leaders of the other established center parties, this source reported, share Papandreou's views
+Token count: 75
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.905041
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #3 (original #9, segment 1)
+Text: Egypt intends to establish a torpedo boat force at Sharm el Sheikh, the Egyptian headquarters at the mouth of the gulf. The new force apparently will arrive under escort of a frigate detailed to relieve the patrol craft now on guard duty there
+Token count: 43
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens
+  Text: Press
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: The Soviet merchant vessel Krasnodar, which had given a false destination as it passed Istanbul, arrived at Alexandria on 11 January with a deck cargo of large wooden crates. This makes five Soviet freighters which have delivered arms from Soviet Black Sea ports to Egypt since the beginning of the year and a total of 12 arms cargoes which have been carried to Egypt by Soviet freighters since deliveries began on 22 October. Cargo unloaded by the five ships arriving since 1 January has reportedly included fighter and bomber aircraft with spare parts, heavy and light tanks, heavy and light guns, rifles and bayonets, clothing, and other supplies. One of the vessels, the General Chernakovsky, also reportedly discharged six LCM-type landing craft, each 50 to 60 feet long, which had been carried as deck cargo
+
+========================================================================
+[PAGE 10]
+kind=red_only red_source_page=9 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

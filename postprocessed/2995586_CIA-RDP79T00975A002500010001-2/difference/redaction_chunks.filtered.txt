@@ -1,0 +1,173 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.955000
+kept_candidate_count=1
+excluded_candidate_count=8
+
+Clean Chunk #1 (original #6, segment 2)
+Text: 7. SUBMARINE CONSTRUCTION REPORTED IN SHANGHAI (page 9). 8. YEMEN NEGOTIATING FOR SOVIET ARMS
+Token count: 14
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #4 segment 1: noncontent_keyword
+  Text: page 6
+- original #5 segment 1: noncontent_keyword
+  Text: page 7
+- original #6 segment 1: noncontent_keyword
+  Text: page 8
+- original #6 segment 3: noncontent_keyword
+  Text: page 10
+- original #7 segment 1: noncontent_keyword
+  Text: page 11
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.996094
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.988359
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: according
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.991187
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Officials
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: 7. SUBMARINE CONSTRUCTION REPORTED IN SHANGHAI Reported to have seen "Russian coastal-type" submarine hulls being built at the Kiangnan dockyards in Shanghai. The was told that electronic equipment and engines came from the USSR. Soviet technical advisers accompanied its tour of the Kiangnan yard, which was reported as a "beehive of activity." Comment This is the first report that submarines are actually being built at Shanghai. How- ever, the presence of substantial numbers of Soviet naval technicians there since January 1955, and submarine experts at Kiangnan since at least April. Soviet technicians have also reportedly been observed at nearby Moller's shipyard, where a de- stroyer or frigate-type ship apparently is being constructed. Large numbers of workers are engaged in expanding facili- ties at Moller's. (Concurred in by ORR
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 24 Mar 56 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.244145
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: 8. YEMEN NEGOTIATING FOR SOVIET ARMS Soviet repre- sentatives had asked for a detailed state- ment on Yemen's arms request. They wished to know what percentage of the cost Yemen would pay. The USSR would consider the balance as "aid without any obligation" and had given assurances there would be "no trouble" about barter arrangements, which the minister suggested might include coffee. The Soviet representatives said delivery of the arms would be completed two months after conclusion of an agree- ment. Yemen's arms list should include 100,000 hand grenades, 2,000 revolvers, 20,000 rifles, 200 small and 500 to
+- original #13 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: 000 large machine guns, 100 antiaircraft guns, 500 self-propelled cannon, 24 cannon for shore batteries, 100 armored cars, 200 armored troop car- riers, and 10 airplanes, plus spare parts "for everything" and the required experts "to be defined by us." Comment Yemen approached the USSR for arms as early as mid-1953. Contacts were re- newed after the announcement of the Egyptian-Soviet bloc deal last September, and a Soviet "economic mission" visited Yemen
+- original #14 segment 1: full_page_or_admin
+  Text: January. The list of equipment seems far beyond what Yemen could absorb, may be intended as a basis for bargaining. The imam's immediate objective in obtaining arms is probably to increase pressure on the British protectorate of Aden with which Yemen has had long-standing border disputes. (Concurred in by ORR
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 24 Mar 56 Current Intelligence Bulletin Page 10
+
+========================================================================
+[PAGE 12]
+kind=red_only red_source_page=10 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=red_only red_source_page=10 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.911523
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #15, segment 1)
+Text: Recent reports indicate that Israel is concentrating large armored and infantry forces around Beer- sheba, headquarters of the Southern Command which controls the front against Egypt. On 20 March, a heavy southward movement of military and requisitioned civilian vehicles was observed north and south of Beersheba, transporting POL cargo and personnel. Other reports suggest the Israeli forces in the El Auja area on the Egyptian frontier have again been increased to include infantry, armor and artillery, possibly including 155-mm. Complete mobilization of Israeli first-line units will be accom- plished by a "creeping process" by 31 March. The unusual activity of forces in the Southern Command could indicate prep- arations for large-scale maneuvers or preparations for support of operations on the Egyptian frontier. Meanwhile further reinforcement of Egyp- tian forces on the Israeli frontier, including dispatch of an armored squadron from Cairo to El Arish, is revealed by Egyp- tian military messages
+Token count: 151
+Recut: none
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.980599
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #16, segment 1)
+Text: Israel is trying with Nicaraguan help to ob- tain 58 tanks from Canada. Nicaragua, according to the arrange- ment, would be the ostensible purchaser and transshipper to Israel and would receive four to eight tanks for its part in the transaction
+Token count: 41
+Recut: none

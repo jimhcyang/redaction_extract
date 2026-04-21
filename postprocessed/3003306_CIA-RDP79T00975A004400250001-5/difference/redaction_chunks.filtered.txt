@@ -1,0 +1,236 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122885
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 11 APRIL 1959 I. THE COMMUNIST BLOC Ambassador Thompson comments on Soviet policy as foreign ministers’ conference approaches. II. ASIA-AFRICA British concerned over reports that Iraq preparing to take military action against Kuwait about 15 April. More military supplies sent from Egypt to Syria, probably for guerrilla operations against Iraq. UAR furnishing additional military equipment to Libya. Pakistani Air Force shoots down Indian aircraft over Pakistani territory. III. THE WEST US Embassy
+- original #2 segment 1: full_page_or_admin
+  Text: Bonn comments on Adenauer's decision to relinquish chancellorship. Czech ship seized this week by French Navy was carrying arms to Indonesia and Morocco. Uruguay considers breaking diplomatic relations with USSR
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.909598
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 2)
+Text: II. ASIA-AFRICA Iraq-Kuwait: Owing to the importance of Kuwait they are obliged to "take seriously" reports, admittedly of the "rumor variety" that Iraq intends to take over Kuwait by military action about 15 April. The British military position in the area is "woefully weak," and that unless there were sufficient advance warning to enable British forces to be flown to the area, they would be unable to counter such an Iraqi move. While the bulk of Iraq's forces are in the north and central portions of the country, and there has been no indication of a deployment preparatory to a move against Kuwait, the Iraqi forces near Basra probably could undertake this operation alone. Additional Iraqi forces presumably would be moved into the area, however, in anticipation of British countermove
+Token count: 130
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: Page 1
+- original #3 segment 3: noncontent_keyword
+  Text: Page 3) (Map
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.895604
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #4, segment 1)
+Text: UAR-Iraq: An additional UAR shipment of 1,750 rifles, 3,000,000 rounds of ammunition, and a quantity of explosives was scheduled to be sent from Egypt to Syria on 9 April. These munitions, like a shipment of 3,000,000 rounds of small-arms ammunition last week, are probably destined for use in guerrilla operations against Iraq. Iraqi security forces were instructed on 7 April to strengthen protection of the northern Iraq oil pipelines against saboteurs who allegedly had infiltrated from Syria. (Page 5) UAR- Libya: The trend toward closer relations between the two countries has continued with a UAR agreement in late March to furnish additional military equipment, including three Sherman tanks and a few mortars and antiaircraft guns. Egyptian military instructors are to go to Libya to train Libyan personnel in the use of these arms. At the end of February, the UAR presented Libya with two training planes and a small quantity of light arms
+Token count: 158
+Recut: none
+
+Clean Chunk #3 (original #5, segment 2)
+Text: III. THE WEST West Germany: American officials in Bonn feel it is an open question how great Adenauer's influence will be after he leaves the chancellorship, despite statements by Christian
+Token count: 30
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: Page 6
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.832396
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #6, segment 1)
+Text: Democratic party (CDU) leaders that he will continue to dominate policy from the presidency. CDU Deputy Chairman Krone has ruled out any attempts to change the constitution in a "De Gaulle-like fashion." The embassy also believes that external developments may have influenced Adenauer's final decision. The Foreign Ministry has announced that Adenauer will meet the French premier in Bonn on 6 May, and hinted that he may visit London and the United States. (Page 7) Bloc-France-Morocco: The Czech freighter Lidice seized by the French off Casablanca on 7 April and taken to Oran was carrying Czech military aircraft equipment for Indonesia as part of its cargo. The seizure stemmed from the French belief that the arms cargo was for the Algerian rebels. The vessel also carried some military materiel purchased by Rabat for its own military defense forces. The French seizure has further strained French-Moroccan relations
+Token count: 146
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Page 9
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.994217
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: challenging
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.247473
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: IRAQ Basra area - 15th Inf Brigade & transport company (3000) 7th Field Artillery Regt (600) Nasiriya - 14th Inf Brigade (3000) KUWAIT Frontier force Security force Police Oil company guards 600 Secret police UK BAHREIN 1 inf Bn 1 Armored Car Co ADEN
+- original #10 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: Inf Bn 1 Armored Car Bn (minus company at Bahrein) NAVAL 3 Frigates
+- original #11 segment 1: full_page_or_admin
+  Text: Persian Gulf AIR 18 Venom jet fighters at Aden
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Plans For Iraqi Military Occupation of Kuwait Rumored British Foreign Office officials are "taking seriously" rumors that Iraq intends to occupy Kuwait by military action in mid-April, according to the American ambassador to Saudi Arabia who is consulting with British officials in London. The British reportedly feel that the Iraqis might consider that any move to nationalize the Iraq Petroleum Company should be accompanied by seizure of Kuwait, the largest Middle Eastern producer, in order to gain a strong bargaining position with consumer nations. British officials state that their military position in the area is very weak with only one infantry battalion and an armored car company (about 800-900 men) based on Bahrein. Three more infantry battalions and an armored car battalion are based at Aden, and an infantry brigade is located in Kenya. Facilities for rapid movement of troops from these points to Kuwait by air are very limited at present. Britain has a military defense treaty with Kuwait, but no British troops are stationed there. Members of Kuwait's ruling Subah family have shown increasing awareness of their total dependence on British military protection, as a result of developments in Iraq and recent manifestations of Kuwaiti nationalist hostility to Subah rule. The British military adviser's relations with the Kuwaitis have improved markedly in recent weeks, and he has been given the additional title of "liaison officer with British forces
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 11 Apr 59 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: The principal element of Kuwait's armed forces is the Frontier Force of 900-1,000 men organized into six infantry companies, one armored car company, one field artillery battery, an armored personnel company, and a support company. The 1,500-man security force and the 1,000-man police force are equipped only with rifles. There has been no indication of a deployment of Iraqi forces preparatory to a move against Kuwait. Iraqi forces in the Basra area consist of an infantry brigade and a field artillery battalion. These forces are capable of occupying Kuwait. Another infantry brigade is stationed at Nasiriya, about 100 miles northeast of Basra, while the 2nd Division headquarters is farther north at Diwaniya. The main Iraqi troop concentration of three divisions, including most of the armor, is in central Iraq, while the 1st Division is in the north. The northern forces have been increasingly occupied with growing tension on the Syrian-Iraqi border. All divisional security units and most Iraqi tank units were alerted on 4 April, presumably because of indications that UAR-supported tribesmen will step up their forays into Iraqi territory and persistent rumors of impending internal disturbances
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 11 Apr 59 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: UAR- Iraqi Tensions The UAR is making further propaganda efforts to promote an internal uprising in Iraq, and is sending large additional quantities of arms to equip the Shammar tribesmen on the Syrian side of the Iraqi border. On 9 April the UAR's "Voice of Free Iraq" broadcast slogans for "a great revolution" which "will be unleashed tomorrow" by "our struggling peoples and our valiant army... against the hated Communists and the despised sole leader." This follows a barrage of unfounded UAR claims that major uprisings and army mutinies were already taking place. While it is doubtful that the UAR now has the capability to induce revolution inside Iraq, there is some possibility of disturbances in connection with a rally of the Communist-front Peace Partisans, scheduled for 14 April in Baghdad. More intensive raids into Iraq by Shammar tribesmen are to be expected. Since 2 April, 1,750 rifles, 6,000,000 rounds of ammunition, and a quantity of explosives have been dispatched from Egypt for use by the Shammar and that additional shipments may be forthcoming. The Iraqi Government, believing that Syrian saboteurs have already infiltrated, on 7 April ordered a series of new police and army patrolling activities to protect the oil pipelines in northern Iraq. On 9 April, the Iraqi press headlined the creation of five new economic ministries and the abolition of the Ministry of Development. The new ministers have not yet been identified. Reports of this impending change indicated, however, that its purpose is to increase the proportion of Communist ministers in the cabinet. The assignment to the post of Iraqi ambassador in Iran of Minister of Guidance Husayn Jamil, who was actually displaced from control of his ministry several weeks ago, leaves governmental supervision of press and radio completely in pro-Communist hands
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 11 Apr 59 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=0.996047
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Pakistanis
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: III. THE WEST Adenauer's Future Influence on Policy Seen as Uncertain American Embassy officials in Bonn feel that it is still an open question how great Adenauer's influence on policy will be after he leaves the chancellorship. Christian Democratic Union (CDU) Deputy Chairman Heinrich Krone informed American officials that the whole point of Adenauer's move was to exert long-range political influence and remain a ruling force in West German politics. He said, however, there was no question of altering the constitution in a "De Gaulle-like fashion." Krone also flatly denied that foreign policy questions were involved in Adenauer's decision and declared the chancellor's policies would be continued "as far as humanly possible." He explained that "for some time" Adenauer's close associates had been "urging" him to reconsider his decision against moving into the presidency, and after discussing the matter for a week with them he decided to accept on 6 April, the day before the CDU committee meeting. American officials, however, feel that Adenauer was influenced by recent foreign policy developments. They cite as possible motives his impression that the trend of Western policy was against certain of his basic positions following Macmillan's trip to Moscow and the increasing German press attacks on him as the only obstacle to East-West negotiations. Secretary Dulles’ illness and Adenauer's assessment of Bonn's differences with other NATO countries on a phased unification plan are mentioned as other possible contributing factors. A Bonn Foreign Ministry official credited Khrushchev's threat to Berlin as having secured Adenauer's "abdication." He believes that Adenauer's influence will not be brought to bear in a possible summit conference, and mentioned that
+- original #16 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 11 Apr 59 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=10 unred_source_page=15
+alignment_score=0.125275
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #17, segment 1)
+Text: important German political circles were advocating a "new flexibility
+Token count: 9
+Recut: none
+
+Clean Chunk #6 (original #18, segment 1)
+Text: Bonn foreign policy. Most press speculation on a new chancellor agrees that Economics Minister Erhard would be the party's choice, although
+Token count: 21
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #18 segment 2: noncontent_keyword
+  Text: 11 Apr 59 CENTRAL INTELLIGENCE BULLETIN Page 8
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=11 unred_source_page=16
+alignment_score=0.956793
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #19, segment 1)
+Text: relations with the USSR. Councilor Nardone had introduced the proposal and had accused the country's Communists of fomenting a strike to gain a political advantage. Another councilor, he said, called attention to the recent expulsions of Soviet diplomats from Argentina and Mexico and suggested that the council reconsider the question of Uruguay's own
+Token count: 53
+Recut: none
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=12 unred_source_page=17
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=13 unred_source_page=18
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN

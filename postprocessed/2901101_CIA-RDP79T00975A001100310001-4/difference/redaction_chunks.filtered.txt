@@ -1,0 +1,86 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.926923
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: SOUTHEAST ASIA 4. 3.3(h)(2) NEAR EAST - AFRICA 5. 3.3(h)(2) EASTERN EUROPE 6. Religious orders to be abolished in Czechoslovakia
+Token count: 25
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 3)
+Text: LATIN AMERICA 7. Deposed Cuban president plans early revolt
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+- original #2 segment 4: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.131429
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: SOUTHEAST ASIA 4. 3.3(h
+- original #4 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA 5. 3.3(h)(2
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: EASTERN EUROPE 6. Religious orders to be abolished in Czechoslovakia: all orders of monks and nuns in monasteries, hospitals, and other charitable institutions will be officially abolished in the near future. The disbanding of religious groups is to be conducted by "persuasive" means and members of the orders will be encouraged to enter civilian pursuits. Comment: The effort to recruit monks and nuns for work abroad as collaborators illustrates the scope of State Security Police activities outside Czechoslovakia. The Security Police have compiled lists of all aliens residing in Czechoslovakia, particularly Americans, and indicated that certain of these were being considered for collaboration work abroad
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: LATIN AMERICA 7. Deposed Cuban president plans early revolt: Comment: Ever since his ouster in March 1952, Prio has been planning a return to power. He reportedly has spent considerable sums acquiring war materiel, built up his forces in Cuba and abroad, and directed operations from Mexico City and Miami. Present plans reportedly call for an armed revolt by conspiratorial groups within Cuba who will then be joined by invasion forces, containing Caribbean Legion elements, from Mexico and Guatemala. Such a counterrevolutionary effort probably could not take place without Batista's knowledge and would lead only to bloodshed and failure

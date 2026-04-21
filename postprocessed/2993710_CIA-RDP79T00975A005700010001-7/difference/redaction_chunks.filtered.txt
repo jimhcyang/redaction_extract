@@ -1,0 +1,200 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.696429
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.940789
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 4. France: JAEIC statement on fourth French nuclear test. (Page iii) 5. UAR: Cairo orders diplomatic missions in Latin America to promote anti-NATO line. (Page iv
+Token count: 26
+Recut: none
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 2. Laos. (Page ii
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.995263
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: Backup, Page 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.140179
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: 26 Apr 61 CENTRAL INTELLIGENCE BULLETIN Map
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: Laos: Souvanna Phouma has acted quickly to seize the initiative following the cease-fire appeal by the Geneva cochairmen. In a joint statement with Chou En-lai on 25 April, Souvanna--speaking as the "Premier of the Royal Government of Laos"--agreed on the formal establishment of full diplomatic relations between Laos and Communist China, and on the future signing of economic and cultural agreements. Souvanna, emphasizing the need for Laotian representation at the forthcoming international conference, has also invited representatives of the Pathet Lao and the Savannakhet group to meet at "Xieng Khouang on 28 April" to enlarge the government and transform it into a provisional coalition government." Souvanna's pre-emptory statement, broadcast by the Pathet Lao radio, implies that the "Laotian Government" will be enlarged irrespective of Vientiane's stand. The statement expresses Souvanna's support for the message of the Geneva cochairmen calling on interested parties in Laos to appoint delegations to enter negotiations and discussions for a cease-fire and armistice, but does not specify timing. Pathet Lao chief Souphannouvong on 25 April announced that cease-fire orders to Pathet Lao troops will be issued, but also did not specify any timing. However, shortly afterward, Peiping broadcast a statement issued by Kong Le, as "commander in chief of the Laotian armed forces," which called on Phoumi to send a delegation on 28 April to Xieng Khouang to discuss "rules governing a cease-fire and armistice." Peiping followed this immediately with a Pathet Lao statement expressing readiness to send a delegation "at any time" to participate in a cease-fire conference "of all parties concerned in Laos." Vientiane on 25 April declared its acceptance of the cease-fire appeal, and transmitted orally through the British its suggestion to hold military talks at Luang Prabang. Enemy forces have apparently edged closer to Thakhek; on 25 April, government positions about 15 miles east of the town were under artillery fire. North of Phou Khoun junction, on Route 13, enemy attacks continue but reportedly are still being repulsed. North of Luang Prabang, the post of Muong
+- original #5 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 26 Apr 61 DAILY BRIEF
+- original #5 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.328947
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.935216
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #6, segment 1)
+Text: Sai has come under direct fire for the first time, and the town has been burned. Government troops, however, still held the town on 25 April. Scheduled Soviet airlift operations for 25 April reflected undiminished operations for that day, but only two Soviet LI-2s have been scheduled for flight into Laos on 26 April. Weather is apparently not a factor
+Token count: 60
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #7, segment 1)
+Text: France: The Joint Atomic Energy Intelligence Committee (JAEIC) issued the following statement on 25 April 1961 (1430 EST): One acoustic station of the Atomic Energy Detection System (AEDS) has reported a valid signal which may have been associated with the French nuclear test at 26.5N, 00.1W (assumed) on 25 April 1961 about 0500Z. Other acoustic stations farther from the site have experienced background noise levels
+Token count: 67
+Recut: none
+
+Excluded candidates:
+- original #6 segment 2: noncontent_keyword
+  Text: Backup, Page 3
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.900000
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #8, segment 1)
+Text: which should have made the signal from a French test "barely detectable." It is possible that analysis of the actual recordings when available to the AEDS Headquarters will reveal other valid signals than the one reported above. Other components of the AEDS have not reported significant data as of this date. Based on analysis of the single acoustic record it is not possible to estimate yield at this time. Conclusion: While the characteristics of the acoustic record appear to be those of a valid acoustic signal from a nuclear explosion of low yield, confirmation of this fact must await the results UAR: Cairo has ordered diplomatic missions in Latin America to promote the line that NATO "has become an aggressive pact against the freedom of peoples." UAR diplomats to be careful to emphasize that "the imperialist nations in NATO" were directing the pact toward a policy of which some of the NATO members were unaware, and alleged that NATO was linked with the policies of the Zionists in Palestine, France in Algeria, Belgium in the Congo, Portugal in Angola, and the United States in Cuba
+Token count: 185
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #8 segment 2: noncontent_keyword
+  Text: Backup, Page 4
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.987838
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: Backup, Page 5
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.920930
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: Situation in Laos Besides obtaining Souvanna's agreement to exchange ambassadors, the Chinese Communists have moved to increase their presence in Laos with an agreement to build a road for the Laotians. The location of this road was not spelled out in the joint statement, but the Chinese may be planning a link between northern Laos and the Chinese border across North Vietnam. There is a report that in February and early March Chinese laborers were working on a section of road between the Chinese border and Lai Chau in North Vietnam. In his statement with the Chinese, Souvanna also joined in demanding the withdrawal of Chinese Nationalist irregulars "running riot" in Laos. Peiping insists that Taipei's recent effort to withdraw Nationalist irregulars was only a "sham," and the Communists may attempt to inject this issue into the 14-nation conference on Laos. Claiming "our troops and people are in the position of a victor," Souphannouvong on 25 April demanded that the US stop its military aid to the Vientiane government. Souphannouvong proposed that Souvanna Phouma convene a meeting of opposing Laotian groups to "decide on a cease-fire" . . . and to discuss important related questions. General Phoumi's principal reason for rejecting western advice to have Vientiane's statement specify the precise time when the cease-fire should be considered effective is that he did not wish to have the government appear to be "begging" for a cease-fire. He says he would consider issuing a second statement containing such specifics after the Pathet Lao publicly accepted the cease-fire in principle
+- original #10 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 26 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=12 unred_source_page=14
+alignment_score=0.122075
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: UAR Encourages Anti-NATO Sentiment
+- original #12 segment 1: full_page_or_admin
+  Text: Latin America During the past two to three years the UAR missions in most Latin American countries have been increasingly active. The UAR's deputy foreign minister made an extensive tour of the area last year, and exchanges of other high-level visits have occurred. UAR diplomats have paid particular attention to the large Arab colonies in Brazil and Argentina, and Cairo appears to be assigning some of its most trusted men to Latin American capitals. President Nasir will probably visit the area this fall. Charges from Cairo, and from Nasir himself, that NATO is at least an indirect instrument of "imperialist oppression" are not new. UAR propaganda has repeatedly claimed that NATO--and particularly American support of the organization--has made available the arms and men for the suppression of the Algerian rebels and the Lumumbists in the Congo. The Cuban situation has touched off one of Cairo's most vituperative anti-American campaigns, although public demonstrations have not been allowed to reach the pitch attained during the Congo crisis last February. The American Embassy in Cairo recently commented that the UAR's interest in Cuba is probably based on the Nasir regime's genuine belief that Castro is fighting for political and economic freedom, which the UAR tends to equate with the "right" to accept aid from "any source"--i.e., the bloc
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 26 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=13 unred_source_page=15
+alignment_score=0.996587
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Donato
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=14 unred_source_page=16
+alignment_score=0.976056
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=15 unred_source_page=17
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

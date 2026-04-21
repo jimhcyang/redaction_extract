@@ -1,0 +1,74 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.905556
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.949943
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Chinese Nationalist Government proposes establishment of a mobilization board
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.885795
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #2, segment 1)
+Text: FAR EAST 1. Chinese Nationalist Government proposes establishment of a mobilization board: A proposal recommending the establishment of an economic mobilization board directly responsible to Chiang Kai-shek was presented to the Chinese Nationalist cabinet in early September. The board would bring all economic affairs under the direct control of one agency. Premier Chen Cheng is reported opposed to this further centralizing of power and has delayed action on the proposal. As a result, a compromise plan, placing the board under the cabinet, but still subject to independent directives from the president, is now under consideration. Comment: Chiang Kai-shek is faced with the conflicting problems of meeting the ever-increasing expenses of the secret services, considered by him essential for the continuance in power of the Nationalist regime, and the demands of the US for economy in administration. Chiang's proposal appears to be designed to provide him with easier access to government funds. Premier Chen Cheng, according to recent reports, is of the opinion that the last hope of the Nationalist regime lies in all-out cooperation with the US
+Token count: 177
+Recut: none
+
+Clean Chunk #3 (original #3, segment 1)
+Text: Li Mi, Nationalist "Governor" of Yunnan, whose forces, currently located to the east of the Salween, have caused the Burmese Government so much concern
+Token count: 24
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.797830
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: NEAR EAST
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.990135
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: indecisive
+- original #6 segment 1: short_span_min_tokens
+  Text: in
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.992917
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

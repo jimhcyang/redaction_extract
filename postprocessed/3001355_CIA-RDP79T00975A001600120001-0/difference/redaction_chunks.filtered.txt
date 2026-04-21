@@ -1,0 +1,91 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.948750
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOUTHEAST ASIA 4. Viet Minh attempting to hamper French deployment while preparing major campaign (page 4). 5. Burma not interested in nonaggression pact with Peiping at this time (page 5). 6. Showdown impending between Indonesian defense minister and opponents
+Token count: 39
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.996667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.986035
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #3, segment 1)
+Text: SOUTHEAST ASIA 4. Viet Minh attempting to hamper French deployment while preparing major campaign
+Token count: 14
+Recut: none
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charg
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: the Viet Minh, through its delta activities, is trying to interfere with the effective redeployment of French forces. At the same time, it is redeploying its own forces and attempting to organize all regions for large-scale future operations. 5. Burma not interested in nonaggression pact with Peiping at this time: As a result of future international developments, Burma might have to think of some method to prevent aggression, not only from Peiping, but also from others. A nonaggression pact would be one such method. the attempted appeasement of the Communists merely led to further demands and often to aggressive action
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.920235
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: 6. Showdown impending between Indonesian defense minister and opponents: The question of influential anti-Iwa personnel remaining in the armed forces will ultimately have to be solved by President Sukarno and a parliamentary debate of the subject may well force his hand. Heretofore, the president has invariably supported Iwa
+Token count: 48
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.992964
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: elections
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.995874
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

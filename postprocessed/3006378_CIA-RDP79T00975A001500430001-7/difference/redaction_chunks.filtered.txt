@@ -1,0 +1,87 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.345593
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: 3-5(C
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.919000
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 2. 3. Viet Minh receives guidance from Moscow on Geneva role
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 5. SOUTHEAST ASIA 6. Navarre sending force to aid Dien Bien Phu
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.995405
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.894022
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 3. Viet Minh receives guidance from Moscow on Geneva role: Comment: This is further evidence that the Viet Minh expects to be represented at Geneva, and that the Communists intend to emphasize the "democratic and progressive" nature of the Ho government. The suggestion that military and economic experts be added implies that Moscow expects negotiations at Geneva which would require detailed technical assistance
+Token count: 63
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.992544
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.121986
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: SOUTHEAST ASIA 6. Navarre sending force to aid Dien Bien Phu: General Navarre outlined the following plan for a revised and expanded "Operation Condor" (see map, p. 7) to aid Dien Bien Phu: Two groups--one consisting of two battalions flown from central Laos to the airfield at Nam Bac, the other of at least three battalions from the diversionary force operating near Sop Nao--will link up near Muong Heup. This force will then proceed to the region of Muong Nha to join an airborne group which will have been parachuted there. The entire force of about eight battalions will then move quickly toward Dien Bien Phu, approximately 14 miles to the north. Navarre pointed out that five days' notice was required before the parachuting of the airborne group. Comment: Any success achieved by this operation will depend on the speed with which it is executed and the ability of the French to provide it with adequate supplies by air. The approach of the column may draw off some of the 28-odd battalions the Viet Minh is employing
+- original #6 segment 1: full_page_or_admin
+  Text: the siege of Dien Bien Phu, and thereby relieve the pressure on the fortress. It is, however, extremely unlikely that the column will be able to break through the enemy forces and link up with the garrison. On 26 April Navarre rejected a plan by the French commander in Laos for dropping paratroops on an enemy supply line to Dien Bien Phu. On the same day, he disapproved a recommendation by General Cogny that a ground attack be launched against a Viet Minh supply base north of the delta
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #7, segment 1)
+Text: OPERATION CONDOR VIETNAM 28 V.M. Bns. 14 Fr. Bns. Dien Bien Phu Total Forces 6 Fr. Bns. Muong Nha 3 Fr. Para Bns. Sop Nao H. Den Muong Heup LAOS Nam Ou Muong Ngoi Nam Bac 2 Fr. Bns. MILES 0 5 10 15 20
+Token count: 46
+Recut: none

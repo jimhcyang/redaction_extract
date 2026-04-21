@@ -1,0 +1,217 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.624148
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.861013
+kept_candidate_count=3
+excluded_candidate_count=10
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 1. INDICATIONS OF SOVIET PROBABLE ICBM LAUNCHING
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 3. CALL-UP OF EGYPTIAN RESERVES REPORTED (page 6). 4. SYRIAN AMBASSADOR SEES FIRMER SOVIET LINE TOWARD WEST
+Token count: 17
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 2)
+Text: 6. SOVIET POLICY ON PRODUCTION OF MODERN WEAPONS
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 3: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+- original #4 segment 3: noncontent_keyword
+  Text: page 9
+- original #5 segment 1: noncontent_keyword
+  Text: page 10
+- original #6 segment 1: noncontent_keyword
+  Text: page 11
+- original #7 segment 1: noncontent_keyword
+  Text: page 12
+- original #8 segment 1: noncontent_keyword
+  Text: page 13
+- original #9 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 15
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #10, segment 1)
+Text: 1. INDICATIONS OF SOVIET PROBABLE ICBM LAUNCHING
+Token count: 7
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=4
+alignment_score=0.912821
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=5
+alignment_score=0.973846
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=0.122409
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: 3. CALL-UP OF EGYPTIAN RESERVES REPORTED The Egyptian army has ordered all reservists recalled to active duty. Included
+- original #12 segment 1: full_page_or_admin
+  Text: the call-up are all men who com- pleted compulsory military service within the past five years. Plain-clothes police in Alexandria are stopping men in the streets and demanding to see their military certificates. If the individual is shown to be a reservist, he is taken to the nearest police station and then sent to Cairo. The Egyptian Interior Ministry has in- structed the Alexandria government to reorganize civil de- fense and to conduct air-raid drills. Comment Recall of reserves would complement other Egyptian precautionary measures which reflect uncertainty over the intentions of Turkey, Israel, and the Western powers regarding Syria. While Egypt has no organized reserve corps, unorganized trained reserves are be- lieved to number about 40,000. Egyptian ground forces have been maintained at about 99,000 men, including 75,500 in the
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: 4. SYRIAN AMBASSADOR SEES FIRMER SOVIET LINE TOWARD WEST Reference: Soviet policy as manifested in the London disarmament talks and in the 3 September notes to the Western powers on the Middle East represents a "stiffening" toward the West. The factors underlying this "increased firmness" are the "stabilization of the internal situation" in the USSR and Eastern Europe, the "success" of the ICBM test, and a desire to reply to Western moves in the UN General As- sembly on Hungary. This firmer line can be expected to lead to an increasingly critical situation in the Middle East and to "assiduous support from Moscow for the liberation movements in general and of Syria in particular." The general purpose of Soviet Foreign Minister Gromyko's statement on 10 September was to offset Western moves in the UN on the Hungarian question, to pressure the West on disarm- ament, and to exploit any differences that may develop among non-Communist powers. Gromyko's warnings to Turkey and the West against intervention in Syria were de- signed to repeat Moscow's Suez gambit and to place the USSR in a position to take credit for any relaxation of tension in the Near East. Despite the bellicose Soviet tone on the Middle East, Moscow's purpose is basically defensive and that the Russians are concerned that the United States will bring down the Syrian regime in a manner which would not only damage Soviet influence in the Middle East but possibly have serious repercussions on the Soviet position in Europe. Moscow could accept a peaceful change in Syria but that it would react strongly to the use of force even by Syria's neighbors if this were carried out in a manner to cause world opinion to consider the USSR weak and the United States strong
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=8
+alignment_score=0.971456
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=10 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: 6. SOVIET POLICY ON PRODUCTION OF MODERN WEAPONS The USSR's progress in weapons technology is so rapid--especially in the missile field--that some new weapons may not be placed in mass production. "What is new today," he said, "is old to- morrow." Only those heavy bombers which are "absolutely necessary" have been produced. Soviet bomber output will give way entirely to missiles which will be "more economical and reliable
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=11 unred_source_page=10
+alignment_score=0.976958
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=12 unred_source_page=11
+alignment_score=0.966000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=13 unred_source_page=12
+alignment_score=0.898908
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #17, segment 1)
+Text: The Kishi cabinet, in response to pres- sure from business and political interests, has waived finger- print requirements for the five Chinese, offered them the use of secret codes and freedom of travel within Japan, and ex- empted them from customs duties and taxes
+Token count: 44
+Recut: none
+
+Excluded candidates:
+- original #16 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=14 unred_source_page=13
+alignment_score=0.966000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=15 unred_source_page=14
+alignment_score=0.900149
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #18, segment 1)
+Text: Sarit has reached "the point of no return" and will resort to an armed coup d'etat if no other means can be found to oust Phibun. The source feels that the army chief now has sufficient support to overthrow the govern- ment but must act soon or lose some of this following
+Token count: 52
+Recut: none
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=16 unred_source_page=15
+alignment_score=0.943790
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #7 (original #20, segment 1)
+Text: A key Velasco supporter has stated that Velasco has enough military backing for a coup to restore him to power
+Token count: 20
+Recut: none
+
+Excluded candidates:
+- original #19 segment 1: noncontent_keyword
+  Text: Comment on
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: leftist
+
+========================================================================
+[PAGE 17]
+kind=unred_only red_source_page=None unred_source_page=16
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

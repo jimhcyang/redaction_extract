@@ -1,0 +1,353 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.381818
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.123225
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA 29 MARCH 1958 I. THE COMMUNIST BLOC USSR - JAEIC reports hitherto un- discovered Soviet nuclear test at Semipalatinsk on 13 March USSR - American ambassador my notes apprehensive Moscow re- action to Khrushchev's assumption of premiership USSR apparently carrying out an- nounced troop reductions
+- original #2 segment 1: full_page_or_admin
+  Text: East Germany, Hungary. Indonesia - Sukarno asks Nasir for enough weapons to equip several battalions Djakarta forces retain initiative on Sumatra. Saudi Arabia - Crown Prince Faysal uncommunicative in interview with American ambas- sador. Egypt offers Yemen additional military mission, which would strengthen Badr's prospects of succession. Lebanese political atmosphere becoming more tense; Chief of Army Shihab emerging as pos- sible rival to President Chamoun Israel gets squadron of French Vautour jets. Japan - Conservatives expected to retain majority in Diet elec- tions expected in May, but sub- stantial Socialist gains could permit rivals to upset Kishi. III. THE WEST UK - Liberal party by-election victory strengthens impression Labor will win next general election. Panama - High government resignations threaten stability of De la Guardia administration
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.849298
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #3, segment 1)
+Text: I. THE COMMUNIST BLOC Soviet nuclear tests: The Joint Atomic Energy Intel- ligence Committee issued the following statement at 1530 EST, 28 March 1958: The Atomic Energy Detection System has re- ported evidence of a nuclear explosion in the USSR at about 0100 hours GMT, 13 March 1958. Although other areas of the USSR cannot be excluded, the meteorological data coupled with the radiochemical data indicates that the most likely location was in the vicinity of Semipalatinsk
+Token count: 77
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: disappoint- ment
+- original #5 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- ceived
+- original #6 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: declara- tion
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- cessed
+- original #8 segment 1: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.799801
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #9, segment 1)
+Text: Soviet troop withdrawals: Soviet troop withdrawals from East Germany and Hungary have been proceeding according to the announced schedule and will be nearly completed by the end of March. The withdrawals in East Germany were preceded by a reorganization which will lessen the impact on Soviet capabilities. There are in- dications that the units withdrawn from Hungary have been relocated nearby in the Carpathian Military District
+Token count: 66
+Recut: none
+
+Clean Chunk #3 (original #10, segment 1)
+Text: Indonesia: President Sukarno requesting arms and equipment for several battalions in order to "strengthen the noose around the rebels." Egyptian stocks of military equipment are probably adequate to permit them to meet Sukarno's request. Nasir previously assured Sukarno that Egypt would be willing to provide "all the assistance it can give." In Su- matra, meanwhile, central government forces retain the initiative against the dissidents
+Token count: 64
+Recut: none
+
+Clean Chunk #4 (original #12, segment 1)
+Text: Egypt - Yemen: Egypt has offered to send additional military personnel to Yemen to assist in maintenance of armored vehicles, artillery, and other weapons which
+Token count: 24
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #11 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: inter- view
+- original #12 segment 2: noncontent_keyword
+  Text: 29 Mar 58 DAILY BRIEF
+- original #12 segment 3: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.920867
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #5 (original #13, segment 1)
+Text: Yemen has received from the Soviet bloc. Such assistance is probably also intended to support Crown Prince Badr in his plans to become the next imam. Although Badr is widely opposed, Yemen's closer association with Egypt in the United Arab States, and Saudi Arabia's probable efforts to avoid further provocation of Nasir, appear to have considerably redu- ced hopeful opposition to Badr
+Token count: 62
+Recut: kept_after_recut
+
+Clean Chunk #6 (original #14, segment 1)
+Text: a squadron of 15
+Token count: 4
+Recut: none
+
+Excluded candidates:
+- original #13 segment 2: noncontent_keyword
+  Text: Page 5
+- original #15 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: prob- ably
+- original #16 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ex- pected
+- original #17 segment 1: noncontent_keyword
+  Text: Page 7) 29 Mar 58 DAILY BRIEF
+- original #17 segment 2: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.910979
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: posi- tion
+- original #19 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: gen- eral
+- original #20 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: govern- ment
+- original #21 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: cam- paigning
+- original #22 segment 1: noncontent_keyword
+  Text: Page 9) 29 Mar 58 DAILY BRIEF
+- original #22 segment 2: short_span_min_tokens
+  Text: iv
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.962077
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: subjected
+- original #24 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: appre- hension
+- original #25 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: dec- laration
+- original #26 segment 1: noncontent_keyword
+  Text: 29 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: full_page_or_admin
+  Text: Withdrawal of Soviet Troops From East Germany And Hungary Soviet announcements that 41,000 troops from East Germany and 17,000 from Hungary would be withdrawn apparently are being carried out. Seven of the ten de- parture ceremonies scheduled in East Germany between 27 February and 10 April have taken place so far and sufficient departing trains have been noted to transport the troops scheduled to leave. As of 25 March, the train movement began to decrease, and withdrawals will prob- ably be nearly completed by the end of March. The USSR would still have 20 line divisions in East Germany, strengthened by a reorganization in the past year and by a new system of sending only trained Soviet personnel to Germany. Western observers report that the departing troops and equipment are below standard in quality. Five Soviet division-level units will remain in Hungary, in contrast to two prior to the revolt in October 1956. All Soviet troops apparently have been evacuated from two towns in eastern Hungary, and withdrawal ceremo- nies have reportedly taken place in five other towns. Western observers have stated that complete withdrawal from all seven of these towns would account for most of the announced 17,000 reduction in Soviet forces in Hungary. The headquarters of an army and two divisions formerly in Hungary have been tentatively identified in the Carpathian Military District
+- original #27 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 29 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.183965
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #28 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Situation
+- original #29 segment 1: full_page_or_admin
+  Text: Indonesia President Sukarno has personally requested through the Egyptian Embassy in Djakarta that Egypt supply arms, am- munition, parachutes, and other unidentified equipment for at least five battalions and possibly more, according to an intercepted Egyptian message. He explained that his purpose in obtaining additional supplies was to "strengthen the noose around the rebels." Sukarno requested that the Indonesian Embassy in Cairo not be informed of his proposal, probably an indication that he believes there are dissident sympathiz- ers in the embassy who might delay or seriously obstruct the deal. There are rumors of increasing antigovernment senti- ment in West Java, and of the possibility of a coup attempt in Djakarta within the next two weeks. Such action could be stimulated by Colonel Kawilarang, commander in West Java until mid-1956 and recently military attaché in Washington, for whom a number of local officers retain sympathy. Ka- wilarang is reported to have decided to join the dissident cause. His present whereabouts is not known. The army intelligence chief, Lt. Col. Sukendro, visited South Celebes from 23 to 26 March, apparently to appraise the situation there with a view to mounting an attack on Me- nado, dissident center in North Celebes. An Indonesian in- telligence officer claims the central government intends to attack Menado soon. According to an aide of President Su- karno, however, such action will not be undertaken until the Central Sumatran rebellion is quelled
+- original #29 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 29 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.923820
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #7 (original #30, segment 1)
+Text: Physical- ly, the crown prince appeared far from well, although he contended that all he lacks is stamina since there is nothing organically wrong with him
+Token count: 26
+Recut: none
+
+Excluded candidates:
+- original #31 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: im- provement
+- original #32 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: un- doubtedly
+- original #33 segment 1: noncontent_keyword
+  Text: 29 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=0.122194
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #34 segment 1: full_page_or_admin
+  Text: Egypt Offers Increased Assistance to Yemen The Egyptian commander-in-chief, Field Marshal Amir, and Yemeni Crown Prince Badr have discussed the dispatch of additional Egyptian military personnel to Yemen to assist the Yemenis in maintenance and training on the armored vehicles, artillery, and other military equipment received from the Soviet bloc. Amir offered to provide as many military technicians as might be required. Nasir's close cooperation with Badr, who was probably chiefly responsi- ble
+- original #35 segment 1: full_page_or_admin
+  Text: promoting Yemen's affiliation with the UAR, appears intended not only to extend Egyptian influence in Yemen but also to help Badr overcome internal opposition and succeed his ailing father as imam. Badr and Nasir apparently desire to avoid a direct mil- itary challenge to Britain, but to apply indirect pressure through subversion and terror in Aden Protectorate. The British have again expressed to US officials their concern over the increasing threat to their position in the whole of Aden. Yemen's closer association with Egypt, and the prob- able termination under Faysal of Saudi Arabian efforts to overthrow the Imam and Badr, appear to have reduced con- siderably the prospects for successful opposition to Badr
+- original #35 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 29 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=11 unred_source_page=13
+alignment_score=0.930943
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #36 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: allow- ing
+- original #37 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Presi- dent's
+- original #38 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: interven- tion
+- original #39 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: gendar- merie
+- original #40 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ensur- ing
+- original #41 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: oppo- nents
+- original #42 segment 1: noncontent_keyword
+  Text: 29 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=12 unred_source_page=14
+alignment_score=0.929573
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #43 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: administra- tion
+- original #44 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: prob- lems
+- original #45 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: prob- lem
+- original #46 segment 1: noncontent_keyword
+  Text: 29 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=13 unred_source_page=15
+alignment_score=0.925582
+kept_candidate_count=0
+excluded_candidate_count=10
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #47 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: by-elec- tion
+- original #48 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: govern- ment
+- original #49 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: par- liamentary
+- original #50 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: be- came
+- original #51 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: prob- ably
+- original #52 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: prob- lems
+- original #53 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: gov- ernment
+- original #54 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: par- liamentary
+- original #55 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ex- pected
+- original #56 segment 1: noncontent_keyword
+  Text: 29 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 8
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=14 unred_source_page=16
+alignment_score=0.917188
+kept_candidate_count=0
+excluded_candidate_count=12
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #57 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: in- creasing
+- original #58 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: op- position
+- original #59 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: de- manding
+- original #60 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: threat- ened
+- original #61 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: for- mer
+- original #62 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ex- tensive
+- original #63 segment 1: ocr_equivalent_to_redacted_text
+  Text: pro- tegés
+- original #64 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: cam- paign
+- original #65 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: rest- less
+- original #66 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: prob- ably
+- original #67 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: how- ever
+- original #68 segment 1: noncontent_keyword
+  Text: 29 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 9
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=15 unred_source_page=17
+alignment_score=0.825169
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #8 (original #69, segment 1)
+Text: Soviet nuclear tests: The Joint Atomic Energy Intel- ligence Committee issued the following statement at 1530 EST, 28 March 1958: The Atomic Energy Detection System has re- ported evidence of a nuclear explosion in the USSR at about 0100 hours GMT, 13 March 1958. Although other areas of the USSR cannot be excluded, the meteorological data coupled with the radiochemical data indicates that the most likely location was in the vicinity of Semipalatinsk. This report is based on the analysis of radio- active debris collected in the vicinity of Japan on 15 March. The time of origin was established by radio- chemical means from excellent samples of fresh radioactive debris
+Token count: 110
+Recut: none
+
+Clean Chunk #9 (original #74, segment 2)
+Text: Soviet troop withdrawals: Soviet troop withdrawals from East Germany and Hungary have been proceeding according to the announced schedule and will be nearly completed by the end of March. The withdrawals in East Germany were preceded by a reorganization which will lessen the impact on Soviet capabilities. There are in- dications that the units withdrawn from Hungary have been relocated nearby in the Carpathian Military District
+Token count: 66
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #70 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: disappoint- ment
+- original #71 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- ceived
+- original #72 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: declara- tion
+- original #73 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- cessed
+- original #74 segment 1: noncontent_keyword
+  Text: Page 1
+- original #74 segment 3: noncontent_keyword
+  Text: Page 2

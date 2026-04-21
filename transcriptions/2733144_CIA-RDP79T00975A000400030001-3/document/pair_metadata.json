@@ -1,10 +1,10 @@
 {
   "pair_key": "2733144_CIA-RDP79T00975A000400030001-3",
   "row_index_1based": 173,
-  "unredacted_pdf": "docs\\unredacted_pdfs\\cib_02733144.pdf",
-  "redacted_pdf": "docs\\redacted_pdfs\\CIA-RDP79T00975A000400030001-3.pdf",
-  "redacted_pdf_copy": "transcriptions\\2733144_CIA-RDP79T00975A000400030001-3\\source_pdfs\\CIA-RDP79T00975A000400030001-3.pdf",
-  "unredacted_pdf_copy": "transcriptions\\2733144_CIA-RDP79T00975A000400030001-3\\source_pdfs\\cib_02733144.pdf",
+  "unredacted_pdf": "docs/unredacted_pdfs/cib_02733144.pdf",
+  "redacted_pdf": "docs/redacted_pdfs/CIA-RDP79T00975A000400030001-3.pdf",
+  "redacted_pdf_copy": "transcriptions/2733144_CIA-RDP79T00975A000400030001-3/source_pdfs/CIA-RDP79T00975A000400030001-3.pdf",
+  "unredacted_pdf_copy": "transcriptions/2733144_CIA-RDP79T00975A000400030001-3/source_pdfs/cib_02733144.pdf",
   "csv_row": [
     "Current/Central Intelligence Bulletin Collection",
     "2733144",
@@ -18,11 +18,8 @@
     "1951",
     ""
   ],
-  "model": "gpt-5.2",
-  "redacted_status": "skipped_error",
-  "redacted_error": "Error code: 401 - {'error': {'message': \"You have insufficient permissions for this operation. Missing scopes: api.files.write. Check that you have the correct role in your organization (Reader, Writer, Owner) and project (Member, Owner), and if you're using a restricted API key, that it has the necessary scopes.\", 'type': 'invalid_request_error', 'param': None, 'code': None}, 'detail': {'message': \"You have insufficient permissions for this operation. Missing scopes: api.files.write. Check that you have the correct role in your organization (Reader, Writer, Owner) and project (Member, Owner), and if you're using a restricted API key, that it has the necessary scopes.\", 'code': None}}",
-  "pair_status": "skipped_error",
-  "pair_error_on": "redacted",
-  "pair_error_pdf": "docs\\redacted_pdfs\\CIA-RDP79T00975A000400030001-3.pdf",
-  "pair_error": "Error code: 401 - {'error': {'message': \"You have insufficient permissions for this operation. Missing scopes: api.files.write. Check that you have the correct role in your organization (Reader, Writer, Owner) and project (Member, Owner), and if you're using a restricted API key, that it has the necessary scopes.\", 'type': 'invalid_request_error', 'param': None, 'code': None}, 'detail': {'message': \"You have insufficient permissions for this operation. Missing scopes: api.files.write. Check that you have the correct role in your organization (Reader, Writer, Owner) and project (Member, Owner), and if you're using a restricted API key, that it has the necessary scopes.\", 'code': None}}"
+  "model": "gpt-5.4-mini",
+  "redacted_status": "skipped_existing",
+  "unredacted_status": "skipped_existing",
+  "pair_status": "completed"
 }

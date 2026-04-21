@@ -1,0 +1,115 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.884032
+kept_candidate_count=3
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #2, segment 1)
+Text: Communists may attack Tachen Islands
+Token count: 5
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #5, segment 1)
+Text: Karen insurgents
+Token count: 2
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #7, segment 1)
+Text: Possible new arms shipments for Guatemala
+Token count: 6
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: FAR EAST
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: US-Vietnamese
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communist
+- original #5 segment 2: noncontent_keyword
+  Text: page 5
+- original #6 segment 1: noncontent_keyword
+  Text: LATIN AMERICA
+- original #7 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.896554
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #8, segment 1)
+Text: FAR EAST 1. Communists may attack Tachen Islands: Comment: The Tachen headquarters' view that there is no immediate danger of an invasion contrasts with press reports from Taipei, where government officials say they regard the danger as imminent and are expected to renew pleas for American naval and air protection. Because attacks on all Nationalist bases are within the capabilities of Communist air units now based on the East China mainland, it is doubtful any have moved to the Choushans, where the single airfield is reliably reported unserviceable
+Token count: 88
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: US-Vietnamese
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.983073
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: partially
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communist
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.906464
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #12, segment 1)
+Text: Karen insurgents Comment: The Burma Communist Party has long sought to promote unity among the various insurgent groups in Burma and has achieved a loose alliance with a splinter group, the "Red Flag" Communists, and another insurgent group, formerly known as the Peoples Volunteer Organization. The Karens, who have the largest insurgent organization, have remained aloof. They have, however, suffered serious military reverses this year and their leaders may look to an alliance with the Communists as the only alternative to capitulation. NEAR EAST - AFRICA
+Token count: 85
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.965352
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: pro-American
+- original #14 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 1947-1950
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: predecessors
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #16, segment 1)
+Text: LATIN AMERICA 8. Possible new arms shipments for Guatemala: The Italian and Spanish governments have assured Washington that they would refuse authorization for military shipments to Guatemala, and the Swiss government has implied it would also do so
+Token count: 38
+Recut: none

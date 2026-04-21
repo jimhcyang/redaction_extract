@@ -1,0 +1,122 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.332143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.123456
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 16 DECEMBER 1959 I. THE COMMUNIST BLOC USSR renews charges that West German rearmament jeopardizes possibility that summit talks could achieve detente. Soviet submarine detachment may again be operating
+- original #2 segment 1: full_page_or_admin
+  Text: South Atlantic. II. ASIA-AFRICA Soviet technicians to begin survey for improvement of highway into southern Afghanistan. Morocco--King asks US for patrol ships to combat arms smuggling. Outcome of Cyprus presidential election indicates probable decisive victory for Makarios followers in legislative vote next month
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.962500
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #3, segment 1)
+Text: Soviet Submarine Operations: The Soviet merchant tanker Vilyuysk, which is in the South Atlantic off the west coast of Africa, may be supporting the operations of several Northern Fleet submarines. This operation probably is similar to the one conducted last year in South Atlantic waters, which is be- lieved to have included scientific observations and communica- tions tests of basic military application
+Token count: 62
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 2: noncontent_keyword
+  Text: TOP SECRET
+- original #3 segment 3: short_span_min_tokens
+  Text: DAUNT
+- original #3 segment 4: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.991232
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: Page 2
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: unicameral
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Soviet Submarines and Tanker in South Atlantic The Soviet merchant tanker Vilyuysk, which called at two Ghanaian ports on 10-12 December, now is off the west coast of Africa, probably supporting the operations of several Northern Fleet submarines. The Vilyuysk left the Northern Fleet area for this voy- age about the end of October. This tanker participated in an extended cruise of one or more Northern Fleet submarines into the South Atlantic as far as the tip of South America be- tween November 1958 and March 1959. That operation prob- ably involved concurrent tests of communications and a low- frequency long-range navigation system
+- original #6 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 16 Dec 59 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.282500
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #7, segment 1)
+Text: All-weather road
+Token count: 2
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword, short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: UNCLASSIFIED
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+- original #9 segment 2: noncontent_keyword
+  Text: 16 December 1959

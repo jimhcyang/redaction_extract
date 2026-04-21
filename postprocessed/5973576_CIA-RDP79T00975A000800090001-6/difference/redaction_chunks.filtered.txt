@@ -1,0 +1,101 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.704348
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.960496
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. USSR apparently transfers submarines from Baltic to Pacific
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 3. Chinese MIG's unusually aggressive over Korea
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 2)
+Text: 6. Egyptian coup generates new tension in Lebanon
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.948538
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #4, segment 1)
+Text: 1. USSR apparently transfers submarines from Baltic to Pacific Comment: If this transfer is confirmed, the estimated strength of the Soviet coastal submarine force in the Far East will be approximately 25. Communications intelligence shows that 16 of these were apparently shipped to the Far East from Leningrad during 1951
+Token count: 50
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.915464
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #5, segment 1)
+Text: 3. Chinese MIG's unusually aggressive over Korea Chinese-piloted MIG-15's in over 60 sorties on 27 July displayed "exceptional aggressiveness," No Russian missions were flown that day. A sustained level of operations was maintained throughout the day, with Chinese aircraft patrolling and, for the first time, being ordered to seek out UN aircraft. Comment: This high Chinese sortie rate, coupled with the aggressiveness displayed, represents a considerable departure from enemy air operations of the past months. Previously Soviet jets accounted for about 75 percent of combat contacts with the UN, while Chinese jets were generally ordered to avoid combat
+Token count: 98
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.917903
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #6, segment 1)
+Text: 6. Egyptian coup generates new tension in Lebanon Events in Egypt have stimulated political tensions in Lebanon, and opposition elements have asked to give American financial support to a coup to overthrow President Khouri's regime. The British and French legations have been similarly approached. Despite widespread dissatisfaction, a coup at the present time would have only a limited chance of success because of the lack of political ties among the opposition leaders. Comment: Previous reports have indicated considerable discontent with the corruption and nepotism of the Khouri regime. A political crisis precipitated in June by anti-Khouri forces was defeated by failure of the opposition to unite
+Token count: 106
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.991352
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens
+  Text: time
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.995000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.986923
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,75 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.941935
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOVIET UNION 1. Soviet Union apparently abandoning work on Main Turkmen Canal (page 3). 2. Soviet freight rate concession to Peiping indicated
+Token count: 22
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin, noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #2 segment 2: full_page_or_admin
+  Text: SOVIET UNION 1. Soviet Union apparently abandoning work on Main Turkmen Canal: Comment: One of the "great Stalinist projects," the 700-mile Main Turkmen Canal connecting the Aral and Caspian Seas was begun late in 1950 and is still in an early stage of construction. Several other major construction projects, such as the tunnel or causeway from Sakhalin to the Far East mainland, are believed to have been abandoned since Stalin's death. This suggests that significant revisions in the capital investment program of the present Five-Year Plan are being implemented. Such revisions may result in increased investment in sectors of the economy where results would be more immediately apparent. 2. Soviet freight rate concession to Peiping indicated: Comment: This is the first indication of a recent reduction of Soviet rail freight rates for Peiping's benefit. Known charges paid by Peiping on imports by rail from European countries have heretofore corresponded with those published in the 1950 schedule of internal Soviet freight rates. According to this schedule, the charges on a shipment of fertilizer would be 280 rubles a ton
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.965784
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: A concession on these costs may have been made at the April Sino-Soviet conference on through rail service. Growing trade between China and the Satellites has caused congestion at Satellite ports and increased the need for moving more goods overland
+Token count: 40
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.989051
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: peaceful
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.988053
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: SECURITY INFORMATION

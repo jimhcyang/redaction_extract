@@ -1,0 +1,111 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.928814
+kept_candidate_count=3
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. East Germans to ask at Geneva for new European conference
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: SOVIET UNION 3. Soviet secret police apparatus possibly re-created as independent government organ (page 4). FAR EAST 4. Another jet fighter division apparently transferred to Shanghai area
+Token count: 27
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 2)
+Text: 7. Thai ambassador urges support of Dulles' united action proposal
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+- original #2 segment 3: noncontent_keyword
+  Text: SOUTHEAST ASIA
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.920763
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #4, segment 1)
+Text: 1. East Germans to ask at Geneva for new European conference: Like presidium of the East German Council of Ministers in late February ordered Foreign Minister Bolz to prepare a memorandum for submission to "the five powers" near the end of the Geneva conference which would demand a new conference on European matters with East and West Germany participating. Bolz will claim that a precedent has been set by the admission to Geneva of North and South Korea as official participants or even as unofficial "third parties." Comment: The submission of such a memorandum would be consistent both with East Germany's new "sovereignty" and with the recent Soviet agitation for talks on European security. A report that Bolz is in Moscow, presumably for consultation, has been lent credibility by his absence since 11 March from official functions in Berlin
+Token count: 139
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.861522
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #5, segment 1)
+Text: SOVIET UNION 3. Soviet secret police apparatus possibly re-created as independent government organ: the old Ministry of State Security (MGB) may have been re-established as an organ of the Soviet government separate from the Ministry of Internal Affairs (MVD). Comment: The abolition of the MGB and the assumption of its functions by the MVD in March 1953 apparently was a part of the effort of Beria, then MVD chief, to expand his authority after Stalin's death. At the same time the new MVD relinquished its economic functions. forced labor and other economic functions had been or were being returned to the MVD, uniting the state security and forced labor organizations in a single government organ. The present separation of the state security organization from the MVD, rather than denoting a new emphasis on the coercive apparatus, would appear to be a logical measure designed to promote administrative efficiency and avoid concentrating too much power in one ministry. A new state security organization would probably include at least the militia, the secret police, and the espionage organs of the old MGB
+Token count: 180
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: FAR EAST 4. Another jet fighter division apparently transferred to Shanghai area: Comment: The transfer probably involved a Chinese Communist jet fighter unit based originally in southeast Manchuria. This unit may well have been an unidentified MIG-15 unit of division strength which has not been reported active at its base at Antung since mid-March. The transfer of a division of about 50 MIG-15's would bring to three the total number of Chinese Communist jet fighter divisions based in the Shanghai and Hangchow area. Total strength of all types in this vicinity, site of the largest concentration of aircraft in China proper, would be increased to approximately 250. The expected dispersal of some of these aircraft to bases along China's unprotected coast between Hangchow and Canton must await renovation or construction of airfields. SOUTHEAST ASIA
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.953948
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #8, segment 1)
+Text: 7. Thai ambassador urges support of Dulles' united action proposal: Comment: A guarantee of American intervention in case of attack has been a primary objective of Thai foreign policy since the war. It is therefore probable that the Thai ambassador's recommendation will be accepted
+Token count: 44
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.992771
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: the
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.996516
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

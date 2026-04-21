@@ -1,0 +1,158 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.673077
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.712963
+kept_candidate_count=3
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. AUSTRIA REPORTED PLANNING TO OUST RADIO FREE EUROPE FROM VIENNA
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 4. USSR TO BEGIN EGYPTIAN ATOMIC RESEARCH INSTITUTE IN 1957
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 2)
+Text: 6. PATHET LAO VIEWS BUDDHIST CLERGY AS KEY TO SUBVERSION OF LAOS (page 8). 7. JAPAN MOVING TOWARD RECOGNITION OF COMMUNIST CHINA
+Token count: 22
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #2 segment 3: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #3 segment 3: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.961358
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 2. AUSTRIA REPORTED PLANNING TO OUST RADIO FREE EUROPE FROM VIENNA both parties in Austria's coalition government have agreed in principle to close the offices of Radio Free Europe (RFE) in Vienna after the national elections on 13 May. The decision might also apply to Radio Free Europe offices in western Austria. Comment overflights of Austria by RFE balloons launched from West Germany were jeopardizing RFE activities in Austria. A decision to end RFE activities may have been taken to "balance" Austria's adherence last month to the Council of Europe
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.968807
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 4. USSR TO BEGIN EGYPTIAN ATOMIC RESEARCH INSTITUTE IN 1957 Comment on: TASS announced on 10 February that the USSR had agreed to send specialists to Egypt for consultation regarding the design and establishment of a nuclear physics laboratory, the supply of necessary equipment, and the training of Egyptian scientists in the USSR. Three Soviet atomic experts who will act as technical advisers to the Egyptian government have already arrived in Egypt. Cairo has reportedly budgeted about $600,000 to finance atomic research and to cover the cost of sending atomic missions abroad. In this connection, several Egyptian scientists have been sent to Chicago to study at the School of Nuclear Science and Engineering at the Argonne National Laboratory. (Prepared by ORR. Concurred in by OSI
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.947523
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soviet-Pakistani
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 6. PATHET LAO VIEWS BUDDHIST CLERGY AS KEY TO SUBVERSION OF LAOS Pathet Lao strategy in subverting Laos relies primarily on winning over the Buddhist priesthood. On the basic assumption that "whoever is master of the pagoda is master of Laos," the first objective is to exploit the Buddhist clergy's ignorance of political matters so that "they may appear as friends of peace and fraternity" and become unwitting propaganda agents. Some methods of penetration are gifts to pagodas, repairs to buildings, and the infiltration of the priesthood by Pathet Lao sympathizers. Comment the long-term nature of Communist plans to subvert Laos and the intent to foster political activities in the ten "free" provinces. The Buddhist priests in Ceylon were instrumental in bringing about the downfall of the conservative, pro-Western government of Sir John Kotelawala
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.122857
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 7. JAPAN MOVING TOWARD RECOGNITION OF COMMUNIST CHINA "A sweeping free world movement toward recognition of the Chinese Communists," has convinced the Japanese government it must make similar gestures if it does not want to be isolated
+- original #10 segment 1: full_page_or_admin
+  Text: support of this view proposed extensions of Sino-Japanese private fishing and trade agreements, preparations for joint action in the field of labor, and a planned postal agreement. Comment The Japanese have been highly interested in French attempts to establish a permanent trade mission in China and the Japanese Foreign Ministry is studying a plan to establish a similar mission, to which the Peiping government is favorably disposed
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.916401
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #11, segment 1)
+Text: Press) a reconnaissance of the Gaza and Negev areas disclosed that large armed forces remain bivouacked just north of the Gaza strip. a heavy movement of troops and equipment from the Gedera area south to Beersheba. a very large number of military and requisitioned civilian vehicles were seen, many of them identified as from the motor vehicle park near Tel-Aviv, now virtually empty. the Israeli press announced on 1
+Token count: 69
+Recut: none
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: that the army had "removed the wraps" from a new quasi-military border settlement in the El Auja area two kilometers east of the demilitarized zone. The new settlement, which dominates the Beersheba-El Auja highway, is
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #13, segment 1)
+Text: reported to be on a hill facing the demilitarized zone, with trenches and sandbagged machine-gun emplacements. this southward movement is probably a return of units to their normal encampment after previous withdrawal. Now that Hammarskjold has left the area, these units are presumably moving back to former positions
+Token count: 48
+Recut: none

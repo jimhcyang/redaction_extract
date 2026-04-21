@@ -1,0 +1,245 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.757143
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122291
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 8 SEPTEMBER 1959 I. THE COMMUNIST BLOC American officials
+- original #2 segment 1: full_page_or_admin
+  Text: Hong Kong feel basic Communist motive in Sino-Indian border and Laotian situations is to reverse setbacks of the past year. Soviet ambassador returning to Tehran; USSR may have decided to relax propaganda pressure on Iran. Taiwan Strait--Chinese Communists may have initiated alert in Amoy area. II. ASIA-AFRICA India issues White Paper on border issues; Nehru states no Chinese Communist border intrusions since 26 August. Indonesia--Peiping protests Djakarta's treatment of Chinese nationals. Japan--Kishi fears effects of visit to Peiping by former Prime Minister Ishibashi. Iraq--Coup attempt reportedly now set for 9 September. UAR propaganda charges Moscow with interference in UAR internal affairs. Algerian rebels investigating possibility of hospitalizing their wounded in the US. III. THE WEST Belgian Government weakened by dispute over Congo policy. LATE ITEMS USSR--Tyura Tam Missile Test Range activity on 6 and 8 September. Laos--Communist pressure continues in Sam Neua and Phong Saly provinces; South Vietnam and Thailand not yet prepared to intervene openly in Laos
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.926758
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #4, segment 1)
+Text: USSR-Iran: Khrushchev's remarks to the Iranian ambassador indicate that the USSR has decided to relax the intensive propaganda pressure against the Iranian Government which followed the break-off of the Soviet-Iranian talks on a nonaggression pact last February. Khrushchev said Soviet Ambassador Pegov--absent from his post since 20 March--"must return to Iran at once." Soviet officials previously had insisted that Tehran must take the initiative toward improving relations. The Iranian ambassador, who will return home to report directly to the Shah on his talks, recommended that nothing be done about confirming the 1927 Soviet-Iranian treaty until Pegov returns and Soviet propaganda attacks are halted
+Token count: 105
+Recut: none
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Vientiane's
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.970769
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #5, segment 1)
+Text: Taiwan Strait: The Chinese Nationalists claim that early on the morning of 7 September two groups of Communist vessels attempted to approach Chinmen but were driven off by Nationalist artillery fire
+Token count: 31
+Recut: none
+
+Clean Chunk #3 (original #6, segment 1)
+Text: The staff of a Hong Kong newspaper
+Token count: 7
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.987956
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #7, segment 1)
+Text: Iraq: "Nationalist officers" who had been planning a coup attempt in Iraq on 7 September have postponed their effort until 9 September
+Token count: 22
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.923365
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #5 (original #8, segment 1)
+Text: the planning is continuing, but the date is no longer firm. Rumors of coup plans continue to be received In view of the widespread knowledge of these rumors and purported plans, it is probable that Qasim has learned of at least some of them, and he may be planning an effort to expose Iraqi nationalist plotters and their UAR supporters
+Token count: 60
+Recut: none
+
+Clean Chunk #6 (original #10, segment 1)
+Text: Algeria: The Algerian rebels are investigating the possibility of sending seriously wounded soldiers to the United States for hospitalization. The Algerian spokesman at the UN has reportedly been contacted by a representative of "an American veterans' organization" who would assist in obtaining hospitalization in either the United States or Western Europe. The European satellites and more recently the USSR have accepted groups of Algerian wounded; similar action by the US, however, would be strongly opposed by France
+Token count: 77
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: admissions
+- original #10 segment 2: noncontent_keyword
+  Text: Page 4
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.889028
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #7 (original #12, segment 1)
+Text: USSR: Available intelligence indicates that on 8 September, for the second time in two days, the USSR unsuccessfully attempted to launch a space vehicle from the Tyura Tam Missile Test Range. This attempt followed a smooth eight-hour countdown and had an intended launch time of about 0240 GMT (2240 EDT, 7 September). Although the operation proceeded to "readiness one minute," the vehicle apparently did not leave the pad, and the range secured shortly thereafter. In this operation, as with the attempt on 6 September, the intended time of launch coincided with the time estimated for the Soviets to launch a lunar probe vehicle. These two coincidences, together with the rapidity with which the operation was canceled when trouble developed, strongly indicates that a lunar probe, which requires precise launching time, was intended. Some past launchings at Tyura Tam, not apparently requiring a precise launching time, have taken place after eight to nine hours of delay. The similarity of the most recent operation to that of 6 September, together with the fact that the earlier operation was abruptly canceled two to three hours before intended launch time, indicates that the same vehicle was engaged in both operations. There will probably be another attempt to launch in the next few days. *Laos: Laotian Government officials have issued conflicting statements about the situation in Sam Neua province. However, there are numerous reports from other sources that Communist
+Token count: 234
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: Page 5
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: pressure continues in both Sam Neua and Phong Saly provinces. South Vietnamese and Thai officials have indicated that neither country is prepared at this time to intervene openly in Laos without US backing, but their views may change if the situation continues to worsen. Saigon, however, probably would like to introduce some forces and materiel into southern Laos covertly. Vientiane is holding in abeyance appeals to SEATO and the US for active military support in case its request for UN intervention fails. North Vietnamese civil air messages of 7 September mention the transportation of five "heavily wounded soldiers" from Dien Bien Phu to Hanoi
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 6) 8 Sept 59 DAILY BRIEF
+- original #13 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: vi
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.989251
+kept_candidate_count=3
+excluded_candidate_count=0
+
+Clean Chunk #8 (original #14, segment 1)
+Text: According to a report considered probably true
+Token count: 7
+Recut: none
+
+Clean Chunk #9 (original #15, segment 1)
+Text: The staff of a Hong Kong Communist newspaper
+Token count: 8
+Recut: none
+
+Clean Chunk #10 (original #16, segment 1)
+Text: The staff had been told earlier that
+Token count: 7
+Recut: none
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.994949
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: charge
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: Algerian Rebels May Seek To Hospitalize Wounded in US An Algerian official has been put in charge of investigating whether wounded rebel soldiers might be sent to the United States for hospitalization, noting that the Algerian spokesman at the UN had been approached by a representative of "an American veterans' organization" concerning the possibilities for hospitalization in the US or Western Europe, implied that the rebels should be prepared to follow up on such approaches. The rebels are believed to be short of medical facilities, particularly for the treatment of seriously wounded. Several groups of wounded have been sent to the European satellites, and late last month the USSR belatedly made good on a previous offer, accepting 96 wounded rebels for hospitalization. No approaches are known to have been made to NATO countries for hospitalization of Algerian rebel wounded. The rebels have only limited diplomatic contacts with the West, and they probably assume that NATO countries would be reluctant to prejudice their relations with France
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 Sept 59 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=0.996875
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Schrijver
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=15
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: Laos (The military situation in Sam Neua and Phong Saly Provinces is characterized by widespread skirmishing. There are conflicting reports on whether the town of Sam Neua is in danger of imminent attack. Ambushes by roaming rebel bands and threatening propaganda activities apparently are continuing in other provinces of northern and central Laos. The government on 5 September extended a state of emergency, declared last month in five provinces, to the remaining seven provinces of the country. This declaration apparently gives the army increased police powers for maintaining order but does not remove other governmental matters from civilian hands.) (Laotian Foreign Minister Khamphan Panya assured Ambassador Smith on 5 September that an appeal to SEATO would be temporarily deferred. In Bangkok, where he visited SEATO Secretary General Pote Sarasin on 7 September, Khamphan issued a statement saying the Laotian situation was deteriorating and "if the United Nations are too slow to act, Laos will have to appeal to SEATO.") (President Diem of South Vietnam that he could not send any troops or materiel at this time in response to Laos' recent request. Diem, however, who has been reported considering the introduction of troops into southern Laos covertly, might undertake such action if his concern over the situation is heightened.) (Pote Sarasin, meanwhile, has told Ambassador Johnson in Bangkok he felt the Thai government would be willing to send troops if assured of US backing. Pote, while not authorized to speak for the Thai government, is close to Premier Sarit, who is probably turning to Pote for advice in the present situation. Thailand, although not now prepared to take military action outside SEATO, will however send a group of Thai armed forces officers soon "to observe and report on the true situation in Laos
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 Sept 59 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=14 unred_source_page=16
+alignment_score=0.122321
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: The chief of North Vietnam's Foreign Ministry information department stated on 5 September that Vientiane's request for a UN Emergency Force is an "American move to interfere more deeply
+- original #22 segment 1: full_page_or_admin
+  Text: Laos and prepare war against the Democratic People's Republic of Vietnam." This statement was followed by intensified propaganda from Asian Communist regimes. Peiping on 6 September accused the US of "using the name of the UN for armed intervention in Laos" and North Korea's Foreign Ministry on 7 September claimed that "US activities against Laos are reminiscent of the situation which prevailed in 1950 when they provoked the Korean war." Hanoi newspapers asserted that "nobody can replace the ICC." North Vietnamese Premier Pham Van Dong on 6 September sent messages to the Secretary General, President of the General Assembly, and President of the Security Council of the UN asking them to reject Vientiane's request, and insisting that the only urgent measure to be taken is reactivation of the Laos ICC
+- original #22 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 8 Sept 59 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=15 unred_source_page=17
+alignment_score=0.986698
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=16 unred_source_page=18
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,88 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.626667
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. DEVELOPMENTS IN JORDAN
+Token count: 4
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 4). 3. CURRENT PHASE OF SOVIET NUCLEAR TEST SERIES PROBABLY TERMINATED
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: 1. DEVELOPMENTS IN JORDAN Comment on: Jordan's internal split continues to grow. There are reports that additional anti-monarchical army officers, including security chief Maayta, have been arrested by the king, and that Foreign Minister Nabulsi will resign from the cabinet. Withdrawal of Nabulsi could bring down the Khalidi government and push the dominant West Jordan population into open defiance of King Hussain. Should the Khalidi cabinet fall, according to Ambassador Mallory, King Hussain's alternatives would be martial law or abdication. Since abdication appears unlikely, the ambassador believes that Hussain may well resort to military government--unless he is assassinated first. Anti-palace forces are apparently planning widespread resignations from the army and government as tactics to regain the initiative from the king. Ambassador Mallory reports that large amounts of money are being passed into Jordan through Egyptian and Syrian hands to finance opposition to Hussain. Antimonarchical Jordanian army officers with Syrian help are reported actively planning a countercoup by leftist groups in West Jordan "after the Easter tourist season ends
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.900021
+kept_candidate_count=0
+excluded_candidate_count=8
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: common
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: programs
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: development
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: production
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: possession
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: explicitly
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: primarily
+- original #11 segment 1: short_span_min_tokens
+  Text: Germany
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: 3. CURRENT PHASE OF SOVIET NUCLEAR TEST SERIES PROBABLY TERMINATED Comment on: Semipalatinsk airfield would be opened to all types of aircraft on 22 April. Opening of the airfield probably indicates that a phase in the Soviet atomic test program has been completed. Since 28 February, the Semipalatinsk airfield has been closed to all civil and military aircraft not associated with the nuclear weapons tests taking place at the nearby proving ground. During the period 8 March to 16 April the USSR conducted six nuclear tests

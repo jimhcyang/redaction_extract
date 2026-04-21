@@ -1,0 +1,137 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.501748
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: CURRENT INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.556674
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #3, segment 1)
+Text: CHINESE NATIONALIST AIRCRAFT MAY USE SOUTH KOREAN AIRFIELDS (page 4). 3. COUP REPORTEDLY IMMINENT IN SYRIA (page 5). 4. BURMA CONSULTS OTHER NEUTRALIST POWERS IN BORDER DISPUTE WITH CHINA (page 6). 5. INDONESIA PLANS TO REINTRODUCE NEW GUINEA ISSUE AT UN
+Token count: 41
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 3)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 3
+- original #3 segment 2: noncontent_keyword
+  Text: page 8
+- original #3 segment 4: noncontent_keyword
+  Text: page 9
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.922174
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: measures
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: regime
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communications
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: economic
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 2. CHINESE NATIONALIST AIRCRAFT MAY USE SOUTH KOREAN AIRFIELDS Chinese Nationalist long-range reconnaissance aircraft may make use of South Korean airfields as terminals for flights over Communist China; these aircraft would penetrate far inland and north into Communist China. no confirmation of this information, but the commander in chief of the Nationalist air force, General "Tiger" Wang, recently visited South Korea and that high-level meetings have taken place. Comment Seoul and Taipei have been advocating closer military co-operation and have publicly indicated a desire for a military alliance. Incidents resulting from deeper aerial penetrations of Communist China would serve the interest of both the Nationalists and South Koreans in maintaining a state of tension in the Far East
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 3. COUP REPORTEDLY IMMINENT IN SYRIA Comment Quwatli's information may be based on new threats by the Arab Socialists to overthrow him if the death sentences of the three rightist Syrian Social Nationalist Party members involved in a political assassination last year are not carried out. In early August, Quwatli said he would resign rather than approve their executions, but acceded to a compromise which has delayed the final decision. A coup attempt by the Arab Socialists is a constant threat. They are the targets of the conservative senior officer group which forced the ouster of chief of staff Shuqayr, and they would almost certainly attempt a coup if they felt any serious moves against them were imminent
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 4. BURMA CONSULTS OTHER NEUTRALIST POWERS IN BORDER DISPUTE WITH CHINA Comment on: Burma is laying the groundwork for the intercession of other neutralist powers on its behalf, should its own efforts fail to obtain satisfaction from Peiping on the Wa States border dispute. In the event that any neutral countries should intercede with Peiping on Burma's behalf, the Chinese
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #11, segment 1)
+Text: Communists are likely to try to convince them that China's claim to the disputed territory is at least equally valid. Peiping has consistently refused to recognize the 1941 boundary line because it was negotiated by a Chinese government which was not properly representative of the "Chinese people
+Token count: 47
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=5 unred_source_page=8
+alignment_score=0.246703
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: INDONESIA PLANS TO REINTRODUCE NEW GUINEA ISSUE AT UN Comment Indonesia's efforts last year to get the UN to recognize its claim to Netherlands New Guinea failed when the General Assembly adopted a resolution merely noting that Indonesian-Dutch negotiations were under way and expressing the hope that they would be fruitful. Indonesia is hopeful that President Sukarno's recent visits to the United States and Western Europe will result
+- original #13 segment 1: full_page_or_admin
+  Text: increased support in the UN for its position
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 29 August) estimates that Israel has a two-year supply of all types of small arms ammunition in stockpile. In connection with a rumor circulating in Jordan on 24 August that 23 Israeli paratroopers had landed there, that there is some unverified information that sections of Jordan's Arab army are on special anti-parachutist missions. the "scare" resulting from the rumor points up the nervous state of the army and its readiness to believe any story involving possible Israeli aggression. Forty T-34 tanks and an undisclosed number of "large" artillery pieces which reportedly arrived on a Soviet vessel were moved from the security area of Alexandria on 20 August. It is probable that the tanks and artillery were delivered by a Soviet vessel which was due in Alexandria at that time. About 20 T-34 tanks, several JS-3 tanks, and considerable quantities of artillery ordered by the Egyptians are estimated to have been undelivered as of mid- August
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

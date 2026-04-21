@@ -1,0 +1,100 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.671875
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens
+  Text: C1-9
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.898437
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 2. Speculation on Chinese Communist leader Mao's whereabouts widespread
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 3)
+Text: 3. Viet Minh offensive reported for mid-March
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 5. Panamanian police chief may attempt to remove president
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 4: noncontent_keyword
+  Text: page 4
+- original #3 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #4, segment 1)
+Text: FAR EAST 2. Speculation on Chinese Communist leader Mao's whereabouts widespread
+Token count: 11
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: Comment: Mao's absence from the public eye since 26 January has stimulated a spate of rumors and reports regarding his whereabouts and health. Although it has been reliably reported that Mao has been suffering from a heart ailment and has been attended by Soviet physicians, there is no firm information regarding his present state of health. The various reports of Mao's travels, to Moscow or elsewhere, have contained conflicting information with respect to dates, means of travel and destination. Furthermore, there is no evidence that the USSR is dissatisfied with Mao or is attempting to replace him. 3. Viet Minh offensive reported for mid-March: Comment: Current locations of Viet Minh forces would permit an attack of this nature with little additional preparatory movement. While it seems probable that one more strong effort to decimate French forces will be made before the May monsoons and before the arrival of planned French reinforcements and further US military aid, there has been no definite indication that such an offensive is imminent
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.969575
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #6, segment 1)
+Text: A reliable neutral source has stated that the assassin of Premier Razmara is a member of the Friends of Islam, a fanatical right-wing religious organization. A well-qualified source with contacts in the Iranian government believes that the assassination was probably motivated by resentment against Razmara's opposition to the nationalization of Iranian oil resources. According to this source
+Token count: 57
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.933176
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #7, segment 1)
+Text: Comment: Relations between Arias and Remon, the key to Panamanian stability since the coup of November 1949, have deteriorated in recent months. The numerous rumors that Arias is attempting to oust Remon from his position may provide Remon with a compelling reason for upsetting the status quo. Remon reportedly obtained written proof of the attempted graft on 5 March; he could use it either to strengthen his position as police chief under Arias or to arouse public support for a coup to install a more complaisant chief of state
+Token count: 89
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Urucurri
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.993411
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

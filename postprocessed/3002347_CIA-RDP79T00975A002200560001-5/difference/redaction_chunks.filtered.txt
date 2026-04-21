@@ -1,0 +1,154 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.664835
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. SOVIET WARSHIP PRODUCTION FACILITIES EXPANDING IN LENINGRAD
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. SYRIAN AND SOVIET AMBASSADORS IN WASHINGTON CONSULT ON MIDDLE EAST (page 4). 3. POLAND PARTICIPATING IN EGYPTIAN ARMS DEAL
+Token count: 20
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 1. SOVIET WARSHIP PRODUCTION FACILITIES EXPANDING IN LENINGRAD Leningrad's four main naval ship-building yards are operating two shifts, six days a week, Every effort was being made at that time to put all possible building slips under cover, and a great deal of yard modernization has been completed. New assembly sheds which could be used for production of long-range submarines in two yards. The utilization of these sheds at full capacity would increase total Soviet output of submarines by 20 percent. Comment The large capital investment represented in these permanent installations provides a strong indication of Soviet intent to continue or expand the present large-scale warship production program. Covered building slips would permit uninterrupted wintertime production. The Leningrad yards are believed to have operated a single shift as late as October 1954. The change to a two-shift workday should raise production by about one third. (Concurred in by ORR
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.244857
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: SYRIAN AND SOVIET AMBASSADORS
+- original #4 segment 1: full_page_or_admin
+  Text: WASHINGTON CONSULT ON MIDDLE EAST The Syrian ambassador in Washington informed Damascus on 28 October that he had protested to the Department of State any Western pact with Israel but believed the United States "had not repudiated their real policy and are merely making excuses to us." He said he had told the under secretary that the safe, practical way to settle the problem was to carry out the UN resolutions rather than "impose an American Zionist settlement." The ambassador reported that in a talk with the Soviet ambassador he had explained Syrian policy and also "our analysis of American, British, and Israeli policy." The Soviet ambassador had assured him that Moscow's policy would continue unchanged if the Arabs remain firm in their policy. He added that the Soviet ambassador promised to wire these statements to Molotov and would inform him of Molotov's reply
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 3. POLAND PARTICIPATING IN EGYPTIAN ARMS DEAL Comment the first indication that Polish experts, in addition to Czechs and Russians, will be sent to Egypt under the terms of the recent arms deal. The five Polish experts are probably to be sent to Alexandria to arrange for receipt and maintenance of the nine motor torpedo boats offered by the Czechs on 31 August. also suggests that arrangements are being made for Egyptian naval personnel to be trained in Poland just as Egyptian pilots are being trained in Czechoslovakia. (Prepared by ORR
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.913407
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: probably
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: accession
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Europe
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: nationalists
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: agreement
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.887072
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #11, segment 1)
+Text: Our forces have recaptured Sabha and have occupied it. Seram is in our hands. The Jews fled before our infantry and armor." With claims of victory by both sides, it is impossible to determine exactly what the situation is at this point
+Token count: 42
+Recut: none
+
+Clean Chunk #4 (original #13, segment 1)
+Text: the opinion that Israel will "probably carry out another attack at Gaza, Rafah, or Khan Yunis." The public reaction in Cairo, while indignant and violent
+Token count: 25
+Recut: none
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attitudes
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.876092
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #5 (original #14, segment 1)
+Text: gives no indication that this skirmish is viewed as more than another incident
+Token count: 13
+Recut: none
+
+Clean Chunk #6 (original #19, segment 1)
+Text: Egypt, continuing its efforts to strengthen its military capabilities, is urgently trying to recruit 25 West German officers to augment the 25 German military advisers it already has under General Farmbacher. In pressing for action, Farmbacher reportedly said he believed that if Cairo were turned down, it would seek Soviet bloc officers
+Token count: 52
+Recut: none
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: immediate
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: arrival
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reduction
+- original #18 segment 1: short_span_min_tokens
+  Text: Press
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #20, segment 1)
+Text: BORDER VIOLATION GAZA STRIP ISRAEL NEUTRAL ZONE El Auja Sabha EGYPT El Kuntilla 28 OCT SINAI 1 NOVEMBER 1955 UNCLASSIFIED 51103 3
+Token count: 22
+Recut: none

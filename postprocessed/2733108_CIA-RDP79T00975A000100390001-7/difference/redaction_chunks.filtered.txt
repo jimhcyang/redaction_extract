@@ -1,0 +1,85 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.559259
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.963793
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: LATIN AMERICA 7. Argentina's attitude makes Hemisphere Defense Plan unacceptable to Brazil
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.987795
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Jessup's
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.961749
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: FAR EAST
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Vietnam's
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Lattre's
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Dai's
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: protectorship
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Lattre's
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.910714
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #10, segment 1)
+Text: NEAR EAST Comment: Hussein Ala was reluctant to become Prime Minister and the cabinet he has gathered together is a weak one, with some of the critical posts still vacant. While the Communists in Iran do not seem to have been implicated either in Razmara's death or in several subsequent acts of terrorism, they have begun to exploit the present situation by inciting pro-nationalization and anti-Western demonstrations and by spreading propaganda linking the US to Razmara's assassination
+Token count: 77
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Emperor's
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.884728
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #11, segment 1)
+Text: LATIN AMERICA 7. Argentina's attitude makes Hemisphere Defense Plan unacceptable to Brazil Comment: Argentine reluctance to send armed forces outside its own territory does not preclude some Argentine patrol activity along the South Atlantic sea lanes, although it could not extend so far from Argentina's coast as would be desired. Brazilian, and possibly Uruguayan, failure to go along with the proposed plans for inter-American defense would be an added deterrent to the speedy and successful conclusion of the coming Foreign Ministers Meeting, in which these plans will be discussed. It is possible, however, that Brazil is not contemplating such action and that the Brazilian Foreign Minister had adopted the above position in an attempt to get more US naval units for Brazil
+Token count: 122
+Recut: none

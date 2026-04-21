@@ -1,0 +1,46 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.681250
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.959298
+
+Chunk #1
+Predicted text: far east
+Unredacted context: item page 3 [UNRED_ONLY: far east] western europe 4
+Redacted context: agenda item page [L@13:3] [RED_GAP:<empty>] [R@14:western] europe 4 french
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.995573
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.984615
+
+Chunk #2
+Predicted text: far east
+Unredacted context: [UNRED_ONLY: far east] western europe 4
+Redacted context: [R@0] western europe 4 french
+
+Chunk #3
+Predicted text: top leaders
+Unredacted context: to block rearmament [UNRED_ONLY: top leaders] of the french
+Redacted context: strike to block [L@10:rearmament] [RED_GAP:<empty>] [R@11:of] the french communist
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.978552
+
+Chunk #4
+Predicted text: party's
+Unredacted context: the french communist [UNRED_ONLY: party's] over-all strategy can
+Redacted context: of the french [L@101:communist] [RED_GAP:party s] [R@104:over-all] strategy can be

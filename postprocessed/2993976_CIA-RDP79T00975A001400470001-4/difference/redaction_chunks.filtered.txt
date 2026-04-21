@@ -1,0 +1,106 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 12 February 1954 Copy No. 84 CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.972500
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: GENERAL 1. troop withdrawal from Austria
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: LATIN AMERICA 6
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: GENERAL 1. troop withdrawal from Austria: SOVIET UNION 2. Administration of Soviet metallurgical industry decentralized: The establishment of Union-Republic Ministries of Ferrous Metallurgy and Nonferrous Metallurgy is an unprecedented departure from the traditional Soviet policy of administrative centralization of heavy industry and may reflect a decision to give more emphasis to regionalized supervision
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.743095
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #7, segment 1)
+Text: The ministry had been split into two all-union ministries, which helps to obviate speculation that it resulted from nonfulfillment by the metallurgical industry of the 1953 plan
+Token count: 27
+Recut: none
+
+Clean Chunk #2 (original #9, segment 1)
+Text: SOUTHEAST ASIA 3. Vietnam military chief critical of French air training: General Hinh, chief of staff of the Vietnamese armed forces, told an American officer that he had turned over approximately 1,000 Vietnamese personnel to the French air force for on-the-job training, but that they were used only for KP duty and as orderlies. Few received any training, morale dropped and mass desertions occurred
+Token count: 65
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: constituent
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: centralized
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Dalstroi
+
+========================================================================
+[PAGE 05]
+kind=red_only red_source_page=4 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.957299
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #10, segment 1)
+Text: Hinh would like a United States mission to train the Vietnamese air force. He would also welcome American instructors for artillery and armored force training. Comment: The Vietnamese have been eager for American instructors but the French have consistently opposed their use. General Navarre recently rejected an American proposal that he train a Vietnamese combat squadron, and the American air attaché in Saigon recently reported that the French efforts to train a native air force are not effective
+Token count: 78
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.961946
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: substantial
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reassessing
+- original #13 segment 1: noncontent_keyword
+  Text: LATIN AMERICA
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

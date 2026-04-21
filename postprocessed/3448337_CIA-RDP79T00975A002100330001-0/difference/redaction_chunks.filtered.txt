@@ -1,0 +1,95 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.729545
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.944068
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOVIET UNION 1. NEAR EAST - AFRICA 2. Egypt requests Saudis to open liaison office in Sudan to support its position
+Token count: 20
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #2, segment 1)
+Text: SOVIET UNION 1. NEAR EAST - AFRICA 2. Egypt requests Saudis to open liaison office in Sudan to support its position
+Token count: 20
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.940890
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: Comment: Authorization for Saudi Arabia to open an office in the Sudan requires concurrence from Britain as well as Egypt. Establishment of a Saudi office in Khartoum would provide Egypt with an ally in its efforts to influence Sudanese opinion during the coming session of the Sudanese parliament, which will consider methods by which the Sudan will exercise self-determination. Cairo has recently doubled its broadcasts to the Sudan and is engaged in an intensive campaign to undermine Prime Minister Azhari's government because of its stand in favor of full independence for the Sudan
+Token count: 93
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.964344
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #4, segment 1)
+Text: Hatta has not indicated his reaction to a reported proposal by the army that it have a seat in the new government, but it is clear that no cabinet would succeed without army approval
+Token count: 34
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: NOFORN
+- original #5 segment 1: short_span_min_tokens
+  Text: participation
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

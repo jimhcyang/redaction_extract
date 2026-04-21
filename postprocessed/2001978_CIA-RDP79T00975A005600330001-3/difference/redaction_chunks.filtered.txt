@@ -1,0 +1,277 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.490000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.891379
+kept_candidate_count=4
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Situation in Laos
+Token count: 4
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. Congo: Kamitatu believes rapprochement possible between Gizenga and Leopoldville regime
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #2, segment 1)
+Text: 4. Communist China: Heavy oil shipments scheduled from USSR. (Page 5) 5. Iraq: Almost all political factions now appear opposed to Qasim regime. (Page 6) 6. Angola: Native uprisings in northern Angola
+Token count: 32
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #2, segment 3)
+Text: 7. Cuba: Castro's forces react to invasion rumors
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: Page 1
+- original #1 segment 4: noncontent_keyword
+  Text: Page 3
+- original #2 segment 2: noncontent_keyword
+  Text: Page 7
+- original #2 segment 4: noncontent_keyword
+  Text: Page 9
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: NORTHERN LAOS GOVERNMENT KONG LE - PATHET LAO GOVERNMENT Forces in Contact KONG LE - PATHET LAO AREAS ROAD TRAIL ROUTE NUMBER
+- original #3 segment 2: noncontent_keyword
+  Text: 7 Apr 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #3 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 7 April 1961 DAILY BRIEF
+- original #4 segment 2: full_page_or_admin
+  Text: Laos: (Information available as of 0430 EST) The status of the government's airborne offensive to retake Muong Kassy is still unclear. Forward elements of government troops south of that point, which were to move on Muong Kassy in conjunction with the airborne attack from the north, are reported in contact with the enemy. Government troops north of Phou Khoun junction, however, apparently failed to execute their diversionary attack there when the combined operation was launched
+- original #4 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 1) (Map
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.914965
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #5, segment 1)
+Text: Congo: Leopoldville Provincial President Kamitatu who returned on 4 April from a trip to Stanleyville, was convinced a rapprochement could be reached between Gizenga and the Leopoldville regime. According to Kamitatu, Gizenga is unwilling to accept the confederation proposed at Tananarive, but would accept a somewhat more centralized federal structure instead of the "unitary state" advocated by Lumumba. In addition, Kamitatu believes Gizenga would accept a subordinate ministerial position under virtually any prominent person. Gizenga insisted, however, that he would agree to such changes only if they received parliamentary approval. Jean Bolikango, Ileo's vice premier, is to confer with Gizenga later this week in western Orientale. Hammarskjold feels that the UN representatives in Katanga have compromised the UN's freedom of action at Elisabethville airport in their agreement with Tshombe. The UN Command has been authorized to send Indian troops to Elisabethville if necessary to maintain control of the airport
+Token count: 149
+Recut: kept_after_recut
+
+Clean Chunk #6 (original #6, segment 1)
+Text: in a conversation with an Overseas Chinese businessman
+Token count: 8
+Recut: none
+
+Excluded candidates:
+- original #5 segment 2: noncontent_keyword
+  Text: Backup, Page 3) (Map
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.854152
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 4
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: USSR - Communist China: Soviet petroleum deliveries to Communist China are now proceeding on a regular basis under a 1961 contract. The USSR has scheduled about 416,000 tons of petroleum for shipment to China by rail and sea in April. This figure exceeds by more than 75,000 tons the volume of such deliveries in April 1960 and is the highest noted in any single month. Although this year's Sino-Soviet economic and trade agreements are still being negotiated, the apparent agreement on petroleum deliveries suggests that progress is also being made toward the settlement of other trade problems. Without new Soviet credits and technical assistance, however, Chinese imports of complete plants and equipment from the USSR will be drastically reduced this year. (Backup, Page 5) Iraq: Qasim's prestige has deteriorated considerably following the antiregime demonstrations at the end of March. His violent suppression of the strike disorders has alienated much of the urban populace, and his attempt to make the western-owned Iraq Petroleum Company the scapegoat for the disorders has not deceived the public. Nearly all political factions, including the Communists, now appear to be in opposition to the regime. Resentment against Qasim is growing in the army, which little relished its role in suppressing demonstrations with which it in large part sympathized. (Backup, Page 6) Angola: Native uprisings in northern Angola are continuing. Thousands of native refugees from Angola are reported to have entered the Congo at Matadi following Portuguese military efforts to create a 25- to 30-mile no-man's land on the Angola side of the border. Portuguese authorities are taking repressive measures against both white and native religious groups suspected of involvement in last month's outbreaks
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: CUBA TROOP MOVEMENTS (CASTRO FORCES) AA PRACTICE INCREASED APRIL 6 INSURGENT OUTBREAK (ANTI-CASTRO) SELECTED ROADS
+- original #8 segment 2: noncontent_keyword
+  Text: 7 Apr 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #8 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.887302
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: three nationalist organizations are planning a Conference of the Peoples of the Portuguese Colonies from 14 to 16 April in Casablanca to "unify the struggle against Portuguese imperialism." (Backup, Page 7) *Cuba: "very urgent" troop movements in Las Villas and Pinar del Rio Provinces, an increase in antiaircraft firing practice to ten hours daily at a base near the north coast port of Mariel, and the outbreak of new insurgent activity in Pinar del Rio Province. Early on 6 April, 500 men were dispatched to eastern Pinar del Rio where a group, taking arms and supplies with it, had joined an insurgent movement. a captured insurgent said his group expected an imminent landing in Pinar del Rio. reports of imminent "invasions" of Cuba by anti-Castro groups in exile, but were contradictory as to the exact date and place of the expected landings
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: Laos King Savang continues reluctant to take a direct political role in Laotian affairs. he is willing to have an international conference, at which Pathet Lao presence will be "inevitable," but stated that he would not nominate the Laotian delegation. The King stated flatly that it would be unconstitutional for him to serve as prime minister or directly to appoint a prime minister, which was a matter for the assembly; gained the impression that he feels such a role would eliminate him as the country's last "stabilizing factor." The king's remarks revealed that he does not exclude Souvanna Phouma as premier. He looks to outside assistance to stop foreign intervention, believing that the Laotians could then settle their own internal problems. Although Peiping has made no independent comment on the idea of a cease-fire in Laos, it has mentioned the subject several times since the Soviet note was handed to the British. The most recent instance was in Peiping's rebroadcast of Prince Souphannouvong's 5 April statement endorsing the Soviet note and expressing Pathet Lao willingness to enter negotiations for a cease-fire. A 6 April Pathet Lao broadcast states emphatically that the "cease-fire should be conducted simultaneously with the meeting of the 14-nation conference." Repeating previous Pathet Lao insistence that Western support must be withdrawn from the Vientiane government before a cease-fire can be achieved, the broadcast strongly implied that the Communists will not accept the US position that a cease-fire must precede a conference. The Soviet airlift of supplies into Laos from North Vietnam continues. Most of the Chinese Communist "transports
+- original #10 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 7 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: full_page_or_admin
+  Text: which flew to Hankow from locations in north and east China on 4 and 5 April have now returned to their bases. Although the reason for these flights is unknown, it does not appear that they were in connection with an airlift operation associated with Laos
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 7 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=8 unred_source_page=12
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: Situation in the Congo Gizenga reportedly distrusts Kasavubu and regards Ileo as a nonentity. He is said to believe that Ileo has no desire to reconvene parliament, a belief shared by some Congolese in Leopoldville. The Gizenga regime's creation of a "presidential college" in Stanleyville to replace Kasavubu apparently is an attempt to bypass the President and his associates while simultaneously strengthening Stanleyville's own bargaining position. Gizenga apparently is willing, however, to work with such Leopoldville figures as Bolikango and Interior Minister Cyrille Adoula. Kamitatu said he even volunteered to go into Equateur Province to meet a Leopoldville representative. Kamitatu also stated that an ambassador from Mali would present his credentials to Gizenga--who would be acting as head of the "presidential college"--on 6 April. the Malian envoy was in Khartoum in late March and was scheduled to proceed to Juba in southern Sudan. From there he apparently was to travel overland into the Congo. There has been no indication that he actually arrived in Stanleyville. Although a number of other neutralist Afro-Asian states have recognized Gizenga's regime as the legitimate Congo government, none of them has yet installed an ambassador in Stanleyville
+- original #12 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 7 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=0.996364
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: redress
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: Soviet Petroleum Shipments to China Proceeding on Regular Basis Monthly schedules for Soviet petroleum and petroleum products (POL) shipments to China were noted regularly in communications intelligence through July 1960. From that time until recently, only fragmentary information on the amounts being delivered. Although the USSR continued to supply China with some petroleum in the latter half of 1960, reports of shortages during that time indicate that the amounts supplied were not sufficient to meet Peiping's requirements and small quantities were imported from nonbloc sources for the first time. Moscow's repeated requests in late 1960 for a decision from Peiping on China's POL import needs for 1961 suggest that the difficulties in this trade developed primarily from Peiping's uncertainty over its entire economic position, especially its ability to maintain a level of exports commensurate with its import program. Trade negotiations for a protocol covering 1961 commodity deliveries have been continuing in Moscow between top-level Soviet and Chinese trade officials, and these negotiations reportedly will be concluded shortly. There has been no information, however, on the results of the talks conducted by the Soviet economic delegation which left Peiping on 27 March for Mongolia to negotiate an aid protocol with Ulan Bator. This delegation presumably discussed various aspects of Soviet aid to China while in Peiping and visited many industrial sites where Soviet technicians had been working prior to their departure last summer. Reliable reports of Moscow's unwillingness to extend emergency economic assistance to help ease the current food crisis in China suggest the USSR is driving a hard bargain in these negotiations
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 7 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 15]
+kind=unred_only red_source_page=None unred_source_page=15
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: The Iraqi Situation The Iraqi public now sees little to distinguish the Qasim regime from the royalist one it replaced in July 1958. Political parties are moribund, large numbers of political prisoners of all tendencies are in jails throughout the country, and the army is being used to crush protest demonstrations. In addition, the prosperity of the Nuri Said regime has been lost, while immunity from arbitrary governmental actions has diminished markedly. As Qasim is being personally blamed more and more for the country's ills, his ability to play off one political grouping against another is being weakened. The riots which began with the taxi and bus drivers' strike at the end of March have served to increase and, to some extent, coalesce the opposition to his regime. For the first time since the 1958 revolution, Communists and nationalists, although they did not cooperate, demonstrated against the regime at the same time. So many have been arrested in the aftermath of the disorders that prisoners are being sent to provincial jails. Qasim's loss of popularity and prestige is forcing him to rely more and more on the army, which is now the key to his continuance in power. Reports of anti-regime plotting in the army are growing. Most senior army officers are said to be giving lip service to Qasim in order to ward off suspicion while they remain in a position to carry out action against him. UAR support for anti-regime elements has been stepped up during the past month. This support has been aimed at forming a "national league" of anti-Qasim political elements, as well as increasing contacts with certain dismissed Iraqi army officers
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 7 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 16]
+kind=unred_only red_source_page=None unred_source_page=16
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: Angola Portuguese authorities in Angola are suspicious of both Catholic and Protestant groups. On 1 April they arrested Monsignor Manuel Mendes das Neves, the vicar general in Angola, claiming that he might be the "supreme chief of the subversive organization responsible for the terrorist attacks." The authorities have accused Protestant missions in northern Angola of being intimately connected with last month's uprisings because the attacks were better organized in areas where these missions are most active. Portuguese have staged violent demonstrations against Protestant missions in Luanda and destroyed a clinic. the coming conference in Casablanca will be co-sponsored by the pro-Communist African Revolutionary Front for the National Independence of Portuguese Colonies (FRAIN) based in Guinea, the African Independence party of Portuguese Guinea, and the Goa League. Invitations have been sent to leading nationalist organizations representing Angola, Goa, Mozambique, Portuguese Guinea, Sao Tome, and Timor; observers from various Afro-Asian organizations have also been invited. The sponsors hope to adopt a resolution to form a solidarity committee "to organize the struggle" against Portuguese imperialism "on all fronts." The Leopoldville-based Angola Peoples Union (UPA) which played a major role in the March uprisings, apparently was not invited. Portuguese officials who recently visited Angola reportedly were astonished at the extent of participation by natives in the March uprisings. They admitted that Portugal was unprepared for such events and stated they were convinced that Lisbon would have to institute major economic and social reforms if it hoped to retain this overseas province. The over-all impact of the incidents on Angola's economy may be grave; coffee production, which accounts for nearly half of the province's foreign exchange receipts, is expected to decline by about 10 percent because of damaged plantations and a labor shortage during the harvest season. Lisbon recently sent
+- original #16 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 7 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=10 unred_source_page=17
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: warnings to all banking institutions regarding the need for strict compliance with regulations controlling foreign exchange transactions. Stock quotations on firms operating in Angola and Mozambique have declined sharply on the Lisbon stock exchange. On 31 March, immediately following alleged attacks by natives on isolated posts in northern Angola, the Portuguese Government announced plans for creating in its African provinces a civil defense organization, comprising a corps of Portuguese volunteers in each province under the direction of the governor general and intended to help maintain order. in Luanda, the local military commander and the governor general are at odds over treatment of the insurgent natives, with the former advocating mass shootings. On 3 April the American consul in that capital reported indications that civilian authorities had been carrying out large-scale reprisals against natives in various localities in Angola. In Lisbon on 4 April a Portuguese Government spokesman used a NATO anniversary celebration to renew attacks on US policies in Africa, declaring that the US desire to maintain an alliance in Europe was inconsistent with US policy in Africa hostile to Portugal, particularly when Portugal's very existence in the world community depended on its survival in Africa
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 7 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 8
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=11 unred_source_page=18
+alignment_score=0.976056
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 19]
+kind=red_only red_source_page=12 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 20]
+kind=match red_source_page=13 unred_source_page=19
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: noncontent_keyword
+  Text: 7 April 1961 Copy No. C CENTRAL INTELLIGENCE BULLETIN

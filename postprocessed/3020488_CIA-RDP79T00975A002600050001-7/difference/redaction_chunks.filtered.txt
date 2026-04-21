@@ -1,0 +1,124 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.916393
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. ARAB AID TO ALGERIAN REBELS
+Token count: 6
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 2)
+Text: 5. TAIWAN COLLABORATION WITH KARENS MAY BE BROUGHT UP DURING BURMESE MILITARY CHIEF'S VISIT TO US
+Token count: 16
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword
+  Text: page 5
+- original #4 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 3: noncontent_keyword
+  Text: page 7
+- original #5 segment 1: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 1. ARAB AID TO ALGERIAN REBELS The Arab states appear to be moving promptly to implement a mid-May Arab League Political Committee resolution, which calls for a "continuation and increase of material and military assistance to the Algerian rebels in the manner which each country deems appropriate." 12 tons of arms and ammunition promised the rebels some time earlier by the Syrian army were to be collected in Syria and transported by air, presumably to Egypt but possibly direct to Algeria. Iraq has vigorously supported the Algerian nationalists
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.995536
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Alfried
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 5. TAIWAN COLLABORATION WITH KARENS MAY BE BROUGHT UP DURING BURMESE MILITARY CHIEF'S VISIT TO US General Ne Win, the commander in chief of the Burmese armed forces, was authorized to bring up in Washington the matter of Chinese Nationalist collaboration with the Karen insurgents in his impending talks with American officials. The Karens were trying to buy arms from the Nationalists for direct shipment from Taipei to Burma. Comment Burma continues to feel that the United States is ultimately responsible for Chinese Nationalist intrigues with Burmese dissident groups. Taipei for some months has been committed to provide a shipment of arms to the insurgents. The pledge has not yet been carried out, however, principally because of Karen difficulties in arranging for delivery of the arms after Thailand refused to permit their transshipment through its territory
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.967421
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #9, segment 1)
+Text: authorities are not interested in buying small arms because present supplies are sufficient, but would be interested in offers of heavy arms such as tanks, field artillery and jet fighters. It is therefore possible that Israeli production of light arms is now adequate to meet replacement needs. Israeli
+Token count: 48
+Recut: none
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.992975
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=red_only red_source_page=10 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

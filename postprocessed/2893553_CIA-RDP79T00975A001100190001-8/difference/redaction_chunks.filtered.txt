@@ -1,0 +1,51 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 19 April 1953 Copy No. 60 CURRENT INTELLIGENCE BULLETIN Office of Current Intelligence CENTRAL INTELLIGENCE AGENCY
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.938393
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: FAR EAST 2. Chinese purchases from Soviet military supplier increasing (page 3). 3. Additional early-warning radar site identified in South China
+Token count: 21
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.960680
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: Comment: In the past six months China has bought over $100,000,000 worth of equipment from the Engineering Directorate, the Soviet trade agency which is known to export military equipment. This is more than in any previous six-month period and at a rate of about four times the average rate since early 1950
+Token count: 54
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.972849
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 3. Additional early-warning radar site identified in South China: Comment: Identified radar sites now provide almost complete coverage of the China coast between Manchuria and Canton
+Token count: 26
+Recut: none

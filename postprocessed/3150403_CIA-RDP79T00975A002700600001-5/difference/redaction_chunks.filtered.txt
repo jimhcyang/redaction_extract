@@ -1,0 +1,144 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.652273
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.698053
+kept_candidate_count=3
+excluded_candidate_count=6
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. NASR ORDERS SLOWDOWN IN RELATIONS WITH SOVIET BLOC
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. PATHET LAO ADVISED TO GIVE UP OVERT CONTROL OF NORTHERN PROVINCES
+Token count: 12
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 2)
+Text: 5. TAIPEI FEARS LOSS OF MEMBERSHIP IN UNESCO
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 3: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 8
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.244515
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: NASR ORDERS SLOWDOWN
+- original #6 segment 1: full_page_or_admin
+  Text: RELATIONS WITH SOVIET BLOC President Nasr of Egypt notified his cabinet on 15 October that hereafter he did not wish members of the cabinet to visit Soviet bloc countries. All scheduled visits are to be canceled gradually, except a visit of the Egyptian minister of agriculture to the Soviet Union. The minister of agrarian reform was specifically ordered to cancel his visit at once. Nasr also told the cabinet gradually to close out all further cultural and technical delegations to the Soviet bloc. Comment Although Nasr will continue to rely on the Soviet bloc for economic assistance, arms and diplomatic support, he probably has genuine fears of becoming overly dependent on the bloc. By suggesting that he might weaken his relations with the Soviet bloc, he probably aims to elicit American sympathy. Recently there have been signs that Nasr was afraid he was losing some of his maneuverability between West and East. He has disregarded some Soviet suggestions on Egyptian tactics and has indicated irritation over Soviet moves, particularly strong Soviet attacks on the United States
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 2. PATHET LAO ADVISED TO GIVE UP OVERT CONTROL OF NORTHERN PROVINCES A Viet Minh advised the Pathet Lao to recognize that its control of the two provinces "will undergo modification in the course of negotiations". The Pathets were instructed to continue to consolidate their political position in the two provinces, but to recognize that retention of the province would not involve "administrative and military" control "as at present." "we should not be afraid that when we join the coalition government the royalists will use their majority to abolish or water down the terms they have concluded with us. On the contrary, we will be in a better position to make progress in every aspect of our work." Comment Apparent Viet Minh readiness to exchange control of the two provinces and the Pathet army for participation in a coalition government removes the greatest stumbling block to a final settlement with the royal government. The Viet Minh's confidence that the Pathets can advance their interests through participation in the government appears to stem, at least in part, from a conviction that they will be given one of the important ministries such as Defense, Interior or Foreign Affairs
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.895563
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: seeking
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Pushtoon
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.917417
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: resignation
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: inclusion
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: increasing
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: ministers
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: support
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: confidence
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: contributions
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: 5. TAIPEI FEARS LOSS OF MEMBERSHIP IN UNESCO The Chinese Nationalist Foreign Ministry is concerned over the question of support for Nationalist China's right of representation and right to vote at the general conference of the UN Educational, Scientific and Cultural Organization (UNESCO), which will meet in New Delhi on 5 November. As early as last January UNESCO officials noted the beginnings of a major effort to admit Communist China to UNESCO at the November general conference. The nature of the organization and the fact that the conference is being held this year in India, a strong advocate of Peiping's admission to international organizations, give Taipei additional reason for concern. Membership in the specialized agencies is not contingent on UN membership. These agencies have the authority to seat Peiping in place of Taipei if a majority of their members so desire. UNESCO, however, has in the past followed the pattern set by the UN General Assembly on the Chinese representation question. Britain's stated intention to support the moratorium at this fall's assembly probably assures Taipei's UN membership for at least a year
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.802039
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #18, segment 1)
+Text: The new Israeli mobilization is now reported to be "fairly substantial," The source reported a movement of artillery and armor to the Jordanian borders and southward to the Negev area. southern Israel indicates a displacement of Israeli units from their normal stations to forward areas and that the southern command headquarters appears more than usually active. The movement southward may be in anticipation of an Egyptian redeployment to Sinai following the reduced tension over the Suez dispute
+Token count: 77
+Recut: none
+
+Excluded candidates:
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: October
+- original #20 segment 1: short_span_min_tokens
+  Text: at

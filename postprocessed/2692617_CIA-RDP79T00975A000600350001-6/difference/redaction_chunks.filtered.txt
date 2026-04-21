@@ -1,0 +1,74 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.917953
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. Burmese plan to capture Chinese Nationalist airfield reported (page 3). 3. Karens in southeast Burma planning attack on Moulmein
+Token count: 20
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 4. Western export controls "threaten" Czech power industry
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.950015
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 2. Burmese plan to capture Chinese Nationalist airfield reported: the army has asked the Union of Burma Airways to transport 1400 troops from Rangoon to the town of Kengtung in northeast Burma over a ten-day period beginning on 27 March. the objective of this operation is the capture of the Chinese Nationalist airfield at Mong Hsat, 60 miles southwest of Kengtung
+Token count: 61
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: Comment: Previous Burmese military operations against the Chinese Nationalists have been unsuccessful. the Nationalists around Mong Hsat are well-equipped and far outnumber the Burmese force being flown to Kengtung. 3. Karens in southeast Burma planning attack on Moulmein: Karen forces in southeastern Burma are reported to be planning a 13 April attack on Moulmein, Burma's third largest port. These troops, numbering about 9,000 well-equipped men, recently received two air-drops of arms. They believe that their arms, which have been obtained in Thailand in exchange for tungsten, originated from American sources, and their morale is high. Comment: Information exaggerates the size of Karen armed forces in southeastern Burma. There is no evidence of air-drops in the area, and although the trading of tungsten for arms by the Karens has been reported on a number of occasions, the source of these arms has never been determined. The Karens have been more aggressive in southeastern Burma recently, but there is no reliable evidence that they are prepared to attack the comparatively large garrison at Moulmein. EASTERN EUROPE 4. Western export controls "threaten" Czech power industry
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.954870
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: Comment: Silicon carbide, which in certain forms is on the US Security Export Control List, is used in the manufacture of lightning arresters and grounding devices essential to prevent burning out of generators and transformer equipment. Czech industry would probably require only a small amount of this substance per year for this purpose. Silicon carbide is also used as an abrasive in the machine tool industry
+Token count: 66
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.994014
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

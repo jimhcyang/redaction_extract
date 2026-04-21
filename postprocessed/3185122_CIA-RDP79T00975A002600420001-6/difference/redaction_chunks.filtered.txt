@@ -1,0 +1,150 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.831781
+kept_candidate_count=1
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. USSR REPORTEDLY BACKS DOWN ON ASWAN DAM OFFER
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 4
+- original #1 segment 4: noncontent_keyword, short_span_min_tokens
+  Text: 3
+- original #1 segment 5: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 9
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.881855
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #6, segment 1)
+Text: The Saudis have asked $50,000,000 a year--or the equivalent in arms--for a new five-year agreement
+Token count: 19
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: acceptable
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: American
+- original #8 segment 1: short_span_min_tokens
+  Text: governments
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: 2. USSR REPORTEDLY BACKS DOWN ON ASWAN DAM OFFER The USSR has quietly implied to the Egyptian government that it finds itself unable to carry through on its offer to finance the Aswan High Dam and that the offer will have to be withdrawn. Comment While it has been rumored in the press that the USSR has grown cool to the idea of building the dam, this is the only report that Moscow may withdraw its previous offer. If the report is true, Moscow may have decided that such an extensive investment runs too great a risk of bogging down along the way and that shorter-range projects would offer more immediate returns in prestige and propaganda value for the USSR. A threatened withdrawal of the Soviet offer might account for Nasr's recently expressed desire to hasten an agreement with the West
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.921842
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: personal
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: proposed
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: neutralism
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Laotian
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: concurrently
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.931603
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reportedly
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: return
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: optimism
+- original #18 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Souphannouvong's intransigence
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: against
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.942342
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communiqu
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: considerable
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: long-term
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: agreements
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: ambassador
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.690909
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

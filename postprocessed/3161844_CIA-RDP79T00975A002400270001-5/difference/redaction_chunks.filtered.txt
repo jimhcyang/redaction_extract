@@ -1,0 +1,175 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.610417
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.930000
+kept_candidate_count=2
+excluded_candidate_count=8
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 3. SAUDI TERMS FOR OPENING TALKS UNACCEPTABLE TO BRITISH
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 2)
+Text: 6. SOVIET AMBASSADOR DENIES USSR IS HOSTILE TO ISRAEL (page 9). 7. CHINESE COMMUNIST AMBASSADOR LEAVES PAKISTAN
+Token count: 17
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #2 segment 3: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+- original #4 segment 3: noncontent_keyword
+  Text: page 10
+- original #5 segment 1: noncontent_keyword
+  Text: page 11
+- original #6 segment 1: noncontent_keyword
+  Text: page 12
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.995161
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #7, segment 1)
+Text: Prepared jointly with ORR
+Token count: 4
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 3. SAUDI TERMS FOR OPENING TALKS UNACCEPTABLE TO BRITISH Saudi Arabia has agreed to open direct talks with Britain provided the situation which existed in the Buraimi oasis region before the arbitration attempt last fall is restored. Comment - British rejection of the Saudi terms would encourage King Saud to take the issue to the UN Security Council, where he expects American support. London probably hopes eventually to reach a settlement by offering the Saudis territory elsewhere in Trucial Oman
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.874812
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #9, segment 1)
+Text: Concurred in by ORR
+Token count: 4
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.122449
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 6. SOVIET AMBASSADOR DENIES USSR IS HOSTILE TO ISRAEL The Soviet ambassador to Israel assured Foreign Minister Sharett that the USSR has no hostility toward Israel. He explained that after the conclusion of the Baghdad pact, which was directed against the USSR, Moscow gave aid to those Arab countries which opposed the pact. The Soviet ambassador also declared that the USSR is closely concerned with conditions
+- original #11 segment 1: full_page_or_admin
+  Text: this area, that it would not agree to the intervention of only the three Western powers in the Arab-Israeli dispute, and that such intervention must be made only through the United Nations. Comment - Khrushchev, in his 29 December speech to the Supreme Soviet, charged that Israel had pursued a hostile policy toward its Arab neighbors "ever since it came into being" and that the "imperialist powers" were using Israel as a tool to exploit the wealth of the Arab people
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: 7. CHINESE COMMUNIST AMBASSADOR LEAVES PAKISTAN Comment - Following Pakistan's prompt response to Soviet premier Bulganin's recent offer of a trade pact and coming before the proposed visit of Pakistan's premier and foreign minister to Peiping, these departures may presage further Sino-Soviet bloc political and economic overtures to Pakistan. The Chinese Communists apparently hope to dramatize their desire for more cordial relations with Pakistan and may send new staff members more competent in economic and technical aid matters. Han has served in Karachi since September 1951. He will probably be replaced by an official of higher rank
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.987231
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #5 (original #16, segment 1)
+Text: Israel moved two paratroop companies to Safad, about
+Token count: 8
+Recut: none
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: negotiations
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: precipitiously
+- original #15 segment 1: short_span_min_tokens
+  Text: an
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=0.981659
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #17, segment 1)
+Text: 10 miles west of Banat Yacov, presumably in readiness for a commando-type raid on Syrian positions which might open fire if work is resumed in the demilitarized zone
+Token count: 28
+Recut: none

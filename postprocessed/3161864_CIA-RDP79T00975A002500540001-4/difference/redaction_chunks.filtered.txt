@@ -1,0 +1,142 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.624148
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.764465
+kept_candidate_count=2
+excluded_candidate_count=8
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 1. USSR ASKS WHETHER MIKOYAN COULD VISIT COLOMBIA
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: 3. FRANCE READY FOR "FIRST STEP" TOWARD RECOGNITION OF PEIPING
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 3: noncontent_keyword
+  Text: page 5
+- original #4 segment 1: noncontent_keyword
+  Text: page 6
+- original #5 segment 1: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: page 7
+- original #5 segment 2: noncontent_keyword, short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: 26
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 56
+- original #6 segment 2: noncontent_keyword
+  Text: Current Intelligence Bulletin Page 2
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 1. USSR ASKS WHETHER MIKOYAN COULD VISIT COLOMBIA Comment This confirms that the Soviet government is considering a Latin American trip by Mikoyan. It seems likely that persistent rumors of the trip have been encouraged by the USSR as a means of testing Latin American receptivity to such a visit. Uruguay has expressed its willingness to receive Mikoyan. The excess of world production of coffee, Colombia's principal source of revenue, has caused the latter to seek new markets in Eastern Europe and the USSR. (Concurred in by ORR
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 26 May 56 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.986891
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: caretaker
+- original #9 segment 1: noncontent_keyword
+  Text: 26 May 56 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 3. FRANCE READY FOR "FIRST STEP" TOWARD RECOGNITION OF PEIPING France had informed Communist China that it was ready to open negotiations for the exchange of commercial representatives. this would be a first step toward the resumption of diplomatic relations, Comment France had limited this offer to commercial relations, and proposed restrictions against any other activity. The Mollet government expects increased cultural contacts, however, such as the government is seeking with Poland, Czechoslovakia and the USSR. Recognition of Communist China is a long-standing demand of Mollet's Socialist Party and there is considerable pressure for it in the National Assembly generally. The French see "normalization of relations" with Communist China as a step which cannot be long postponed
+- original #10 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 26 May 56 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.992357
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: 26 May 56 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.980418
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #15 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: T-34's
+- original #16 segment 1: short_span_min_tokens
+  Text: Press
+- original #16 segment 2: noncontent_keyword
+  Text: 26 May 56 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: noncontent_keyword
+  Text: 26 May 56 Current Intelligence Bulletin Page 8

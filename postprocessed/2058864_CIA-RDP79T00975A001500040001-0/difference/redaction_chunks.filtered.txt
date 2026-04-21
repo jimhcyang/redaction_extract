@@ -1,0 +1,159 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.560000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Off
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.895581
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: GENERAL 1. Balkan Pact powers to begin military talks on 24 March (page 3). SOVIET UNION 2. Petroleum sales essential to Soviet import program
+Token count: 24
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 4. First IL-28's fly to Chukotsk in the Soviet Far East (page 4). SOUTHEAST ASIA 5. Bao Dai's contacts with Viet Minh
+Token count: 22
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 2: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 10
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: GENERAL 1. Balkan Pact powers to begin military talks on 24 March: Comment: This, the fourth tripartite military conference, originally scheduled for February, was postponed at Turkey's request after high-level Turkish military representatives had become suspicious of Yugoslav motives and sincerity. The Turkish distrust was aroused by a report alleging that a secret Yugoslav mission had gone to Moscow, and by Yugoslav unwillingness to make certain intelligence on the Soviet army available to Turkey. The scheduling of the forthcoming meeting indicates that tripartite military cooperation is continuing and that Turkish suspicions may be somewhat allayed. While all three Balkan Pact powers apparently desire to give each other firm defense commitments, Greece and Turkey continue to be restrained by their NATO obligations. SOVIET UNION 2. Petroleum sales essential to Soviet import program
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.931188
+kept_candidate_count=3
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #6, segment 1)
+Text: Comment: Soviet bloc petroleum exports to the West, although insignificant in world trade channels, increased from 2,000,000 metric tons in 1952 to 3,000,000 in 1953. Commitments under current trade agreements call for an even greater expansion of exports this year. The growth of Orbit exports of petroleum and such other commodities as manganese and chrome ores, silver and platinum, can hardly compensate this year for the drastic decline in traditional Orbit exports of grain and timber. Thus the USSR may have to sell large quantities of gold or attempt to get long-term commercial loans from the West
+Token count: 101
+Recut: none
+
+Clean Chunk #4 (original #7, segment 1)
+Text: 4. First IL-28's fly to Chukotsk in the Soviet Far East: The first flight of jet light bombers into the Chukotsk region on 13 March (see
+Token count: 26
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #7, segment 3)
+Text: p. 5). Two IL-28's flew to Anadyr from Petropavlovsk on Kamchatka
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #7 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: map
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: SOVIET FAR EAST FLIGHT OF IL-28'S TO CHUKOTSK
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: Comment: From Anadyr, Soviet IL-28's could penetrate Alaska to a depth of 300 nautical miles from the shores of the Bering Strait. The first evidence of jet operations in the Chukotsk was noted in November 1952 with the arrival of a MIG-15 regiment at Provideniya. Operating from Provideniya, IL-28's could cover most of Alaska. Indications of airfield construction activity were noted at Anadyr, Velkal and Zaliv Kresta during 1953. SOUTHEAST ASIA 5. Bao Dai's contacts with Viet Minh
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.691217
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #10, segment 1)
+Text: Comment: Bao Dai has in the past admitted having contacts with the Viet Minh as a means of promoting defections. It is not believed that he is currently carrying on or contemplating any peace negotiations, or that he is in contact with the Viet Minh leadership
+Token count: 46
+Recut: none
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.928261
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #12, segment 1)
+Text: Comment: As of 15 March the cease-fire area was to be restricted to a small assembly area near the Thai border. To date, 4,700 Chinese have been withdrawn, and plans had been under discussion to bring out an additional 2,500 troops. Burma's attitude appears virtually to end all hopes that this latter group will come out. Rangoon's decision appears to reflect its confidence that the Burmese armed forces can bring under control the estimated 7,000 Chinese troops remaining in Burma. Burmese forces could achieve this objective, however, only at the cost of lessened military pressure on domestic Communists and other insurgent forces
+Token count: 105
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.972960
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: noncontent_keyword
+  Text: WESTERN EUROPE
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.974974
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

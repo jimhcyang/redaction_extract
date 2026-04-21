@@ -1,0 +1,93 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.735000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 2
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.938967
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 2. Soviet bombers scheduled to move to Manchuria
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 1: noncontent_keyword
+  Text: page 3
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 4
+- original #4 segment 1: noncontent_keyword
+  Text: page 5
+- original #4 segment 2: noncontent_keyword
+  Text: EASTERN EUROPE 6. Yugoslav trade with Soviet bloc
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.921431
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #5, segment 1)
+Text: 2. Soviet bombers scheduled to move to Manchuria: Comment: This is the first evidence of the deployment of Russian-manned tactical aircraft other than fighters to this area, which is suitable for operations against UN targets in Korea, in particular naval units off the east coast. The airfield at Tunhua may have been made available for the use of these aircraft by the transfer of a regiment of the 9th Chinese Air Division from this airfield
+Token count: 75
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.985190
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: unpublicized
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.951059
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #8, segment 1)
+Text: EASTERN EUROPE 6. Yugoslav trade with Soviet bloc: Pyrite was being shipped on Yugoslav Danube barges to Germany, where it was to be transshipped by rail to Poland and Czechoslovakia. West German authorities, however, were refusing to supply the necessary freight cars
+Token count: 42
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Comment
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: Comment: A Yugoslav state-controlled firm has been selling lead to a Western intermediary for resale to Czechoslovakia, and that another Yugoslav firm purchased a considerable quantity of brown coal briquets from the Satellite area which was resold in West Germany at a large profit. In the latter case, the Yugoslavs paid for the coal with Western European goods purchased with dollars in Switzerland. In addition to these specific instances of Yugoslav-Satellite trade there have been several reports during 1952 that Yugoslav trade representatives in Western Europe were willing to sell lead, pyrite, and other minerals to Soviet bloc purchasers through Western intermediaries, and an expansion of such trade. Available evidence indicates that the Yugoslav firms involved are aware of the ultimate purchasers' identities, and that they are negotiating these sales in spite of contrary instructions by the Belgrade government
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.994848
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

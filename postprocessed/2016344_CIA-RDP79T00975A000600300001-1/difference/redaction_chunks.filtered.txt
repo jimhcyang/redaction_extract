@@ -1,0 +1,105 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.624148
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No 43
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.937595
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #3, segment 1)
+Text: Soviet Ambassador to Sweden encourages Nordic Alliance
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 1)
+Text: Chinese Communist division in Korea receives gas masks
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #5, segment 1)
+Text: 5. Greek Government agrees with Turkey on NATO command (page
+Token count: 10
+Recut: none
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens
+  Text: USSR
+- original #3 segment 2: noncontent_keyword
+  Text: page 3
+- original #4 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: USSR Soviet Ambassador to Sweden encourages Nordic Alliance: On 17 March the Soviet Ambassador to Sweden reportedly expressed the opinion to Prime Minister Erlander that Sweden and the USSR should cooperate to their mutual advantage. The Ambassador hoped that the Nordic Alliance would become a reality and that Sweden would attempt to persuade Finland to join such a pact. Prime Minister Erlander indicated that his country had no wish to interfere in Finnish affairs. Comment: This report, if true, represents the first direct Soviet approach regarding a Nordic Alliance, and lends credence to previously reported rumors of Soviet interest in the subject. The primary objective of this maneuver is to prevent the further westward orientation of Sweden and the fulfillment of Norway's and Denmark's commitments in NATO. Previous tentative suggestions along this line have found no support in Scandinavian capitals. FAR EAST Chinese Communist division in Korea receives gas masks
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.924479
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #7, segment 1)
+Text: It is possible that the arrival of this equipment is linked with the recent expansion of Communist charges of American use of biological warfare in Korea to include use of chemical warfare. Gas masks are not believed to be standard equipment in either the Chinese Communist or North Korean army. The small size of this issue in relation to the 7,000 to 8,000 men in the 7th Artillery Division may indicate an initial delivery
+Token count: 76
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.937813
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #9, segment 1)
+Text: Greek Government agrees with Turkey on NATO command: The Greek Government has informed the Turkish Foreign Office that it will continue to act in concert with Turkey on NATO problems. Specifically, it assured Turkey that it will not agree to an Italian commander for Greek troops as long as Turkey is unwilling to accept him for Turkish troops. The Greek Government is considering suggesting that an Italian commander be appointed for a new western sector of Admiral Carney's land command and an American to command an eastern sector, which will include Greece and Turkey
+Token count: 94
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens
+  Text: new
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.994138
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.996502
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.990449
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,96 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.605203
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. USSR MAKES NEW OVERTURE FOR TURKISH FRIENDSHIP
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 3. PHILIPPINES SEEKING FURTHER DATA TO BOLSTER POSITION ON AMERICAN BASES
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 6
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 1. USSR MAKES NEW OVERTURE FOR TURKISH FRIENDSHIP A renewal of Soviet attempts to establish a closer political-economic rapport with Iran and Turkey can be expected. Widely publicized offers of economic aid "without political strings," such as that recently made to Iran, will increase popular pressure on the governments of Turkey and Iran, but neither of the present governments is likely to accept Soviet aid
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.944617
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: some-time
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 3. PHILIPPINES SEEKING FURTHER DATA TO BOLSTER POSITION ON AMERICAN BASES The Philippine Foreign Ministry requested up-to-date reports on the status of United States armed forces or bases in foreign countries. Specific information on arrangements regarding criminal jurisdiction, tax exemptions, and settlement of civilian claims was requested for the use of the Philippine panel in the current negotiations on American bases. Comment During the negotiations now in recess, the Filipinos have proved well informed on jurisdictional arrangements with NATO countries and Japan
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.951750
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #9, segment 1)
+Text: of at least five brigades
+Token count: 5
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Israeli-Jordanian
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache

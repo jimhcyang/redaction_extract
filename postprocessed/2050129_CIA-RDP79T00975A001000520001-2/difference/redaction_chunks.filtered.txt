@@ -1,0 +1,81 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.703454
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. 53
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.969444
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 2. USSR makes trade offer to Argentina (page 3). SOVIET UNION 3. Modern Soviet radar coverage extended to Caspian Sea
+Token count: 20
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.988462
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 2. USSR makes trade offer to Argentina: the USSR was willing to provide a variety of exports, including
+Token count: 18
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: petroleum, agricultural machinery, equipment for petroleum exploitation, chemical products, precision instruments, coal railroad cars, electrical machines and various raw materials. the USSR would accept in exchange products like hides, which Argentina can easily supply. While several of the commodities listed are being exported by the USSR to Western countries, electrical machines, precision instruments, rolling stock, and machinery for petroleum exploitation are in short supply in the Orbit. SOVIET UNION 3. Modern Soviet radar coverage extended to Caspian Sea: Modern Soviet CPS-6 type radar installations have been identified at Linjfakan and Yerevan in the Armenian Republic. Comment: These two additional locations extend modern radar coverage, already noted on the Western approaches to the USSR, along the southern frontier to the Caspian Sea. Similar coverage is being developed in the Far East. The presence of these new sites is a further indication that such equipment may be operational along all the most important approaches to the USSR
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

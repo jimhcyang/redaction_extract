@@ -1,0 +1,85 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.610417
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.523125
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. SOVIET JET HEAVY BOMBER SPECIALLY PREPARED FOR HIGH-YIELD NUCLEAR WEAPON DELIVERY OR OTHER TEST ACTIVITIES
+Token count: 16
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 5
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 1. SOVIET JET HEAVY BOMBER SPECIALLY PREPARED FOR HIGH-YIELD NUCLEAR WEAPON DELIVERY OR OTHER TEST ACTIVITIES Comment This is the first report of a Soviet aircraft with its underside painted white. The US has successfully used white paint to re- duce to safe limits the effects of thermal radiation on the surfaces of aircraft associated with the delivery of high- yield weapons. On 2 November heavy bombers were sighted on the airfield at Ramenskoye, a flight test center of the Ministry of Aviation Industry. On 16 November a high-performance aircraft was scheduled from this field to Semipalatinsk, where tests of air-dropped, large-yield nuclear weapons were in progress. The coincidence be- tween the first sighting of a white-painted aircraft and the first Soviet air drops of high-yield weapons suggests that the aircraft apparently landing at Ramenskoye, southeast of Moscow, may have been used in weapon drops or in other activities connected with the recent Soviet nuclear weapons tests. The sighting in any case indicates that at least one BISON has been specially prepared for deliver- ing or participating in tests of high-yield nuclear weapons. (Prepared jointly by OCI and OSI
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.892890
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #2 (original #10, segment 1)
+Text: An important factor in the immediate fu- ture will be the attitude of Saudi Arabia. A number of the new cabinet members, including the prime minister, have enjoyed close relations and financial aid from the Saudis. Having ob- tained a government opposed to the Baghdad pact, Saudi Arabia may now throw the weight of its influence on the side of sta- bility
+Token count: 62
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Min- ister
+- original #6 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- portedly
+- original #7 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Egyptian- Syrian-Saudi
+- original #8 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: be- lieves
+- original #9 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: how- ever
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.690909
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=6 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

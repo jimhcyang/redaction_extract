@@ -1,0 +1,64 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.549351
+
+Chunk #1
+Predicted text: top secret security information 17 may 1952
+Unredacted context: [UNRED_ONLY: top secret security information 17 may 1952] current intelligence bulletin
+Redacted context: [R@0] current intelligence bulletin state
+
+Chunk #2
+Predicted text: security information
+Unredacted context: agency top secret [UNRED_ONLY: security information]
+Redacted context: [L@15] intelligence agency top secret 17 may 1952
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.945000
+
+Chunk #3
+Predicted text: far east
+Unredacted context: summary [UNRED_ONLY: far east] 1 three more
+Redacted context: [L@0:summary] [RED_GAP:<empty>] [R@1:1] eastern europe 3
+
+Chunk #4
+Predicted text: three more russian fighter units located on korea-manchuria border page 3
+Unredacted context: far east 1 [UNRED_ONLY: three more russian fighter units located on korea-manchuria border page 3] eastern europe 2
+Redacted context: summary [L@1:1] [RED_GAP:<empty>] [R@2:eastern] europe 3 french
+
+Chunk #5
+Predicted text: 2 yugoslavia proposes military talks to greece page 3
+Unredacted context: 3 eastern europe [UNRED_ONLY: 2 yugoslavia proposes military talks to greece page 3] 3 french report
+Redacted context: summary 1 eastern [L@3:europe] [RED_GAP:<empty>] [R@4:3] french report bulgarian
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+
+Chunk #6
+Predicted text: far east 1 three more russian fighter units located on korea-manchuria border three additional russian fighter units probably regiments became active on the ground comment the chinese moved one or two jet divisions to antung in the past month with these new soviet units the number of jets in the yalu river area is estimated at 500 since 13 april un pilots have on several occasions observed 450-500 jets on fields in this area eastern europe 2 yugoslavia proposes military talks to greece the yugoslav deputy foreign minister has informed the greek minister in belgrade of his government's willingness to begin military talks with greece he stated that the yugoslav general staff soon would present an agenda and proposed arrangements for the talks to the greek military attache in belgrade and that yugoslavia wished to conduct the discussions with the greeks alone the under secretary of the greek foreign office has stated that his government will authorize its military attache in belgrade to proceed with the talks and will not inform the turks until the situation crystallizes
+Unredacted context: [UNRED_ONLY: far east 1 three more russian fighter units located on korea-manchuria border three additional russian fighter units probably regiments became active on the ground comment the chinese moved one or two jet divisions to antung in the past month with these new soviet units the number of jets in the yalu river area is estimated at 500 since 13 april un pilots have on several occasions observed 450-500 jets on fields in this area eastern europe 2 yugoslavia proposes military talks to greece the yugoslav deputy foreign minister has informed the greek minister in belgrade of his government's willingness to begin military talks with greece he stated that the yugoslav general staff soon would present an agenda and proposed arrangements for the talks to the greek military attache in belgrade and that yugoslavia wished to conduct the discussions with the greeks alone the under secretary of the greek foreign office has stated that his government will authorize its military attache in belgrade to proceed with the talks and will not inform the turks until the situation crystallizes]
+Redacted context: (no redacted anchors available)
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.957927
+
+Chunk #7
+Predicted text: comment this is the first definite yugoslav approach to greece on military talks and apparently is in reply to a recent request by the greek chief of staff for immediate staff talks the yugoslavs wish to avoid any kind of formal military agreement that would tie them to nato and probably will limit the talks to coordination of greek-yugoslav plans for defense of adjacent areas of the two countries
+Unredacted context: [UNRED_ONLY: comment this is the first definite yugoslav approach to greece on military talks and apparently is in reply to a recent request by the greek chief of staff for immediate staff talks the yugoslavs wish to avoid any kind of formal military agreement that would tie them to nato and probably will limit the talks to coordination of greek-yugoslav plans for defense of adjacent areas of the two countries] 3 french report
+Redacted context: [R@0] 3 french report bulgarian
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.995025
+
+Chunk #8
+Predicted text: an
+Unredacted context: especially pleased that [UNRED_ONLY: an] allied-sponsored un investigation
+Redacted context: was especially pleased [L@8:that] [RED_GAP:as] [R@10:allied-sponsored] un investigation was

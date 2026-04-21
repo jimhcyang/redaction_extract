@@ -1,0 +1,61 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.702500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.947826
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: WESTERN EUROPE 4. Adenauer informs France of his conditions on modifying EDC
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: FAR EAST
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.994231
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: FAR EAST
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.991398
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: ARAMCO is prepared to shut down and even face nationalization rather than load an Onassis tanker
+Token count: 16
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: WESTERN EUROPE 4. Adenauer informs France of his conditions on modifying EDC: at the Brussels EDC ministerial meeting on 19 August, Adenauer will not accept any French proposal which would compel the Bundestag to re-examine EDC, would result in any delay in the treaty's implementation, or would limit the supranational powers established in the treaty. The French minister to the EDC Interim Committee has expressed the belief that Premier Mendes-France will take these requirements into consideration. The French government has also indicated that prior to the Brussels meeting, it will inform the participating governments of its proposals for modifying the treaty. Comment: While Adenauer will steadfastly hold to his position on not resubmitting the treaty to the Bundestag for changes, he may be willing to commit himself to a modification of the treaty's supranational powers after it has been adopted

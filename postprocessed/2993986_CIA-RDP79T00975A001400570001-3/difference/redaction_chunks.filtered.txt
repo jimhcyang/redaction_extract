@@ -1,0 +1,103 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.967961
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 4. French officials say Ho Chi Minh still alive
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 7. Moroccan terrorists reportedly plan to assassinate sultan
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 5
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+- original #3 segment 1: short_span_min_tokens
+  Text: NOTE
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.981203
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #4, segment 1)
+Text: expressed the opinion that the
+Token count: 5
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.992054
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #5, segment 1)
+Text: see item 4 of
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 2: noncontent_keyword
+  Text: Current Intelligence Bulletin
+- original #5 segment 3: noncontent_keyword
+  Text: 20 February
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.724673
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #6, segment 1)
+Text: 4. French officials say Ho Chi Minh still alive: They base their conviction, however, solely on Viet Minh radio statements of Ho's presence at key political or propaganda meetings. The reporting office comments that the veneration of Ho in Viet Minh propaganda both for internal and external consumption continues undiminished, and that in view of the impending Geneva negotiations, it is doubtful that Communist leaders would pursue this build-up if Ho were dead. Comment: Ho Chi Minh was last seen by a non-Communist in May 1947, but an editor of the New York Daily Worker claims to have interviewed him in March of last year. Ho's public statements are almost invariably broadcast in Morse. In the rare cases of voice broadcasts, it has not been possible to determine whether or not the speaker was actually Ho
+Token count: 136
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.944094
+kept_candidate_count=2
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #7, segment 1)
+Text: The Afghans may be expected to continue to explore the possibility of extracting benefits from a Turkish-Pakistani pact, however, and as a result are likely to make additional moves toward settling their Pushtoonistan dispute with Pakistan
+Token count: 36
+Recut: none
+
+Clean Chunk #7 (original #8, segment 1)
+Text: 7. Moroccan terrorists reportedly plan to assassinate sultan
+Token count: 8
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.951478
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #8 (original #9, segment 1)
+Text: Security precautions for the sultan's trips outside his palace have been extremely rigid since the Moroccan terrorist attempt on his life last September. The French have recently shown greater optimism on their ability to control terrorism, but the resident general asked the US air force in Morocco to provide six bullet-proof vests not later than 22 February. A successful attempt on the sultan's life would probably provoke widespread disorders and force the French to undertake a new campaign of repression
+Token count: 80
+Recut: none

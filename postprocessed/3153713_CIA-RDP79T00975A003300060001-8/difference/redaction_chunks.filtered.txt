@@ -1,0 +1,121 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.787500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.683722
+kept_candidate_count=3
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. SYRIA REQUESTS VISIT BY SOVIET FLEET TO COUNTER WESTERN MOVES
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. KING SAUD'S VIEWS REGARDING SYRIA (page 4). 3. NEW SOVIET NUCLEAR EXPLOSION
+Token count: 13
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #2, segment 2)
+Text: 6. ADENAUER'S CAMPAIGN MANAGER FEARS PARTY HIT PEAK TOO SOON
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: page 7
+- original #2 segment 3: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: 1. SYRIA REQUESTS VISIT BY SOVIET FLEET TO COUNTER WESTERN MOVES Syria ordered its military attache in Moscow to request that the "Russian fleet" immediately pay a "friendly visit" to the Syrian port of Latakia "because it would be appreciated by the Syrian people and because it would strengthen Syria's position." Comment The Soviet Union may accept the Syrian invitation as an opportunity for making a gesture of support for Syria. A Soviet Baltic Fleet cruiser and a destroyer are now in the Mediterranean for a scheduled goodwill visit to Yugoslavia. These units could be sent on to Latakia. The size of the visiting group would be of little importance either to the Syrians or the Soviet Union, since the significance of such a visit would lie in the gesture itself
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.124429
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: KING SAUD'S VIEWS REGARDING SYRIA Reference: Saud has not yet established a firm policy toward Syria, but that Saudi policy will avoid any "physical" action against fellow Arabs for the benefit of non-Arabs. the Saudis will attempt to avoid a diplomatic break with Syria unless they are seriously provoked
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 3. NEW SOVIET NUCLEAR EXPLOSION Comment This is the 37th Soviet nuclear test detected and the ninth known to have occurred this year. The latest nuclear explosion may be part of the operations associated with Soviet air and naval maneuvers which, according to public announcement, will be held in this area from 10 September to 15 October
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.959134
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.965482
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 6. ADENAUER'S CAMPAIGN MANAGER FEARS PARTY HIT PEAK TOO SOON Franz Meyers, campaign manager of Chancellor Adenauer's Christian Democratic Union (CDU), told American representatives on 4 September that he is afraid the CDU hit its campaign peak too soon. He had favored a last-minute effort to get out the vote and win the uncommitted voters with an argument that security and stability were at stake. Adenauer has been stressing this theme hard for weeks, however, and Meyers feels the CDU has no new ammunition left to counter surprise tactics by the opposition. Meyers nevertheless believes the present coalition will win a Bundestag majority and also that the CDU has some chance to win a majority by itself. In North Rhine-Westphalia, the Duesseldorf consulate general predicts a 45-46 percent return for the CDU and a 37-38 percent return for the Social Democratic party. Comment If the CDU declines appreciably from the 48.9 percent it won in North Rhine-Westphalia in 1953, it is not likely to gain a majority by itself. The country's most populous state, North Rhine-Westphalia will elect about 30 percent of the Bundestag deputies
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.977027
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

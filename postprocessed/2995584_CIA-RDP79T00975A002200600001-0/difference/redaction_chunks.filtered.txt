@@ -1,0 +1,151 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.536364
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.980519
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 5. SOVIET BLOC ARMS REPORTED ARRIVING IN AFGHANISTAN
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.996466
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.986683
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens
+  Text: He
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 5. SOVIET BLOC ARMS REPORTED ARRIVING IN AFGHANISTAN One hundred twenty Afghan trucks left Kabul about 25 October to pick up arms at Kelif on the Afghan-Soviet border, in the transport division of the Afghan Defense Ministry. Forty more trucks reportedly left Kabul about 1 November for the same purpose, and another 40 were to leave a few days later. Comment These are probably Czech arms acquired under a $3,000,000 cash deal negotiated last August. They presumably consist primarily of light weapons and ammunition to remedy shortages revealed during mobilization of the Afghan army in May of this year. This would be the first substantial quantity of arms received by Afghanistan since British shipments early in World War II. Prime Minister Daud may attempt to use the arrival of the arms in Kabul about the time of the Grand Tribal Assembly on 14 November to demonstrate the success of his policy of closer relations with the Soviet bloc
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.993697
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #5, segment 1)
+Text: Manila 9 Nov 55 Press
+Token count: 5
+Recut: none
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.988014
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #7, segment 1)
+Text: However, aftereffects of the clash near Eilat on 8 November are apparent
+Token count: 12
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: 1300
+- original #8 segment 1: short_span_min_tokens
+  Text: Press
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.972794
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #9, segment 1)
+Text: the weapons Egypt has received from the Soviet bloc do not conform with those requested by the Egyptian army, being a mixture of old and new. five MIG's have been lost in flight operations in Egypt
+Token count: 36
+Recut: none
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens
+  Text: Press
+
+========================================================================
+[PAGE 13]
+kind=red_only red_source_page=12 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

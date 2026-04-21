@@ -1,0 +1,263 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.716667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.906667
+kept_candidate_count=3
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. SUKARNO WARNED TO LIMIT COMMUNIST INFLUENCE IN "REVOLUTIONARY COUNCIL" (page 5). 3. EGYPTIAN FOREIGN MINISTER EXPECTS CLASH OVER CANAL TOLLS
+Token count: 21
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 2)
+Text: 5. TENSION OVER THE KASHMIR ISSUE (page 8). 6. YEMEN TO RECEIVE SOME CZECH ARMS VIA EGYPT
+Token count: 17
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 8. JAPAN'S POLICY ON OKINAWA AND BONINS OUTLINED
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 6
+- original #2 segment 1: noncontent_keyword
+  Text: page 7
+- original #2 segment 3: noncontent_keyword
+  Text: page 9
+- original #3 segment 2: noncontent_keyword
+  Text: page 11
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.944231
+kept_candidate_count=0
+excluded_candidate_count=10
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: Comment on
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: January
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: international
+- original #7 segment 1: short_span_min_tokens
+  Text: to
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communist
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: American
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communiqu
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: relations
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: against
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: among
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.914610
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communiqu
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: include
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: prevent
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: leaving
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.122133
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: 2. SUKARNO WARNED TO LIMIT COMMUNIST INFLUENCE
+- original #19 segment 1: full_page_or_admin
+  Text: REVOLUTIONARY COUNCIL" Leaders of the Nahdlatul Ulama (NU), the second largest party in the cabinet, have rejected the idea of a "revolutionary council" with strong Communist participation as outlined by President Sukarno. They warned Sukarno that if Communist influence becomes dominant in any future governing body for Indonesia, the NU will promote a "holy war" against the Communists. At the same time they notified him that the NU will withdraw from the Ali cabinet on or about 21 January when parliament reconvenes. The PSII, a minor Moslem party, also will withdraw. Sukarno hopes to ditch the anti-Communist Masjumi party entirely and accomplish his personal ambitions through the National and Communist parties and the NU. However, he has decided to confer with former vice president Hatta, who is strongly anti-Communist, and non-Communist parties apparently hope Hatta can force Sukarno to compromise. Comment The NU's withdrawal from the cabinet would bring about its collapse. The army will probably join the non-Communist parties in resisting Communist participation in the council. In the face of Sukarno's insistence and continued government deterioration, however, most of these elements are likely to agree to leftist "nonparty" participants who would be susceptible to Communist direction
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 Jan 57 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: 3. EGYPTIAN FOREIGN MINISTER EXPECTS CLASH OVER CANAL TOLLS Egyptian foreign minister Fawzi expects a "showdown" with the West over the question of Suez Canal toll collection. Fawzi stated that the US, Britain, and France "are preparing" to promote the idea that the United Nations, rather than Egypt, should collect the tolls, and that these countries will "let the whole world climb on our shoulders." "That is going to be a matter of conflict that we cannot sidetrack. Egypt will be the one to collect the dues, and the boat that is first to pay will be the first to go through. The ship that does not pay will not enter. That is the conclusion and we cannot retreat from it." Fawzi added he had received a telegram from Nasr on 15 January telling him "absolutely" not to initiate any action with regard to a solution of the canal matter. Comment Lebanese foreign minister Malik said after his recent visit to Cairo that Nasr told him he had no intention of being dictated to by either the UN or the Western powers. Nasr added that if the UN did not approve of his method of operation of the canal and attempted economic sanctions, he would obtain financial support from the Soviet Union. He also said, according to Malik, that he would never permit the transit of Israeli vessels
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 Jan 57 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.936955
+kept_candidate_count=0
+excluded_candidate_count=10
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: noncontent_keyword
+  Text: Comment on
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: parliamentary
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: regime-favored
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: prudence
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: sabotage
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: election
+- original #27 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Peasant
+- original #28 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: members
+- original #29 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: collaborating
+- original #30 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: candidates
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #31 segment 1: full_page_or_admin
+  Text: 5. TENSION OVER THE KASHMIR ISSUE Comment on: Tension reportedly is building up in both India and Pakistan in anticipation of the discussion that will follow India's presentation of its case on Kashmir before the UN Security Council on 23 January. The Pakistani proposals presented on 16 January, which call for the introduction of a UN force into Kashmir and the implementation of the longstanding plebiscite agreement, are completely unacceptable to India. Each country is charging the other with troop movements and aggressive intentions. Anti-Indian feeling there is at such a pitch that hostilities might result if the UN does not prevent integration of Indian-held Kashmir into India on 26 January, India's Republic Day. While there is always a possibility of some tribal outbreaks, open warfare is not in the interest of either country and no significant troop movement has been confirmed. The Pakistani government, which strictly controls tribal elements, would almost certainly exert maximum efforts to prevent an uprising until all UN resources have been exhausted
+- original #31 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 Jan 57 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.122619
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #32 segment 1: full_page_or_admin
+  Text: 6. YEMEN TO RECEIVE SOME CZECH ARMS VIA EGYPT Comment on: Czechoslovakia offered on 12 January to deliver "small arms and airplanes" ordered by Yemen to Egypt by the first of February if Yemen could transship them. The small arms presumably are rifles which Yemen has indicated it would airlift. The airplanes are two helicopters for the imam's personal use; they will be operated by Soviet bloc personnel. The Yemeni minister
+- original #33 segment 1: full_page_or_admin
+  Text: Cairo also informed the imam that delivery of "the heavy arms" would be resumed when the Suez Canal was reopened to traffic. Soviet bloc military specialists are already engaged in training Yemeni personnel in the use of military equipment which arrived in Yemen in early October
+- original #33 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 Jan 57 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.967873
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #34 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government
+- original #35 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government
+- original #36 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: considered
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #37 segment 1: full_page_or_admin
+  Text: 8. JAPAN'S POLICY ON OKINAWA AND BONINS OUTLINED Foreign Minister Kishi informed the Japanese ambassador in Washington on 9 January that Japan regards the status of the Ryukyu and Bonin Islands as a matter to be dealt with by Japan and the United States rather than by the UN. Kishi said the legal position of the islands was unchanged by Japan's membership in the UN. If the matter were raised in the UN it would "uselessly antagonize" the United States and might be used as propaganda by the USSR. Kishi noted that the prospect is for the United States to continue its "strategic hold" on the islands "for the time being." Kishi said the government can foresee an ever-increasing emotional appeal on the part of the Japanese people for the complete return of the islands. He added that the government intends to answer this appeal "by relying on the good faith of the United States and doing all we can to further a realistic settlement of the issue." Comment With the probability of general elections this year, the government feels constrained to take some action on this issue. Exploitation of the Okinawa land question by the Socialists helped them make gains in the upper house election in 1956 and they are continuing to make "Okinawa reversion" a paramount political issue. The government has already decided to make token compensation to Okinawans for use of land by American forces during the occupation period and probably will accept an American invitation to send a Diet delegation to Okinawa in the near future
+- original #37 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 19 Jan 57 Current Intelligence Bulletin Page 11
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=11 unred_source_page=13
+alignment_score=0.934236
+kept_candidate_count=0
+excluded_candidate_count=8
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #38 segment 1: noncontent_keyword
+  Text: Comment on
+- original #39 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: January
+- original #40 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: technological
+- original #41 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Bulganin-Khrushchev
+- original #42 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: quantity
+- original #43 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: procuring
+- original #44 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: disillusionment
+- original #45 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Burmese
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=12 unred_source_page=14
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #46 segment 1: full_page_or_admin
+  Text: CORRECTION TO ITEM 1
+- original #46 segment 2: full_page_or_admin, noncontent_keyword
+  Text: PAGE 3
+- original #46 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: OF
+- original #46 segment 4: full_page_or_admin, noncontent_keyword
+  Text: CURRENT INTELLIGENCE BULLETIN
+- original #46 segment 5: full_page_or_admin
+  Text: DATED 18 JANUARY 1957 The first sentence of the comment should read: "While it would be in Egypt's interest to exaggerate what may have been a general and unspecific Soviet proposal, Moscow is likely to increase its economic aid to Egypt, which until now has been relatively small
+- original #46 segment 6: full_page_or_admin, noncontent_keyword
+  Text: 19 Jan 57 Current Intelligence Bulletin Page 13

@@ -1,0 +1,97 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.675325
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: DOCUMENT NO
+- original #1 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: 72
+- original #1 segment 3: noncontent_keyword
+  Text: NO CHANGE IN CLASS
+- original #1 segment 4: noncontent_keyword
+  Text: DECLASSIFIED CLASS. CHANGED TO: TS S C NEXT REVIEW DATE: 2009 AUTH: HR 70-2 DATE: 20/12/79
+- original #1 segment 5: noncontent_keyword, short_span_min_tokens
+  Text: REVIEWER
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.836646
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #2, segment 1)
+Text: GENERAL 1. USSR orders substantial fuel shipments to Korea
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: SOUTHEAST ASIA 3. Indonesian Moslem leader sees crisis approaching
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #4, segment 1)
+Text: 4. Iranian Communists reportedly receiving arms from Soviet Union
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+- original #3 segment 2: noncontent_keyword
+  Text: page 4
+- original #4 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.927602
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: GENERAL 1. USSR orders substantial fuel shipments to Korea: Comment: The amount of jet fuel would provide for up to 8,000 hours of jet fighter flying time. The North Korean air force is currently estimated to have 170 MIG-15's and 40 jet light bombers
+Token count: 45
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: SOUTHEAST ASIA 3. Indonesian Moslem leader sees crisis approaching: Mohamed Natsir, chairman of the opposition Masjumi Party, anticipates increasing arrests of his party's members and expects a serious crisis to develop in Indonesia in about a month. Natsir reportedly stated that there would be Moslem revolts throughout Indonesia if an attempt were made to arrest him. Comment: Natsir's prediction of an early crisis is well founded. The division between the Communist-influenced government and the conservative opposition headed by the Masjumi has widened considerably in the past several weeks and security conditions have deteriorated seriously through the islands. Meanwhile the leftist defense minister is reported to have appointed four Communists as his chief advisers and to have convinced the premier of the necessity of arresting Masjumi and Socialist leaders. NEAR EAST - AFRICA 4. Iranian Communists reportedly receiving arms from Soviet Union: The weapons allegedly have been distributed to Tudeh members who plan to cut all communications and then assassinate anti-Communist officers
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.940658
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #5 (original #7, segment 1)
+Text: Comment: There is no indication that the Tudeh is heavily armed. Iranian security forces are alert to the Tudeh threat and any action by the party will probably be confined to sporadic sabotage attempts such as the recent relatively unsuccessful attacks on aircraft and navy installations
+Token count: 46
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: on
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.912821
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

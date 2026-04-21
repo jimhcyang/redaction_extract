@@ -1,0 +1,90 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.625000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: 10 June 1953 COPY NO. 8
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.693008
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 2. Aviation fuel shortage in Sakhalin-Kuril area
+Token count: 7
+Recut: none
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 7. Egypt considers financial aid to Libya
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: FAR EAST
+- original #4 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.923953
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: 2. Aviation fuel shortage in Sakhalin-Kuril area: A shortage of fuel for conventional and jet aircraft existed in the Sakhalin-Kuril area during April and May. Flying activity was greatly restricted during this period, and Soviet defensive capabilities were undoubtedly lessened. The situation had apparently eased by 1 June, when a greater number of aircraft were noted active, but transmissions stating the aircraft would be airborne only from 20 to 40 minutes indicated the supply was still limited. Comment: The aviation fuel shortage in these areas is probably due to limited local transportation facilities, as the capacity of refineries in the Maritime District is believed adequate to meet current requirements
+Token count: 109
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.993243
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: demonstrators
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.995868
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Nagib
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.918868
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #8, segment 1)
+Text: 7. Egypt considers financial aid to Libya: Comment: This is the first evidence that Egypt is considering financial aid to Libya. The state is at present dependent on Britain, which under terms of a temporary agreement, covers the annual deficit amounting to more than $3,000,000 for 1952-53. Substantial aid from Cairo would considerably increase Egyptian influence at the expense of the West and would further orient Libya toward the Arab Middle East, a trend which started when it joined the Arab League last March
+Token count: 86
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

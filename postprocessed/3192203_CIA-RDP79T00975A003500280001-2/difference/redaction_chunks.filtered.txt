@@ -1,0 +1,94 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.973158
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.906250
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. BONN STUDYING POLISH PROPOSAL FOR ATOM-FREE ZONE (page 4). 3. INDONESIAN LOAN REPAYMENT SUSPENSION MAY PROVOKE DUTCH RETALIATION
+Token count: 19
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.999010
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: Comment on
+
+========================================================================
+[PAGE 05]
+kind=red_only red_source_page=4 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.122107
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 2. BONN STUDYING POLISH PROPOSAL FOR ATOM-FREE ZONE Comment on: Bonn is "studying" the proposal made by Polish Foreign Minister Rapacki on 9 De- cember for an atom-free zone
+- original #5 segment 1: full_page_or_admin
+  Text: Central Europe. While Chancellor Adenauer has publicly described the plan as an "illusion," it is now being examined in connection with the West German reply to Bulganin's note of 10 December, which included similar pro- posals. The Bonn Foreign Ministry is re- ported to prefer the Rapacki plan if such a topic is discussed in East-West talks, since it feels this is less directly linked with a West German agree- ment with East Germany than the Bulganin proposal. Bonn's answer, expected to be sent in mid- January, will present a detailed explanation of the West German position on the points raised by Bulganin, in an attempt to nar- row differences between East and West, according to the West German ambassador to Tokyo. Bonn's more favorable attitude toward the Rapacki plan is a reflection of mounting public pressure for East-West talks on specific issues rather than on generalities. President Heuss' New Year's message supporting George Ken- nan's call for a return to secret diplomacy was well received. The American Embassy in Bonn comments that Heuss' remarks are symptomatic of increased enthusiasm in intellectual circles for a way out of the current impasse
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 3. INDONESIAN LOAN REPAYMENT SUSPENSION MAY PROVOKE DUTCH RETALIATION Comment on: protesting an Indonesian government decision to suspend payments of redemptions and interest on a large Dutch loan. the $74,000,000 loan made by the Netherlands was not part of the 1949 round- table agreements. while annulment of the round-table agreements could be justified as retaliation over the West Irian issue, Indonesia's suspension of its obliga- tions under this separate loan would impair the country's international standing and its efforts to enlist foreign sup- port for its economic and financial measures against the Dutch. the Dutch are considering counter- measures. the Dutch need only to modify their guarantee to back up Indonesian purchases abroad to create great difficulties for Indonesia, and that "it would be even worse if they annul it." Sjarfuddin, governor of the Bank of Indonesia, does not approve of the government's decision to renege on its loan obligations but was forced to go along. Sjarfuddin, a prominent Masjumi party leader who recently denounced the government's economic excesses against the Dutch, might be chosen to form a new cabinet
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.958824
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #2 (original #8, segment 1)
+Text: about 10 January, The person- alities involved in an anticipated simul- taneous shake-up of the top army com- mand indicate that pro-Western influence will remain dominant
+Token count: 26
+Recut: none
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: Comment on

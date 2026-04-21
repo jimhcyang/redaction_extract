@@ -1,0 +1,65 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.943103
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 2. DIEM ANTICIPATES INCREASED VIET MINH TERRORISM IN SOUTH
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 2. DIEM ANTICIPATES INCREASED VIET MINH TERRORISM IN SOUTH The Viet Minh plans a considerable increase of terrorism in South Vietnam, The Viet Minh effort is expected to be directed at preventing further extension of government control and at interfering with the training program of the Vietnamese army. The remnant forces of Hoa Hao rebel Ba Cut in southwest Vietnam, which appear to have been taken over by the Viet Minh, are showing signs of activity. This activity follows the transfer to training centers of army units which had been deployed against the Ba Cut reb- els. Comment To date the Viet Minh has been cautious in promoting terrorism in the south, probably because of a need to develop increased capabili- ties. Vietnamese army operations have greatly reduced the capabilities of the rebel sect forces, but the rem- nants of these forces are probably now more willing to co- operate with the Viet Minh
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=6 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

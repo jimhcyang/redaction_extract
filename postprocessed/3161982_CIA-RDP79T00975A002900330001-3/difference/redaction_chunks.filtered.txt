@@ -1,0 +1,126 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.768182
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.703125
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. ARAB TRIBES IN IRAN REPORTEDLY BEING ARMED
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 1)
+Text: 6). 5. FRENCH CHARGE IN LAOS UNSYMPATHETIC TO US-UK POLICY THERE
+Token count: 11
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.842571
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #3 (original #4, segment 1)
+Text: At this rate of delivery, essentially all of the Soviet arms contracted for in November 1956 ($25,000,000 worth) will be delivered during the first quarter of 1957. the military
+Token count: 31
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: consisting
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: multiple-barreled
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: delivery
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: airfield
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: indicate
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: 2. ARAB TRIBES IN IRAN REPORTEDLY BEING ARMED The Iranian chief of staff notified army headquarters in southern Iran on 16 January that arms were being smuggled from Bahrein and Kuwait to the Arab tribes in Iran "for political aims related to the Arab League!" The chief of staff emphasized the "vital importance" of the ports and oil installations in the area and ordered strict surveillance to be maintained. Comment The smuggling of arms to Arab tribes in Iran, under Arab League auspices, would suggest that Nasr may plan to expand harassment of Western oil operations. Smuggling of arms from Kuwait and Bahrein would be merely an extension of Egyptian covert channels to these areas. Security precautions in the oil areas are believed to be good, but isolated acts of sabotage, especially of the pipelines between the oil fields and the Abadan refinery, would be possible
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.921395
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: apparently
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: coalition
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Nahdlatul
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: dissident
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: essential
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.925789
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: noncontent_keyword
+  Text: Comment on
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soviet
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: oppression
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: 5. FRENCH CHARGE IN LAOS UNSYMPATHETIC TO US-UK POLICY THERE Comment on: The British ambassador in Vientiane has concluded that the French cannot be counted on to support US-UK efforts to block the entry of Pathet Lao officials into the Laotian cabinet. The American ambassador comments that Soulie has advised Paris not to oppose the formation of a coalition government but to support the Laotian government's 28 December agreement with the Pathet Lao. The French may feel that by avoiding close identification with US-UK policy they will be in a position to increase their influence in a unified Laos

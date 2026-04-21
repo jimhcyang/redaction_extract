@@ -1,0 +1,401 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.860218
+kept_candidate_count=2
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Congo: Reprisals against whites in Kivu Province. (Page 1) 2. UAR apparently preparing anti-US campaign
+Token count: 16
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 3) 4. Angolan authorities ask Lisbon for arms; revolt in Malange area of northern Angola
+Token count: 15
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: Page 1
+- original #2 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 5
+- original #3 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 6
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: agreement
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+- original #6 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+- original #7 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 18 February 1961 DAILY BRIEF
+- original #8 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Congo: Reprisals against whites apparently are increasing in Kivu Province, where the administration was taken over on 16 February by Christophe Gbenye, who was minister of interior in Lumumba's government and apparently served as the premier's hatchetman. The international borders of Orientale and Kivu provinces were closed at his order on 15 February, however, some European refugees are managing to get through to Ruanda-Urundi. There are about 1,000 Belgians in Orientale and 400 in Kivu, together with a few whites of other nationalities. A member of Gizenga's "mission" in Cairo suggested that Gizenga, through payments to Leopoldville President Kamitatu, seek to form "an important nucleus combatants." The representative also recommended that the Gizenga group's representative in New York--who allegedly has already received $42,000 from Guinea's Sekou Toure--be furnished an additional $28,000 for lobbying purposes. Soviet delegate Morozov showed a completely inflexible attitude toward negotiations for a peaceful solution in the Congo. He denied that there existed any grounds for compromise between what he termed "the forces of liberation" in Africa and the "colonialists and their puppet regimes." (Backup, Page 1) UAR: The UAR appears to be trying to counter Western criticism of its activities on behalf of the Gizenga dissidents by initiating a campaign of accusations against the US. The UAR-controlled Middle East News Agency on 17 February stated that
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.858221
+kept_candidate_count=2
+excluded_candidate_count=6
+
+Clean Chunk #3 (original #9, segment 1)
+Text: the UAR Foreign Ministry had asked Ambassador Reinhardt to seek explanation from Washington of the "clear fallacies" in statements attributed to Secretary Rusk on UAR interference in the Congo. Foreign Minister Fawzi on the same day stated that the UAR will soon "unmask" those who interfere. Cairo radio on 16 February charged the US with "participating with Belgian imperialism" in spending thousands of dollars on Mobutu. The UAR Foreign Ministry asked its embassy in New Delhi to gather information on Ambassador Timberlake's alleged "spending of money against Nehru's government" while serving in Bombay in 1948-50
+Token count: 95
+Recut: none
+
+Clean Chunk #4 (original #15, segment 2)
+Text: Angola: Local authorities in Angola are requesting arms to be distributed in case of need to isolated citizens or militia groups. A Portuguese government official in Lisbon states that the natives in the Malange
+Token count: 34
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: statement
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: assistance
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: approach
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: scheduled
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: February
+- original #15 segment 1: noncontent_keyword
+  Text: Backup, Page 3
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.897619
+kept_candidate_count=1
+excluded_candidate_count=9
+
+Clean Chunk #5 (original #16, segment 1)
+Text: area of northern Angola have been in revolt since 1 February because of resentment over ill treatment by Belgian-Portuguese diamond and cotton combines which control the area, and that troops recently flown to Angola from Portugal were for use in this area rather than in Luanda. the Angolan governor general suggests to Lisbon that journalists be prevented from coming to Angola "by every possible means in view of the action which we may be forced to take
+Token count: 77
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #16 segment 2: noncontent_keyword
+  Text: Backup, Page 5) (Map
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Phoumi
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: follow-up
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: become
+- original #20 segment 1: noncontent_keyword
+  Text: Backup, Page 6) (Map
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: becoming
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: leftist
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: discussions
+- original #24 segment 1: noncontent_keyword, ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: large scale
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.946041
+kept_candidate_count=0
+excluded_candidate_count=9
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: February
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Pyongyang
+- original #26 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Backup, Page 7
+- original #27 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: inconvenience
+- original #28 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: intersector
+- original #29 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: December
+- original #30 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: coalition
+- original #31 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: business
+- original #32 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: services
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.919883
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #33 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Christians
+- original #34 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: violence
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #35 segment 1: full_page_or_admin
+  Text: Situation in the Congo Anti-white disturbances have been reported in several parts of the Congo, the most serious in Bukavu, capital of Kivu Province. The degree to which Gizenga and his lieutenants are involved is not clear. However, the closing of the border suggests that Orientale and Kivu authorities wish to maintain close control over Europeans either to use them as hostages or to assure their continued presence to maintain key administrative and economic activities. According to press reports, Anicet Kashamura, Gizenga's pro-Communist lieutenant who had headed the Kivu administration since December, has been removed from office and sent back to Stanleyville. His successor, who apparently was a close associate of Lumumba but has had little following of his own, urged Gizenga to "play the whole range of politics in order to retain the members of parliament"--possibly a reference to dissension which might occur among Kashamura's followers in Stanleyville. In his 15 February outline of a plan of action, Gizenga's associate in Cairo proposed that he travel from the UAR to West Africa to investigate, among other things, the possibility of smuggling arms through former French Equatorial Africa. He stated that by using a borrowed passport he might be able to reach Leopoldville, where he could deliver funds--possibly as much as $70,000--to the pro-Lumumba provincial governor, who could use "them to bribe the police, the army, and the legislature. He added that Thomas Kanza, who leads the Gizenga faction's "delegation" in New York, needed additional funds for "corruption, boycott agents, liaison agents, transportation of materials, etc." In Leopoldville, UN representative Dayal on 15 February publicly blamed the United States Government for the chaotic situation in the Congo. He charged that the United States had failed to support the ouster of Belgians from Katanga, and he disparaged the quality of the American transport aircraft--principally C-119s and C-47s--supplied to the UN
+- original #35 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 18 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.123352
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #36 segment 1: full_page_or_admin
+  Text: Dayal reportedly has asked the UN
+- original #37 segment 1: full_page_or_admin
+  Text: New York to obtain a fleet of twelve C-130s to be used as airlift for a standby "fire-brigade" battalion which would be moved to trouble spots. Press reports indicate that Colonel Trinquier, the French officer who reportedly had agreed to serve as chief of the Katanga armed forces, was "persuaded" to turn down the assignment at the last minute by official French pressure
+- original #37 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 18 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.938061
+kept_candidate_count=1
+excluded_candidate_count=12
+
+Clean Chunk #6 (original #43, segment 1)
+Text: at times scurrilous
+Token count: 3
+Recut: none
+
+Excluded candidates:
+- original #38 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: established
+- original #39 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: receptive
+- original #40 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: accelerated
+- original #41 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: responsibility
+- original #42 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: abetting
+- original #44 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: instituted
+- original #45 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: representatives
+- original #46 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: receptive
+- original #47 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: August
+- original #48 segment 1: short_span_min_tokens
+  Text: six
+- original #49 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: development
+- original #50 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Soviet-Ghanaian
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.959117
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #51 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: uncomplimentary
+- original #52 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: expressions
+- original #53 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Moscow's
+- original #54 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: demonstrations
+- original #55 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: President
+- original #56 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: interview
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #57 segment 1: noncontent_keyword
+  Text: CABINDA REPUBLIC OF THE CONGO LUANDA MALANGE LOBITO BENGUELA ANGOLA FEDERATION OF RHODESIA & NYASALAND SOUTH WEST AFRICA BECHUANALAND 0 100 200 300 STATUTE MILES SELECTED RAILROADS
+- original #57 segment 2: noncontent_keyword
+  Text: 18 Feb 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #57 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=12 unred_source_page=14
+alignment_score=0.244020
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #58 segment 1: full_page_or_admin, short_span_min_tokens
+  Text: Situation
+- original #59 segment 1: full_page_or_admin
+  Text: Angola Serious disorders have been occurring in the Malange administrative district of Angola since 1 February when some 200 native rail workers went on strike, subsequently natives attacked Portuguese patrols in the area--in one encounter 1,000 natives armed with knives and spears "showed no fear of Portuguese guns." agitators from outside Angola were able to exploit discontent among the natives by using witchcraft. He added that "the ease with which the witch doctors dominate the natives is extremely dangerous. Therefore we must admit the possibility of terrorism breaking out in any part of Angola." In the Malange district the populace reportedly believed absolutely that they would not have to work in the future and "that the white man's arms shot water." The official Portuguese policy of blaming Communist groups rather than African nationalists for the Angolan disorders In recommending that journalists be excluded, he said, "We are trying to avoid any analysis of the racial and nationalist aspects in order to place emphasis on the control of leftist international organizations and the outside agitation." There is said to be a very strong feeling among the Portuguese military that immediate steps must be taken to satisfy "completely justified" grievances of the Malange natives against Belgian-Portuguese commercial interests controlling the area, and some of them are described as willing to back any responsible governmental authority or figure who will ensure prompt action. They reportedly fear that failure to act at once will have far-reaching political repercussions in Portugal
+- original #59 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 18 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=13 unred_source_page=15
+alignment_score=0.864286
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #60 segment 1: noncontent_keyword
+  Text: 0 25 50 75 100 Miles 0 25 50 75 100 Kilometers International boundaries and names are not necessarily those recognized by the U.S. Government
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=14 unred_source_page=16
+alignment_score=0.927143
+kept_candidate_count=0
+excluded_candidate_count=12
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #61 segment 1: short_span_min_tokens
+  Text: briefing
+- original #62 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: mission
+- original #63 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reorganization
+- original #64 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: apparently
+- original #65 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: various
+- original #66 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: embassy
+- original #67 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: regret
+- original #68 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: certain
+- original #69 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: refuse
+- original #70 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: willingness
+- original #71 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: general
+- original #72 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: control
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=15 unred_source_page=17
+alignment_score=0.925194
+kept_candidate_count=0
+excluded_candidate_count=13
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #73 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: administration
+- original #74 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: jurisdiction
+- original #75 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: legislators
+- original #76 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: disrupt
+- original #77 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: disadvantageous
+- original #78 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: oppose
+- original #79 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: directed
+- original #80 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: subversive
+- original #81 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: confidence
+- original #82 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: unfavorable
+- original #83 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: agreement
+- original #84 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: majority
+- original #85 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: prospect
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=16 unred_source_page=18
+alignment_score=0.956894
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #86 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: assembled
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=17 unred_source_page=19
+alignment_score=0.979412
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 20]
+kind=match red_source_page=18 unred_source_page=20
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #87 segment 1: noncontent_keyword
+  Text: 18 February 1961 CENTRAL INTELLIGENCE BULLETIN

@@ -1,0 +1,196 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.676190
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.749610
+kept_candidate_count=4
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. NEW DIFFICULTIES MAY RESULT FROM SUEZ OPENING PRIOR TO SETTLEMENT
+Token count: 11
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #1, segment 3)
+Text: 2. NEW TENSION IN SYRIAN-ISRAELI DEMILITARIZED ZONE (page 4). 3. BRITISH REINFORCEMENTS REQUESTED IN ADEN-YEMEN BORDER TROUBLE
+Token count: 17
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #2, segment 2)
+Text: 5. AUSTRIA EXPELS SECRETARIAT OF THE WORLD PEACE COUNCIL
+Token count: 9
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #3, segment 2)
+Text: 7. PATHET LAO WORRIED OVER GROWING OPPOSITION TO PROPOSED SETTLEMENT
+Token count: 10
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 4: noncontent_keyword
+  Text: page 5
+- original #2 segment 1: noncontent_keyword
+  Text: page 6
+- original #2 segment 3: noncontent_keyword
+  Text: page 8
+- original #3 segment 1: noncontent_keyword
+  Text: page 9
+- original #3 segment 3: noncontent_keyword
+  Text: page 10
+- original #4 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 11
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 1. NEW DIFFICULTIES MAY RESULT FROM SUEZ OPENING PRIOR TO SETTLEMENT Comment on: Soviet authorities intend to send Soviet merchant vessels through the Suez Canal in the near future. On 28 January, a Soviet station in Odessa requested Alexandria, Egypt to confirm the possibility of transit of the Suez Canal by two Soviet ships during the first half of February. The estimated time of arrival at Suez of two Soviet merchant ships, the Ismail and Krasnodar, en route from Calcutta to Odessa, is about 10 February. On 1 February, the Soviet passenger ship Gruziya, en route from the Far East, was instructed by the steamship company in Odessa to proceed west via Suez. The canal will be open to limited traffic prior to a political settlement of its status and the conditions for transit. While General Wheeler officially estimates that some navigation through the canal will be possible by early March, UN estimates have been deliberately conservative and clearance of a limited channel appears physically possible by mid-February. Should Egypt then deny passage to vessels of Britain, France, and other nations refusing to pay tolls to Egypt, this could occasion stronger moves to overthrow the Nasr regime. The USSR probably intends to have its vessels be the first to transit the canal. Payment of tolls to the Egyptian Canal Authority by the USSR would be an effective gesture of support for Egypt in its dispute with Britain and France over operation of the canal
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.244279
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: NEW TENSION
+- original #7 segment 1: full_page_or_admin
+  Text: SYRIAN-ISRAELI DEMILITARIZED ZONE Comment on: Israel is "slowly, deliberately and thoroughly" taking over the entire demilitarized area between Syria and Israel, and if the UN General Assembly should call for stationing of UNEF forces in these zones, there could be trouble, in the opinion of the chief of the Israeli-Syrian Mixed Armistice Commission on 29 January. On the same day, the Syrian Front Command reported that Israeli forces had occupied new positions in one of the demilitarized zones, according to an Egyptian message from Damascus to Cairo. The Syrians appear apprehensive over the situation in the demilitarized areas, part of which was quietly occupied by Israeli forces during hostilities in Sinai. On 1 February, a UN investigator reported considerable Syrian effort to keep him away from the Syrian front, where he observed heavier troop concentrations than those noted on previous visits. He believed that the Syrians feared an attack, since they were deployed defensively. The Syrians also probably fear that Israel may shortly begin work in the demilitarized zone above Lake Tiberias to divert waters of the Jordan River for long-deferred irrigation and power projects. Syria gave notice last summer that it would open fire on the Israelis if such operations were undertaken in the demilitarized zone
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: 3. BRITISH REINFORCEMENTS REQUESTED IN ADEN-YEMEN BORDER TROUBLE The War Office has become alarmed over the deteriorating situation in Aden. A battalion of the Durham Light Infantry, one of the two British infantry battalions stationed in Aden since hostilities in Egypt, has virtually completed its scheduled redeployment to the United Kingdom--leaving only a battalion of the Cameron Highlanders in Aden. The commander of British land forces in the Mediterranean area, however, has now asked for return of the Durhams or assignment of another infantry battalion to Aden. Comment With the departure of the Durhams, British forces in Aden and Aden Protectorate number about 1200. At least two companies of the Cameron Highlanders are believed already deployed at critical points on the disputed Yemen-Aden frontier. About 2,400 British-led indigenous troops are also available in the Protectorates, whose frontier alone, however, extends almost 800 miles. Repeated armed Yemeni incursions into the Aden Protectorate, and continuing Soviet bloc and Egyptian efforts to expedite movement of arms and advisers to Yemen have undoubtedly caused the British to reassess their strength in Aden. Yemen is now attempting to undermine the authority of Protectorate rulers who maintain connections with Britain. In three areas of the Western Protectorate, movements have been reported among the tribesmen to elect new leaders in place of those having treaty relations with Britain
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.929522
+kept_candidate_count=0
+excluded_candidate_count=9
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: UNEMPLOYED
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reconstruct
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: industry
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: unemployed
+- original #13 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: temporary
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: interfere
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: consolidation
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: government
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: unknown
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.895761
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: projects
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: 5. AUSTRIA EXPELS SECRETARIAT OF THE WORLD PEACE COUNCIL Comment on: The expulsion of the World Peace Council (WPC) secretariat from Vienna on 2 February was ordered in part to prevent its use in the rumored establishment of a new international Communist intelligence network. The WPC headquarters staff, 38 non-Austrians as of last fall, has been under strict police surveillance for several years. Formerly operating under the protection of the Soviet occupation forces, the WPC was granted legal status, despite Western protests, in July 1955 with a warning not to violate its statutes. Evidently fearing visa difficulties, WPC shifted its 1956 congress from Vienna to Stockholm. This action comes exactly a year after the expulsion from Austria of the WFTU. Although the Soviet press strongly condemned that move, there were apparently no official protests that Austrian neutrality was violated, and Vienna evidently expects no serious reprisals in this case. Action against other remaining fronts, such as the Federation of Resistance Fighters, may follow
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.962956
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: noncontent_keyword
+  Text: Comment on
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Shanghai
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: 7. PATHET LAO WORRIED OVER GROWING OPPOSITION TO PROPOSED SETTLEMENT Comment on: The Pathet Lao revealed apprehension over growing opposition in Vientiane to the agreement recently concluded between Prime Minister Souvanna Phouma and Pathet chief Souphannouvong, and feels that it must consolidate additional support before risking a vote in the national assembly on the agreement. Souphannouvong, therefore, has "not yet fixed a date" for his return to Vientiane. Evidence that Souvanna Phouma has not been won over, cabinet demands for additional safeguards in return for "a few unimportant seats in the government," and the opposition tactics of Deputy Premier Katay, "who has a positive hold on the members of his party." Should Souphannouvong fail to return from Pathet headquarters by 15 February, when the national assembly reconvenes, or, if upon returning he rejects the cabinet's demands for additional safeguards, Souvanna Phouma may be forced to resign
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: full_page_or_admin
+  Text: 8. BURMESE COMMUNIST ATTACK MAY BE EFFORT TO FORCE PEACE TALKS Comment on: The large-scale raid by Burmese Communist insurgent forces on Pegu on 29 January, variously reported as comprising 500 to 1,000 men, is regarded by the American embassy in Rangoon as an effort to force the government to hold peace negotiations. The leader of the Burmese Communist Party, Thakin Than Tun, recently sent a letter to former prime minister U Nu requesting peace talks with either the government or the governing party, the Anti-Fascist People's Freedom League (AFPFL). The letter reportedly was considered by the AFPFL executive committee and was rejected. The Burmese Communist Party, badly disorganized and with no prospect of military victory, has persistently sought negotiations with the government during the past year
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=red_only red_source_page=10 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,61 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.631010
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: C1-9
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.913640
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 1. Division of North Korean VI Corps receives active role in forward area
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.862505
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #2 (original #3, segment 1)
+Text: FAR EAST 1. Division of North Korean VI Corps receives active role in forward area: Comment: The VI Corps is one of the three North Korean corps which began moving southward from Manchuria late in January. The 19th Division is the first unit of these three corps known to have arrived in the forward area. Communist plans for a "Fourth Phase" offensive, possibly to occur in March, may rely heavily on such relatively fresh units
+Token count: 75
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: sufficiently
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: action
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.957535
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Frankfurt-am-Oder
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: February
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: approximately

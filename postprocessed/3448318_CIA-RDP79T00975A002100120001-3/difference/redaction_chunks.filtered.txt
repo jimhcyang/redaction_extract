@@ -1,0 +1,129 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.787500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.975294
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: 8. American plane shot down in Bering Sea area
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: SOUTHEAST ASIA 5
+- original #2 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.996371
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: SOUTHEAST ASIA 5
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.958661
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: 8. American plane shot down in Bering Sea area: On 22 June, an American Neptune naval reconnaissance plane was attacked by Soviet jet fighters approximately 30 nautical miles south of the Chukotsk Peninsula. According to the Neptune pilot's report, two MIG's were involved in the attack, which severely damaged the plane, forcing it to crash land on the northwest tip of St. Lawrence Island (see maps, pp. 9 and 10
+Token count: 70
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: The American aircraft was engaged in a routine shipping reconnaissance flight from Kodiak Island over the Bering Sea between St. Lawrence Island and the Soviet mainland. Comment: During the past week there have been indications of considerable Soviet activity in the Chukotsk area. On 15, 18 and 21 June, the routine Neptune shipping reconnaissance flight in this area resulted in scrambling of jet fighters based at Provideniya. Continued sensitivity in the Chukotsk area was indicated seven hours after the Neptune was shot down when a Soviet fighter was scrambled apparently in response to of a US aircraft flying a few miles north of St. Lawrence Island. Such flights do not generally stimulate Soviet fighter reaction
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.135065
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #6, segment 1)
+Text: CHUKOTSK AREA
+Token count: 2
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #6, segment 3)
+Text: NO. 1 (see
+Token count: 3
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #7, segment 1)
+Text: for detail
+Token count: 2
+Recut: none
+
+Excluded candidates:
+- original #6 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: MAP
+- original #6 segment 4: noncontent_keyword, short_span_min_tokens
+  Text: MAP
+- original #6 segment 5: short_span_min_tokens
+  Text: NO
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: INCIDENT OF 22 JUNE 1955
+- original #8 segment 2: full_page_or_admin, noncontent_keyword, short_span_min_tokens
+  Text: LEGEND
+- original #8 segment 3: full_page_or_admin
+  Text: RED - U.S.S.R. BLUE - U.S. P2V NEPTUNE DEPARTED KODIAK 0930 22 JUNE 1955 ON ROUTINE SHIPPING RECONNAISSANCE St. Lawrence Island Gambell American crew crashed and 3 were taken to Gambell Naval P2V crashed approximately 30 nautical miles south of Chukotsk Peninsula at 0645Z on 22 June Initial detection of Neptune by Soviet Radar First Soviet fighter met and attacked Neptune at 0642Z Second Soviet fighter attacked Neptune at 0645Z Approximate flight path of Neptune International boundary U.S.S.R

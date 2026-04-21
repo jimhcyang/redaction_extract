@@ -1,0 +1,196 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.433333
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.927273
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Congo: Gizenga makes conciliatory gesture toward US, indicates more moderate attitude toward Leopoldville
+Token count: 14
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 4. Nationalist China: Survey team says most irregulars willing to evacuate Thai-Burma-Laos border area. (Page iii
+Token count: 16
+Recut: none
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.855134
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #3, segment 2)
+Text: Congo: The Gizenga regime, unable to obtain bloc aid and in desperate economic straits as a result of the blockade of the Congo River, is making conciliatory gestures toward the US and indicating a more moderate attitude toward Leopoldville. An American official who visited Stanleyville recently was given red-carpet treatment, including a private interview lasting more than an hour with Gizenga, who usually is inaccessible to outsiders. General Lundula, Gizenga's chief of staff and one of the moderate members of the Stanleyville group, sent a message to two of the participants at the Tananarive conference who have been associated with Orientale, suggesting that they come to Stanleyville to discuss a "national entente and amicable settlement." Meanwhile, contacts with the bloc are continuing. the chief of Gizenga's mission in Cairo is to return there on 16 March from a trip to Moscow. At that time the mission hopes to sign a commercial agreement with Poland "of the type signed with Czechoslovakia." The Tananarive conference's proposed revision of the Congolese constitution, in its formal recognition of separatist sentiment, would virtually eliminate central authority in the country by requiring unanimous agreement of the states on any action. Further talks are to be held in the Congo among the participants
+Token count: 206
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #3 segment 1: noncontent_keyword
+  Text: DAILY BRIEF
+- original #3 segment 3: noncontent_keyword
+  Text: Backup, Page 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.979985
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #4 (original #4, segment 1)
+Text: The Indian ambassador to Vientiane, reporting on a conversation with Phoumi, claims the Lao army commander expressed the hope that such talks would be productive, with Souvanna acting as a referee rather than participant
+Token count: 34
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: likened
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.925989
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #5 (original #6, segment 1)
+Text: Nationalist China: 4,500 of the 6,000 to 7,000 irregulars which the Chinese Nationalists claim are in the area are willing to be removed to Taiwan; 1,500 dependents reportedly are also willing to be evacuated. While Chiang Kai-shek has agreed "in principle" to the evacuation and US officials in Taipei believe that he will cooperate, they point out that he still feels the evacuation will damage Nationalist interests. It is unlikely that more than about 3,000 irregular troops will agree to evacuation
+Token count: 86
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 2: noncontent_keyword
+  Text: Backup, Page 5
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: nonpolitical
+- original #8 segment 1: noncontent_keyword
+  Text: Backup, Page 7
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: Situation in the Congo Gizenga and other members of his regime, in conversation with an official of the US Embassy in Leopoldville who was in Stanleyville last week, stated that they have decided as a matter of policy to cooperate with the UN, despite their dislike of that organization. Stating that they are not Communists, they asked for understanding and aid from the United States. Gizenga was critical of Kasavubu, but said he recognized him as Congolese chief of state. Gizenga also said that if his security were assured, he would be willing to attend a session of the Congolese parliament, and, if then voted out of the government, would take a position in the parliamentary opposition. The American Embassy official reports that there are four centers of political power in Stanleyville. Gizenga and his group apparently occupy a position between that of Lundula, characterized as "almost too moderate and reasonable for Stanleyville," and Interior Minister Gbenye, who is described as a "potentially dangerous, vindictive, stupid racist." These three elements still work together, but Orientale provincial president Manzikala's provincial administration apparently is at odds with all of them. Manzikala seems to be trying to build up enough strength to challenge Gizenga, but his prestige declined after Gizenga refused to let him go to Tananarive. Manzikala, generally considered a moderate, demands standard Stanleyville demands for a reconvening of parliament and the expulsion of foreign troops. He also echoed the Communist line that Hammarskjold should no longer be recognized as secretary general. The economic situation in Stanleyville is critical. Gizenga told his Cairo representative that unless help came by 15 March, he would not be able to pay his troops. He further stated that he recognized the consequences which would follow "if the government even on one occasion has difficulty in paying the salaries of the soldiers." The Tananarive conference recognized the existence of eight "sovereign" states--a division which has already been challenged
+- original #9 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 14 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.123929
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: full_page_or_admin
+  Text: by Jason Sendwe, a Baluba tribal leader who claims to have set up another state
+- original #11 segment 1: full_page_or_admin
+  Text: northern Katanga. Other separatist demands are likely to come from Equateur Province, where the Mongo and Bangala tribes have been competing for domination of the provincial government. The conference's resolution is likely to produce further fragmentation
+- original #11 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 14 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.997151
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens
+  Text: by
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.243801
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: Evacuation of Chinese Nationalist Irregulars The Chinese Nationalist irregulars
+- original #14 segment 1: full_page_or_admin
+  Text: the Burma-Thailand-Laos border area are scattered and semiautonomous, and the degree to which they will respond to Taipei's efforts is problematical. Most of the 3,000 irregulars now in Laos probably will consent to evacuation. This group includes a large proportion of the 1,000 Taiwan-trained Special Forces which were sent to the area during 1960. They are regular army personnel and responsive to orders. Others, who have been in the area since 1949 and retreated into Laos from Burma after surrendering their bases, have lost their means of livelihood. The 3,000 to 4,000 irregulars farther south, in the Burma-Thailand border area, have been relatively independent of Taiwan. The Burmese Army has pressed them less vigorously than the group which retreated into Laos, and the Thai inhabitants tend to support them against the Burmese. Many of these irregulars have homes and families in Thai refugee villages and have achieved relatively high standards of living. As they have returned to these villages, with Thai approval, when Burmese pressures became too strong in the past, it is unlikely that many of them will opt for repatriation to Taiwan. Although the Burmese Government has expressed gratification for United States efforts to speed the evacuation of irregulars from Burma and the anti-American press campaign has subsided, the issue remains extremely sensitive in Rangoon. The government considers the irregulars entirely dependent on foreign assistance and asserts this could not be supplied without tacit American approval; the army is bitter over the heavy casualties it has sustained in the recent campaign against the Chinese; and the country as a whole fears that the irregulars provide a standing justification for Chinese Communist incursions into Burma. It is probable that the government will renew its campaign of press denunciation and public demonstrations against the United States
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 14 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: for its associations with Nationalist China if and when the irregulars stir up trouble for the Burmese Government. To deal with an influx of several thousand men and their dependents, a resettlement center is being prepared near the provincial capital of Taichung. The minister of national defense plans to organize the returnees into a fourth special forces unit because of their experience, language, and ethnic origin
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 14 Mar 61 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=11 unred_source_page=13
+alignment_score=0.994682
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #6 (original #16, segment 1)
+Text: rigging the recent parliamentary elections
+Token count: 5
+Recut: none
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=12 unred_source_page=14
+alignment_score=0.976056
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=13 unred_source_page=15
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

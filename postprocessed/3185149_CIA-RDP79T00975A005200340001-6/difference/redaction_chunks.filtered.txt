@@ -1,0 +1,210 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.530000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.244190
+kept_candidate_count=0
+excluded_candidate_count=7
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin, short_span_min_tokens
+  Text: The
+- original #2 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Daily Brief
+- original #2 segment 3: full_page_or_admin
+  Text: of the
+- original #2 segment 4: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+- original #2 segment 5: full_page_or_admin
+  Text: is produced by the Director of Central Intelligence
+- original #3 segment 1: full_page_or_admin
+  Text: consultation with representatives of departments and agencies of the United States Intelligence Board. Back-up material is produced by CIA with as much consultation with other departments and agencies as is practicable. When, because of the time factor, consultation with the department or agency of primary concern is not practicable, the brief will be produced by CIA and marked with an asterisk. Intelligence in this publication is based on all sources, including Interpretations of intelligence information in this publication rep- resent immediate and preliminary views which are subject to modi- fication in the light of further information and more complete analysis. Certain intelligence items in this publication may be designated specifically for no further dissemination. Other intelligence items may be disseminated further, but only on a need-to-know basis. WARNING This
+- original #4 segment 1: full_page_or_admin
+  Text: contains classified information affecting the national security of the United States within the meaning of the espionage laws, US Code Title 18, Sections 793, 794, and 798. The law prohibits its transmission or the revelation of its contents in any manner to an unauthorized persons, as well as its use in any manner prejudicial to the safety or interest of the United States or for the benefit of any foreign government to the detriment of the United States
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.316923
+kept_candidate_count=3
+excluded_candidate_count=4
+
+Clean Chunk #1 (original #5, segment 1)
+Text: I. THE COMMUNIST BLOC II. ASIA-AFRICA Shah of Iran replies to recent Khrushchev letter with lengthy defense of Iran's pro- West policies. India to purchase several Soviet heli- copters, presumably for use in border area
+Token count: 35
+Recut: none
+
+Clean Chunk #2 (original #7, segment 1)
+Text: US support of
+Token count: 3
+Recut: none
+
+Clean Chunk #3 (original #11, segment 1)
+Text: Congo Situation. Laotian paratroop battalion seizes Vientiane in attempted coup
+Token count: 10
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Brazil
+- original #8 segment 1: short_span_min_tokens
+  Text: neutral
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: US-Cuba
+- original #10 segment 1: nonempty_redacted_alternate_conflict
+  Text: LATE ITEMS
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 9 August 1960 DAILY BRIEF
+- original #12 segment 2: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC II. ASIA-AFRICA Iran-USSR: The Shah, without materially changing his basic position, has replied to Khrushchev's letter of 13 July with a lengthy defense of Iran's pro-Western orientation and its policy toward the Soviet Union. Asserting that no other nation had gone so far to reassure the USSR, the Shah reiterated his willingness to "pledge in writing that Iran will not give permission for the establishment of missile bases by any foreign government on Iranian soil." The Shah, how- ever, reserved the right of the Iranian Army to equip itself with rockets. The Shah described Khrushchev's suggestion that the borders be demilitarized as militarily meaningless, but he said he would accept the suggestion as an expression of good intentions. He restated Tehran's willingness to co- operate with the USSR on utilization of the rivers along the border. (Page 1) India-USSR: New Delhi has apparently decided to purchase several MI-4 helicopters from the USSR. In tests in July this model reportedly satisfied Indian altitude and payload require- ments for the Himalayan border region
+- original #12 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Page 2
+- original #12 segment 4: full_page_or_admin
+  Text: III. THE WEST Brazil-Cuba-US: President Kubitschek's desire to pry
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.893750
+kept_candidate_count=2
+excluded_candidate_count=4
+
+Clean Chunk #4 (original #15, segment 1)
+Text: who believes the elimination of the Cuban problem would under- cut Brazil's blackmailing power
+Token count: 14
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #16, segment 1)
+Text: Republic Of The Congo: Increased stresses within the Congo- lese Government suggest that Premier Lumumba may not be able to retain power in the absence of outside aid. The endorsement by Kasavubu's Abako party of a Congo confederation such as is favored by Katanga Premier Tshombe, together with disaffection in Equator Province and near anarchy in Kasai Province, may prompt Lumumba to request that Ghana and Guinea unilaterally dispatch troops to bolster his regime. (Page 4) The UN Security Council has again called for the immediate withdrawal of Belgian troops from the Congo and has, in effect, given assurances to Tshombe and other dissident provincial lead- ers that the UN will in no way interfere with their attempts to organize a Congo confederation. Armed with this resolution, Hammarskjold will probably return to the Congo and proceed with his plans to bring the country under the control of the UN forces preparatory to implementing UN plans for large scale technical assistance
+Token count: 160
+Recut: none
+
+Excluded candidates:
+- original #13 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Ameri- ca
+- original #14 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pro-Commu- nist
+- original #15 segment 2: noncontent_keyword
+  Text: Page 3
+- original #17 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Gen- eral
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: Iranian Reply to Soviet Note Iran, in replying to Khrushchev's note of 13 July, has in effect again rejected the Soviet demand that Tehran agree to ban all foreign bases and troops on Iranian soil before "normal" relations between the two countries can be restored. The Shah repeated his offer, which was previously unacceptable to Mos- cow, to "pledge in writing that Iran will not give permission for the establishment of missile bases by any foreign govern- ment on Iranian soil." He noted, however, that this offer would not prohibit the Iranian Army from arming itself with any type of weapon, including rockets. The Shah stated that Iran's alignment with the West had been forced by Moscow's policies. He pointed out that Iran could not understand why Moscow is more unfriendly toward Iran, which has not provided missile bases to foreign powers, than it is toward other CENTO countries which have permitted such bases or signed defense agreements with the United States. He reiterated Tehran's willingness to cooperate with the USSR on utilization of the rivers on their common borders. He said that Khrushchev's suggestion that both countries withdraw forces from their common borders was an expression of good intentions, but pointed out that it would not guarantee Iran's se- curity in view of the power and mobility of the Soviet armed forces
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.122262
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: India to Buy Several Helicopters From USSR New Delhi has decided to purchase several MI-4 (Hound) helicopters from the Soviet Union. An MI-4 tested last month reported- ly satisfied Indian altitude and payload requirements for the Himalayan border region and demonstrated that maintenance would not be a problem even
+- original #20 segment 1: full_page_or_admin
+  Text: forward areas. An additional attraction of the arrangement is Soviet willingness to accept payment in rupees, thereby permitting India to conserve scarce foreign exchange. The planned purchase was apparently pushed hard by De- fense Minister Khrishna Menon, whose recent efforts to bolster his political position by speeding the build-up of border defenses have included the purchase from the United States of two S-62 Sikorsky high-altitude helicopters and 29 C-119G (Packet) mili- tary transports. Menon's efforts to obtain the MI-4 were reported- ly opposed by Indian military leaders, who have long resisted attempts to purchase non-Western equipment because of the at- tendant spare-parts complications. The defense minister re- portedly forced the issue, however, by threatening to sabotage cabinet consideration of other materiel requests unless he re- ceived cooperation on this purchase
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.909435
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #6 (original #23, segment 1)
+Text: as tactically un- sound in that "eliminating the Cuban problem" would reduce Brazil's bargaining power for OPA
+Token count: 17
+Recut: none
+
+Clean Chunk #7 (original #25, segment 1)
+Text: Similarly, Schmidt argues that "a certain amount of Communism in Brazil" is necessary for bargaining purposes. the government will not try to control activities of the outlawed Communist party or of subversive aliens until after the October presidential elections. Schmidt's foreign policy recommendations would be implemented during the rest of the Kubitschek administra- tion, which ends in January 1961
+Token count: 59
+Recut: none
+
+Excluded candidates:
+- original #21 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pol- icy
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: marshaling
+- original #24 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: na- tionals
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: full_page_or_admin
+  Text: The Congo Situation Increased stresses within the Congolese Government suggest that Premier Lumumba may not be able to retain power in the absence of outside aid. The Abako party, called for the reorganization of the country as a confederation, as is favored by Moise Tshombe, premier of secessionist Katanga Province. Lumumba might still command a majority in the assembly despite opposition from Abako deputies. However, the seeming about-face by Kasavubu--who has worked closely with Lumumba in the present crisis--may seriously damage the government's prestige. Similar sentiment against any strongly centralized government is reportedly rising in Equator Province. In Kasai Province, where fierce fighting between Baluba and Lulua tribesmen has caused several hundred deaths, the provincial capital at Luluaburg is reported in flames. The provincial government--dominated by enemies of Lumumba-- reportedly plans to set up a semi-autonomous regime with its capital at Bakwanga. The accelerating political fragmentation of the Congo ap- pears to reflect in part the lack of a police force controlled by Lumumba. Despite his strenuous efforts, the Force Publique has not yet been effectively reconstituted, and the UN dissociates itself and its troops from "internal" matters such as the tribal warfare in Kasai and the legal status of Katanga. Although in the past Lumumba has threatened to request Soviet intervention, his recent visits to Conakry and Accra suggest that he may prefer to ask Guinea and Ghana for troops which would be outside the scope of the UN command. The Sino-Soviet bloc continues to indicate a readiness to provide economic and technical aid to the Congo. a Soviet offer to assist the Congo's industrial development
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.124313
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: full_page_or_admin
+  Text: and Czechoslovakia reportedly has offered to provide school- teachers
+- original #28 segment 1: full_page_or_admin
+  Text: addition, Moscow plans on 9 August to deliver an IL-14 transport plane--presumably for Lumumba's use--to Buta, north of the Lumumba stronghold of Stanleyville. The "ferry flight" will be via Cairo and Khartoum, and the plane will carry Congolese wing markings
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

@@ -1,0 +1,193 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.378571
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: C 64-7
+- original #1 segment 2: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.123214
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 20 DECEMBER 1960 I. THE COMMUNIST BLOC Germany--Interzonal trade talks nearing climax. II. ASIA-AFRICA Laos--Pathet Lao skirmishing around Luang Prabang and
+- original #3 segment 1: full_page_or_admin
+  Text: Xieng Khouang Province. Indonesia--High-level delegation leaving for naval and air force assistance talks in Moscow. Nepal--King has now detained almost all key politicians; intends to rule directly for some time. Congo--Morocco delays withdrawal of UN contingent; USSR threatens aid to Stanleyville dissidents. III. THE WEST Cuba--West German ambassador tells Cubans his government neutral in "Cuban-US quarrel
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.874075
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #4, segment 1)
+Text: however, East German officials indicate they will make important concessions if the West Germans reinstate the agreement
+Token count: 17
+Recut: none
+
+Clean Chunk #2 (original #6, segment 1)
+Text: Laos: The Luang Prabang garrison commander states the Pathet Lao have conducted light skirmishes with his forces during the past two weeks; the Pathets could mount a major attack if they are able to regroup and bring up reinforcements. Pathet Lao elements, reportedly aided by North Vietnamese elements, are apparently exerting strong pressure on a government outpost in eastern Xieng Khouang Province. Shuttle flights by Soviet IL-14s between Canton and Hanoi indicate that the cargo brought in by the AN-12s which arrived at Canton on 18 December is being ferried to Hanoi. Chinese Communist transports meanwhile continue their airlift operations between Nanning and Hanoi. North Vietnam's call for another Geneva conference was supported by the Chinese Communist Government in an official statement on 19 December and by Cambodia's Prince Sihanouk, who told a Peiping rally that Laos should be considered by a "new" international conference
+Token count: 145
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Pervukhin
+- original #6 segment 2: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.974482
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #7, segment 1)
+Text: The prospective purchases reportedly total $277,000,000 for the navy and $100,000,000 for the air force
+Token count: 19
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #7 segment 2: noncontent_keyword
+  Text: Page 4
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: that
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.930250
+kept_candidate_count=0
+excluded_candidate_count=6
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: nonempty_redacted_alternate_conflict
+  Text: told an
+- original #10 segment 1: short_span_min_tokens
+  Text: also
+- original #11 segment 1: ocr_equivalent_to_redacted_text
+  Text: as yet no
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: effort
+- original #13 segment 1: short_span_min_tokens
+  Text: said
+- original #14 segment 1: nonempty_redacted_alternate_conflict
+  Text: high Cuban
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: Situation in Laos the Pathet Lao for the past two weeks had been engaged in light probing actions against the royal capital but that his forces had succeeded in preventing any major Pathet attack. does not believe the Pathet Lao would be able to mount any offensive against the town without extensive regrouping and reinforcement. He expects Captain Kong Le may move to the Luang Prabang area to join with the Pathet Lao in an attack on the capital. it would take at least a week for Kong Le's forces to arrive in the area. More detailed information, just made available, on Kong Le's withdrawal from Vientiane indicates that from 500 to 700 troops left with him. These probably include approximately three companies of paratroopers and some irregular elements drawn mainly from the leftist youth movement which developed after his 9 August coup. Eight armored cars and one M-24 tank withdrawing on the road toward Luang Prabang. It is estimated that Kong Le may retain from two to four 105-mm. howitzers and two 120-mm. mortars out of the equipment brought in by Soviet IL-14s before General Phoumi launched his attack on Vientiane. Kong Le probably is now about 25 miles north of Vientiane. In Xieng Khouang Province, Pathet Lao forces are reportedly exerting strong pressure on Nong Het, a government outpost near the North Vietnamese border. a North Vietnamese battalion has been supporting the Pathet Lao with mortar fire. General Phoumi earlier had been reported as convinced that the next big Pathet Lao effort would be directed toward Xieng Khouang. Phoumi planned to send reinforcements to the area. The three Soviet AN-12 heavy transports which arrived at Canton from the USSR on 18 December will not continue on to
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: Hanoi as they were originally scheduled to do but are to fly to Peiping on 20 December. Flights by Soviet IL-14s between Hanoi and Canton on 18 and 19, and three flights scheduled for 20 December indicate that the cargo ferried in by the AN-12s is being transshipped to Hanoi. Soviet and Chinese Communist transports continued to shuttle between Nanning and Hanoi through 19 December. Five of the Soviet IL-14s flew from Hanoi to the Vientiane area on 19 December, and five are scheduled to fly two round trips each from Hanoi to Vientiane on 20 December. Also scheduled for 20 December is the flight of three North Vietnamese transports from Hanoi to Sam Neua. On 19 December, three North Vietnamese transports were taking off from Sam Neua. This is the first confirmation that North Vietnamese aircraft have landed at Sam Neua, although previous flights to the area a North Vietnamese helicopter en route to Laos may have crashed. contact with the helicopter was lost on 17 December and it was still unreported as of 18 December. Chou En-lai on 19 December forwarded to Hanoi a "second Chinese Government statement on the situation in Laos" which noted that Peiping holds that the Laotian question should be settled by the Laotian people themselves without foreign interference. It condemned US imperialism for the grave situation in Laos. The statement gave full support to the 17 December North Vietnamese proposal for reconvening another Geneva conference and reactivating the ICC in Laos. Prince Sihanouk told a Peiping rally on 19 December that "a new conference like the 1954 Geneva meeting on Indochina" should be convened to consider Laos. Hanoi will view Sihanouk's comment as evidence of neutral support for the North Vietnamese call for another Geneva conference and reactivation of the ICC. The ICC for Vietnam also has been the recipient of another North Vietnamese protest calling for "urgent measures to stop the dangerous activities of the US 7th Fleet in South Vietnam!" US fleet movements were linked to events in Laos by North Vietnam's chief of staff, General Vo Nguyen Giap, who sent the protest to the ICC in Vietnam on 17 December
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=0.123095
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: Prince Souphannouvong had reaffirmed his agreement for a coalition government with participation of "all political elements." Souphannouvong was apparently prepared to discuss a cease-fire with Phoumi. Soviet propaganda continues on the line that a serious situation exists
+- original #18 segment 1: full_page_or_admin
+  Text: Southeast Asia as a result of joint US and Thai intervention in Laos. Moscow broadcasts highlight Pathet Lao reports of US participation in the battle for Vientiane. On 17 December, Soviet press dispatches reporting the presence of Souvanna Phouma in Phnom Penh characterized him as the legal representative of the Lao people
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=7 unred_source_page=10
+alignment_score=0.985129
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #19, segment 1)
+Text: Although offered a one-third discount by the USSR, Indonesia is reported recently to have sent a note to Moscow requesting even easier terms
+Token count: 23
+Recut: none
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.993605
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #20, segment 1)
+Text: maintain that the King's actions have been ill-timed and retrogressive; they
+Token count: 11
+Recut: none
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=12
+alignment_score=0.986940
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: agree to
+- original #22 segment 1: short_span_min_tokens
+  Text: disgusted
+- original #23 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: West
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=13
+alignment_score=0.996337
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: short_span_min_tokens
+  Text: on
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=14
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

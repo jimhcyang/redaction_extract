@@ -1,0 +1,117 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.741304
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.981679
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: East-West trader in Switzerland offers to sell nine cargo ships to Soviet Union
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: GENERAL
+- original #2 segment 2: noncontent_keyword
+  Text: page 3
+
+========================================================================
+[PAGE 03]
+kind=unred_only red_source_page=None unred_source_page=3
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: GENERAL 1. East-West trader in Switzerland offers to sell nine cargo ships to Soviet Union: Comment: The Soviet Union's continued need for cargo vessels is reflected in the Kremlin's insistence that its 1953 trade agreements with Western European countries include orders for the construction of ships. Decreased profits in Western maritime shipping operations in the past year have made more ships available for sale, and at reduced prices. Cargo ships of this size are subject to COCOM quantitative export control, but strong British pressure has developed for liberalization. FAR EAST 2. Communist planes attack UN aircraft off west Korean coast: On 22 January, 35 MIG-15's, assumed to be Chinese, attacked a UN air patrol over Korea Bay, approximately 40 miles southwest of Chongju. One MIG-15 apparently was downed. Comment: Communist sensitivity to UN patrol action off the west coast has increased during the last few months, and on 30 December a UN jet fighter was fired on in approximately the same area
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.727503
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #4, segment 1)
+Text: NEAR EAST - AFRICA 4. Comment on stalemate in Soviet-Iranian border and financial talks: Soviet-Iranian talks on border and financial problems have been temporarily suspended to allow the Soviet delegation to obtain instructions from Moscow, according to the chief of the Iranian delegation. The Soviet ambassador left for Moscow on 21 January, apparently for consultation
+Token count: 54
+Recut: none
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.645918
+kept_candidate_count=1
+excluded_candidate_count=4
+
+Clean Chunk #3 (original #6, segment 1)
+Text: has been obliged
+Token count: 3
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: Iranian
+- original #7 segment 1: short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: suspend
+- original #8 segment 1: nonempty_redacted_alternate_conflict
+  Text: five constituencies involving seven
+- original #9 segment 1: short_span_min_tokens
+  Text: seats
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.935270
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #10, segment 1)
+Text: The suspensions are explained on the grounds of "procedural irregularities." The real reasons appear to be resistance to government attempts to rig the elections, indecision concerning candidates to be supported, and conflicting political deals made by government-sponsored candidates without Tehran's knowledge. Comment: The necessity of suspending balloting so early in the election period suggests that the government will not get a friendly Majlis as soon as it had expected. On the basis of this initial reaction, the elections will probably be drawn out, and the government may have to resort to even more obvious intervention in order to ensure the election of its candidates
+Token count: 104
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.928629
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #11, segment 1)
+Text: LATIN AMERICA 9. New threat seen to American-Chilean copper negotiations: The American embassy in Santiago reports that the Chilean government may submit new copper legislation to congress containing provisions unsatisfactory to the American-owned copper companies. Even if satisfactory legislation is presented, the congress may fail, as it did in 1951, to act on it. The Chilean foreign minister recently claimed to have received assurances that the United States will buy Chile's stockpile of copper as soon as legislation is presented to the Chilean congress. Comment: In the prolonged negotiations with Chile regarding the possible purchase of its 100,000-ton stockpile of copper, the United States has insisted on new Chilean legislation defining the status of the American companies
+Token count: 118
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.939384
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #12, segment 1)
+Text: Any new delay in the negotiations would be almost certain to cause further deterioration in Chile's already precarious economic and political situation. President Ibanez still insists that the copper will not be sold to the Orbit, but many Chileans, including the president of the Chamber of Deputies, who recently returned from Moscow, are now pushing for such sales
+Token count: 58
+Recut: none
+
+Excluded candidates:
+- original #13 segment 1: short_span_min_tokens
+  Text: Comment

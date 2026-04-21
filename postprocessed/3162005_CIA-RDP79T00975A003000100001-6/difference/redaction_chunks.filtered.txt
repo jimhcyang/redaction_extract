@@ -1,0 +1,122 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.830000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=red_only red_source_page=2 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=2
+alignment_score=0.817708
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. THE ISRAELI WITHDRAWAL
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 1: noncontent_keyword
+  Text: page 8
+- original #5 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 9
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=3
+alignment_score=0.244134
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin, nonempty_redacted_alternate_conflict
+  Text: THE ISRAELI WITHDRAWAL Comment on: While some present pressures would be relieved by an Israeli withdrawal, both Israel and the Arab states, particularly Egypt, would immediately face new problems. A final settlement of the issues will probably be long and difficult. Israel's request for clarification of withdrawal guarantees following its announced willingness to withdraw underscores its doubts over the wisdom of such action. Local pressures on the Israeli government for freedom of transit
+- original #7 segment 1: full_page_or_admin
+  Text: the Gulf of Aqaba and prohibition of a return of Egypt to the Gaza strip will remain strong. Israeli officials, moreover, have repeatedly charged in the past that the UN is incapable of maintaining the security of the Arab-Israeli borders, and they may return to this stand. An Israeli army spokesman announced on 2 March that six Arab infiltrators had been killed in clashes with Israeli patrols near Gaza. The Arabs, sullen that sanctions were not imposed on Israel and suspicious that Western pressures will now shift from Israel to them, are making a concerted effort to maintain the focus of attention on Israel, and will probably remain intransigent regarding negotiations on the Suez Canal and a resumption of oil flow across the Arab states. Israel's delay in removing its troops will almost certainly result in new pressures for UN sanctions. Nasr, moreover, is likely to press for the return of Gaza to Egyptian administration and the removal of UN
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: forces once Israel withdraws. Hammarskjold should not guarantee anything about Gaza or its future and told Fawzi to deny that Egypt had agreed to an international administration of Gaza. Egypt and Saudi Arabia have also voiced opposition to the Gulf of Aqaba as an international waterway. King Saud recently stated that Aqaba cannot be so regarded since to do so would constitute a threat to Saudi Arabia and the Moslem holy places. the two countries are making plans to strengthen their defensive positions in their respective areas along the gulf. Fawzi, in reference to Aqaba, stated to Cairo that Egypt, if called upon to state its position on Aqaba, had no alternative but to rely on its "indeclinable" right. He declared that Aqaba is part of Egypt's territorial waters and that Egypt will exercise its rights there unless the International Court expresses a conflicting opinion and Egypt decides to adopt it
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.876486
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: Comment on
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Sumatrans
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.947287
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.973745
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.961357
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #12 segment 1: short_span_min_tokens
+  Text: expected
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.967925
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

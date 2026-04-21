@@ -1,0 +1,96 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.622222
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.940984
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: FAR EAST 1. Increase in Chinese Communist pressure on offshore islands indicated
+Token count: 12
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: SOUTHEAST ASIA
+- original #2 segment 1: noncontent_keyword
+  Text: 21 Nov 54 CURRENT INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.246083
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin, noncontent_keyword
+  Text: FAR EAST
+- original #4 segment 1: full_page_or_admin, short_span_min_tokens, nonempty_redacted_alternate_conflict
+  Text: Increase
+- original #5 segment 1: full_page_or_admin
+  Text: Chinese Communist pressure on offshore islands indicated: Comment: These developments, together with reports of continued air and artillery attacks on the Tachen Islands to the north, strongly suggest that Peiping is preparing to continue and possibly increase the scale of military operations along the coast throughout the winter. The appearance of Communist air patrols on the Fukien coast may discourage Nationalist air reconnaissance in this area, where Taipei's planes had previously been endangered only by Communist ground fire. SOUTHEAST ASIA
+- original #5 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 21 Nov 54 CURRENT INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA
+- original #6 segment 2: noncontent_keyword
+  Text: 21 Nov 54 CURRENT INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.982356
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: the
+- original #8 segment 1: noncontent_keyword
+  Text: 21 Nov 54 CURRENT INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.994894
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: 21 Nov 54 CURRENT INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.994146
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: 21 Nov 54 CURRENT INTELLIGENCE BULLETIN Page 7

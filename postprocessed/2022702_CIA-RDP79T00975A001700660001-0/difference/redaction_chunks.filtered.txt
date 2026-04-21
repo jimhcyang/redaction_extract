@@ -1,0 +1,96 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.702500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.941139
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: FAR EAST 1. Chinese Communist jet fighter unit apparently engages in night ground attack exercises
+Token count: 15
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 6. West German Socialists initiating campaign for All-German talks
+Token count: 9
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: SOUTHEAST ASIA 2
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin
+  Text: FAR EAST 1. Chinese Communist jet fighter unit apparently engages in night ground attack exercises: Comment: The ability to employ the combat-seasoned MIG-15 divisions at Canton and in the Shanghai area to provide close support for ground forces would greatly increase the Chinese Communist capability to attack Nationalist bases. None of the jet fighter units based in the Shanghai and Canton complexes is within effective range of the Nationalist-held Quemoys, but they might be moved to advanced bases with little warning. SOUTHEAST ASIA 2
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.998571
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: of
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.988735
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #5, segment 1)
+Text: 6. West German Socialists initiating campaign for all-German talks: the party is attempting to create a public attitude favoring
+Token count: 19
+Recut: none
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.940306
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #6, segment 1)
+Text: direct negotiations with the East German regime and the neutralization of Germany. Comment: Despite the increasing Socialist sentiment for negotiations with the East Germans, Socialist leaders would resist a public stand advocating any negotiations involving recognition of the Communist regime because they feel such a stand would not get adequate support in West Germany at present. On several occasions since the defeat of EDC, however, Socialist leaders have publicly opposed permanent neutralization as holding no promise for Germany
+Token count: 78
+Recut: none
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

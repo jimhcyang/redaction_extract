@@ -1,0 +1,285 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.504167
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.863870
+kept_candidate_count=2
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #1, segment 1)
+Text: West Germany: Opposition in Adenauer's own party to Brentano's agreement in Washington to increase Bonn's foreign aid program. (Page 1) Congo: Military operations continue on three fronts. (Page 1) Laos: Peiping presses Burma to reject neutral nations proposal
+Token count: 38
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: Israel: Ben Gurion's Mapai party will probably be forced to call for new elections. (Page iii) Britain: London taking its most vigorous stand since 1958 against East-West trade controls. (Page iv
+Token count: 31
+Recut: none
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 11
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 25 February 1961 DAILY BRIEF
+- original #3 segment 2: full_page_or_admin, noncontent_keyword
+  Text: West Germany: Opposition has been voiced in Chancellor Adenauer's Christian Democratic party (CDU) to the chancellor's willingness to accommodate the US with respect to Bonn's assuming a greater share of Western financial burdens. Following his briefing of a CDU caucus upon his return from Washington, Foreign Minister von Brentano reportedly was bitterly attacked for his offer of aid to underdeveloped areas, which he made on 17 February. Both Economics Minister Erhard and Finance Minister Etzel in "nasty and ironic tones" challenged Brentano's authority to make such an offer and claimed that Bonn would be unable to impose the required taxes for a billion-dollar aid program. Erhard stated that his one-shot offer on 6 February in reply to US demands was still "fair and final." While Erhard's position reflects his cautious anti-inflationary economic views, he is probably using the issue also to reassert his ambition to succeed Adenauer despite the Chancellor's well-known aversion to him in that role. Adenauer, who was not at the caucus, commissioned the Brentano visit, and has assigned future negotiations to Brentano's Foreign Ministry rather than to Erhard's Economics Ministry. Although mindful of the need for party unity in an election year, Adenauer will probably be able to overcome party opposition on this issue. The opposition Socialists are reported favorable to the US position and are not planning to attack Adenauer in the campaign this summer for reaching such an economic agreement with the US. (Backup, Page 1) Congo: Mobutu troops in plain clothes have appeared in Ruanda-Urundi. Their purpose allegedly is to buy off one of the garrisons now controlled by Gizenga across the Congo border in Bukavu and
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #3 (original #4, segment 1)
+Text: Republic of the Congo
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 2: noncontent_keyword
+  Text: 25 Feb 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #4 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.243936
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: thus reassert central government authority
+- original #6 segment 1: full_page_or_admin, noncontent_keyword
+  Text: Kivu Province. This operation has a better chance of succeeding than did Mobutu's abortive attempt on 1 January, also from Ruanda-Urundi, to take over the province. Belgium, which administers Ruanda-Urundi as a UN trust territory, would be open to further severe censure, should the operation take place. In addition, the widespread belief that Mobutu is operating under Belgian influence would be reinforced. Tshombé's government, virtually disregarding its 22 February agreement with the UN to freeze its troop movements, reportedly is continuing a two-pronged drive against Manono, capital of the dissident "Lualaba" state. Katanga officials are claiming that the agreement covers only relations between UN and Katanga forces; however, the Katangan officer commanding one of the advancing forces reportedly told the leader of a Nigerian UN patrol that he "has orders to continue into Manono despite any Nigerian resistance." Civilian UN officials in Elisabethville believe that serious clashes with Katanga forces are likely to occur and have asked headquarters in Leopoldville for reinforcements. Confused reports from northern Kasai Province indicate that a force of pro-Gizenga troops is moving toward the provincial capital of Luluabourg and may have entered the city. This probably is part of the Gizengist incursion of the area which began late in January. There is no information concerning the size or effectiveness of the force, which Ghanaian UN troops have been ordered to halt. This force is at least partly responsive to Gizenga's orders; however, this control probably is tenuous. (Backup, Page 3) Laos: Peiping is bringing pressure to bear on Burma to reject King Savang's proposal for a neutral nations commission in Laos
+- original #6 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 25 Feb 61 DAILY BRIEF
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.954492
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #7, segment 1)
+Text: Peiping's strong objections to the neutral nations commission and asked that the Chinese position be conveyed to Rangoon as soon as possible. He added that Chou-En-lai was writing a letter to the Burmese prime minister on the subject
+Token count: 38
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #9, segment 1)
+Text: Israel: The refusal of the National Religious party to join a new government under Ben-Gurion will probably force Mapai party to call for new elections. Mapai leaders have decided that they would rather face that alternative than accede
+Token count: 38
+Recut: none
+
+Excluded candidates:
+- original #7 segment 2: noncontent_keyword
+  Text: Backup, Page 5
+- original #8 segment 1: noncontent_keyword
+  Text: Backup, Page 7
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.903156
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: to the demands of other former coalition partners to replace Ben-Gurion as leader of a new coalition. Adverse public reaction to the prolonged party crisis over the Lavon affair has made most Mapai leaders fearful of losing votes in an election at this time. Ben-Gurion is not averse to early elections. (Backup, Page 9) Britain: At the annual review meetings of COCOM (Coordinating Committee for East-West trade) currently being held in Paris, London is taking its most vigorous stand since 1958 and is insisting that controls not be aimed at the economic base of the bloc but limited to "specifically strategic" materials and equipment. The Macmillan government has long questioned the effectiveness of the control system in impeding the USSR's military and technological advance and now apparently wishes to expand bloc trade both as part of its current export drive and as a means of improving relations with the bloc
+- original #10 segment 2: noncontent_keyword
+  Text: Backup, Page 10
+- original #11 segment 1: noncontent_keyword
+  Text: Backup, Page 11
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.243807
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: Sharp Differences
+- original #13 segment 1: full_page_or_admin
+  Text: Bonn Over Brentano Aid Offer In the absence of Adenauer a meeting of the Christian Democratic Union (CDU) members on 21 February greeted Foreign Minister von Brentano's account of his financial talks in Washington coolly and with only perfunctory applause in contrast to the "thunderous applause" following the attack on him by Erhard and Etzel. Brentano reportedly left the meeting visibly shaken. Erhard bitterly attacked Brentano's talks in Washington committing West Germany to a continuing annual aid program featuring substantial budgetary appropriations. He argued that while German capital would be devoted to aid to developing countries, foreign capital, including American, would flow into German investments, and that American financial difficulties would accordingly worsen. Finance Minister Etzel said that an aid program on the scale envisioned by Brentano would mean a 16-percent tax increase, which he implied the Bundestag would never accept. Etzel added that no one should tell him that political considerations were overriding because in his opinion the prime political issue for Bonn was West Germany's economic stability. Erhard may believe that he has sufficient backing in the party to challenge Adenauer's authority on this issue and thus strengthen his chances of becoming the next chancellor. The breach between Erhard and Adenauer has never been healed since their quarrel in the spring of 1959 when Adenauer successfully opposed Erhard's choice by the party leaders. Last month an attempt was made to patch the quarrel and ensure party solidarity by naming both Adenauer and Erhard as a "team" to lead the campaign for the national election which will probably take place in September. The chancellor can probably bring the opponents within his party into line, and may do so in a manner that will once more make a point of Erhard's political ineptness. He will be aided by the reported willingness of the opposition Socialj
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 25 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: Democratic party (SPD) to avoid exploiting this issue in the election campaign--even if a tax increase becomes necessary. The top SPD leaders believe that the 6 February Bonn offer to help relieve US balance of payment difficulties by prepayment of debts and advance deposits for armament purchases is clearly insufficient and that West Germany must eventually accede to the American requests
+- original #14 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 25 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: Situation in the Congo Mobutu's plan in his Ruanda-Urundi operation apparently is to subvert the forces in Bukavu directly subordinate to the Kivu provincial government, who reportedly have not been paid as a result of that government's bankruptcy, and turn them against a garrison of Stanleyville troops, which is also located at Bukavu. He apparently is attempting to take advantage of the almost complete anarchy in Kivu which has resulted from the struggle for power among local politicians, most of whom claim the allegiance of some of the Congolese forces in the area. The chaotic situation in the province apparently has led Anicet Kashamura, head of the provincial government since late December and a long-time associate of Lumumba and Gizenga, to send an emissary to the UN, claiming he wishes to align himself with Leopoldville against Gizenga. Kashamura, whom Stanleyville has recently been trying to bring back under control, reportedly has asked the Belgians in Ruanda-Urundi to defend his borders against Gizenga forces. Gizenga stated that he was accrediting "ambassadors" to the United States or Canada, the UAR, Communist China, and Poland. Peiping and Warsaw, naming his envoys and asking those countries to reciprocate as soon as possible. All bloc countries have expressed support for the Stanleyville regime, but, with the exception of Peiping, none has yet officially expressed an intention to exchange ambassadors. Gizenga also expressed his regime's opposition to the 21 February Security Council resolution which broadened the UN Congo force's mandate. He told his representative, "In no case can we accept the trusteeship of the UN. Our soldiers have resolved that whatever they are faced
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 25 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #6 (original #16, segment 1)
+Text: with rifles while they have bullets left
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #16 segment 2: noncontent_keyword
+  Text: 25 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: Situation in Laos While Burma has not yet declared itself on Laos' invitation to serve on a neutral nations commission, the Burmese Foreign Ministry reportedly has prepared a memorandum recommending that the government decline. The memorandum points out that the situation in Laos is extremely complicated, and that the proposal does not go far enough in that it is merely of a fact-finding nature and does not provide for recommendations of courses of action. Gromyko's discussion in Moscow provides a further indication that the Communist bloc leaders feel the proposal for a neutral nations commission for Laos may have undercut their own position and, if implemented, would prevent Communist participation in any settlement. Gromyko insisted that the solution to the Laotian problem lay in adherence to established agreements and procedures and that the proposal was an attempt by the US to circumvent the Geneva agreements. He observed that one of the US objectives was to eliminate Poland. According to Hanoi radio, Souvanna Phouma told a press conference held somewhere in Xieng Khouang Province on 24 February that he considered an international conference along the lines of Premier Sihanouk's 14-nation proposal to be the best way to settle the crisis in Laos. Souvanna is also quoted as saying that he doubted the "Laotian people and the Pathet Lao forces can accept the broadening of the Vientiane (Boun Oum) government. If there is any broadening, that can only be a broadening, with collaboration of the Pathet Lao forces, of the government which I have set up." During the past two weeks several International Control Commission (ICC) courier flights to Hanoi have been turned back by North Vietnamese authorities for various reasons, usually on the excuse of "bad weather," according to members of the Canadian delegation to the ICC. In the most recent instance, however, the flight was turned back five minutes
+- original #17 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 25 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 14]
+kind=unred_only red_source_page=None unred_source_page=14
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: out of Hanoi because the airport was "too crowded." this development is related to the continuing Soviet airlift to Laos through the Hanoi airport. Airlift operations into Laos were carried out on 21 and 22 February but were apparently canceled on 23 February, possibly because of adverse weather
+- original #18 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 25 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 6
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=8 unred_source_page=15
+alignment_score=0.997050
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Moudjahid
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=9 unred_source_page=16
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 17]
+kind=unred_only red_source_page=None unred_source_page=17
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: Coalition Problems May Force Elections in Israel The Lavon affair has been primarily an intra-Mapai controversy over former Defense Minister Pinhas Lavon's alleged responsibility for an abortive clandestine operation in 1954 aimed at disrupting Egyptian-American relations. A personal struggle developed between Ben-Gurion and Lavon, himself a power within the Mapai, when Lavon last year publicly implied that he had been framed by protegés of Ben-Gurion in the Defense Ministry during an investigation of the operation which subsequently forced Lavon out of the cabinet. On the basis of new evidence, a cabinet committee exonerated Lavon last December; the committee's procedures and findings were severely criticized by Ben-Gurion. After his Mapai colleagues refused to submit to his demand for Lavon's expulsion from the party, the prime minister forced the issue by resigning on 31 January. This prompted the party's central committee to give Ben-Gurion a vote of confidence by forcing Lavon out of his position as secretary general of the powerful Histadrut labor federation. Ben-Gurion then agreed to form a new coalition. The Mapam, Achdut-Haavoda and Progressive parties, stung by criticism of the cabinet committee which exonerated Lavon, have already announced that they will not again participate in a government led by Ben-Gurion. The National Religious party's refusal, by a one-vote margin, to participate leaves only the Religious Workers' party willing to join Mapai. However, its 3 seats, together with the 52 controlled by Mapai, are not sufficient to provide a majority in the 120-seat Knesset. It is theoretically possible that a government could be formed without Mapai, but nearly all of the other parties are now calling for elections
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 25 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 9
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=10 unred_source_page=18
+alignment_score=0.122175
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: Britain's Position on Controls on Bloc Trade The Coordinating Committee--composed of Japan and all NATO members but Iceland--is scheduled to begin its third and final round
+- original #22 segment 1: full_page_or_admin
+  Text: the 1961 review of trade controls on 2 March. In recent sessions British delegates have argued that the "specifically strategic" criterion was formally adopted at the 1958 COCOM meeting, where Britain succeeded in obtaining a major reduction of trade controls. They point to the growth of Soviet economic and technological expansion in the ten years since COCOM was established as evidence of the futility of restricting trade for other than strictly strategic reasons. Lagging exports and the prospect of further difficulties with developments that may hurt British trade, such as the further consolidation of the Common Market and the disturbances in Africa, have led a small but growing section of the business community to look toward the bloc for an expansion of trade. Bloc trade figures last year have probably reinforced this view. While bloc trade is only about three percent of Britain's total trade, British exports both to the USSR and to Communist China in 1960 were more than double those of 1959
+- original #22 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 25 Feb 61 CENTRAL INTELLIGENCE BULLETIN Page 10
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=11 unred_source_page=19
+alignment_score=0.985665
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #7 (original #23, segment 1)
+Text: the Sino-Soviet bloc. Carlos Lacerda, the newly elected governor of Guanabara, is also reported uneasy over recent Quadros moves toward
+Token count: 20
+Recut: none
+
+========================================================================
+[PAGE 20]
+kind=match red_source_page=12 unred_source_page=20
+alignment_score=0.976140
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 21]
+kind=match red_source_page=13 unred_source_page=21
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #24 segment 1: noncontent_keyword
+  Text: 25 February 1961 CENTRAL INTELLIGENCE BULLETIN

@@ -1,0 +1,165 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.575000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.123153
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 11 SEPTEMBER 1959 I. THE COMMUNIST BLOC USSR tries to dissociate Moscow from Laotian and Indian border situation
+- original #2 segment 1: full_page_or_admin
+  Text: order to preserve fa- vorable climate for Khrushchev visit. Chinese Nationalist artillery on Chinmen to return Communist fire; unusual Communist military com- munications in Taiwan Strait area continue. II. ASIA-AFRICA Laos--Government sources continue to report Communist attacks. Corruption in Indonesian Army head- quarters may be leading to government crisis. III. THE WEST Guatemala--Rightist coup plotting may lead to showdown with government. Bolivian President threatens resigna- tion
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.949600
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #3, segment 1)
+Text: Soviet diplomats in London and Paris have termed the Laos situation "untimely" and "inopportune" from the USSR's viewpoint
+Token count: 18
+Recut: none
+
+Clean Chunk #2 (original #4, segment 2)
+Text: Taiwan Strait: The Nationalists are increasingly sensitive over the Taiwan Strait situation. Chinmen artillery was ordered on 7 September to match Communist fire round for round. Chinmen batteries on that date fired high explosives on mainland targets for the first time since the heavy bombardment of 7 January. As late as 9 September unusual Chinese Communist communications were continuing in the area
+Token count: 62
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 1: noncontent_keyword
+  Text: Page 1
+- original #4 segment 3: noncontent_keyword
+  Text: Page 2
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.990660
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: Page 3
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: offing
+- original #6 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: Page 4
+- original #7 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: 11
+
+========================================================================
+[PAGE 06]
+kind=red_only red_source_page=5 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 07]
+kind=red_only red_source_page=6 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=6
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Soviet Concern Over Effect of Asian Communist Actions On Khrushchev Visit Recent Soviet moves designed to create the appearance of dissociating the USSR from events in Laos and from the Sino-Indian border dispute suggest that Moscow is concerned that these incidents may jeopardize Soviet efforts to create a favorable climate for Khrushchev's visit. Soviet Ambassador Malik, in a talk with the British minister of state for foreign affairs, on 7 September, remarked that the Laos situation is not only dangerous but also "very untimely just when the program of high-level visits is taking place and we are all looking forward to a summit meeting." In a move to soft-pedal the Sino-Indian dispute, Moscow issued a TASS statement on 9 September which, in a unique departure from Soviet practice in a dispute between a Communist and a non-Communist country, refrained from assigning blame to either party and avoided an automatic endorsement of the Chinese Communist position. The statement stressed the USSR's friendly relations with both countries and said "Soviet leading quarters" are confident that Peiping and New Delhi will reach a peaceful settlement based on mutual interests and "traditional friendship." As part of the effort to play down the importance of the dispute, TASS added a routine condemnation of alleged attempts by "Western circles," especially in the United States, to exploit the situation as a means of obstructing a relaxation of tension on the eve of Khrushchev's visit
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: full_page_or_admin
+  Text: Taiwan Strait Situation The Chinese Nationalists appear to have taken a somewhat more aggressive stance in the Taiwan Strait area. They have altered their policy on artillery fire from the Chinmen Islands to match Chinese Communist fire round for round. The previous policy had been to reply with counterbattery only when the Communists fired more than 250 rounds in a single barrage. On 7 September the Nationalists fired 52 rounds of high-explosive counterbattery fire against the mainland, the first use of high explosive against a land target in the strait area since the last large-scale exchange of fire on 7 January 1959. The previous day, on 6 September, the Nationalist South Sector air patrol, equipped with SIDEWINDER missiles, briefly overflew the China mainland in the Chinmen area, apparently in an unsuccessful effort to attack four MIGs over the mainland
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.965309
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Tarunamihardja
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.978549
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.964840
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: an
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.986698
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: short_span_min_tokens
+  Text: The
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

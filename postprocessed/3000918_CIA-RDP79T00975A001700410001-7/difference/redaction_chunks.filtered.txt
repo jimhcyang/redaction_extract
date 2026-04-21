@@ -1,0 +1,78 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.422000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.943750
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: EASTERN EUROPE 3. Communist invasion of West Berlin rumored imminent
+Token count: 10
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: LATIN AMERICA 5. Costa Rican revolution allegedly scheduled for 9 or 10 October
+Token count: 13
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.988699
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #4, segment 1)
+Text: EASTERN EUROPE 3. Communist invasion of West Berlin rumored imminent
+Token count: 10
+Recut: none
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens
+  Text: on
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.916604
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #5, segment 1)
+Text: Comment: An invasion or "peaceful" infiltration of West Berlin by Communist forces is highly improbable at this time. It is reasonable to suppose that the KVP has a plan for action against West Berlin in case of war, and advances in training this year have increased the KVP's capability for "military action." However, KVP line units have been engaged in normal field training, with some troops diverted to harvest work. The Soviet concentration west and southwest of Berlin is believed to indicate that a major exercise is imminent as part of this year's annual maneuvers in the Group of Soviet Forces, Germany. An invasion of Berlin would be completely contrary to the Soviet regime's current foreign policy, which has sought to remove the most dangerous points of conflict with the West. Moreover, it is highly unlikely that Moscow would undertake an assault on West Berlin during the London conference
+Token count: 149
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.912011
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #5 (original #6, segment 1)
+Text: LATIN AMERICA 5. Costa Rican revolution allegedly scheduled for 9 or 10 October: Comment: Any revolutionary attempt at this time would lack popular support and would be virtually certain of failure unless it received significant assistance from neighboring regimes. It has been frequently alleged that such support might be forthcoming from Venezuela, Nicaragua, Guatemala, Panama or the Dominican Republic. Repeated American warnings against further violence in Central America might, however, serve to keep this assistance covert and on a minor scale. Persistent rumors of an impending revolution have kept the Costa Rican government in a state of almost continual unrest and agitation since last July
+Token count: 105
+Recut: none

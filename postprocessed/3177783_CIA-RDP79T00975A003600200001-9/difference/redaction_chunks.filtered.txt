@@ -1,0 +1,301 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.320000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122485
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: full_page_or_admin
+  Text: 24 MARCH 1958 I. THE COMMUNIST BLOC USSR may be preparing to announce suspension of nuclear tests Another Soviet nuclear test noted near Semipalatinsk II. ASIA-AFRICA Indonesia - Military situation
+- original #2 segment 1: full_page_or_admin
+  Text: North Sumatra remains fluid, but central government appears to have upper hand Lebanese President's effort to run for second term may lead to civil United Arab Republic - Bizri re- signs as commander of UAR First Army in Syria Chinese Nationalists may take further action against Japan in connection with Tokyo's private trade agreement with Peiping. Laos - Communists may make good showing in 4 May assembly elections. III. THE WEST France - Communists may be seeking understanding with De Gaulle. Haiti - Attempt to oust Duvalier government may occur shortly. LATE ITEM Saudi Arabia - King, as a result of family pressure, yields "full powers" to Crown Prince Faysal in domestic, foreign, and finan- cial policies
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.913480
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #6, segment 1)
+Text: Soviet nuclear tests continue: The Joint Atomic Energy Intelligence Committee issued the following state- ment at 1600 22 March: The Atomic Energy Detection System has re- ported that an explosion occurred at 0750 hours GMT (0250 EST) on 22 March 1958, in the vicinity of Semipalatinsk. This test is the sixth to have occurred in the past nine days and the third since 20 March, activity having been divided between the Novaya Zemlya and Semipalatinsk proving grounds
+Token count: 77
+Recut: none
+
+Excluded candidates:
+- original #3 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: suspen- sion
+- original #4 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: West- ern
+- original #5 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: inspec- tion
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.948954
+kept_candidate_count=1
+excluded_candidate_count=7
+
+Clean Chunk #2 (original #7, segment 1)
+Text: Indonesia: The military situation in North Sumatra remains fluid, but central government forces appear to have the upper hand in that area and to be pressing their advantage. Their main objective, however, is the Padang- Bukittinggi area in Central Sumatra. There are reports that the Russian merchant ships which recently arrived in Djakarta carried small arms
+Token count: 56
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #7 segment 2: noncontent_keyword
+  Text: Page 2) (Map
+- original #8 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: res- ignation
+- original #9 segment 1: noncontent_keyword
+  Text: Page 3
+- original #10 segment 1: noncontent_keyword
+  Text: Page 4
+- original #11 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: As- sembly
+- original #12 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: candi- dates
+- original #13 segment 1: noncontent_keyword
+  Text: Page 5
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.980391
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Na- tionalist
+- original #15 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pos- sibilities
+- original #16 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: French- Soviet
+- original #17 segment 1: noncontent_keyword
+  Text: Page 7
+- original #18 segment 1: noncontent_keyword
+  Text: Page 8
+
+========================================================================
+[PAGE 07]
+kind=unred_only red_source_page=None unred_source_page=7
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: LATE ITEM Saudi Arabia: Mecca radio's announcement on 22 March that King Saud had granted "full powers" to Crown Prince Faysal in formulating and executing domestic, for- eign, and financial policies of the Saudi Arabian Govern- ment indicates that the King has yielded to family pres- sure to relinquish his highly centralized authority. Exer- cise of greater influence by Faysal would probably result in a relaxation of tensions with the United Arab Republic and in a more critical approach to relations with the United States
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: Page 9) 24 Mar 58 DAILY BRIEF
+- original #19 segment 3: full_page_or_admin, short_span_min_tokens
+  Text: iv
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC Moscow Hinting Unilateral Suspension of Nuclear Tests In early March Khrushchev told a Western ambassador that the Soviet Union was going to stop producing and testing thermonuclear weapons since its present bomb design "func- tioned perfectly" and it "already had enough to blow up the world." He added that tests of "normal bombs" would be con- tinued. The Soviet party chief, in a speech on 14 March, predicted that public pressures will eventually force govern- ments to undertake unilateral stoppage of weapons manufac- ture. The Soviet ambassador to Austria recently told Chan- cellor Raab that the USSR will make a unilateral declaration suspending nuclear tests. While such statements might be deliberately designed to "soften" the current Western position on disarmament, there are certain factors including impending United States tests including thermonuclear weapons which make a uni- lateral Soviet suspension of thermonuclear tests particularly timely. The current series of Soviet thermonuclear tests has been conducted at a rapid pace, and achievement of the immediate objectives of the USSR's thermonuclear weapons development program may be imminent. The Kremlin prob- ably estimates that the public impact of its demonstrations over the past six months in the field of weapons systems would eliminate any appearance of military weakness which a unilateral action might otherwise suggest. A major advantage, from the Soviet point of view, of a unilateral declaration in the nuclear weapons field would be to undercut Western efforts to enforce a suspension of tests or weapons manufacture through an inspection system. So- viet leaders probably believe that a test suspension would also have a heavy impact in Britain, where the Labor party is advocating a temporary test suspension and some of its members are publicly demanding a complete halt in nuclear weapons production. Such a declaration would require a dramatic setting. The most obvious occasion would be the convening of the new Supreme Soviet, which has been hurriedly called for 27 March
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 24 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=6 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=red_only red_source_page=7 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.122048
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Situation
+- original #22 segment 1: full_page_or_admin
+  Text: Indonesia Central government forces in North Sumatra continue to encounter dissident resistance in the Medan area, but reinforcements have arrived, and the government appears to hold the advantage. Meanwhile, the Atjehnese in the northern-most area of Sumatra, who have long been in revolt against Djakarta, appear to have made deals with both the dissidents and Lt. Col. Gaharu, the local pro-government army commander. Gaharu reported on 15 March, for instance, that he had reached an agreement with the Atjehnese for the main- tenance of the truce which has existed since June 1957. Dissident commander Hussein in Central Sumatra is reported relieving officers in his command who are only reluctantly supporting his movement or who are suspected of aiding Djakarta. A group of army troops and police under two of these officers has already moved "into the hills" and is generally understood to have declared itself out of the dissident movement. The Indonesian ambassador in Moscow has requested permission from Djakarta to grant visas for 36 Soviet pilots to deliver 14 aircraft to Indonesia, The request probably refers to a ferry flight of unidentified aircraft which has been arranged for early April. There have been reports that the recently arrived merchant ships purchased from the Soviet Union carried small arms. The Indonesian Government, however, continues to refute the charge that it has made any direct purchases of arms from the USSR
+- original #22 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 24 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.981528
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: appoint- ment
+- original #24 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: ac- cepted
+- original #25 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: deter- mined
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=0.978161
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pre- dicting
+- original #27 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pro- Nasir
+- original #28 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pro- Western
+- original #29 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: tradi- tional
+- original #30 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pend- ing
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=11 unred_source_page=13
+alignment_score=0.986333
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #31 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Independ- ent
+- original #32 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- garded
+- original #33 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: organized
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=12 unred_source_page=14
+alignment_score=0.974701
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #34 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: increas- ing
+- original #35 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Commu- nist
+- original #36 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Na- tionalist
+- original #37 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pres- sure
+- original #38 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Chi- nese
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=13 unred_source_page=15
+alignment_score=0.940064
+kept_candidate_count=0
+excluded_candidate_count=8
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #39 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Commu- nist
+- original #40 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: nation- al
+- original #41 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: be- tween
+- original #42 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: pub- licly
+- original #43 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: continu- ing
+- original #44 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: re- turn
+- original #45 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Further- more
+- original #46 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: French--Soviet rapproche- ment
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=14 unred_source_page=16
+alignment_score=0.984797
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #47 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Do- minican
+- original #48 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: al- ready
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=15 unred_source_page=17
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #49 segment 1: full_page_or_admin
+  Text: LATE ITEM King Saud Delegates Broad Powers to Crown Prince Faysal In granting unprecedented broad powers to Crown Prince Faysal on 22 March, King Saud has apparently bowed to pres- sure from key brothers and uncles to relinquish much of the authority which he had gradually concentrated in his own hands. The extent to which Saud's authority has been diminished, how- ever, is not yet clear since he apparently retains the loyalty of the armed forces. The King's previous conduct of affairs was particularly galling to Faysal, who, although prime min- ister and foreign minister, had been largely excluded from policy formulation in recent months. Faysal's apparent will- ingness to effect a reconciliation with the King indicates an awareness by all that the increasingly serious split in the royal family gravely threatened the future of the Saudi dynas- ty. Faysal, in his new role, may try to lessen the tensions with the United Arab Republic, but his active participation may be limited by his poor health. He will probably re-ex- amine Saudi relations with the United States, possibly modi- fying them along more nationalistic lines. Chances are in- creased that diplomatic relations may eventually be resumed with the Soviet Union. In response to widespread criticism of Saud's mismanagement of the economy, he will undoubted- ly make an effort to strengthen the country's finances
+- original #49 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 24 Mar 58 CENTRAL INTELLIGENCE BULLETIN Page 9
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=16 unred_source_page=18
+alignment_score=0.880492
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #52, segment 2)
+Text: Haiti: There are indications that an attempt to oust the weak Duvalier government may be made shortly by a combination of Duvalier's political rivals and former army strong man Kebreau. Dominican dictator Trujillo may be involved in the plot, which could result in considerable bloodshed. (Page 8) Soviet nuclear tests continue: The Joint Atomic Energy Intelligence Committee issued the following state- ment at 1600 22 March: The Atomic Energy Detection System has re- ported that an explosion occurred at 0750 hours GMT (0250 EST) on 22 March 1958, in the vicinity of Semipalatinsk. This test is the sixth to have occurred in the past nine days and the third since 20 March, activity having been divided between the Novaya Zemlya and Semipalatinsk proving grounds
+Token count: 124
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #50 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: As- sembly
+- original #51 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: candi- dates
+- original #52 segment 1: noncontent_keyword
+  Text: Page 5

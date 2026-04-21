@@ -1,0 +1,129 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.476923
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.924451
+kept_candidate_count=1
+excluded_candidate_count=7
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. EGYPTIANS EXPECT FRICTION IN JORDANIAN ARMY
+Token count: 7
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: RESIGNATION
+- original #4 segment 2: noncontent_keyword, nonempty_redacted_alternate_conflict
+  Text: page 7
+- original #5 segment 1: noncontent_keyword
+  Text: page 8
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.994118
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reported
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 2. EGYPTIANS EXPECT FRICTION IN JORDANIAN ARMY King Hussain's attempts to strengthen the political reliability of the Jordanian army by increasing the proportion of Bedouin troops could lead to serious friction between the Bedouin and the Palestinian Arabs in the army, a large number of Bedouin tribesmen had been recruited for the army recently. this would in time "lead the Palestinian troops to declare their nationalistic feeling" before the Bedouins "have infiltrated all units of the army!" The Bedouin tribes of East Jordan number about 300,000 out of Jordan's total population of 1,500,000. Their men originally formed the backbone of the fighting units of the Arab Legion, and are generally loyal to the monarchy. In addition, most Bedouin tribesmen not incorporated in the army are armed and have been a useful auxiliary source of strength to the king. Although Bedouin troops predominate in certain key units, they remain in the minority in the 25,000-man army. the Bedouins dominate both armored car regiments, half of the armored regiment, and five out of the ten infantry battalions. The Palestinians, including non-Bedouin East Jordanians, man the other half of the armor and the infantry, all of the artillery and service units, and provide most of the staff officers. The 18,000-man national guard is, by virtue of its existence in the most populated areas, largely Palestinian
+- original #7 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 10 May 57 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.990147
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: noncontent_keyword
+  Text: Comment on
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: reportedly
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.982512
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: noncontent_keyword
+  Text: Comment on
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Sumatran
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Sumatran
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 11]
+kind=red_only red_source_page=10 unred_source_page=None
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

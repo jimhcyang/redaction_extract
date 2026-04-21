@@ -1,0 +1,229 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.600000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: Copy No. C 68
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122668
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 28 APRIL 1960 I. THE COMMUNIST BLOC Soviet trawler unsuccessfully attempts to recover Polaris test vehicle launched by US sub off New Jersey coast. USSR planting rumors of Khrushchev-Ayub exchange of visits. II. ASIA-AFRICA Arab boycott of US ships set for 29 April. Libya--Chamber of Deputies censure motion against government reveals strength of the opposition which opposes US base agreement. Communist efforts to gain foothold
+- original #3 segment 1: full_page_or_admin
+  Text: Belgian Congo pose threat to area's pro-Western inclination. Indonesia reacts vehemently to expected visit of Dutch warships to Netherlands New Guinea. South Korea--Proposed appointees to caretaker cabinet considered to be generally reputable men who could implement cleanup. III. THE WEST Cuba to exchange May Day delegates with Communist bloc countries, hires Czech technicians
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.913000
+kept_candidate_count=2
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #4, segment 1)
+Text: USSR - Middle East: The USSR, as part of an effort to exploit the forthcoming Khrushchev-Menderes exchange of visits, now is planting hints that a similar exchange is being worked out with Pakistan. By circulating these rumors of a Khrushchev-Ayub meeting, Moscow is trying to bring pressure on other countries, such as Greece and Iran, to moderate their antibloc policies
+Token count: 59
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #5, segment 1)
+Text: Arab Boycott: The International Confederation of Arab Trade Unions (ICATU) has set up a "Supreme Committee" to direct the boycott of American ships scheduled to begin in Arab states at midnight on 29 April if a UAR freighter, the Cleopatra, is not unloaded in New York by that time. Unanimous enforcement in all the Arab states is improbable, but the boycott will be fairly widespread, especially in view of the fact that the Arabs believe that Israel is involved in the dispute. A parallel boycott of American aircraft is also being planned. The secretary general of the ICATU has said American vessels will not be prevented from transiting the Suez Canal
+Token count: 111
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #4 segment 2: noncontent_keyword
+  Text: Page 1
+- original #5 segment 2: noncontent_keyword
+  Text: Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.944918
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #6, segment 2)
+Text: Indonesia-Netherlands: Indonesia has reacted vehemently to the expected departure in June of the Dutch carrier Karel Doorman and two destroyers for Netherlands New Guinea (West Irian) and to the recently announced plans for reinforcement of Dutch forces there. Indonesian Foreign Minister Subandrio had informed the Dutch last fall that any effort by Dutch warships to transit what Indonesia considers its waters would be a "casus belli," and the current acting foreign minister stated on 26 April that this still was the Indonesian position. In view of acute political and economic stresses in Indonesia and the need for diversionary measures, the Dutch naval cruise is likely to precipitate
+Token count: 107
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Page 5
+- original #7 segment 1: noncontent_keyword
+  Text: DAILY BRIEF
+- original #7 segment 2: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.945789
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #4 (original #8, segment 1)
+Text: a frenzied propaganda drive for West Irian liberation. Such a development would strengthen the appeal of Indonesia's strong Communist party, which has consistently used the West Irian issue to promote anti-Western sentiment
+Token count: 32
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #9, segment 2)
+Text: III. THE WEST Cuba: Exchange visits between Cuban and Communist bloc delegates for May Day celebrations and the hiring of Czech technicians by the Cuban Government highlight Castro's rapidly growing involvement with Communist countries. The Brazilian ambassador in Cuba says he does not know whether the Cuban leader retains "sufficient autonomy and freedom of action publicly to define himself clearly regarding Communism
+Token count: 62
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #8 segment 2: noncontent_keyword
+  Text: Page 6
+- original #9 segment 1: noncontent_keyword
+  Text: Page 7
+- original #9 segment 3: noncontent_keyword
+  Text: Page 9
+- original #10 segment 1: noncontent_keyword
+  Text: DAILY BRIEF
+- original #10 segment 2: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.996371
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: DAILY BRIEF
+- original #11 segment 2: short_span_min_tokens
+  Text: iv
+
+========================================================================
+[PAGE 08]
+kind=unred_only red_source_page=None unred_source_page=8
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: full_page_or_admin
+  Text: I. THE COMMUNIST BLOC USSR Plants Rumors of Khrushchev-Ayub Meeting The Soviet Union, as part of its efforts to exploit the exchange of visits between Khrushchev and Turkish Premier Menderes announced on 12 April, is planting hints that a similar exchange is being worked out with Pakistan. Pakistani officials are reliably reported to be concerned that their government's pro-Western posture may be unsuited to the East-West "thaw," but they plan to make no decision on whether to revise their line toward the USSR until after the Commonwealth conference in May. By circulating rumors of a Khrushchev-Ayub meeting, Moscow apparently hopes to bring additional pressures on other countries as well, particularly Greece and Iran, to get in step and moderate their antibloc policies. Greek Foreign Minister Averoff recently told Ambassador Briggs that Athens must soon decide whether to "fall in line" and abandon its resistance to a detente with Moscow. In an obvious effort to play on Athens' fear of political isolation, a
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.124156
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: Menderes, after returning from Moscow, will go to Sofia to negotiate outstanding issues
+- original #14 segment 1: full_page_or_admin
+  Text: mid-April, Moscow rejected Iranian proposals for a high-level meeting unless Tehran agrees to ban foreign military bases of all types from Iranian territory; Soviet leaders apparently believe that the Iranian Government can be induced to make new efforts to improve relations
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #15 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Arab Boycott of American Shipping Impending The International Confederation of Arab Trade Unions (ICATU) has established a "Supreme Committee" to direct the boycott of American ships which is scheduled to begin in Arab ports at midnight on 29 April if the UAR freighter Cleopatra is not unloaded in New York by then. A parallel boycott of American aircraft is also planned. The secretary general of the ICATU has said American vessels will not be prevented from using the Suez Canal. Members of the Seafarers International Union (SIU) and the International Longshoremen's Association (ILA) have been picketing and refusing to unload the Cleopatra since 13 April as a protest against the UAR's boycott of American ships trading with Israel. The Cleopatra's owners have thus far failed to obtain a federal court injunction against the picketing, and the SIU asserts it will not be "swayed or intimidated" by Arab retaliatory measures. The effect of the scheduled Arab counteraction probably will be widespread, although the unanimity the ICATU hopes for is unlikely. The governments of Saudi Arabia, Kuwait, Sudan, Jordan, and Lebanon appear reluctant to give full support, but they probably will be inclined toward token observance in view of the Arab belief that Israel is involved in the dispute. A wildcat refusal to off-load an American ship already has been reported in Kuwait, and similar activity is likely wherever Arab governments fail to support the boycott fully. Nasir apparently regards the situation as unfortunate but feels he must countenance and even encourage the Arab boycott. The UAR is also considering a possible closure of its borders to American goods in case the boycott is not effective. The Foreign Ministry, however, has asked the Greek Government if, when the boycott goes into effect
+
+========================================================================
+[PAGE 11]
+kind=unred_only red_source_page=None unred_source_page=11
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: full_page_or_admin
+  Text: US wheat destined for the UAR on American ships could be off-loaded at Piraeus and transshipped to the UAR under another flag. The American Embassy in Cairo reports that there are signs the heretofore lenient UAR view of the US Government's role in the dispute is beginning to give way to a more hostile attitude. Picketing of the Cleopatra is welcomed by the Israeli press as a possible turning point in efforts to secure passage for Israeli ships through the Suez Canal. American seamen have been hailed, while the US Government has been criticized for its failure to take effective action against the UAR boycott of Israeli shipping and for its statement on the potentially adverse effect the picketing could have on American foreign relations
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=8 unred_source_page=12
+alignment_score=0.975714
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #17 segment 1: full_page_or_admin
+  Text: Increasingly Vehement Indonesian Reaction Developing Over Dutch Naval Cruise to New Guinea Indonesia has reacted with increasing vehemence during the past week to the expected visit this summer of Dutch naval units to New Guinea (West Irian) and the recent Dutch announcement of plans to augment forces there. The naval force will consist of an aircraft carrier and two escort destroyers; reinforcements will include at least 12 jet fighters, modern replacements for amphibious reconnaissance aircraft, antiaircraft artillery, and increased contingents of naval and army forces. The Indonesian foreign minister has taken the position that any entrance of Dutch warships into Indonesian waters will be considered a "casus belli," a posture which is complicated by Indonesia's claim to sovereignty over all waters within the archipelago. Indonesia would not attempt to prevent such a passage by force of arms, warned that danger of violence would exist, particularly if the "Dutch were careless." An official of the West Irian Liberation Front told the press on 23 April that Indonesia could not ignore an "act of war." He warned against individual actions, however, and suggested that the populace await the command of the Sukarno government. The Foreign Ministry is considering a request to Cairo that the Dutch mission be denied transit through the Suez Canal. In view of acute political and economic stresses in Indonesia and the need for diversionary measures, the Dutch naval cruise and anticipated Dutch reinforcements are likely to precipitate a frenzied propaganda drive for the "liberation" of West Irian. All political elements, including President Sukarno and the Communist party, will try to capitalize on Dutch activity and each will try to surpass its opponents with increasingly inflammatory statements. Such a development will principally benefit Indonesia's strong Communist party, which has consistently used the West Irian issue to promote anti-Western sentiment
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=10 unred_source_page=14
+alignment_score=0.976389
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=11 unred_source_page=15
+alignment_score=0.941880
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=12 unred_source_page=16
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: III. THE WEST Castro's Involvement With Communist Bloc Cuba's involvement with Communist countries has progressed rapidly in recent months. An observer close to Castro thinks the Cuban leader may not be free to oppose the trend even if he wishes. Cuban delegates representing labor and the Communist party who are attending May Day celebrations in Communist China and other bloc countries seem to be receiving special attention and propaganda treatment. The Castro government is known to be paying the expenses of a Chinese Communist delegation now in Havana for the much-publicized rally planned for May Day. Delegates from other Communist countries are also probably subsidized, as Latin American guests are known to be. visas for Czech technicians hired by the National Institute of Agrarian Reform, government arbiter of Castro's planned takeover of Cuba's economy. numerous Czech technicians and economic representatives have arrived in Cuba in April, including Minister of Foreign Trade Frantisek Krajcir. Brazilian Ambassador da Cunha in Havana reported to Rio on 20 April that he is not sure whether Castro has sufficient autonomy and freedom of action publicly to define clearly his attitude toward Communism, as the ambassador had hoped Castro would do on May Day to allay growing confusion and doubt in Cuba. Da Cunha, who has been generally sympathetic to the Cuban revolution, feels that internal tension is more serious each day and has reports that disturbances are planned for the eve of May Day
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=13 unred_source_page=17
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=14 unred_source_page=18
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

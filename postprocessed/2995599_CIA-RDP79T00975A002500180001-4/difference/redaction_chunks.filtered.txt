@@ -1,0 +1,141 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.731579
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.802732
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. FRENCH REPORTED NEGOTIATING CEASE-FIRE IN ALGERIA
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #2, segment 1)
+Text: 3. CZECH ARMY EXERCISE HELD IN EAST GERMANY
+Token count: 8
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #3, segment 1)
+Text: 5. FRANCE REPORTED ABOUT TO RECOGNIZE COMMUNIST CHINA
+Token count: 8
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 3
+- original #2 segment 2: noncontent_keyword
+  Text: page 5
+- original #3 segment 2: noncontent_keyword
+  Text: page 7
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: 1. FRENCH REPORTED NEGOTIATING CEASE-FIRE IN ALGERIA Premier Mollet would accept the following terms for a cease-fire in Algeria: truce without obligation to surrender; guarantee for the lives, families and property of combatants; general amnesty for prisoners; and safe conduct for negotiators. Comment So far Paris has avoided negotiating a general political settlement with rebel spokesmen. Mollet, however, is under sharp pressure within his cabinet to bring the Algerian imbroglio to the point where negotiations could be started with responsible Moslem leaders; and the increasing budgetary squeeze resulting from mounting military expenditures will probably oblige him to explore every possible solution
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.936449
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 3. CZECH ARMY EXERCISE HELD IN EAST GERMANY Czech forces held an exercise recently in the Doebeln area, between Dresden and Leipzig in East Germany. the "comrades come on invitation of the minister of defense, carry out their combined operations and vanish." Local officials, who were disturbed because their immediate superior had not been informed, were told "with kind regards from Comrades Ulbricht and Stoph," that he "will not know about such things in the future either." Comment This is the first positive identification of ground forces of any Warsaw pact member other than the Soviet Union conducting exercises outside its own country. It is not clear whether this activity was a combined exercise with Soviet or East German troops or a Czech demonstration. Czech officers were noted in the general area of Doebeln in mid-February observing a Soviet exercise, possibly in preparation for some combined military activity. Soviet forces in Germany held a large-scale command post exercise involving all major commands from 30 March to 8 April
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=0.964526
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: concessions
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 5. FRANCE REPORTED ABOUT TO RECOGNIZE COMMUNIST CHINA Comment Current reports that France has agreed to exchange trade and cultural representatives with Communist China may have given rise to rumors of diplomatic recognition. France would not recognize Communist China "under present circumstances." While France is unlikely to make the move at present, there is continuing support within the French assembly for recognition
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.944939
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: farthest
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: military
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=10 unred_source_page=10
+alignment_score=0.953413
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: agreement
+- original #11 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: agreement. (Press
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=11 unred_source_page=11
+alignment_score=0.925935
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword, short_span_min_tokens
+  Text: SECRET

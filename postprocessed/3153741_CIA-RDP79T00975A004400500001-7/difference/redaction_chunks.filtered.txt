@@ -1,0 +1,174 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.700000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.122844
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #2 segment 1: full_page_or_admin
+  Text: 11 MAY 1959 I. THE COMMUNIST BLOC USSR launches test ICBM to full 3500-nautical-mile range on 9 May. Soviet party central committee to convene on 24 June to discuss implementation of economic program. USSR population 208,800,000, according to official census. Males number 94,000,000, or 5,000,000 fewer than estimated
+- original #3 segment 1: full_page_or_admin
+  Text: US. Moscow commentator says Secretary Herter in his 7 May speech has "compromised faith in good intentions of Western powers." II. ASIA-AFRICA UAR reiterates policy of "positive neutrality" to its diplomats abroad. Yemen - Imam and Crown Prince quoted as wanting to "disengage" from commitments to Sino-Soviet bloc. Government crisis in Somalia
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.925273
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #1 (original #4, segment 1)
+Text: USSR-ICBM: A valid operation began on the Tyura Tam missile test range at 0701 EDT on 9 May 1959. The countdown proceeded smoothly and culminated in the launching of an ICBM test vehicle at about 1459 EDT. The test ICBM traveled the full 3500-nautical-mile range, probably impacting northeast of Klyuchi on the Kamchatka Peninsula. The success of the re-entry and guidance is not known. This is the fifth ICBM event occurring on the Tyura Tam range this year: three were successful; one was canceled just prior to launch; and the last previous ICBM firing--on 30 March 1959--did not reach the impact area and is considered a probable in-flight failure. An ICBM firing at this time would not interfere with a possible attempt to launch a Venus probe on or about 8 June 1959
+Token count: 135
+Recut: none
+
+Excluded candidates:
+- original #5 segment 1: noncontent_keyword
+  Text: Page 1
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.931210
+kept_candidate_count=1
+excluded_candidate_count=3
+
+Clean Chunk #2 (original #7, segment 1)
+Text: II. ASIA-AFRICA UAR: Cairo to continue a policy of "positive neutrality" and not to become a "cat's paw" in the cold war. The UAR and the Philippines are in basic agreement in the struggle against the Communists. UAR heads of missions were advised to avoid any Western efforts to "draw us away" from neutrality and to avoid being "deceived" by praise of the UAR's anti-Communist campaign. Cairo's continuing suspicion of the West and its desire to maintain the appearance of neutrality. Yemen: The Imam told the Italian ambassador to Yemen and Crown Prince Badr agree that now is a good time for Yemen to "disengage" from its commitments with the USSR and Communist China. The Imam said that if Western countries, meaning the United States, will finance and continue road and port construction, he is inclined
+Token count: 136
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Page 2
+- original #7 segment 2: noncontent_keyword
+  Text: 11 May 59 DAILY BRIEF
+- original #7 segment 3: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.938235
+kept_candidate_count=2
+excluded_candidate_count=3
+
+Clean Chunk #3 (original #8, segment 1)
+Text: to end his agreements with the Communist countries. The Italian ambassador believes that the reported plan for closing all diplomatic missions in Yemen is a sincere effort to oust the Communists, but a top Yemeni official told him that it would take months to carry out the plan
+Token count: 48
+Recut: kept_after_recut
+
+Clean Chunk #4 (original #9, segment 1)
+Text: provide an atmosphere conducive to
+Token count: 5
+Recut: none
+
+Excluded candidates:
+- original #8 segment 2: noncontent_keyword
+  Text: Page 3
+- original #10 segment 1: noncontent_keyword
+  Text: Page 5) 11 May 59 DAILY BRIEF
+- original #10 segment 2: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.996418
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #11 segment 1: noncontent_keyword
+  Text: 11 May 59 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.994118
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: 11 May 59 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 09]
+kind=unred_only red_source_page=None unred_source_page=9
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: II. ASIA-AFRICA Imam Favors Yemeni Disengagement From Sino-Soviet Commitments The Imam of Yemen has informed the Italian ambassador that Yemen is now inclined to "disengage" itself from commitments made with the Sino-Soviet bloc, provided the West--meaning the United States--will "take over." He added this would involve financing and continuing Sino-Soviet work now in progress in Yemen, as well as taking care of the debt incurred for work already performed. Bloc commitments to Yemen under the economic aid program consist of a $25,000,000 Soviet credit and a $16,000,000 Chinese Communist interest-free loan; about $25,000,000 of the total commitment has actually been allocated. Soviet technicians are engaged in constructing port facilities and airfields, opening industrial and agricultural schools, and other projects. Communist China is building a road from the Red Sea at Al-Hudaydah to the capital at Sana and, along with some of the European satellites, is providing aid for the development of light industrial enterprises. Soviet military aid to Yemen, under which the Imam received aircraft, armor, artillery, and other weapons, amounts to over $30,000,000. Yemen, however, presumably is required to repay only about one third the amount--probably in the form of exports, such as coffee. There are believed to be more than 400 bloc personnel in Yemen, including over 50 military specialists. Approximately 300 of those working on economic projects are Chinese Communists engaged in road building. There have been indications that Crown Prince Badr, who previously favored closer ties with the bloc, is moving to curtail
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 11 May 59 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=8 unred_source_page=10
+alignment_score=0.122711
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: full_page_or_admin
+  Text: Sino-Soviet influence, presumably with UAR encouragement. Sino-Soviet missions appear to be the primary target of a reported plan to close all diplomatic installations
+- original #15 segment 1: full_page_or_admin
+  Text: Yemen; a top-ranking Yemeni official reportedly stated, however, that this action cannot take place for many months. Foreign relations would be conducted through Cairo for the United Arab States--the UAR-Yemeni federation. Badr has recently expelled a number of Soviet doctors from Yemen and may be taking steps to strengthen his control over other bloc personnel. The recent arrival of an Egyptian economic mission and plans for accepting a similar mission for agricultural training appear to be additional moves to reduce dependence on Sino-Soviet aid
+- original #15 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 11 May 59 CENTRAL INTELLIGENCE BULLETIN Page 4
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=9 unred_source_page=11
+alignment_score=0.996238
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #16 segment 1: noncontent_keyword
+  Text: 11 May 59 CENTRAL INTELLIGENCE BULLETIN Page 5
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=10 unred_source_page=12
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=11 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

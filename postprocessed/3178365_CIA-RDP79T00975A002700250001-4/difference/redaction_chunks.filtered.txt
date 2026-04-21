@@ -1,0 +1,198 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.702500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.917500
+kept_candidate_count=2
+excluded_candidate_count=5
+
+Clean Chunk #1 (original #1, segment 2)
+Text: 2. BRITISH POLICY PLANNING CONCERNING SUEZ SITUATION (page 4). 3. INDIA REPORTEDLY RENEWS EFFORTS IN CAIRO TO SOLVE SUEZ CONTROVERSY (page 5). 4. FRANCE MAY LINK SUEZ "WAR" TO ALGERIAN REFORMS
+Token count: 31
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #3, segment 2)
+Text: THE ARAB-ISRAELI SITUATION
+Token count: 3
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #1 segment 3: noncontent_keyword
+  Text: page 6
+- original #2 segment 1: noncontent_keyword
+  Text: page 8
+- original #3 segment 1: noncontent_keyword
+  Text: page 9
+- original #3 segment 3: noncontent_keyword
+  Text: page 10
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.989301
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: legally
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: full_page_or_admin
+  Text: 2. BRITISH POLICY PLANNING CONCERNING SUEZ SITUATION Approaching the situation on a day-to-day basis, Prime Minister Eden has permitted military preparations to advance, but has not yet given specific guidance to the British chiefs of staff, who at the end of July adopted 15 September as the date for completion of military deployment in the Mediterranean area. Comment the impression that the British government has not reached a final decision as to the use of force in the event negotiations with Nasr are unsatisfactory. In any case, London appears to believe that for moral justification some further move--perhaps including recourse to the UN Security Council--would be a necessary preliminary to the use of force
+
+========================================================================
+[PAGE 06]
+kind=unred_only red_source_page=None unred_source_page=6
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #6 segment 1: full_page_or_admin
+  Text: 3. INDIA REPORTEDLY RENEWS EFFORTS IN CAIRO TO SOLVE SUEZ CONTROVERSY India's Krishna Menon, during his visit to Cairo on 29 and 30 August, worked out with President Nasr a compromise proposal on the Suez Canal to be presented to the committee of five. The proposal centers on the setting up of an international advisory committee, ostensibly controlled by Egypt, but with powers extending to administration of the canal. India is trying to freeze the USSR out of a position of influence with Nasr and that Menon resisted attempts of the Soviet ambassador to Cairo to see him during his stopover there. The Indian attitude, is the result of Nehru's belief that the success of India's Second Five-Year Plan depends on an effective guarantee of freedom of transit through the canal and the Indian prime minister's unwillingness to depend on Nasr for this. Comment Nehru reportedly was dissatisfied with what he considered to be Menon's sharing of a position with the USSR at the London conference. Congress Party parliament members that India's economic interests could be better served by the Dulles formula than the Soviet position, Nehru reportedly has also given a general directive on Suez to Indian newspapers, and his attitude may be reflected in editorial criticism of Nasr's action on the canal which appeared for the first time on 2 September
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: 4. FRANCE MAY LINK SUEZ "WAR" TO ALGERIAN REFORMS The French government intends to balance sanctions against Egyptian premier Nasr with the announcement of radical political reforms in Algeria. Premier Mollet has decided to offer a decentralized federal status to Algeria and to invite the rebels to negotiate on this basis. Announcement of this concession might be delayed, however, if Nasr backs down before 15 September or if military action is not taken against him. Military action would presumably be pegged to the resignation of canal pilots and the consequent need to keep the canal open. Comment Mollet will meet Lacoste, the French minister residing in Algeria, this week end and may try to gain his support for a modification of the "pacification first" policy by reassuring Lacoste of Paris' intention to deal firmly with Nasr. Ambassador Dillon in Paris does not believe the cabinet has, as yet, decided to employ force, but he reports a growing French feeling that military action may become necessary
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.812950
+kept_candidate_count=1
+excluded_candidate_count=5
+
+Clean Chunk #3 (original #13, segment 1)
+Text: Representatives of the union, the university students' strike committee, and opposition leaders--including two former presidents--met and decided on 4 September to co-operate in a joint strike program and to attack the Panama National Guard headquarters and other public buildings. The student leaders obtained a promise from the others at the meeting for support in demonstrations against the American embassy, "including possible violence." These actions are allegedly planned for sometime between 5 and 12 September. The students' strike committee has numerous leftist and Communist members
+Token count: 86
+Recut: none
+
+Excluded candidates:
+- original #8 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: political
+- original #9 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: students
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Communist-dominated
+- original #11 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: justified
+- original #12 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: disorders
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.939377
+kept_candidate_count=0
+excluded_candidate_count=5
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: considered
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: policy
+- original #16 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: controversy
+- original #17 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Kubitschek
+- original #18 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: certainly
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.937110
+kept_candidate_count=0
+excluded_candidate_count=4
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: recently
+- original #20 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: isolation
+- original #21 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: strengthening
+- original #22 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: promoting
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #23 segment 1: full_page_or_admin
+  Text: THE ARAB-ISRAELI SITUATION (Information as of 1700, 5 September) Prime Minister Ben-Gurion of Israel has flatly rejected all the United Nations Security Council proposals for improving the Arab-Israeli border situation and strengthening the armistice machinery, according to UN truce supervisor General Burns. Secretary General Hammarskjold, who sought Arab and Israeli acceptance of these proposals this spring, said he considered that Ben-Gurion's attitude closed the door to further action by him unless the Security Council takes new steps. Hammarskjold last spring obtained only partial and conditional acceptance of the UN proposals from the Arab states. Israel has long maintained that Arab commitments to the armistice agreements are worthless, and that the UN is incapable of obtaining strict Arab compliance. Ben-Gurion's latest statement to Burns probably stems immediately from recent attacks on Israel by Arab raiders
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.904358
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #26, segment 1)
+Text: 3. Mao Tse-tung told the Laotians that, although Communist China desired to negotiate with Chiang Kai-shek, it was in no hurry. This playing down of the urgency of the Taiwan problem is in contrast to former Chinese Communist statements which stressed the "inevitable" early "liberation of Taiwan
+Token count: 47
+Recut: none
+
+Excluded candidates:
+- original #24 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: completion
+- original #25 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: under
+
+========================================================================
+[PAGE 13]
+kind=unred_only red_source_page=None unred_source_page=13
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: full_page_or_admin
+  Text: TAIWAN STRAIT SITUATION 5 SEPTEMBER 1956 CHINESE COMMUNIST AIRFIELD
+- original #27 segment 2: full_page_or_admin, noncontent_keyword, short_span_min_tokens
+  Text: LEGEND
+- original #27 segment 3: full_page_or_admin
+  Text: DESIGNATIONS PRIMARY AIRFIELD CONSIDERED MOST IMPORTANT IN AREA. MAY SUPPORT A|RCRAFT IN GENERALLY PREPARED RUNWAY AREA WITH PREPARED RUNWAY SECONDARY AIRFIELD AUXILIARY OR EMERGENCY BASES USED FOR DISPERSAL. GENERALLY LESS THAN 5000 FEET USABILITY ACTIVE BASE FOR MILITARY & CIVILIAN AIRCRAFT. SOME BASES USED BY PISTON TYPES MAY BE USABLE BY JETS INACTIVE BASE CAPABLE OF USE BY AIRCRAFT CURRENT STATUS UNDETERMINED OPERATIONAL SERVICEABLE UNKNOWN Railroad Under construction or projected Primary roads Secondary roads

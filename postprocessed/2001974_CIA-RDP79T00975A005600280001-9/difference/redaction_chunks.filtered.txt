@@ -1,0 +1,279 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.291667
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.882852
+kept_candidate_count=3
+excluded_candidate_count=3
+
+Clean Chunk #1 (original #1, segment 1)
+Text: 1. Situation in Laos. (Page i
+Token count: 6
+Recut: none
+
+Clean Chunk #2 (original #2, segment 1)
+Text: ii) 3. Congo: Tshombé's forces take Manono; Katanga continues to receive military supplies from Belgium. (Page ii
+Token count: 18
+Recut: none
+
+Clean Chunk #3 (original #3, segment 1)
+Text: ii) 5. Nationalist China: 3,852 irregulars evacuated from Burma-Thailand-Laos border area since 17 March. (Page ii
+Token count: 17
+Recut: none
+
+Excluded candidates:
+- original #4 segment 1: short_span_min_tokens
+  Text: iii
+- original #5 segment 1: short_span_min_tokens
+  Text: iii
+- original #6 segment 1: short_span_min_tokens
+  Text: iii
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: NORTHERN LAOS GOVERNMENT Forces in contact KONG LE - PATHET LAO KONG LE - PATHET LAO AREAS ROAD TRAIL ROUTE NUMBER
+- original #7 segment 2: noncontent_keyword
+  Text: 1 Apr 61 CENTRAL INTELLIGENCE BULLETIN Map
+- original #7 segment 3: short_span_min_tokens
+  Text: Page
+
+========================================================================
+[PAGE 05]
+kind=unred_only red_source_page=None unred_source_page=5
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #8 segment 1: full_page_or_admin, noncontent_keyword
+  Text: CENTRAL INTELLIGENCE BULLETIN 1 April 1961 DAILY BRIEF
+- original #8 segment 2: full_page_or_admin
+  Text: Laos: The capture by Kong Le - Pathet Lao forces on 31 March of Tha Thom, the government's main base on the southern approach to the Plaine des Jarres, indicates that the enemy forces intend to improve further their military position in Laos prior to any cease-fire. The well-executed attack followed an intensive artillery barrage directed by well-placed spotters. This action also opens the way for a possible drive southward against Pak Sane. The loss of Tha Thom will have a strong psychological impact on the Boun Oum government, particularly on General Phoumi, who is already alarmed over the reported Communist threat to Thakhek. A Pathet Lao advance to either Pak Sane or Thakhek would cut off southern Laos
+- original #8 segment 3: full_page_or_admin, noncontent_keyword
+  Text: Backup, Page 1) (Map
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=4 unred_source_page=6
+alignment_score=0.140179
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: 1 Apr 61 CENTRAL INTELLIGENCE BULLETIN Map
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=5 unred_source_page=7
+alignment_score=0.932125
+kept_candidate_count=3
+excluded_candidate_count=6
+
+Clean Chunk #4 (original #12, segment 1)
+Text: Congo: Despite the apparent ease with which Tshombé's forces took Manono, the Baluba tribesmen in northern Katanga are likely to remain restive. Katanga apparently continues to receive military supplies from Belgium. Shipments are coming by air via the UN trust territory of Ruanda-Urundi and by ship probably through the Angolan port of Lobito. Future shipments are scheduled as far ahead as next August
+Token count: 64
+Recut: kept_after_recut
+
+Clean Chunk #5 (original #13, segment 1)
+Text: time for
+Token count: 2
+Recut: none
+
+Clean Chunk #6 (original #15, segment 2)
+Text: Nationalist China: Chinese Nationalist irregulars numbering 3,852, including some dependents, have been evacuated from the Burma-Thailand-Laos border area since 17 March
+Token count: 22
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: this
+- original #11 segment 1: noncontent_keyword, short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Backup
+- original #12 segment 2: noncontent_keyword, short_span_min_tokens
+  Text: Map
+- original #14 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: Algeria
+- original #15 segment 1: noncontent_keyword
+  Text: Backup, Page 5
+- original #16 segment 1: short_span_min_tokens
+  Text: ii
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=6 unred_source_page=8
+alignment_score=0.934726
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #7 (original #17, segment 1)
+Text: The operation is slowing and will soon end, since Taipei has evacuated the major part of the irregulars responsive to Nationalist control, presumably including the 1,000-man Taiwan-trained special force sent to the area in 1960. Most of the approximately 3,000 to 4,000 irregulars remaining in the area have never been responsive to Taipei, and few will choose to go to Taiwan without greater pressure from Thai and Lao authorities
+Token count: 72
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #17 segment 2: noncontent_keyword
+  Text: Backup, Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=7 unred_source_page=9
+alignment_score=0.995000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: noncontent_keyword
+  Text: Backup, Page 8
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #19 segment 1: full_page_or_admin
+  Text: Laos Prior to news of the Tha Thom reverse, the Laotian Government apparently had been on the verge of appealing for help from SEATO on the basis of reports of a Communist thrust developing in the Kam Keut area to cut Laos in half. King Savang said he had advised the government against taking such a "premature" step. Savang expressed the view that any appeal to SEATO should await the Soviet reply to the British, but his appeal to Brown to advise General Phoumi to go slowly in this matter indicates that the King does not have full command of the situation. Savang, emphasizing the importance of preventing the enemy from using a cease-fire to improve its military position, said any cease-fire should involve withdrawal of North Vietnamese troops. The presence of the substantial enemy forces which are reported converging on Thakhek has not yet been substantiated, but all efforts to confirm or deny Laotian field reports are seriously handicapped by the fact that aerial reconnaissance is frequently ineffective in this heavily wooded area and by the lack of Western observers on the ground. support Laotian claims of North Vietnamese assistance in the recent fighting in the Kam Keut area. On 10 March over 30 trucks transported provisions and ammunition from Vinh, North Vietnam, to Khammouane Province via Route 8. President Diem of South Vietnam has also received unconfirmed reports that North Vietnamese units are moving into Laos in the direction of Thakhek. Phoumi apparently remains convinced that the situation in southern Laos is serious. He feels he does not have sufficient forces to stop a major attack in this region, and says he is preparing for the necessity of evacuating Thakhek and Savannakhet. In a review of the security situation with Ambassador Brown on 30 March, Phoumi seemed greatly depressed and said he was
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 1 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 1
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=8 unred_source_page=11
+alignment_score=0.122146
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: distressed by the fact that American officials continually discount enemy strength
+- original #21 segment 1: full_page_or_admin
+  Text: Laos. new developments in bloc assistance to the Pathet Lao during the past few days. Both Hanoi and the Pathet Lao have expressed opposition to Western formulations that would freeze the present military lines in Laos. On 31 March the Pathet Lao termed a "deceitful trick" the idea of having a cease-fire precede a conference. On the same day, Hanoi charged the US with an attempt to "gain time" to bolster Vientiane forces and "prevent the expansion of patriotic forces." In a conversation on 29 March with Ambassador Stevenson, Soviet Foreign Minister Gromyko repeated the generally moderate line he had taken in his previous discussion with President Kennedy. Gromyko urged "patience" from both sides and voiced his hope that neither the US nor the Soviet Union would take measures to aggravate the situation in Laos. Deputy Foreign Minister Winiewicz of Poland recently told Ambassador Stevenson that while he was certain the Soviet Union wanted a detente with the West, the position of the Chinese Communists was causing acute difficulties. Winiewicz attributed the delay in Moscow's acceptance of a cease-fire in Laos to difficulty in obtaining Chinese approval and argued
+- original #21 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 1 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 2
+
+========================================================================
+[PAGE 12]
+kind=unred_only red_source_page=None unred_source_page=12
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: full_page_or_admin
+  Text: that Khrushchev needs successes to demonstrate the effectiveness of his peaceful coexistence line to the Chinese. These remarks probably were calculated to underscore Soviet moderation and restraint in the Laotian crisis and to provide a justification for the USSR's apparent unwillingness to agree to a formal cease-fire in Laos prior to an international conference. Similar statements regarding Sino-Soviet divergence on policy in Laos were circulated by Soviet spokesmen in mid-January. With a view to discouraging the US from carrying out any action which might have expanded the conflict, bloc spokesmen at that time also warned privately that Peiping would send troops into Laos if US forces were introduced. A commentary published in the Peiping People's Daily today charges that the US has "still not abandoned its policies of war and aggression in Laos," and reiterates the line that "convocation of an enlarged Geneva conference" is the "only way" to a peaceful solution. The article calls for an end to "brinkmanship policy" and for the evacuation of "all troops and arms of the United States and its vassal countries, as well as the Kuomintang remnant bandits." Charging Vientiane and US "connivance," Communist China has also for this first time accused Chinese Nationalist irregular troops of raiding into China from Laos. A Chinese Communist domestic broadcast on 31 March claimed that the irregulars crossed into Yunnan Province on 14 March and fired on residents before being driven off. The broadcast did not threaten retaliatory action, stating only that this act "has aroused the anger of the people and alerted their vigilance
+- original #22 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 1 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 3
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=9 unred_source_page=13
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=10 unred_source_page=14
+alignment_score=0.994007
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #8 (original #24, segment 1)
+Text: Joxe's top assistant, Bruno de Leusse
+Token count: 6
+Recut: none
+
+Excluded candidates:
+- original #23 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: round table
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=11 unred_source_page=15
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 16]
+kind=match red_source_page=12 unred_source_page=16
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #25 segment 1: full_page_or_admin
+  Text: Evacuation of Chinese Nationalist Irregulars The Chinese Nationalists are planning to send Lt. Gen. Lai Ming-tang, vice chief of the General Staff, to Thailand early in April to make a final appeal to the irregulars to go to Taiwan. Lai believes that if the momentum of the evacuation is allowed to fall off, many of the irregulars attached to the area or under slack discipline will evade evacuation. He said that there were several hundred irregulars in scattered groups still in Burma, and they would not leave unless driven out by Burmese armed forces. There are 1,500 to 2,000 men under the command of Yunnan General Tuan who recently withdrew from Burma into Thailand; they have been relatively independent of Chinese Nationalist control and thus far have refused evacuation. Many have married and settled in Burma, but also have villages in Thailand where they go to escape Burmese Army efforts to clean up the area. Great pressure is almost certain to be required to evacuate a significant number of these. General Dawee, the Thai representative on the evacuation mission, believes that over 1,500 Chinese in Laos have also refused evacuation. Thai cooperation with the nationalists so far appears effective. Prospects have developed for Burmese-Thai military cooperation in removing the irregulars who have refused evacuation. General Dawee will accompany General Lai to the villages and if necessary use force to disarm Tuan's group. General Dawee asked the Burmese to reinforce the border area to keep the irregulars from withdrawing into Burma. This large group of irregulars remaining in the area will tend to obscure the benefits of the successful evacuation and recall to the Burmese the incomplete previous evacuation in 1953 and 1954. However, with the special forces removed, it appears unlikely that the remnants will be capable of more than banditry unless in the future Taipei resumes efforts to resupply, build up, or control the irregulars
+- original #25 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 1 Apr 61 CENTRAL INTELLIGENCE BULLETIN Page 7
+
+========================================================================
+[PAGE 17]
+kind=match red_source_page=13 unred_source_page=17
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 18]
+kind=match red_source_page=14 unred_source_page=18
+alignment_score=0.986842
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #26 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attractive
+
+========================================================================
+[PAGE 19]
+kind=match red_source_page=15 unred_source_page=19
+alignment_score=0.976056
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 20]
+kind=match red_source_page=16 unred_source_page=20
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: noncontent_keyword
+  Text: 1 April 1961 Copy No. C 79 CENTRAL INTELLIGENCE BULLETIN

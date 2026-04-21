@@ -1,0 +1,61 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.943750
+
+Chunk #1
+Predicted text: top secret security information
+Unredacted context: [UNRED_ONLY: top secret security information] 28 november 1951
+Redacted context: [R@0] 28 november 1951 current
+
+Chunk #2
+Predicted text: copy no 47
+Unredacted context: 28 november 1951 [UNRED_ONLY: copy no 47] current intelligence bulletin
+Redacted context: 28 november [L@2:1951] [RED_GAP:<empty>] [R@3:current] intelligence bulletin office
+
+Chunk #3
+Predicted text: security information
+Unredacted context: agency top secret [UNRED_ONLY: security information]
+Redacted context: [L@14] intelligence agency top secret
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.994118
+
+Chunk #4
+Predicted text: far east
+Unredacted context: export page 3 [UNRED_ONLY: far east] near east africa
+Redacted context: strategic export page [L@12:3] [RED_GAP:<empty>] [R@13:near] east africa 3
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.998225
+
+Chunk #5
+Predicted text: far east
+Unredacted context: in western europe [UNRED_ONLY: far east]
+Redacted context: [L@166] exists in western europe
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.998246
+
+Chunk #6
+Predicted text: eastern europe
+Unredacted context: the canal area [UNRED_ONLY: eastern europe]
+Redacted context: [L@168] in the canal area
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=1.000000
+No candidate difference chunks on this aligned page.

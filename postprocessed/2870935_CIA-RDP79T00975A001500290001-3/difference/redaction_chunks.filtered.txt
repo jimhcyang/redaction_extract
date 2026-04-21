@@ -1,0 +1,84 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.390217
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.925000
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #1, segment 1)
+Text: SOUTHEAST ASIA 2. Two Vietnamese battalions mutiny in southern Annam (page 3). 3. Viet Minh reported planning increased activity in Cambodia
+Token count: 21
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 2: noncontent_keyword
+  Text: page 4
+- original #2 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA 5
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.973333
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #3, segment 1)
+Text: SOUTHEAST ASIA 2. Two Vietnamese battalions mutiny in southern Annam: A Vietnamese army light battalion, stationed on the southern Annam coast, had mutinied. In another battalion, the officers were said to have lost their authority and the unit had refused to carry out the mission assigned to it
+Token count: 48
+Recut: none
+
+========================================================================
+[PAGE 04]
+kind=unred_only red_source_page=None unred_source_page=4
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #4 segment 1: full_page_or_admin
+  Text: The commander attributed the incidents to fear among the troops from southern Vietnam that they would be kept away from their home districts, contrary to promises made when they enlisted. Comment: The 55 light battalions in the Vietnamese army were organized under time pressure in 1953. Those which have been committed to battle, largely at the insistence of Vietnamese chief of staff Hinh, have generally performed poorly. Present plans for the enlargement of the Vietnamese army call for 66 more of these light units. No increase is planned in the 66 conventional battalions. 3. Viet Minh reported planning increased activity in Cambodia: The Viet Minh command has ordered the development of bases and building up of guerrilla units along the Mekong River in northern Cambodia. The enemy aim is to harass French lines of communication into Laos and to prepare bases for future operations in central Cambodia. (See map, p. 5.) This information suggests that the Viet Minh's current incursion into Cambodia is not merely a hit-and-run affair, but rather a move to extend its active military operations to all areas of Indochina and to buttress the position of pro-Viet Minh elements in Cambodia. Comment: The two invading Viet Minh battalions were last reported moving in the direction of the Mekong River town of Stung Treng, and two more battalions now in southern Laos may be en route to join them. French-Cambodian units are attempting to counter this threat with reinforcement of Stung Treng and the deployment southward of several battalions from Laos
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.128571
+kept_candidate_count=1
+excluded_candidate_count=1
+
+Clean Chunk #3 (original #5, segment 1)
+Text: INDOCHINA 13 April 1954 Viet Minh activity
+Token count: 7
+Recut: none
+
+Excluded candidates:
+- original #6 segment 1: noncontent_keyword
+  Text: Cambodia Cambodia National capital Selected railroad Selected road Scale 1:7,500,000
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.996667
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: noncontent_keyword
+  Text: NEAR EAST - AFRICA 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.

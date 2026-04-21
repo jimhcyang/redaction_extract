@@ -1,0 +1,249 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.652273
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=unred_only red_source_page=None unred_source_page=2
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=2 unred_source_page=3
+alignment_score=0.925610
+kept_candidate_count=3
+excluded_candidate_count=11
+
+Clean Chunk #1 (original #2, segment 2)
+Text: 3. DISCONTENT WITH NASR INCREASES IN EGYPT
+Token count: 7
+Recut: kept_after_recut
+
+Clean Chunk #2 (original #4, segment 2)
+Text: 6. JORDANIAN AND SAUDI TROOPS TAKE OVER DEFENSE OF AQABA (page 8). 7. AFGHANISTAN SEEKS CLOSER TIES WITH WEST (Eider
+Token count: 20
+Recut: kept_after_recut
+
+Clean Chunk #3 (original #6, segment 2)
+Text: 10. SOVIET-JAPANESE FISHING NEGOTIATIONS
+Token count: 4
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: noncontent_keyword
+  Text: page 3
+- original #2 segment 1: noncontent_keyword
+  Text: page 4
+- original #2 segment 3: noncontent_keyword
+  Text: page 5
+- original #3 segment 1: noncontent_keyword
+  Text: page 6
+- original #4 segment 1: noncontent_keyword
+  Text: page 7
+- original #4 segment 3: noncontent_keyword
+  Text: page 10
+- original #5 segment 1: noncontent_keyword
+  Text: page 11
+- original #6 segment 1: noncontent_keyword
+  Text: page 12
+- original #6 segment 3: noncontent_keyword
+  Text: page 13
+- original #7 segment 1: noncontent_keyword
+  Text: page 14
+- original #8 segment 1: noncontent_keyword
+  Text: page 15). 22 Mar 57 Current Intelligence Bulletin Page 2
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=3 unred_source_page=4
+alignment_score=0.975000
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #4 (original #10, segment 1)
+Text: The delegation's instructions from Ottawa to this effect are probably directly attributable to the reported growing concern in Canada over the high concentrations of radioactivity in British Columbia
+Token count: 28
+Recut: none
+
+Excluded candidates:
+- original #9 segment 1: noncontent_keyword
+  Text: Comment on
+- original #11 segment 1: noncontent_keyword
+  Text: 22 Mar 57 Current Intelligence Bulletin Page 3
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=4 unred_source_page=5
+alignment_score=0.995082
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #12 segment 1: noncontent_keyword
+  Text: 22 Mar 57 Current Intelligence Bulletin Page 4
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=5 unred_source_page=6
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #13 segment 1: full_page_or_admin
+  Text: 3. DISCONTENT WITH NASR INCREASES IN EGYPT Rumors of impending coups against the Nasr government have been recurring during the past month, and discontent with the regime is higher than at any time since the 1952 revolution. The top level of Egyptian society, the hardest hit economically, is convinced that it is only a matter of time until the Nasr regime falls. This group hopes the United States will curb Nasr and save Egypt from economic disaster. Comment The reopening of the Suez Canal, as well as continuing diplomatic successes, would improve Nasr's internal position and weaken the opposition
+- original #13 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 22 Mar 57 Current Intelligence Bulletin Page 5
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=6 unred_source_page=7
+alignment_score=0.993548
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #14 segment 1: noncontent_keyword
+  Text: 22 Mar 57 Current Intelligence Bulletin Page 6
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=7 unred_source_page=8
+alignment_score=0.946192
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #5 (original #16, segment 1)
+Text: Damascus have denied that Colonel Sarraj has been ousted from his post as head of Syrian intelligence
+Token count: 17
+Recut: none
+
+Excluded candidates:
+- original #15 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: attache
+- original #17 segment 1: noncontent_keyword
+  Text: 22 Mar 57 Current Intelligence Bulletin Page 7
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=8 unred_source_page=9
+alignment_score=0.244533
+kept_candidate_count=0
+excluded_candidate_count=3
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #18 segment 1: full_page_or_admin
+  Text: 6. JORDANIAN AND SAUDI TROOPS TAKE OVER DEFENSE OF AQABA Comment on: Saudi Arabia is sending additional troops to assist Jordan
+- original #19 segment 1: full_page_or_admin
+  Text: the defense of the port of Aqaba. The Jordanian army assumed responsibility for defense of Aqaba and the surrounding area on 13 March--the date of formal termination of the Anglo-Jordanian treaty. The Saudis have agreed to deploy an infantry battalion, a reconnaissance company and a battery of 25-pounder artillery (88 mm.)--possibly a total of 1,200 men--in the Aqaba area. The Jordanian command plans to deploy a tank battalion and an infantry battalion in this sector. British troops, including a tank battalion with infantry and antiaircraft support, have held responsibility for defense of this sector. The British are now in process of moving military supplies and equipment through the port of Aqaba to Aden, and hope to complete withdrawal within four months. In addition to the Saudi regiment of 2,500 men now in northern Jordan, the Saudis have UNCLASSIFIED 21 MARCH 1957 MILES 50 24460
+- original #19 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 22 Mar 57 Current Intelligence Bulletin Page 8
+
+========================================================================
+[PAGE 10]
+kind=match red_source_page=9 unred_source_page=10
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #20 segment 1: full_page_or_admin
+  Text: battalion-size units in the Haqal and Maqna areas on the eastern shore of the Gulf of Aqaba, and another force including at least two 25-pounder guns at the entrance to the gulf at Shaikh Hamid. Despite these efforts to protect Aqaba and the land link with Saudi Arabia, the reinforcements are inadequate to provide effective defense against Israel in so extensive an area. The troop movement for the first time brings the Saudis into position where direct contact with Israeli forces in the event of hostilities is almost certain
+- original #20 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 22 Mar 57 Current Intelligence Bulletin Page 9
+
+========================================================================
+[PAGE 11]
+kind=match red_source_page=10 unred_source_page=11
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #21 segment 1: full_page_or_admin
+  Text: 7. AFGHANISTAN SEEKS CLOSER TIES WITH WEST Reference: recent Afghan actions suggest Kabul is trying to increase its ties with the Near East and the West to protect itself against additional Soviet pressure in the future. Afghanistan has sent 24 additional army officers and eight cadets to Turkey for military training, despite Soviet suggestions that the Turkish military mission in Afghanistan be sent home and be replaced by Soviet or Egyptian officers. Afghan authorities have now started to show Afghan military units to the Turkish military attache. Previously, no foreign attache had been shown anything but the Afghan war academy and military school. interest in Iraq's economic development plan. the Iraqi ambassador hoped Prime Minister Daud would visit Iraq after his trip to Turkey in late April. The comprehensive Iraqi development plan, which is wholly financed by oil revenues, would be likely to impress Daud
+- original #21 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 22 Mar 57 Current Intelligence Bulletin Page 10
+
+========================================================================
+[PAGE 12]
+kind=match red_source_page=11 unred_source_page=12
+alignment_score=0.991803
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #22 segment 1: noncontent_keyword
+  Text: Comment on
+- original #23 segment 1: noncontent_keyword
+  Text: 22 Mar 57 Current Intelligence Bulletin Page 11
+
+========================================================================
+[PAGE 13]
+kind=match red_source_page=12 unred_source_page=13
+alignment_score=0.939602
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #6 (original #25, segment 1)
+Text: The army commanders, although believed unanimous in desiring a key role for Hatta, were reported split by a vote of six to three as to their support of General Nasution in his administration of the army and his support of the central government. The three dissenting votes came from the commanders of Central and South Sumatra and East Indonesia. There is no indication that the dissenting commanders feel bound by the majority decision to annul autonomous measures in their respective areas
+Token count: 81
+Recut: none
+
+Excluded candidates:
+- original #24 segment 1: noncontent_keyword
+  Text: Comment on
+- original #26 segment 1: noncontent_keyword
+  Text: 22 Mar 57 Current Intelligence Bulletin Page 12
+
+========================================================================
+[PAGE 14]
+kind=match red_source_page=13 unred_source_page=14
+alignment_score=0.000000
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #27 segment 1: full_page_or_admin
+  Text: 10. SOVIET-JAPANESE FISHING NEGOTIATIONS Comment on: former Japanese minister of agriculture and forestry Kono is apparently making no headway toward breaking the deadlock in the fishery negotiations with the USSR now being held in Tokyo. The Soviet negotiator maintains that the salmon quota Kono accepted last May in Moscow is final and says he does not recall any verbal promise to reconsider this quota in relation to the Soviet catch for 1956. The USSR successfully used the salmon quota last year to pressure Japan into restoring diplomatic relations. The USSR's present adamant stand and Khrushchev's 18 March statement that fishing and trade problems should be solved together suggest that the fishery problem is being used as a lever to obtain a trade pact with Japan. The necessity under the terms of the fishery pact for Japan and the USSR to negotiate quotas annually provides the USSR with a lever which may be applied at an opportune time to force Japan to conclude a peace treaty on Moscow's terms
+- original #27 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 22 Mar 57 Current Intelligence Bulletin Page 13
+
+========================================================================
+[PAGE 15]
+kind=match red_source_page=14 unred_source_page=15
+alignment_score=0.993407
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #28 segment 1: noncontent_keyword
+  Text: 22 Mar 57 Current Intelligence Bulletin Page 14
+
+========================================================================
+[PAGE 16]
+kind=unred_only red_source_page=None unred_source_page=16
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #29 segment 1: full_page_or_admin
+  Text: ANNEX Watch Report 346, 21 March of the Intelligence Advisory Committee Conclusions on Indications of Hostilities On the basis of findings by its Watch Committee, the Intelligence Advisory Committee concludes that: A. No Sino-Soviet bloc country intends to initiate hostilities against the continental US or its possessions in the immediate future. B. No Sino-Soviet bloc country intends to initiate hostilities against US forces abroad, US allies or areas peripheral to the Orbit in the immediate future. C. A deliberate initiation of hostilities against Israel by the Arab states is improbable in the immediate future. Israel, though apparently now relying on diplomatic measures, may at any time renew hostilities if faced with one or more provocations such as: an introduction of substantial Egyptian military forces into the Gaza strip, a renewal of extensive fedayeen raids, an attempted denial of passage for Israeli shipping through the Straits of Tiran or an early withdrawal of UN forces. Other unsettled issues and tensions in the Middle East, especially in Syria and Jordan, also constitute possibilities for violence
+- original #29 segment 2: full_page_or_admin, noncontent_keyword
+  Text: 22 Mar 57 Current Intelligence Bulletin Page 15

@@ -1,0 +1,120 @@
+========================================================================
+[PAGE 01]
+kind=match red_source_page=1 unred_source_page=1
+alignment_score=0.787500
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 02]
+kind=match red_source_page=2 unred_source_page=2
+alignment_score=0.872979
+kept_candidate_count=1
+excluded_candidate_count=2
+
+Clean Chunk #1 (original #2, segment 1)
+Text: FAR EAST Japan outlines measures for increasing Orbit trade (page 5), Increased military need for oil in East China indicated
+Token count: 20
+Recut: kept_after_recut
+
+Excluded candidates:
+- original #1 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Yugoslav- USSR
+- original #2 segment 2: noncontent_keyword
+  Text: page 6
+
+========================================================================
+[PAGE 03]
+kind=match red_source_page=3 unred_source_page=3
+alignment_score=0.987288
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #3 segment 1: short_span_min_tokens, ocr_equivalent_to_redacted_text
+  Text: communique
+- original #4 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Pakistan's Mohammed
+
+========================================================================
+[PAGE 04]
+kind=match red_source_page=4 unred_source_page=4
+alignment_score=0.996208
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #5 segment 1: ocr_equivalent_to_redacted_text, nonempty_redacted_alternate_conflict
+  Text: Yugoslav- USSR
+
+========================================================================
+[PAGE 05]
+kind=match red_source_page=5 unred_source_page=5
+alignment_score=0.980851
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #2 (original #6, segment 1)
+Text: FAR EAST 5. Japan outlines measures for increasing Orbit trade: The new Japanese government will "not betray its obligations to the United States," but will maximize trade with the Orbit
+Token count: 30
+Recut: none
+
+========================================================================
+[PAGE 06]
+kind=match red_source_page=6 unred_source_page=6
+alignment_score=0.122500
+kept_candidate_count=0
+excluded_candidate_count=2
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #7 segment 1: full_page_or_admin
+  Text: Comment: The Hatoyama government has begun to effect its policy for expanding trade by giving its unofficial blessing to and facilitating the travel of a delegation from the fishing industry and a trade mission to Peiping this month. Shozo Murata, chief of the influential International Trade Promotion Association, heads the trade mission which will negotiate the exchange of trade representatives as well as trade agreements. He is reported to have the government's approval to invite a Chinese trade mission to Japan. 6. Increased military need for oil
+- original #8 segment 1: full_page_or_admin
+  Text: East China indicated: Comment: Oil products to be shipped by road in Communist China are usually put up in 53-gallon drums owing to the shortage of tank trucks. Empty oil drums shipped down the Yangtze to Shanghai are normally filled there by the oil-distributing agency and returned to Central or Southwest China
+
+========================================================================
+[PAGE 07]
+kind=match red_source_page=7 unred_source_page=7
+alignment_score=1.000000
+kept_candidate_count=0
+excluded_candidate_count=0
+No kept high-precision redaction chunks on this aligned page.
+
+========================================================================
+[PAGE 08]
+kind=match red_source_page=8 unred_source_page=8
+alignment_score=0.966960
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #3 (original #9, segment 1)
+Text: The recent consignments to the East China Military District indicate an increased military need to transport oil in areas of East China not served by railroads, or to stockpile oil there for future operations. One such area is the coast opposite Formosa and the offshore islands. (Concurred in by ORR
+Token count: 50
+Recut: none
+
+========================================================================
+[PAGE 09]
+kind=match red_source_page=9 unred_source_page=9
+alignment_score=0.999405
+kept_candidate_count=0
+excluded_candidate_count=1
+No kept high-precision redaction chunks on this aligned page.
+
+Excluded candidates:
+- original #10 segment 1: short_span_min_tokens
+  Text: the
+
+========================================================================
+[PAGE 10]
+kind=unred_only red_source_page=None unred_source_page=10
+kept_candidate_count=1
+excluded_candidate_count=0
+
+Clean Chunk #4 (original #11, segment 1)
+Text: Comment: The Venezuelan and Nicaraguan dictators may use Remon's murder to justify intensified efforts to eliminate Costa Rican president Figueres. Travel of Venezuelan military personnel to Nicaragua has increased recently and a shipment of Venezuelan arms is expected to arrive in Nicaragua this month
+Token count: 44
+Recut: none

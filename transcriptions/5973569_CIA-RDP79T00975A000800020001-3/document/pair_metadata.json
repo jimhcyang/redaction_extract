@@ -1,10 +1,10 @@
 {
   "pair_key": "5973569_CIA-RDP79T00975A000800020001-3",
   "row_index_1based": 423,
-  "unredacted_pdf": "docs\\unredacted_pdfs\\cib_05973569.pdf",
-  "redacted_pdf": "docs\\redacted_pdfs\\CIA-RDP79T00975A000800020001-3.pdf",
-  "redacted_pdf_copy": "transcriptions\\5973569_CIA-RDP79T00975A000800020001-3\\source_pdfs\\CIA-RDP79T00975A000800020001-3.pdf",
-  "unredacted_pdf_copy": "transcriptions\\5973569_CIA-RDP79T00975A000800020001-3\\source_pdfs\\cib_05973569.pdf",
+  "unredacted_pdf": "docs/unredacted_pdfs/cib_05973569.pdf",
+  "redacted_pdf": "docs/redacted_pdfs/CIA-RDP79T00975A000800020001-3.pdf",
+  "redacted_pdf_copy": "transcriptions/5973569_CIA-RDP79T00975A000800020001-3/source_pdfs/CIA-RDP79T00975A000800020001-3.pdf",
+  "unredacted_pdf_copy": "transcriptions/5973569_CIA-RDP79T00975A000800020001-3/source_pdfs/cib_05973569.pdf",
   "csv_row": [
     "Current/Central Intelligence Bulletin Collection",
     "5973569",
@@ -18,11 +18,11 @@
     "1952",
     ""
   ],
-  "model": "gpt-5.2",
+  "model": "gpt-5.4-mini",
   "redacted_status": "skipped_error",
-  "redacted_error": "Error code: 401 - {'error': {'message': \"You have insufficient permissions for this operation. Missing scopes: api.files.write. Check that you have the correct role in your organization (Reader, Writer, Owner) and project (Member, Owner), and if you're using a restricted API key, that it has the necessary scopes.\", 'type': 'invalid_request_error', 'param': None, 'code': None}, 'detail': {'message': \"You have insufficient permissions for this operation. Missing scopes: api.files.write. Check that you have the correct role in your organization (Reader, Writer, Owner) and project (Member, Owner), and if you're using a restricted API key, that it has the necessary scopes.\", 'code': None}}",
+  "redacted_error": "Error code: 400 - {'error': {'message': 'File is empty.', 'type': 'invalid_request_error', 'param': None, 'code': None}, 'detail': {'message': 'File is empty.', 'code': None}}",
   "pair_status": "skipped_error",
   "pair_error_on": "redacted",
-  "pair_error_pdf": "docs\\redacted_pdfs\\CIA-RDP79T00975A000800020001-3.pdf",
-  "pair_error": "Error code: 401 - {'error': {'message': \"You have insufficient permissions for this operation. Missing scopes: api.files.write. Check that you have the correct role in your organization (Reader, Writer, Owner) and project (Member, Owner), and if you're using a restricted API key, that it has the necessary scopes.\", 'type': 'invalid_request_error', 'param': None, 'code': None}, 'detail': {'message': \"You have insufficient permissions for this operation. Missing scopes: api.files.write. Check that you have the correct role in your organization (Reader, Writer, Owner) and project (Member, Owner), and if you're using a restricted API key, that it has the necessary scopes.\", 'code': None}}"
+  "pair_error_pdf": "docs/redacted_pdfs/CIA-RDP79T00975A000800020001-3.pdf",
+  "pair_error": "Error code: 400 - {'error': {'message': 'File is empty.', 'type': 'invalid_request_error', 'param': None, 'code': None}, 'detail': {'message': 'File is empty.', 'code': None}}"
 }
