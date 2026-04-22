@@ -1,0 +1,161 @@
+# Inverse Candidate Comparison: 2000172_CIA-RDP79T00975A005500090001-1
+
+This file is meant for human inspection. It pairs the local answer-key text with the generated candidates for each redaction box.
+
+## Source
+
+- Cleaned text source: `postprocessed\2000172_CIA-RDP79T00975A005500090001-1\difference\unredacted_bracketed.filtered.aligned.txt`
+- Source PDFs:
+  - [CIA-RDP79T00975A005500090001-1.pdf](source_pdfs/CIA-RDP79T00975A005500090001-1.pdf)
+  - [cib_02000172.pdf](source_pdfs/cib_02000172.pdf)
+
+## BOX_001
+
+- Source redaction id: `1`
+- Target character count: `1374`
+- Token count: `217`
+
+### Ground Truth
+
+```text
+Laos: The Laotian Government has warned the USSR that it will have to take defensive measures if the Soviet airlift in support of the Kong Le - Pathet Lao forces continues. Four T-6 aircraft to be used in armed missions against the Soviet IL-14s arrived in Vientiane on 10 January. The Pathet Lao have already protested their arrival as a "violation" of the 1954 Geneva accords. Meanwhile, Chiang Ching-kuo, Nationalist China's security chief, is considering offering to General Phoumi 2,000 Nationalist irregular troops from the Mekong River border area of Burma for use in Laos. A similar offer was made in late September. (Page 4)
+
+Congo: The proclamation of a new Lualaba state in northern and western Katanga by the Gizenga dissidents threatens to isolate the Tshombe regime in southern Katanga, and further damages the prestige of the Kasavubu/Mobutu government. Tshombe has threatened to take military action against the dissidents, but would have difficulty operating in northern Katanga, an area dominated by anti-Tshombe tribesmen. Gizenga's army is comprising about 4,000 troops and 100 vehicles of various types. Gizenga's request for arms, rations, gasoline, and other supplies to equip a force of 15,000 men; with such assistance, Gizenga could consolidate his control of Orientale and Kivu provinces, "take over" Kasai Province, and "attack" Equateur Province
+```
+
+### Candidate Summary
+
+| Candidate | Diversity axis | Chars | Delta | Exact length | Duplicate axis |
+|---|---|---:|---:|---|---|
+| BOX_001_CAND_01 | baseline_local_continuation | 1519 | 145 | False | False |
+| BOX_001_CAND_02 | alternate_actor_or_source | 1575 | 201 | False | False |
+| BOX_001_CAND_03 | escalation_or_heightened_risk | 1670 | 296 | False | False |
+| BOX_001_CAND_04 | deescalation_or_limited_impact | 1673 | 299 | False | False |
+| BOX_001_CAND_05 | diplomatic_or_policy_angle | 1625 | 251 | False | False |
+| BOX_001_CAND_06 | military_security_angle | 1686 | 312 | False | False |
+| BOX_001_CAND_07 | domestic_political_angle | 1724 | 350 | False | False |
+| BOX_001_CAND_08 | economic_logistical_angle | 1858 | 484 | False | False |
+| BOX_001_CAND_09 | uncertainty_or_source_dispute | 1909 | 535 | False | False |
+| BOX_001_CAND_10 | contrarian_document_level_hypothesis | 1772 | 398 | False | False |
+
+### Candidate Texts
+
+#### BOX_001_CAND_01: baseline_local_continuation
+
+- Actual chars: `1519`
+- Target chars: `1374`
+- Length delta: `145`
+- Rationale: Matches the Laos escalation and airlift pattern described elsewhere in the bulletin, fitting the Asia-Africa bullet structure that bridges to the detailed Laos section.
+- Distinctiveness: Local-continuation framing: emphasizes Soviet airlift escalation and immediate diplomatic/propaganda reactions inside Laos.
+
+```text
+Laos: The Laotian Government has warned the USSR that it would have to take defensive measures if Soviet airlift in support of the Kong Le - Pathet Lao forces continued. Four armed T-6 trainers to be employed against the Soviet IL-14s arrived in Vientiane on 10 January, and the Pathet Lao radio denounced the provision as a violation of the 1954 Geneva accords, threatening that unless the planes were withdrawn the Laotian people would propose resistance by the legal (Souvanna Phouma) government. The Pathet Lao front also criticized the planes as an escalation likely to harden resistance and prolong the conflict. In parallel, Chiang Ching-kuo offered to send 2,000 Nationalist irregular troops from the Mekong River area of Burma for use in Laos, stressing they would be highly trained special forces with light arms and mortars and would carry Laotian documents and insignia; he said the offer had not yet been made to Phoumi. Soviet IL-14s made nine confirmed flights into Laos on 10 January and additional flights from Hanoi are scheduled for 11 January, while three North Vietnamese transports are scheduled for Sam Neua; Chinese Communist civil transports from Nanning may be shuttling in supplies. The five Soviet MI-4 helicopters delayed at Nanning because of weather were rescheduled to fly to Haiphong on 11 January, and Chinese remarks via a Hong Kong Communist daily suggested Communist China would not intervene unless US troops did first, implying a preference to keep the Laotian conflict localized.
+```
+
+#### BOX_001_CAND_02: alternate_actor_or_source
+
+- Actual chars: `1575`
+- Target chars: `1374`
+- Length delta: `201`
+- Rationale: Keeps the same Laos operational timeline but shifts emphasis toward Chiang Ching-kuo’s offer as the key alternate actor/source of change.
+- Distinctiveness: Alternate-actor emphasis: highlights Nationalist China’s proposed irregular deployment as the principal destabilizing factor.
+
+```text
+Laos: The Laotian Government warned Moscow it would respond defensively if the Soviet airlift backing Kong Le - Pathet Lao continued. Four armed T-6 trainers for use against Soviet IL-14s arrived in Vientiane on 10 January, and Pathet Lao broadcasts claimed the aircraft violated the 1954 Geneva accords, asserting that if they were not withdrawn the Laotian people would press the legal (Souvanna Phouma) government to resist. A parallel stream of reporting highlighted a different driver of escalation: Chiang Ching-kuo, Nationalist China’s security chief, would be willing to dispatch 2,000 Nationalist irregular troops from Burma’s Mekong River area, tailored as highly trained special forces with light arms and mortars and carrying Laotian documents and insignia, though he noted the offer had not yet been presented to Phoumi. Meanwhile, the air picture indicated continued reinforcement—Soviet IL-14s completed nine confirmed flights into Laos on 10 January with further flights scheduled for 11 January, and three North Vietnamese transports are planned for Sam Neua. Chinese Communist civil transports from Nanning may be cycling supplies from the earlier airlift shut down on 20 December. The five Soviet MI-4 helicopters delayed at Nanning due to weather were rescheduled to Haiphong on 11 January. Separately, a Hong Kong Communist daily’s editor suggested to a Chinese journalist on 2 January that Communist China would not intervene in Laos unless US troops did first, indicating Peiping’s intent to keep the conflict localized and to avoid direct involvement.
+```
+
+#### BOX_001_CAND_03: escalation_or_heightened_risk
+
+- Actual chars: `1670`
+- Target chars: `1374`
+- Length delta: `296`
+- Rationale: Reuses the same operational facts while intensifying the risk assessment to justify the escalation-axis hypothesis.
+- Distinctiveness: Heightened-risk framing: treats the increased air tempo and cross-border troop offer as a near-term spillover threat.
+
+```text
+Laos: The Laotian Government told the USSR it would have to take defensive measures if Soviet airlift support for the Kong Le - Pathet Lao forces did not stop. Four armed T-6 trainers, earmarked for use against Soviet IL-14s, reached Vientiane on 10 January, and Pathet Lao radio denounced the move as a breach of the 1954 Geneva accords. It warned that unless the aircraft were withdrawn the Laotian people would propose that the legal (Souvanna Phouma) government take steps to resist them, framing the arrival as the start of a sustained escalation. Chiang Ching-kuo simultaneously offered 2,000 Nationalist irregular troops from Burma’s Mekong River area to be used in Laos as highly trained special forces with light arms and mortars, carrying Laotian documents and insignia; he stressed that the offer had not yet been made to Phoumi and that a decision would depend on consultation. The immediate logistics picture underscored higher danger: Soviet IL-14s made nine confirmed flights into Laos on 10 January, and additional flights from Hanoi were scheduled for 11 January, including three North Vietnamese transports for Sam Neua. Three Chinese Communist civil transports from Nanning to Hanoi and back on consecutive days suggested continuous shuttling of supplies at a tempo exceeding prior expectations. The five Soviet MI-4 helicopters delayed at Nanning due to weather were rescheduled to Haiphong on 11 January. A Hong Kong Communist editor also indicated that Communist China would not intervene unless US troops intervened first, but the scale and speed of air movements suggested the conflict could spread rapidly despite Peiping’s desire to contain it.
+```
+
+#### BOX_001_CAND_04: deescalation_or_limited_impact
+
+- Actual chars: `1673`
+- Target chars: `1374`
+- Length delta: `299`
+- Rationale: Preserves the same events but reframes them as conditional, routine, and politically oriented rather than a decisive escalation.
+- Distinctiveness: Limited-impact hypothesis: suggests the airlift and troop offer are hedged/adjusted and likely to keep the situation bounded.
+
+```text
+Laos: The Laotian Government warned the USSR that it would have to take defensive measures only if Soviet airlift in support of Kong Le - Pathet Lao forces continued. Four armed T-6 trainers to be used against Soviet IL-14s arrived in Vientiane on 10 January, but Pathet Lao broadcasts framed the development primarily as a political protest rather than immediate combat expansion. The radio denounced the planes as a violation of the 1954 Geneva accords and said that unless they were withdrawn the Laotian people would propose steps by the legal (Souvanna Phouma) government to resist them. Chiang Ching-kuo’s reported offer to send 2,000 Nationalist irregular troops from Burma’s Mekong River area for use in Laos remained conditional; he emphasized the offer had not yet been made to Phoumi and suggested it would require further deliberation. Soviet IL-14 flights into Laos on 10 January—nine confirmed movements—were accompanied by additional flights scheduled for 11 January, including planned shipments via Sam Neua, yet no clear evidence emerged that a major follow-on buildup had begun. Chinese Communist civil transports from Nanning to Hanoi and back on 11 January were consistent with resupply routines following the earlier airlift’s cessation on 20 December. The five Soviet MI-4 helicopters delayed at Nanning because of weather were rescheduled to Haiphong on 11 January, indicating adjustments rather than abrupt escalation. Finally, Chinese statements relayed through a Hong Kong Communist daily implied Communist China would avoid direct intervention unless US troops did first, supporting the view that efforts would remain aimed at localized pressure.
+```
+
+#### BOX_001_CAND_05: diplomatic_or_policy_angle
+
+- Actual chars: `1625`
+- Target chars: `1374`
+- Length delta: `251`
+- Rationale: Keeps the factual skeleton while focusing on Geneva/legal framing and policy signaling as the key thrust.
+- Distinctiveness: Diplomatic angle: treats the airlift/trainer issue as an instrument to force Geneva-driven political outcomes and manage external constraints.
+
+```text
+Laos: The Laotian Government warned Moscow that it would have to take defensive measures if the Soviet airlift supporting Kong Le - Pathet Lao continued, establishing a diplomatic signal tied to Geneva compliance. Four armed T-6 trainers employed against Soviet IL-14s arrived in Vientiane on 10 January, prompting Pathet Lao radio to denounce the move as a violation of the 1954 Geneva accords. The broadcast argued that unless the planes were withdrawn, the Laotian people would press the legal (Souvanna Phouma) government to take steps to resist them, thereby converting the issue into a legal-and-governmental dispute rather than purely a military one. Chiang Ching-kuo’s offer to send 2,000 Nationalist irregular troops from Burma’s Mekong River area for use in Laos was also couched in policy terms, with troop identity and documentation intended to preserve Laotian political framing. Operationally, Soviet IL-14s made nine confirmed flights into Laos on 10 January, with further flights from Hanoi scheduled for 11 January, and three North Vietnamese transports expected for Sam Neua. Chinese Communist civil transports from Nanning to Hanoi and returning to Nanning were interpreted as resupply linked to the earlier airlift’s termination on 20 December. The MI-4 helicopter rescheduling at Haiphong underscored administrative continuity. A Hong Kong Communist editor’s remarks to a Chinese journalist on 2 January—suggesting Communist China would not intervene unless US troops did—pointed to an effort to manage diplomacy and keep external action constrained while actors pressure Laos through political channels.
+```
+
+#### BOX_001_CAND_06: military_security_angle
+
+- Actual chars: `1686`
+- Target chars: `1374`
+- Length delta: `312`
+- Rationale: Reorients interpretation toward operational security, attribution management, and force-protection logic.
+- Distinctiveness: Military/security hypothesis: focuses on defensive posture, counter-air implications, and compartmentalization of responsibility.
+
+```text
+Laos: The Laotian Government warned the USSR it would undertake defensive security measures if the Soviet airlift supporting the Kong Le - Pathet Lao forces continued. Four armed T-6 trainers—intended for employment against Soviet IL-14s—arrived in Vientiane on 10 January, and the Pathet Lao political front immediately challenged the move as a Geneva violation. Unless the planes were withdrawn, Pathet Lao said, the Laotian people would propose that the legal (Souvanna Phouma) government take steps to resist them, underscoring the security dimension of the arrivals. Chiang Ching-kuo, Nationalist China’s security chief, indicated he would be willing to send 2,000 Nationalist irregular troops from the Mekong River area of Burma, emphasizing the use of highly trained special forces with light arms and mortars and the carrying of Laotian documents and insignia—measures designed to reduce attribution and improve operational security. On the Soviet side, IL-14s conducted nine confirmed flights into Laos on 10 January, with further flights from Hanoi scheduled for 11 January, including transports to Sam Neua. Three North Vietnamese transports were expected on the same day, while Chinese Communist civil transports from Nanning to Hanoi and back on 11 January likely functioned as a supply shuttle from the Nanning terminal of the earlier airlift that ended 20 December. Weather-delayed MI-4 helicopters at Nanning were rescheduled to Haiphong on 11 January. Commentary from a Hong Kong Communist daily suggested Communist China would avoid direct intervention unless US troops intervened first, reflecting a security posture aimed at keeping the conflict’s footprint limited.
+```
+
+#### BOX_001_CAND_07: domestic_political_angle
+
+- Actual chars: `1724`
+- Target chars: `1374`
+- Length delta: `350`
+- Rationale: Uses the same events but emphasizes legitimacy pressures and internal political bargaining as the main mechanism.
+- Distinctiveness: Domestic-politics angle: interprets the crisis as a test of Souvanna Phouma’s authority and national political alignment.
+
+```text
+Laos: The Laotian Government warned the USSR that continued Soviet airlift backing Kong Le - Pathet Lao forces would force defensive measures, effectively turning an external military issue into an internal legitimacy test. Four armed T-6 trainers to be used against Soviet IL-14s arrived in Vientiane on 10 January. Pathet Lao radio reacted strongly, denouncing the aircraft as violations of the 1954 Geneva accords and threatening that unless they were withdrawn the Laotian people would propose resistance by the legal (Souvanna Phouma) government. The statement implied that internal political actors would be pressured to choose between compliance with Geneva and resistance to perceived foreign interference. Chiang Ching-kuo’s reported willingness to send 2,000 Nationalist irregular troops from Burma’s Mekong River area was presented as conditional and framed around maintaining the appearance of Laotian control through use of Laotian documents and insignia. On 10 January Soviet IL-14s made nine confirmed flights into Laos, and additional Hanoi-based flights were scheduled for 11 January with transports planned for Sam Neua; Chinese Communist civil transports from Nanning to Hanoi and back suggested continuing external support while domestic authorities faced mounting choice. The five Soviet MI-4 helicopters delayed at Nanning because of weather were rescheduled to Haiphong on 11 January, maintaining pressure. Finally, a Hong Kong Communist editor’s reported remarks—suggesting Communist China would not intervene unless US troops did—served a domestic political message: leaders should keep the conflict managed within Laos and avoid open great-power escalation that could undermine internal bargaining.
+```
+
+#### BOX_001_CAND_08: economic_logistical_angle
+
+- Actual chars: `1858`
+- Target chars: `1374`
+- Length delta: `484`
+- Rationale: Treats the same airlift movements as primarily logistics-driven, emphasizing supply flow, maintenance, and transport scheduling.
+- Distinctiveness: Economic/logistical hypothesis: emphasizes supply-shuttle continuity and readiness sustainment rather than immediate battlefield escalation.
+
+```text
+Laos: The Laotian Government warned the USSR that it would have to take defensive measures if Soviet airlift support for the Kong Le - Pathet Lao forces continued. Four armed T-6 trainers arrived in Vientiane on 10 January to be employed against Soviet IL-14s, and Pathet Lao radio reacted by denouncing the planes as violations of the 1954 Geneva accords. Beyond the political denunciation, the immediate significance lay in supply and maintenance logistics: the deployment of T-6s pointed to continued operational tempo requiring trained crews, spares, and runway support. The Pathet Lao spokesman stated that unless the aircraft were withdrawn, the Laotian people would urge the legal (Souvanna Phouma) government to resist them. In a parallel development, Chiang Ching-kuo indicated he would be willing to send 2,000 Nationalist irregular troops from Burma’s Mekong River area, emphasizing highly trained special forces with light arms and mortars and possession of Laotian documents and insignia—logistical arrangements intended to streamline movement and minimize border complications. Soviet IL-14s made nine confirmed flights into Laos on 10 January, and additional flights from Hanoi were scheduled for 11 January, with three North Vietnamese transports to Sam Neua. Chinese Communist civil transports from Nanning to Hanoi and returning to Nanning on 11 January appeared to be shuttling in supplies from the Nanning terminal point of the earlier airlift which ceased on 20 December. Weather-delayed Soviet MI-4 helicopters at Nanning were rescheduled to Haiphong on 11 January. Reporting through a Hong Kong Communist daily suggested Communist China would not intervene unless US troops did first, but the shipment patterns indicated a continuing logistics effort to sustain the Laotian forces’ readiness without expanding the conflict’s footprint.
+```
+
+#### BOX_001_CAND_09: uncertainty_or_source_dispute
+
+- Actual chars: `1909`
+- Target chars: `1374`
+- Length delta: `535`
+- Rationale: Keeps the same skeleton but explicitly highlights uncertainty in thresholds, intentions, and source certainty to match the dispute/uncertainty axis.
+- Distinctiveness: Uncertainty hypothesis: emphasizes ambiguous intent and competing assessments about cargo/purpose and whether warnings amount to policy action.
+
+```text
+Laos: The Laotian Government warned the USSR it would have to take defensive measures if Soviet airlift in support of Kong Le - Pathet Lao forces continued, but the practical threshold for “defensive measures” remained unclear. Four armed T-6 trainers arrived in Vientiane on 10 January, and the Pathet Lao radio denounced the aircraft as violations of the 1954 Geneva accords, yet the extent to which the broadcast reflected official command decisions was uncertain. The spokesman claimed that unless the planes were withdrawn the Laotian people would propose that the legal (Souvanna Phouma) government take steps to resist them, a statement that could represent either a genuine political threat or a propaganda tactic. Chiang Ching-kuo’s reported willingness to send 2,000 Nationalist irregular troops from Burma’s Mekong River area to be used in Laos was also described as not yet made to Phoumi, leaving open whether any commitment would follow. Soviet IL-14s made nine confirmed flights into Laos on 10 January and additional flights from Hanoi were scheduled for 11 January, but estimates of follow-on intensity varied across accounts; three North Vietnamese transports were scheduled for Sam Neua, though observers differed on the cargo emphasis. Chinese Communist civil transports from Nanning to Hanoi and two returning to Nanning on 11 January suggested resupply shuttle activity, yet the precise purpose—ammunition, technicians, or general cargo—could not be confirmed. The five Soviet MI-4 helicopters delayed at Nanning because of weather were rescheduled to Haiphong on 11 January, but weather and routing uncertainties could affect confirmation. Finally, remarks from a Hong Kong Communist editor implying Communist China would not intervene unless US troops did first depended on second-hand transmission and should be treated cautiously as a signal rather than a verified policy commitment.
+```
+
+#### BOX_001_CAND_10: contrarian_document_level_hypothesis
+
+- Actual chars: `1772`
+- Target chars: `1374`
+- Length delta: `398`
+- Rationale: Offers a contrarian, document-level interpretation: the reported troop/airlift actions function as signal management toward containment and potential bargaining rather than pure escalation.
+- Distinctiveness: Contrarian document-level hypothesis: reframes the events as components of a managed diplomatic posture to preserve space for settlement and prevent escalation beyond Laos.
+
+```text
+Laos: The Laotian Government’s warning to the USSR about defensive measures if Soviet airlift continued may reflect an effort to force negotiations rather than to deter operations. The arrival of four armed T-6 trainers in Vientiane on 10 January and Pathet Lao denunciation as a Geneva violation could be read as a staged exchange of signals intended to keep the conflict within definable legal boundaries and to demonstrate leverage over Souvanna Phouma’s government. Chiang Ching-kuo’s willingness to send 2,000 irregular troops from Burma’s Mekong River area may similarly represent a bargaining card, offering the possibility of “local control” rather than immediate deployment, as his note that the offer had not yet been made to Phoumi suggests delay for diplomatic timing. At the same time, continued Soviet IL-14 flights into Laos—nine confirmed on 10 January with further Hanoi-to-Laos flights scheduled—and scheduled North Vietnamese transports to Sam Neua indicate steady but not necessarily expanding reinforcement. Chinese Communist civil transports shuttling from Nanning to Hanoi and back on 11 January may be aimed at sustaining political and military options while avoiding any move that would trigger broader international participation. The rescheduling of MI-4 helicopters from weather-delayed Nanning to Haiphong on 11 January underscores adjustments in transport planning rather than a sudden surge in capability. A Hong Kong Communist daily’s editor telling a Chinese journalist that Communist China would not intervene unless US troops did first can be interpreted as discouraging external pressure and preserving room for a managed settlement in Laos, aligning with a broader document-level preference to keep great-power involvement constrained.
+```

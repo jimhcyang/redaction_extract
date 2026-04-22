@@ -1,0 +1,50 @@
+{
+  "document_id": "2000170_CIA-RDP79T00975A005500070001-3",
+  "source": "postprocessed",
+  "source_file": "postprocessed\\2000170_CIA-RDP79T00975A005500070001-3\\difference\\unredacted_bracketed.filtered.aligned.txt",
+  "output_dir": "modeling_outputs\\inverse_openai\\2000170_CIA-RDP79T00975A005500070001-3",
+  "model": "gpt-5.4-nano",
+  "dry_run": false,
+  "masked_box_count": 2,
+  "requested_box_count": 2,
+  "candidates_per_box": 10,
+  "source_pdf_copies": [
+    "source_pdfs\\CIA-RDP79T00975A005500070001-3.pdf",
+    "source_pdfs\\cib_02000170.pdf"
+  ],
+  "created_at_utc": "2026-04-22T20:07:01.399824+00:00",
+  "status": "completed",
+  "validation": {
+    "document_id": "2000170_CIA-RDP79T00975A005500070001-3",
+    "model": "gpt-5.4-nano",
+    "box_count": 2,
+    "candidate_rows": 20,
+    "expected_candidate_rows_from_output": 20,
+    "length_match_count": 0,
+    "length_match_rate": 0.0,
+    "issue_count": 20,
+    "issues": [
+      "BOX_001/BOX_001_CAND_01: length delta 2",
+      "BOX_001/BOX_001_CAND_02: length delta 42",
+      "BOX_001/BOX_001_CAND_03: length delta 82",
+      "BOX_001/BOX_001_CAND_04: length delta 53",
+      "BOX_001/BOX_001_CAND_05: length delta 29",
+      "BOX_001/BOX_001_CAND_06: length delta 56",
+      "BOX_001/BOX_001_CAND_07: length delta 77",
+      "BOX_001/BOX_001_CAND_08: length delta 72",
+      "BOX_001/BOX_001_CAND_09: length delta 60",
+      "BOX_001/BOX_001_CAND_10: length delta 73",
+      "BOX_002/BOX_002_CAND_01: length delta 107",
+      "BOX_002/BOX_002_CAND_02: length delta 28",
+      "BOX_002/BOX_002_CAND_03: length delta 75",
+      "BOX_002/BOX_002_CAND_04: length delta 29",
+      "BOX_002/BOX_002_CAND_05: length delta -45",
+      "BOX_002/BOX_002_CAND_06: length delta -46",
+      "BOX_002/BOX_002_CAND_07: length delta 97",
+      "BOX_002/BOX_002_CAND_08: length delta -6",
+      "BOX_002/BOX_002_CAND_09: length delta -26",
+      "BOX_002/BOX_002_CAND_10: length delta 64"
+    ]
+  },
+  "candidate_comparison_doc": "modeling_outputs\\inverse_openai\\2000170_CIA-RDP79T00975A005500070001-3\\candidate_comparison.md"
+}

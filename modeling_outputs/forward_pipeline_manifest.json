@@ -1,0 +1,82 @@
+{
+  "postprocessed_root": "postprocessed",
+  "output_root": "modeling_outputs",
+  "dataset_dir": "modeling_outputs\\forward_dataset",
+  "model_dir": "modeling_outputs\\forward_model",
+  "cv_dir": "modeling_outputs\\forward_cv",
+  "epochs": 3,
+  "cv_folds": 5,
+  "commands": [
+    [
+      "C:\\Users\\jimyh\\OneDrive\\Desktop\\projects\\IARPA\\root\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\jimyh\\OneDrive\\Desktop\\projects\\IARPA\\root\\modeling_scripts\\build_forward_dataset.py",
+      "--postprocessed-root",
+      "postprocessed",
+      "--output-dir",
+      "modeling_outputs\\forward_dataset",
+      "--cv-folds",
+      "5"
+    ],
+    [
+      "C:\\Users\\jimyh\\OneDrive\\Desktop\\projects\\IARPA\\root\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\jimyh\\OneDrive\\Desktop\\projects\\IARPA\\root\\modeling_scripts\\summarize_document_lengths.py",
+      "--dataset-jsonl",
+      "modeling_outputs\\forward_dataset\\documents.jsonl",
+      "--output-dir",
+      "modeling_outputs\\forward_dataset"
+    ],
+    [
+      "C:\\Users\\jimyh\\OneDrive\\Desktop\\projects\\IARPA\\root\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\jimyh\\OneDrive\\Desktop\\projects\\IARPA\\root\\modeling_scripts\\train_forward_model.py",
+      "--dataset-dir",
+      "modeling_outputs\\forward_dataset",
+      "--output-dir",
+      "modeling_outputs\\forward_model",
+      "--epochs",
+      "3",
+      "--train-batch-size",
+      "1",
+      "--eval-batch-size",
+      "1",
+      "--learning-rate",
+      "2e-05",
+      "--gradient-accumulation-steps",
+      "1",
+      "--seed",
+      "20260421",
+      "--save-model"
+    ],
+    [
+      "C:\\Users\\jimyh\\OneDrive\\Desktop\\projects\\IARPA\\root\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\jimyh\\OneDrive\\Desktop\\projects\\IARPA\\root\\modeling_scripts\\plot_forward_results.py",
+      "--dataset-summary",
+      "modeling_outputs\\forward_dataset\\dataset_summary.json",
+      "--training-summary",
+      "modeling_outputs\\forward_model\\training_summary.json",
+      "--test-predictions",
+      "modeling_outputs\\forward_model\\test_word_predictions.jsonl"
+    ],
+    [
+      "C:\\Users\\jimyh\\OneDrive\\Desktop\\projects\\IARPA\\root\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\jimyh\\OneDrive\\Desktop\\projects\\IARPA\\root\\modeling_scripts\\run_forward_cv.py",
+      "--dataset-dir",
+      "modeling_outputs\\forward_dataset",
+      "--output-root",
+      "modeling_outputs\\forward_cv",
+      "--folds",
+      "5",
+      "--epochs",
+      "3",
+      "--train-batch-size",
+      "1",
+      "--eval-batch-size",
+      "1",
+      "--learning-rate",
+      "2e-05",
+      "--gradient-accumulation-steps",
+      "1",
+      "--seed",
+      "20260421"
+    ]
+  ]
+}

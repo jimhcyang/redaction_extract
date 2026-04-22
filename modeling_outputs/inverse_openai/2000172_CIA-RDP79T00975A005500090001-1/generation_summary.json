@@ -1,0 +1,40 @@
+{
+  "document_id": "2000172_CIA-RDP79T00975A005500090001-1",
+  "source": "postprocessed",
+  "source_file": "postprocessed\\2000172_CIA-RDP79T00975A005500090001-1\\difference\\unredacted_bracketed.filtered.aligned.txt",
+  "output_dir": "modeling_outputs\\inverse_openai\\2000172_CIA-RDP79T00975A005500090001-1",
+  "model": "gpt-5.4-nano",
+  "dry_run": false,
+  "masked_box_count": 1,
+  "requested_box_count": 1,
+  "candidates_per_box": 10,
+  "source_pdf_copies": [
+    "source_pdfs\\CIA-RDP79T00975A005500090001-1.pdf",
+    "source_pdfs\\cib_02000172.pdf"
+  ],
+  "created_at_utc": "2026-04-22T20:08:16.954697+00:00",
+  "status": "completed",
+  "validation": {
+    "document_id": "2000172_CIA-RDP79T00975A005500090001-1",
+    "model": "gpt-5.4-nano",
+    "box_count": 1,
+    "candidate_rows": 10,
+    "expected_candidate_rows_from_output": 10,
+    "length_match_count": 0,
+    "length_match_rate": 0.0,
+    "issue_count": 10,
+    "issues": [
+      "BOX_001/BOX_001_CAND_01: length delta 145",
+      "BOX_001/BOX_001_CAND_02: length delta 201",
+      "BOX_001/BOX_001_CAND_03: length delta 296",
+      "BOX_001/BOX_001_CAND_04: length delta 299",
+      "BOX_001/BOX_001_CAND_05: length delta 251",
+      "BOX_001/BOX_001_CAND_06: length delta 312",
+      "BOX_001/BOX_001_CAND_07: length delta 350",
+      "BOX_001/BOX_001_CAND_08: length delta 484",
+      "BOX_001/BOX_001_CAND_09: length delta 535",
+      "BOX_001/BOX_001_CAND_10: length delta 398"
+    ]
+  },
+  "candidate_comparison_doc": "modeling_outputs\\inverse_openai\\2000172_CIA-RDP79T00975A005500090001-1\\candidate_comparison.md"
+}

@@ -1,0 +1,30 @@
+{
+  "input_root": "modeling_outputs\\inverse_openai",
+  "output_dir": "modeling_outputs\\inverse_openai_eval",
+  "forward_model_dir": "modeling_outputs\\forward_model\\model",
+  "include_ground_truth_candidate": false,
+  "weights": {
+    "length": 1.0,
+    "context": 0.5,
+    "forward": 2.0,
+    "posterior_temperature": 1.0
+  },
+  "document_count": 5,
+  "summary": {
+    "box_count": 21,
+    "mean_candidate_count": 10.0,
+    "mean_length_match_rate": 0.004761904761904762,
+    "mean_posterior_entropy": 0.8902217544822144,
+    "mean_posterior_entropy_normalized": 0.38661839564185707,
+    "mean_probability_weighted_semantic_similarity": 0.11898133527729916,
+    "mean_best_semantic_similarity": 0.18351736101814586,
+    "truth_candidate_top1_rate": null,
+    "mean_truth_candidate_rank": null,
+    "exact_truth_present_rate": 0.0
+  },
+  "outputs": {
+    "candidate_scores": "modeling_outputs\\inverse_openai_eval\\candidate_scores.jsonl",
+    "box_summaries": "modeling_outputs\\inverse_openai_eval\\box_summaries.jsonl",
+    "method_note": "modeling_outputs\\inverse_openai_eval\\openai_inverse_evaluation_method.md"
+  }
+}
