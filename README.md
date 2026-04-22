@@ -182,11 +182,26 @@ python -m pip install -r requirements.txt
 python modeling_scripts/run_modeling_pipeline.py --postprocessed-root postprocessed --output-root modeling_outputs --epochs 3 --cv-folds 5
 ```
 
+On a Windows CUDA machine, install the CUDA PyTorch wheel before the shared
+requirements file:
+
+```powershell
+py -3.11 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+python -m pip install -r requirements.txt
+
+python modeling_scripts/run_modeling_pipeline.py --postprocessed-root postprocessed --output-root modeling_outputs --epochs 3 --cv-folds 5
+```
+
 The first training command downloads `answerdotai/ModernBERT-base` from
-Hugging Face if it is not already cached. Training uses the first 4,096
-ModernBERT tokens per document to fit the local memory window. Training always
-selects the fastest available device in this order: CUDA, then Apple MPS, then
-CPU. The CV command trains five additional models, so it is the slowest step.
+Hugging Face if it is not already cached. Training uses the first 8,192
+ModernBERT tokens per document. On CUDA, the trainer uses bfloat16 autocast and
+full model fine-tuning; otherwise it falls back to float32 on Apple MPS or CPU.
+Training always selects the fastest available device in this order: CUDA, then
+Apple MPS, then CPU. The CV command trains five additional models, so it is the
+slowest step.
 
 To run the main train/test pass without the five-fold CV step:
 
@@ -210,16 +225,16 @@ python modeling_scripts/summarize_document_lengths.py --dataset-jsonl modeling_o
 This writes `document_lengths.csv`, `document_length_summary.json`, and
 histograms under `modeling_outputs/forward_dataset/figures/`.
 
-Current corpus length summary at the 4,096-token training cutoff:
+Current corpus length summary at the 8,192-token training cutoff:
 
-| Count type | p50 | p90 | p95 | p99 | Max | Docs over 4,096 |
+| Count type | p50 | p90 | p95 | p99 | Max | Docs over 8,192 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Dataset word tokens | 1,307 | 2,913 | 3,401 | 4,280 | 6,130 | 31 |
-| ModernBERT subtokens | 1,884 | 4,199 | 4,907 | 6,117 | 8,974 | 264 |
+| Dataset word tokens | 1,307 | 2,913 | 3,401 | 4,280 | 6,130 | 0 |
+| ModernBERT subtokens | 1,884 | 4,199 | 4,907 | 6,117 | 8,974 | 1 |
 
-At this cutoff, 4,350 of 341,230 positive word labels fall outside the first
-window. At the span level, 7,783 redaction spans are fully inside the cutoff,
-7 cross the cutoff, and 122 are fully outside.
+At this cutoff, 0 of 341,230 positive word labels fall outside the first
+window. At the span level, all 7,912 redaction spans are fully inside the
+cutoff.
 
 Train the long-context forward classifier:
 
@@ -227,8 +242,8 @@ Train the long-context forward classifier:
 python modeling_scripts/train_forward_model.py --dataset-dir modeling_outputs/forward_dataset --output-dir modeling_outputs/forward_model --epochs 3 --save-model
 ```
 
-The forward model is fixed to `answerdotai/ModernBERT-base`, with a
-4,096-token first-window training policy for local memory stability.
+The forward model is fixed to `answerdotai/ModernBERT-base`, with an
+8,192-token first-window training policy.
 
 Run document-level cross-validation:
 

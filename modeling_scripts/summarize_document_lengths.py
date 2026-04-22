@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Any
 
 MODEL_NAME = "answerdotai/ModernBERT-base"
-MODEL_TOKEN_CUTOFF = 4096
+MODEL_TOKEN_CUTOFF = 8192
 
 
 def parse_args() -> argparse.Namespace:

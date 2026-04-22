@@ -8,6 +8,7 @@ import json
 import math
 import os
 import random
+from contextlib import nullcontext
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -15,14 +16,32 @@ from typing import Any
 import numpy as np
 import torch
 from torch.utils.data import DataLoader
+from tqdm.auto import tqdm
 
 MODEL_NAME = "answerdotai/ModernBERT-base"
-MAX_LENGTH = 4096
+MAX_LENGTH = 8192
 THRESHOLD = 0.5
 WEIGHT_DECAY = 0.01
 WARMUP_RATIO = 0.05
 MAX_GRAD_NORM = 1.0
 MAX_POSITIVE_WEIGHT = 20.0
+
+
+def progress(iterable, *, desc: str, total: int | None = None, leave: bool = False):
+    return tqdm(iterable, desc=desc, total=total, dynamic_ncols=True, leave=leave)
+
+
+def clear_device_cache(device: torch.device) -> None:
+    if device.type == "mps" and hasattr(torch, "mps"):
+        torch.mps.empty_cache()
+    elif device.type == "cuda":
+        torch.cuda.empty_cache()
+
+
+def autocast_context(device: torch.device):
+    if device.type == "cuda":
+        return torch.autocast(device_type="cuda", dtype=torch.bfloat16)
+    return nullcontext()
 
 
 def parse_args() -> argparse.Namespace:
@@ -143,10 +162,11 @@ def build_features(
     tokenizer,
     *,
     max_length: int,
+    desc: str,
     label_all_subtokens: bool = True,
 ) -> list[Feature]:
     features: list[Feature] = []
-    for row in docs:
+    for row in progress(docs, desc=desc, total=len(docs), leave=False):
         doc_id = str(row["document_id"])
         words = words_from_record(row)
         labels = labels_from_record(row)
@@ -244,7 +264,7 @@ def label_counts(features: list[Feature]) -> tuple[int, int]:
     return neg, pos
 
 
-def load_model_and_tokenizer(device: torch.device):
+def load_model_and_tokenizer():
     from transformers import AutoModelForTokenClassification, AutoTokenizer
 
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, use_fast=True)
@@ -253,12 +273,26 @@ def load_model_and_tokenizer(device: torch.device):
         num_labels=2,
         ignore_mismatched_sizes=True,
     )
-    if hasattr(model, "gradient_checkpointing_enable"):
-        model.gradient_checkpointing_enable()
+    configure_trainable_parameters(model)
     return tokenizer, model
 
 
+def configure_trainable_parameters(model) -> None:
+    for param in model.parameters():
+        param.requires_grad = True
+
+    if hasattr(model, "gradient_checkpointing_enable"):
+        model.gradient_checkpointing_enable()
+
+
+def parameter_counts(model) -> dict[str, int]:
+    total = sum(int(param.numel()) for param in model.parameters())
+    trainable = sum(int(param.numel()) for param in model.parameters() if param.requires_grad)
+    return {"total": total, "trainable": trainable, "frozen": total - trainable}
+
+
 def compute_loss(logits: torch.Tensor, labels: torch.Tensor, class_weights: torch.Tensor | None) -> torch.Tensor:
+    logits = logits.float()
     if class_weights is not None:
         class_weights = class_weights.to(device=logits.device, dtype=logits.dtype)
     loss_fn = torch.nn.CrossEntropyLoss(ignore_index=-100, weight=class_weights)
@@ -266,6 +300,7 @@ def compute_loss(logits: torch.Tensor, labels: torch.Tensor, class_weights: torc
 
 
 def probabilities_from_logits(logits: torch.Tensor) -> torch.Tensor:
+    logits = logits.float()
     return torch.softmax(logits, dim=-1)[..., 1]
 
 
@@ -361,18 +396,20 @@ def evaluate_model(
     loader: DataLoader,
     device: torch.device,
     class_weights: torch.Tensor | None,
+    desc: str,
 ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     model.eval()
     total_loss = 0.0
     steps = 0
     prob_rows: list[list[float]] = []
-    for batch in loader:
+    for batch in progress(loader, desc=desc, total=len(loader), leave=False):
         labels = batch["labels"].to(device)
         inputs = {
             "input_ids": batch["input_ids"].to(device),
             "attention_mask": batch["attention_mask"].to(device),
         }
-        outputs = model(**inputs)
+        with autocast_context(device):
+            outputs = model(**inputs)
         loss = compute_loss(outputs.logits, labels, class_weights)
         total_loss += float(loss.detach().cpu())
         steps += 1
@@ -395,11 +432,14 @@ def train_one(args: argparse.Namespace) -> None:
     val_docs = select_by_ids(docs_all, val_ids, args.max_val_docs)
     test_docs = select_by_ids(docs_all, test_ids, args.max_test_docs)
     device = device_from_env()
-    tokenizer, model = load_model_and_tokenizer(device)
+    tokenizer, model = load_model_and_tokenizer()
+    param_counts = parameter_counts(model)
+    training_strategy = "full_finetune"
+    precision = "bf16_autocast" if device.type == "cuda" else "float32"
 
-    train_features = build_features(train_docs, tokenizer, max_length=MAX_LENGTH)
-    val_features = build_features(val_docs, tokenizer, max_length=MAX_LENGTH)
-    test_features = build_features(test_docs, tokenizer, max_length=MAX_LENGTH)
+    train_features = build_features(train_docs, tokenizer, max_length=MAX_LENGTH, desc="Tokenizing train")
+    val_features = build_features(val_docs, tokenizer, max_length=MAX_LENGTH, desc="Tokenizing val")
+    test_features = build_features(test_docs, tokenizer, max_length=MAX_LENGTH, desc="Tokenizing test")
     if not train_features:
         raise RuntimeError("No training features were produced.")
 
@@ -409,13 +449,38 @@ def train_one(args: argparse.Namespace) -> None:
     if pos > 0:
         pos_weight = min(MAX_POSITIVE_WEIGHT, neg / max(pos, 1))
         class_weights = torch.tensor([1.0, float(pos_weight)], dtype=torch.float32, device=device)
+    optimizer_name = "adamw"
+
+    setup_summary = {
+        "device": str(device),
+        "max_length": MAX_LENGTH,
+        "train_documents": len(train_docs),
+        "val_documents": len(val_docs),
+        "test_documents": len(test_docs),
+        "train_features": len(train_features),
+        "val_features": len(val_features),
+        "test_features": len(test_features),
+        "truncated_documents": {
+            "train": sum(1 for row in train_features if row.encoded_word_count < row.original_word_count),
+            "val": sum(1 for row in val_features if row.encoded_word_count < row.original_word_count),
+            "test": sum(1 for row in test_features if row.encoded_word_count < row.original_word_count),
+        },
+        "train_label_counts": {"label_0": neg, "label_1": pos},
+        "class_weights": None if class_weights is None else class_weights.detach().cpu().tolist(),
+        "optimizer": optimizer_name,
+        "training_strategy": training_strategy,
+        "precision": precision,
+        "parameter_counts": param_counts,
+    }
+    print(json.dumps(to_jsonable({"setup": setup_summary}), ensure_ascii=False), flush=True)
 
     collate = make_collate(tokenizer)
     train_loader = DataLoader(FeatureDataset(train_features), batch_size=args.train_batch_size, shuffle=True, collate_fn=collate)
     val_loader = DataLoader(FeatureDataset(val_features), batch_size=args.eval_batch_size, shuffle=False, collate_fn=collate)
     test_loader = DataLoader(FeatureDataset(test_features), batch_size=args.eval_batch_size, shuffle=False, collate_fn=collate)
 
-    optimizer = torch.optim.AdamW(model.parameters(), lr=args.learning_rate, weight_decay=WEIGHT_DECAY)
+    trainable_params = [param for param in model.parameters() if param.requires_grad]
+    optimizer = torch.optim.AdamW(trainable_params, lr=args.learning_rate, weight_decay=WEIGHT_DECAY)
     updates_per_epoch = max(1, math.ceil(len(train_loader) / max(1, args.gradient_accumulation_steps)))
     total_updates = max(1, updates_per_epoch * max(1, args.epochs))
     warmup_steps = int(total_updates * WARMUP_RATIO)
@@ -431,21 +496,26 @@ def train_one(args: argparse.Namespace) -> None:
         model.train()
         running = 0.0
         optimizer.zero_grad(set_to_none=True)
-        for step, batch in enumerate(train_loader, start=1):
+        train_iter = progress(train_loader, desc=f"Epoch {epoch}/{args.epochs}", total=len(train_loader), leave=True)
+        for step, batch in enumerate(train_iter, start=1):
             labels = batch["labels"].to(device)
             inputs = {
                 "input_ids": batch["input_ids"].to(device),
                 "attention_mask": batch["attention_mask"].to(device),
             }
-            outputs = model(**inputs)
+            with autocast_context(device):
+                outputs = model(**inputs)
             loss = compute_loss(outputs.logits, labels, class_weights)
             (loss / max(1, args.gradient_accumulation_steps)).backward()
             running += float(loss.detach().cpu())
+            if hasattr(train_iter, "set_postfix"):
+                train_iter.set_postfix(loss=f"{float(loss.detach().cpu()):.4f}")
             if step % args.gradient_accumulation_steps == 0 or step == len(train_loader):
                 torch.nn.utils.clip_grad_norm_(model.parameters(), MAX_GRAD_NORM)
                 optimizer.step()
                 scheduler.step()
                 optimizer.zero_grad(set_to_none=True)
+                clear_device_cache(device)
                 global_step += 1
         val_metrics, _ = evaluate_model(
             model,
@@ -454,6 +524,7 @@ def train_one(args: argparse.Namespace) -> None:
             val_loader,
             device,
             class_weights,
+            desc=f"Validating epoch {epoch}",
         )
         row = {"epoch": epoch, "global_step": global_step, "train_loss": running / max(1, len(train_loader)), "val_metrics": val_metrics}
         history.append(row)
@@ -466,8 +537,24 @@ def train_one(args: argparse.Namespace) -> None:
     if best_state is not None:
         model.load_state_dict(best_state)
 
-    val_metrics, val_preds = evaluate_model(model, val_docs, val_features, val_loader, device, class_weights)
-    test_metrics, test_preds = evaluate_model(model, test_docs, test_features, test_loader, device, class_weights)
+    val_metrics, val_preds = evaluate_model(
+        model,
+        val_docs,
+        val_features,
+        val_loader,
+        device,
+        class_weights,
+        desc="Final validation",
+    )
+    test_metrics, test_preds = evaluate_model(
+        model,
+        test_docs,
+        test_features,
+        test_loader,
+        device,
+        class_weights,
+        desc="Final test",
+    )
     write_jsonl(args.output_dir / "val_word_predictions.jsonl", val_preds)
     write_jsonl(args.output_dir / "test_word_predictions.jsonl", test_preds)
     write_jsonl(args.output_dir / "training_history.jsonl", history)
@@ -482,6 +569,10 @@ def train_one(args: argparse.Namespace) -> None:
         "threshold": THRESHOLD,
         "epochs": args.epochs,
         "learning_rate": args.learning_rate,
+        "optimizer": optimizer_name,
+        "training_strategy": training_strategy,
+        "precision": precision,
+        "parameter_counts": param_counts,
         "class_weights": None if class_weights is None else class_weights.detach().cpu().tolist(),
         "train_documents": len(train_docs),
         "val_documents": len(val_docs),
