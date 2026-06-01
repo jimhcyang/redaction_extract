@@ -40,3 +40,24 @@ __MACOSX/
 # Generated modeling artifacts
 modeling_outputs/forward*/
 matryoshka_code_data_output_051926/
+
+# Large knowledge-graph intermediate artifacts
+# Keep final resolved outputs and compact summaries in git; leave the bulky
+# audit/intermediate tables local so pushes stay within GitHub limits.
+outputs/*/entity_resolution/a1_mention_catalog.csv
+outputs/*/entity_resolution/a2_rule_resolved_entities.csv
+outputs/*/entity_resolution/a3_cluster_candidates.csv
+outputs/*/entity_resolution/a3_sense_clusters.csv
+outputs/*/entity_resolution/a4_cluster_review_queue.csv
+outputs/*/entity_resolution/a4_cluster_decisions.csv
+outputs/*/entity_resolution/a4_entities_resolved_snapshot.csv
+outputs/*/entity_resolution/a5_auto_accepted.csv
+outputs/*/entity_resolution/a5_candidate_pairs.csv
+outputs/*/entity_resolution/a5_canonical_catalog.csv
+outputs/*/entity_resolution/a5_entities_resolved.csv
+outputs/*/entity_resolution/a5_pair_decisions.csv
+outputs/*/graphs/analysis_edges.csv
+outputs/*/graphs/analysis_edges_cluster.csv
+outputs/*/graphs/analysis_edges_full.csv
+outputs/*/graphs/analysis_graph_cluster.graphml
+outputs/*/graphs/level0_edges.csv

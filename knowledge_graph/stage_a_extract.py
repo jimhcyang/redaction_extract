@@ -1034,6 +1034,7 @@ else:
 # produce many paragraph chunks.
 
 pending_chunks = []
+completed_in_selected_scope = 0
 
 for row_idx, row in work_source_df.iterrows():
     doc_id = str(row["doc_id"])
@@ -1055,6 +1056,7 @@ for row_idx, row in work_source_df.iterrows():
             continue
 
         if key in completed_keys:
+            completed_in_selected_scope += 1
             continue
 
         if (not RUN_FAILED_CHUNKS_ONLY) and SKIP_PREVIOUS_ERRORS and key in error_keys:
@@ -1079,8 +1081,10 @@ else:
     chunk_cap_label = f"user cap={MAX_NEW_CHUNKS_THIS_RUN}"
 
 pending_chunks = pending_chunks[:MAX_NEW_CHUNKS_THIS_RUN]
+progress_total_this_run = completed_in_selected_scope + len(pending_chunks)
 
 print("Selected documents:", len(work_source_df))
+print(f"Completed {EXTRACTION_UNIT_LABEL} in selected scope:", completed_in_selected_scope)
 print(f"Pending {EXTRACTION_UNIT_LABEL} this run:", len(pending_chunks))
 print("Chunk cap this run:", chunk_cap_label)
 
@@ -1088,7 +1092,11 @@ print("Chunk cap this run:", chunk_cap_label)
 if not RUN_EXTRACTION:
     print("RUN_EXTRACTION is False. Set RUN_EXTRACTION=True to run extraction.")
 else:
-    pbar = tqdm(total=len(pending_chunks), desc=f"{EXTRACTION_UNIT_LABEL.title()} processed")
+    pbar = tqdm(
+        total=progress_total_this_run,
+        initial=completed_in_selected_scope,
+        desc=f"{EXTRACTION_UNIT_LABEL.title()} processed",
+    )
 
     for row_idx, row in work_source_df.iterrows():
         doc_id = str(row["doc_id"])
