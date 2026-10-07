@@ -3,8 +3,9 @@
 This repository is the standalone handoff of the same classical redaction-box
 detector shipped in the `cv-box-detect` branch of Andrew Tang's
 `redaction-extract` repository. It includes the detector, four independent
-manual-label collections, a compact visual review, and eight representative
-paired CIB documents. Open `results/index.html` first.
+manual-label collections, a compact visual review, a complete web edition of
+the items-v4 audit, and eight representative paired CIB documents. Open
+`index.html` first.
 
 ## Information Boundary
 
@@ -93,6 +94,12 @@ geometry is a heavy unfilled green outline; answer-blind CV geometry is a thin
 red outline with restrained translucent fill. Manual labels are never loaded
 by the production detector.
 
+`results/items_v4/index.html` contains every one of the 1,414 items and 1,277
+page-pair views in the items-v4 audit. It includes searchable target tables,
+optimized labeled overlays, component geometry, registration diagnostics, and
+downloadable result files. Duplicate raw-scan previews are omitted from this
+web edition; the untouched local audit remains the full-resolution record.
+
 ## Relation To Astra And Items v4
 
 Astra and Box CV perform different tasks. Astra saw paired releases and saved
@@ -102,8 +109,9 @@ in the later PDF text layer, registers the scans with SIFT/RANSAC, and measures
 their post-hoc coverage by the already frozen earlier-page CV polygons. No LLM
 or new OCR service is called.
 
-The large items-v4 audit is not bundled here because it depends on the source
-repository's full 6,018-PDF local corpus. In that environment run:
+The web edition of the large items-v4 audit is bundled for review. Reproducing
+it still depends on the source repository's full 6,018-PDF local corpus. In
+that environment run:
 
 ```bash
 python -m box_scripts.v4_audit --workers 6 --overwrite
@@ -120,13 +128,26 @@ or inferred those words.
 ## Layout
 
 ```text
+index.html            Landing page for both visual result browsers
 box_scripts/          Final detector, v4 audit adapter, and regression tests
 run_box_pipeline.py   Standalone command-line entry point
 manual_gold/          Four manual-label collections and source images
 data/example_pdfs/    16 PDFs from 8 representative document pairs
 results/index.html    Compact standalone geometry-review browser
+results/items_v4/     Complete optimized web edition of the items-v4 audit
+tools/                Reproducible exporter for the items-v4 web edition
 RELEASE_MANIFEST.json Scope, metrics, and code provenance
 SHA256SUMS.txt         Integrity hashes
+```
+
+## GitHub Pages
+
+After pushing the repository, open **Settings > Pages**, choose **Deploy from a
+branch**, and select `main` with `/ (root)`. The bundled `.nojekyll` file keeps
+the static audit assets unchanged. The expected public entry point is:
+
+```text
+https://jimhcyang.github.io/redaction_extract/
 ```
 
 ## Limits

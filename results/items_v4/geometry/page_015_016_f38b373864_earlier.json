@@ -1,0 +1,692 @@
+{
+  "detector_version": "3.2.0",
+  "source_path": "CIA-RDP79T00975A005200400001-9.pdf",
+  "source_kind": "v4_earlier_pdf",
+  "page_no_1based": 15,
+  "image_size_wh": [
+    1700,
+    2200
+  ],
+  "coordinate_system": "deskewed",
+  "redaction_region_count": 3,
+  "physical_component_count": 6,
+  "redaction_regions": [
+    {
+      "region_id": "R1",
+      "region_order": 1,
+      "component_count": 4,
+      "bounds_xyxy": [
+        50,
+        1147,
+        1467,
+        1383
+      ],
+      "outline_polygons_xy": [
+        [
+          [
+            50,
+            1147
+          ],
+          [
+            304,
+            1147
+          ],
+          [
+            304,
+            1382
+          ],
+          [
+            50,
+            1382
+          ]
+        ],
+        [
+          [
+            815,
+            1216
+          ],
+          [
+            1466,
+            1216
+          ],
+          [
+            1466,
+            1329
+          ],
+          [
+            815,
+            1329
+          ]
+        ],
+        [
+          [
+            304,
+            1248
+          ],
+          [
+            813,
+            1248
+          ],
+          [
+            813,
+            1327
+          ],
+          [
+            304,
+            1327
+          ]
+        ],
+        [
+          [
+            289,
+            1318
+          ],
+          [
+            432,
+            1318
+          ],
+          [
+            432,
+            1367
+          ],
+          [
+            289,
+            1367
+          ]
+        ]
+      ],
+      "original_image_outline_polygons_xy": [
+        [
+          [
+            50,
+            1142
+          ],
+          [
+            304,
+            1144
+          ],
+          [
+            302,
+            1379
+          ],
+          [
+            48,
+            1377
+          ]
+        ],
+        [
+          [
+            814,
+            1216
+          ],
+          [
+            1465,
+            1220
+          ],
+          [
+            1465,
+            1333
+          ],
+          [
+            814,
+            1329
+          ]
+        ],
+        [
+          [
+            303,
+            1245
+          ],
+          [
+            812,
+            1248
+          ],
+          [
+            812,
+            1327
+          ],
+          [
+            303,
+            1324
+          ]
+        ],
+        [
+          [
+            288,
+            1315
+          ],
+          [
+            431,
+            1316
+          ],
+          [
+            430,
+            1365
+          ],
+          [
+            287,
+            1364
+          ]
+        ]
+      ],
+      "components": [
+        {
+          "component_id": "R1.1",
+          "component_order": 1,
+          "bounds_xyxy": [
+            50,
+            1147,
+            305,
+            1383
+          ],
+          "polygon_xy": [
+            [
+              50,
+              1147
+            ],
+            [
+              304,
+              1147
+            ],
+            [
+              304,
+              1382
+            ],
+            [
+              50,
+              1382
+            ]
+          ],
+          "original_image_polygon_xy": [
+            [
+              50,
+              1142
+            ],
+            [
+              304,
+              1144
+            ],
+            [
+              302,
+              1379
+            ],
+            [
+              48,
+              1377
+            ]
+          ],
+          "proposal_source": "lsd_corner_refinement:lsd_geometry_rescue:h=1.00/0.99:v=0.99/0.93:corners=4:base=rectilinear_zone_118:observed=4:virtual=0",
+          "proposal_score": 14.111096
+        },
+        {
+          "component_id": "R1.2",
+          "component_order": 2,
+          "bounds_xyxy": [
+            815,
+            1216,
+            1467,
+            1330
+          ],
+          "polygon_xy": [
+            [
+              815,
+              1216
+            ],
+            [
+              1466,
+              1216
+            ],
+            [
+              1466,
+              1329
+            ],
+            [
+              815,
+              1329
+            ]
+          ],
+          "original_image_polygon_xy": [
+            [
+              814,
+              1216
+            ],
+            [
+              1465,
+              1220
+            ],
+            [
+              1465,
+              1333
+            ],
+            [
+              814,
+              1329
+            ]
+          ],
+          "proposal_source": "lsd_corner_refinement:lsd_geometry_rescue:h=0.99/0.99:v=0.96/1.00:corners=4:base=rectilinear_zone_118:observed=4:virtual=0",
+          "proposal_score": 14.128204
+        },
+        {
+          "component_id": "R1.3",
+          "component_order": 3,
+          "bounds_xyxy": [
+            304,
+            1248,
+            814,
+            1328
+          ],
+          "polygon_xy": [
+            [
+              304,
+              1248
+            ],
+            [
+              813,
+              1248
+            ],
+            [
+              813,
+              1327
+            ],
+            [
+              304,
+              1327
+            ]
+          ],
+          "original_image_polygon_xy": [
+            [
+              303,
+              1245
+            ],
+            [
+              812,
+              1248
+            ],
+            [
+              812,
+              1327
+            ],
+            [
+              303,
+              1324
+            ]
+          ],
+          "proposal_source": "lsd_corner_refinement:lsd_geometry_rescue:h=0.99/0.74:v=1.00/0.97:corners=3:base=rectilinear_zone_118:observed=4:virtual=0",
+          "proposal_score": 13.970618
+        },
+        {
+          "component_id": "R1.4",
+          "component_order": 4,
+          "bounds_xyxy": [
+            289,
+            1318,
+            433,
+            1368
+          ],
+          "polygon_xy": [
+            [
+              289,
+              1318
+            ],
+            [
+              432,
+              1318
+            ],
+            [
+              432,
+              1367
+            ],
+            [
+              289,
+              1367
+            ]
+          ],
+          "original_image_polygon_xy": [
+            [
+              288,
+              1315
+            ],
+            [
+              431,
+              1316
+            ],
+            [
+              430,
+              1365
+            ],
+            [
+              287,
+              1364
+            ]
+          ],
+          "proposal_source": "lsd_corner_refinement:lsd_geometry_rescue:h=0.88/0.86:v=1.00/0.69:corners=4:base=rectilinear_zone_118:observed=4:virtual=0",
+          "proposal_score": 12.721844
+        }
+      ],
+      "layout_role": "main_text"
+    },
+    {
+      "region_id": "R2",
+      "region_order": 2,
+      "component_count": 1,
+      "bounds_xyxy": [
+        490,
+        1587,
+        1242,
+        1627
+      ],
+      "outline_polygons_xy": [
+        [
+          [
+            490,
+            1587
+          ],
+          [
+            1241,
+            1587
+          ],
+          [
+            1241,
+            1626
+          ],
+          [
+            490,
+            1626
+          ]
+        ]
+      ],
+      "original_image_outline_polygons_xy": [
+        [
+          [
+            487,
+            1585
+          ],
+          [
+            1238,
+            1589
+          ],
+          [
+            1238,
+            1628
+          ],
+          [
+            487,
+            1624
+          ]
+        ]
+      ],
+      "components": [
+        {
+          "component_id": "R2.1",
+          "component_order": 1,
+          "bounds_xyxy": [
+            490,
+            1587,
+            1242,
+            1627
+          ],
+          "polygon_xy": [
+            [
+              490,
+              1587
+            ],
+            [
+              1241,
+              1587
+            ],
+            [
+              1241,
+              1626
+            ],
+            [
+              490,
+              1626
+            ]
+          ],
+          "original_image_polygon_xy": [
+            [
+              487,
+              1585
+            ],
+            [
+              1238,
+              1589
+            ],
+            [
+              1238,
+              1628
+            ],
+            [
+              487,
+              1624
+            ]
+          ],
+          "proposal_source": "lsd_corner_refinement:lsd_geometry_rescue:h=1.00/0.99:v=1.00/0.93:corners=4:base=rectilinear_zone_153:observed=4:virtual=0",
+          "proposal_score": 14.153488
+        }
+      ],
+      "layout_role": "main_text"
+    },
+    {
+      "region_id": "R3",
+      "region_order": 3,
+      "component_count": 1,
+      "bounds_xyxy": [
+        269,
+        1629,
+        1474,
+        2098
+      ],
+      "outline_polygons_xy": [
+        [
+          [
+            269,
+            1629
+          ],
+          [
+            1473,
+            1629
+          ],
+          [
+            1473,
+            2097
+          ],
+          [
+            269,
+            2097
+          ]
+        ]
+      ],
+      "original_image_outline_polygons_xy": [
+        [
+          [
+            266,
+            1626
+          ],
+          [
+            1470,
+            1633
+          ],
+          [
+            1467,
+            2101
+          ],
+          [
+            263,
+            2094
+          ]
+        ]
+      ],
+      "components": [
+        {
+          "component_id": "R3.1",
+          "component_order": 1,
+          "bounds_xyxy": [
+            269,
+            1629,
+            1474,
+            2098
+          ],
+          "polygon_xy": [
+            [
+              269,
+              1629
+            ],
+            [
+              1473,
+              1629
+            ],
+            [
+              1473,
+              2097
+            ],
+            [
+              269,
+              2097
+            ]
+          ],
+          "original_image_polygon_xy": [
+            [
+              266,
+              1626
+            ],
+            [
+              1470,
+              1633
+            ],
+            [
+              1467,
+              2101
+            ],
+            [
+              263,
+              2094
+            ]
+          ],
+          "proposal_source": "lsd_corner_refinement:lsd_geometry_rescue:h=1.00/1.00:v=1.00/1.00:corners=4:base=rectilinear_zone_153:observed=4:virtual=0",
+          "proposal_score": 14.195726
+        }
+      ],
+      "layout_role": "main_text"
+    }
+  ],
+  "detector_diagnostics": {
+    "coordinate_system": "deskewed",
+    "estimated_rotation_degrees": 0.3318251371383667,
+    "inverse_affine_to_original": [
+      [
+        0.9999832296513808,
+        -0.005791408809080797,
+        6.384804486315237
+      ],
+      [
+        0.005791408809080797,
+        0.9999832296513808,
+        -4.904250104237505
+      ]
+    ],
+    "horizontal_segment_count": 14,
+    "vertical_segment_count": 605,
+    "line_zone_count": 181,
+    "rectangle_proposal_count": 15,
+    "strict_outline_component_count": 7,
+    "outline_component_count": 7,
+    "closed_blank_rescue_count": 0,
+    "rectified_warp_candidate_count": 5,
+    "rectified_warp_rescue_count": 0,
+    "rectified_warp_fallback_count": 0,
+    "solid_candidate_count": 0,
+    "rectilinear_solid_step_rescue_count": 0,
+    "dense_blackout_candidate_count": 0,
+    "lsd_corner_refinement_count": 7,
+    "lsd_outer_border_promotion_count": 0,
+    "lsd_geometry_rescue_count": 0,
+    "lsd_layer_occlusion_rescue_count": 0,
+    "shared_edge_step_completion_count": 0,
+    "framed_text_suppression_count": 1,
+    "marginal_text_crossing_suppression_count": 0,
+    "small_glyph_suppression_count": 0,
+    "component_count_before_grouping": 6,
+    "base_component_count": 6,
+    "estimated_text_line_height": 35,
+    "detector_policy": "Single-page, answer-blind geometry. Release 3.2 preserves the production detector and its page-measured safeguards: visible prose cannot serve as a synthetic step interior; an incomplete blank rectangle may expand only to its seed-connected closed white-space contour; and a compact, independently bounded blank continuation is not discarded inside a larger text-crossing envelope. OCR, paired releases, filenames, answers, and benchmark labels are unavailable to detection.",
+    "closed_blank_contour_count": 8,
+    "closed_blank_rejected_text_count": 1,
+    "closed_blank_rejected_shape_count": 0,
+    "enclosed_blank_component_count": 5,
+    "enclosed_blank_rejected_text_count": 4,
+    "enclosed_blank_rejected_shape_count": 2,
+    "lsd_horizontal_segment_count": 82,
+    "lsd_vertical_segment_count": 1304,
+    "lsd_raw_candidate_count": 2208,
+    "detector_release": "3.2.0",
+    "input_image_size_wh": [
+      1700,
+      2200
+    ],
+    "canonical_detection_size_wh": [
+      1700,
+      2200
+    ],
+    "input_to_detection_scale": 1.0,
+    "resolution_policy": "All geometry is evaluated at the validated 200-DPI physical scale and mapped back to the input raster.",
+    "marginal_open_outline_rescue_count": 0,
+    "blackout_partition_rescue_count": 0,
+    "layered_outline_rescue_count": 1,
+    "supported_outline_count": 0,
+    "line_segment_cycle_count": 0,
+    "page_frame_candidate_count": 1,
+    "page_frame_candidates": [
+      {
+        "box_xyxy": [
+          575,
+          162,
+          1242,
+          268
+        ],
+        "polygon_xy": [
+          [
+            575,
+            162
+          ],
+          [
+            1241,
+            162
+          ],
+          [
+            1241,
+            267
+          ],
+          [
+            575,
+            267
+          ]
+        ],
+        "source": "page_frame_candidate:lsd_geometry_rescue:h=1.00/1.00:v=0.99/0.98:corners=4",
+        "score": 7.23385
+      }
+    ],
+    "estimated_content_bounds_x": [
+      310,
+      1420
+    ],
+    "region_layout_roles": {
+      "1": "main_text",
+      "2": "main_text",
+      "3": "main_text"
+    },
+    "region_count": 3,
+    "complex_enclosed_candidate_count": 0,
+    "complex_enclosed_rejected_shape_count": 2,
+    "complex_enclosed_rejected_text_count": 0,
+    "line_cycle_count": 41,
+    "line_cycle_candidate_count": 0,
+    "line_cycle_rejected_text_count": 2,
+    "line_cycle_rejected_shape_count": 5,
+    "text_safe_step_refinement_count": 0,
+    "rejected_text_slab_count": 0,
+    "seeded_blank_outline_refinement_count": 0,
+    "side_column_bridge_split_count": 0,
+    "step_seam_merge_count": 0
+  }
+}

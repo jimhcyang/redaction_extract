@@ -6,9 +6,12 @@
   "release_gate_passed": true,
   "information_boundary": "single-page grayscale geometry; no OCR text, paired pixels, answers, document IDs, or manual labels",
   "public_entry_points": [
+    "index.html",
     "box_scripts/box_pipeline.py",
     "run_box_pipeline.py",
-    "results/index.html"
+    "results/index.html",
+    "results/items_v4/index.html",
+    "tools/build_items_v4_web_bundle.py"
   ],
   "code_sha256": {
     "box_scripts/__init__.py": "8f029bcfaee42535813fade83701a340628700f0682b66ea7d9fa79c567d3acc",
@@ -62,7 +65,7 @@
     "path": "results/index.html"
   },
   "items_v4_audit": {
-    "bundled": false,
+    "full_resolution_bundled": false,
     "items": 1414,
     "page_pairs": 1277,
     "page_pair_errors": 0,
@@ -71,6 +74,20 @@
     "target_localization_uncertain": 1,
     "target_not_in_text_layer": 2
   },
+  "items_v4_web_edition": {
+    "bundled": true,
+    "path": "results/items_v4/index.html",
+    "items": 1414,
+    "page_pairs": 1277,
+    "case_html_pages": 1277,
+    "geometry_files": 2554,
+    "overlay_images": 2554,
+    "raw_images_omitted": 2554,
+    "max_image_dimension": 1400,
+    "jpeg_quality": 72,
+    "bundle_bytes": 496134869,
+    "missing_local_references": 0
+  },
   "included_example_pdfs": {
     "document_pairs": 8,
     "pdf_files": 16
@@ -78,7 +95,7 @@
   "excluded_by_design": [
     "selectable historical detector versions",
     "the full 6,018-PDF source corpus",
-    "the derived 1,277-page-pair items-v4 image audit",
+    "duplicate full-resolution raw previews from the items-v4 audit",
     "LLM credentials and API code",
     "development caches and temporary outputs"
   ]
