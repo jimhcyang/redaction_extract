@@ -1,119 +1,84 @@
 {
-  "release_name": "Redaction Box Scripts",
-  "release_version": "3.1.0",
-  "detector_version": "3.1.0",
+  "release_name": "Redaction Box CV",
+  "release_version": "3.2.0",
+  "detector_version": "3.2.0",
   "operating_dpi": 200,
   "release_gate_passed": true,
+  "information_boundary": "single-page grayscale geometry; no OCR text, paired pixels, answers, document IDs, or manual labels",
   "public_entry_points": [
     "box_scripts/box_pipeline.py",
     "run_box_pipeline.py",
     "results/index.html"
   ],
-  "code_provenance": {
-    "box_scripts/_core_detection.py": {
-      "source": "core detector source snapshot",
-      "source_sha256": "794e45b5d9db035a82443e4e789ddf3d726b7f1dd2e0479863aaf24ee891daf7",
-      "packaged_sha256": "2fca65d174419d79931dd658793f819dceb425c03cd767f26c53e767a88a6617"
-    },
-    "box_scripts/_geometry_detection.py": {
-      "source": "geometry detector source snapshot",
-      "source_sha256": "44b137ded8748193f0edfec5fe5e606136cfcba706b3f1b637d5880e8c21e08c",
-      "packaged_sha256": "1a1d72351454d9bc9b2df1dce656d232a9374bc2e4e9ed7c219a543b042a8a19"
-    },
-    "box_scripts/_layered_detection.py": {
-      "source": "layered detector source snapshot",
-      "source_sha256": "038f1cf23d9ccc2b8191d7ac980395e58b926f29f595949dc9e7b1bbe03279df",
-      "packaged_sha256": "1b37b3dd39647a5ff25161bcee6b4c128e36b55d4823c9c084279fe75f024d8b"
-    },
-    "box_scripts/_validated_detection.py": {
-      "source": "validated detector source snapshot",
-      "source_sha256": "7ecf38f974698cc4c620af578e2f9f966afc1089d381a837fd50008786eedf94",
-      "packaged_sha256": "09c468f104349232f0bf71c846695d628bd58b24d07d55edbe486b989fd56c24"
-    },
-    "box_scripts/_production_detection.py": {
-      "source": "production detector source snapshot",
-      "source_sha256": "05194a7614f61a9a66c2c51f8496c560655337802e987dfcfbbcdd7b60c541ca",
-      "packaged_sha256": "dd8fdbda35fd61bd9a7b0abed2be2e4e2bef39d98c0ac5c75cb5622cf339d88f"
-    },
-    "box_scripts/box_pipeline.py": {
-      "source": "final detector source snapshot",
-      "source_sha256": "f5639550233bfb9348ecf87fd3f2545ebbf765a175907915fbf228c775a7cb77",
-      "packaged_sha256": "388f5ac572f575a7087cc84449b30bbb2af3986a2314e3189b4170abfc0a7231"
-    },
-    "box_scripts/__init__.py": {
-      "source": "release API generated from final public symbols",
-      "source_sha256": "not_applicable",
-      "packaged_sha256": "6843f245a947ed429491b58441afbf702b27718718995921785ddfb42a10ab2f"
-    },
-    "run_box_pipeline.py": {
-      "source": "standalone command-line entry point",
-      "source_sha256": "not_applicable",
-      "packaged_sha256": "26aca9f42d151be29b601ae5165f360b494d9e0101f31c94d7b4749419ca2b72"
-    }
-  },
-  "browser": {
-    "production_benchmark_targets": 1592,
-    "production_review_cases_bundled": 9,
-    "manual_sections": {
-      "curated": {
-        "pages": 118,
-        "review_pages": 49
-      },
-      "dense": {
-        "pages": 40,
-        "review_pages": 7
-      },
-      "final_pilot": {
-        "pages": 40,
-        "review_pages": 10
-      },
-      "hard_cases": {
-        "pages": 18,
-        "review_pages": 10
-      }
-    }
+  "code_sha256": {
+    "box_scripts/__init__.py": "8f029bcfaee42535813fade83701a340628700f0682b66ea7d9fa79c567d3acc",
+    "box_scripts/_core_detection.py": "2fca65d174419d79931dd658793f819dceb425c03cd767f26c53e767a88a6617",
+    "box_scripts/_geometry_detection.py": "f7d4c8ade3b4bcc48fd96804e59f0f4165b9cf0d18a4c88c93918e91fa781a37",
+    "box_scripts/_layered_detection.py": "bbaa26d0e872e99436759e76698c4d72095d7916a20ef2cd2ace7529e972e504",
+    "box_scripts/_production_detection.py": "dd8fdbda35fd61bd9a7b0abed2be2e4e2bef39d98c0ac5c75cb5622cf339d88f",
+    "box_scripts/_validated_detection.py": "fc83044e42ffd0efb3f21ea5d920611871fc64e1be12a8f3b7af0082c75d35f2",
+    "box_scripts/box_pipeline.py": "cbbd6a62063d0f6b374ac4af5d2bbc16a102e5e72cf9c621754383bd2092e953",
+    "box_scripts/build_manual_review.py": "01f6c798950532151c4354a8e9a3e8285d73452fa036158ebe3242eb13a25339",
+    "box_scripts/v4_audit.py": "a71d4a4da5bdc99cbc350296a1c131c66c198b691f8b5272b68acad04b6cc0a4",
+    "run_box_pipeline.py": "26aca9f42d151be29b601ae5165f360b494d9e0101f31c94d7b4749419ca2b72"
   },
   "manual_gold": {
     "curated": {
       "pages": 118,
       "components": 336,
-      "component_f1_iou50": 0.9760479041916169
+      "component_precision_iou50": 0.9819277108433735,
+      "component_recall_iou50": 0.9702380952380952,
+      "component_f1_iou50": 0.9760479041916169,
+      "region_f1_iou50": 0.96
     },
     "dense": {
       "pages": 40,
       "components": 185,
-      "component_f1_iou50": 1.0
+      "component_precision_iou50": 1.0,
+      "component_recall_iou50": 1.0,
+      "component_f1_iou50": 1.0,
+      "region_f1_iou50": 0.9710144927536232
     },
     "final_pilot": {
       "pages": 40,
       "components": 200,
-      "component_f1_iou50": 0.9950248756218906
+      "component_precision_iou50": 0.9900990099009901,
+      "component_recall_iou50": 1.0,
+      "component_f1_iou50": 0.9950248756218906,
+      "region_f1_iou50": 0.9807692307692307
     },
     "hard_cases": {
       "pages": 18,
       "components": 119,
-      "component_f1_iou50": 0.9754098360655737
+      "component_precision_iou50": 0.9908256880733946,
+      "component_recall_iou50": 0.907563025210084,
+      "component_f1_iou50": 0.9473684210526315,
+      "region_f1_iou50": 0.8674698795180723
     }
   },
-  "production": {
-    "page_pairs": 1192,
-    "targets": 1592,
-    "status_counts": {
-      "ASSIGNED_FULL": 1583,
-      "ASSIGNED_PARTIAL": 6,
-      "ASSIGNED_UNIQUE_CHANGED_REGION": 2,
-      "TARGET_LOCALIZATION_UNCERTAIN": 1
-    }
+  "bundled_review": {
+    "curated_pages": 118,
+    "dense_pages": 40,
+    "path": "results/index.html"
+  },
+  "items_v4_audit": {
+    "bundled": false,
+    "items": 1414,
+    "page_pairs": 1277,
+    "page_pair_errors": 0,
+    "assigned_full": 1400,
+    "assigned_partial": 11,
+    "target_localization_uncertain": 1,
+    "target_not_in_text_layer": 2
   },
   "included_example_pdfs": {
     "document_pairs": 8,
-    "pdf_files": 16,
-    "hard_page_pairs": 9
+    "pdf_files": 16
   },
   "excluded_by_design": [
-    "experimental and selectable legacy detector versions",
+    "selectable historical detector versions",
     "the full 6,018-PDF source corpus",
-    "full-target production image assets for successful cases",
+    "the derived 1,277-page-pair items-v4 image audit",
     "LLM credentials and API code",
     "development caches and temporary outputs"
   ]

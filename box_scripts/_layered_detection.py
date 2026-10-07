@@ -1071,7 +1071,13 @@ def _suppress_text_frames_and_glyphs(
         marginal = y1 <= height * 0.16 or y2 >= height * 0.90
         reliable_lsd = _reliable_lsd_rectangle(component, line_height)
         fully_observed_axis_box = (
-            source.startswith("rectilinear_zone_")
+            (
+                source.startswith("rectilinear_zone_")
+                or (
+                    source.startswith("lsd_corner_refinement:")
+                    and ":base=rectilinear_zone_" in source
+                )
+            )
             and ":observed=4:virtual=0" in source
         )
         closed_support = re.search(

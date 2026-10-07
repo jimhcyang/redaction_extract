@@ -1792,7 +1792,13 @@ def _apply_lsd_refinements(
             BoxComponent(
                 box=candidate.box,
                 polygon=_rect_polygon(candidate.box),
-                source=f"lsd_corner_refinement:{candidate.source}",
+                # Keep the measured base route. Downstream suppression must
+                # still know when a refined outline began as a fully observed
+                # four-sided rectangle rather than an inferred text frame.
+                source=(
+                    f"lsd_corner_refinement:{candidate.source}:"
+                    f"base={component.source}"
+                ),
                 score=max(component.score, candidate.score),
             )
         )

@@ -1,24 +1,26 @@
-# Redaction Box Scripts 3.1
+# Redaction Box CV 3.2
 
-This repository contains the final classical redaction-box geometry detector,
-its four manually labeled evaluation collections, the frozen Astra comparison
-inputs and results, a self-contained HTML review, and 8
-representative paired CIB documents. Open `results/index.html` first.
+This repository is the standalone handoff of the same classical redaction-box
+detector shipped in the `cv-box-detect` branch of Andrew Tang's
+`redaction-extract` repository. It includes the detector, four independent
+manual-label collections, a compact visual review, and eight representative
+paired CIB documents. Open `results/index.html` first.
 
-## What the detector sees
+## Information Boundary
 
-The detector processes one raster page independently. It sees grayscale pixels,
-line segments, contours, blank interiors, dense ink, page margins, and locally
-measured geometric support. It does **not** see OCR text, document IDs, filenames
-as semantic features, the paired release, Astra answers, or manual labels. It
-outputs physical polygons and groups line-wrapped components into reading-order
-redaction units; it does not infer hidden words.
+The detector processes one raster page independently. It sees grayscale
+pixels, line segments, contours, blank interiors, dense ink, page margins, and
+page-local geometric support. It does **not** receive OCR text, filenames or
+document IDs as semantic features, paired-release pixels, Astra answers, or
+manual annotations. Those resources are used only after detection to evaluate
+the frozen polygons.
 
-The production operating point is 200 DPI. PDF inputs are rendered at that
-scale. Raster inputs should be 200-DPI-equivalent for benchmark-comparable
-results.
+The output distinguishes:
 
-## Quick start
+- `R<n>.<m>`: one physical rectangle or measured rectilinear component;
+- `R<n>`: one inferred redacted reading unit containing one or more components.
+
+## Quick Start
 
 ```bash
 python -m venv .venv
@@ -41,112 +43,96 @@ python run_box_pipeline.py \
   --dpi 200
 ```
 
-Each page emits the rendered source, labeled overlay, and a JSON record with
-source-coordinate polygons, reading-unit labels `R<n>`, physical-component
-labels `R<n>.<m>`, proposal provenance, and diagnostics.
+Each page emits the source raster, a labeled overlay, and JSON containing exact
+component polygons, reading-unit membership, original-image coordinates,
+proposal provenance, and diagnostics.
 
-## Final implementation
+## Final Implementation
 
-`box_scripts/box_pipeline.py` is the public 3.1 detector. The underscore-named
-modules are required internal layers of this same final implementation, not
-selectable older releases.
+`box_scripts/box_pipeline.py` is the public detector. The underscore-prefixed
+modules are required implementation layers, not selectable historical
+versions. Production evaluation uses 200 DPI. Native 300-DPI-size images are
+analyzed at the validated 200-DPI physical scale and mapped back to their
+original coordinates.
 
-Public functions:
+The main decision path is:
 
-- `detect_redaction_regions_with_artifacts(gray)` returns grouped regions,
-  diagnostic masks, and decision metadata for one grayscale page;
-- `detect_redaction_boxes_with_artifacts(gray)` provides the compatibility
-  box view plus artifacts;
-- `process_record(...)` processes one page record and writes source, overlay,
-  and JSON outputs;
-- `run_box_pipeline(...)` processes an image, PDF, directory, or paired corpus;
-- `collect_pdf_pairs_with_stats(...)` validates and enumerates paired CIB PDFs.
+1. Deskew and build complementary dark/faint pixel masks.
+2. Extract horizontal and vertical evidence, line zones, contours, corners,
+   blank interiors, solid masks, and dense blackouts.
+3. Propose ordinary, page-edge, overlapping, clipped, stepped, and concave
+   geometry through independent candidate routes.
+4. Preserve independently bounded layers and fully observed rectangle
+   provenance through boundary refinement.
+5. Reject glyph contours, prose-crossing frames, weak virtual borders,
+   duplicate echoes, page furniture, and unsupported envelopes.
+6. Keep physical components explicit; never replace a concave/overlapping
+   union with a text-covering exterior rectangle.
+7. Group components only through measured contact or verified reading flow.
+   Visible prose between forked children prevents transitive over-grouping.
 
-1. Render at a canonical physical scale and deskew while retaining mappings to
-   source coordinates.
-2. Propose ordinary boxes from dark/faint masks, contours, horizontal and
-   vertical segments, corners, blank interiors, and dense blackouts.
-3. Recover supported page-edge, overlapping, clipped, layered, stepped, or
-   concave geometry using measured borders and compact rectangular covers.
-4. Reject glyph-sized strokes, prose-crossing envelopes, unsupported virtual
-   borders, page furniture, duplicate boxes, and intersection-only cells.
-5. Split a synthesized stepped outline when a full text-line-height
-   slab contains sustained visible prose; independently blank slabs survive.
-6. Allow an incomplete supported rectangle to expand only to the closed
-   white-space component containing most of its already validated seed, with
-   strict area, support, retention, fill, and expansion limits.
-7. Group surviving physical components only when natural line-wrap geometry
-   supports one continuous redacted reading unit.
-
-Rule precedence is conservative: completion routes can recover geometry but
-cannot bypass evidence, prose-suppression, deduplication, or grouping checks.
-No rule contains benchmark IDs, document-specific coordinates, or expected
-answers.
+No production rule contains a benchmark ID, document-specific coordinate, or
+expected answer.
 
 ## Evaluation
 
-| Collection | Pages | Gold components | Component F1 @ IoU 0.50 | Purpose |
-|---|---:|---:|---:|---|
-| Curated | 118 | 336 | 97.60% | Diverse screenshots and prior failure modes |
-| Dense gold | 40 | 185 | 100.00% | Exhaustively labeled box-heavy pages |
-| Final-task pilot | 40 | 200 | 99.50% | Production-style paired pages |
-| Hard cases | 18 | 119 | 97.54% | Prior Astra disagreements and final refinement target |
+| Collection | Pages | Gold components | Precision | Recall | Component F1 | Region F1 |
+|---|---:|---:|---:|---:|---:|---:|
+| Curated | 118 | 336 | 98.19% | 97.02% | 97.60% | 96.00% |
+| Dense gold | 40 | 185 | 100.00% | 100.00% | 100.00% | 97.10% |
+| Final-task pilot | 40 | 200 | 99.01% | 100.00% | 99.50% | 98.08% |
+| Targeted hard cases | 18 | 119 | 99.08% | 90.76% | 94.74% | 86.75% |
 
-Hard-case physical recall is
-100.00% at IoU 0.50 and
-98.32% at IoU 0.75;
-precision at IoU 0.50 is
-95.20%.
-These collections guided rule development and serve as regression suites, not
-an untouched estimate of performance on an unrelated corpus.
+These are manually labeled development/regression collections, not untouched
+population-level estimates. The hard set was deliberately selected from prior
+failure and disagreement cases. Component and region scores are separate
+because correct physical boxes can still be grouped differently.
 
-## Astra comparison
+`results/index.html` contains the compact curated and dense-gold review. Human
+geometry is a heavy unfilled green outline; answer-blind CV geometry is a thin
+red outline with restrained translucent fill. Manual labels are never loaded
+by the production detector.
+
+## Relation To Astra And Items v4
 
 Astra and Box CV perform different tasks. Astra saw paired releases and saved
 semantic answers plus visible context. Box CV sees one page and emits geometry.
-The local comparison adapter then locates each frozen Astra answer in the later
-PDF text layer, registers the later scan to the earlier scan with SIFT/RANSAC,
-projects answer-word centers into the earlier page, and measures their coverage
-by Box CV polygons. No new LLM or OCR service is called at this stage.
+The optional `box_scripts/v4_audit.py` adapter then locates saved target words
+in the later PDF text layer, registers the scans with SIFT/RANSAC, and measures
+their post-hoc coverage by the already frozen earlier-page CV polygons. No LLM
+or new OCR service is called.
 
-Across 1,592 frozen benchmark targets, release 3.1 records:
+The large items-v4 audit is not bundled here because it depends on the source
+repository's full 6,018-PDF local corpus. In that environment run:
 
-- **1583** full assignments;
-- **6** partial assignments;
-- **2** unique changed-region assignments;
-- **1** localization-uncertain assignment.
-
-`ASSIGNED_FULL` means at least 80% of localized answer-word centers fall inside
-detected geometry. This is strong evidence that Box CV found the physical hidden
-region associated with Astra's independently saved answer. It is not a claim
-that Box CV recovered the words itself or that the two methods are semantically
-equivalent. `results/index.html` exposes every manual page and every non-full
-production target so the aggregate can be audited visually.
-
-## Repository layout
-
-```text
-box_scripts/              Final detector and required private implementation layers
-run_box_pipeline.py       Command-line entry point
-manual_gold/              Images, annotations, detector overlays, and metrics
-data/benchmark/           Frozen local benchmark/Astra artifacts
-data/example_pdfs/        16 PDFs from 8 representative document pairs
-results/index.html        Standalone review browser
-results/data/             Sanitized production table and release summaries
-RELEASE_MANIFEST.json     Scope, counts, and code provenance
-SHA256SUMS.txt             Integrity hashes
+```bash
+python -m box_scripts.v4_audit --workers 6 --overwrite
 ```
 
-The full 6,018-PDF corpus is intentionally omitted because it is roughly 2.3 GB.
-The included PDFs reproduce the hard-case examples. To run the full corpus,
-provide the original `cibcia.csv`, `redacted_pdfs/`, and `unredacted_pdfs/`
-under a separate `--docs-root`.
+The complete release-3.2 audit processed all 1,414 items over 1,277 page pairs
+with zero page-pair errors: 1,400 full assignments, 11 partial assignments, one
+uncertain text localization, and two targets absent from the PDF text layer.
+
+A coverage assignment means the independent CV geometry occupies the physical
+location associated with saved target words. It does not mean CV transcribed
+or inferred those words.
+
+## Layout
+
+```text
+box_scripts/          Final detector, v4 audit adapter, and regression tests
+run_box_pipeline.py   Standalone command-line entry point
+manual_gold/          Four manual-label collections and source images
+data/example_pdfs/    16 PDFs from 8 representative document pairs
+results/index.html    Compact standalone geometry-review browser
+RELEASE_MANIFEST.json Scope, metrics, and code provenance
+SHA256SUMS.txt         Integrity hashes
+```
 
 ## Limits
 
 - Geometry detection does not transcribe or reconstruct hidden text.
-- Astra coverage depends on frozen answer spans, PDF text localization, and
-  scan registration as well as detector geometry.
-- Full-corpus regions outside benchmark answer locations are not exhaustively
-  hand labeled.
-- Native 300-DPI behavior is not the release operating point; use 200 DPI.
+- Extremely faint, damaged, or document-furniture-like boxes may remain
+  ambiguous.
+- Grouping is less certain than component localization on selected hard cases.
+- Full-corpus regions outside benchmark targets are not exhaustively labeled.

@@ -295,11 +295,63 @@ def _lsd_geometry_rescues_cached(
     )
     compact: list[BoxComponent] = []
     containment_margin = max(3, round(min(height, width) * 0.006))
+
+    def independently_bounded_blank_cell(
+        enclosing: BoxComponent, candidate: BoxComponent
+    ) -> bool:
+        """Retain a measured blank cell hidden inside a text-crossing envelope.
+
+        Overlapping transparent masks can produce both a broad envelope and a
+        smaller continuation cell. Score-only containment used to discard the
+        continuation even when it had its own borders and the envelope crossed
+        visible prose. This exception is entirely page-local: it requires
+        measured corners, a compact near-line-height cell, shared physical
+        alignment, a blank candidate interior, and sustained ink in the larger
+        alternative.
+        """
+
+        corner_match = re.search(r"corners=(\d+)", candidate.source)
+        if not corner_match or int(corner_match.group(1)) < 3:
+            return False
+        x1, y1, x2, y2 = candidate.box
+        ex1, ey1, ex2, ey2 = enclosing.box
+        cell_height = y2 - y1
+        if not line_height * 0.72 <= cell_height <= line_height * 1.85:
+            return False
+        aligned_sides = sum(
+            abs(value - outer) <= containment_margin
+            for value, outer in ((x1, ex1), (y1, ey1), (x2, ex2), (y2, ey2))
+        )
+        separated_sides = sum(
+            abs(value - outer) >= line_height * 0.65
+            for value, outer in ((x1, ex1), (y1, ey1), (x2, ex2), (y2, ey2))
+        )
+        if aligned_sides < 1 or separated_sides < 1:
+            return False
+        candidate_ink, candidate_rows, candidate_run = _visible_ink_stats(
+            gray, candidate.box, line_height
+        )
+        enclosing_ink, enclosing_rows, enclosing_run = _visible_ink_stats(
+            gray, enclosing.box, line_height
+        )
+        candidate_blank = (
+            candidate_ink <= 0.045
+            and candidate_rows <= 0.16
+            and candidate_run <= max(5, int(round(line_height * 0.25)))
+        )
+        enclosing_crosses_text = (
+            enclosing_ink >= 0.075
+            and enclosing_rows >= 0.24
+            and enclosing_run >= max(10, int(round(line_height * 0.55)))
+        )
+        return candidate_blank and enclosing_crosses_text
+
     for candidate in ordered:
         if any(
             layered_stage._contains(previous.box, candidate.box, margin=containment_margin)
             and _area(previous.box) >= _area(candidate.box) * 1.08
             and previous.score >= candidate.score - 0.25
+            and not independently_bounded_blank_cell(previous, candidate)
             for previous in compact
         ):
             continue
@@ -846,6 +898,91 @@ def _group_components_with_layout(
         if left_root != right_root:
             parents[right_root] = left_root
 
+    # A broad mask can share its lower border with two line-scale masks while
+    # ordinary visible words remain between those children. Blindly joining
+    # both contacts makes union-find collapse two reading units into one. Keep
+    # the left-aligned child with the preceding broad mask, but reserve the
+    # later child for a normal end-of-line -> next-line continuation when that
+    # continuation is independently visible in the page layout.
+    blocked_contacts: set[tuple[int, int]] = set()
+    content_width = max(1, content_right - content_left)
+    margin_slack = max(tolerance * 3, round(width * 0.11))
+    for parent_index, parent in enumerate(components):
+        px1, py1, px2, py2 = parent.box
+        parent_width, parent_height = px2 - px1, py2 - py1
+        if parent_width < line_height * 5.0 or parent_height < line_height * 1.6:
+            continue
+        children: list[int] = []
+        for child_index, child in enumerate(components):
+            if child_index == parent_index:
+                continue
+            cx1, cy1, cx2, cy2 = child.box
+            child_height = cy2 - cy1
+            overlap_width = max(0, min(px2, cx2) - max(px1, cx1))
+            if (
+                line_height * 0.45 <= child_height <= line_height * 1.8
+                and py2 - tolerance <= cy1 <= py2 + tolerance
+                and overlap_width >= (cx2 - cx1) * 0.82
+                and cx1 >= px1 - tolerance
+                and cx2 <= px2 + tolerance
+            ):
+                children.append(child_index)
+        children.sort(key=lambda index: components[index].box[0])
+        if len(children) < 2:
+            continue
+        first_index = children[0]
+        first = components[first_index]
+        if abs(first.box[0] - px1) > line_height * 0.75:
+            continue
+        for child_index in children[1:]:
+            child = components[child_index]
+            cx1, cy1, cx2, cy2 = child.box
+            gap = (first.box[2], max(first.box[1], cy1), cx1, min(first.box[3], cy2))
+            if (
+                gap[2] - gap[0] < line_height * 0.75
+                or gap[3] <= gap[1]
+                or layered_stage._ink_fraction(text_mask, gap) <= 0.06
+            ):
+                continue
+            exits_line = (
+                cx2 >= content_right - margin_slack
+                or (
+                    cx1 >= content_left + content_width * 0.34
+                    and cx2 >= content_left + content_width * 0.62
+                )
+            )
+            if not exits_line:
+                continue
+            has_successor = False
+            for successor_index, successor in enumerate(components):
+                if successor_index in {parent_index, first_index, child_index}:
+                    continue
+                sx1, sy1, sx2, sy2 = successor.box
+                delta = sy1 - cy1
+                enters_line = (
+                    sx1 <= content_left + margin_slack
+                    or sx1 <= content_left + content_width * 0.42
+                )
+                if not (
+                    max(4, line_pitch * 0.30) <= delta <= line_pitch * 1.80
+                    and sy2 - sy1 <= line_pitch * 2.0
+                    and enters_line
+                    and cx1 > sx1 + tolerance * 2
+                ):
+                    continue
+                after = (cx2, cy1 + 1, content_right + 1, max(cy1 + 2, cy2 - 1))
+                before = (content_left, sy1 + 1, sx1, max(sy1 + 2, sy2 - 1))
+                if (
+                    layered_stage._ink_fraction(text_mask, after) <= 0.030
+                    and layered_stage._ink_fraction(text_mask, before) <= 0.030
+                ):
+                    has_successor = True
+                    break
+            if has_successor:
+                blocked_contacts.add(
+                    (min(parent_index, child_index), max(parent_index, child_index))
+                )
+
     contour_groups: dict[str, list[int]] = {}
     for index, component in enumerate(components):
         if component.source.startswith("rectilinear_contour_partition:"):
@@ -856,6 +993,8 @@ def _group_components_with_layout(
 
     for left in range(len(components)):
         for right in range(left + 1, len(components)):
+            if (left, right) in blocked_contacts:
+                continue
             if layered_stage._substantial_physical_contact(
                 components[left],
                 components[right],
@@ -866,8 +1005,6 @@ def _group_components_with_layout(
                 union(left, right)
 
     wrap_candidates: list[tuple[float, int, int]] = []
-    margin_slack = max(tolerance * 3, round(width * 0.11))
-    content_width = max(1, content_right - content_left)
     for left, first in enumerate(components):
         fx1, fy1, fx2, fy2 = first.box
         for right, second in enumerate(components):
@@ -904,16 +1041,22 @@ def _group_components_with_layout(
             )
             enters_line = (
                 sx1 <= content_left + margin_slack
-                or (
-                    sx1 <= content_left + content_width * 0.38
-                    and sx2 <= content_left + content_width * 0.72
-                )
+                or sx1 <= content_left + content_width * 0.42
             )
-            if not exits_line or not enters_line or fx1 <= sx1 + tolerance * 2:
+            full_line_exit = (
+                fx1 <= content_left + margin_slack
+                and fx2 >= content_right - margin_slack
+            )
+            if (
+                not exits_line
+                or not enters_line
+                or (fx1 <= sx1 + tolerance * 2 and not full_line_exit)
+            ):
                 continue
             if any(
                 index != left
                 and find(index) != find(left)
+                and other.box[3] - other.box[1] <= line_pitch * 2.0
                 and other.box[0] > fx1 + tolerance
                 and geometry_stage._same_reading_row(first, other, line_pitch)
                 for index, other in enumerate(components)
@@ -922,6 +1065,7 @@ def _group_components_with_layout(
             if any(
                 index != right
                 and find(index) != find(right)
+                and other.box[3] - other.box[1] <= line_pitch * 2.0
                 and other.box[0] < sx1 - tolerance
                 and geometry_stage._same_reading_row(second, other, line_pitch)
                 for index, other in enumerate(components)

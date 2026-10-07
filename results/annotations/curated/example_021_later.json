@@ -1,0 +1,133 @@
+{
+  "schema_version": "redaction-box-manual-gold-v1",
+  "annotation_id": "curated_images_example_021_later_5e2eaa0418ff",
+  "collection_id": "curated_images",
+  "sample_id": "example_021",
+  "release": "later",
+  "redaction_level": "less_redacted",
+  "dpi": null,
+  "image": {
+    "id": "curated_images_example_021_later_5e2eaa0418ff",
+    "name": "example_021_later.original.png",
+    "relative_path": "images/example_021_later.original.png",
+    "sha256": "5e2eaa0418ff1292ac1b60c1b77dabefdafb9dc88e34948d1435841c06c19350",
+    "width": 542,
+    "height": 657
+  },
+  "review": {
+    "status": "complete",
+    "notes": "",
+    "updated_at": "2026-10-03T08:22:08.695Z"
+  },
+  "redaction_regions": [
+    {
+      "region_id": "R1",
+      "notes": "",
+      "components": [
+        {
+          "component_id": "R1.1",
+          "notes": "",
+          "segments": [
+            {
+              "segment_id": "R1.1.E1",
+              "start_xy": [
+                285.48,
+                622.94
+              ],
+              "end_xy": [
+                449.42,
+                621.92
+              ]
+            },
+            {
+              "segment_id": "R1.1.E2",
+              "start_xy": [
+                449.42,
+                621.92
+              ],
+              "end_xy": [
+                449.42,
+                646.91
+              ]
+            },
+            {
+              "segment_id": "R1.1.E3",
+              "start_xy": [
+                449.42,
+                646.91
+              ],
+              "end_xy": [
+                284.89,
+                646.47
+              ]
+            },
+            {
+              "segment_id": "R1.1.E4",
+              "start_xy": [
+                284.89,
+                646.47
+              ],
+              "end_xy": [
+                285.48,
+                622.94
+              ]
+            }
+          ],
+          "bounds_xyxy": [
+            284.89,
+            621.92,
+            449.42,
+            646.91
+          ],
+          "anchors_xy": [
+            [
+              285.48,
+              622.94
+            ],
+            [
+              449.42,
+              621.92
+            ],
+            [
+              449.42,
+              646.91
+            ],
+            [
+              284.89,
+              646.47
+            ]
+          ],
+          "closed": true,
+          "polygon_xy": [
+            [
+              285.48,
+              622.94
+            ],
+            [
+              449.42,
+              621.92
+            ],
+            [
+              449.42,
+              646.91
+            ],
+            [
+              284.89,
+              646.47
+            ],
+            [
+              285.48,
+              622.94
+            ]
+          ]
+        }
+      ],
+      "bounds_xyxy": [
+        284.89,
+        621.92,
+        449.42,
+        646.91
+      ]
+    }
+  ]
+}

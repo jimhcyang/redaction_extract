@@ -26,13 +26,13 @@ render_pdf_to_images = production_stage.render_pdf_to_images
 iter_input_records = production_stage.iter_input_records
 
 DETECTOR_POLICY = (
-    "Single-page, answer-blind geometry. Release 3.1 preserves the "
-    "production detector and adds two page-measured safeguards: visible "
-    "prose cannot serve as a "
-    "synthetic step interior, and an incomplete blank rectangle may expand "
-    "only to its seed-connected closed white-space contour. OCR, paired "
-    "releases, filenames, answers, and benchmark labels are unavailable to "
-    "detection."
+    "Single-page, answer-blind geometry. Release 3.2 preserves the "
+    "production detector and its page-measured safeguards: visible prose "
+    "cannot serve as a synthetic step interior; an incomplete blank rectangle "
+    "may expand only to its seed-connected closed white-space contour; and a "
+    "compact, independently bounded blank continuation is not discarded inside "
+    "a larger text-crossing envelope. OCR, paired releases, filenames, answers, "
+    "and benchmark labels are unavailable to detection."
 )
 
 
@@ -543,7 +543,7 @@ def detect_redaction_regions_with_artifacts(
     if not step_refinements and not outline_refinements:
         diagnostics.update(
             {
-                "detector_release": "3.1.0",
+                "detector_release": "3.2.0",
                 "text_safe_step_refinement_count": 0,
                 "rejected_text_slab_count": 0,
                 "seeded_blank_outline_refinement_count": 0,
@@ -565,7 +565,7 @@ def detect_redaction_regions_with_artifacts(
     )
     diagnostics.update(
         {
-            "detector_release": "3.1.0",
+            "detector_release": "3.2.0",
             "text_safe_step_refinement_count": step_refinements,
             "rejected_text_slab_count": text_slabs,
             "seeded_blank_outline_refinement_count": outline_refinements,
@@ -593,7 +593,7 @@ def process_record(
     *,
     out_root: Path,
     save_debug_masks: bool,
-    detector_version: str = "3.1.0",
+    detector_version: str = "3.2.0",
 ) -> dict[str, Any]:
     payload = layered_stage.process_record(
         record,
@@ -618,5 +618,5 @@ def run_box_pipeline(**kwargs: Any) -> dict[str, Any]:
     return layered_stage.run_box_pipeline(
         **kwargs,
         record_processor=process_record,
-        detector_version="3.1.0",
+        detector_version="3.2.0",
     )
