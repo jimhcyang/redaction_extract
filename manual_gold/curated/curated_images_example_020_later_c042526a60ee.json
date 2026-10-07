@@ -1,0 +1,242 @@
+{
+  "schema_version": "redaction-box-manual-gold-v1",
+  "annotation_id": "curated_images_example_020_later_c042526a60ee",
+  "collection_id": "curated_images",
+  "sample_id": "example_020",
+  "release": "later",
+  "redaction_level": "less_redacted",
+  "dpi": null,
+  "image": {
+    "id": "curated_images_example_020_later_c042526a60ee",
+    "name": "example_020_later.original.png",
+    "relative_path": "images/example_020_later.original.png",
+    "sha256": "c042526a60ee2bc6434e0e2913dc7be958ead45f5b8ab89dbf8b5224988d74cf",
+    "width": 545,
+    "height": 581
+  },
+  "review": {
+    "status": "complete",
+    "notes": "",
+    "updated_at": "2026-10-03T08:20:06.499Z"
+  },
+  "redaction_regions": [
+    {
+      "region_id": "R1",
+      "notes": "",
+      "components": [
+        {
+          "component_id": "R1.1",
+          "notes": "",
+          "segments": [
+            {
+              "segment_id": "R1.1.E1",
+              "start_xy": [
+                242.02,
+                0
+              ],
+              "end_xy": [
+                242.31,
+                7.43
+              ]
+            },
+            {
+              "segment_id": "R1.1.E2",
+              "start_xy": [
+                242.31,
+                7.43
+              ],
+              "end_xy": [
+                486.68,
+                7.69
+              ]
+            },
+            {
+              "segment_id": "R1.1.E3",
+              "start_xy": [
+                486.68,
+                7.69
+              ],
+              "end_xy": [
+                486.8,
+                0
+              ]
+            },
+            {
+              "segment_id": "R1.1.E4",
+              "start_xy": [
+                486.8,
+                0
+              ],
+              "end_xy": [
+                242.02,
+                0
+              ]
+            }
+          ],
+          "bounds_xyxy": [
+            242.02,
+            0,
+            486.8,
+            7.69
+          ],
+          "anchors_xy": [
+            [
+              242.02,
+              0
+            ],
+            [
+              242.31,
+              7.43
+            ],
+            [
+              486.68,
+              7.69
+            ],
+            [
+              486.8,
+              0
+            ]
+          ],
+          "closed": true,
+          "polygon_xy": [
+            [
+              242.02,
+              0
+            ],
+            [
+              242.31,
+              7.43
+            ],
+            [
+              486.68,
+              7.69
+            ],
+            [
+              486.8,
+              0
+            ],
+            [
+              242.02,
+              0
+            ]
+          ]
+        }
+      ],
+      "bounds_xyxy": [
+        242.02,
+        0,
+        486.8,
+        7.69
+      ]
+    },
+    {
+      "region_id": "R2",
+      "notes": "",
+      "components": [
+        {
+          "component_id": "R2.1",
+          "notes": "",
+          "segments": [
+            {
+              "segment_id": "R2.1.E1",
+              "start_xy": [
+                437.5,
+                555.78
+              ],
+              "end_xy": [
+                542.88,
+                554.89
+              ]
+            },
+            {
+              "segment_id": "R2.1.E2",
+              "start_xy": [
+                542.88,
+                554.89
+              ],
+              "end_xy": [
+                543.79,
+                579.02
+              ]
+            },
+            {
+              "segment_id": "R2.1.E3",
+              "start_xy": [
+                543.79,
+                579.02
+              ],
+              "end_xy": [
+                438.72,
+                579.05
+              ]
+            },
+            {
+              "segment_id": "R2.1.E4",
+              "start_xy": [
+                438.72,
+                579.05
+              ],
+              "end_xy": [
+                437.5,
+                555.78
+              ]
+            }
+          ],
+          "bounds_xyxy": [
+            437.5,
+            554.89,
+            543.79,
+            579.05
+          ],
+          "anchors_xy": [
+            [
+              437.5,
+              555.78
+            ],
+            [
+              542.88,
+              554.89
+            ],
+            [
+              543.79,
+              579.02
+            ],
+            [
+              438.72,
+              579.05
+            ]
+          ],
+          "closed": true,
+          "polygon_xy": [
+            [
+              437.5,
+              555.78
+            ],
+            [
+              542.88,
+              554.89
+            ],
+            [
+              543.79,
+              579.02
+            ],
+            [
+              438.72,
+              579.05
+            ],
+            [
+              437.5,
+              555.78
+            ]
+          ]
+        }
+      ],
+      "bounds_xyxy": [
+        437.5,
+        554.89,
+        543.79,
+        579.05
+      ]
+    }
+  ]
+}

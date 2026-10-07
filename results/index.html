@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redaction Box Scripts 3.1 Results Review</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <div>
+      <p class="eyebrow">Frozen release audit</p>
+      <h1>Redaction Box Scripts <span>3.1</span></h1>
+      <p class="lede">Inspect every production target and every manually labeled page. The default view shows only cases requiring review.</p>
+    </div>
+    <div class="method-note">
+      <strong>Read the colors before judging a case.</strong>
+      <span>Manual overlays: green = human gold, red = detector.</span>
+      <span>Production target overlays: green = detector, orange = non-full target words, yellow = full target words.</span>
+    </div>
+  </header>
+
+  <nav id="section-tabs" class="section-tabs" aria-label="Result collections"></nav>
+  <section id="summary-strip" class="summary-strip" aria-label="Collection summary"></section>
+
+  <main class="workspace">
+    <aside class="case-rail">
+      <div class="filters">
+        <label>
+          <span>Search this collection</span>
+          <input id="search" type="search" placeholder="ID, status, answer text...">
+        </label>
+        <label>
+          <span>Review category</span>
+          <select id="category"></select>
+        </label>
+        <label class="check-row">
+          <input id="issues-only" type="checkbox" checked>
+          <span>Show review cases only</span>
+        </label>
+      </div>
+      <div class="list-meta">
+        <strong id="result-count"></strong>
+        <span id="section-description"></span>
+      </div>
+      <div id="case-list" class="case-list" role="listbox"></div>
+    </aside>
+
+    <article id="detail" class="detail" aria-live="polite"></article>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

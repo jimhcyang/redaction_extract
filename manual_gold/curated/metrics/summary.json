@@ -1,0 +1,37 @@
+{
+  "label": "v3_1_shipping curated",
+  "include_page_frame_diagnostics": false,
+  "annotation_files": 118,
+  "review_status_counts": {
+    "complete": 118
+  },
+  "gold_components": 336,
+  "prediction_components": 332,
+  "gold_regions": 228,
+  "prediction_regions": 223,
+  "component_precision_iou50": 0.9819277108433735,
+  "component_recall_iou50": 0.9702380952380952,
+  "component_f1_iou50": 0.9760479041916169,
+  "component_precision_iou75": 0.9186746987951807,
+  "component_recall_iou75": 0.9077380952380952,
+  "mean_assigned_component_iou": 0.8735262366027488,
+  "region_precision_iou50": 0.968609865470852,
+  "region_recall_iou50": 0.9473684210526315,
+  "region_f1_iou50": 0.9578713968957872,
+  "micro_page_union_iou": 0.9355146603433422,
+  "micro_pixel_precision": 0.9868860706738891,
+  "micro_pixel_recall": 0.9472907118457142,
+  "extra_prediction_pixel_rate": 0.013113929326110914,
+  "missed_gold_pixel_rate": 0.05270928815428581,
+  "zero_gold_pages": 13,
+  "clean_zero_gold_pages": 13,
+  "missing_prediction_files": 0,
+  "annotation_issue_counts": {},
+  "annotation_issues": [],
+  "false_positive_sources_iou50": {
+    "enclosed_blank_outline": 3,
+    "lsd_geometry_rescue": 1,
+    "dense_blackout_shape_preserved": 1,
+    "closed_blank_contour": 1
+  }
+}
