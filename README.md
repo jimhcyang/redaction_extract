@@ -1,11 +1,11 @@
-# Redaction Box CV 3.2
+# Redaction Box CV 3.6
 
 This repository is the standalone handoff of the same classical redaction-box
 detector shipped in the `cv-box-detect` branch of Andrew Tang's
 `redaction-extract` repository. It includes the detector, four independent
 manual-label collections, a compact visual review, a complete web edition of
-the items-v4 audit, and eight representative paired CIB documents. Open
-`index.html` first.
+the items-v4 audit, a three-exhibit repository manual, and eight representative
+paired CIB documents. Open `index.html` first.
 
 ## Information Boundary
 
@@ -20,6 +20,15 @@ The output distinguishes:
 
 - `R<n>.<m>`: one physical rectangle or measured rectilinear component;
 - `R<n>`: one inferred redacted reading unit containing one or more components.
+
+## Visual Repository Manual
+
+Open `box_scripts/manual/index.html` for a concise, interactive explanation of
+the detector. Three real paired-release exhibits show the page, pixel masks,
+measured lines, proposal families, guard decisions, and final grouping. The
+manual then explains the independent Astra registration and target-coverage
+audit. Its folder includes the 12-page printable
+`REDACTION_BOX_CV_REPOSITORY_MANUAL_3_6.pdf`.
 
 ## Quick Start
 
@@ -56,6 +65,13 @@ versions. Production evaluation uses 200 DPI. Native 300-DPI-size images are
 analyzed at the validated 200-DPI physical scale and mapped back to their
 original coordinates.
 
+Release 3.6 adds conservative support for one-side-occluded and
+scan-fragmented outlines, content-aware paragraph grouping, scanner-frame
+suppression, and page-level gating of dense-blackout logic. Measured concave
+or windmill contours remain polygons rather than being expanded into
+text-covering rectangles. Neither these rules nor the label renderer uses OCR,
+document identity, paired pixels, saved answers, or manual labels.
+
 The main decision path is:
 
 1. Deskew and build complementary dark/faint pixel masks.
@@ -79,9 +95,9 @@ expected answer.
 
 | Collection | Pages | Gold components | Precision | Recall | Component F1 | Region F1 |
 |---|---:|---:|---:|---:|---:|---:|
-| Curated | 118 | 336 | 98.19% | 97.02% | 97.60% | 96.00% |
+| Curated | 118 | 336 | 98.19% | 97.02% | 97.60% | 95.79% |
 | Dense gold | 40 | 185 | 100.00% | 100.00% | 100.00% | 97.10% |
-| Final-task pilot | 40 | 200 | 99.01% | 100.00% | 99.50% | 98.08% |
+| Final-task pilot | 40 | 200 | 99.01% | 100.00% | 99.50% | 98.09% |
 | Targeted hard cases | 18 | 119 | 99.08% | 90.76% | 94.74% | 86.75% |
 
 These are manually labeled development/regression collections, not untouched
@@ -117,9 +133,13 @@ that environment run:
 python -m box_scripts.v4_audit --workers 6 --overwrite
 ```
 
-The complete release-3.2 audit processed all 1,414 items over 1,277 page pairs
-with zero page-pair errors: 1,400 full assignments, 11 partial assignments, one
-uncertain text localization, and two targets absent from the PDF text layer.
+The complete release-3.6 audit processed all 1,414 items and 1,446 fragments
+over 1,277 page pairs with zero page-pair errors. At the production 80% full
+coverage threshold it reports 1,400 full assignments, 11 partial assignments,
+one uncertain text localization, and two targets absent from the PDF text
+layer. Against the complete 3.4 baseline, 106 release pages changed physical
+geometry or grouping, with zero page-status, fragment-status, or
+`ASSIGNED_FULL` regressions.
 
 A coverage assignment means the independent CV geometry occupies the physical
 location associated with saved target words. It does not mean CV transcribed
@@ -130,6 +150,7 @@ or inferred those words.
 ```text
 index.html            Landing page for both visual result browsers
 box_scripts/          Final detector, v4 audit adapter, and regression tests
+box_scripts/manual/   Interactive and printable three-exhibit repository manual
 run_box_pipeline.py   Standalone command-line entry point
 manual_gold/          Four manual-label collections and source images
 data/example_pdfs/    16 PDFs from 8 representative document pairs

@@ -1,28 +1,30 @@
 {
   "release_name": "Redaction Box CV",
-  "release_version": "3.2.0",
-  "detector_version": "3.2.0",
+  "release_version": "3.6.0",
+  "detector_version": "3.6.0",
   "operating_dpi": 200,
   "release_gate_passed": true,
   "information_boundary": "single-page grayscale geometry; no OCR text, paired pixels, answers, document IDs, or manual labels",
   "public_entry_points": [
     "index.html",
     "box_scripts/box_pipeline.py",
+    "box_scripts/manual/index.html",
+    "box_scripts/manual/REDACTION_BOX_CV_REPOSITORY_MANUAL_3_6.pdf",
     "run_box_pipeline.py",
     "results/index.html",
     "results/items_v4/index.html",
     "tools/build_items_v4_web_bundle.py"
   ],
   "code_sha256": {
-    "box_scripts/__init__.py": "8f029bcfaee42535813fade83701a340628700f0682b66ea7d9fa79c567d3acc",
+    "box_scripts/__init__.py": "5d92409f996e21ce31159d6a8299d87cef8b8abe45a6270e6229e77e41003451",
     "box_scripts/_core_detection.py": "2fca65d174419d79931dd658793f819dceb425c03cd767f26c53e767a88a6617",
     "box_scripts/_geometry_detection.py": "f7d4c8ade3b4bcc48fd96804e59f0f4165b9cf0d18a4c88c93918e91fa781a37",
-    "box_scripts/_layered_detection.py": "bbaa26d0e872e99436759e76698c4d72095d7916a20ef2cd2ace7529e972e504",
-    "box_scripts/_production_detection.py": "dd8fdbda35fd61bd9a7b0abed2be2e4e2bef39d98c0ac5c75cb5622cf339d88f",
-    "box_scripts/_validated_detection.py": "fc83044e42ffd0efb3f21ea5d920611871fc64e1be12a8f3b7af0082c75d35f2",
-    "box_scripts/box_pipeline.py": "cbbd6a62063d0f6b374ac4af5d2bbc16a102e5e72cf9c621754383bd2092e953",
+    "box_scripts/_layered_detection.py": "a735cef5d162ee49122ee62d44e5d6ed16bb7ac0e3d060fed2cec68d52411097",
+    "box_scripts/_production_detection.py": "db38d3b4e4af7bdb06f4133afe96a7b90ec98b62d9004eaae62b20dc5b9c4fbe",
+    "box_scripts/_validated_detection.py": "2a24162f7e2db65df80f29a575dfc3ce7d4bbb5725a4d791c371d4410a05662b",
+    "box_scripts/box_pipeline.py": "caa4f6337ed6b96f0fb87f11cc76c96b50b4e4e4ea62b928fe1d0d5c1d67dc96",
     "box_scripts/build_manual_review.py": "01f6c798950532151c4354a8e9a3e8285d73452fa036158ebe3242eb13a25339",
-    "box_scripts/v4_audit.py": "a71d4a4da5bdc99cbc350296a1c131c66c198b691f8b5272b68acad04b6cc0a4",
+    "box_scripts/v4_audit.py": "7290bdfbc262fdbbe154360c86a325b3c8664f7b6b3269ce53aecdd140d13129",
     "run_box_pipeline.py": "26aca9f42d151be29b601ae5165f360b494d9e0101f31c94d7b4749419ca2b72"
   },
   "manual_gold": {
@@ -32,7 +34,7 @@
       "component_precision_iou50": 0.9819277108433735,
       "component_recall_iou50": 0.9702380952380952,
       "component_f1_iou50": 0.9760479041916169,
-      "region_f1_iou50": 0.96
+      "region_f1_iou50": 0.9578713968957872
     },
     "dense": {
       "pages": 40,
@@ -48,7 +50,7 @@
       "component_precision_iou50": 0.9900990099009901,
       "component_recall_iou50": 1.0,
       "component_f1_iou50": 0.9950248756218906,
-      "region_f1_iou50": 0.9807692307692307
+      "region_f1_iou50": 0.9808917197452229
     },
     "hard_cases": {
       "pages": 18,
@@ -64,15 +66,29 @@
     "dense_pages": 40,
     "path": "results/index.html"
   },
+  "repository_manual": {
+    "path": "box_scripts/manual/index.html",
+    "printable_pdf": "box_scripts/manual/REDACTION_BOX_CV_REPOSITORY_MANUAL_3_6.pdf",
+    "exhibits": 3,
+    "processing_stages": 6,
+    "evaluation_stages": 5,
+    "printable_pages": 12,
+    "self_contained": true
+  },
   "items_v4_audit": {
     "full_resolution_bundled": false,
     "items": 1414,
+    "fragments": 1446,
     "page_pairs": 1277,
     "page_pair_errors": 0,
+    "full_coverage_threshold": 0.8,
     "assigned_full": 1400,
     "assigned_partial": 11,
     "target_localization_uncertain": 1,
-    "target_not_in_text_layer": 2
+    "target_not_in_text_layer": 2,
+    "detector_code_sha256": "7317d38e4d347a41a9a731bd44a98855517c6c8a54b9ea3e74c263cb82a64441",
+    "release_pages_changed_vs_3_4": 106,
+    "harmful_regressions_vs_3_4": 0
   },
   "items_v4_web_edition": {
     "bundled": true,
@@ -85,7 +101,7 @@
     "raw_images_omitted": 2554,
     "max_image_dimension": 1400,
     "jpeg_quality": 72,
-    "bundle_bytes": 496134869,
+    "bundle_bytes": 499708427,
     "missing_local_references": 0
   },
   "included_example_pdfs": {

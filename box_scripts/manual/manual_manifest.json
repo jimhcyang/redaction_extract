@@ -1,0 +1,1283 @@
+{
+  "manual_version": "1.1",
+  "detector_version": "3.6.0",
+  "audit_version": "v4-box-audit-4",
+  "production_summary": {
+    "items": 1414,
+    "item_fragments": 1446,
+    "cross_page_items": 32,
+    "source_documents": 841,
+    "unique_page_pairs": 1277,
+    "pair_manifest": {
+      "manifest_schema": "headered",
+      "rows_total": 3009,
+      "rows_missing_required_fields": 0,
+      "rows_invalid_unredacted_id_format": 0,
+      "rows_missing_redacted_pdf": 0,
+      "rows_missing_unredacted_pdf": 0,
+      "rows_duplicate_unredacted_id": 0,
+      "rows_duplicate_redacted_id": 0,
+      "rows_valid": 3009
+    },
+    "revealed": {
+      "partly": 847,
+      "fully": 567
+    },
+    "items_processed": 1414,
+    "fragments_processed": 1446,
+    "page_pairs_processed": 1277,
+    "page_pair_errors": 0,
+    "registration_pass": 1276,
+    "item_status_counts": {
+      "ASSIGNED_FULL": 1400,
+      "ASSIGNED_PARTIAL": 11,
+      "TARGET_LOCALIZATION_UNCERTAIN": 1,
+      "TARGET_NOT_IN_TEXT_LAYER": 2
+    },
+    "fragment_status_counts": {
+      "ASSIGNED_FULL": 1432,
+      "ASSIGNED_PARTIAL": 10,
+      "REGISTRATION_FAILED": 1,
+      "TARGET_LOCALIZATION_UNCERTAIN": 1,
+      "TARGET_NOT_IN_TEXT_LAYER": 2
+    },
+    "elapsed_seconds": 1620.389,
+    "detector_version": "3.6.0",
+    "audit_version": "v4-box-audit-4",
+    "render_version": "polygon-aware-collision-free-labels-3",
+    "full_coverage_threshold": 0.8,
+    "partial_coverage_threshold": 0.3,
+    "complete_scope": true
+  },
+  "stages": [
+    {
+      "id": "source",
+      "label": "1. Page",
+      "title": "Normalize one raster page",
+      "body": "The detector receives one grayscale page. It estimates page skew, text-line height, and the reading column. It does not receive OCR, document IDs, paired release pixels, Astra output, answers, or manual labels."
+    },
+    {
+      "id": "threshold",
+      "label": "2. Pixel masks",
+      "title": "Separate dark and faint evidence",
+      "body": "A dark mask captures strong ink and a faint mask retains weak photocopied rails. Neither mask is a redaction prediction. They are complementary measurements used by later geometry tests."
+    },
+    {
+      "id": "lines",
+      "label": "3. Lines",
+      "title": "Measure horizontal and vertical support",
+      "body": "The page is converted into candidate rails, corners, contours, and blank interiors. Teal marks horizontal support and orange marks vertical support. Broken or occluded walls can survive only when nearby geometry supplies independent evidence."
+    },
+    {
+      "id": "families",
+      "label": "4. Proposals",
+      "title": "Propose several physical explanations",
+      "body": "Ordinary rectangles, blank contours, fragmented rails, stepped outlines, nested layers, and dense blackouts are proposed independently. Colored masks are proposal families, not final boxes."
+    },
+    {
+      "id": "decisions",
+      "label": "5. Guards",
+      "title": "Promote measured geometry and block artifacts",
+      "body": "Thin red rectangles are low-level alternatives that were not emitted; red tint marks suppressed solid artifacts when present. Green polygons are the physical components that survive support, blankness, text-crossing, margin, and dense-ink gates."
+    },
+    {
+      "id": "final",
+      "label": "6. Consolidate",
+      "title": "Freeze components, then infer reading units",
+      "body": "Each polygon is a saved physical component. Components with the same R number form one reading unit; the decimal suffix preserves separate boxes. Grouping never fills visible prose or replaces several boxes with one invented envelope."
+    }
+  ],
+  "exhibits": [
+    {
+      "id": "exhibit_a",
+      "letter": "A",
+      "page_key": "page_003_004_8b0e260c3f",
+      "title": "Broken rails, stepped shapes, and safe consolidation",
+      "subtitle": "A page pair where one decision cannot be made from a single border.",
+      "focus_xyxy": [
+        220,
+        1240,
+        1720,
+        2110
+      ],
+      "primary_release": "later",
+      "rules": [
+        "faint and incomplete border recovery",
+        "nested and stepped physical geometry",
+        "visible-text notch preservation",
+        "side-column bridge splitting"
+      ],
+      "decision": "Multiple rails and blank slabs are recovered as separate physical components. The text-safe split prevents a broad envelope from swallowing visible prose, and the grouping pass keeps side-column material from bridging into the main paragraph.",
+      "stage_notes": {
+        "source": "The lower half contains several boxes whose rails touch, overlap, or disappear behind page furniture.",
+        "threshold": "Strong borders appear in the dark mask; weak blank cells remain available through the faint route.",
+        "lines": "Independent rails expose where a broad envelope would cross printed words.",
+        "families": "Blank, layered, nested, and step candidates compete over the same local evidence.",
+        "decisions": "Only geometries supported by measured walls and text-safe interiors remain green.",
+        "final": "Separate components are retained, then grouped in reading order without filling the visible-text notch."
+      },
+      "doc_id": "CIA-RDP79T00975A002900310001-5",
+      "registration": {
+        "method": "SIFT_RANSAC_HOMOGRAPHY",
+        "status": "PASS",
+        "earlier_keypoints": 6000,
+        "later_keypoints": 6000,
+        "ratio_test_matches": 2251,
+        "inliers": 1886,
+        "inlier_ratio": 0.83785,
+        "median_reprojection_error": 0.078105,
+        "later_inlier_hull_coverage": 0.531978,
+        "earlier_inlier_hull_coverage": 0.499272,
+        "projected_page_area_ratio": 0.937534
+      },
+      "releases": {
+        "earlier": {
+          "release": "earlier",
+          "source_pdf": "CIA-RDP79T00975A002900310001-5.pdf",
+          "page_1based": 3,
+          "regions": 5,
+          "components": 8,
+          "rotation_degrees": 0.0,
+          "active_families": [
+            "lsd_geometry_rescues",
+            "supported_outlines",
+            "three_side_page_outlines"
+          ],
+          "component_sources": {
+            "lsd_corner_refinement": 6,
+            "seeded_blank_outline": 1,
+            "lsd_geometry_rescue": 1
+          },
+          "diagnostics": {
+            "coordinate_system": "deskewed",
+            "estimated_rotation_degrees": 0.0,
+            "inverse_affine_to_original": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ],
+            "horizontal_segment_count": 19,
+            "vertical_segment_count": 447,
+            "line_zone_count": 207,
+            "rectangle_proposal_count": 7,
+            "strict_outline_component_count": 6,
+            "outline_component_count": 6,
+            "closed_blank_rescue_count": 0,
+            "rectified_warp_candidate_count": 0,
+            "rectified_warp_rescue_count": 0,
+            "rectified_warp_fallback_count": 0,
+            "solid_candidate_count": 0,
+            "rectilinear_solid_step_rescue_count": 0,
+            "dense_blackout_candidate_count": 0,
+            "lsd_corner_refinement_count": 6,
+            "lsd_outer_border_promotion_count": 0,
+            "lsd_geometry_rescue_count": 2,
+            "lsd_layer_occlusion_rescue_count": 0,
+            "shared_edge_step_completion_count": 0,
+            "framed_text_suppression_count": 1,
+            "marginal_text_crossing_suppression_count": 0,
+            "small_glyph_suppression_count": 0,
+            "component_count_before_grouping": 8,
+            "base_component_count": 7,
+            "estimated_text_line_height": 31,
+            "detector_policy": "Single-page, answer-blind geometry. Release 3.6 preserves the production detector and adds four measured safeguards: fragmented rails require two aligned walls and blank interiors; three-sided body masks require exactly one occluded wall; compound blank contours are represented by a compact rectangle cover; and blackout candidates must be material relative to the page's text scale. Reading-flow grouping distinguishes aligned stacks and line wraps from new indented paragraphs. Scanner-frame strips outside the measured reading column are excluded. OCR, paired releases, filenames, answers, and benchmark labels are unavailable to detection.",
+            "closed_blank_contour_count": 0,
+            "closed_blank_rejected_text_count": 0,
+            "closed_blank_rejected_shape_count": 8,
+            "enclosed_blank_component_count": 0,
+            "enclosed_blank_rejected_text_count": 1,
+            "enclosed_blank_rejected_shape_count": 8,
+            "lsd_horizontal_segment_count": 78,
+            "lsd_vertical_segment_count": 948,
+            "lsd_raw_candidate_count": 1313,
+            "detector_release": "3.6.0",
+            "input_image_size_wh": [
+              1700,
+              2200
+            ],
+            "canonical_detection_size_wh": [
+              1700,
+              2200
+            ],
+            "input_to_detection_scale": 1.0,
+            "resolution_policy": "All geometry is evaluated at the validated 200-DPI physical scale and mapped back to the input raster.",
+            "marginal_open_outline_rescue_count": 0,
+            "blackout_partition_rescue_count": 0,
+            "blackout_replaced_envelope_count": 0,
+            "layered_outline_rescue_count": 0,
+            "supported_outline_count": 1,
+            "occluded_step_outline_component_count": 0,
+            "fragmented_rail_outline_component_count": 0,
+            "marginal_solid_suppression_count": 0,
+            "dense_ink_redaction_regime": false,
+            "line_segment_cycle_count": 0,
+            "page_frame_candidate_count": 2,
+            "page_frame_candidates": [
+              {
+                "box_xyxy": [
+                  652,
+                  204,
+                  1078,
+                  229
+                ],
+                "polygon_xy": [
+                  [
+                    652,
+                    204
+                  ],
+                  [
+                    1077,
+                    204
+                  ],
+                  [
+                    1077,
+                    228
+                  ],
+                  [
+                    652,
+                    228
+                  ]
+                ],
+                "source": "three_side_page_outline:observed=1.00:missing=0.00:ink=0.000",
+                "score": 8.495869
+              },
+              {
+                "box_xyxy": [
+                  651,
+                  2127,
+                  1103,
+                  2163
+                ],
+                "polygon_xy": [
+                  [
+                    651,
+                    2127
+                  ],
+                  [
+                    1102,
+                    2127
+                  ],
+                  [
+                    1102,
+                    2162
+                  ],
+                  [
+                    651,
+                    2162
+                  ]
+                ],
+                "source": "three_side_page_outline:observed=1.00:missing=0.00:ink=0.000",
+                "score": 8.499075
+              }
+            ],
+            "estimated_content_bounds_x": [
+              359,
+              1390
+            ],
+            "region_layout_roles": {
+              "1": "main_text",
+              "2": "main_text",
+              "3": "main_text",
+              "4": "main_text",
+              "5": "main_text"
+            },
+            "region_count": 5,
+            "complex_enclosed_candidate_count": 0,
+            "complex_enclosed_rejected_shape_count": 0,
+            "complex_enclosed_rejected_text_count": 1,
+            "nested_outline_considered_count": 0,
+            "nested_outline_measured_count": 0,
+            "nested_outline_merged_member_count": 0,
+            "nested_outline_component_count": 0,
+            "nested_outline_rejected_support_count": 0,
+            "nested_outline_rejected_text_count": 0,
+            "nested_outline_rejected_shared_sides_count": 0,
+            "nested_outline_partition_replacement_count": 0,
+            "nested_outline_step_replacement_count": 0,
+            "nested_outline_removed_envelope_count": 0,
+            "nested_outline_removed_text_step_count": 0,
+            "occluded_step_seed_count": 0,
+            "occluded_step_component_count": 0,
+            "occluded_step_rejected_shape_count": 0,
+            "occluded_step_rejected_text_count": 0,
+            "fragmented_rail_pair_count": 10,
+            "fragmented_rail_component_count": 0,
+            "fragmented_rail_rejected_support_count": 3,
+            "fragmented_rail_rejected_text_count": 1,
+            "line_cycle_count": 32,
+            "line_cycle_candidate_count": 0,
+            "line_cycle_rejected_text_count": 0,
+            "line_cycle_rejected_shape_count": 2,
+            "text_safe_step_refinement_count": 0,
+            "rejected_text_slab_count": 0,
+            "seeded_blank_outline_refinement_count": 1,
+            "compound_blank_decomposition_count": 0,
+            "scanner_frame_strip_suppression_count": 0,
+            "side_column_bridge_split_count": 0,
+            "step_seam_merge_count": 0
+          },
+          "stages": {
+            "source": "assets/exhibit_a/earlier/source.png",
+            "threshold": "assets/exhibit_a/earlier/threshold.png",
+            "lines": "assets/exhibit_a/earlier/lines.png",
+            "families": "assets/exhibit_a/earlier/families.png",
+            "decisions": "assets/exhibit_a/earlier/decisions.png",
+            "final": "assets/exhibit_a/earlier/final.png"
+          },
+          "raw": "assets/exhibit_a/earlier_raw.jpg",
+          "full_final": "assets/exhibit_a/earlier_full_final.png"
+        },
+        "later": {
+          "release": "later",
+          "source_pdf": "cib_03148913.pdf",
+          "page_1based": 4,
+          "regions": 5,
+          "components": 7,
+          "rotation_degrees": 0.0,
+          "active_families": [
+            "lsd_geometry_rescues",
+            "nested_measured_outlines",
+            "shared_edge_step_completions",
+            "three_side_page_outlines",
+            "shipping_layered_outlines"
+          ],
+          "component_sources": {
+            "lsd_corner_refinement": 4,
+            "nested_measured_step_replacement": 1,
+            "text_safe_step_split": 1,
+            "lsd_geometry_rescue": 1
+          },
+          "diagnostics": {
+            "coordinate_system": "deskewed",
+            "estimated_rotation_degrees": 0.0,
+            "inverse_affine_to_original": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ],
+            "horizontal_segment_count": 16,
+            "vertical_segment_count": 508,
+            "line_zone_count": 246,
+            "rectangle_proposal_count": 6,
+            "strict_outline_component_count": 6,
+            "outline_component_count": 6,
+            "closed_blank_rescue_count": 0,
+            "rectified_warp_candidate_count": 0,
+            "rectified_warp_rescue_count": 0,
+            "rectified_warp_fallback_count": 0,
+            "solid_candidate_count": 0,
+            "rectilinear_solid_step_rescue_count": 0,
+            "dense_blackout_candidate_count": 0,
+            "lsd_corner_refinement_count": 6,
+            "lsd_outer_border_promotion_count": 0,
+            "lsd_geometry_rescue_count": 2,
+            "lsd_layer_occlusion_rescue_count": 0,
+            "shared_edge_step_completion_count": 2,
+            "framed_text_suppression_count": 1,
+            "marginal_text_crossing_suppression_count": 0,
+            "small_glyph_suppression_count": 0,
+            "component_count_before_grouping": 7,
+            "base_component_count": 7,
+            "estimated_text_line_height": 31,
+            "detector_policy": "Single-page, answer-blind geometry. Release 3.6 preserves the production detector and adds four measured safeguards: fragmented rails require two aligned walls and blank interiors; three-sided body masks require exactly one occluded wall; compound blank contours are represented by a compact rectangle cover; and blackout candidates must be material relative to the page's text scale. Reading-flow grouping distinguishes aligned stacks and line wraps from new indented paragraphs. Scanner-frame strips outside the measured reading column are excluded. OCR, paired releases, filenames, answers, and benchmark labels are unavailable to detection.",
+            "closed_blank_contour_count": 0,
+            "closed_blank_rejected_text_count": 0,
+            "closed_blank_rejected_shape_count": 4,
+            "enclosed_blank_component_count": 0,
+            "enclosed_blank_rejected_text_count": 2,
+            "enclosed_blank_rejected_shape_count": 7,
+            "lsd_horizontal_segment_count": 61,
+            "lsd_vertical_segment_count": 1251,
+            "lsd_raw_candidate_count": 1292,
+            "detector_release": "3.6.0",
+            "input_image_size_wh": [
+              1696,
+              2061
+            ],
+            "canonical_detection_size_wh": [
+              1696,
+              2061
+            ],
+            "input_to_detection_scale": 1.0,
+            "resolution_policy": "All geometry is evaluated at the validated 200-DPI physical scale and mapped back to the input raster.",
+            "marginal_open_outline_rescue_count": 0,
+            "blackout_partition_rescue_count": 0,
+            "blackout_replaced_envelope_count": 0,
+            "layered_outline_rescue_count": 1,
+            "supported_outline_count": 0,
+            "occluded_step_outline_component_count": 0,
+            "fragmented_rail_outline_component_count": 0,
+            "marginal_solid_suppression_count": 0,
+            "dense_ink_redaction_regime": false,
+            "line_segment_cycle_count": 0,
+            "page_frame_candidate_count": 2,
+            "page_frame_candidates": [
+              {
+                "box_xyxy": [
+                  917,
+                  67,
+                  1068,
+                  100
+                ],
+                "polygon_xy": [
+                  [
+                    917,
+                    67
+                  ],
+                  [
+                    1067,
+                    67
+                  ],
+                  [
+                    1067,
+                    99
+                  ],
+                  [
+                    917,
+                    99
+                  ]
+                ],
+                "source": "three_side_page_outline:observed=0.99:missing=0.00:ink=0.000",
+                "score": 8.489799
+              },
+              {
+                "box_xyxy": [
+                  933,
+                  1981,
+                  1088,
+                  2027
+                ],
+                "polygon_xy": [
+                  [
+                    933,
+                    1981
+                  ],
+                  [
+                    1087,
+                    1981
+                  ],
+                  [
+                    1087,
+                    2026
+                  ],
+                  [
+                    933,
+                    2026
+                  ]
+                ],
+                "source": "three_side_page_outline:observed=0.99:missing=0.00:ink=0.000",
+                "score": 8.489627
+              }
+            ],
+            "estimated_content_bounds_x": [
+              358,
+              1390
+            ],
+            "region_layout_roles": {
+              "1": "main_text",
+              "2": "main_text",
+              "3": "main_text",
+              "4": "main_text",
+              "5": "margin"
+            },
+            "region_count": 5,
+            "complex_enclosed_candidate_count": 0,
+            "complex_enclosed_rejected_shape_count": 0,
+            "complex_enclosed_rejected_text_count": 1,
+            "nested_outline_considered_count": 5,
+            "nested_outline_measured_count": 2,
+            "nested_outline_merged_member_count": 0,
+            "nested_outline_component_count": 1,
+            "nested_outline_rejected_support_count": 3,
+            "nested_outline_rejected_text_count": 0,
+            "nested_outline_rejected_shared_sides_count": 0,
+            "nested_outline_partition_replacement_count": 0,
+            "nested_outline_step_replacement_count": 1,
+            "nested_outline_removed_envelope_count": 0,
+            "nested_outline_removed_text_step_count": 1,
+            "occluded_step_seed_count": 0,
+            "occluded_step_component_count": 0,
+            "occluded_step_rejected_shape_count": 0,
+            "occluded_step_rejected_text_count": 0,
+            "fragmented_rail_pair_count": 11,
+            "fragmented_rail_component_count": 0,
+            "fragmented_rail_rejected_support_count": 2,
+            "fragmented_rail_rejected_text_count": 1,
+            "line_cycle_count": 32,
+            "line_cycle_candidate_count": 0,
+            "line_cycle_rejected_text_count": 0,
+            "line_cycle_rejected_shape_count": 3,
+            "text_safe_step_refinement_count": 1,
+            "rejected_text_slab_count": 1,
+            "seeded_blank_outline_refinement_count": 0,
+            "compound_blank_decomposition_count": 0,
+            "scanner_frame_strip_suppression_count": 0,
+            "side_column_bridge_split_count": 1,
+            "step_seam_merge_count": 0
+          },
+          "stages": {
+            "source": "assets/exhibit_a/later/source.png",
+            "threshold": "assets/exhibit_a/later/threshold.png",
+            "lines": "assets/exhibit_a/later/lines.png",
+            "families": "assets/exhibit_a/later/families.png",
+            "decisions": "assets/exhibit_a/later/decisions.png",
+            "final": "assets/exhibit_a/later/final.png"
+          },
+          "raw": "assets/exhibit_a/later_raw.jpg",
+          "full_final": "assets/exhibit_a/later_full_final.png"
+        }
+      },
+      "evaluation": null
+    },
+    {
+      "id": "exhibit_b",
+      "letter": "B",
+      "page_key": "page_009_009_8f6a5868cb",
+      "title": "A clean blackout and its revealed counterpart",
+      "subtitle": "One answer-blind polygon, followed by an independent 45-word Astra audit.",
+      "focus_xyxy": [
+        180,
+        520,
+        1530,
+        1160
+      ],
+      "primary_release": "earlier",
+      "rules": [
+        "page-level dense-ink regime",
+        "solid-fill rectification",
+        "large pitch-black component requirement",
+        "bold-text and margin artifact suppression"
+      ],
+      "decision": "The earlier release contains one materially large, pitch-black rectilinear region, so the page-level blackout route emits one measured component. Only after that geometry is frozen does the audit project the later release's 45 revealed target words back to the earlier scan; all 45 fall within R1.1.",
+      "stage_notes": {
+        "source": "The earlier page contains a clean solid mask; the later page reveals prose in the same semantic location.",
+        "threshold": "The solid area is materially larger than ordinary glyph clusters at the measured text-line scale.",
+        "lines": "The blackout does not depend on four thin outline rails; its outer extent supplies rectilinear support.",
+        "families": "The solid-fill route is available because page-level evidence supports a true dense-ink redaction regime.",
+        "decisions": "One large, coherent mask survives; isolated typography and marginal ink do not become components.",
+        "final": "The earlier release emits exactly one component and one reading unit. It contains no visible prose."
+      },
+      "doc_id": "CIA-RDP79T00975A002800320001-5",
+      "registration": {
+        "method": "SIFT_RANSAC_HOMOGRAPHY",
+        "status": "PASS",
+        "earlier_keypoints": 6001,
+        "later_keypoints": 6001,
+        "ratio_test_matches": 2058,
+        "inliers": 1569,
+        "inlier_ratio": 0.762391,
+        "median_reprojection_error": 0.119357,
+        "later_inlier_hull_coverage": 0.534467,
+        "earlier_inlier_hull_coverage": 0.499758,
+        "projected_page_area_ratio": 0.934005
+      },
+      "releases": {
+        "earlier": {
+          "release": "earlier",
+          "source_pdf": "CIA-RDP79T00975A002800320001-5.pdf",
+          "page_1based": 9,
+          "regions": 1,
+          "components": 1,
+          "rotation_degrees": 0.0,
+          "active_families": [],
+          "component_sources": {
+            "solid_fill_rectified": 1
+          },
+          "diagnostics": {
+            "coordinate_system": "deskewed",
+            "estimated_rotation_degrees": 0.0,
+            "inverse_affine_to_original": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ],
+            "horizontal_segment_count": 1,
+            "vertical_segment_count": 257,
+            "line_zone_count": 144,
+            "rectangle_proposal_count": 0,
+            "strict_outline_component_count": 0,
+            "outline_component_count": 0,
+            "closed_blank_rescue_count": 0,
+            "rectified_warp_candidate_count": 0,
+            "rectified_warp_rescue_count": 0,
+            "rectified_warp_fallback_count": 0,
+            "solid_candidate_count": 1,
+            "rectilinear_solid_step_rescue_count": 0,
+            "dense_blackout_candidate_count": 0,
+            "lsd_corner_refinement_count": 0,
+            "lsd_outer_border_promotion_count": 0,
+            "lsd_geometry_rescue_count": 0,
+            "lsd_layer_occlusion_rescue_count": 0,
+            "shared_edge_step_completion_count": 0,
+            "framed_text_suppression_count": 0,
+            "marginal_text_crossing_suppression_count": 0,
+            "small_glyph_suppression_count": 0,
+            "component_count_before_grouping": 1,
+            "base_component_count": 1,
+            "estimated_text_line_height": 37,
+            "detector_policy": "Single-page, answer-blind geometry. Release 3.6 preserves the production detector and adds four measured safeguards: fragmented rails require two aligned walls and blank interiors; three-sided body masks require exactly one occluded wall; compound blank contours are represented by a compact rectangle cover; and blackout candidates must be material relative to the page's text scale. Reading-flow grouping distinguishes aligned stacks and line wraps from new indented paragraphs. Scanner-frame strips outside the measured reading column are excluded. OCR, paired releases, filenames, answers, and benchmark labels are unavailable to detection.",
+            "closed_blank_contour_count": 0,
+            "closed_blank_rejected_text_count": 0,
+            "closed_blank_rejected_shape_count": 0,
+            "enclosed_blank_component_count": 0,
+            "enclosed_blank_rejected_text_count": 0,
+            "enclosed_blank_rejected_shape_count": 0,
+            "lsd_horizontal_segment_count": 10,
+            "lsd_vertical_segment_count": 548,
+            "lsd_raw_candidate_count": 0,
+            "detector_release": "3.6.0",
+            "input_image_size_wh": [
+              1700,
+              2200
+            ],
+            "canonical_detection_size_wh": [
+              1700,
+              2200
+            ],
+            "input_to_detection_scale": 1.0,
+            "resolution_policy": "All geometry is evaluated at the validated 200-DPI physical scale and mapped back to the input raster.",
+            "marginal_open_outline_rescue_count": 0,
+            "blackout_partition_rescue_count": 0,
+            "blackout_replaced_envelope_count": 0,
+            "layered_outline_rescue_count": 0,
+            "supported_outline_count": 0,
+            "occluded_step_outline_component_count": 0,
+            "fragmented_rail_outline_component_count": 0,
+            "marginal_solid_suppression_count": 0,
+            "dense_ink_redaction_regime": true,
+            "line_segment_cycle_count": 0,
+            "page_frame_candidate_count": 0,
+            "page_frame_candidates": [],
+            "estimated_content_bounds_x": [
+              363,
+              1369
+            ],
+            "region_layout_roles": {
+              "1": "main_text"
+            },
+            "region_count": 1,
+            "complex_enclosed_candidate_count": 0,
+            "complex_enclosed_rejected_shape_count": 0,
+            "complex_enclosed_rejected_text_count": 0,
+            "nested_outline_considered_count": 0,
+            "nested_outline_measured_count": 0,
+            "nested_outline_merged_member_count": 0,
+            "nested_outline_component_count": 0,
+            "nested_outline_rejected_support_count": 0,
+            "nested_outline_rejected_text_count": 0,
+            "nested_outline_rejected_shared_sides_count": 0,
+            "nested_outline_partition_replacement_count": 0,
+            "nested_outline_step_replacement_count": 0,
+            "nested_outline_removed_envelope_count": 0,
+            "nested_outline_removed_text_step_count": 0,
+            "occluded_step_seed_count": 0,
+            "occluded_step_component_count": 0,
+            "occluded_step_rejected_shape_count": 0,
+            "occluded_step_rejected_text_count": 0,
+            "fragmented_rail_pair_count": 0,
+            "fragmented_rail_component_count": 0,
+            "fragmented_rail_rejected_support_count": 0,
+            "fragmented_rail_rejected_text_count": 0,
+            "line_cycle_count": 17,
+            "line_cycle_candidate_count": 0,
+            "line_cycle_rejected_text_count": 0,
+            "line_cycle_rejected_shape_count": 0,
+            "text_safe_step_refinement_count": 0,
+            "rejected_text_slab_count": 0,
+            "seeded_blank_outline_refinement_count": 0,
+            "compound_blank_decomposition_count": 0,
+            "scanner_frame_strip_suppression_count": 0,
+            "side_column_bridge_split_count": 0,
+            "step_seam_merge_count": 0
+          },
+          "stages": {
+            "source": "assets/exhibit_b/earlier/source.png",
+            "threshold": "assets/exhibit_b/earlier/threshold.png",
+            "lines": "assets/exhibit_b/earlier/lines.png",
+            "families": "assets/exhibit_b/earlier/families.png",
+            "decisions": "assets/exhibit_b/earlier/decisions.png",
+            "final": "assets/exhibit_b/earlier/final.png"
+          },
+          "raw": "assets/exhibit_b/earlier_raw.jpg",
+          "full_final": "assets/exhibit_b/earlier_full_final.png"
+        },
+        "later": {
+          "release": "later",
+          "source_pdf": "cib_03002998.pdf",
+          "page_1based": 9,
+          "regions": 3,
+          "components": 4,
+          "rotation_degrees": 0.0,
+          "active_families": [
+            "lsd_geometry_rescues"
+          ],
+          "component_sources": {
+            "lsd_corner_refinement": 4
+          },
+          "diagnostics": {
+            "coordinate_system": "deskewed",
+            "estimated_rotation_degrees": 0.0,
+            "inverse_affine_to_original": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ],
+            "horizontal_segment_count": 12,
+            "vertical_segment_count": 328,
+            "line_zone_count": 154,
+            "rectangle_proposal_count": 5,
+            "strict_outline_component_count": 4,
+            "outline_component_count": 4,
+            "closed_blank_rescue_count": 0,
+            "rectified_warp_candidate_count": 0,
+            "rectified_warp_rescue_count": 0,
+            "rectified_warp_fallback_count": 0,
+            "solid_candidate_count": 0,
+            "rectilinear_solid_step_rescue_count": 0,
+            "dense_blackout_candidate_count": 0,
+            "lsd_corner_refinement_count": 4,
+            "lsd_outer_border_promotion_count": 0,
+            "lsd_geometry_rescue_count": 0,
+            "lsd_layer_occlusion_rescue_count": 0,
+            "shared_edge_step_completion_count": 0,
+            "framed_text_suppression_count": 0,
+            "marginal_text_crossing_suppression_count": 0,
+            "small_glyph_suppression_count": 0,
+            "component_count_before_grouping": 4,
+            "base_component_count": 4,
+            "estimated_text_line_height": 35,
+            "detector_policy": "Single-page, answer-blind geometry. Release 3.6 preserves the production detector and adds four measured safeguards: fragmented rails require two aligned walls and blank interiors; three-sided body masks require exactly one occluded wall; compound blank contours are represented by a compact rectangle cover; and blackout candidates must be material relative to the page's text scale. Reading-flow grouping distinguishes aligned stacks and line wraps from new indented paragraphs. Scanner-frame strips outside the measured reading column are excluded. OCR, paired releases, filenames, answers, and benchmark labels are unavailable to detection.",
+            "closed_blank_contour_count": 0,
+            "closed_blank_rejected_text_count": 0,
+            "closed_blank_rejected_shape_count": 1,
+            "enclosed_blank_component_count": 0,
+            "enclosed_blank_rejected_text_count": 0,
+            "enclosed_blank_rejected_shape_count": 4,
+            "lsd_horizontal_segment_count": 51,
+            "lsd_vertical_segment_count": 845,
+            "lsd_raw_candidate_count": 648,
+            "detector_release": "3.6.0",
+            "input_image_size_wh": [
+              1696,
+              2053
+            ],
+            "canonical_detection_size_wh": [
+              1696,
+              2053
+            ],
+            "input_to_detection_scale": 1.0,
+            "resolution_policy": "All geometry is evaluated at the validated 200-DPI physical scale and mapped back to the input raster.",
+            "marginal_open_outline_rescue_count": 0,
+            "blackout_partition_rescue_count": 0,
+            "blackout_replaced_envelope_count": 0,
+            "layered_outline_rescue_count": 0,
+            "supported_outline_count": 0,
+            "occluded_step_outline_component_count": 0,
+            "fragmented_rail_outline_component_count": 0,
+            "marginal_solid_suppression_count": 0,
+            "dense_ink_redaction_regime": false,
+            "line_segment_cycle_count": 0,
+            "page_frame_candidate_count": 0,
+            "page_frame_candidates": [],
+            "estimated_content_bounds_x": [
+              364,
+              1388
+            ],
+            "region_layout_roles": {
+              "1": "main_text",
+              "2": "main_text",
+              "3": "main_text"
+            },
+            "region_count": 3,
+            "complex_enclosed_candidate_count": 0,
+            "complex_enclosed_rejected_shape_count": 0,
+            "complex_enclosed_rejected_text_count": 0,
+            "nested_outline_considered_count": 0,
+            "nested_outline_measured_count": 0,
+            "nested_outline_merged_member_count": 0,
+            "nested_outline_component_count": 0,
+            "nested_outline_rejected_support_count": 0,
+            "nested_outline_rejected_text_count": 0,
+            "nested_outline_rejected_shared_sides_count": 0,
+            "nested_outline_partition_replacement_count": 0,
+            "nested_outline_step_replacement_count": 0,
+            "nested_outline_removed_envelope_count": 0,
+            "nested_outline_removed_text_step_count": 0,
+            "occluded_step_seed_count": 0,
+            "occluded_step_component_count": 0,
+            "occluded_step_rejected_shape_count": 0,
+            "occluded_step_rejected_text_count": 0,
+            "fragmented_rail_pair_count": 10,
+            "fragmented_rail_component_count": 0,
+            "fragmented_rail_rejected_support_count": 0,
+            "fragmented_rail_rejected_text_count": 0,
+            "line_cycle_count": 19,
+            "line_cycle_candidate_count": 0,
+            "line_cycle_rejected_text_count": 0,
+            "line_cycle_rejected_shape_count": 3,
+            "text_safe_step_refinement_count": 0,
+            "rejected_text_slab_count": 0,
+            "seeded_blank_outline_refinement_count": 0,
+            "compound_blank_decomposition_count": 0,
+            "scanner_frame_strip_suppression_count": 0,
+            "side_column_bridge_split_count": 0,
+            "step_seam_merge_count": 0
+          },
+          "stages": {
+            "source": "assets/exhibit_b/later/source.png",
+            "threshold": "assets/exhibit_b/later/threshold.png",
+            "lines": "assets/exhibit_b/later/lines.png",
+            "families": "assets/exhibit_b/later/families.png",
+            "decisions": "assets/exhibit_b/later/decisions.png",
+            "final": "assets/exhibit_b/later/final.png"
+          },
+          "raw": "assets/exhibit_b/later_raw.jpg",
+          "full_final": "assets/exhibit_b/later_full_final.png"
+        }
+      },
+      "evaluation": {
+        "item_id": "CIA-RDP79T00975A002800320001-5:9.0",
+        "status": "ASSIGNED_FULL",
+        "expected_answer": "[STILL REDACTED] the president is pleased with the success of the army centralization program, since he can now contemplate a \"compact army\" with which to \"reduce the importance of political parties.\" [STILL REDACTED] Sukarno might be considering the use of the army to establish himself as a dictator.",
+        "located_text": "\u2018The president is pleased with the success of the army centralization program, since he can now contemplate a \"compact army\" with which to \"reduce e im- portance of political parties? tgukarno might be considering the use of the army to establish himself as a dictator.",
+        "left_context": "SUKARNO MOVING TOWARD PERSONAL RULE",
+        "right_context": "Sukarno reportedly plans to hold a meeting with",
+        "text_location_status": "PASS",
+        "text_match_score": 0.988506,
+        "coverage": 1.0,
+        "covered_words": 45,
+        "target_words": 45,
+        "matched_region_ids": [
+          "R1"
+        ],
+        "matched_component_ids": [
+          "R1.1"
+        ],
+        "registration": {
+          "method": "SIFT_RANSAC_HOMOGRAPHY",
+          "status": "PASS",
+          "ratio_test_matches": 2058,
+          "inliers": 1569,
+          "inlier_ratio": 0.762391,
+          "median_reprojection_error": 0.119357
+        },
+        "images": {
+          "earlier": "assets/exhibit_b/evaluation/earlier_target_overlay.jpg",
+          "later": "assets/exhibit_b/evaluation/later_target_overlay.jpg"
+        },
+        "image_crops": {
+          "earlier": "assets/exhibit_b/evaluation/earlier_target_crop.png",
+          "later": "assets/exhibit_b/evaluation/later_target_crop.png"
+        }
+      }
+    },
+    {
+      "id": "exhibit_c",
+      "letter": "C",
+      "page_key": "page_005_005_0157c8c31c",
+      "title": "Physical overlap before reading-order grouping",
+      "subtitle": "A skewed page where adjacent boxes must not erase the words between them.",
+      "focus_xyxy": [
+        150,
+        1240,
+        1535,
+        1605
+      ],
+      "primary_release": "earlier",
+      "rules": [
+        "page skew measurement",
+        "overlapping component preservation",
+        "line-end to next-line continuation",
+        "fork-aware reading-unit separation"
+      ],
+      "decision": "The broad left and right masks touch other components around visible words. Geometry is frozen first. Reading-flow logic then joins the true line continuation while keeping the opposite branch in a different R group.",
+      "stage_notes": {
+        "source": "The page is slightly rotated and several boxes meet around the visible words 'the Kuomintang'.",
+        "threshold": "The masks preserve both long rails and narrow line-height continuations.",
+        "lines": "Measured corners show that touching boxes remain independently bounded physical objects.",
+        "families": "Ordinary and shared-edge proposals coexist; no single bounding rectangle explains the full layout.",
+        "decisions": "Supported components survive while a prose-crossing envelope is rejected.",
+        "final": "R4 follows one line continuation and R5 follows the other; visible words remain outside every polygon."
+      },
+      "doc_id": "CIA-RDP79T00975A000700240001-7",
+      "registration": {
+        "method": "SIFT_RANSAC_HOMOGRAPHY",
+        "status": "PASS",
+        "earlier_keypoints": 6000,
+        "later_keypoints": 6001,
+        "ratio_test_matches": 3302,
+        "inliers": 2968,
+        "inlier_ratio": 0.898849,
+        "median_reprojection_error": 0.07837,
+        "later_inlier_hull_coverage": 0.511034,
+        "earlier_inlier_hull_coverage": 0.510768,
+        "projected_page_area_ratio": 0.99842
+      },
+      "releases": {
+        "earlier": {
+          "release": "earlier",
+          "source_pdf": "CIA-RDP79T00975A000700240001-7.pdf",
+          "page_1based": 5,
+          "regions": 6,
+          "components": 8,
+          "rotation_degrees": -0.3862578272819519,
+          "active_families": [
+            "closed_blank_contours",
+            "enclosed_blank_outlines",
+            "lsd_geometry_rescues",
+            "three_side_page_outlines"
+          ],
+          "component_sources": {
+            "lsd_corner_refinement": 6,
+            "lsd_geometry_rescue": 2
+          },
+          "diagnostics": {
+            "coordinate_system": "deskewed",
+            "estimated_rotation_degrees": -0.3862578272819519,
+            "inverse_affine_to_original": [
+              [
+                0.9999772763714663,
+                0.006741419784032514,
+                -7.396246678181959
+              ],
+              [
+                -0.006741419784032514,
+                0.9999772763714663,
+                5.755202807814914
+              ]
+            ],
+            "horizontal_segment_count": 19,
+            "vertical_segment_count": 433,
+            "line_zone_count": 160,
+            "rectangle_proposal_count": 26,
+            "strict_outline_component_count": 7,
+            "outline_component_count": 7,
+            "closed_blank_rescue_count": 0,
+            "rectified_warp_candidate_count": 7,
+            "rectified_warp_rescue_count": 0,
+            "rectified_warp_fallback_count": 0,
+            "solid_candidate_count": 0,
+            "rectilinear_solid_step_rescue_count": 0,
+            "dense_blackout_candidate_count": 0,
+            "lsd_corner_refinement_count": 7,
+            "lsd_outer_border_promotion_count": 0,
+            "lsd_geometry_rescue_count": 2,
+            "lsd_layer_occlusion_rescue_count": 0,
+            "shared_edge_step_completion_count": 0,
+            "framed_text_suppression_count": 1,
+            "marginal_text_crossing_suppression_count": 0,
+            "small_glyph_suppression_count": 0,
+            "component_count_before_grouping": 8,
+            "base_component_count": 8,
+            "estimated_text_line_height": 32,
+            "detector_policy": "Single-page, answer-blind geometry. Release 3.6 preserves the production detector and adds four measured safeguards: fragmented rails require two aligned walls and blank interiors; three-sided body masks require exactly one occluded wall; compound blank contours are represented by a compact rectangle cover; and blackout candidates must be material relative to the page's text scale. Reading-flow grouping distinguishes aligned stacks and line wraps from new indented paragraphs. Scanner-frame strips outside the measured reading column are excluded. OCR, paired releases, filenames, answers, and benchmark labels are unavailable to detection.",
+            "closed_blank_contour_count": 9,
+            "closed_blank_rejected_text_count": 1,
+            "closed_blank_rejected_shape_count": 0,
+            "enclosed_blank_component_count": 7,
+            "enclosed_blank_rejected_text_count": 3,
+            "enclosed_blank_rejected_shape_count": 1,
+            "lsd_horizontal_segment_count": 82,
+            "lsd_vertical_segment_count": 894,
+            "lsd_raw_candidate_count": 2259,
+            "detector_release": "3.6.0",
+            "input_image_size_wh": [
+              1700,
+              2200
+            ],
+            "canonical_detection_size_wh": [
+              1700,
+              2200
+            ],
+            "input_to_detection_scale": 1.0,
+            "resolution_policy": "All geometry is evaluated at the validated 200-DPI physical scale and mapped back to the input raster.",
+            "marginal_open_outline_rescue_count": 0,
+            "blackout_partition_rescue_count": 0,
+            "blackout_replaced_envelope_count": 0,
+            "layered_outline_rescue_count": 0,
+            "supported_outline_count": 0,
+            "occluded_step_outline_component_count": 0,
+            "fragmented_rail_outline_component_count": 0,
+            "marginal_solid_suppression_count": 0,
+            "dense_ink_redaction_regime": false,
+            "line_segment_cycle_count": 0,
+            "page_frame_candidate_count": 1,
+            "page_frame_candidates": [
+              {
+                "box_xyxy": [
+                  519,
+                  57,
+                  1230,
+                  150
+                ],
+                "polygon_xy": [
+                  [
+                    519,
+                    57
+                  ],
+                  [
+                    1229,
+                    57
+                  ],
+                  [
+                    1229,
+                    149
+                  ],
+                  [
+                    519,
+                    149
+                  ]
+                ],
+                "source": "page_frame_candidate:outline:lsd_geometry_rescue:h=0.99/1.00:v=0.98/1.00:corners=4",
+                "score": 7.172703
+              }
+            ],
+            "estimated_content_bounds_x": [
+              298,
+              1474
+            ],
+            "region_layout_roles": {
+              "1": "main_text",
+              "2": "main_text",
+              "3": "main_text",
+              "4": "main_text",
+              "5": "main_text",
+              "6": "main_text"
+            },
+            "region_count": 6,
+            "complex_enclosed_candidate_count": 0,
+            "complex_enclosed_rejected_shape_count": 1,
+            "complex_enclosed_rejected_text_count": 0,
+            "nested_outline_considered_count": 0,
+            "nested_outline_measured_count": 0,
+            "nested_outline_merged_member_count": 0,
+            "nested_outline_component_count": 0,
+            "nested_outline_rejected_support_count": 0,
+            "nested_outline_rejected_text_count": 0,
+            "nested_outline_rejected_shared_sides_count": 0,
+            "nested_outline_partition_replacement_count": 0,
+            "nested_outline_step_replacement_count": 0,
+            "nested_outline_removed_envelope_count": 0,
+            "nested_outline_removed_text_step_count": 0,
+            "occluded_step_seed_count": 0,
+            "occluded_step_component_count": 0,
+            "occluded_step_rejected_shape_count": 0,
+            "occluded_step_rejected_text_count": 0,
+            "fragmented_rail_pair_count": 29,
+            "fragmented_rail_component_count": 0,
+            "fragmented_rail_rejected_support_count": 0,
+            "fragmented_rail_rejected_text_count": 10,
+            "line_cycle_count": 35,
+            "line_cycle_candidate_count": 0,
+            "line_cycle_rejected_text_count": 2,
+            "line_cycle_rejected_shape_count": 2,
+            "text_safe_step_refinement_count": 0,
+            "rejected_text_slab_count": 0,
+            "seeded_blank_outline_refinement_count": 0,
+            "compound_blank_decomposition_count": 0,
+            "scanner_frame_strip_suppression_count": 0,
+            "side_column_bridge_split_count": 0,
+            "step_seam_merge_count": 0
+          },
+          "stages": {
+            "source": "assets/exhibit_c/earlier/source.png",
+            "threshold": "assets/exhibit_c/earlier/threshold.png",
+            "lines": "assets/exhibit_c/earlier/lines.png",
+            "families": "assets/exhibit_c/earlier/families.png",
+            "decisions": "assets/exhibit_c/earlier/decisions.png",
+            "final": "assets/exhibit_c/earlier/final.png"
+          },
+          "raw": "assets/exhibit_c/earlier_raw.jpg",
+          "full_final": "assets/exhibit_c/earlier_full_final.png"
+        },
+        "later": {
+          "release": "later",
+          "source_pdf": "cib_02064591.pdf",
+          "page_1based": 5,
+          "regions": 4,
+          "components": 5,
+          "rotation_degrees": -0.5106440782546997,
+          "active_families": [
+            "closed_blank_contours",
+            "enclosed_blank_outlines",
+            "lsd_geometry_rescues",
+            "shared_edge_step_completions",
+            "supported_outlines"
+          ],
+          "component_sources": {
+            "supported_outline": 1,
+            "lsd_geometry_rescue": 2,
+            "shared_edge_step_completion": 1,
+            "lsd_corner_refinement": 1
+          },
+          "diagnostics": {
+            "coordinate_system": "deskewed",
+            "estimated_rotation_degrees": -0.5106440782546997,
+            "inverse_affine_to_original": [
+              [
+                0.9999602846435586,
+                0.008912302484391768,
+                -9.75202950559985
+              ],
+              [
+                -0.008912302484391768,
+                0.9999602846435586,
+                7.601239968136883
+              ]
+            ],
+            "horizontal_segment_count": 16,
+            "vertical_segment_count": 430,
+            "line_zone_count": 175,
+            "rectangle_proposal_count": 1,
+            "strict_outline_component_count": 1,
+            "outline_component_count": 2,
+            "closed_blank_rescue_count": 1,
+            "rectified_warp_candidate_count": 1,
+            "rectified_warp_rescue_count": 0,
+            "rectified_warp_fallback_count": 0,
+            "solid_candidate_count": 0,
+            "rectilinear_solid_step_rescue_count": 0,
+            "dense_blackout_candidate_count": 0,
+            "lsd_corner_refinement_count": 1,
+            "lsd_outer_border_promotion_count": 0,
+            "lsd_geometry_rescue_count": 4,
+            "lsd_layer_occlusion_rescue_count": 0,
+            "shared_edge_step_completion_count": 2,
+            "framed_text_suppression_count": 1,
+            "marginal_text_crossing_suppression_count": 0,
+            "small_glyph_suppression_count": 1,
+            "component_count_before_grouping": 5,
+            "base_component_count": 4,
+            "estimated_text_line_height": 31,
+            "detector_policy": "Single-page, answer-blind geometry. Release 3.6 preserves the production detector and adds four measured safeguards: fragmented rails require two aligned walls and blank interiors; three-sided body masks require exactly one occluded wall; compound blank contours are represented by a compact rectangle cover; and blackout candidates must be material relative to the page's text scale. Reading-flow grouping distinguishes aligned stacks and line wraps from new indented paragraphs. Scanner-frame strips outside the measured reading column are excluded. OCR, paired releases, filenames, answers, and benchmark labels are unavailable to detection.",
+            "closed_blank_contour_count": 1,
+            "closed_blank_rejected_text_count": 0,
+            "closed_blank_rejected_shape_count": 0,
+            "enclosed_blank_component_count": 1,
+            "enclosed_blank_rejected_text_count": 0,
+            "enclosed_blank_rejected_shape_count": 0,
+            "lsd_horizontal_segment_count": 85,
+            "lsd_vertical_segment_count": 915,
+            "lsd_raw_candidate_count": 567,
+            "detector_release": "3.6.0",
+            "input_image_size_wh": [
+              1696,
+              2196
+            ],
+            "canonical_detection_size_wh": [
+              1696,
+              2196
+            ],
+            "input_to_detection_scale": 1.0,
+            "resolution_policy": "All geometry is evaluated at the validated 200-DPI physical scale and mapped back to the input raster.",
+            "marginal_open_outline_rescue_count": 0,
+            "blackout_partition_rescue_count": 0,
+            "blackout_replaced_envelope_count": 0,
+            "layered_outline_rescue_count": 0,
+            "supported_outline_count": 1,
+            "occluded_step_outline_component_count": 0,
+            "fragmented_rail_outline_component_count": 0,
+            "marginal_solid_suppression_count": 0,
+            "dense_ink_redaction_regime": false,
+            "line_segment_cycle_count": 0,
+            "page_frame_candidate_count": 0,
+            "page_frame_candidates": [],
+            "estimated_content_bounds_x": [
+              298,
+              1469
+            ],
+            "region_layout_roles": {
+              "1": "main_text",
+              "2": "main_text",
+              "3": "main_text",
+              "4": "main_text"
+            },
+            "region_count": 4,
+            "complex_enclosed_candidate_count": 0,
+            "complex_enclosed_rejected_shape_count": 0,
+            "complex_enclosed_rejected_text_count": 0,
+            "nested_outline_considered_count": 1,
+            "nested_outline_measured_count": 0,
+            "nested_outline_merged_member_count": 0,
+            "nested_outline_component_count": 0,
+            "nested_outline_rejected_support_count": 1,
+            "nested_outline_rejected_text_count": 0,
+            "nested_outline_rejected_shared_sides_count": 0,
+            "nested_outline_partition_replacement_count": 0,
+            "nested_outline_step_replacement_count": 0,
+            "nested_outline_removed_envelope_count": 0,
+            "nested_outline_removed_text_step_count": 0,
+            "occluded_step_seed_count": 0,
+            "occluded_step_component_count": 0,
+            "occluded_step_rejected_shape_count": 0,
+            "occluded_step_rejected_text_count": 0,
+            "fragmented_rail_pair_count": 16,
+            "fragmented_rail_component_count": 0,
+            "fragmented_rail_rejected_support_count": 12,
+            "fragmented_rail_rejected_text_count": 0,
+            "line_cycle_count": 32,
+            "line_cycle_candidate_count": 0,
+            "line_cycle_rejected_text_count": 0,
+            "line_cycle_rejected_shape_count": 4,
+            "text_safe_step_refinement_count": 0,
+            "rejected_text_slab_count": 0,
+            "seeded_blank_outline_refinement_count": 0,
+            "compound_blank_decomposition_count": 0,
+            "scanner_frame_strip_suppression_count": 0,
+            "side_column_bridge_split_count": 0,
+            "step_seam_merge_count": 0
+          },
+          "stages": {
+            "source": "assets/exhibit_c/later/source.png",
+            "threshold": "assets/exhibit_c/later/threshold.png",
+            "lines": "assets/exhibit_c/later/lines.png",
+            "families": "assets/exhibit_c/later/families.png",
+            "decisions": "assets/exhibit_c/later/decisions.png",
+            "final": "assets/exhibit_c/later/final.png"
+          },
+          "raw": "assets/exhibit_c/later_raw.jpg",
+          "full_final": "assets/exhibit_c/later_full_final.png"
+        }
+      },
+      "evaluation": null
+    }
+  ],
+  "outputs": {
+    "html": {
+      "path": "index.html",
+      "sha256": "947062f70d5a8dc8459a763051d48a03903130b63a1ac6ee63b97e5c7ee3b1b2"
+    },
+    "pdf": {
+      "path": "REDACTION_BOX_CV_REPOSITORY_MANUAL_3_6.pdf",
+      "sha256": "2aa54b2c094aa958e2e77e229d01251266632df71a718ebfa923bd8c032ccd68"
+    }
+  }
+}

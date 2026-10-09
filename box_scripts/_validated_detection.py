@@ -517,6 +517,63 @@ def _filled_run_rectangles(
         if x2 - x1 < minimum_width:
             continue
         boxes.append((offset_x + x1, offset_y + y1, offset_x + x2, offset_y + y2))
+
+    # Two overlapping blackout rectangles produce three horizontal run bands:
+    # the first-only cap, their intersection, and the second-only base.  A
+    # disjoint tiling records those bands but loses the physical rectangles.
+    # Reconstruct maximal rectangles only when adjacent bands retain the same
+    # left or right edge and the reconstructed union exactly explains the run
+    # mask.  Otherwise preserve the conservative band decomposition.
+    maximal: list[tuple[int, int, int, int]] = []
+    ordered = sorted(boxes, key=lambda box: (box[1], box[0], box[3], box[2]))
+    for first_index, first in enumerate(ordered):
+        for second in ordered[first_index + 1 :]:
+            if abs(first[3] - second[1]) > max(2, line_height * 0.12):
+                continue
+            same_left = abs(first[0] - second[0]) <= endpoint_tolerance
+            same_right = abs(first[2] - second[2]) <= endpoint_tolerance
+            if not (same_left or same_right):
+                continue
+            left = max(first[0], second[0])
+            right = min(first[2], second[2])
+            if right - left < minimum_width:
+                continue
+            maximal.append((left, first[1], right, second[3]))
+
+    if len(maximal) >= 2 and boxes:
+        all_boxes = boxes + maximal
+        min_x = min(box[0] for box in all_boxes)
+        min_y = min(box[1] for box in all_boxes)
+        max_x = max(box[2] for box in all_boxes)
+        max_y = max(box[3] for box in all_boxes)
+        original_mask = np.zeros((max_y - min_y, max_x - min_x), dtype=np.uint8)
+        maximal_mask = np.zeros_like(original_mask)
+        for x1, y1, x2, y2 in boxes:
+            cv2.rectangle(
+                original_mask,
+                (x1 - min_x, y1 - min_y),
+                (x2 - min_x - 1, y2 - min_y - 1),
+                1,
+                -1,
+            )
+        for x1, y1, x2, y2 in maximal:
+            cv2.rectangle(
+                maximal_mask,
+                (x1 - min_x, y1 - min_y),
+                (x2 - min_x - 1, y2 - min_y - 1),
+                1,
+                -1,
+            )
+        original_pixels = int(np.count_nonzero(original_mask))
+        covered = int(np.count_nonzero((original_mask > 0) & (maximal_mask > 0)))
+        outside = int(np.count_nonzero((maximal_mask > 0) & (original_mask == 0)))
+        if (
+            original_pixels
+            and covered / original_pixels >= 0.98
+            and outside / original_pixels <= 0.01
+        ):
+            unique = sorted(set(maximal), key=lambda box: (box[1], box[0]))
+            return unique
     return boxes
 
 
@@ -550,6 +607,18 @@ def _blackout_partition_candidates(
     candidates: list[BoxComponent] = []
     debug = np.zeros_like(gray)
     page_area = height * width
+    # Partitioning is reserved for pages that visibly use large blackout masks.
+    # Without this page-level gate, isolated scan dirt can be decomposed as if it
+    # were a small piece of a redaction even though the page uses outline masks.
+    blackout_regime = any(
+        int(stats[label][cv2.CC_STAT_AREA])
+        >= max(1800, int(round(page_area * 0.00075)))
+        and int(stats[label][cv2.CC_STAT_WIDTH]) >= line_height * 5.0
+        and int(stats[label][cv2.CC_STAT_HEIGHT]) >= line_height * 1.4
+        for label in range(1, count)
+    )
+    if not blackout_regime:
+        return candidates, debug
     for label in range(1, count):
         x, y, box_width, box_height, area = map(int, stats[label])
         if (
@@ -906,7 +975,9 @@ def _group_components_with_layout(
     # continuation is independently visible in the page layout.
     blocked_contacts: set[tuple[int, int]] = set()
     content_width = max(1, content_right - content_left)
-    margin_slack = max(tolerance * 3, round(width * 0.11))
+    margin_slack = layered_stage._reading_margin_slack(
+        width, content_width, tolerance
+    )
     for parent_index, parent in enumerate(components):
         px1, py1, px2, py2 = parent.box
         parent_width, parent_height = px2 - px1, py2 - py1
@@ -1001,8 +1072,63 @@ def _group_components_with_layout(
                 tolerance=tolerance,
                 line_height=line_height,
                 text_mask=text_mask,
+                content_left=content_left,
+                content_right=content_right,
             ):
                 union(left, right)
+
+    # Compound masks can finish with one more aligned slab on the following
+    # line. Only attach that slab when the preceding piece already belongs to
+    # a physical multi-component cluster. A shared indentation by itself is
+    # deliberately insufficient because unrelated paragraphs often align.
+    for top_index, top_component in enumerate(components):
+        top_root = find(top_index)
+        members = [
+            index for index in range(len(components)) if find(index) == top_root
+        ]
+        if len(members) < 2:
+            continue
+        tx1, ty1, tx2, ty2 = top_component.box
+        if any(components[index].box[1] > ty1 for index in members):
+            continue
+        has_lateral_partner = any(
+            index != top_index
+            and max(
+                0,
+                min(ty2, components[index].box[3])
+                - max(ty1, components[index].box[1]),
+            )
+            >= line_height * 0.55
+            and max(
+                0,
+                max(tx1, components[index].box[0])
+                - min(tx2, components[index].box[2]),
+            )
+            <= tolerance
+            for index in members
+        )
+        if not has_lateral_partner:
+            continue
+        for bottom_index, bottom_component in enumerate(components):
+            if find(bottom_index) == top_root:
+                continue
+            bx1, by1, bx2, by2 = bottom_component.box
+            vertical_gap = max(0, by1 - ty2)
+            horizontal_overlap = max(0, min(tx2, bx2) - max(tx1, bx1))
+            minimum_width = max(1, min(tx2 - tx1, bx2 - bx1))
+            width_ratio = minimum_width / max(1, max(tx2 - tx1, bx2 - bx1))
+            if not (
+                by1 >= ty1
+                and vertical_gap <= tolerance
+                and abs(tx1 - bx1) <= line_height * 0.65
+                and bx2 <= tx2 + line_height * 0.20
+                and width_ratio >= 0.35
+                and horizontal_overlap / minimum_width >= 0.80
+            ):
+                continue
+            gap = (max(tx1, bx1), ty2, min(tx2, bx2), by1)
+            if vertical_gap == 0 or layered_stage._ink_fraction(text_mask, gap) <= 0.03:
+                union(top_index, bottom_index)
 
     wrap_candidates: list[tuple[float, int, int]] = []
     for left, first in enumerate(components):

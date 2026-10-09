@@ -42,8 +42,10 @@ DEFAULT_ITEMS = REPO_ROOT / "data" / "bench" / "items_v4_final.jsonl"
 DEFAULT_ASTRA = REPO_ROOT / "results" / "full_v6_astra.jsonl"
 DEFAULT_DOCS = REPO_ROOT / "data" / "docs"
 DEFAULT_OUTPUT = REPO_ROOT / "box_results" / "items_v4"
-DETECTOR_VERSION = "3.2.0"
-AUDIT_VERSION = "v4-box-audit-2"
+DETECTOR_VERSION = "3.6.0"
+AUDIT_VERSION = "v4-box-audit-4"
+FULL_COVERAGE_THRESHOLD = 0.80
+PARTIAL_COVERAGE_THRESHOLD = 0.30
 MARKER = re.compile(r"\[(?:STILL\s+)?REDACTED\]", re.IGNORECASE)
 
 
@@ -614,20 +616,42 @@ def target_coverage(
     }
 
 
-def _assignment_status(
-    target: LocatedTarget, coverage: dict[str, Any], registered: bool
+def _assignment_status_from_values(
+    target_status: str,
+    coverage: float,
+    registered: bool,
+    *,
+    full_coverage_threshold: float = FULL_COVERAGE_THRESHOLD,
+    partial_coverage_threshold: float = PARTIAL_COVERAGE_THRESHOLD,
 ) -> str:
     if not registered:
         return "REGISTRATION_FAILED"
-    if target.status in {"NO_TEXT_LAYER_OR_ANSWER", "TARGET_NOT_IN_TEXT_LAYER"}:
-        return target.status
-    if coverage["coverage"] >= 0.80:
+    if target_status in {"NO_TEXT_LAYER_OR_ANSWER", "TARGET_NOT_IN_TEXT_LAYER"}:
+        return target_status
+    if coverage >= full_coverage_threshold:
         return "ASSIGNED_FULL"
-    if coverage["coverage"] >= 0.30:
+    if coverage >= partial_coverage_threshold:
         return "ASSIGNED_PARTIAL"
-    if target.status == "PARTIAL_TEXT_MATCH":
+    if target_status == "PARTIAL_TEXT_MATCH":
         return "TARGET_LOCALIZATION_UNCERTAIN"
     return "TARGET_LINKED_GEOMETRY_MISS"
+
+
+def _assignment_status(
+    target: LocatedTarget,
+    coverage: dict[str, Any],
+    registered: bool,
+    *,
+    full_coverage_threshold: float = FULL_COVERAGE_THRESHOLD,
+    partial_coverage_threshold: float = PARTIAL_COVERAGE_THRESHOLD,
+) -> str:
+    return _assignment_status_from_values(
+        target.status,
+        float(coverage["coverage"]),
+        registered,
+        full_coverage_threshold=full_coverage_threshold,
+        partial_coverage_threshold=partial_coverage_threshold,
+    )
 
 
 REGION_COLORS = (
@@ -639,7 +663,7 @@ REGION_COLORS = (
     (145, 110, 29),
 )
 
-RENDER_VERSION = "readable-collision-aware-labels-2"
+RENDER_VERSION = "polygon-aware-collision-free-labels-3"
 LabelBox = tuple[int, int, int, int]
 
 
@@ -746,6 +770,7 @@ def _draw_label(
     line_height: float,
     occupied: list[LabelBox] | None = None,
     preferred_corner: int = 0,
+    contour: np.ndarray | None = None,
 ) -> LabelBox:
     occupied = occupied if occupied is not None else []
     (
@@ -763,6 +788,75 @@ def _draw_label(
         image.shape,
         preferred_corner,
     )
+    polygon_mask: np.ndarray | None = None
+    if contour is not None and contour.size:
+        polygon_mask = np.zeros(image.shape[:2], dtype=np.uint8)
+        cv2.fillPoly(polygon_mask, [contour.astype(np.int32)], 255)
+        image_height, image_width = image.shape[:2]
+        vertex_candidates: list[LabelBox] = []
+        for point in contour.reshape(-1, 2):
+            vertex_x, vertex_y = map(int, point)
+            for x, y in (
+                (vertex_x + 2, vertex_y + 2),
+                (vertex_x - label_width - 2, vertex_y + 2),
+                (vertex_x + 2, vertex_y - label_height - 2),
+                (vertex_x - label_width - 2, vertex_y - label_height - 2),
+            ):
+                x = max(0, min(x, max(0, image_width - label_width)))
+                y = max(0, min(y, max(0, image_height - label_height)))
+                vertex_candidates.append(
+                    (x, y, x + label_width, y + label_height)
+                )
+        distance = cv2.distanceTransform(polygon_mask, cv2.DIST_L2, 3)
+        _, _, _, peak = cv2.minMaxLoc(distance)
+        peak_x = max(
+            0,
+            min(
+                int(peak[0] - label_width / 2),
+                max(0, image_width - label_width),
+            ),
+        )
+        peak_y = max(
+            0,
+            min(
+                int(peak[1] - label_height / 2),
+                max(0, image_height - label_height),
+            ),
+        )
+        vertex_candidates.append(
+            (peak_x, peak_y, peak_x + label_width, peak_y + label_height)
+        )
+        candidates = vertex_candidates + candidates
+
+        def polygon_fit(candidate: LabelBox) -> tuple[bool, float]:
+            x1, y1, x2, y2 = candidate
+            center = ((x1 + x2) // 2, (y1 + y2) // 2)
+            center_inside = polygon_mask[center[1], center[0]] > 0
+            coverage = float(
+                np.mean(polygon_mask[y1:y2, x1:x2] > 0)
+            )
+            return bool(center_inside), coverage
+
+        unique: list[LabelBox] = []
+        seen: set[LabelBox] = set()
+        for candidate in candidates:
+            if candidate not in seen:
+                seen.add(candidate)
+                unique.append(candidate)
+        candidates = sorted(
+            unique,
+            key=lambda candidate: (
+                not polygon_fit(candidate)[0],
+                -polygon_fit(candidate)[1],
+            ),
+        )
+        interior = [
+            candidate
+            for candidate in candidates
+            if polygon_fit(candidate)[0]
+        ]
+        if interior:
+            candidates = interior
     selected = next(
         (
             candidate
@@ -771,7 +865,7 @@ def _draw_label(
         ),
         None,
     )
-    if selected is None:
+    if selected is None and contour is None:
         image_height, image_width = image.shape[:2]
         center_x = (bounds[0] + bounds[2]) / 2.0
         center_y = (bounds[1] + bounds[3]) / 2.0
@@ -795,6 +889,16 @@ def _draw_label(
                 key=lambda candidate: sum(
                     _overlap_area(candidate, prior) for prior in occupied
                 ),
+            ),
+        )
+    if selected is None:
+        # Every candidate remains anchored inside the component. If all
+        # interior positions collide, choose the least-overlapping one rather
+        # than moving the marker to unrelated page space.
+        selected = min(
+            candidates,
+            key=lambda candidate: sum(
+                _overlap_area(candidate, prior) for prior in occupied
             ),
         )
     x1, y1, x2, y2 = selected
@@ -856,7 +960,9 @@ def _draw_regions(
         payload.get("detector_diagnostics", {}).get("estimated_text_line_height", 32)
     ) * float(coordinate_scale[1])
     overlay = image.copy()
-    labels: list[tuple[str, LabelBox, tuple[int, int, int]]] = []
+    labels: list[
+        tuple[str, LabelBox, tuple[int, int, int], np.ndarray]
+    ] = []
     for region_index, region in enumerate(payload.get("redaction_regions", [])):
         color = REGION_COLORS[region_index % len(REGION_COLORS)]
         for component in region.get("components", []):
@@ -867,6 +973,7 @@ def _draw_regions(
                     str(component["component_id"]),
                     _contour_bounds(contour),
                     color,
+                    contour,
                 )
             )
     cv2.addWeighted(overlay, 0.11, image, 0.89, 0, dst=image)
@@ -877,7 +984,7 @@ def _draw_regions(
             width = max(1, int(round(4 * min(coordinate_scale))))
             cv2.polylines(image, [contour], True, color, width, cv2.LINE_AA)
     occupied: list[LabelBox] = []
-    for index, (text, bounds, color) in enumerate(labels):
+    for index, (text, bounds, color, contour) in enumerate(labels):
         _draw_label(
             image,
             text,
@@ -886,6 +993,7 @@ def _draw_regions(
             line_height=line_height,
             occupied=occupied,
             preferred_corner=index % 4,
+            contour=contour,
         )
     return occupied, line_height
 
@@ -1072,6 +1180,8 @@ def _run_page_job(payload: dict[str, Any]) -> dict[str, Any]:
     job = PageJob(**payload["job"])
     output = Path(payload["output"])
     dpi = int(payload["dpi"])
+    full_coverage_threshold = float(payload["full_coverage_threshold"])
+    partial_coverage_threshold = float(payload["partial_coverage_threshold"])
     page_record = output / "page_records" / f"{job.key}.json"
     earlier_asset = output / "assets" / f"{job.key}_earlier.jpg"
     later_asset = output / "assets" / f"{job.key}_later.jpg"
@@ -1135,7 +1245,13 @@ def _run_page_job(payload: dict[str, Any]) -> dict[str, Any]:
                     target, later_payload, homography
                 )
             coverage = target_coverage(earlier_polygons, earlier_payload)
-            status = _assignment_status(target, coverage, homography is not None)
+            status = _assignment_status(
+                target,
+                coverage,
+                homography is not None,
+                full_coverage_threshold=full_coverage_threshold,
+                partial_coverage_threshold=partial_coverage_threshold,
+            )
             fragment_results.append(
                 {
                     **fragment,
@@ -1210,6 +1326,8 @@ def _run_page_job(payload: dict[str, Any]) -> dict[str, Any]:
             "later_raw_asset": str(later_raw_asset.relative_to(output)),
         "earlier_geometry": str(earlier_geometry.relative_to(output)),
         "later_geometry": str(later_geometry.relative_to(output)),
+        "full_coverage_threshold": full_coverage_threshold,
+        "partial_coverage_threshold": partial_coverage_threshold,
         "fragments": fragment_results,
     }
     _write_json(page_record, row)
@@ -1297,6 +1415,9 @@ CSS = """
 def _page_html(
     page: dict[str, Any], previous_key: str | None, next_key: str | None
 ) -> str:
+    full_threshold = float(
+        page.get("full_coverage_threshold", FULL_COVERAGE_THRESHOLD)
+    )
     fragments: list[str] = []
     for index, row in enumerate(page["fragments"], start=1):
         left_context = _short(row.get("left_context", ""), 220)
@@ -1315,7 +1436,7 @@ def _page_html(
         nav.append(f"<a href='{_escape(next_key)}.html'>Next page</a>")
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{_escape(page['doc_id'])} - box audit</title><style>{CSS}</style></head><body><main class="shell">
 <nav class="nav">{' / '.join(nav)}</nav><div class="page-head"><div><div class="eyebrow">Items v4 physical-source audit</div><h1>{_escape(page['doc_id'])}</h1><p class="lede">Earlier page {page['redacted_page']} is the more-redacted source; later page {page['later_page']} is the less-redacted comparison. The CV detector runs independently on each page. Saved v4 text is attached only after detection.</p></div><span class="badge {_status_class(page['page_status'])}">{_escape(page['page_status'])}</span></div>
-<section class="explain-grid"><article class="callout"><b>1. CV geometry</b>Colored outlines and labels such as <code>R4.1</code> are physical components found from one page's pixels. The detector receives no answer text or paired page.</article><article class="callout"><b>2. V4/Astra target</b><code>T1</code> marks exact word boxes located in the later PDF text layer, then projected onto the earlier scan. These are audit annotations, not detector inputs.</article><article class="callout"><b>3. Assignment</b>Coverage is the fraction of localized target-word centers inside, or within a line-scaled tolerance of, detected CV geometry.</article></section>
+<section class="explain-grid"><article class="callout"><b>1. CV geometry</b>Colored outlines and labels such as <code>R4.1</code> are physical components found from one page's pixels. The detector receives no answer text or paired page.</article><article class="callout"><b>2. V4/Astra target</b><code>T1</code> marks exact word boxes located in the later PDF text layer, then projected onto the earlier scan. These are audit annotations, not detector inputs.</article><article class="callout"><b>3. Assignment</b>Coverage is the fraction of localized target-word centers inside, or within a line-scaled tolerance of, detected CV geometry. Full requires at least {full_threshold:.0%} coverage for every fragment.</article></section>
 <div class="legend"><span><i class="swatch" style="background:#327e24"></i>CV components (colors distinguish regions)</span><span><i class="swatch" style="background:#efb018"></i>full target words</span><span><i class="swatch" style="background:#ff7600"></i>partial target words</span><span><i class="swatch" style="background:#d62d2d"></i>geometry miss</span></div>
 <section class="viewer"><article class="panel"><h2>Earlier release</h2><p class="small">More redacted - source page {page['redacted_page']}</p><div class="image-tools"><button class="active" data-view="overlay" data-image="earlier">Detection + target</button><button data-view="raw" data-image="earlier">Original pixels</button></div><a id="earlier-link" href="../{_escape(page['earlier_asset'])}"><img id="earlier-image" src="../{_escape(page['earlier_asset'])}" data-overlay="../{_escape(page['earlier_asset'])}" data-raw="../{_escape(page['earlier_raw_asset'])}" loading="lazy" alt="Earlier release"></a><p><a href="../{_escape(page['earlier_geometry'])}">Earlier geometry JSON</a></p></article>
 <article class="panel"><h2>Later release</h2><p class="small">Less redacted - source page {page['later_page']}</p><div class="image-tools"><button class="active" data-view="overlay" data-image="later">Detection + target</button><button data-view="raw" data-image="later">Original pixels</button></div><a id="later-link" href="../{_escape(page['later_asset'])}"><img id="later-image" src="../{_escape(page['later_asset'])}" data-overlay="../{_escape(page['later_asset'])}" data-raw="../{_escape(page['later_raw_asset'])}" loading="lazy" alt="Later release"></a><p><a href="../{_escape(page['later_geometry'])}">Later geometry JSON</a></p></article></section>
@@ -1336,9 +1457,12 @@ def _index_html(summary: dict[str, Any], items: list[dict[str, Any]]) -> str:
             f"<tr data-status='{_escape(row['status'])}' data-revealed='{_escape(row['revealed'])}' data-search='{_escape(search)}'><td><a href='{_escape(link)}'>{_escape(row['item_id'])}</a><br><span class='small'>{_escape(row['date'])}</span></td><td><span class='badge {_status_class(row['status'])}'>{_escape(row['status'])}</span></td><td>{float(row['coverage']):.1%}<br><span class='small'>{row['covered_words']}/{row['target_words']} located words</span></td><td>{_escape(row['revealed'])}<br><span class='small'>{_escape(row['length_bucket'])}</span></td><td>{_escape(_short(row['answer']))}</td></tr>"
         )
     counts = summary["item_status_counts"]
+    full_threshold = float(
+        summary.get("full_coverage_threshold", FULL_COVERAGE_THRESHOLD)
+    )
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Items v4 - Box CV audit</title><style>{CSS}</style></head><body><main class="shell"><nav class="nav"><a href="../index.html">Box results</a> / <a href="../manual_validation/index.html">Manual validation</a></nav><div class="eyebrow">Redaction Extract / detector {DETECTOR_VERSION}</div><h1>Items v4 box audit</h1><p class="lede">Every frozen v4 redaction is traced back to its earlier and later PDF pages. The CV detector sees one page at a time and does not receive answers, OCR, document IDs, paired-release pixels, or benchmark labels. Saved v4 text is located as exact word boxes in the later PDF text layer and attached afterward to measure geometric coverage.</p>
 <section class="stats"><div class="stat"><strong>{summary['items_processed']:,}</strong>v4 items</div><div class="stat"><strong>{summary['page_pairs_processed']:,}</strong>page pairs</div><div class="stat"><strong>{counts.get('ASSIGNED_FULL',0):,}</strong>fully assigned</div><div class="stat"><strong>{counts.get('ASSIGNED_PARTIAL',0):,}</strong>partial</div><div class="stat"><strong>{summary['registration_pass']:,}</strong>registrations passed</div><div class="stat"><strong>{summary['elapsed_seconds']/60:.1f}</strong>minutes</div></section>
-<section class="panel" style="padding:16px;margin-bottom:18px"><b>Interpretation.</b> Full means every page fragment of an item achieved at least 80% exact target-word-center coverage. Partial means at least one fragment had meaningful coverage but the complete item did not pass. A geometry miss is not proof that the v4 text is wrong; open the paired scans to distinguish detector, text-localization, and scan-registration failures.</section>
+<section class="panel" style="padding:16px;margin-bottom:18px"><b>Interpretation.</b> Full means every page fragment of an item achieved at least {full_threshold:.0%} exact target-word-center coverage. Partial means at least one fragment had meaningful coverage but the complete item did not pass. A geometry miss is not proof that the v4 text is wrong; open the paired scans to distinguish detector, text-localization, and scan-registration failures.</section>
 <div class="controls"><input id="query" placeholder="Search document, answer, status..."><select id="status"><option value="">All statuses</option>{''.join(f'<option>{_escape(key)}</option>' for key in sorted(counts))}</select><select id="revealed"><option value="">All reveal types</option><option>fully</option><option>partly</option></select><span id="visible" class="small"></span></div>
 <div class="table-wrap"><table><thead><tr><th>Item</th><th>Status</th><th>Coverage</th><th>Type</th><th>Recovered target</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div><p class="small">Machine-readable outputs: <a href="summary.json">summary.json</a> / <a href="item_results.csv">item_results.csv</a> / <a href="fragment_results.csv">fragment_results.csv</a> / <a href="page_results.jsonl">page_results.jsonl</a>.</p></main>
 <script>const q=document.getElementById('query'),s=document.getElementById('status'),r=document.getElementById('revealed'),v=document.getElementById('visible');function f(){{let n=0;document.querySelectorAll('tbody tr').forEach(x=>{{const ok=(!q.value||x.dataset.search.includes(q.value.toLowerCase()))&&(!s.value||x.dataset.status===s.value)&&(!r.value||x.dataset.revealed===r.value);x.hidden=!ok;if(ok)n++}});v.textContent=n.toLocaleString()+' visible'}}[q,s,r].forEach(x=>x.addEventListener('input',f));f();</script></body></html>"""
@@ -1399,6 +1523,8 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
         "astra_sha256": _sha256(astra_path),
         "docs_root": str(docs_root),
         "dpi": args.dpi,
+        "full_coverage_threshold": args.full_coverage_threshold,
+        "partial_coverage_threshold": PARTIAL_COVERAGE_THRESHOLD,
         "selected_page_pairs": len(jobs),
     }
     if args.plan:
@@ -1411,6 +1537,8 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
             "job": asdict(job),
             "output": str(output),
             "dpi": args.dpi,
+            "full_coverage_threshold": args.full_coverage_threshold,
+            "partial_coverage_threshold": PARTIAL_COVERAGE_THRESHOLD,
             "resume": args.resume,
         }
         for job in jobs
@@ -1486,6 +1614,8 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
         "detector_version": DETECTOR_VERSION,
         "audit_version": AUDIT_VERSION,
         "render_version": RENDER_VERSION,
+        "full_coverage_threshold": args.full_coverage_threshold,
+        "partial_coverage_threshold": PARTIAL_COVERAGE_THRESHOLD,
         "complete_scope": (
             len(jobs) == scope["unique_page_pairs"]
             and len(pages) == len(jobs)
@@ -1513,6 +1643,15 @@ def parser() -> argparse.ArgumentParser:
     result.add_argument("--out", type=Path, default=DEFAULT_OUTPUT)
     result.add_argument("--dpi", type=int, choices=[200], default=200)
     result.add_argument("--workers", type=int, default=4)
+    result.add_argument(
+        "--full-coverage-threshold",
+        type=float,
+        default=FULL_COVERAGE_THRESHOLD,
+        help=(
+            "Minimum per-fragment target-word coverage for ASSIGNED_FULL "
+            f"(default: {FULL_COVERAGE_THRESHOLD:.2f})."
+        ),
+    )
     result.add_argument("--max-page-pairs", type=int)
     result.add_argument("--plan", action="store_true")
     result.add_argument(
@@ -1530,6 +1669,10 @@ def main() -> None:
     args = parser().parse_args()
     if args.workers < 1:
         raise SystemExit("--workers must be at least one")
+    if not PARTIAL_COVERAGE_THRESHOLD < args.full_coverage_threshold <= 1.0:
+        raise SystemExit(
+            "--full-coverage-threshold must be greater than 0.30 and at most 1.0"
+        )
     if args.refresh_render:
         if args.plan or args.overwrite or args.resume or args.max_page_pairs is not None:
             raise SystemExit(

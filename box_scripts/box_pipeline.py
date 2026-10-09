@@ -26,13 +26,15 @@ render_pdf_to_images = production_stage.render_pdf_to_images
 iter_input_records = production_stage.iter_input_records
 
 DETECTOR_POLICY = (
-    "Single-page, answer-blind geometry. Release 3.2 preserves the "
-    "production detector and its page-measured safeguards: visible prose "
-    "cannot serve as a synthetic step interior; an incomplete blank rectangle "
-    "may expand only to its seed-connected closed white-space contour; and a "
-    "compact, independently bounded blank continuation is not discarded inside "
-    "a larger text-crossing envelope. OCR, paired releases, filenames, answers, "
-    "and benchmark labels are unavailable to detection."
+    "Single-page, answer-blind geometry. Release 3.6 preserves the production "
+    "detector and adds four measured safeguards: fragmented rails require two "
+    "aligned walls and blank interiors; three-sided body masks require exactly "
+    "one occluded wall; compound blank contours are represented by a compact "
+    "rectangle cover; and blackout candidates must be material relative to the "
+    "page's text scale. Reading-flow grouping distinguishes aligned stacks and "
+    "line wraps from new indented paragraphs. Scanner-frame strips outside the "
+    "measured reading column are excluded. OCR, paired releases, filenames, "
+    "answers, and benchmark labels are unavailable to detection."
 )
 
 
@@ -354,6 +356,141 @@ def _refine_incomplete_outlines(
     return output, refinement_count
 
 
+def _decompose_compound_blank_outlines(
+    gray: np.ndarray,
+    components: list[BoxComponent],
+    line_height: int,
+) -> tuple[list[BoxComponent], int]:
+    """Represent a validated stepped blank contour by maximal rectangles.
+
+    The contour itself is already a validated redaction mask. Partitioning is
+    accepted only when the rectangle cover agrees with that mask and each
+    rectangle remains text-free, so this changes representation rather than
+    inventing geometry.
+    """
+
+    output: list[BoxComponent] = []
+    decomposed = 0
+    for component_index, component in enumerate(components, start=1):
+        if not component.source.startswith(
+            ("closed_blank_contour:", "seeded_blank_outline:")
+        ) or len(component.polygon) < 6:
+            output.append(component)
+            continue
+        x1, y1, x2, y2 = component.box
+        if y2 - y1 < line_height * 6.0:
+            output.append(component)
+            continue
+        polygon_area = abs(
+            float(
+                cv2.contourArea(
+                    np.asarray(component.polygon, dtype=np.int32).reshape(
+                        (-1, 1, 2)
+                    )
+                )
+            )
+        )
+        box_area = max(1, (x2 - x1) * (y2 - y1))
+        if polygon_area / box_area >= 0.95:
+            output.append(component)
+            continue
+        partition = geometry_stage._orthogonal_polygon_partition(
+            component.polygon, component.box, line_height
+        )
+        if not 2 <= len(partition) <= 4:
+            output.append(component)
+            continue
+        if any(
+            box[2] - box[0] < line_height * 1.5
+            or box[3] - box[1] < line_height * 0.65
+            for box in partition
+        ):
+            output.append(component)
+            continue
+
+        original_mask = _component_mask(component, gray.shape)
+        partition_mask = np.zeros_like(original_mask)
+        for box in partition:
+            cv2.rectangle(
+                partition_mask,
+                (box[0], box[1]),
+                (box[2] - 1, box[3] - 1),
+                255,
+                -1,
+            )
+        original_pixels = int(np.count_nonzero(original_mask))
+        retained = int(
+            np.count_nonzero((original_mask > 0) & (partition_mask > 0))
+        ) / max(1, original_pixels)
+        added = int(
+            np.count_nonzero((original_mask == 0) & (partition_mask > 0))
+        ) / max(1, original_pixels)
+        if retained < 0.92 or added > 0.10:
+            output.append(component)
+            continue
+        if any(
+            _text_stats_in_box(gray, box, line_height)[0] > 0.065
+            for box in partition
+        ):
+            output.append(component)
+            continue
+
+        for part_index, box in enumerate(partition, start=1):
+            output.append(
+                BoxComponent(
+                    box=box,
+                    polygon=geometry_stage._rect_polygon(box),
+                    source=(
+                        "compound_blank_partition:"
+                        f"{component_index}.{part_index}:retained={retained:.2f}:"
+                        f"added={added:.2f}:{component.source}"
+                    ),
+                    score=float(component.score) + 0.01,
+                )
+            )
+        decomposed += 1
+    return output, decomposed
+
+
+def _suppress_scanner_frame_strips(
+    components: list[BoxComponent],
+    content_bounds: tuple[int, int],
+    line_height: int,
+    image_shape: tuple[int, int],
+) -> tuple[list[BoxComponent], list[BoxComponent]]:
+    """Exclude narrow scan-frame geometry wholly outside the reading body."""
+
+    _, width = image_shape
+    content_left, content_right = content_bounds
+    body_slack = max(4, int(round(line_height * 0.45)))
+    retained: list[BoxComponent] = []
+    suppressed: list[BoxComponent] = []
+    for component in components:
+        x1, _, x2, _ = component.box
+        box_width = x2 - x1
+        box_height = component.box[3] - component.box[1]
+        outside_body = (
+            x2 < content_left - body_slack or x1 > content_right + body_slack
+        )
+        extreme_side = x2 <= width * 0.13 or x1 >= width * 0.87
+        strip_geometry = (
+            (
+                box_width <= line_height * 2.0
+                and box_height >= line_height * 3.0
+            )
+            or (
+                x1 >= width * 0.95
+                and box_width <= line_height * 2.0
+                and box_height <= line_height * 1.25
+            )
+        )
+        if outside_body and extreme_side and strip_geometry:
+            suppressed.append(component)
+            continue
+        retained.append(component)
+    return retained, suppressed
+
+
 def _right_column_bridge_components(
     components: list[BoxComponent], line_height: int
 ) -> list[BoxComponent]:
@@ -540,13 +677,34 @@ def detect_redaction_regions_with_artifacts(
     components, outline_refinements = _refine_incomplete_outlines(
         work_gray, components, line_height
     )
-    if not step_refinements and not outline_refinements:
+    # Keep validated windmill/step contours as one physical polygon. The
+    # polygon already captures their complete union; rectangular partitioning
+    # changes component semantics without adding any recovered pixels.
+    compound_decompositions = 0
+    provisional_regions, provisional_bounds, _ = validated_stage._group_and_order(
+        components, work_gray, line_mask
+    )
+    del provisional_regions
+    components, suppressed_frame_strips = _suppress_scanner_frame_strips(
+        components,
+        provisional_bounds,
+        line_height,
+        work_gray.shape,
+    )
+    if not (
+        step_refinements
+        or outline_refinements
+        or compound_decompositions
+        or suppressed_frame_strips
+    ):
         diagnostics.update(
             {
-                "detector_release": "3.2.0",
+                "detector_release": "3.6.0",
                 "text_safe_step_refinement_count": 0,
                 "rejected_text_slab_count": 0,
                 "seeded_blank_outline_refinement_count": 0,
+                "compound_blank_decomposition_count": 0,
+                "scanner_frame_strip_suppression_count": 0,
                 "side_column_bridge_split_count": 0,
                 "step_seam_merge_count": 0,
                 "detector_policy": DETECTOR_POLICY,
@@ -565,10 +723,14 @@ def detect_redaction_regions_with_artifacts(
     )
     diagnostics.update(
         {
-            "detector_release": "3.2.0",
+            "detector_release": "3.6.0",
             "text_safe_step_refinement_count": step_refinements,
             "rejected_text_slab_count": text_slabs,
             "seeded_blank_outline_refinement_count": outline_refinements,
+            "compound_blank_decomposition_count": compound_decompositions,
+            "scanner_frame_strip_suppression_count": len(
+                suppressed_frame_strips
+            ),
             "side_column_bridge_split_count": side_bridge_splits,
             "step_seam_merge_count": seam_merges,
             "estimated_content_bounds_x": list(content_bounds),
@@ -593,7 +755,7 @@ def process_record(
     *,
     out_root: Path,
     save_debug_masks: bool,
-    detector_version: str = "3.2.0",
+    detector_version: str = "3.6.0",
 ) -> dict[str, Any]:
     payload = layered_stage.process_record(
         record,
@@ -618,5 +780,5 @@ def run_box_pipeline(**kwargs: Any) -> dict[str, Any]:
     return layered_stage.run_box_pipeline(
         **kwargs,
         record_processor=process_record,
-        detector_version="3.2.0",
+        detector_version="3.6.0",
     )

@@ -8,7 +8,7 @@ from .box_pipeline import (
     run_box_pipeline,
 )
 
-__version__ = "3.2.0"
+__version__ = "3.6.0"
 __all__ = [
     "collect_pdf_pairs_with_stats",
     "detect_redaction_boxes_with_artifacts",

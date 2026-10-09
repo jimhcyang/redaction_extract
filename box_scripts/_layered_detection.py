@@ -1396,6 +1396,23 @@ def _deep_crossing_is_distinct(
     return False
 
 
+def _reading_margin_slack(
+    page_width: int, content_width: int, tolerance: int
+) -> int:
+    """Return a conservative allowance around inferred text-body edges.
+
+    Scanner borders can occupy a large fraction of a page, so a percentage of
+    the full scan is too permissive for deciding whether a mask reaches the
+    end of a reading line. Bound the allowance by both page and text-body
+    widths while preserving a small raster tolerance.
+    """
+
+    return max(
+        tolerance * 3,
+        int(round(min(page_width * 0.07, content_width * 0.13))),
+    )
+
+
 def _substantial_physical_contact(
     first: BoxComponent,
     second: BoxComponent,
@@ -1403,13 +1420,63 @@ def _substantial_physical_contact(
     tolerance: int,
     line_height: int,
     text_mask: np.ndarray,
+    content_left: int,
+    content_right: int,
 ) -> bool:
     intersection = _intersection_area(first.box, second.box)
     if intersection > 0:
         if _deep_crossing_is_distinct(first, second, line_height):
             return False
-        if _intersection_over_smaller(first.box, second.box) >= 0.02:
-            return True
+        ax1, ay1, ax2, ay2 = first.box
+        bx1, by1, bx2, by2 = second.box
+        overlap_width = max(0, min(ax2, bx2) - max(ax1, bx1))
+        overlap_height = max(0, min(ay2, by2) - max(ay1, by1))
+        overlap_fraction = _intersection_over_smaller(first.box, second.box)
+        # A few raster rows of overlap commonly arise where two independent
+        # line boxes meet across a paragraph boundary. Preserve the mature
+        # overlap rule for ordinary intersections, but require real line-wrap
+        # geometry when a broad overlap is confined to that shallow seam.
+        shallow_vertical_seam = (
+            overlap_height < max(3, int(round(line_height * 0.32)))
+            and overlap_width >= line_height * 1.5
+        )
+        if overlap_fraction >= 0.02:
+            if not shallow_vertical_seam:
+                return True
+            top_component, bottom_component = sorted(
+                (first, second), key=lambda component: component.box[1]
+            )
+            page_width = text_mask.shape[1]
+            content_width = max(1, content_right - content_left)
+            margin_slack = _reading_margin_slack(
+                page_width, content_width, tolerance
+            )
+            top_exits_line = (
+                top_component.box[2] >= content_right - margin_slack
+                or (
+                    top_component.box[0]
+                    >= content_left + content_width * 0.34
+                    and top_component.box[2]
+                    >= content_left + content_width * 0.62
+                )
+            )
+            bottom_enters_line = (
+                bottom_component.box[0] <= content_left + margin_slack
+                or (
+                    bottom_component.box[0]
+                    <= content_left + content_width * 0.38
+                    and bottom_component.box[2]
+                    <= content_left + content_width * 0.72
+                )
+            )
+            shared_side_multiline = (
+                min(abs(ax1 - bx1), abs(ax2 - bx2))
+                <= line_height * 0.50
+                and max(ay2 - ay1, by2 - by1) >= line_height * 2.0
+            )
+            if (top_exits_line and bottom_enters_line) or shared_side_multiline:
+                return True
+            return False
         # A one-pixel overlap after deskewing is an edge contact, not material
         # overlap. Let the aligned-edge tests below decide it.
 
@@ -1507,12 +1574,68 @@ def _group_components_reading_order(
                 tolerance=tolerance,
                 line_height=line_height,
                 text_mask=text_mask,
+                content_left=content_left,
+                content_right=content_right,
             ):
                 union(left, right)
 
+    # A stepped or windmill-shaped redaction can end with one more aligned
+    # slab on the following line. Attach that slab only when the preceding
+    # piece already belongs to a multi-component physical cluster. This
+    # distinguishes a real compound outline from unrelated boxes that merely
+    # share a paragraph indentation.
+    for top_index, top_component in enumerate(components):
+        top_root = find(top_index)
+        members = [
+            index for index in range(len(components)) if find(index) == top_root
+        ]
+        if len(members) < 2:
+            continue
+        tx1, ty1, tx2, ty2 = top_component.box
+        if any(components[index].box[1] > ty1 for index in members):
+            continue
+        has_lateral_partner = any(
+            index != top_index
+            and max(
+                0,
+                min(ty2, components[index].box[3])
+                - max(ty1, components[index].box[1]),
+            )
+            >= line_height * 0.55
+            and max(
+                0,
+                max(tx1, components[index].box[0])
+                - min(tx2, components[index].box[2]),
+            )
+            <= tolerance
+            for index in members
+        )
+        if not has_lateral_partner:
+            continue
+        for bottom_index, bottom_component in enumerate(components):
+            if find(bottom_index) == top_root:
+                continue
+            bx1, by1, bx2, by2 = bottom_component.box
+            vertical_gap = max(0, by1 - ty2)
+            horizontal_overlap = max(0, min(tx2, bx2) - max(tx1, bx1))
+            minimum_width = max(1, min(tx2 - tx1, bx2 - bx1))
+            width_ratio = minimum_width / max(1, max(tx2 - tx1, bx2 - bx1))
+            if not (
+                by1 >= ty1
+                and vertical_gap <= tolerance
+                and abs(tx1 - bx1) <= line_height * 0.65
+                and bx2 <= tx2 + line_height * 0.20
+                and width_ratio >= 0.35
+                and horizontal_overlap / minimum_width >= 0.80
+            ):
+                continue
+            gap = (max(tx1, bx1), ty2, min(tx2, bx2), by1)
+            if vertical_gap == 0 or _ink_fraction(text_mask, gap) <= 0.03:
+                union(top_index, bottom_index)
+
     wrap_candidates: list[tuple[float, int, int]] = []
-    margin_slack = max(tolerance * 3, round(width * 0.11))
     content_width = max(1, content_right - content_left)
+    margin_slack = _reading_margin_slack(width, content_width, tolerance)
     for left, first in enumerate(components):
         fx1, fy1, fx2, fy2 = first.box
         for right, second in enumerate(components):

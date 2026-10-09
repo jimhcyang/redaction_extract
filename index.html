@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Redaction Box CV 3.2</title>
+  <title>Redaction Box CV 3.6</title>
   <style>
     :root {
       --ink: #17211b;
@@ -34,7 +34,7 @@
     }
     h1 { max-width: 780px; margin: 12px 0 14px; font-size: clamp(2.7rem, 8vw, 5.7rem); line-height: 0.92; }
     .lede { max-width: 760px; color: var(--muted); font-size: 1.13rem; line-height: 1.65; }
-    .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-top: 42px; }
+    .cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin-top: 42px; }
     .card {
       min-height: 280px;
       padding: 28px;
@@ -59,6 +59,9 @@
       text-decoration: none;
     }
     .note { margin-top: 24px; padding-left: 14px; border-left: 3px solid var(--rust); color: var(--muted); line-height: 1.55; }
+    @media (max-width: 900px) {
+      .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
     @media (max-width: 720px) {
       main { padding-top: 42px; }
       .cards { grid-template-columns: 1fr; }
@@ -68,14 +71,25 @@
 </head>
 <body>
   <main>
-    <div class="eyebrow">Standalone release 3.2</div>
+    <div class="eyebrow">Standalone release 3.6</div>
     <h1>Redaction Box CV</h1>
     <p class="lede">
       An answer-blind, single-page computer-vision detector for locating physical
       redaction geometry. Explore the manually labeled validation sets or inspect
-      every result from the complete items-v4 audit.
+      the detector's visual manual, or every result from the complete items-v4 audit.
     </p>
     <section class="cards" aria-label="Available result browsers">
+      <article class="card">
+        <strong>Repository manual</strong>
+        <h2>Three visual exhibits</h2>
+        <p>
+          Follow the shipped detector from grayscale pixels through masks,
+          line evidence, competing proposals, guard decisions, and final
+          reading-order groups, then through the independent Astra registration
+          and target-coverage audit.
+        </p>
+        <a href="box_scripts/manual/index.html">Open repository manual</a>
+      </article>
       <article class="card">
         <strong>Manual validation</strong>
         <h2>Curated and dense gold</h2>
